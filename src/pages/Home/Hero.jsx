@@ -21,9 +21,9 @@ const Hero = () => {
                 punctuality.
               </p>
               <div className="flex justify-center gap-4">
-                <Link className="px-6 py-3 bg-primary  text-white rounded-md font-semibold text-xl">
-                  Book Now
-                </Link>
+                <a href="tel:+8801615861498" className="px-6 py-3 bg-primary  text-white rounded-md font-semibold text-xl hover:bg-primary/80 hover:scale-105 hover:transition-all">
+                  01869015353
+                </a>
                 <Link className="px-6 py-3 bg-primary  text-white rounded-md font-semibold text-xl">
                   Our Fleet
                 </Link>
@@ -48,22 +48,23 @@ const Hero = () => {
                 with a simple and efficient booking process, ensuring you reach
                 your destination with ease and satisfaction.
               </p>
+
               <div className="grid-cols-4 pb-30 hidden md:grid">
                 <div className="flex flex-col justify-end">
                   <img src="/src/assets/Easy-Sedan.png" alt="" />
-                  <p>Easy Sedan</p>
+                  <p className="text-xl lg:2xl">Easy Sedan</p>
                 </div>
                 <div className="flex flex-col justify-end">
                   <img src="/src/assets/Luxury-Vehicle.png" alt="" />
-                  <p>Luxury Vehicle</p>
+                  <p className="text-xl lg:2xl">Luxury Vehicle</p>
                 </div>
                 <div className="flex flex-col justify-end">
                   <img src="/src/assets/Suv-Wagon.png" alt="" />
-                  <p>Suv or Wagon</p>
+                  <p className="text-xl lg:2xl">Suv or Wagon</p>
                 </div>
                 <div className="flex flex-col justify-end">
                   <img src="/src/assets/Kia-Carnival.png" alt="" />
-                  <p>Kia Carnival</p>
+                  <p className="text-xl lg:2xl">Kia Carnival</p>
                 </div>
               </div>
               <div className="md:hidden  pb-30">
