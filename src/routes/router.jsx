@@ -1,6 +1,10 @@
 import {createBrowserRouter} from "react-router";
 import RootLayout from "../layout/RootLayout";
 import Home from "../pages/Home/Home";
+import About from "../pages/About/About";
+import Blogs from "../pages/Blogs/Blogs";
+import OurFleet from "../pages/OurFleet/OurFleet";
+import Contact from "../pages/Contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -10,7 +14,27 @@ const router = createBrowserRouter([
       {
         index: true,
         Component: Home,
-        loader: () => fetch('/service .json')
+        loader: async () => {
+          const res = await fetch("/service.json");
+          return res.json();
+        },
+        hydrateFallbackElement: <p>Loading....</p>,
+      },
+      {
+        path: "/about",
+        Component: About,
+      },
+      {
+        path: "/blogs",
+        Component: Blogs,
+      },
+      {
+        path: "/fleet",
+        Component: OurFleet,
+      },
+      {
+        path: "/contact",
+        Component: Contact,
       },
     ],
   },

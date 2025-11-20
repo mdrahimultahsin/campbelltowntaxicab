@@ -1,7 +1,11 @@
-import React from "react";
 import Container from "../../shared/Container";
-import { Link } from "react-router";
-import Carouse from "../../components/Carouse";
+import {Link} from "react-router";
+import {FaPhoneVolume} from "react-icons/fa";
+import Carousel from "../../components/Carousel";
+import sedanCarImg from "../../assets/Easy-Sedan.png";
+import luxuryVehicleImg from "../../assets/Luxury-Vehicle.png";
+import suvWagonImg from "../../assets/Suv-Wagon.png";
+import carnivalImg from "../../assets/Kia-Carnival.png";
 
 const Hero = () => {
   return (
@@ -21,8 +25,11 @@ const Hero = () => {
                 punctuality.
               </p>
               <div className="flex justify-center gap-4">
-                <a href="tel:+8801615861498" className="px-6 py-3 bg-primary  text-white rounded-md font-semibold text-xl hover:bg-primary/80 hover:scale-105 hover:transition-all">
-                  01869015353
+                <a
+                  href="tel:+1300450428"
+                  className="px-6 py-3 bg-primary  text-white rounded-md font-semibold text-xl hover:bg-primary/80 hover:scale-105 hover:transition-all flex items-center gap-2"
+                >
+                  <FaPhoneVolume /> +1300 450 428
                 </a>
                 <Link className="px-6 py-3 bg-primary  text-white rounded-md font-semibold text-xl hover:bg-primary/80 hover:scale-105 hover:transition-all">
                   Our Fleet
@@ -49,28 +56,28 @@ const Hero = () => {
                 your destination with ease and satisfaction.
               </p>
 
-                {/* for tablet and laptop device */}
+              {/* for tablet and laptop device */}
               <div className="grid-cols-4 pb-30 hidden md:grid">
                 <div className="flex flex-col justify-end">
-                  <img src="/src/assets/Easy-Sedan.png" alt="" />
+                  <img src={sedanCarImg} alt="" />
                   <p className="text-xl lg:2xl">Easy Sedan</p>
                 </div>
                 <div className="flex flex-col justify-end">
-                  <img src="/src/assets/Luxury-Vehicle.png" alt="" />
+                  <img src={luxuryVehicleImg} alt="" />
                   <p className="text-xl lg:2xl">Luxury Vehicle</p>
                 </div>
                 <div className="flex flex-col justify-end">
-                  <img src="/src/assets/Suv-Wagon.png" alt="" />
+                  <img src={suvWagonImg} alt="" />
                   <p className="text-xl lg:2xl">Suv or Wagon</p>
                 </div>
                 <div className="flex flex-col justify-end">
-                  <img src="/src/assets/Kia-Carnival.png" alt="" />
+                  <img src={carnivalImg} alt="" />
                   <p className="text-xl lg:2xl">Kia Carnival</p>
                 </div>
               </div>
               {/* for mobile device only */}
               <div className="md:hidden  pb-30">
-                <Carouse/>
+                <Carousel />
               </div>
             </div>
           </div>
