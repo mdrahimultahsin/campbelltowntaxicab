@@ -7,8 +7,8 @@ import Map from "./Map";
 
 const Contact = () => {
   return (
-    <div className="pb-30">
-      <div className="bg-gradient-to-r from-[#04A9E9] to-[#003E60]">
+    <section className="pb-30">
+      <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
         <Container>
           <div className="flex flex-col md:flex-row text-white gap-6">
             <div className="py-15 md:py-30 flex-1 text-center md:text-left ">
@@ -38,7 +38,7 @@ const Contact = () => {
                 <Map/>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

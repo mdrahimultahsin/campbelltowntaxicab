@@ -6,65 +6,7 @@ import WhoWeAre from "./WhoWeAre";
 import WhyChooseUs from "./WhyChooseUs";
 
 const About = () => {
-  const features = [
-    {
-      icon: "🚗",
-      title: "Reliable Service",
-      description: "Punctual and dependable transportation you can count on",
-    },
-    {
-      icon: "⭐",
-      title: "Professional Drivers",
-      description: "Licensed, experienced, and customer-focused professionals",
-    },
-    {
-      icon: "💝",
-      title: "Customer Care",
-      description: "Your safety and satisfaction are our top priorities",
-    },
-  ];
 
-  const fleetTypes = [
-    {
-      name: "Sedans",
-      description: "Comfortable 4-seater cars for small groups and individuals",
-      capacity: "Up to 4 passengers",
-    },
-    {
-      name: "SUVs",
-      description: "Spacious vehicles perfect for families with luggage",
-      capacity: "Up to 6 passengers",
-    },
-    {
-      name: "Maxi Vans",
-      description: "Large vehicles ideal for groups and airport transfers",
-      capacity: "Up to 11 passengers",
-    },
-    {
-      name: "Wheelchair Taxis",
-      description: "Fully accessible vehicles with proper safety features",
-      capacity: "Wheelchair accessible",
-    },
-  ];
-
-  const serviceAreas = [
-    "Sydney CBD",
-    "Western Suburbs",
-    "Northern Beaches",
-    "Eastern Suburbs",
-    "Southern Suburbs",
-    "Airport Transfers",
-    "Cruise Terminals",
-  ];
-
-  const safetyFeatures = [
-    "Regular vehicle maintenance",
-    "GPS tracking",
-    "Professional licensed drivers",
-    "24/7 customer support",
-    "Clean and sanitized vehicles",
-    "Safety inspections",
-  ];
   return (
     <div className="pb-30">
       {/* hero section */}
