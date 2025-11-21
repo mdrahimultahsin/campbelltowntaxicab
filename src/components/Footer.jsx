@@ -11,10 +11,10 @@ const Footer = () => {
       <Container className="relative z-10">
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-white">
           <div>
-            <Link>
+            <Link to="/">
               <img className="w-25 md:w-35" src="/logo.png" alt="" />
             </Link>
-            <p>
+            <p className="mt-4">
               Our fleet of professional drivers provides Maxi/Taxi Cab services
               in Sydney, Sydney Airport transfers, Taxi Cabs with car seats, and
               Maxi Cabs equipped with wheelchair access.
@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-y-1 border-primary mt-10">
+        <div className="border-b border-t border-primary mt-10">
           <p className="text-justify  py-2">Disclaimer: TipTop Transport Solutions operating website www.tiptopmaxisydney.com.au is a privately owned and operated as Booking and Authorized service provider, TipTop is not associated or affiliated with the registered trademark “Maxi Taxi” owned by Cab charge Australia Limited or 13cabs Australia. To provide customer on time service, we might use vehicle from Taxi companies like 13cabs Maxi Taxi, Premier Maxi Taxi, Silver Top Maxi Taxi, GM Cabs or Any Other Authorized Taxi Cabs which is approved by local Transport Company.</p>
         </div>
           <div className="flex justify-between items-center mt-5">

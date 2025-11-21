@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
       <Container>
         <div className="text-center mb-16">
       
-          <h2 className="text-5xl font-bold mb-6 bg-linear-to-r from-white to-gray-300 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-6 font-playfair text-primary">
             Why Choose Us
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
