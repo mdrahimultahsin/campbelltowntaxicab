@@ -7,6 +7,7 @@ import OurFleet from "../pages/OurFleet/OurFleet";
 import Contact from "../pages/Contact/Contact";
 import AreaCovered from "../pages/AreaCovered/AreaCovered";
 import BlogDetails from "../pages/Blogs/BlogDetails";
+import Loading from "../shared/Loading";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
           const res = await fetch("/service.json");
           return res.json();
         },
-        hydrateFallbackElement: <p>Loading....</p>,
+        hydrateFallbackElement: <Loading />,
       },
       {
         path: "/about",
@@ -29,21 +30,23 @@ const router = createBrowserRouter([
       {
         path: "/blogs",
         Component: Blogs,
-        loader: async() => {
-          const res = await fetch('/blogs.json');
+        loader: async () => {
+          const res = await fetch("/blogs.json");
           return res.json();
         },
-        hydrateFallbackElement: <p>Loading....</p>,
+        hydrateFallbackElement: <Loading />,
       },
       {
         path: "/blogs/:id",
         Component: BlogDetails,
         loader: async ({params}) => {
-          const res = await fetch('/blogs.json');
+          const res = await fetch("/blogs.json");
           const data = await res.json();
-          return data.find((b) => b.id === Number(params.id))
-        }
+          return data.find((b) => b.id === Number(params.id));
+        },
+        hydrateFallbackElement: <Loading />,
       },
+
       {
         path: "/fleet",
         Component: OurFleet,
@@ -51,7 +54,7 @@ const router = createBrowserRouter([
           const res = await fetch("/fleet.json");
           return res.json();
         },
-        hydrateFallbackElement: <p>Loading....</p>,
+        hydrateFallbackElement: <Loading />,
       },
       {
         path: "/contact",
@@ -59,8 +62,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/area-covered",
-        Component: AreaCovered
-      }
+        Component: AreaCovered,
+      },
     ],
   },
 ]);

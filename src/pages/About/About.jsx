@@ -3,13 +3,14 @@ import Container from "../../shared/Container";
 import titleImg from "../../assets/fleet-header-img.png";
 import WhatWeDo from "./WhatWeDo";
 import WhoWeAre from "./WhoWeAre";
-import WhyChooseUs from "./WhyChooseUs";
 import Commitment from "./Commitment";
+import WhyChooseUs from "../Home/WhyChooseUs";
+import AboutChooseUs from "./AboutChooseUs";
 
 const About = () => {
 
   return (
-    <div className="pb-30">
+    <div className="pb-15">
       {/* hero section */}
       <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
         <Container>
@@ -38,10 +39,16 @@ const About = () => {
       <div>
         <Container>
           <WhoWeAre />
-          <WhatWeDo />
-          <WhyChooseUs />
-          <Commitment/>
         </Container>
+          
+          <WhatWeDo />
+        <Container>
+        
+          <AboutChooseUs/>
+        
+        </Container>
+
+          <Commitment/>
       </div>
     </div>
   );

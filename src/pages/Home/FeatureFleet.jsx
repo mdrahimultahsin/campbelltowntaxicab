@@ -50,7 +50,7 @@ const FeatureFleet = ({ fleetData }) => {
                 {/* Push button to bottom */}
                 <div className="mt-auto">
                   <Link to={`/services`}>
-                    <ButtonPrimary className="text-lg py-4 px-4 w-full">
+                    <ButtonPrimary className="text-base md:text-lg py-2 md:py-4 px-4 w-full">
                       Book Now
                     </ButtonPrimary>
                   </Link>
