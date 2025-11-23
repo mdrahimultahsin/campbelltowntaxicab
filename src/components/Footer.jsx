@@ -1,18 +1,32 @@
-import {Link} from "react-router";
+import { Link } from "react-router";
 import Container from "../shared/Container";
-import {FaAngleDoubleRight, FaCar, FaPhone} from "react-icons/fa";
-import {MdOutlineMailOutline} from "react-icons/md";
+import { FaAngleDoubleRight, FaCar, FaPhone } from "react-icons/fa";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { useEffect, useState } from "react";
 
 const Footer = () => {
+  const [service, setService] = useState([]);
+  useEffect(() => {
+    fetch("/service.json")
+      .then((res) => res.json())
+      .then((data) => setService(data));
+  }, []);
+
   return (
     <footer className=" text-white pt-5 pb-5 bg-linear-to-r from-[#003049] to-[#000e15]">
       <Container className="relative z-10">
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center gap-4 text-white">
           <div>
             <Link to="/">
-              <img className="w-25 md:w-35" src="/cambelltowntaxicabs-logo.png" alt="" />
+              <img
+                className="w-25 md:w-35"
+                src="/cambelltowntaxicabs-logo.png"
+                alt=""
+              />
             </Link>
-            <h3 className="mt-4 text-lg md:text-2xl  font-playfair text-primary font-bold">About Us</h3>
+            <h3 className="mt-4 text-lg md:text-2xl  font-playfair text-primary font-bold">
+              About Us
+            </h3>
             <p className="mt-2">
               Our fleet of professional drivers provides Maxi/Taxi Cab services
               in Sydney, Sydney Airport transfers, Taxi Cabs with car seats, and
@@ -25,26 +39,17 @@ const Footer = () => {
             </h2>
             <div>
               <ul className="mt-5 space-y-2">
-                <li className="flex items-center gap-2">
-                  <FaAngleDoubleRight className="text-primary" size={20} />{" "}
-                  Sydney Airport Transfer
-                </li>
-                <li className="flex items-center gap-2">
-                  <FaAngleDoubleRight className="text-primary" size={20} /> Taxi
-                  Cabs with Car Seat
-                </li>
-                <li className="flex items-center gap-2">
-                  <FaAngleDoubleRight className="text-primary" size={20} /> Maxi
-                  Cabs with Wheelchair Seat
-                </li>
-                <li className="flex items-center gap-2">
-                  <FaAngleDoubleRight className="text-primary" size={20} /> Maxi
-                  Cabs with Wheelchair Seat
-                </li>
-                <li className="flex items-center gap-2">
-                  <FaAngleDoubleRight className="text-primary" size={20} /> Maxi
-                  Cabs with Wheelchair Seat
-                </li>
+                {service
+                  .map((singleService) => (
+                    <li
+                      key={singleService.service_id}
+                      className="flex items-center gap-2"
+                    >
+                      <FaAngleDoubleRight className="text-primary" size={20} />
+                      {singleService.title}
+                    </li>
+                  ))
+                  .slice(0, 5)}
               </ul>
             </div>
           </div>
