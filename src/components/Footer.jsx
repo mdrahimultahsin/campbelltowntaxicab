@@ -1,6 +1,6 @@
 import {Link} from "react-router";
 import Container from "../shared/Container";
-import {FaAngleDoubleRight, FaCar, FaPhone} from "react-icons/fa";
+import {FaAngleDoubleRight, FaBuilding, FaCar, FaHandshake, FaPhone, FaUserFriends} from "react-icons/fa";
 import {MdOutlineMailOutline, MdOutlineMessage} from "react-icons/md";
 import {useEffect, useState} from "react";
 import {IoLogoWhatsapp} from "react-icons/io5";
@@ -66,15 +66,16 @@ const Footer = () => {
             <Link to="/">
               <img
                 className="w-25 md:w-40"
-                src="/cambelltowntaxicabs-footer-logo.png"
+                src="/campbelltowntaxicabs-footer-logo.png"
                 alt=""
               />
             </Link>
-            <h3 className="mt-4 text-lg md:text-2xl  font-playfair text-primary font-bold ">
+            <h3 className="font-bold font-playfair flex gap-2 items-center uppercase text-xl mt-4 mb-3">
+              <FaUserFriends /> 
               About Us
             </h3>
             <p className="mt-2 ">
-              Our fleet of professional drivers provides Maxi/Taxi Cab services
+              Our fleet of professional drivers provides Taxi Cab services
               in Sydney, Sydney Airport transfers, Taxi Cabs with car seats, and
               Maxi Cabs equipped with wheelchair access.
             </p>
@@ -143,7 +144,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="tel:+1300450428" className="flex items-center gap-2">
-                    <FaPhone className="text-primary" size={20} /> +1300450428
+                    <FaPhone className="text-primary" size={20} /> 1300 450 428
                   </a>
                 </li>
                 <li>
@@ -152,7 +153,7 @@ const Footer = () => {
                     className="flex items-center gap-2"
                     target="blank"
                   >
-                    <IoLogoWhatsapp className="text-primary" size={20} /> +61423963380
+                    <IoLogoWhatsapp className="text-primary" size={20} /> +61 423 963 380
                   </a>
                 </li>
                 <li>
@@ -185,16 +186,16 @@ const Footer = () => {
         </div>
         <div className="flex flex-col-reverse  md:flex-row md:justify-between md:items-center mt-5">
           <p className="text-center mt-3  md:mt-0">
-            © 2025 cambletowntexicab. All Rights Reserved.
+            © 2025 Campbelltown Taxi Cabs. All Rights Reserved.
           </p>
-          <div >
-            <Link className="text-primary">Terms And Conditions</Link>
+          <div className="text-center">
+            <Link to={`/terms-and-condition`} className="text-primary">Terms And Conditions</Link>
             <span> | </span>
-            <Link className="text-primary">
+            <Link to={`privacy-policy`} className="text-primary">
               Privacy Policy
             </Link>
             <span> | </span>
-            <Link className="text-primary">Cancellation And Refunds</Link>
+            <Link to={`cancellation-and-refunds`} className="text-primary">Cancellation And Refunds</Link>
           </div>
         </div>
       </Container>

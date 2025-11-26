@@ -10,6 +10,9 @@ import BlogDetails from "../pages/Blogs/BlogDetails";
 import Loading from "../shared/Loading";
 import BookATaxi from "../pages/BookATaxi/BookATaxi";
 import Services from "../pages/Services/Services";
+import TermsAndCondition from "../pages/termsAndCondition/TermsAndCondition";
+import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
+import CancellationAndRefunds from "../pages/CancellationAndRefunds/CancellationAndRefunds";
 
 const router = createBrowserRouter([
   {
@@ -45,11 +48,7 @@ const router = createBrowserRouter([
       {
         path: "/blogs",
         Component: Blogs,
-        loader: async () => {
-          const res = await fetch("/blogs.json");
-          return res.json();
-        },
-        hydrateFallbackElement: <Loading />,
+     
       },
       {
         path: "/blogs/:id",
@@ -70,6 +69,18 @@ const router = createBrowserRouter([
           return res.json();
         },
         hydrateFallbackElement: <Loading />,
+      },
+      {
+        path: "/terms-and-condition",
+        Component: TermsAndCondition,
+      },
+      {
+        path: "/privacy-policy",
+        Component: PrivacyPolicy,
+      },
+      {
+        path: "/cancellation-and-refunds",
+        Component: CancellationAndRefunds,
       },
       {
         path: "/contact",

@@ -14,7 +14,7 @@ const Commitment = () => {
           Our Commitment
         </h1>
         <p className="text-accent max-w-3xl mx-auto mt-5 text-sm md:text-lg">
-          CambellTown Taxi Cabs is committed to reliability and affordability. We aim to
+          Campbelltown Taxi Cabs is committed to reliability and affordability. We aim to
           make every trip smooth from booking to drop off.
         </p>
       </div>
@@ -166,10 +166,10 @@ const Commitment = () => {
 
       {/* Trust Section */}
       <div className="mb-8">
-        <h2 className="text-xl md:text-2xl font-semibold text-secondary mb-4">
+        <h2 className="text-xl md:text-2xl font-bold text-primary mb-2 font-playfair text-center">
           Trusted Since 2010
         </h2>
-        <p className="text-lg font-medium text-primary mb-6">
+        <p className="text-lg font-medium text-accent mb-6 text-center">
           Thousands of transfers completed
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

@@ -1,8 +1,14 @@
 import Container from "./Container";
 import ButtonPrimary from "./ButtonPrimary";
 import {useState} from "react";
-
+import PlacesInput from "../utils/PlacesInput";
+import emailjs from "@emailjs/browser";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
+import {useNavigate} from "react-router";
 const BookingForm = ({className, params}) => {
+  const [loading, setLoading] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
   const [formData, setFormData] = useState({
     pickupType: "anywhere",
     name: "",
@@ -12,10 +18,11 @@ const BookingForm = ({className, params}) => {
     dropoffAddress: "",
     passengers: "",
     vehicleType: "",
-    timeRequired: "",
+    pickupDate: "",
+    pickupTime: "",
     returnTrip: "no",
     specialInstructions: "",
-    paymentMode: "cash",
+    paymentMode: "",
     // Airport fields
     airportPickupLocation: "",
     airportDropoffLocation: "",
@@ -30,17 +37,92 @@ const BookingForm = ({className, params}) => {
       [name]: value,
     }));
   };
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Booking submitted:", formData);
+
+    // Build message string
+    let message = `
+  <b style="font-weight:bold; font-size:24px">Customer Name:</b> ${formData.name} <br/>
+  <b style="font-weight:bold; font-size:24px">Phone:</b> +${formData.phone} <br/>
+  <b style="font-weight:bold; font-size:24px">Email:</b> ${formData.email} <br/>
+  <b style="font-weight:bold; font-size:24px">Pickup Address:</b> ${formData.pickupAddress} <br/>
+  <b style="font-weight:bold; font-size:24px">Dropoff Address:</b> ${formData.dropoffAddress} <br/>
+  <b style="font-weight:bold; font-size:24px">Passengers:</b> ${formData.passengers} <br/>
+  <b style="font-weight:bold; font-size:24px">Vehicle Type:</b> ${formData.vehicleType} <br/>
+  <b style="font-weight:bold; font-size:24px">Pickup Date:</b> ${formData.pickupDate} <br/>
+  <b style="font-weight:bold; font-size:24px">Pickup Time:</b> ${formData.pickupTime} <br/>
+  <b style="font-weight:bold; font-size:24px">Return Trip:</b> ${formData.returnTrip} <br/>
+  <b style="font-weight:bold; font-size:24px">Special Instructions:</b> ${formData.specialInstructions} <br/>
+  <b style="font-weight:bold; font-size:24px">Payment Mode:</b> ${formData.paymentMode}
+`;
+
+    // Add airport details only if pickupType is airport
+    if (formData.pickupType === "airport") {
+      message += `
+Airport Pickup Location: ${formData.airportPickupLocation}
+Airport Dropoff Location: ${formData.airportDropoffLocation}
+Airport Pickup Date: ${formData.airportPickupDate}
+Airport Pickup Time: ${formData.airportPickupTime}
+Flight No: ${formData.flightNo || ""}
+`;
+    }
+
+    // Prepare template params
+    const templateParams = {
+      name: formData.name,
+      message,
+    };
+
+    emailjs
+      .send(
+        "service_h0wuall",
+        "template_kjhxlz8",
+        templateParams,
+        "4MSsEGESDo8OwNYY2"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          setShowPopup(true);
+          setTimeout(() => {
+            setShowPopup(false);
+            navigate("/");
+          }, 5000);
+          setFormData({
+            pickupType: "anywhere",
+            name: "",
+            phone: "",
+            email: "",
+            pickupAddress: "",
+            dropoffAddress: "",
+            passengers: "",
+            vehicleType: "",
+            pickupDate: "",
+            pickupTime: "",
+            returnTrip: "no",
+            specialInstructions: "",
+            paymentMode: "cash",
+            airportPickupLocation: "",
+            airportDropoffLocation: "",
+            airportPickupDate: "",
+            airportPickupTime: "",
+            flightNo: "",
+          });
+        },
+        (error) => {
+          console.error("FAILED...", error);
+          setLoading(false);
+        }
+      );
   };
 
   return (
     <section className={`-mt-15 z-55 mb-16 ${className}`}>
       <Container>
         <div className="bg-gray-color text-black pt-10 pb-6 rounded-md">
-          <h1 className="text-2xl md:text-4xl font-playfair font-bold text-center text-primary px-2 capitalize">
+          <h1 className="section-title">
             {params ? params : "Taxi Booking Services in CampbellTown"}
           </h1>
           <form onSubmit={handleSubmit} className=" px-8 pt-6">
@@ -78,15 +160,28 @@ const BookingForm = ({className, params}) => {
                       onChange={handleInputChange}
                       placeholder="Name"
                       className="input-class"
+                      required
                     />
                   </div>
                   <div>
-                    <input
-                      name="phone"
+                    <PhoneInput
+                      country={"au"}
                       value={formData.phone}
-                      onChange={handleInputChange}
-                      placeholder="Phone Number"
-                      className="input-class"
+                      onChange={(phone) =>
+                        setFormData((prev) => ({...prev, phone}))
+                      }
+                      placeholder="Enter phone number"
+                      containerClass="w-full"
+                      inputClass="input-class w-full! py-5! "
+                      countryCodeEditable={true}
+                      enableLongNumbers={true}
+                      formatOnInit={false}
+                      masks={{
+                        au: "................................................................",
+                        us: "..................................",
+                        bd: "..................................",
+                      }}
+                      required
                     />
                   </div>
                   <div>
@@ -104,33 +199,34 @@ const BookingForm = ({className, params}) => {
                 {/* Address Row */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                   <div>
-                    <input
-                      name="pickupAddress"
+                    <PlacesInput
                       value={formData.pickupAddress}
-                      onChange={handleInputChange}
+                      onChange={(val) =>
+                        setFormData((prev) => ({...prev, pickupAddress: val}))
+                      }
                       placeholder="Pickup Address (Street No., Street Name, Suburb)"
-                      className="input-class"
                     />
                   </div>
                   <div>
-                    <input
-                      name="dropoffAddress"
+                    <PlacesInput
                       value={formData.dropoffAddress}
-                      onChange={handleInputChange}
-                      placeholder="Drop Off Address (Street No., Street Name, Suburb)"
-                      className="input-class"
+                      onChange={(val) =>
+                        setFormData((prev) => ({...prev, dropoffAddress: val}))
+                      }
+                      placeholder="Pickup Address (Street No., Street Name, Suburb)"
                     />
                   </div>
                 </div>
 
                 {/* Dropdowns Row */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                   <div>
                     <select
                       name="passengers"
                       value={formData.passengers}
                       onChange={handleInputChange}
                       className="input-class"
+                      required
                     >
                       <option className="text-gray-600 font-bold" value="">
                         No. of Passengers
@@ -161,6 +257,7 @@ const BookingForm = ({className, params}) => {
                       value={formData.vehicleType}
                       onChange={handleInputChange}
                       className="input-class"
+                      required
                     >
                       <option className="text-gray-600 font-bold" value="">
                         Vehicle Type
@@ -185,39 +282,49 @@ const BookingForm = ({className, params}) => {
                       </option>
                       <option
                         className="text-gray-600 font-bold"
+                        value="maxi-taxi"
+                      >
+                       Maxi Taxi
+                      </option>
+                      <option
+                        className="text-gray-600 font-bold"
                         value="kia-carnival"
                       >
                         Kia Carnival
                       </option>
-                    </select>
-                  </div>
-                  <div>
-                    <select
-                      name="timeRequired"
-                      value={formData.timeRequired}
-                      onChange={handleInputChange}
-                      className="input-class"
-                    >
-                      <option className="text-gray-600 font-bold" value="">
-                        Time Required
-                      </option>
-                      <option className="text-gray-600 font-bold" value="asap">
-                        As Soon As Possible
-                      </option>
-                      <option className="text-gray-600 font-bold" value="1h">
-                        Within 1 Hour
-                      </option>
-                      <option className="text-gray-600 font-bold" value="2h">
-                        Within 2 Hours
-                      </option>
                       <option
                         className="text-gray-600 font-bold"
-                        value="specific"
+                        value="kia-carnival"
                       >
-                        Specific Time
+                        Wheelchair Taxi Service
                       </option>
                     </select>
                   </div>
+                </div>
+                {/* Date and Time */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                  <h4 className="text-center col-span-full font-bold text-accent">
+                    Pickup Date & Time
+                  </h4>
+                  <input
+                    name="pickupDate"
+                    type="date"
+                    value={formData.pickupDate}
+                    onChange={handleInputChange}
+                    className="input-class"
+                    required
+                    placeholder="MM/DD/YYYY"
+                  />
+                  <input
+                    name="pickupTime"
+                    type="time"
+                    value={formData.pickupTime}
+                    onChange={handleInputChange}
+                    className="input-class"
+                    placeholder="H:M:AM/PM"
+                    required
+                  />
+                  {/* Date & Time of Landing */}
                 </div>
 
                 {/* Return Trip */}
@@ -266,6 +373,7 @@ const BookingForm = ({className, params}) => {
                     value={formData.paymentMode}
                     onChange={handleInputChange}
                     className="input-class"
+                    required
                   >
                     <option className="text-gray-600 font-bold" value="card">
                       Payment Mode: Cash
@@ -300,13 +408,16 @@ const BookingForm = ({className, params}) => {
                   className="input-class"
                   required
                 />
-                <input
-                  name="phone"
+
+                <PhoneInput
+                  country={"au"}
                   value={formData.phone}
-                  onChange={handleInputChange}
-                  placeholder="Phone Number"
-                  className="input-class"
-                  required
+                  onChange={(phone) =>
+                    setFormData((prev) => ({...prev, phone}))
+                  }
+                  placeholder="Enter phone number"
+                  containerClass="w-full"
+                  inputClass="input-class w-full! py-5! "
                 />
                 <input
                   name="email"
@@ -340,13 +451,15 @@ const BookingForm = ({className, params}) => {
                   className="input-class"
                   required
                 />
-                <input
-                  name="airportDropoffLocation"
+                <PlacesInput
                   value={formData.airportDropoffLocation}
-                  onChange={handleInputChange}
-                  placeholder="Drop Off Address"
-                  className="input-class"
-                  required
+                  onChange={(val) =>
+                    setFormData((prev) => ({
+                      ...prev,
+                      airportDropoffLocation: val,
+                    }))
+                  }
+                  placeholder="Dropoff Address (Street No., Street Name, Suburb)"
                 />
                 <h2 className="col-span-full text-center font-bold text-lg">
                   Date & Time
@@ -359,6 +472,7 @@ const BookingForm = ({className, params}) => {
                   onChange={handleInputChange}
                   className="input-class"
                   required
+                  placeholder="MM/DD/YYYY"
                 />
                 <input
                   name="airportPickupTime"
@@ -366,6 +480,7 @@ const BookingForm = ({className, params}) => {
                   value={formData.airportPickupTime}
                   onChange={handleInputChange}
                   className="input-class"
+                  placeholder="H:M:AM/PM"
                   required
                 />
 
@@ -428,11 +543,30 @@ const BookingForm = ({className, params}) => {
 
             {/* Submit Button */}
             <div className="flex justify-center">
-              <ButtonPrimary type="submit" className="">
-                Request Booking
+              <ButtonPrimary type="submit" disabled={loading}>
+                {loading ? "Submitting..." : "Request Booking"}
               </ButtonPrimary>
             </div>
           </form>
+          {showPopup && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+              <div className="bg-white rounded-xl shadow-lg p-8 max-w-sm w-full text-center relative">
+                <h2 className="text-2xl font-bold text-primary mb-4">
+                  🎉 Congratulations!
+                </h2>
+                <p className="text-gray-700 mb-6">
+                  You have successfully submitted your service request. We will
+                  contact you soon.
+                </p>
+                <button
+                  onClick={() => setShowPopup(false)}
+                  className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary/90 transition"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       </Container>
     </section>
