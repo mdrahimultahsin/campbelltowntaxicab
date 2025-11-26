@@ -38,7 +38,7 @@ const WhoWeAre = () => {
                         </div>
         
                         <div className="hidden md:inline-block rounded-2xl p-8 text-white text-center">
-                          <img src={about2} alt="" />
+                          <img src={about2} alt="Campbelltown Taxi Cabs" />
                         </div>
                       </div>
                   </section>

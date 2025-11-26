@@ -44,7 +44,7 @@ const TrustedNetworks = () => {
             >
               <img
                 src={network.logo}
-                alt={network.name}
+                alt={network.name + "Campbelltown Taxi Cabs"}
                 className="w-20 h-20 object-contain"
               />
             </a>

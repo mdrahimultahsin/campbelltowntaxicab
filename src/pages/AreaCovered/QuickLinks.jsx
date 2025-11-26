@@ -1,5 +1,6 @@
 import { Link } from "react-router";
-import { FaPlane, FaCar, FaShip } from "react-icons/fa";
+import { FaPlane, FaCar, FaShip, FaBox, FaBriefcase, FaUsers } from "react-icons/fa";
+import { MdEventAvailable } from "react-icons/md";
 
 const quickLinks = [
   {
@@ -19,6 +20,30 @@ const quickLinks = [
     label: "Cruise Transfers",
     icon: <FaShip />,
     to: "/services/cruise-transfers",
+  },
+  {
+    id: 4,
+    label: "Event Transer",
+    icon: <MdEventAvailable />,
+    to: "/services/event-transfer",
+  },
+  {
+    id: 5,
+    label: "Percel Delivery",
+    icon: <FaBox />,
+    to: "/services/percel-delivery",
+  },
+  {
+    id: 6,
+    label: "Corporate Transfer",
+    icon: <FaBriefcase />,
+    to: "/services/corporate-transport-services",
+  },
+  {
+    id: 7,
+    label: "Maxi Taxi Service",
+    icon: <FaUsers />,
+    to: "/services/maxi-taxi-service",
   },
 ];
 
@@ -43,6 +68,7 @@ const QuickLinks = () => {
 
         
       </div>
+      
     </section>
   );
 };

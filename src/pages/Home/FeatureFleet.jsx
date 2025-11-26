@@ -53,7 +53,7 @@ const FeatureFleet = () => {
                 <img
                   className="w-80 mt-0 z-10 mx-auto object-contain h-[150px] "
                   src={fleet.image}
-                  alt=""
+                  alt={fleet.name + "Campbelltown Taxi Cabs"}
                 />
 
                 <h3

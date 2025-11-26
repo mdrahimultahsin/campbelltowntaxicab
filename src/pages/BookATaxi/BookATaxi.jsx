@@ -55,7 +55,7 @@ const BookATaxi = () => {
               </div>
             </div>
             <div className="flex flex-1 items-center pb-10 md:pb-0">
-              <img src={titleImg} alt="" />
+              <img src={titleImg} alt="Campbelltown Taxi Cabs" />
             </div>
           </div>
         </Container>

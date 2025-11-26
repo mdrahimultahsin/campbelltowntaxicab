@@ -26,7 +26,7 @@ const Carousel = () => {
           <img
             src={sedanCarImg}
             className="w-full object-cover  mx-auto"
-            alt="Easy Sedan Car" 
+            alt="Easy Sedan Car Campbelltown Taxi Cabs" 
           />
           <p className="-mt-15 text-xl">Easy Sedan</p>
         </SwiperSlide>
@@ -34,7 +34,7 @@ const Carousel = () => {
           <img
             src={luxuryVehicleImg}
             className="w-full object-cover mx-auto "
-            alt="Luxury Taxi Vehicle"
+            alt="Luxury Taxi Vehicle Campbelltown Taxi Cabs"
           />
           <p className="-mt-15 text-xl">Luxury Vehicle</p>
         </SwiperSlide>
@@ -43,7 +43,7 @@ const Carousel = () => {
           <img
             src={suvWagonImg}
             className="w-full object-cover mx-auto "
-            alt="Suv or Wagon Car" 
+            alt="Suv or Wagon Car Campbelltown Taxi Cabs" 
           />
           <p className="-mt-10 text-xl">Suv or Wagon</p>
         </SwiperSlide>
@@ -51,10 +51,11 @@ const Carousel = () => {
           <img
             src={carnivalImg}
             className="w-full object-cover mx-auto h-full "
-           alt="Kia Carnival Car"
+           alt="Kia Carnival Car Campbelltown Taxi Cabs"
           />
           <p className="-mt-10 text-xl">Kia Carnival</p>
         </SwiperSlide>
+   
       </Swiper>
     </div>
   );

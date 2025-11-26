@@ -7,8 +7,8 @@ import corporateImg from "../../assets/services/campbelltown-corporate-trips.jpe
 import cruiseImg from "../../assets/services/book-taxi-sydney-airport.png";
 import weddingImg from "../../assets/services/campbelltown-events-transfers.jpg";
 import eventImg from "../../assets/services/campbelltown-events-transfers.jpg";
-import parcelImg from "../../assets/services/book-taxi-sydney-airport.png";
-import maxiImg from "../../assets/services/book-taxi-sydney-airport.png";
+import parcelImg from "../../assets/services/campbelltown-percel-delivery-service.jpg";
+import maxiImg from "../../assets/services/campbelltown-taxi-cab-maxi-taxi-service.png";
 import luxuryImg from "../../assets/services/campbelltown-luxury-service.jpg";
 import taxiImg from "../../assets/services/campbelltown-luxury-service.jpg";
 import shuttleImg from "../../assets/services/book-taxi-sydney-airport.png";

@@ -60,19 +60,19 @@ const Hero = () => {
               {/* for tablet and laptop device */}
               <div className="grid-cols-4 pb-30 hidden md:grid">
                 <div className="flex flex-col justify-end">
-                  <img src={sedanCarImg} alt="Easy Sedan Car" />
+                  <img src={sedanCarImg} alt="Easy Sedan Car Campbelltown Taxi Cabs" />
                   <p className="text-xl lg:2xl">Easy Sedan</p>
                 </div>
                 <div className="flex flex-col justify-end">
-                  <img src={luxuryVehicleImg} alt="Luxury Taxi Vehicle" />
+                  <img src={luxuryVehicleImg} alt="Luxury Taxi Vehicle Campbelltown Taxi Cabs" />
                   <p className="text-xl lg:2xl">Luxury Vehicle</p>
                 </div>
                 <div className="flex flex-col justify-end">
-                  <img src={suvWagonImg} alt="Suv or Wagon Car" />
+                  <img src={suvWagonImg} alt="Suv or Wagon Car Campbelltown Taxi Cabs" />
                   <p className="text-xl lg:2xl">Suv or Wagon</p>
                 </div>
                 <div className="flex flex-col justify-end">
-                  <img src={carnivalImg} alt="Kia Carnival Car" />
+                  <img src={carnivalImg} alt="Kia Carnival Car Campbelltown Taxi Cabs" />
                   <p className="text-xl lg:2xl">Kia Carnival</p>
                 </div>
               </div>
