@@ -67,7 +67,7 @@ const Footer = () => {
               <img
                 className="w-25 md:w-40"
                 src="/campbelltowntaxicabs-footer-logo.png"
-                alt=""
+                alt="Campbelltown Taxi Cabs"
               />
             </Link>
             <h3 className="font-bold font-playfair flex gap-2 items-center uppercase text-xl mt-4 mb-3">

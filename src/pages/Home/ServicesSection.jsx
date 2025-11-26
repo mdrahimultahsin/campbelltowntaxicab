@@ -27,7 +27,7 @@ const ServicesSection = () => {
               >
                 <img
                   src={service.image}
-                  alt={service.title}
+                  alt={service.title + "Campbelltown Taxi Cabs"}
                   className="w-1/3 mb-8"
                 />
                 <h3 className="text-2xl md:text-3xl font-semibold my-3">

@@ -129,7 +129,7 @@ const AreaCovered = () => {
                 </div>
               </div>
               <div className="flex flex-1 items-center pb-10 md:pb-0">
-                <img src={titleImg} alt="" />
+                <img src={titleImg} alt="Campbelltown Taxi Cabs" />
               </div>
             </div>
           </Container>
@@ -277,7 +277,7 @@ const AreaCovered = () => {
                   Need a Ride Right Now?
                 </h3>
                 <p className="text-sm md:text-lg mb-6 md:font-semibold">
-                  Instant booking | 24/7 availability | Fixed prices
+                  Instant booking | 24/7 availability | Resonable Prices
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <button className="bg-secondary text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold hover:bg-secondary/80 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2 text-xs md:text-base">
@@ -294,7 +294,6 @@ const AreaCovered = () => {
                 </p>
               </div>
             </div>
-            
           </div>
         </Container>
       </div>

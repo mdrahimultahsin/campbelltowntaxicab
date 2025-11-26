@@ -46,7 +46,7 @@ const OurFleet = () => {
               </div>
             </div>
             <div className="flex flex-1 items-center pb-10 md:pb-0">
-              <img src={titleImg} alt="" />
+              <img src={titleImg} alt="Campbelltown Taxi Cabs title Img" />
             </div>
           </div>
         </Container>
@@ -76,7 +76,7 @@ const OurFleet = () => {
                 <p>{singleData.bagsCapacity} Bags</p>
               </div>
               <p className="text-accent">{singleData.description}</p>
-              <img className="mt-4" src={singleData.image} alt="" />
+              <img className="mt-4" src={singleData.image} alt={singleData.name+"Campbelltown Taxi Cabs"} />
               <div className="w-full text-center md:text-left">
                 <Link to={`/book-a-taxi`}>
                   <ButtonPrimary className="text-base md:text-xl py-2 md:py-4 px-5 md:px-8">

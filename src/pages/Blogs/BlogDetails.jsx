@@ -35,7 +35,7 @@ const BlogDetails = () => {
               </Link>
             </div>
             <div className="flex flex-1 items-center pb-10 md:pb-0">
-              <img src={titleImg} alt="" />
+              <img src={titleImg} alt="Campbelltown Taxi Cabs title bg" />
             </div>
           </div>
         </Container>
