@@ -1,13 +1,13 @@
-import { IoCallSharp } from "react-icons/io5";
+import {IoCallSharp} from "react-icons/io5";
 import ButtonSecondary from "../../shared/ButtonSecondary";
 import Container from "../../shared/Container";
-import { FaHandPointer } from "react-icons/fa6";
-import titleImg from "../../assets/fleet-header-img.png"
-import { Link } from "react-router";
-const TermsAndCondition = () => {
-        return (
-                <div>
-                       <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
+import {FaHandPointer} from "react-icons/fa6";
+import titleImg from "../../assets/fleet-header-img.png";
+import {Link} from "react-router";
+const TermsAndConditionPages = () => {
+  return (
+    <div>
+      <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
         <Container>
           <div className="flex flex-col md:flex-row text-white gap-6">
             <div className="py-10 md:py-20  flex-1 text-center md:text-left ">
@@ -39,13 +39,16 @@ const TermsAndCondition = () => {
               </div>
             </div>
             <div className="flex flex-1 items-center pb-10 md:pb-0">
-              <img src={titleImg} alt="Campbelltown Taxi Cabs Terms & Conditons Img" />
+              <img
+                src={titleImg}
+                alt="Campbelltown Taxi Cabs Terms & Conditons Img"
+              />
             </div>
           </div>
         </Container>
-      </div> 
-                </div>
-        );
+      </div>
+    </div>
+  );
 };
 
-export default TermsAndCondition;
+export default TermsAndConditionPages;
