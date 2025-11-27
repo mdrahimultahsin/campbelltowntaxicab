@@ -19,14 +19,18 @@ const Contact = () => {
         <Container>
           <div className="flex flex-col md:flex-row text-white gap-6">
             <div className="py-10 md:py-20 flex-1 text-center md:text-left ">
-              <span className="text-3xl md:text-5xl font-bold py-3 px-8 bg-black/50 text-white rounded-xl font-playfair">
+              <span className="text-2xl md:text-4xl font-bold py-3 px-8 bg-black/50 text-white rounded-xl font-playfair">
                 Contact Us
               </span>
               <p className="mt-8 text-sm md:text-base">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Deleniti, magni ipsa, saepe officiis fugit maiores ratione, quo
-                asperiores dolorem sapiente rem libero iure cumque nam. Fuga eos
-                aspernatur quae culpa?
+                Campbelltown Taxi Cabs provides reliable and comfortable
+                transportation with professional drivers, clean vehicles, and
+                timely pickups. We proudly accept Cabcharge, making payments
+                easy and convenient for both personal and corporate travelers.
+                Whether you need airport transfers, local rides, or business
+                travel support, our team is ready to assist you anytime. Reach
+                out to us today — we’re committed to making your journey safe,
+                smooth, and hassle-free.
               </p>
               <div className="flex py-4 gap-4 justify-center md:justify-start">
                 <Link to="/book-a-taxi" className=" ">

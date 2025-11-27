@@ -1,11 +1,11 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
+import {Helmet} from "react-helmet-async";
 import Container from "../../shared/Container";
 import ButtonSecondary from "../../shared/ButtonSecondary";
-import { FaHandPointer } from "react-icons/fa";
-import { IoCallSharp } from "react-icons/io5";
+import {FaHandPointer} from "react-icons/fa";
+import {IoCallSharp} from "react-icons/io5";
 import titleImg from "../../assets/fleet-header-img.png";
-import { Link } from "react-router";
+import {Link} from "react-router";
 
 const PrivacyPolicy = () => {
   return (
@@ -22,13 +22,15 @@ const PrivacyPolicy = () => {
               </span>
 
               <p className="mt-8 text-sm md:text-base">
-                At Campbelltown Taxi Cabs, we value the privacy and security of our
-                customers' information. Any personal data provided during
+                At Campbelltown Taxi Cabs, we value the privacy and security of
+                our customers' information. Any personal data provided during
                 bookings is handled with the utmost care and used solely to
                 facilitate safe, comfortable, and reliable transportation
                 services. We may use details such as the number of passengers
-                and travel requirements to assign the most suitable vehicle. Campbelltown Taxi Cabs is committed to protecting your information in
-                accordance with applicable privacy laws and regulations.
+                and travel requirements to assign the most suitable vehicle.
+                Campbelltown Taxi Cabs is committed to protecting your
+                information in accordance with applicable privacy laws and
+                regulations.
               </p>
               <div className="flex py-4 gap-4 justify-center md:justify-start">
                 <Link to="/book-a-taxi" className=" ">
@@ -52,6 +54,19 @@ const PrivacyPolicy = () => {
       </div>
       <Container>
         <div>
+          <div className="mt-20">
+            <h2 className="font-semibold mb-4 font-playfair text-primary text-2xl md:text-4xl">
+              Campbelltown Taxi Cabs
+            </h2>
+            <h3 className="mt-2">
+              <span className="font-bold">ABN:</span> 69 442 367 843
+            </h3>{" "}
+            <p className="text-sm  md:text-base">Last Updated: 29/11/2025</p>
+            <p className="mt-2 text-sm md:text-base text-accent">
+             These Privacy Policy terms (“Policy”) explain how Campbelltown Taxi Cabs (“the Company”, “we”, “our”, or “us”) collects, uses, stores, and protects your personal information. By accessing our website, submitting a booking, or using our services, you (“you”, “your”, or “the Customer”) acknowledge and agree to the practices described in this Policy.
+            </p>
+          </div>
+
           {/* Our Privacy Commitment */}
           <div className="py-5">
             <h2 className=" font-semibold mb-4 font-playfair text-primary text-2xl md:text-4xl">
@@ -243,7 +258,7 @@ const PrivacyPolicy = () => {
             <ul className="text-xs md:text-lg text-accent py-2 list-disc ml-7">
               <li>
                 Requests should be sent in writing to
-                info@campbelltowntaxicabs.com.au
+                silvercabscampbelltown@gmail.com
               </li>
               <li>Proof of identity may be required</li>
               <li>
@@ -285,7 +300,7 @@ const PrivacyPolicy = () => {
             <ul className="text-xs md:text-lg text-accent py-2 list-disc ml-7">
               <li>
                 Send complaints to our privacy officer at
-                info@campbelltowntaxicabs.com.au
+                silvercabscampbelltown@gmail.com
               </li>
               <li>
                 We aim to acknowledge complaints within 7 business days and
@@ -320,8 +335,8 @@ const PrivacyPolicy = () => {
             </p>
             <ul className="text-xs md:text-lg text-accent py-2">
               <li>Campbelltown Taxi Cabs</li>
-              <li>Campbelltown, NSW, Australia</li>
-              <li>Email: info@campbelltowntaxicabs.com.au</li>
+              <li>1 Hurley St, Campbelltown, Australia</li>
+              <li>Email: silvercabscampbelltown@gmail.com</li>
             </ul>
           </div>
         </div>

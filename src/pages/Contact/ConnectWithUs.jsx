@@ -3,7 +3,7 @@ import {IoCallSharp} from "react-icons/io5";
 import {MdEmail, MdChat, MdLocationOn} from "react-icons/md";
 
 import TrustedNetworks from "../../shared/TrustedNetworks";
-import { FaInbox, FaWhatsapp } from "react-icons/fa6";
+import {FaInbox, FaWhatsapp} from "react-icons/fa6";
 
 const contactInfo = [
   {
@@ -42,7 +42,9 @@ const contactInfo = [
 const ConnectWithUs = () => {
   return (
     <div>
-      <h3 className="text-3xl font-semibold text-primary">Connect With Us</h3>
+      <h3 className="text-2xl md:text-4xl font-playfair font-bold  text-primary mb-6">
+        Connect With Us
+      </h3>
       <div className="mt-5">
         {contactInfo.map((info) => (
           <a

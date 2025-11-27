@@ -27,7 +27,7 @@ const BookATaxi = () => {
         <Container>
           <div className="flex flex-col md:flex-row text-white gap-6">
             <div className="py-10 md:py-20  flex-1 text-center md:text-left ">
-              <span className="text-3xl md:text-5xl font-bold py-3 px-8 bg-black/50 text-white rounded-xl font-playfair">
+              <span className="text-2xl md:text-4xl font-bold py-3 px-8 bg-black/50 text-white rounded-xl font-playfair">
                 Book A Taxi
               </span>
 

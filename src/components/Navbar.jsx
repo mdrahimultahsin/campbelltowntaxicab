@@ -183,7 +183,7 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
   }, [isMenuOpen, setIsMenuOpen]);
 
   return (
-    <nav className="bg-secondary text-white ">
+    <nav className=" bg-secondary text-white ">
       <Container>
         <div className="">
           <ul className="hidden md:flex items-center justify-center gap-1">
@@ -194,8 +194,8 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
                   to={navlink.pathname}
                   className={({isActive}) =>
                     isActive
-                      ? "bg-white text-primary py-3 px-4  font-medium flex items-center gap-1 text-center"
-                      : "py-3 px-4 bg-transparent hover:bg-white hover:text-primary font-normal text-sm lg:text-base  md:font-medium flex items-center gap-1 text-center"
+                      ? "bg-white text-primary py-3 px-2 lg:px-4  font-medium flex items-center gap-1 text-center"
+                      : "py-3 px-2 lg:px-4 bg-transparent hover:bg-white hover:text-primary font-normal text-sm lg:text-base  md:font-medium flex items-center gap-1 text-center"
                   }
                 >
                   {navlink.label}

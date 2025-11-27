@@ -1,7 +1,7 @@
 import BookingForm from "../../shared/BookingForm";
 import titleImg from "../../assets/fleet-header-img.png";
 import Container from "../../shared/Container";
-import {Link, useParams} from "react-router";
+import {Link, useNavigate, useParams} from "react-router";
 import ButtonSecondary from "../../shared/ButtonSecondary";
 import {FaCheckCircle, FaHandPointer, FaPhoneAlt, FaStar} from "react-icons/fa";
 import {IoCallSharp, IoCarSport} from "react-icons/io5";
@@ -69,6 +69,7 @@ const serviceAreas = [
 ];
 const Services = () => {
   const params = useParams();
+  const navigate = useNavigate()
   const servicetype = params.servicetype.toLowerCase();
   const selectedService = serviceDetails[servicetype];
   return (
@@ -343,7 +344,7 @@ const Services = () => {
                 <FaPhoneAlt className="text-sm md:text-lg" />
                 Call: 1300 123 456
               </button>
-              <button className="border-2 border-white text-white px-3 md:px-8 py-1 md:py-3 text-sm md:text-base rounded-full font-semibold hover:bg-secondary/80 hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
+              <button onClick={()=>navigate("/book-a-taxi")} className="border-2 border-white text-white px-3 md:px-8 py-1 md:py-3 text-sm md:text-base rounded-full font-semibold hover:bg-secondary/80 hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
                 <IoCarSport className="text-sm md:text-lg" />
                 Book Online Now
               </button>

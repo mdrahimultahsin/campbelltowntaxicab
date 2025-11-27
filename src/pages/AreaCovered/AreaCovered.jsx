@@ -9,11 +9,12 @@ import {
 import {IoCallSharp, IoCarSport, IoTime} from "react-icons/io5";
 import titleImg from "../../assets/fleet-header-img.png";
 import QuickLinks from "./QuickLinks";
-import {Link} from "react-router";
+import {Link, useNavigate} from "react-router";
 import ButtonSecondary from "../../shared/ButtonSecondary";
 import {Helmet} from "react-helmet-async";
 
 const AreaCovered = () => {
+  const navigate = useNavigate();
   const serviceAreas = [
     "Campbelltown",
     "Ambarvale",
@@ -101,18 +102,18 @@ const AreaCovered = () => {
           <Container>
             <div className="flex flex-col md:flex-row text-white gap-6">
               <div className="py-10 md:py-20  flex-1 text-center md:text-left ">
-                <span className="text-3xl md:text-5xl font-bold py-3 px-8 bg-black/50 text-white rounded-xl font-playfair">
+                <span className="text-2xl md:text-4xl font-bold py-3 px-8 bg-black/50 text-white rounded-xl font-playfair">
                   Covered Area
                 </span>
 
                 <p className="mt-8 text-sm md:text-base">
-                  Campbelltown Taxi Cabs is a Sydney based maxi cab service established in
-                  2010. We provide affordable, reliable, and safe transport for
-                  families, groups, and business travelers. Our fleet includes
-                  sedans, SUVs, maxi vans, luxury cars, and wheelchair
-                  accessible taxis. We operate 24/7 across all Sydney suburbs
-                  and offer airport transfers, cruise transfers, corporate
-                  trips, and baby seat taxis.
+                  Campbelltown Taxi Cabs is a Sydney based maxi cab service
+                  established in 2010. We provide affordable, reliable, and safe
+                  transport for families, groups, and business travelers. Our
+                  fleet includes sedans, SUVs, maxi vans, luxury cars, and
+                  wheelchair accessible taxis. We operate 24/7 across all Sydney
+                  suburbs and offer airport transfers, cruise transfers,
+                  corporate trips, and baby seat taxis.
                 </p>
                 <div className="flex py-4 gap-4 justify-center md:justify-start">
                   <Link to="/book-a-taxi" className=" ">
@@ -280,11 +281,17 @@ const AreaCovered = () => {
                   Instant booking | 24/7 availability | No Hidden Fees
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                  <button className="bg-secondary text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold hover:bg-secondary/80 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2 text-xs md:text-base">
+                  <a
+                    href="tel:+1300450428"
+                    className="bg-secondary text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold hover:bg-secondary/80 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2 text-xs md:text-base"
+                  >
                     <FaPhoneAlt className="text-sm md:text-lg" />
                     Call: 1300 123 456
-                  </button>
-                  <button className="border-2 border-white text-white px-3 md:px-8 py-1 md:py-3 text-sm md:text-base rounded-full font-semibold hover:bg-secondary/80 hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
+                  </a>
+                  <button
+                    onClick={() => navigate("/book-a-taxi")}
+                    className="border-2 border-white text-white px-3 md:px-8 py-1 md:py-3 text-sm md:text-base rounded-full font-semibold hover:bg-secondary/80 hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+                  >
                     <IoCarSport className="text-sm md:text-lg" />
                     Book Online Now
                   </button>

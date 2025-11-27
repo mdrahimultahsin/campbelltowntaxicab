@@ -64,7 +64,9 @@ const CancellationAndRefunds = () => {
       </div>
 
       <Container>
+        
         <div className="py-10 md:py-20">
+         
           <h2 className="font-semibold mb-4 font-playfair text-primary text-2xl md:text-4xl">
             Refund Policy
           </h2>

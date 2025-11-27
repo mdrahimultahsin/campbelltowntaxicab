@@ -243,7 +243,7 @@ const Commitment = () => {
               </a>
             </button>
             <button
-              onClick={() => navigate("/services")}
+              onClick={() => navigate("/book-a-taxi")}
               className="border-2 border-white text-white px-3 md:px-8 py-1 md:py-3 text-sm md:text-base rounded-full font-semibold hover:bg-secondary/80 hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center gap-2 cursor-pointer"
             >
               <IoCarSport className="text-sm md:text-lg" />
