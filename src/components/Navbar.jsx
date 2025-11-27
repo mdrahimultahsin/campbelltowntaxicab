@@ -16,10 +16,11 @@ import {
   FaBus,
 } from "react-icons/fa";
 
-import {useState} from "react";
+import {useEffect, useRef, useState} from "react";
 
 const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
   const [openDropdown, setOpenDropdown] = useState(null);
+  const menuRef = useRef();
   const handleDropdownToggle = (id) => {
     setOpenDropdown(openDropdown === id ? null : id);
   };
@@ -149,16 +150,38 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
     },
     {
       id: 7,
+      label: "Cabcharge Taxi",
+      pathname: "/cabcharge-taxi",
+    },
+    {
+      id: 8,
       label: "Blogs",
       pathname: "/blogs",
     },
 
     {
-      id: 8,
+      id: 9,
       label: "Contact Us",
       pathname: "/contact",
     },
   ];
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    if (isMenuOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isMenuOpen, setIsMenuOpen]);
+
   return (
     <nav className="bg-secondary text-white ">
       <Container>
@@ -171,8 +194,8 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
                   to={navlink.pathname}
                   className={({isActive}) =>
                     isActive
-                      ? "bg-white text-primary py-3 px-4  font-medium flex items-center gap-1"
-                      : "py-3 px-4 bg-transparent hover:bg-white hover:text-primary  font-medium flex items-center gap-1"
+                      ? "bg-white text-primary py-3 px-4  font-medium flex items-center gap-1 text-center"
+                      : "py-3 px-4 bg-transparent hover:bg-white hover:text-primary font-normal text-sm lg:text-base  md:font-medium flex items-center gap-1 text-center"
                   }
                 >
                   {navlink.label}
@@ -198,6 +221,9 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
                         <NavLink
                           key={item.id}
                           to={item.pathname}
+                          onClick={() => {
+                            setOpenDropdown(!openDropdown);
+                          }}
                           className="flex items-start gap-3 p-2 hover:bg-gray-100 rounded-lg"
                         >
                           {/* ICON — you can map based on item.id */}
@@ -231,6 +257,7 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
               <li key={navlink.id} className="relative">
                 <div
                   className="flex items-center justify-between py-3 pl-4 pr-4 cursor-pointer"
+                  ref={menuRef}
                   onClick={() =>
                     navlink.dropdowns?.length > 0
                       ? handleDropdownToggle(navlink.id)
@@ -263,13 +290,15 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
                   <ul className="bg-gray-100 text-black w-full shadow-inner">
                     {navlink.dropdowns.map((item) => (
                       <li key={item.id}>
-                        <NavLink
+                        <Link
                           to={item.pathname}
-                          onClick={() => setIsMenuOpen(!isMenuOpen)}
+                          onClick={() => {
+                            setIsMenuOpen(!isMenuOpen);
+                          }}
                           className="block px-6 py-2 hover:bg-primary hover:text-white border-b border-gray-300"
                         >
                           {item.label}
-                        </NavLink>
+                        </Link>
                       </li>
                     ))}
                   </ul>

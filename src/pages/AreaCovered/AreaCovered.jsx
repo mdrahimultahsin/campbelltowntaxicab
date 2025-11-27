@@ -6,7 +6,7 @@ import {
   FaPhoneAlt,
   FaHandPointer,
 } from "react-icons/fa";
-import {IoCallSharp, IoCarSport, IoLocation, IoTime} from "react-icons/io5";
+import {IoCallSharp, IoCarSport, IoTime} from "react-icons/io5";
 import titleImg from "../../assets/fleet-header-img.png";
 import QuickLinks from "./QuickLinks";
 import {Link} from "react-router";
@@ -106,8 +106,8 @@ const AreaCovered = () => {
                 </span>
 
                 <p className="mt-8 text-sm md:text-base">
-                  Silver Cabs is a Sydney based maxi cab service established in
-                  2022. We provide affordable, reliable, and safe transport for
+                  Campbelltown Taxi Cabs is a Sydney based maxi cab service established in
+                  2010. We provide affordable, reliable, and safe transport for
                   families, groups, and business travelers. Our fleet includes
                   sedans, SUVs, maxi vans, luxury cars, and wheelchair
                   accessible taxis. We operate 24/7 across all Sydney suburbs
@@ -261,7 +261,7 @@ const AreaCovered = () => {
                         Experience
                       </span>
                       <span className="bg-white/20 px-2 md:px-3 py-1 rounded-full text-xs md:text-sm">
-                        Since 2022
+                        Since 2010
                       </span>
                     </div>
                   </div>
@@ -277,7 +277,7 @@ const AreaCovered = () => {
                   Need a Ride Right Now?
                 </h3>
                 <p className="text-sm md:text-lg mb-6 md:font-semibold">
-                  Instant booking | 24/7 availability | Resonable Prices
+                  Instant booking | 24/7 availability | No Hidden Fees
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <button className="bg-secondary text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold hover:bg-secondary/80 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2 text-xs md:text-base">
@@ -290,7 +290,7 @@ const AreaCovered = () => {
                   </button>
                 </div>
                 <p className="text-sm mt-4 text-white">
-                  Average wait time: 8 minutes • No hidden Charge
+                  Average wait time: 8 minutes • Transparent Pricing
                 </p>
               </div>
             </div>

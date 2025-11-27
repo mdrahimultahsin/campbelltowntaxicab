@@ -12,7 +12,7 @@ const CallToAction = () => {
             We provide CampbellTown Taxi Cabs Sydney bookings for more than 50+ Suburbs.
           </h2>
           <Link to="/book-a-taxi">
-            <ButtonPrimary className={`px-2! md:px-4! text-sm`}>Online Booking</ButtonPrimary>
+            <ButtonPrimary className={`px-2! md:px-4! text-sm`}>Book Online</ButtonPrimary>
           </Link>
         </div>
       </Container>

@@ -5,7 +5,7 @@
     "passengerCapacity": 4,
     "bagsCapacity": 2,
     "description": "Ideal for quick trips and business travel, the Easy Sedan offers smooth handling, a quiet cabin, and a fuel-efficient ride. Perfect for airport pickups, city tours, or errands, it's an affordable way to experience luxury at its finest.",
-    "image": "/campbelltown-easy-sedan-img.png"
+    "image": "/campbelltown-easy-sedan.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
     "passengerCapacity": 7,
     "bagsCapacity": 8,
     "description": "The Kia Carnival is designed for larger groups, offering seating for up to seven passengers with plenty of luggage space. Whether you’re heading to an event or going on a family vacation, this affordable, reliable van ensures a smooth, comfortable ride for all.",
-    "image": "/campbelltown-kia-carnival-img.png"
+    "image": "/campbelltown-kia-carnival.png"
   },
   {
     "id": 5,

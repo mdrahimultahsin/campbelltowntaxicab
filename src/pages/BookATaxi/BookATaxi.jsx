@@ -32,8 +32,8 @@ const BookATaxi = () => {
               </span>
 
               <p className="mt-8 text-sm md:text-base">
-                Silver Cabs is a Sydney based maxi cab service established in
-                2022. We provide affordable, reliable, and safe transport for
+                Campbelltown Taxi Cabs is a Sydney based maxi cab service established in
+                2010. We provide affordable, reliable, and safe transport for
                 families, groups, and business travelers. Our fleet includes
                 sedans, SUVs, maxi vans, luxury cars, and wheelchair accessible
                 taxis. We operate 24/7 across all Sydney suburbs and offer

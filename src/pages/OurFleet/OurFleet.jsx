@@ -24,7 +24,7 @@ const OurFleet = () => {
                 Fleet
               </span>
               <p className="mt-8 text-sm md:text-base">
-                At Sky Maxi Cabs, we take pride in offering a diverse and modern
+                At Campbelltown Taxi Cabs, we take pride in offering a diverse and modern
                 fleet to cater to all your transportation needs in Sydney. Our
                 vehicles are meticulously maintained, ensuring a safe,
                 comfortable, and reliable ride every time you travel with us.

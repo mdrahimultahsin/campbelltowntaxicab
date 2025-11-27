@@ -15,13 +15,9 @@
   --color-gray-color: #dddddd;
 }
 
-html,
+
 body {
-  height: 100%;
-  overflow-y: auto;
-}
-body {
-  @apply font-inter min-h-screen overflow-y-auto;
+  @apply font-inter ;
 }
 
 button,
@@ -39,3 +35,9 @@ a {
 }
 
 
+
+
+html, body {
+  overflow-y: visible;
+  scroll-behavior: smooth;
+}

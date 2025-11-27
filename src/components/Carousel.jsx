@@ -4,10 +4,11 @@ import {Autoplay, Pagination} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import sedanCarImg from "/campbelltown-easy-sedan-img.png";
-import luxuryVehicleImg from "/campbelltown-luxury-vehicle.png";
-import suvWagonImg from "/campbelltown-suv-wagon.png";
-import carnivalImg from "/campbelltown-kia-carnival-img.png";
+import sedanCarImg from "/Easy Sedan - Campbelltown Taxi Cabs.png";
+import luxuryVehicleImg from "/Luxury Vehicle - Campbelltown Taxi Cabs.png";
+import suvWagonImg from "/SUV - Campbelltown Taxi Cabs.png";
+import carnivalImg from "/Kia Taxi - Campbelltown Taxi Cabs.png";
+import maxiTaxiImg from "/Maxi Taxi - Campbelltown Taxi Cabs.png";
 
 const Carousel = () => {
   return (
@@ -19,41 +20,54 @@ const Carousel = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
+        breakpoints={{
+          0: {slidesPerView: 1},
+          768: {slidesPerView: 2},
+          1024: {slidesPerView: 3},
+        }}
         loop={true}
         className="mySwiper"
       >
-        <SwiperSlide>
+        <SwiperSlide className="cursor-pointer">
           <img
             src={sedanCarImg}
-            className="w-full object-cover  mx-auto"
+            className="max-w-110 md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover  mx-auto"
             alt="Easy Sedan Car Campbelltown Taxi Cabs"
           />
-          <p className="-mt-15 text-xl">Easy Sedan</p>
+          <p className="mt-0 text-xl">Easy Sedan</p>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="cursor-pointer">
           <img
             src={luxuryVehicleImg}
-            className="w-full object-cover mx-auto "
+            className="max-w-110 md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover mx-auto "
             alt="Luxury Taxi Vehicle Campbelltown Taxi Cabs"
           />
-          <p className="-mt-15 text-xl">Luxury Vehicle</p>
+          <p className="mt-0 text-xl">Luxury Vehicle</p>
         </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide className="cursor-pointer">
           <img
             src={suvWagonImg}
-            className="w-full object-cover mx-auto "
+            className="max-w-110 md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover mx-auto "
             alt="Suv or Wagon Car Campbelltown Taxi Cabs"
           />
-          <p className="-mt-10 text-xl">Suv or Wagon</p>
+          <p className="mt-0 text-xl">Suv or Wagon</p>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="cursor-pointer">
           <img
             src={carnivalImg}
-            className="w-full object-cover mx-auto h-full "
+            className="max-w-110 md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover mx-auto h-full "
             alt="Kia Carnival Car Campbelltown Taxi Cabs"
           />
-          <p className="-mt-10 text-xl">Kia Carnival</p>
+          <p className="mt-0 text-xl">Kia Carnival</p>
+        </SwiperSlide>
+        <SwiperSlide className="cursor-pointer">
+          <img
+            src={maxiTaxiImg}
+            className="max-w-110 md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover mx-auto h-full "
+            alt="Kia Carnival Car Campbelltown Taxi Cabs"
+          />
+          <p className="mt-0 text-xl">Maxi Taxi</p>
         </SwiperSlide>
       </Swiper>
     </div>

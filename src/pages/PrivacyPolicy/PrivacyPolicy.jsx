@@ -22,13 +22,12 @@ const PrivacyPolicy = () => {
               </span>
 
               <p className="mt-8 text-sm md:text-base">
-                At Sky Maxi Cabs, we value the privacy and security of our
-                customers’ information. Any personal data provided during
+                At Campbelltown Taxi Cabs, we value the privacy and security of our
+                customers' information. Any personal data provided during
                 bookings is handled with the utmost care and used solely to
                 facilitate safe, comfortable, and reliable transportation
                 services. We may use details such as the number of passengers
-                and travel requirements to assign the most suitable vehicle. Sky
-                Maxi Cabs is committed to protecting your information in
+                and travel requirements to assign the most suitable vehicle. Campbelltown Taxi Cabs is committed to protecting your information in
                 accordance with applicable privacy laws and regulations.
               </p>
               <div className="flex py-4 gap-4 justify-center md:justify-start">

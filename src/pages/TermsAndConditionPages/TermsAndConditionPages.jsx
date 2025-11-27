@@ -22,7 +22,7 @@ const TermsAndCondition = () => {
               </span>
 
               <p className="mt-8 text-sm md:text-base">
-                At Sky Maxi Cabs, we maintain a diverse and modern fleet of vehicles to accommodate various transportation needs within Sydney. All vehicles are regularly serviced and inspected to ensure safety, comfort, and reliability for every passenger. The type of vehicle provided will depend on availability and the number of passengers traveling. Sky Maxi Cabs reserves the right to assign the most appropriate vehicle for your journey.
+                At Campbelltown Taxi Cabs, we maintain a diverse and modern fleet of vehicles to accommodate various transportation needs within Sydney. All vehicles are regularly serviced and inspected to ensure safety, comfort, and reliability for every passenger. The type of vehicle provided will depend on availability and the number of passengers traveling. Campbelltown Taxi Cabs reserves the right to assign the most appropriate vehicle for your journey.
               </p>
               <div className="flex py-4 gap-4 justify-center md:justify-start">
                 <Link to="/book-a-taxi" className=" ">
@@ -278,7 +278,7 @@ const TermsAndCondition = () => {
             </p>
             <p className="text-xs md:text-lg text-accent py-2">
               A state levy applies to every passenger trip in NSW. Since 1 July
-              2023, the levy is $1.20 per trip ($1.32 with GST). This may be
+              2010, the levy is $1.20 per trip ($1.32 with GST). This may be
               absorbed by us or included in your fare.
             </p>
 

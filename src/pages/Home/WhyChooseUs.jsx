@@ -9,7 +9,7 @@ import {
   FaLeaf,
 } from "react-icons/fa";
 import Container from "../../shared/Container";
-import { MdAirlineSeatReclineExtra } from "react-icons/md";
+import { MdAirlineSeatReclineExtra, MdOutlinePayment } from "react-icons/md";
 
 const WhyChooseUs = () => {
   const features = [
@@ -49,9 +49,9 @@ const WhyChooseUs = () => {
       desc: "Our luxury taxis ensure you travel in comfort, with features like air conditioning, ample legroom, and a smooth ride, all at affordable rates. Sit back, relax, and let us take you where you need to go in style.",
     },
     {
-      icon: <FaLeaf className="text-2xl" />,
-      title: "Eco-Friendly Options",
-      desc: "We're committed to making your travel experience as sustainable as it is comfortable. Our eco-friendly vehicles reduce your carbon footprint while offering a premium ride. Whether you're heading to an event, the airport, or just running errands, you can enjoy a green, reliable ride.",
+      icon: <MdOutlinePayment className="text-2xl" />,
+      title: "We Accept CabCharge",
+      desc: "The Cabcharge Taxi Service by Campbelltown Taxi Cabs offers a reliable and hassle-free travel experience. Passengers can enjoy convenient Cabcharge payment options, professional drivers, clean vehicles, and timely pickups, making every journey comfortable, secure, and suitable for both personal and business travel needs.",
     },
     {
       icon: <FaHeadset  className="text-2xl" />,

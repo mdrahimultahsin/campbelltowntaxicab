@@ -33,12 +33,12 @@ const CancellationAndRefunds = () => {
                 Refund Policy
               </span>
               <p className="mt-8 text-sm md:text-base">
-                At Sky Maxi Cabs, we strive to provide a reliable and
+                At Campbelltown Taxi Cabs, we strive to provide a reliable and
                 comfortable travel experience for all our customers. Refunds, if
                 applicable, are subject to the terms of your booking and the
                 notice provided prior to the scheduled journey. The type of
                 vehicle reserved may vary based on availability at the time of
-                travel. Sky Maxi Cabs reserves the right to determine
+                travel. Campbelltown Taxi Cabs reserves the right to determine
                 eligibility for refunds in accordance with our booking and
                 cancellation policies.
               </p>
