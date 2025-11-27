@@ -4,11 +4,11 @@ import {Autoplay, Pagination} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import sedanCarImg from "/Easy Sedan - Campbelltown Taxi Cabs.png";
-import luxuryVehicleImg from "/Luxury Vehicle - Campbelltown Taxi Cabs.png";
-import suvWagonImg from "/SUV - Campbelltown Taxi Cabs.png";
-import carnivalImg from "/Kia Taxi - Campbelltown Taxi Cabs.png";
-import maxiTaxiImg from "/Maxi Taxi - Campbelltown Taxi Cabs.png";
+import sedanCarImg from "/campbelltown-easy-sedan.png";
+import luxuryVehicleImg from "/campbelltown-luxury-vehicle.png";
+import suvWagonImg from "/campbelltown-suv-wagon.png";
+import carnivalImg from "/campbelltown-kia-carnival.png";
+import maxiTaxiImg from "/campbelltown-maxi-taxi.png";
 
 const Carousel = () => {
   return (
