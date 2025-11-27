@@ -6,7 +6,7 @@ const FloatingSidebar = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="z-50 fixed top-[300px] md:top-[250px] left-0 flex flex-col">
+    <div className="z-50 fixed top-[300px] md:top-[300px] left-0 flex flex-col">
       {/* WhatsApp */}
       <a
         href="https://wa.me/61423963380"

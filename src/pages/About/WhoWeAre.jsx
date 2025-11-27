@@ -14,7 +14,7 @@ const WhoWeAre = () => {
                         <div className="flex-col space-y-4">
                           <div className="bg-blue-50 p-3 md:p-6 rounded-lg border-l-4 border-primary">
                             <p className="text-primary text-xs md:text-base">
-                              Sky Maxi Cabs was started to fill a gap in the Sydney
+                              Campbelltown Taxi Cabs was started to fill a gap in the Sydney
                               transport market. Passengers wanted affordable group
                               transport with professional drivers and simple booking. We
                               built a fleet that includes sedans, SUVs, 7 seat maxi

@@ -14,6 +14,7 @@ import Services from "../pages/Services/Services";
 import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy";
 import CancellationAndRefunds from "../pages/CancellationAndRefunds/CancellationAndRefunds";
 import TermsAndConditionPages from "../pages/TermsAndConditionPages/TermsAndConditionPages";
+import CabChargeTaxi from "../pages/CabChargeTaxi/CabChargeTaxi";
 
 const router = createBrowserRouter([
   {
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
           return res.json();
         },
         hydrateFallbackElement: <Loading />,
+      },
+      {
+        path: "/cabcharge-taxi",
+        Component: CabChargeTaxi,
       },
       {
         path: "/terms-and-condition",

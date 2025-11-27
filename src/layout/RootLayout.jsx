@@ -8,17 +8,17 @@ import ScrollToTop from "../utils/ScrollToTop";
 
 const RootLayout = () => {
   return (
-    <>
+    <div>
       <ScrollToTop />
       <TopHeader />
       <Header />
-      <main className="relative">
+      <main className="relative ">
         <Outlet />
         <FloatingSidebar />
       </main>
       <CallToAction />
       <Footer />
-    </>
+    </div>
   );
 };
 

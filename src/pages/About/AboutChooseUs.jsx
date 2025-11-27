@@ -2,7 +2,7 @@ import React from "react";
 
 const features = [
   {
-    title: "Established in 2022",
+    title: "Established in 2010",
     description: "Sydney owned and operated with a commitment to quality service.",
   },
   {

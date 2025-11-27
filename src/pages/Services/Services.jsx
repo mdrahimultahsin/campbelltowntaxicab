@@ -7,7 +7,7 @@ import {FaCheckCircle, FaHandPointer, FaPhoneAlt, FaStar} from "react-icons/fa";
 import {IoCallSharp, IoCarSport} from "react-icons/io5";
 import FeatureFleet from "../Home/FeatureFleet";
 import Faq from "../../shared/Faq";
-import serviceBgImage from "../../assets/footer.jpg";
+import serviceBgImage from "../../assets/serviceBg.jpg";
 import {serviceDetails} from "./ServiceDetailsSection";
 import {FaLocationDot} from "react-icons/fa6";
 import {Helmet} from "react-helmet-async";
@@ -336,7 +336,7 @@ const Services = () => {
               Need a Ride Right Now?
             </h3>
             <p className="text-sm md:text-lg mb-6 md:font-semibold">
-              Instant booking | 24/7 availability | Resonable Prices
+              Instant booking | 24/7 availability | No Hidden Fees
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button className="bg-secondary text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold hover:bg-secondary/80 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2 text-xs md:text-base">
@@ -349,7 +349,7 @@ const Services = () => {
               </button>
             </div>
             <p className="text-sm mt-4 text-white">
-              Average wait time: 8 minutes • No hidden charge
+              Average wait time: 8 minutes •  Transparent Pricing
             </p>
           </div>
         </Container>

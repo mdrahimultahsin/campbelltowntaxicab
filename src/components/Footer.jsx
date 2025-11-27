@@ -93,6 +93,7 @@ const Footer = () => {
                     .map((singleService) => (
                       <Link to={`${singleService.pathname}`}
                         key={singleService.service_id}
+                        
                         className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2"
                       >
                         <FaAngleDoubleRight
@@ -115,7 +116,7 @@ const Footer = () => {
             </h2>
             <div className="grid grid-cols-2 gap-1">
               {serviceAreas.slice(0, 16).map((area, index) => (
-                <Link to="area-covered" key={index} className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2">
+                <Link to="/area-covered" key={index} className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2">
                   <FaAngleDoubleRight className="text-primary" />
                   <span className="text-sm md:text-base">{area}</span>
                 </Link>
@@ -180,7 +181,7 @@ const Footer = () => {
             "Maxi Taxi" owned by Cabcharge Australia Limited or 13cabs
             Australia. To ensure timely service for our customers, we may
             utilize vehicles from authorized taxi companies such as 13cabs Maxi
-            Taxi, Premier Maxi Taxi, Silver Top Maxi Taxi, GM Cabs, or other
+            Taxi, Premier Maxi Taxi, Campbelltown Top Maxi Taxi, GM Cabs, or other
             approved local taxi operators.
           </p>
         </div>
