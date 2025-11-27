@@ -1,14 +1,16 @@
-import  { useState } from 'react';
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const GetInTouchForm = () => {
-      const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({
     name: "",
     email: "",
     number: "",
     message: "",
   });
 
-  const [status, setStatus] = useState(""); 
+  const [loading, setLoading] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
 
   // Handle input changes
   const handleChange = (e) => {
@@ -19,21 +21,64 @@ const GetInTouchForm = () => {
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true);
 
-    
-   
+    let message = `
+      <b style="font-weight:bold; font-size:20px">Customer Name:</b> ${formData.name} <br/>
+      <b style="font-weight:bold; font-size:20px">Phone:</b> +${formData.number} <br/>
+      <b style="font-weight:bold; font-size:20px">Email:</b> ${formData.email} <br/>
+      <b style="font-weight:bold; font-size:20px">Message:</b> ${formData.message} <br/>
+    `;
 
-    // Reset form
-    setFormData({ name: "", email: "", number: "", message: "" });
-    setStatus("Your message has been sent successfully!");
+    const templateParams = {
+      name: formData.name,
+      message,
+    };
+
+    emailjs
+      .send(
+        "service_h0wuall",
+        "template_kjhxlz8",
+        templateParams,
+        "4MSsEGESDo8OwNYY2"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          setShowPopup(true);
+
+          setTimeout(() => {
+            setShowPopup(false);
+          }, 5000);
+
+          setFormData({
+            name: "",
+            email: "",
+            number: "",
+            message: "",
+          });
+        },
+        (error) => {
+          console.error("FAILED...", error);
+          setLoading(false);
+        }
+      );
   };
-    return (
-            <div className="max-w-lg mx-auto bg-white p-3 md:p-6 rounded-lg shadow-md">
-      <h2 className="text-3xl font-semibold text-primary mb-6">Get in Touch</h2>
 
-      {status && <p className="mb-4 text-green-600">{status}</p>}
+  return (
+    <div className="relative max-w-lg mx-auto bg-white p-3 md:p-6 rounded-lg shadow-md">
+
+      {/* SUCCESS POPUP */}
+      {showPopup && (
+        <div className="absolute top-3 right-3 bg-green-500 text-white px-5 py-3 rounded-lg shadow-lg animate-fadeIn">
+          Message sent successfully!
+        </div>
+      )}
+
+      <h2 className="text-2xl md:text-4xl font-playfair font-bold  text-primary mb-6">Get in Touch</h2>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+
         <input
           type="text"
           name="name"
@@ -75,13 +120,25 @@ const GetInTouchForm = () => {
 
         <button
           type="submit"
-          className="bg-primary text-white py-3 font-semibold rounded-md hover:bg-secondary transition"
+          disabled={loading}
+          className={`bg-primary text-white py-3 font-semibold rounded-md transition 
+            ${loading ? "opacity-60 cursor-not-allowed" : "hover:bg-secondary"}
+          `}
         >
-          Submit
+          {loading ? (
+            <div className="flex items-center justify-center gap-2">
+              <span className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></span>
+              Sending...
+            </div>
+          ) : (
+            "Submit"
+          )}
         </button>
       </form>
+
+      
     </div>
-    );
+  );
 };
 
 export default GetInTouchForm;

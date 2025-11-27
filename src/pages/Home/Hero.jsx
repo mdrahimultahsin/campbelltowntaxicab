@@ -21,7 +21,7 @@ const Hero = () => {
                 need a comfortable ride around Sydney, we guarantee safe,
                 punctual, and enjoyable rides.
               </p>
-              <div className="flex justify-center gap-4">
+              <div className="flex justify-center gap-4 md:gap-6">
                 <a
                   href="tel:+1300450428"
                   className="px-6 py-3 bg-primary  text-white rounded-md font-semibold text-sm md:text-xl hover:bg-primary/80 hover:scale-105 hover:transition-all flex items-center gap-2"
@@ -31,7 +31,7 @@ const Hero = () => {
                 </a>
                 <Link
                   to="/fleet"
-                  className="px-6 py-3 bg-primary  text-white rounded-md font-semibold text-sm md:text-xl hover:bg-primary/80 hover:scale-105 hover:transition-all"
+                  className="px-6 py-3 bg-white  text-primary border border-white hover:text-white transition-all hover:border-transparent rounded-md font-semibold text-sm md:text-xl hover:bg-primary/80 hover:scale-105 hover:transition-all"
                 >
                   Our Fleet
                 </Link>

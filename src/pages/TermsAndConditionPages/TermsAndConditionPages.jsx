@@ -1,11 +1,11 @@
 import React from "react";
 import Container from "../../shared/Container";
-import { Link } from "react-router";
+import {Link} from "react-router";
 import ButtonSecondary from "../../shared/ButtonSecondary";
-import { FaHandPointer } from "react-icons/fa";
+import {FaHandPointer} from "react-icons/fa";
 import titleImg from "../../assets/fleet-header-img.png";
-import { IoCallSharp } from "react-icons/io5";
-import { Helmet } from "react-helmet-async";
+import {IoCallSharp} from "react-icons/io5";
+import {Helmet} from "react-helmet-async";
 
 const TermsAndCondition = () => {
   return (
@@ -22,7 +22,14 @@ const TermsAndCondition = () => {
               </span>
 
               <p className="mt-8 text-sm md:text-base">
-                At Campbelltown Taxi Cabs, we maintain a diverse and modern fleet of vehicles to accommodate various transportation needs within Sydney. All vehicles are regularly serviced and inspected to ensure safety, comfort, and reliability for every passenger. The type of vehicle provided will depend on availability and the number of passengers traveling. Campbelltown Taxi Cabs reserves the right to assign the most appropriate vehicle for your journey.
+                At Campbelltown Taxi Cabs, we maintain a diverse and modern
+                fleet of vehicles to accommodate various transportation needs
+                within Sydney. All vehicles are regularly serviced and inspected
+                to ensure safety, comfort, and reliability for every passenger.
+                The type of vehicle provided will depend on availability and the
+                number of passengers traveling. Campbelltown Taxi Cabs reserves
+                the right to assign the most appropriate vehicle for your
+                journey.
               </p>
               <div className="flex py-4 gap-4 justify-center md:justify-start">
                 <Link to="/book-a-taxi" className=" ">
@@ -47,8 +54,25 @@ const TermsAndCondition = () => {
           </div>
         </Container>
       </div>
-      <Container>
+      <Container className="mt-20">
         <div>
+          <div>
+            <h2 className="font-semibold mb-4 font-playfair text-primary text-2xl md:text-4xl">Campbelltown Taxi Cabs</h2>
+            <h3 className="mt-2">
+              <span className="font-bold">ABN:</span> 69 442 367 843
+            </h3>{" "}
+            <p className="text-sm  md:text-base">
+              Last Updated: 29/11/2025
+            </p>
+            <p className="mt-2 text-sm md:text-base text-accent">
+              These Terms and Conditions (“Terms”) set out the legal rights,
+              obligations, and responsibilities of Campbelltown Taxi Cabs (“the
+              Company”, “we”, “our”, or “us”) and any customer, passenger, or
+              person making a booking (“you”, “your”, “the Customer”). By
+              booking or using our services, you agree to be bound by these
+              Terms.
+            </p>
+          </div>
           {/* who we are */}
           <div className="py-5">
             <h2 className=" font-semibold mb-4 font-playfair text-primary text-2xl md:text-4xl">
