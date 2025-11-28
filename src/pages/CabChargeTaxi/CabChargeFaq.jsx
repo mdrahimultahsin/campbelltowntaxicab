@@ -61,7 +61,7 @@ const CabChargeFaq = () => {
     <section className="mt-30 mb-10">
       <Container>
         <h2 className="text-3xl md:text-4xl font-bold font-playfair text-center mb-10 text-primary">
-         CabCharge FAQs
+         FAQs
         </h2>
 
         <div className="space-y-4">
