@@ -18,8 +18,8 @@ const OurFleet = () => {
       </Helmet>
       <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
         <Container>
-          <div className="flex flex-col md:flex-row text-white gap-6">
-            <div className="py-10 md:py-20  flex-1 text-center md:text-left ">
+          <div className="flex flex-col md:flex-row text-white gap-4 md:gap-6">
+            <div className="pt-10 pb-5 md:py-20  flex-1 text-center md:text-left ">
               <span className="text-2xl md:text-4xl font-bold py-3 px-8 bg-black/50 text-white rounded-xl font-playfair">
                 Fleet
               </span>
@@ -38,7 +38,7 @@ const OurFleet = () => {
                     Book Online
                   </ButtonSecondary>
                 </Link>
-                <a href="tel:+1300450428" className="">
+                <a href="tel:+611300450428" className="">
                   <ButtonSecondary className="flex gap-2 items-center bg-transparent! border-2 hover:bg-secondary!">
                     <IoCallSharp className="" /> 1300 450 428
                   </ButtonSecondary>
@@ -62,7 +62,7 @@ const OurFleet = () => {
           {fleetData.map((singleData) => (
             <div
               key={singleData.id}
-              className="bg-light p-4 md:p-8 rounded-xl shadow-lg"
+              className="bg-light pb-7 p-4 md:p-8 rounded-xl shadow-lg"
             >
               <h3 className="text-2xl md:text-3xl font-semibold mb-5 md:mb-10">
                 {singleData.name}

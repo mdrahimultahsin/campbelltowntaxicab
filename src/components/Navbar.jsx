@@ -1,4 +1,4 @@
-import {Link, NavLink} from "react-router";
+import {NavLink} from "react-router";
 import Container from "../shared/Container";
 import {
   FaChevronDown,
@@ -188,62 +188,76 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
         <div className="">
           <ul className="hidden md:flex items-center justify-center gap-1">
             {navlinks.map((navlink) => (
-              <li key={navlink.id} className="relative group">
-                {/* MAIN NAV */}
-                <NavLink
-                  to={navlink.pathname}
-                  className={({isActive}) =>
-                    isActive
-                      ? "bg-white text-primary py-3 px-2 lg:px-4  font-medium flex items-center gap-1 text-center"
-                      : "py-3 px-2 lg:px-4 bg-transparent hover:bg-white hover:text-primary font-normal text-sm lg:text-base  md:font-medium flex items-center gap-1 text-center"
-                  }
-                >
-                  {navlink.label}
-                  {navlink.dropdowns?.length > 0 && <FaChevronDown size={12} />}
-                </NavLink>
+  <li key={navlink.id} className="relative group">
 
-                {/* MEGA DROPDOWN FOR SERVICES */}
-                {navlink.dropdowns && navlink.dropdowns.length > 0 && (
-                  <div
-                    className="
-        absolute -left-23 top-full w-[800px] bg-white text-black shadow-lg 
-        opacity-0 invisible group-hover:opacity-100 group-hover:visible 
-        transition-all z-50 p-6
-    "
-                  >
-                    <div
-                      className="grid grid-cols-3 gap-6 
-                    max-md:grid-cols-2 
-                    border-t border-b border-gray-300 py-4"
-                    >
-                      {/* ONE SERVICE ITEM */}
-                      {navlink.dropdowns?.map((item) => (
-                        <NavLink
-                          key={item.id}
-                          to={item.pathname}
-                          onClick={() => {
-                            setOpenDropdown(!openDropdown);
-                          }}
-                          className="flex items-start gap-3 p-2 hover:bg-gray-100 rounded-lg"
-                        >
-                          {/* ICON — you can map based on item.id */}
-                          <div className="text-primary text-3xl">
-                            {item.icon}
-                          </div>
+    {/* MAIN NAV */}
+    <NavLink
+      to={navlink.pathname}
+      className={({ isActive }) =>
+        isActive
+          ? "bg-white text-primary py-3 px-2 lg:px-4 font-medium flex items-center gap-1 text-center"
+          : "py-3 px-2 lg:px-4 bg-transparent hover:bg-white hover:text-primary font-normal text-sm lg:text-base md:font-medium flex items-center gap-1 text-center"
+      }
+    >
+      {navlink.label}
+      {navlink.dropdowns?.length > 0 && <FaChevronDown size={12} />}
+    </NavLink>
 
-                          <div>
-                            <h4 className="font-semibold text-black">
-                              {item.label}
-                            </h4>
-                            <p className="text-gray-500 text-sm">{item.desc}</p>
-                          </div>
-                        </NavLink>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </li>
-            ))}
+    {/* MEGA DROPDOWN FOR SERVICES */}
+    {navlink.dropdowns && navlink.dropdowns.length > 0 && (
+      <div
+        className="
+          absolute left-0 top-full bg-white text-black shadow-lg
+          opacity-0 invisible group-hover:opacity-100 group-hover:visible
+          transition-all z-50 p-6
+
+          /* ✅ RESPONSIVE WIDTH FIX */
+          w-[800px] max-lg:w-[600px] max-md:w-[95vw]
+
+          /* CENTER DROPDOWN ON SMALL DEVICES */
+          max-md:left-1/2 max-md:-translate-x-1/2
+        "
+      >
+        <div
+          className="
+            grid grid-cols-3 gap-6
+            /* ✅ RESPONSIVE GRID FIX */
+            max-lg:grid-cols-2 
+            max-md:grid-cols-1
+
+            border-t border-b border-gray-300 py-4
+          "
+        >
+          {/* SERVICE ITEM */}
+          {navlink.dropdowns?.map((item) => (
+            <NavLink
+              key={item.id}
+              to={item.pathname}
+              onClick={() => {
+                setOpenDropdown(!openDropdown);
+              }}
+              className="
+                flex items-start gap-3 p-2 hover:bg-gray-100 rounded-lg
+
+                /* ✅ MAKE EACH ITEM FULL-WIDTH ON MOBILE */
+                max-md:flex-row max-md:w-full
+              "
+            >
+              {/* ICON */}
+              <div className="text-primary text-3xl">{item.icon}</div>
+
+              <div>
+                <h4 className="font-semibold text-black">{item.label}</h4>
+                <p className="text-gray-500 text-sm">{item.desc}</p>
+              </div>
+            </NavLink>
+          ))}
+        </div>
+      </div>
+    )}
+  </li>
+))}
+
           </ul>
         </div>
 
@@ -258,7 +272,6 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
               <li key={navlink.id} className="relative">
                 <div
                   className="flex items-center justify-between py-3 pl-4 pr-4 cursor-pointer"
-                  
                   onClick={() =>
                     navlink.dropdowns?.length > 0
                       ? handleDropdownToggle(navlink.id)
@@ -295,7 +308,7 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
                           to={item.pathname}
                           onClick={() => {
                             setIsMenuOpen(!isMenuOpen);
-                            setOpenDropdown(!openDropdown)
+                            setOpenDropdown(!openDropdown);
                           }}
                           className="block px-6 py-2 hover:bg-primary hover:text-white border-b border-gray-300"
                         >

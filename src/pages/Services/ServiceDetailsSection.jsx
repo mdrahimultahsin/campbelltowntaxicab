@@ -1,10 +1,10 @@
 import React from "react";
 
-import bookTaxiImg from "../../assets/services/campbelltown-baby-taxi.png";
+import bookTaxiImg from "../../assets/services/book-taxi-sydney-airport.png";
 import babySeatImg from "../../assets/services/campbelltown-baby-seat.jpg";
 import wheelchairImg from "../../assets/services/campbelltown-wheelchair-accessible-taxi.png";
 import corporateImg from "../../assets/services/campbelltown-corporate-trips.jpeg";
-import cruiseImg from "../../assets/services/book-taxi-sydney-airport.png";
+import cruiseImg from "../../assets/services/campbelltown-cruise-transfer.png";
 import weddingImg from "../../assets/services/campbelltown-events-transfers.jpg";
 import eventImg from "../../assets/services/campbelltown-events-transfers.jpg";
 import parcelImg from "../../assets/services/campbelltown-percel-delivery-service.jpg";

@@ -23,7 +23,7 @@ const MidHeader = ({isMenuOpen, setIsMenuOpen}) => {
           </div>
           {/* Center Icons */}
           <div className="hidden lg:flex items-center gap-6">
-            <div className="flex gap-2 items-center">
+            <Link to={`/services/taxi-sydney-service`} className="flex gap-2 items-center">
               {/* Icon */}
               <div>
                 <FaUsers
@@ -36,8 +36,8 @@ const MidHeader = ({isMenuOpen, setIsMenuOpen}) => {
                 <p className="font-bold text-sm">Accessible Taxis</p>
                 <p className="text-xs">Available on notice</p>
               </div>
-            </div>
-            <div className="flex gap-2 items-center">
+            </Link>
+            <Link to="/services/book-taxi-sydney-airport" className="flex gap-2 items-center">
               {/* Icon */}
               <div>
                 <FaPlane
@@ -50,8 +50,8 @@ const MidHeader = ({isMenuOpen, setIsMenuOpen}) => {
                 <p className="font-bold text-sm">Airport Transfers</p>
                 <p className="text-xs">No hidden charge</p>
               </div>
-            </div>
-            <div className="flex gap-4 items-center">
+            </Link>
+            <Link to="/services/wedding-transfer" className="flex gap-4 items-center">
               {/* Icon */}
               <div>
                 <FaCar
@@ -64,8 +64,8 @@ const MidHeader = ({isMenuOpen, setIsMenuOpen}) => {
                 <p className="font-bold text-sm">Wedding Transfers</p>
                 <p className="text-xs">No hidden charge</p>
               </div>
-            </div>
-            <div className="flex gap-4 items-center">
+            </Link>
+            <Link to="/services/corporate-tips" className="flex gap-4 items-center">
               {/* Icon */}
               <div>
                 <FaBusinessTime
@@ -78,7 +78,7 @@ const MidHeader = ({isMenuOpen, setIsMenuOpen}) => {
                 <p className="font-bold text-sm">Corporate Transfers</p>
                 <p className="text-xs">Available on short notice</p>
               </div>
-            </div>
+            </Link>
           </div>
           <div className="flex items-center gap-4">
             <ButtonSecondary

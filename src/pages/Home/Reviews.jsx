@@ -134,14 +134,14 @@ const Reviews = () => {
             {/* Custom navigation buttons */}
             <button
               onClick={() => swiperRef.current?.slidePrev()}
-              className="absolute -left-3 md:-left-5 top-1/2 transform -translate-y-1/2 bg-primary text-white p-2 md:p-3 rounded-full shadow-lg z-10"
+              className="absolute -left-3 md:-left-3 top-1/2 transform -translate-y-1/2 bg-primary text-white p-2 md:p-3 rounded-full shadow-lg z-10"
             >
               <FaChevronLeft />
             </button>
 
             <button
               onClick={() => swiperRef.current?.slideNext()}
-              className="absolute -right-3 md:-right-5 top-1/2 transform -translate-y-1/2 bg-primary text-white p-2 md:p-3 rounded-full shadow-lg z-10"
+              className="absolute -right-3 md:-right-3 top-1/2 transform -translate-y-1/2 bg-primary text-white p-2 md:p-3 rounded-full shadow-lg z-10"
             >
               <FaChevronRight />
             </button>

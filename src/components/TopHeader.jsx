@@ -45,7 +45,7 @@ const TopHeader = () => {
 
           <a
             className="flex items-center gap-2 cursor-pointer"
-            href="tel:+1300450428"
+            href="tel:+611300450428"
           >
             <FaPhoneAlt /> 1300 450 428
           </a>
