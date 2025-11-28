@@ -137,14 +137,14 @@ const Footer = () => {
                 <li className="flex items-center gap-2">
                   <a
                     href="mailto:silvercabscampbelltown@gmail.com"
-                    className="hover:underline flex items-center gap-2"
+                    className="hover:underline flex items-center gap-2 break-all"
                   >
                     <MdOutlineMailOutline className="text-primary" size={20} />
                     silvercabscampbelltown@gmail.com
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+1300450428" className="flex items-center gap-2">
+                  <a href="tel:+611300450428" className="flex items-center gap-2">
                     <FaPhone className="text-primary" size={20} /> 1300 450 428
                   </a>
                 </li>

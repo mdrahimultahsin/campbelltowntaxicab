@@ -26,12 +26,12 @@ const Carousel = () => {
           1024: {slidesPerView: 3},
         }}
         loop={true}
-        className="mySwiper"
+        className="mySwiper "
       >
         <SwiperSlide className="cursor-pointer">
           <img
             src={sedanCarImg}
-            className="max-w-110 md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover  mx-auto"
+            className="w-full md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover  mx-auto"
             alt="Easy Sedan Car Campbelltown Taxi Cabs"
           />
           <p className="mt-0 text-xl">Easy Sedan</p>
@@ -39,7 +39,7 @@ const Carousel = () => {
         <SwiperSlide className="cursor-pointer">
           <img
             src={luxuryVehicleImg}
-            className="max-w-110 md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover mx-auto "
+            className="w-full md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover mx-auto "
             alt="Luxury Taxi Vehicle Campbelltown Taxi Cabs"
           />
           <p className="mt-0 text-xl">Luxury Vehicle</p>
@@ -48,7 +48,7 @@ const Carousel = () => {
         <SwiperSlide className="cursor-pointer">
           <img
             src={suvWagonImg}
-            className="max-w-110 md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover mx-auto "
+            className="w-full md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover mx-auto "
             alt="Suv or Wagon Car Campbelltown Taxi Cabs"
           />
           <p className="mt-0 text-xl">Suv or Wagon</p>
@@ -56,7 +56,7 @@ const Carousel = () => {
         <SwiperSlide className="cursor-pointer">
           <img
             src={carnivalImg}
-            className="max-w-110 md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover mx-auto h-full "
+            className="w-full md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover mx-auto h-full "
             alt="Kia Carnival Car Campbelltown Taxi Cabs"
           />
           <p className="mt-0 text-xl">Kia Carnival</p>
@@ -64,7 +64,7 @@ const Carousel = () => {
         <SwiperSlide className="cursor-pointer">
           <img
             src={maxiTaxiImg}
-            className="max-w-110 md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover mx-auto h-full "
+            className="w-full md:max-w-80 lg:max-w-80 xl:max-w-100 object-cover mx-auto h-full "
             alt="Kia Carnival Car Campbelltown Taxi Cabs"
           />
           <p className="mt-0 text-xl">Maxi Taxi</p>

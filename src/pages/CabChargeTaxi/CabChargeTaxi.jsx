@@ -8,6 +8,8 @@ import {FaHandPointer} from "react-icons/fa6";
 import {FaPhoneAlt} from "react-icons/fa";
 import cabChargePayImg from "../../assets/cabcharge-taxi-service-campbelltown.png";
 import cabChargePayImg2 from "../../assets/cabcharge-taxi-service-img2-campbelltown.png";
+import FeatureFleet from "../Home/FeatureFleet";
+import CabChargeFaq from "./CabChargeFaq";
 const CabChargeTaxi = () => {
   const navigate = useNavigate();
   return (
@@ -38,7 +40,7 @@ const CabChargeTaxi = () => {
                     Book Online
                   </ButtonSecondary>
                 </Link>
-                <a href="tel:+1300450428" className="">
+                <a href="tel:+611300450428" className="">
                   <ButtonSecondary className="flex gap-2 items-center bg-transparent! border-2 hover:bg-secondary!">
                     <IoCallSharp className="" /> 1300 450 428
                   </ButtonSecondary>
@@ -113,37 +115,49 @@ const CabChargeTaxi = () => {
 
             {/* Right Column: Content */}
             <div className="md:flex-1 space-y-4 text-accent">
-  <h2 className="text-3xl md:text-4xl font-playfair font-bold text-primary">
-    Why CabCharge is Perfect for Your Ride
-  </h2>
+              <h2 className="text-3xl md:text-4xl font-playfair font-bold text-primary">
+                Why CabCharge is Perfect for Your Ride
+              </h2>
 
-  <p>
-    Choosing CabCharge with <strong>Campbelltown Taxi Cabs</strong> means enjoying 
-    a fast, secure, and flexible payment experience designed for both everyday 
-    passengers and business travellers. As part of our reliable 
-    <strong> Cabcharge Taxi Service</strong>, we ensure every ride is 
-    convenient and stress-free from booking to payment.
-  </p>
+              <p>
+                Choosing CabCharge with <strong>Campbelltown Taxi Cabs</strong>{" "}
+                means enjoying a fast, secure, and flexible payment experience
+                designed for both everyday passengers and business travellers.
+                As part of our reliable
+                <strong> Cabcharge Taxi Service</strong>, we ensure every ride
+                is convenient and stress-free from booking to payment.
+              </p>
 
-  <ul className="list-disc list-inside space-y-1">
-    <li>Widely accepted across Australia, including Sydney</li>
-    <li>Fast and secure electronic transactions</li>
-    <li>Perfect for business, corporate, and government travel</li>
-    <li>No need to carry cash or personal credit cards</li>
-    <li>Detailed trip summaries for easy billing and expense management</li>
-  </ul>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Customers can pay by <b>Cabcharge Card</b>, paper card, digital card.</li>
+                <li>Widely accepted across Australia, including Sydney</li>
+                <li>Fast and secure electronic transactions</li>
+                <li>Perfect for business, corporate, and government travel</li>
+                <li>No need to carry cash or personal credit cards</li>
+                <li>
+                  Detailed trip summaries for easy billing and expense
+                  management
+                </li>
+              </ul>
 
-  <p className="mt-2">
-    Whether you're heading to work, the airport, an appointment, or a local destination, 
-    CabCharge offers a smooth and reliable payment solution. Along with CabCharge, 
-    <strong>Campbelltown Taxi Cabs</strong> accepts debit/credit cards, tap-and-go, 
-    and cash payments—giving you the flexibility and comfort you deserve.
-  </p>
-</div>
-
+              <p className="mt-2">
+                Whether you're heading to work, the airport, an appointment, or
+                a local destination, CabCharge offers a smooth and reliable
+                payment solution. Along with CabCharge,
+                <strong>Campbelltown Taxi Cabs</strong> accepts debit/credit
+                cards, tap-and-go, and cash payments—giving you the flexibility
+                and comfort you deserve.
+              </p>
+            </div>
           </div>
         </Container>
       </section>
+      {/* Faq */}
+      <CabChargeFaq />
+
+      {/* Feature Fleet */}
+      <FeatureFleet />
+
       <section className="mt-20">
         <Container>
           {/* Call to action */}
@@ -159,7 +173,7 @@ const CabChargeTaxi = () => {
                 <button className="bg-secondary text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold hover:bg-secondary/80 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2 text-xs md:text-base">
                   <a
                     className="flex items-center gap-2 cursor-pointer"
-                    href="tel:+1300450428"
+                    href="tel:+611300450428"
                   >
                     <FaPhoneAlt className="text-sm md:text-lg" />
                     Call: 1300 123 456
