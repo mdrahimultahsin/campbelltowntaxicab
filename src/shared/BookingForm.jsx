@@ -9,6 +9,7 @@ import {useNavigate} from "react-router";
 const BookingForm = ({className, params, formTitle}) => {
   const [loading, setLoading] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
+  const [phoneError, setPhoneError] = useState("");
   const [formData, setFormData] = useState({
     pickupType: "anywhere",
     name: "",
@@ -42,6 +43,13 @@ const BookingForm = ({className, params, formTitle}) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!formData.phone || formData.phone.length < 8) {
+    setPhoneError("📞 Phone number is required");
+    return;
+  }
+  setPhoneError("");
+
+  setLoading(true);
 
     // Build message string
     let message = `
@@ -180,6 +188,7 @@ Flight No: ${formData.flightNo || ""}
                       countryCodeEditable={true}
                       enableLongNumbers={true}
                       formatOnInit={false}
+                    
                       masks={{
                         au: "................................................................",
                         us: "..................................",
@@ -428,6 +437,7 @@ Flight No: ${formData.flightNo || ""}
                   onChange={(phone) =>
                     setFormData((prev) => ({...prev, phone}))
                   }
+                    
                   placeholder="Enter phone number"
                   containerClass="w-full"
                   inputClass="input-class w-full! py-5! "
@@ -532,9 +542,7 @@ Flight No: ${formData.flightNo || ""}
                   <option value="wheelchair-taxi-service">
                     Wheelchair Taxi Service
                   </option>
-                  <option value="baby-seat-taxi">
-                    Baby Seat Taxi
-                  </option>
+                  <option value="baby-seat-taxi">Baby Seat Taxi</option>
                 </select>
 
                 {/* Payment Mode */}
@@ -571,6 +579,22 @@ Flight No: ${formData.flightNo || ""}
               </ButtonPrimary>
             </div>
           </form>
+
+          {phoneError && (
+  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
+    <div className="bg-white rounded-xl shadow-lg p-6 max-w-sm w-full text-center">
+      <h2 className="text-xl font-bold text-red-600 mb-3">Form Error</h2>
+      <p className="text-gray-700 mb-5">{phoneError}</p>
+      <button
+        onClick={() => setPhoneError("")}
+        className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-primary/90 transition"
+      >
+        OK
+      </button>
+    </div>
+  </div>
+)}
+
           {showPopup && (
             <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
               <div className="bg-white rounded-xl shadow-lg p-8 max-w-sm w-full text-center relative">
