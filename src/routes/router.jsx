@@ -29,6 +29,7 @@ import EventTransfer from "../pages/Services/EventTransfer/EventTransfer";
 import PercelDelivery from "../pages/Services/PercelDelivery/PercelDelivery";
 import MaxiTaxiService from "../pages/Services/MaxiTaxiService/MaxiTaxiService";
 import LuxuryTransfer from "../pages/Services/LuxuryTransfer/LuxuryTransfer";
+import CoveredLocation from "../pages/AreaCovered/CoveredLocation/CoveredLocation";
 
 const router = createBrowserRouter([
   {
@@ -117,6 +118,15 @@ const router = createBrowserRouter([
       {
         path: "/area-covered",
         Component: AreaCovered,
+      },
+      {
+        path: "/area-covered/:location",
+        Component: CoveredLocation,
+         loader: async () => {
+          const res = await fetch("/service.json");
+          return res.json();
+        },
+        hydrateFallbackElement: <Loading />,
       },
       {
         path: "/blogs",
