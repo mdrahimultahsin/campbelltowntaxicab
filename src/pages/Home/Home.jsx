@@ -73,7 +73,7 @@ const Home = () => {
         description:
           "Premium Taxi Service in Campbelltown NSW for comfortable, fast, and affordable rides. Book your ride today with Campbelltown Taxi Cabs!",
         keywords: "campbelltown taxi cabs, taxi campbelltown,taxi campbelltown nsw, campbelltown taxi,campbelltown taxis,taxi service campbelltown nsw,taxis campbelltown,luxury taxi campbelltown,taxi service campbelltown",
-        canonical: "https://campbelltowntaxicabs.com.au/about",
+        canonical: "https://campbelltowntaxicabs.com.au",
       })}
       <Hero />
       <BookingForm />
