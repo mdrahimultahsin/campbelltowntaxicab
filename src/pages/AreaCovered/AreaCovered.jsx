@@ -22,7 +22,7 @@ const AreaCovered = () => {
     "Currans Hills",
     "Claymore",
     "Macarthur",
-    "Menangle Park",
+    "Menangle",
     "Leumeah",
     "Raby",
     "St Andrew's",
