@@ -1,21 +1,21 @@
 import {useLoaderData} from "react-router";
 import Container from "../../shared/Container";
 
-const ServicesSection = ({sectionTitle}) => {
+const ServicesSection = ({sectionTitle, serviceSubtitle}) => {
   const serviceData = useLoaderData() || [];
   return (
     <section className="pt-30 mb-30">
       <Container>
         <div className="text-center">
           <h2 className="section-title">
-            {sectionTitle?sectionTitle:"Our Taxi and Maxi Services in Campbelltown"}
+            {sectionTitle
+              ? sectionTitle
+              : "Our Taxi and Maxi Services in Campbelltown"}
           </h2>
           <p className="mt-4 text-base text-accent md:text-xl text-center max-w-6xl mx-auto leading-relaxed">
-            At Campbelltown Taxi Cabs, we offer reliable and efficient taxi and
-            maxi services for all your travel needs in Campbelltown and the
-            surrounding areas. Whether you need a quick ride to Sydney Airport,
-            a comfortable maxi taxi for group travel, or a special luxury
-            transfer, we've got you covered.
+            {serviceSubtitle
+              ? serviceSubtitle
+              : "At Campbelltown Taxi Cabs, we offer reliable and efficient taxi and maxi services for all your travel needs in Campbelltown and the surrounding areas. Whether you need a quick ride to Sydney Airport,a comfortable maxi taxi for group travel, or a special luxury transfer, we've got you covered."}
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">

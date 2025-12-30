@@ -9,12 +9,12 @@ import BookingForm from "../../../shared/BookingForm";
 import corporateTripsImg from "../../../assets/services/campbelltown-corporate-trips.jpeg";
 import FeatureFleet from "../../Home/FeatureFleet";
 import Faq from "../../../shared/Faq";
-import { allLocationsData } from "./AllLocationsDatas";
+import {allLocationsData} from "./AllLocationsDatas";
 import ServicesSection from "../../Home/ServicesSection";
 
 const CoveredLocation = () => {
   const {location} = useParams();
-  const locationData = allLocationsData[location]
+  const locationData = allLocationsData[location];
   console.log(locationData);
   const modifiedLocationName = location
     .split("-")
@@ -101,10 +101,14 @@ const CoveredLocation = () => {
           </Container>
         </section>
 
-
-                  <ServicesSection sectionTitle={`Our Taxi and Maxi Services in ${modifiedLocationName}`}/>
-
-
+        <ServicesSection
+          sectionTitle={`${
+            locationData.serviceTitle
+              ? locationData.serviceTitle
+              : "Our Taxi and Maxi Services in " + modifiedLocationName
+          }`}
+          serviceSubtitle={locationData.serviceSubtitle}
+        />
 
         {/* Fleet */}
         <FeatureFleet
