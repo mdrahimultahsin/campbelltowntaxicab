@@ -80,9 +80,7 @@ const Blogs = () => {
             {blogsData.map((post) => (
               <Link
                 key={post.id}
-                to={`${location.pathname === "/blogs" ? "/blogs/" : "/blogs/"}${
-                  post.id
-                }`}
+                to={`/${post.slug}`}
               >
                 <div
                   key={post.id}
