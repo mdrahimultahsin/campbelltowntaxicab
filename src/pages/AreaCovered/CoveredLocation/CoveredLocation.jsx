@@ -15,15 +15,12 @@ import PageNotFound from "../../PageNotFound/PageNotFound";
 
 const CoveredLocation = () => {
   const {location} = useParams();
-  console.log("locaiton", location);
   const locationData = allLocationsData[location];
-  console.log(locationData);
   const modifiedLocationName = location
     .split("-")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
-  console.log(`https://campbelltowntaxicabs.com.au/area-covered/${location}`);
-  console.log(location);
+
 
   return (
     <>
