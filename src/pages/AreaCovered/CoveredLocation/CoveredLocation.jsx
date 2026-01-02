@@ -11,9 +11,11 @@ import FeatureFleet from "../../Home/FeatureFleet";
 import Faq from "../../../shared/Faq";
 import {allLocationsData} from "./AllLocationsDatas";
 import ServicesSection from "../../Home/ServicesSection";
+import PageNotFound from "../../PageNotFound/PageNotFound";
 
 const CoveredLocation = () => {
   const {location} = useParams();
+  console.log("locaiton", location);
   const locationData = allLocationsData[location];
   console.log(locationData);
   const modifiedLocationName = location
@@ -21,8 +23,8 @@ const CoveredLocation = () => {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
   console.log(`https://campbelltowntaxicabs.com.au/area-covered/${location}`);
+  console.log(location);
 
-  
   return (
     <>
       {useSEO({
@@ -32,6 +34,10 @@ const CoveredLocation = () => {
         keywords: `${modifiedLocationName} taxi, campbelltown taxi cabs, taxi campbelltown,taxi campbelltown nsw, campbelltown taxi,campbelltown taxis,taxi service campbelltown nsw,taxis campbelltown,luxury taxi campbelltown,taxi service campbelltown`,
         canonical: `https://campbelltowntaxicabs.com.au/area-covered/${location}`,
       })}
+      {
+        !locationData && <PageNotFound/>
+      }
+     
       <div>
         <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
           <Container>

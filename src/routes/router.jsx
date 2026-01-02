@@ -120,9 +120,9 @@ const router = createBrowserRouter([
         Component: AreaCovered,
       },
       {
-        path: "/area-covered/:location",
+        path: "/maxi-taxi-service-in/:location",
         Component: CoveredLocation,
-         loader: async () => {
+        loader: async () => {
           const res = await fetch("/service.json");
           return res.json();
         },
@@ -133,16 +133,24 @@ const router = createBrowserRouter([
         Component: Blogs,
       },
       {
-        path: "/blogs/:id",
+        path: "/:slug",
         Component: BlogDetails,
         loader: async ({params}) => {
           const res = await fetch("/blogs.json");
           const data = await res.json();
-          return data.find((b) => b.id === Number(params.id));
+
+          // Check if slug matches a blog
+          const blog = data.find((b) => b.slug === params.slug);
+
+          // If not found, you can redirect to 404
+          if (!blog) {
+            throw new Response("Not Found", {status: 404});
+          }
+
+          return blog;
         },
         hydrateFallbackElement: <Loading />,
       },
-
       {
         path: "/fleet",
         Component: OurFleet,
