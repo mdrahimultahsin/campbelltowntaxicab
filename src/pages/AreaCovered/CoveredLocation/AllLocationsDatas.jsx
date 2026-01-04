@@ -1,6 +1,6 @@
 import corporateTripsImg from "../../../assets/services/campbelltown-corporate-trips.jpeg";
 export const allLocationsData = {
-  "campbelltown": {
+  "campbelltown-nsw": {
     heroTitle: "Taxi Service in Campbelltown",
     heroDescription:
       " Campbelltown Taxi Cabs provides safe and reliable transport across Sydney and the Macarthur region. We support families, groups, and business travellers with clean vehicles and trained drivers. Our fleet includes sedans, SUVs, maxi cabs, luxury cars, and wheelchair-accessible taxis. We operate 24/7 and cover airport transfers, corporate trips, cruise pickups, and daily travel needs.",
@@ -75,7 +75,7 @@ export const allLocationsData = {
       },
     ],
   },
-  ambarvale: {
+  "ambarvale-nsw": {
     heroTitle: "Taxi Service in Ambarvale",
     heroDescription:
       " Ambarvale Taxi Cabs delivers dependable and professional taxi and maxi cab services in Ambarvale NSW and nearby Macarthur suburbs. We cater to families, group travellers, and corporate passengers with clean, modern vehicles driven by experienced local drivers.Our diverse fleet features standard taxis, spacious maxi cabs, SUVs, premium vehicles, and wheelchair-accessible taxis, ensuring a comfortable option for every journey. Available 24/7, we provide reliable Sydney Airport transfers, corporate transport, cruise terminal pickups, and everyday local taxi services throughout Ambarvale, Campbelltown, Narellan, and surrounding areas.",
@@ -149,7 +149,7 @@ export const allLocationsData = {
       },
     ],
   },
-  macarthur: {
+  "macarthur-nsw": {
     heroTitle: "Taxi Service in Macarthur",
     heroDescription:
       "Campbelltown Taxi Cabs provides safe, reliable, and professional taxi services across Macarthur, NSW and surrounding Sydney suburbs. We support families, groups, and business travellers with clean, comfortable vehicles and experienced local drivers. Our fleet includes standard taxis, maxi cabs, SUVs, luxury cars, and wheelchair-accessible taxis. Operating 24/7, we offer airport transfers, corporate travel, cruise terminal pickups, and everyday local transport throughout Campbelltown, Camden, Narellan, and nearby areas.",
@@ -223,7 +223,7 @@ export const allLocationsData = {
       },
     ],
   },
-  menangle: {
+  "menangle-nsw": {
     heroTitle: "Taxi Service in Menangle",
     heroDescription:
       "Campbelltown Taxi Cabs proudly provides reliable taxi and maxi services in Menangle, NSW, serving residents, visitors, and businesses with prompt and professional transport. Whether you need a local taxi in Menangle, a maxi cab for group travel, or a comfortable airport transfer, our experienced drivers and clean vehicles are available 24/7. We cover daily commutes, school runs, event transport, corporate travel, and long-distance trips to and from Menangle, with fast service across the wider Macarthur region.",
@@ -297,7 +297,7 @@ export const allLocationsData = {
       },
     ],
   },
-  leumeah: {
+  "leumeah--nsw": {
     heroTitle: "Taxi Service in Leumeah",
     heroDescription:
       "Campbelltown Taxi Cabs offers fast, safe, and reliable taxi services in Leumeah, NSW, supporting residents, commuters, and businesses with dependable transport. Whether you need a local taxi in Leumeah, a maxi cab for family or group travel, or a smooth airport transfer, our professional drivers and clean vehicles are available 24/7. We handle daily travel, station drop-offs, medical appointments, corporate trips, and long-distance rides, with full coverage across Leumeah and the wider Macarthur region.",
@@ -371,7 +371,7 @@ export const allLocationsData = {
       },
     ],
   },
-  appin: {
+  "appin--nsw": {
     heroTitle: "Taxi Service in Appin",
     heroDescription:
       "Appin Taxi Cabs provides safe, reliable, and professional taxi and maxi cab services in Appin NSW and the surrounding Macarthur region. We support local residents, families, group travellers, and business clients with clean, comfortable vehicles and knowledgeable local drivers. Our fleet includes standard taxis, maxi cabs, SUVs, luxury vehicles, and wheelchair-accessible taxis, giving you flexible transport options for every occasion. Operating 24/7, we offer dependable Sydney Airport transfers, corporate travel, cruise terminal pickups, and everyday local transport throughout Appin, Campbelltown, Camden, and nearby suburbs.",
@@ -446,7 +446,7 @@ export const allLocationsData = {
       },
     ],
   },
-  "currans-hills": {
+  "currans-hills-nsw": {
     heroTitle: "Taxi Service in Currans Hills",
     heroDescription:
       "Currans Hill Taxi Cabs offers professional and reliable taxi and maxi cab services in Currans Hill NSW and surrounding Macarthur suburbs. We cater to families, groups, and business travellers with clean, modern vehicles and experienced local drivers for a safe and comfortable journey. Our fleet includes standard taxis, maxi cabs, SUVs, luxury cars, and wheelchair-accessible taxis, providing flexible transport for any occasion. Available 24/7, we specialise in airport transfers, corporate travel, cruise terminal pickups, and everyday local taxi services across Currans Hill, Campbelltown, Narellan, and nearby areas.",
@@ -521,7 +521,7 @@ export const allLocationsData = {
       },
     ],
   },
-  claymore: {
+  "claymore-nsw": {
     heroTitle: "Taxi Service in Claymore",
     heroDescription:
       "Campbelltown Taxi Cabs offers professional and reliable taxi and maxi cab services in Claymore NSW and surrounding Claymore suburbs. We cater to families, groups, and business travellers with clean, modern vehicles and experienced local drivers for a safe and comfortable journey. Our fleet includes standard taxis, maxi cabs, SUVs, luxury cars, and wheelchair-accessible taxis, providing flexible transport for any occasion. Available 24/7, we specialise in airport transfers, corporate travel, cruise terminal pickups, and everyday local taxi services across Currans Hill, Campbelltown, Narellan, and nearby areas.",
@@ -596,7 +596,7 @@ export const allLocationsData = {
       },
     ],
   },
-  raby: {
+  "raby-nsw": {
     heroTitle: "Taxi Service in Raby",
     heroDescription:
       "Campbelltown Taxi Cabs provides safe, reliable, and professional taxi services across Raby, NSW and surrounding Sydney suburbs. We support families, groups, and business travellers with clean, comfortable vehicles and experienced local drivers. Our fleet includes standard taxis, maxi cabs, SUVs, luxury cars, and wheelchair-accessible taxis. Operating 24/7, we offer airport transfers, corporate travel, cruise terminal pickups, and everyday local transport throughout Raby, Campbelltown, and nearby areas.",
@@ -671,7 +671,7 @@ export const allLocationsData = {
       },
     ],
   },
-  "st-andrew's": {
+  "st-andrew's-nsw": {
     heroTitle: "Taxi Service in St Andrews",
     heroDescription:
       "Campbelltown Taxi Cabs offers fast, safe, and reliable taxi services in St Andrews, NSW, supporting residents, commuters, and businesses with dependable transport. Whether you need a local taxi in St Andrews, a maxi cab for family or group travel, or a smooth airport transfer, our professional drivers and clean vehicles are available 24/7. We handle daily travel, station drop-offs, medical appointments, corporate trips, and long-distance rides, with full coverage across St Andrews and the wider Macarthur region",
@@ -746,7 +746,7 @@ export const allLocationsData = {
       },
     ],
   },
-  ruse: {
+  "ruse-nsw": {
     heroTitle: "Taxi Service in Ruse",
     heroDescription:
       "Campbelltown Taxi Cabs offers fast, safe, and reliable taxi services in Ruse, NSW, supporting residents, commuters, and businesses with dependable transport. Whether you need a local taxi in Ruse, a maxi cab for family or group travel, or a smooth airport transfer, our professional drivers and clean vehicles are available 24/7. We handle daily travel, station drop-offs, medical appointments, corporate trips, and long-distance rides, with full coverage across Ruse and the wider Macarthur region.",
@@ -821,7 +821,7 @@ export const allLocationsData = {
       },
     ],
   },
-  minto: {
+  "minto-nsw": {
     heroTitle: "Taxi Service in Minto",
     heroDescription:
       "Campbelltown Taxi Cabs offers fast, safe, and reliable taxi services in Minto, NSW, supporting residents, commuters, and businesses with dependable transport. Whether you need a local taxi in Minto, a maxi cab for family or group travel, or a smooth airport transfer, our professional drivers and clean vehicles are available 24/7. We handle daily travel, station drop-offs, medical appointments, corporate trips, and long-distance rides, with full coverage across Minto and the wider Macarthur region.",
@@ -896,7 +896,7 @@ export const allLocationsData = {
       },
     ],
   },
-  glenfield: {
+  "glenfield-nsw": {
     heroTitle: "Taxi Service in Glenfield",
     heroDescription:
       "Campbelltown Taxi Cabs delivers dependable and professional taxi and maxi cab services in Glenfield NSW and nearby Macarthur suburbs. We cater to families, group travellers, and corporate passengers with clean, modern vehicles driven by experienced local drivers. Our diverse fleet features standard taxis, spacious maxi cabs, SUVs, premium vehicles, and wheelchair-accessible taxis, ensuring a comfortable option for every journey. Available 24/7, we provide reliable Sydney Airport transfers, corporate transport, cruise terminal pickups, and everyday local taxi services throughout Glenfield, Campbelltown, Narellan, and surrounding areas.",
@@ -971,7 +971,7 @@ export const allLocationsData = {
       },
     ],
   },
-  "camden-south": {
+  "camden-south-nsw": {
     heroTitle: "Taxi Service in Camden South",
     heroDescription:
       "Campbelltown Taxi Cabs delivers dependable and professional taxi and maxi cab services in Camden South NSW and nearby Macarthur suburbs. We cater to families, group travellers, and corporate passengers with clean, modern vehicles driven by experienced local drivers. Our diverse fleet features standard taxis, spacious maxi cabs, SUVs, premium vehicles, and wheelchair-accessible taxis, ensuring a comfortable option for every journey. Available 24/7, we provide reliable Sydney Airport transfers, corporate transport, cruise terminal pickups, and everyday local taxi services throughout Camden South, Campbelltown, Narellan, and surrounding areas.",
@@ -1046,7 +1046,7 @@ export const allLocationsData = {
       },
     ],
   },
-  "gregory-hills": {
+  "gregory-hills-nsw": {
     heroTitle: "Taxi Service in Gregory Hills",
     heroDescription:
       "Gregory Hills Taxi Cabs delivers dependable and professional taxi and maxi cab services in Gregory Hills NSW and nearby Macarthur suburbs. We cater to families, group travellers, and corporate passengers with clean, modern vehicles driven by experienced local drivers. Our diverse fleet features standard taxis, spacious maxi cabs, SUVs, premium vehicles, and wheelchair-accessible taxis, ensuring a comfortable option for every journey. Available 24/7, we provide reliable Sydney Airport transfers, corporate transport, cruise terminal pickups, and everyday local taxi services throughout Gregory Hills, Campbelltown, Narellan, and surrounding areas.",
