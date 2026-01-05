@@ -3,7 +3,7 @@ import titleImg from "../../../assets/campbelltown-pages-hero-img.png";
 import useSEO from "../../../hooks/useSEO";
 import Container from "../../../shared/Container";
 import ButtonSecondary from "../../../shared/ButtonSecondary";
-import {FaCheck, FaHandPointer} from "react-icons/fa";
+import { FaHandPointer} from "react-icons/fa";
 import {IoCallSharp} from "react-icons/io5";
 import BookingForm from "../../../shared/BookingForm";
 import corporateTripsImg from "../../../assets/services/campbelltown-corporate-trips.jpeg";
@@ -25,11 +25,11 @@ const CoveredLocation = () => {
   return (
     <>
       {useSEO({
-        title: `${modifiedLocationName} | Campbelltown Taxi Cabs`,
+        title: `Taxi and Maxi Service in ${modifiedLocationName} | Campbelltown Taxi Cabs`,
         description:
           "Premium Taxi Service in Campbelltown NSW for comfortable, fast, and affordable rides. Book your ride today with Campbelltown Taxi Cabs!",
         keywords: `${modifiedLocationName} taxi, campbelltown taxi cabs, taxi campbelltown,taxi campbelltown nsw, campbelltown taxi,campbelltown taxis,taxi service campbelltown nsw,taxis campbelltown,luxury taxi campbelltown,taxi service campbelltown`,
-        canonical: `https://campbelltowntaxicabs.com.au/area-covered/${location}`,
+        canonical: `https://campbelltowntaxicabs.com.au/taxi-maxi-service-in/${location}`,
       })}
       {
         !locationData && <PageNotFound/>

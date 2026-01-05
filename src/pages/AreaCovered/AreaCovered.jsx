@@ -202,7 +202,7 @@ const AreaCovered = () => {
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                   {serviceAreas.map((area, index) => (
-                    <Link to={`/maxi-taxi-service-in/${area.toLowerCase().replace(/\s+/g, "-")}`} key={index} className="relative group">
+                    <Link to={`/taxi-maxi-service-in/${area.toLowerCase().replace(/\s+/g, "-")}`} key={index} className="relative group">
                       <div className="bg-primary/5 hover:bg-primary/10 border border-primary/10 rounded-xl p-4 text-center transition-all duration-300 group-hover:scale-105 group-hover:border-primary/20">
                         <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-2 group-hover:bg-[#003E60] transition-colors">
                           <FaTaxi className="text-white text-sm" />
