@@ -120,7 +120,7 @@ const router = createBrowserRouter([
         Component: AreaCovered,
       },
       {
-        path: "/maxi-taxi-service-in/:location",
+        path: "/taxi-maxi-service-in/:location",
         Component: CoveredLocation,
         loader: async () => {
           const res = await fetch("/service.json");
