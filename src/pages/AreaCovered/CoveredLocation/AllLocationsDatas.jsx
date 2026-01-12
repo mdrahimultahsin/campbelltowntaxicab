@@ -1,1123 +1,2578 @@
+import {Link} from "react-router";
 import corporateTripsImg from "../../../assets/services/campbelltown-corporate-trips.jpeg";
 export const allLocationsData = {
   "campbelltown-nsw": {
-    heroTitle: "Taxi Service in Campbelltown",
-    heroDescription:
-      " Campbelltown Taxi Cabs provides safe and reliable transport across Sydney and the Macarthur region. We support families, groups, and business travellers with clean vehicles and trained drivers. Our fleet includes sedans, SUVs, maxi cabs, luxury cars, and wheelchair-accessible taxis. We operate 24/7 and cover airport transfers, corporate trips, cruise pickups, and daily travel needs.",
+    pageTitle: "24/7 Campbelltown Taxi & Maxi Cabs for Fast Pickups",
+    metaDescription:
+      "Reliable Campbelltown Taxi & Maxi Cabs – 24/7 local taxi service, Maxi Cabs, baby seats, and corporate rides. Call or book online for safe, comfortable transport.",
+    heroTitle: "24/7 Campbelltown Taxi and Maxi Cabs for Fast Pickups",
+    heroDescription: (
+      <>
+        When you need Campbelltown Taxi & Maxi Cabs, you want speed, safety, and
+        reliability. Many people face long wait times, cancelled rides, or small
+        vehicles that cannot fit your group or luggage. With our{" "}
+        <Link to={`/book-a-taxi`} className="underline font-semibold">
+          Campbelltown taxi and cab services
+        </Link>
+        , you never have to worry about that. Our fleet includes maxi cabs near
+        me in Campbelltown, SUVs, and standard taxis, ensuring every journey is
+        comfortable. Whether you search for a taxi{" "}
+        <Link to={`/area-covered`} className="underline font-semibold">
+          service near me
+        </Link>{" "}
+        or a{" "}
+        <Link to={`/fleet`} className="underline font-semibold">
+          local taxi service Campbelltown
+        </Link>{" "}
+        , we’re available 24/7. Families, students, shift workers, and business
+        travellers trust us for airport transfers, medical appointments, local
+        trips, and group travel. Our experienced drivers know Campbelltown
+        routes inside out, making every ride punctual and stress-free. With our{" "}
+        <Link to={`/fleet`} className="underline font-semibold">
+          premium fleet
+        </Link>{" "}
+        and easy booking, you get a reliable ride anytime, solving your travel
+        challenges without hassle.
+      </>
+    ),
+    bookingFormTitle: "Book Taxi Maxi Service in Campbelltown NSW",
     locationSectionTitle:
-      "Reliable Corporate Taxi Services Across Campbelltown, Sydney & More Areas",
-    locationSectionDescription:
-      "Campbelltown Taxi Cab pioneered corporate taxi services Sydney with streamlined booking platforms designed for business efficiency. Our fleet accommodates solo executives and team groups simultaneously. We maintain partnerships with notable Campbelltown businesses, including manufacturing facilities and professional service firms.Campbelltown Taxi Cab pioneered corporate taxi services Sydney with streamlined booking platforms designed for business efficiency. Our fleet accommodates solo executives and team groups simultaneously. We maintain partnerships with notable Campbelltown businesses, including manufacturing facilities and professional service firms.Campbelltown Taxi Cab pioneered corporate taxi services Sydney .",
+      "Reliable Corporate Taxi Services Across Campbelltown & Surrounding Areas",
+    locationSectionDescription: (
+      <>
+        If you need professional transport, our Campbelltown Taxi & Maxi Cabs
+        provide seamless corporate travel across Campbelltown and the wider
+        Macarthur region. Many businesses struggle with on-time airport pickups,
+        inter-office travel, or group transport for meetings and events. We
+        solve these issues with our{" "}
+        <Link
+          to={`/services/corporate-transport-services`}
+          className="underline font-semibold"
+        >
+          corporate taxi services
+        </Link>{" "}
+        and{" "}
+        <Link
+          to={`/services/maxi-taxi-service`}
+          className="underline font-semibold"
+        >
+          maxi cab services Campbelltown
+        </Link>
+        . Solo executives, corporate teams, and groups can rely on us for{" "}
+        <Link
+          to={`/services/taxi-sydney-service`}
+          className="underline font-semibold"
+        >
+          taxi cab service near me
+        </Link>{" "}
+        bookings that are fast and stress-free. Every vehicle is clean,
+        well-maintained, and equipped for comfort. Our professional drivers
+        prioritise punctuality, safety, and smooth travel, earning us trust from
+        local businesses. You can schedule{" "}
+        <Link
+          to={`/services/book-taxi-sydney-airport`}
+          className="underline font-semibold"
+        >
+          airport transfers
+        </Link>{" "}
+        , inter-office trips, and special corporate events without worrying
+        about delays. With
+        <Link
+          to={`/services/book-taxi-sydney-airport`}
+          className="underline font-semibold"
+        >
+          Campbelltown taxi cab service
+        </Link>
+        , your team arrives on time, every time, and your corporate reputation
+        stays intact.
+      </>
+    ),
     locationSectionImg: corporateTripsImg,
+    serviceTitle: "Our Taxi and Maxi Services in Campbelltown NSW",
+    serviceSubtitle: (
+      <>
+        When you need a safe and punctual ride,
+        <strong>Campbelltown Taxi & Maxi Cabs</strong> is your trusted local
+        transport service. Whether you are commuting to work, heading to the
+        airport, or attending an event, our professional drivers provide
+        reliable, comfortable, and stress-free journeys. We understand your
+        travel needs, peak-hour traffic, group trips, and luggage-heavy rides.
+        With modern vehicles and local knowledge, you’ll never face long waits
+        or cancelled rides. Booking is simple online or over the phone with
+        clear pricing. Trust our <strong> Campbelltown taxi service</strong> for
+        daily trips, airport transfers, family outings, or corporate travel
+      </>
+    ),
+    locationServices: {
+      S001: {
+        service_id: "S001",
+        title: "Wedding Transfer",
+        description: (
+          <>
+            Travel worry-free on your special day. Our
+            <strong className="pl-1">
+              Campbelltown taxi and cab services
+            </strong>{" "}
+            offer professional drivers, timely pickups, and luggage assistance.
+            We ensure all guests arrive safely and on time. Book via our
+            <Link
+              to={`/services/wedding-transfer`}
+              className="underline font-semibold  pl-1"
+            >
+              wedding transfer page.
+            </Link>{" "}
+          </>
+        ),
+        image: "/car.png",
+        pathname: "/services/wedding-transfer",
+      },
 
-    serviceSubtitle:
-      "At Campbelltown Taxi Cabs, we offer reliable and efficient taxi and maxi services for all your travel needs in Campbelltown and the surrounding areas. Whether you need a quick ride to Sydney Airport,a comfortable maxi taxi for group travel, or a special luxury transfer, we've got you covered.",
+      S002: {
+        service_id: "S002",
+        title: "Luxury Transfer",
+        description: (
+          <>
+            Arrive in style for airport trips, VIP events, or corporate travel.
+            Our{" "}
+            <strong className="pl-1">Campbelltown taxi and cab services</strong>{" "}
+            guarantees comfort, privacy, and punctuality. Learn more at{" "}
+            <Link
+              to={`/services/luxury-transfer`}
+              className="underline font-semibold"
+            >
+              luxury transfer.
+            </Link>{" "}
+          </>
+        ),
+        image: "/vehicle.png",
+        pathname: "/services/luxury-transfer",
+      },
+
+      S003: {
+        service_id: "S003",
+        title: "Baby Seat Taxi Sydney",
+        description: (
+          <>
+            Travel safely with your child. Our taxis include adjustable baby
+            seats for school runs, medical visits, and family outings. Our{" "}
+            <strong className="pl-1">Campbelltown taxi and cab services</strong>{" "}
+            ensures secure and convenient rides. Visit
+            <Link
+              to={`/services/baby-seat-taxi-sydney`}
+              className="underline font-semibold pl-1"
+            >
+              baby seat taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/baby-seat.png",
+        pathname: "/services/baby-seat-taxi-sydney",
+      },
+
+      S004: {
+        service_id: "S004",
+        title: "Corporate Transport Services",
+        description: (
+          <>
+            Reliable and professional transport for office staff, meetings, and
+            business trips. Our
+            <strong className="pl-1">
+              local taxi service Campbelltown{" "}
+            </strong>{" "}
+            provides punctual service, safe vehicles, and smooth journeys. Check
+            corporate
+            <Link
+              to={`/services/corporate-transport-services`}
+              className="underline font-semibold pl-1"
+            >
+              transport services.
+            </Link>{" "}
+          </>
+        ),
+        image: "/corporate.png",
+        pathname: "/services/corporate-transport-services",
+      },
+
+      S005: {
+        service_id: "S005",
+        title: "Cruise Terminal Transfer",
+        description: (
+          <>
+            Start your cruise without travel stress. Our
+            <strong className="pl-1">Campbelltown taxi cab service</strong>{" "}
+            ensures timely pickups, luggage support, and comfortable journeys.
+            Learn more at
+            <Link
+              to={`/services/cruise-terminal-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              cruise terminal transfer.
+            </Link>{" "}
+          </>
+        ),
+        image: "/ship.png",
+        pathname: "/services/cruise-terminal-transfer",
+      },
+
+      S006: {
+        service_id: "S006",
+        title: "Event Transfer",
+        description: (
+          <>
+            Attend weddings, parties, or concerts without transportation
+            worries. Our
+            <strong className="pl-1">Campbelltown taxi cab service</strong>{" "}
+            handles schedules efficiently, providing safe and timely rides.
+            Details at
+            <Link
+              to={`/services/event-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              event transfer.
+            </Link>{" "}
+          </>
+        ),
+        image: "/event.png",
+        pathname: "/services/event-transfer",
+      },
+
+      S007: {
+        service_id: "S007",
+        title: "Maxi Taxi Service",
+        description: (
+          <>
+            Perfect for groups, families, or luggage-heavy trips. Our
+            <strong className="pl-1">
+              maxi cab services Campbelltown
+            </strong>{" "}
+            accommodate up to 12 passengers comfortably. Explore
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              Maxi Taxi Service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/users.png",
+        pathname: "/services/maxi-taxi-service",
+      },
+
+      S008: {
+        service_id: "S008",
+        title: "Reliable Airport Transfers",
+        description: (
+          <>
+            Never miss a flight with our
+            <strong className="pl-1">
+              {" "}
+              Campbelltown taxi cab close to me{" "}
+            </strong>{" "}
+            service. Timely pickups, luggage assistance, and stress-free rides
+            ensure smooth airport travel. Book at airport taxi service.
+          </>
+        ),
+        image: "/airport.png",
+        pathname: "/services/taxi-sydney-service",
+      },
+
+      S009: {
+        service_id: "S009",
+        title: "Corporate Trips",
+        description: (
+          <>
+            Move between offices or meetings with ease. Our
+            <strong className="pl-1">
+              {" "}
+              local taxi cab service near me
+            </strong>{" "}
+            ensures professional, comfortable, and punctual rides every time.
+            Learn more at
+            <Link
+              to={`/services/corporate-tips`}
+              className="underline font-semibold pl-1"
+            >
+              corporate trips.
+            </Link>{" "}
+          </>
+        ),
+        image: "/briefcase.png",
+        pathname: "/services/corporate-tips",
+      },
+    },
+    fleetSectionTitle:
+      "Executive Fleet Options by Campbelltown Taxi & Maxi Cabs",
+    fleetSectionSubTitle:
+      "Choose the right vehicle for your journey with Campbelltown Taxi & Maxi Cabs. Whether you travel alone or with a group, our fleet offers comfort, safety, and reliability. Our drivers are local experts and know the fastest routes around Campbelltown. From airport transfers to corporate trips, we have a solution for every need. Trust our Campbelltown taxi and cab services for smooth, stress-free travel any time of day or night.",
+
+    fleetSectionVehicles: {
+      1: {
+        id: 1,
+        name: "Easy Sedan",
+        passengerCapacity: 4,
+        bagsCapacity: 2,
+        description: (
+          <>
+            Ideal for short trips, errands, and school runs. Our sedans are
+            clean, spacious, and comfortable. With our
+            <strong className="pl-1">Campbelltown taxi service</strong> , you
+            can enjoy safe and reliable rides for daily travel. Book easily at
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              book a taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-easy-sedan.png",
+      },
+
+      2: {
+        id: 2,
+        name: "Luxury Vehicle",
+        passengerCapacity: 4,
+        bagsCapacity: 2,
+        description: (
+          <>
+            Travel in style for airport transfers, corporate travel, or special
+            occasions. Our
+            <strong className="pl-1">Campbelltown taxi service</strong> provides
+            privacy, comfort, and punctual service with professional drivers.
+            Learn more at
+            <Link
+              to={`/services/luxury-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              luxury transfer
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-luxury-vehicle.png",
+      },
+
+      3: {
+        id: 3,
+        name: "Suv or Wagon",
+        passengerCapacity: 7,
+        bagsCapacity: 5,
+        description: (
+          <>
+            Perfect for families, groups, or luggage-heavy trips. Our SUVs offer
+            ample seating, smooth rides, and convenience. Our
+            <strong className="pl-1">taxi services near me </strong> in
+            Campbelltown ensure safe and comfortable travel. Explore
+            <Link to={`/fleet`} className="underline font-semibold pl-1">
+              premium fleet.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-suv-wagon.png",
+      },
+
+      4: {
+        id: 4,
+        name: "Kia Carnival",
+        passengerCapacity: 7,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Ideal for small groups or large families. With spacious seating and
+            luggage capacity, our
+            <strong className="pl-1">
+              {" "}
+              maxi cab near me in Campbelltown{" "}
+            </strong>{" "}
+            offers reliable, safe, and comfortable rides for airport or event
+            travel. Check
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              Maxi Taxi Service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-kia-carnival.png",
+      },
+
+      5: {
+        id: 5,
+        name: "Maxi Taxi",
+        passengerCapacity: 11,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Spacious, safe, and comfortable for up to 12 passengers or
+            luggage-heavy trips. Our
+            <strong className="pl-1">
+              {" "}
+              maxi cab services Campbelltown{" "}
+            </strong>{" "}
+            are perfect for family outings, corporate travel, or group trips.
+            Learn more
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              here.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-maxi-taxi.png",
+      },
+
+      6: {
+        id: 6,
+        name: "Wheelchair Taxi Service",
+        passengerCapacity: 7,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Fully equipped for accessibility and safety. Our
+            <strong className="pl-1">
+              {" "}
+              local taxi service Campbelltown{" "}
+            </strong>{" "}
+            offers professional assistance, easy boarding, and comfortable rides
+            for seniors or passengers with mobility needs. Book at
+            <Link
+              to={`/services/wheelchair-accessible-taxi`}
+              className="underline font-semibold pl-1"
+            >
+              wheelchair taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-maxi-taxi.png",
+      },
+    },
+    faqSectionTitle:
+      "Frequently Asked Questions About Campbelltown Taxi & Maxi Cabs",
     faqs: [
       {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
+        question: "How can I book a Campbelltown taxi near me?",
+        answer: (
+          <>
+            Call 1300 450 428 or book online at{" "}
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              campbelltowntaxicabs.com.
+            </Link>{" "}
+            campbelltowntaxicabs.com. Our{" "}
+            <strong className="pl-1">Campbelltown taxi cab close to me</strong>{" "}
+            service ensures fast, safe, and reliable pickups.
+          </>
+        ),
       },
       {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
-      },
-
-      {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
-      },
-      {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
+        question: "Do you provide Maxi Cab services in Campbelltown?",
+        answer: (
+          <>
+            Yes, our
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              maxi cab services Campbelltown
+            </Link>{" "}
+            accommodate up to 12 passengers. Perfect for families, group travel,
+            and airport transfers with ample luggage space.
+          </>
+        ),
       },
       {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
+        question: "Are your taxis available 24/7?",
+        answer: (
+          <>
+            Absolutely. Our
+            <strong className="pl-1">
+              {" "}
+              Campbelltown taxi and cab services
+            </strong>{" "}
+            operate day and night, including weekends and holidays. You can rely
+            on us whenever you need a ride..
+          </>
+        ),
       },
       {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
+        question: "Can I get a taxi with a baby seat?",
+        answer: (
+          <>
+            Yes. Adjustable baby seats are available for safety. Travel
+            comfortably for school runs, appointments, or family outings with
+            our
+            <strong className="pl-1">Campbelltown taxi service</strong>
+          </>
+        ),
       },
       {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
+        question: "Do you offer corporate transport services?",
+        answer: (
+          <>
+            Yes, our
+            <strong className="pl-1"> local taxi service Campbelltown </strong>
+            handles office commutes, meetings, and corporate travel.
+            Professional drivers ensure safe, on-time, and stress-free rides
+            every time.
+          </>
+        ),
       },
       {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
+        question: "Is there a luxury transfer option?",
+        answer: (
+          <>
+            Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
+            a<strong className="pl-1"> Campbelltown taxi cab service</strong>{" "}
+            for airport trips, VIP travel, or special occasions.
+          </>
+        ),
       },
       {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
+        question: "Are wheelchair-accessible taxis available?",
+        answer: (
+          <>
+            Yes. Our
+            <strong className="pl-1">local taxi cab service near me</strong>
+            ensures safe, accessible, and comfortable rides for seniors or
+            passengers with mobility challenges.
+          </>
+        ),
       },
       {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
+        question: " Do you operate outside Campbelltown?",
+        answer: (
+          <>
+            Yes. We cover Raby, Macarthur, Camden, Liverpool, and nearby
+            suburbs. Find your
+            <strong className="pl-1"> local taxi service near me </strong>
+            at
+          </>
+        ),
+      },
+      {
+        question: "Are wheelchair-accessible taxis available?",
+        answer: (
+          <>
+            Yes. Our
+            <strong className="pl-1">local taxi cab service near me</strong>
+            ensures safe, accessible, and comfortable rides for seniors or
+            passengers with mobility challenges.{" "}
+            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+              service areas.
+            </Link>{" "}
+          </>
+        ),
+      },
+      {
+        question: " How can I contact Campbelltown Taxi & Maxi Cabs?",
+        answer: (
+          <>
+            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
+            or visit{" "}
+            <Link to={`/`} className="underline font-semibold pl-1">
+              campbelltowntaxicabs.com.au.
+            </Link>{" "}
+            Book your trusted
+            <strong className="pl-1">Campbelltown taxi cab service </strong>
+            today.
+          </>
+        ),
       },
     ],
   },
   "ambarvale-nsw": {
-    heroTitle: "Taxi Service in Ambarvale",
-    heroDescription:
-      " Ambarvale Taxi Cabs delivers dependable and professional taxi and maxi cab services in Ambarvale NSW and nearby Macarthur suburbs. We cater to families, group travellers, and corporate passengers with clean, modern vehicles driven by experienced local drivers.Our diverse fleet features standard taxis, spacious maxi cabs, SUVs, premium vehicles, and wheelchair-accessible taxis, ensuring a comfortable option for every journey. Available 24/7, we provide reliable Sydney Airport transfers, corporate transport, cruise terminal pickups, and everyday local taxi services throughout Ambarvale, Campbelltown, Narellan, and surrounding areas.",
+    pageTitle: "Ambarvale Taxi & Maxi Cabs | Reliable Local Taxi Service 24/7",
+    metaDescription:
+      "Enjoy safe, on-time travel with Ambarvale Taxi & Maxi Cabs – local drivers, clean vehicles. Book now for quick pickup & stress-free rides. 24/7 service",
+    heroTitle: "Ambarvale Taxi & Maxi Cabs | Reliable Local Taxi Service 24/7",
+    heroDescription: (
+      <>
+        Looking for <strong> Ambarvale Taxi & Maxi Cabs</strong> you can trust?
+        You’re in the right place. We provide professional,
+        <strong>24/7 local taxi service in Ambarvale</strong> and the
+        surrounding Macarthur suburbs. Whether you need a{" "}
+        <strong> maxi cab near me in Ambarvale,</strong>, a{" "}
+        <strong>taxi service close to me in Ambarvale</strong> , or a{" "}
+        <strong>local taxi cab service near me</strong>, we’ve got you covered.
+        <br />
+        Our fleet includes{" "}
+        <strong>
+          {" "}
+          standard taxis, spacious maxi cabs, SUVs, premium vehicles, and
+          wheelchair-accessible taxis
+        </strong>
+        . Every ride is clean, safe, and comfortable, making it perfect for
+        families, corporate travelers, or groups. With{" "}
+        <strong>experienced local drivers</strong>, you can relax knowing your
+        journey will be smooth and timely.
+        <br />
+        We provide{" "}
+        <strong>
+          airport transfers, cruise terminal pickups, corporate transport, and
+          everyday taxi services.
+        </strong>{" "}
+        From{" "}
+        <strong>
+          Ambarvale to Campbelltown, Narellan, and surrounding areas
+        </strong>
+        , we ensure you reach your destination safely and on time.
+      </>
+    ),
+    bookingFormTitle: "Book  Taxi Sydney Airport Service in Ambarvale",
     locationSectionTitle:
-      "Reliable Taxi and Maxi Cab Services in Ambarvale, NSW – Airport & Corporate Transfers | 24/7 Taxi & Maxi Cab Services | Safe, Comfortable, On-Time",
-    locationSectionDescription:
-      "Ambarvale Taxi Cab provides professional corporate taxi and maxi cab services across Ambarvale and the wider Macarthur region. Our streamlined booking system and modern, well-maintained fleet ensure efficient, reliable transport for solo executives, corporate teams, and group travel. We proudly support local Ambarvale businesses, including manufacturing facilities and professional service firms, offering dependable corporate transport solutions that enhance daily operations and business mobility. Available 24/7, our services cover airport transfers, inter-office travel, and time-critical corporate journeys, delivering a smooth, professional experience every time. With experienced drivers and a focus on safety, comfort, and punctuality, Ambarvale Taxi Cab is the trusted choice for corporate, airport, and group taxi services in Ambarvale and across Macarthur NSW.",
+      "Reliable Corporate Taxi Services Across Ambarvale & Surrounding Areas",
+    locationSectionDescription: (
+      <>
+        Need a{" "}
+        <strong> professional corporate taxi service in Ambarvale</strong>? Our{" "}
+        <strong>Ambarvale taxi cab service</strong> is tailored for executives,
+        corporate teams, and business travellers. You can count on{" "}
+        <strong>Ambarvale Taxi & Maxi Cabs</strong> for{" "}
+        <strong>
+          time-critical journeys, inter-office Travel, and airport transfers.
+        </strong>
+        <br />
+        We support local businesses throughout Ambarvale and the Macarthur
+        region. Our{" "}
+        <strong>modern fleet and streamlined booking system </strong>make
+        corporate Travel efficient and dependable. Whether you need a{" "}
+        <strong>maxi cab service in Ambarvale</strong> or a{" "}
+        <strong>local taxi service near you</strong>, we prioritize punctuality,
+        safety, and comfort for every passenger.
+        <br />
+        With <strong> experienced drivers and professional service</strong>, you
+        can trust us for the <strong>Ambarvale taxi cab service</strong> that
+        keeps your schedule on track.
+      </>
+    ),
     locationSectionImg: corporateTripsImg,
-    serviceSubtitle:
-      "Ambarvale Taxi Cab offers dependable taxi and maxi cab services across Ambarvale NSW and surrounding suburbs. From Sydney Airport taxi transfers to maxi cabs for group bookings and premium taxis for special events, we deliver flexible transport solutions to suit every need. With courteous, fully licensed drivers and well-maintained vehicles, we guarantee on-time pickups, safe travel, and a comfortable ride, making us a preferred provider for local, corporate, and airport taxi services in Ambarvale",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+    serviceTitle: "Our Taxi and Maxi Services in Ambarvale",
+    serviceSubtitle: (
+      <>
+        When you need a trusted ride,
+        <strong> Ambarvale Taxi & Maxi Cabs</strong>is your go-to local service.
+        Whether you’re travelling to work, the airport, or a family event, you
+        can rely on our punctual, safe, and professional service. We understand
+        your daily travel needs and the challenges of peak hours. With our
+        modern fleet, experienced drivers, and local knowledge, you’ll never
+        wait long for a taxi or maxi cab. Booking is easy online or over the
+        phone, giving you transparent fares and stress-free Travel every time.
+        Experience the best <strong> Ambarvale taxi service</strong> today.
+      </>
+    ),
+    locationServices: {
+      S001: {
+        service_id: "S001",
+        title: "Wedding Transfer",
+        description: (
+          <>
+            Celebrate your big day stress-free. Our taxis and
+            <strong className="pl-1">Ambarvale taxi cab services</strong> ensure
+            on-time pickups, safe journeys, and assistance with luggage. Book
+            your wedding transfer easily through our
+            <Link
+              to={`/services/wedding-transfer`}
+              className="underline font-semibold  pl-1"
+            >
+              dedicated wedding transfer page.
+            </Link>{" "}
+          </>
+        ),
+        image: "/car.png",
+        pathname: "/services/wedding-transfer",
       },
 
+      S002: {
+        service_id: "S002",
+        title: "Luxury Transfer",
+        description: (
+          <>
+            Travel in comfort with our luxury vehicles. Ideal for VIP trips,
+            airport rides, or corporate events. Check out our
+            <Link
+              to={`/services/luxury-transfer`}
+              className="underline font-semibold"
+            >
+              luxury transfer page.
+            </Link>{" "}
+          </>
+        ),
+        image: "/vehicle.png",
+        pathname: "/services/luxury-transfer",
+      },
+
+      S003: {
+        service_id: "S003",
+        title: "Baby Seat Taxi Sydney",
+        description: (
+          <>
+            Keep Your Little Ones Safe. We provide adjustable child seats for
+            school runs, medical appointments, and family outings. Learn more at
+            <Link
+              to={`/services/baby-seat-taxi-sydney`}
+              className="underline font-semibold pl-1"
+            >
+              Baby Seat Taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/baby-seat.png",
+        pathname: "/services/baby-seat-taxi-sydney",
+      },
+
+      S004: {
+        service_id: "S004",
+        title: "Corporate Transport Services",
+        description: (
+          <>
+            Professional and punctual, our corporate taxis handle office
+            commutes, meetings, and business trips. Visit
+            <Link
+              to={`/services/corporate-transport-services`}
+              className="underline font-semibold pl-1"
+            >
+              corporate transport services.
+            </Link>{" "}
+          </>
+        ),
+        image: "/corporate.png",
+        pathname: "/services/corporate-transport-services",
+      },
+
+      S005: {
+        service_id: "S005",
+        title: "Cruise Terminal Transfer",
+        description: (
+          <>
+            Travel to or from cruise terminals without stress. Our
+            <strong className="pl-1">local taxi service, Ambarvale</strong>{" "}
+            ensures timely ensures timely arrivals and smooth luggage handling.
+            Check the
+            <Link
+              to={`/services/cruise-terminal-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              cruise terminal transfer.
+            </Link>{" "}
+          </>
+        ),
+        image: "/ship.png",
+        pathname: "/services/cruise-terminal-transfer",
+      },
+
+      S006: {
+        service_id: "S006",
+        title: "Event Transfer",
+        description: (
+          <>
+            Arrive in style for concerts, parties, or weddings. Our
+            <strong className="pl-1">Ambarvale taxi cab service</strong> handles
+            manage your schedule efficiently. More info on
+            <Link
+              to={`/services/event-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              event transfer.
+            </Link>{" "}
+          </>
+        ),
+        image: "/event.png",
+        pathname: "/services/event-transfer",
+      },
+
+      S007: {
+        service_id: "S007",
+        title: "Maxi Taxi Service",
+        description: (
+          <>
+            Perfect for groups or families. Our
+            <strong className="pl-1">
+              maxi cab services in Ambarvale{" "}
+            </strong>{" "}
+            fit up to 12 passengers comfortably. Learn more at
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              Maxi Taxi Service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/users.png",
+        pathname: "/services/maxi-taxi-service",
+      },
+
+      S008: {
+        service_id: "S008",
+        title: "Reliable Airport Transfers",
+        description: (
+          <>
+            Never miss a flight with our
+            <strong className="pl-1">
+              Ambarvale taxi service, available close to you.{" "}
+            </strong>{" "}
+            On-time pickups, safe journeys, and luggage help make your trip
+            hassle-free. Book an
+            <Link
+              to={`/services/book-taxi-sydney-airport`}
+              className="underline font-semibold pl-1"
+            >
+              airport taxi service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/airport.png",
+        pathname: "/services/taxi-sydney-service",
+      },
+
+      S009: {
+        service_id: "S009",
+        title: "Corporate Trips",
+        description: (
+          <>
+            Travel between offices or meetings with reliability and efficiency.
+            Our
+            <strong className="pl-1"> local taxi service</strong> ensures
+            professionalism and comfort in your area. Explore
+            <Link
+              to={`/services/corporate-tips`}
+              className="underline font-semibold pl-1"
+            >
+              corporate trips.
+            </Link>{" "}
+          </>
+        ),
+        image: "/briefcase.png",
+        pathname: "/services/corporate-tips",
+      },
+    },
+    fleetSectionTitle: "Executive Fleet Options by Ambarvale Taxi & Maxi Cabs",
+    fleetSectionSubTitle:
+      "Your ride matters. With Ambarvale Taxi & Maxi Cabs, you can choose vehicles to match your travel style, group size, or comfort needs. Our drivers know local routes well. From solo trips to group travel, our fleet guarantees safety, comfort, and timely arrivals. Whether you're looking for a quick local ride or a luxurious airport transfer, we have the perfect option for you.",
+
+    fleetSectionVehicles: {
+      1: {
+        id: 1,
+        name: "Easy Sedan",
+        passengerCapacity: 4,
+        bagsCapacity: 2,
+        description: (
+          <>
+            Ideal for daily commuting or errands. Our sedans offer a reliable
+            <strong className="pl-1">Ambarvale taxi service</strong> , providing
+            comfort and convenience. Book now at
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              book a taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-easy-sedan.png",
+      },
+
+      2: {
+        id: 2,
+        name: "Luxury Vehicle",
+        passengerCapacity: 4,
+        bagsCapacity: 2,
+        description: (
+          <>
+            Perfect for VIP travel or airport rides. Experience privacy,
+            comfort, and punctuality with our
+            <strong className="pl-1">Ambarvale taxi cab service</strong> Learn
+            more at
+            <Link
+              to={`/services/luxury-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              luxury transfer
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-luxury-vehicle.png",
+      },
+
+      3: {
+        id: 3,
+        name: "Suv or Wagon",
+        passengerCapacity: 7,
+        bagsCapacity: 5,
+        description: (
+          <>
+            Ideal for families or heavy luggage. Enjoy smooth rides with our
+            <strong className="pl-1">taxi services near me </strong> iin
+            Ambarvale. Explore our
+            <Link to={`/fleet`} className="underline font-semibold pl-1">
+              premium fleet.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-suv-wagon.png",
+      },
+
+      4: {
+        id: 4,
+        name: "Kia Carnival",
+        passengerCapacity: 7,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Perfect for larger groups. Our
+            <strong className="pl-1">maxi cab near me in Ambarvale</strong>{" "}
+            handles up to 12 passengers comfortably. Check
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              Maxi Taxi Service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-kia-carnival.png",
+      },
+
+      5: {
+        id: 5,
+        name: "Maxi Taxi",
+        passengerCapacity: 11,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Spacious and reliable for group travel. Our
+            <strong className="pl-1">
+              {" "}
+              maxi cab services in Ambarvale
+            </strong>{" "}
+            are perfect for family trips and corporate outings. Learn more
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              here.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-maxi-taxi.png",
+      },
+
+      6: {
+        id: 6,
+        name: "Wheelchair Taxi Service",
+        passengerCapacity: 7,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Fully equipped for safe Travel. Our
+            <strong className="pl-1">
+              {" "}
+              Ambarvale service Campbelltown{" "}
+            </strong>{" "}
+            taxi service ensures easy boarding and professional assistance. Book
+            a
+            <Link
+              to={`/services/wheelchair-accessible-taxi`}
+              className="underline font-semibold pl-1"
+            >
+              wheelchair taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-maxi-taxi.png",
+      },
+    },
+    faqSectionTitle:
+      "Frequently Asked Questions About Ambarvale  Taxi & Maxi Cabs",
+    faqs: [
       {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
+        question: "How can I book a Ambarvale  taxi near me?",
+        answer: (
+          <>
+            Call 1300 450 428 or book online at{" "}
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              campbelltowntaxicabs.com.
+            </Link>{" "}
+            campbelltowntaxicabs.com. Our{" "}
+            <strong className="pl-1">Campbelltown taxi cab close to me</strong>{" "}
+            service ensures fast, safe, and reliable pickups.
+          </>
+        ),
       },
       {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
+        question: "Do you provide Maxi Cab services in Ambarvale ?",
+        answer: (
+          <>
+            Yes, our
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              maxi cab services Ambarvale
+            </Link>{" "}
+            accommodate up to 12 passengers. Perfect for families, group travel,
+            and airport transfers with ample luggage space.
+          </>
+        ),
       },
       {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
+        question: "Are your taxis available 24/7?",
+        answer: (
+          <>
+            Absolutely. Our
+            <strong className="pl-1">
+              {" "}
+              Ambarvale taxi and cab services
+            </strong>{" "}
+            operate day and night, including weekends and holidays. You can rely
+            on us whenever you need a ride..
+          </>
+        ),
       },
       {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
+        question: "Can I get a taxi with a baby seat?",
+        answer: (
+          <>
+            Yes. Adjustable baby seats are available for safety. Travel
+            comfortably for school runs, appointments, or family outings with
+            our
+            <strong className="pl-1">Ambarvale taxi service</strong>
+          </>
+        ),
       },
       {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
+        question: "Do you offer corporate transport services?",
+        answer: (
+          <>
+            Yes, our
+            <strong className="pl-1"> local taxi service Ambarvale </strong>
+            handles office commutes, meetings, and corporate travel.
+            Professional drivers ensure safe, on-time, and stress-free rides
+            every time.
+          </>
+        ),
       },
       {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
+        question: "Is there a luxury transfer option?",
+        answer: (
+          <>
+            Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
+            a<strong className="pl-1"> Ambarvale taxi cab service</strong> for
+            airport trips, VIP travel, or special occasions.
+          </>
+        ),
       },
       {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
+        question: "Are wheelchair-accessible taxis available?",
+        answer: (
+          <>
+            Yes. Our
+            <strong className="pl-1">local taxi cab service near me</strong>
+            ensures safe, accessible, and comfortable rides for seniors or
+            passengers with mobility challenges.
+          </>
+        ),
       },
       {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
+        question: " Do you operate outside Ambarvale ?",
+        answer: (
+          <>
+            Yes. We cover Raby, Macarthur, Camden, Liverpool, and nearby
+            suburbs. Find your
+            <strong className="pl-1"> local taxi service near me </strong>
+            easily in our{" "}
+            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+              service areas.
+            </Link>{" "}
+          </>
+        ),
+      },
+      {
+        question: "Are wheelchair-accessible taxis available?",
+        answer: (
+          <>
+            Yes. Our
+            <strong className="pl-1">local taxi cab service near me</strong>
+            ensures safe, accessible, and comfortable rides for seniors or
+            passengers with mobility challenges.{" "}
+            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+              service areas.
+            </Link>{" "}
+          </>
+        ),
+      },
+      {
+        question: " How can I contact Campbelltown Taxi & Maxi Cabs?",
+        answer: (
+          <>
+            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
+            or visit{" "}
+            <Link to={`/`} className="underline font-semibold pl-1">
+              campbelltowntaxicabs.com.au.
+            </Link>{" "}
+            Book your trusted
+            <strong className="pl-1">Ambarvale taxi cab service </strong>
+            today.
+          </>
+        ),
       },
     ],
   },
-  "macarthur-nsw": {
-    heroTitle: "Taxi Service in Macarthur",
-    heroDescription:
-      "Campbelltown Taxi Cabs provides safe, reliable, and professional taxi services across Macarthur, NSW and surrounding Sydney suburbs. We support families, groups, and business travellers with clean, comfortable vehicles and experienced local drivers. Our fleet includes standard taxis, maxi cabs, SUVs, luxury cars, and wheelchair-accessible taxis. Operating 24/7, we offer airport transfers, corporate travel, cruise terminal pickups, and everyday local transport throughout Campbelltown, Camden, Narellan, and nearby areas.",
+  "appin-nsw": {
+    pageTitle: "24/7 Appin Taxi & Maxi Cabs for Local & Long-Distance Trips",
+    metaDescription:
+      "Enjoy smooth rides with Appin Taxi & Maxi Cabs – perfect for groups, airport trips, and daily travel. Book today for reliable service",
+    heroTitle: "24/7 Appin Taxi & Maxi Cabs for Local & Long-Distance Trips",
+    heroDescription: (
+      <>
+        Looking for <strong>Appin Taxi & Maxi Cabs</strong> you can trust?
+        You’ve found the right service. We provide{" "}
+        <strong>safe, professional, and 24/7 local taxi service Appin</strong>{" "}
+        and surrounding Macarthur suburbs. Whether you need a{" "}
+        <strong>maxi cab near me</strong>, a taxi service close to me Appin, or
+        a <strong>local taxi cab service near me</strong>, we are ready for you.{" "}
+        <br />
+        Our fleet includes{" "}
+        <strong>
+          standard taxis, maxi cabs, SUVs, luxury vehicles, and
+          wheelchair-accessible taxis
+        </strong>
+        , giving you flexible transport for families, groups, or corporate
+        travel. Every ride is{" "}
+        <strong>
+          clean, comfortable, and driven by experienced local drivers
+        </strong>
+        , so you can relax. <br />
+        We cover Appin, Campbelltown, Camden, and nearby suburbs. From Sydney
+        Airport transfers, cruise terminal pickups, to everyday local taxi
+        service, our team ensures your journey is smooth, timely, and
+        stress-free. <br />
+      </>
+    ),
+    bookingFormTitle: "Book  Taxi Sydney Airport Service in Appin",
     locationSectionTitle:
-      "Reliable Taxi & Maxi Cab Services in Macarthur NSW | 24/7 Corporate & Airport Transfers",
-    locationSectionDescription:
-      "Campbelltown Taxi Cab delivers professional corporate taxi services across the Macarthur region with efficient, streamlined booking systems built for business travel. Our modern fleet caters to solo executives, corporate teams, and group transfers with reliable, on-time service. We proudly partner with leading Macarthur businesses, including manufacturing sites and professional service firms, providing dependable transport solutions that support daily operations and corporate mobility. Our services are available 24/7 to meet early-morning, late-night, and time-critical travel requirements. From airport transfers to inter-office transport, we ensure a smooth and professional experience for every journey. With experienced drivers and well-maintained vehicles, Macarthur Taxi Cab remains a trusted choice for corporate transport in the region.",
+      "Appin Taxi & Maxi Cabs – Professional Corporate & Group Travel",
+    locationSectionDescription: (
+      <>
+        Need
+        <strong>reliable Appin taxi and cab services</strong>for work or group
+        travel? Our
+        <strong>Appin Taxi & Maxi Cabs </strong> provide
+        <strong>corporate transport and maxi cab services Appin</strong>across
+        the Macarthur region. Solo executives, teams, and groups can rely on our
+        <strong>modern, well-maintained fleet</strong>
+        and efficient booking system. We proudly support
+        <strong>local Appin businesses,</strong> including offices, professional
+        service firms, and manufacturing facilities. Our services cover
+        <strong>
+          {" "}
+          airport transfers, inter-office travel, and time-sensitive corporate
+          journeys,
+        </strong>{" "}
+        ensuring safety, comfort, and punctuality every time. With
+        <strong>
+          experienced drivers and a commitment to professional service
+        </strong>
+        , we are the trusted choice for{" "}
+        <strong> taxi cab service near me, local taxi service Appin</strong>,
+        and <strong>maxi cabs near me in Appin.</strong>
+      </>
+    ),
     locationSectionImg: corporateTripsImg,
-    serviceSubtitle:
-      "At Campbelltown Taxi Cabs, we provide reliable and efficient taxi and maxi cab services to meet all your travel needs across the Macarthur region and surrounding areas. Whether you require a prompt airport transfer to Sydney Airport, a spacious maxi taxi for group travel, or a comfortable luxury transfer for special occasions, we have you covered.",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+    serviceTitle: "Our Taxi and Maxi Services in Appin",
+    serviceSubtitle: (
+      <>
+        When you need a reliable ride,
+        <strong> Appin Taxi & Maxi Cabs</strong>is here for you 24/7. Whether
+        it’s a quick local trip, airport transfer, or long-distance journey, our
+        professional drivers provide safe, timely, and comfortable rides. You
+        can trust us to handle your luggage, schedule, and travel needs. With
+        our modern fleet and local knowledge, you won’t experience long waits or
+        unreliable service. Booking is fast online or by phone. Experience the
+        most convenient <strong> Appin taxi service</strong> today, tailored for
+        families, students, and professionals alike.
+      </>
+    ),
+    locationServices: {
+      S001: {
+        service_id: "S001",
+        title: "Wedding Transfer",
+        description: (
+          <>
+            Travel stress-free on your big day. Our
+            <strong className="pl-1">Appin taxi cab services</strong> ensure
+            on-time arrivals, comfortable rides, and help with luggage. Book via
+            our
+            <Link
+              to={`/services/wedding-transfer`}
+              className="underline font-semibold  pl-1"
+            >
+              wedding transfer page.
+            </Link>{" "}
+          </>
+        ),
+        image: "/car.png",
+        pathname: "/services/wedding-transfer",
       },
 
-      {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
-      },
-      {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
-      },
-      {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
-      },
-      {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
-      },
-      {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
-      },
-      {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
-      },
-      {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
-      },
-      {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
-      },
-    ],
-  },
-  "menangle-nsw": {
-    heroTitle: "Taxi Service in Menangle",
-    heroDescription:
-      "Campbelltown Taxi Cabs proudly provides reliable taxi and maxi services in Menangle, NSW, serving residents, visitors, and businesses with prompt and professional transport. Whether you need a local taxi in Menangle, a maxi cab for group travel, or a comfortable airport transfer, our experienced drivers and clean vehicles are available 24/7. We cover daily commutes, school runs, event transport, corporate travel, and long-distance trips to and from Menangle, with fast service across the wider Macarthur region.",
-    locationSectionTitle:
-      "Reliable Taxi & Maxi Cab Services in Menangle NSW | 24/7 Corporate, Group & Airport Transfers",
-    locationSectionDescription:
-      "Menangle Taxi Cab provides professional taxi and maxi cab services across Menangle and the surrounding Macarthur region. With our streamlined booking system and modern fleet, we cater to solo executives, corporate teams, and group travel, ensuring reliable, on-time service every time. We proudly serve local Menangle businesses, including manufacturing facilities and professional service firms, offering dependable corporate transport solutions that support daily operations and business mobility. Our 24/7 taxi and maxi services are perfect for airport transfers, inter-office travel, group outings, and special occasions. With experienced drivers, well-maintained vehicles, and a focus on comfort and safety, Menangle Taxi Cab is the trusted choice for corporate, airport, and group taxi services in Menangle and the broader Macarthur region",
-    locationSectionImg: corporateTripsImg,
-    serviceSubtitle:
-      "At Menangle Taxi Cab, we provide reliable and efficient taxi and maxi cab services for all your travel needs in Menangle and the surrounding areas. Whether you need a quick ride to Sydney Airport, a comfortable maxi taxi for group travel, or a luxury transfer for special occasions, we have you covered. Our professional drivers ensure a safe, punctual, and comfortable journey every time.",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+      S002: {
+        service_id: "S002",
+        title: "Luxury Transfer",
+        description: (
+          <>
+            Enjoy VIP comfort for airport rides, corporate meetings, or special
+            events. Our luxury vehicles provide privacy and style. Learn more at
+            <Link
+              to={`/services/luxury-transfer`}
+              className="underline font-semibold"
+            >
+              luxury transfer page.
+            </Link>{" "}
+          </>
+        ),
+        image: "/vehicle.png",
+        pathname: "/services/luxury-transfer",
       },
 
-      {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
-      },
-      {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
-      },
-      {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
-      },
-      {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
-      },
-      {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
-      },
-      {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
-      },
-      {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
-      },
-      {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
-      },
-    ],
-  },
-  "leumeah--nsw": {
-    heroTitle: "Taxi Service in Leumeah",
-    heroDescription:
-      "Campbelltown Taxi Cabs offers fast, safe, and reliable taxi services in Leumeah, NSW, supporting residents, commuters, and businesses with dependable transport. Whether you need a local taxi in Leumeah, a maxi cab for family or group travel, or a smooth airport transfer, our professional drivers and clean vehicles are available 24/7. We handle daily travel, station drop-offs, medical appointments, corporate trips, and long-distance rides, with full coverage across Leumeah and the wider Macarthur region.",
-    locationSectionTitle:
-      "Trusted Leumeah Taxi & Maxi Cabs for Airport Transfers and Corporate Travel | 24/7 Taxi and Maxi Cab Services",
-    locationSectionDescription:
-      "Leumeah Taxi Cab provides professional taxi and maxi cab services throughout Leumeah and the surrounding Macarthur region. With a streamlined booking system and a modern, well-maintained fleet, we cater to solo travellers, corporate teams, and group travel, delivering reliable and on-time service every time. We proudly support local Leumeah businesses, including manufacturing facilities and professional service firms, by offering dependable corporate transport solutions that assist with daily operations and business mobility. Our 24/7 taxi and maxi cab services are ideal for Sydney Airport transfers, inter-office travel, group outings, and special occasions. With experienced drivers, clean vehicles, and a strong focus on comfort and safety, Leumeah Taxi Cab is a trusted choice for corporate, airport, and group taxi services across Leumeah and the wider Macarthur region.",
-    locationSectionImg: corporateTripsImg,
-    serviceSubtitle:
-      "At Leumeah Taxi Cab, we deliver reliable and efficient taxi and maxi cab services in Leumeah NSW and surrounding areas. Whether you require a fast Sydney Airport transfer, a spacious maxi taxi for group travel, or a luxury taxi service for special occasions, we are here to help. Our experienced drivers provide safe, punctual, and comfortable journeys, making us a trusted choice for airport, corporate, and local taxi services in Leumeah.",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+      S003: {
+        service_id: "S003",
+        title: "Baby Seat Taxi Sydney",
+        description: (
+          <>
+            Keep your little one safe. We provide child seats for school trips,
+            appointments, or family outings. Check
+            <Link
+              to={`/services/baby-seat-taxi-sydney`}
+              className="underline font-semibold pl-1"
+            >
+              Baby Seat Taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/baby-seat.png",
+        pathname: "/services/baby-seat-taxi-sydney",
       },
 
-      {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
-      },
-      {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
-      },
-      {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
-      },
-      {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
-      },
-      {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
-      },
-      {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
-      },
-      {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
-      },
-      {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
-      },
-    ],
-  },
-  "appin--nsw": {
-    heroTitle: "Taxi Service in Appin",
-    heroDescription:
-      "Appin Taxi Cabs provides safe, reliable, and professional taxi and maxi cab services in Appin NSW and the surrounding Macarthur region. We support local residents, families, group travellers, and business clients with clean, comfortable vehicles and knowledgeable local drivers. Our fleet includes standard taxis, maxi cabs, SUVs, luxury vehicles, and wheelchair-accessible taxis, giving you flexible transport options for every occasion. Operating 24/7, we offer dependable Sydney Airport transfers, corporate travel, cruise terminal pickups, and everyday local transport throughout Appin, Campbelltown, Camden, and nearby suburbs.",
-    locationSectionTitle:
-      "Appin Taxi & Maxi Cab Services – Reliable 24/7 Airport, Corporate & Group Travel",
-    locationSectionDescription:
-      "Appin Taxi Cab offers reliable corporate taxi and maxi cab services throughout Appin and the greater Macarthur region. With our efficient online booking system and a modern, well-maintained fleet, we provide dependable transport solutions for solo executives, corporate teams, and group travel. We proudly partner with local Appin businesses, including professional service firms and manufacturing facilities, delivering corporate transport solutions that support smooth daily operations and enhance business mobility. Operating 24/7, our services include airport transfers, inter-office travel, and time-sensitive corporate journeys, ensuring a safe, timely, and professional experience every time. With experienced drivers and a commitment to safety, comfort, and punctuality, Appin Taxi Cab is the trusted choice for corporate, airport, and group taxi services in Appin and across Macarthur NSW.",
-    locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in Appin, NSW",
-    serviceSubtitle:
-      "Appin Taxi Cab provides reliable taxi and maxi cab services in Appin NSW and the surrounding Macarthur region. Whether you need a prompt Sydney Airport transfer, a spacious maxi taxi for family or group travel, or a comfortable taxi service for special occasions, we offer convenient transport solutions. With professional drivers, clean vehicles, and a strong focus on safety and punctuality, we are a trusted choice for local, corporate, and airport taxi services in Appin.",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+      S004: {
+        service_id: "S004",
+        title: "Corporate Transport Services",
+        description: (
+          <>
+            Punctual, professional drivers for office commutes, meetings, and
+            business travel. Our{" "}
+            <strong className="pl-1">local taxi service Appin </strong> ensures
+            smooth corporate trips. See
+            <Link
+              to={`/services/corporate-transport-services`}
+              className="underline font-semibold pl-1"
+            >
+              corporate transport services.
+            </Link>{" "}
+          </>
+        ),
+        image: "/corporate.png",
+        pathname: "/services/corporate-transport-services",
       },
 
+      S005: {
+        service_id: "S005",
+        title: "Cruise Terminal Transfer",
+        description: (
+          <>
+            Travel stress-free to cruise terminals. Our Appin taxi cab service
+            provides on-time pickups and luggage assistance. Visit
+            <Link
+              to={`/services/cruise-terminal-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              cruise terminal transfer.
+            </Link>{" "}
+          </>
+        ),
+        image: "/ship.png",
+        pathname: "/services/cruise-terminal-transfer",
+      },
+
+      S006: {
+        service_id: "S006",
+        title: "Event Transfer",
+        description: (
+          <>
+            Arrive on time for weddings, concerts, or parties. Our taxi service
+            close to me Appin manages schedules efficiently. More info at
+            <Link
+              to={`/services/event-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              event transfer.
+            </Link>{" "}
+          </>
+        ),
+        image: "/event.png",
+        pathname: "/services/event-transfer",
+      },
+
+      S007: {
+        service_id: "S007",
+        title: "Maxi Taxi Service",
+        description: (
+          <>
+            Perfect for groups and family trips. Our maxi cab services Appin
+            handle up to 12 passengers comfortably. Learn more at
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              Maxi Taxi Service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/users.png",
+        pathname: "/services/maxi-taxi-service",
+      },
+      S008: {
+        service_id: "S009",
+        title: "Corporate Trips",
+        description: (
+          <>
+            Reliable rides between offices and meetings. Our
+            <strong className="pl-1">
+              {" "}
+              local taxi cab service near me{" "}
+            </strong>{" "}
+            provides safe and professional trips. Explore
+            <Link
+              to={`/services/corporate-tips`}
+              className="underline font-semibold pl-1"
+            >
+              corporate trips.
+            </Link>{" "}
+          </>
+        ),
+        image: "/briefcase.png",
+        pathname: "/services/corporate-tips",
+      },
+      S009: {
+        service_id: "S008",
+        title: "Reliable Airport Transfers",
+        description: (
+          <>
+            Never miss a flight. Our
+            <strong className="pl-1">
+              Appin taxi service, available close to you.{" "}
+            </strong>{" "}
+            service ensures on-time pickups, safe rides, and luggage help. Book
+            at
+            <Link
+              to={`/services/book-taxi-sydney-airport`}
+              className="underline font-semibold pl-1"
+            >
+              airport taxi service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/airport.png",
+        pathname: "/services/taxi-sydney-service",
+      },
+    },
+    fleetSectionTitle: "Executive Fleet Options by Appin Taxi & Maxi Cabs",
+    fleetSectionSubTitle:
+      "Your ride is important. With Appin Taxi & Maxi Cabs, you can select vehicles to suit your travel style, group size, or comfort needs. Our local drivers know every route, ensuring timely pickups and smooth journeys. From solo trips to group travel, our fleet covers all your needs. Whether it’s a quick city ride or a luxury airport transfer, we provide reliable, safe, and comfortable options.",
+
+    fleetSectionVehicles: {
+      1: {
+        id: 1,
+        name: "Easy Sedan",
+        passengerCapacity: 4,
+        bagsCapacity: 2,
+        description: (
+          <>
+            Ideal for daily travel, errands, or short trips. Our
+            <strong className="pl-1">Appin taxi service</strong> provides
+            reliable, stress-free rides. Book at
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              book a taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-easy-sedan.png",
+      },
+
+      2: {
+        id: 2,
+        name: "Luxury Vehicle",
+        passengerCapacity: 4,
+        bagsCapacity: 2,
+        description: (
+          <>
+            Travel in style for airport transfers or special events. Experience
+            privacy and comfort with our
+            <strong className="pl-1">Appin taxi cab service</strong> See
+            <Link
+              to={`/services/luxury-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              luxury transfer
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-luxury-vehicle.png",
+      },
+
+      3: {
+        id: 3,
+        name: "Suv or Wagon",
+        passengerCapacity: 7,
+        bagsCapacity: 5,
+        description: (
+          <>
+            Perfect for families or luggage-heavy trips. Our
+            <strong className="pl-1">taxi services near me </strong> iin Appin
+            are spacious and comfortable. Learn more at
+            <Link to={`/fleet`} className="underline font-semibold pl-1">
+              premium fleet.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-suv-wagon.png",
+      },
+
+      4: {
+        id: 4,
+        name: "Kia Carnival",
+        passengerCapacity: 7,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Great for large groups. Our
+            <strong className="pl-1">maxi cab near me in Appin </strong> seats
+            up to 12 passengers comfortably. Check
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              Maxi Taxi Service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-kia-carnival.png",
+      },
+
+      5: {
+        id: 5,
+        name: "Maxi Taxi",
+        passengerCapacity: 11,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Reliable and spacious for group travel. Our
+            <strong className="pl-1"> maxi cab services in Appin</strong> suit
+            family trips, corporate outings, and airport journeys. Learn more
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              here.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-maxi-taxi.png",
+      },
+
+      6: {
+        id: 6,
+        name: "Wheelchair Taxi Service",
+        passengerCapacity: 7,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Fully equipped for safe, accessible travel. Our
+            <strong className="pl-1"> local taxi service Appin</strong> helps
+            seniors and mobility-challenged passengers. Book at
+            <Link
+              to={`/services/wheelchair-accessible-taxi`}
+              className="underline font-semibold pl-1"
+            >
+              wheelchair taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-maxi-taxi.png",
+      },
+    },
+    faqSectionTitle: "Frequently Asked Questions About Appin  Taxi & Maxi Cabs",
+    faqs: [
       {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
+        question: "How can I book a Appin  taxi near me?",
+        answer: (
+          <>
+            Call 1300 450 428 or book online at{" "}
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              campbelltowntaxicabs.com.
+            </Link>{" "}
+            campbelltowntaxicabs.com. Our{" "}
+            <strong className="pl-1">Campbelltown taxi cab close to me</strong>{" "}
+            service ensures fast, safe, and reliable pickups.
+          </>
+        ),
       },
       {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
+        question: "Do you provide Maxi Cab services in Appin ?",
+        answer: (
+          <>
+            Yes, our
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              maxi cab services Appin
+            </Link>{" "}
+            accommodate up to 12 passengers. Perfect for families, group travel,
+            and airport transfers with ample luggage space.
+          </>
+        ),
       },
       {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
+        question: "Are your taxis available 24/7?",
+        answer: (
+          <>
+            Absolutely. Our
+            <strong className="pl-1"> Appin taxi and cab services</strong>{" "}
+            operate day and night, including weekends and holidays. You can rely
+            on us whenever you need a ride..
+          </>
+        ),
       },
       {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
+        question: "Can I get a taxi with a baby seat?",
+        answer: (
+          <>
+            Yes. Adjustable baby seats are available for safety. Travel
+            comfortably for school runs, appointments, or family outings with
+            our
+            <strong className="pl-1">Appin taxi service</strong>
+          </>
+        ),
       },
       {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
+        question: "Do you offer corporate transport services?",
+        answer: (
+          <>
+            Yes, our
+            <strong className="pl-1"> local taxi service Appin </strong>
+            handles office commutes, meetings, and corporate travel.
+            Professional drivers ensure safe, on-time, and stress-free rides
+            every time.
+          </>
+        ),
       },
       {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
+        question: "Is there a luxury transfer option?",
+        answer: (
+          <>
+            Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
+            a<strong className="pl-1"> Appin taxi cab service</strong> for
+            airport trips, VIP travel, or special occasions.
+          </>
+        ),
       },
       {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
+        question: "Are wheelchair-accessible taxis available?",
+        answer: (
+          <>
+            Yes. Our
+            <strong className="pl-1">local taxi cab service near me</strong>
+            ensures safe, accessible, and comfortable rides for seniors or
+            passengers with mobility challenges.
+          </>
+        ),
       },
       {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
+        question: " Do you operate outside Appin ?",
+        answer: (
+          <>
+            Yes. We cover Raby, Macarthur, Camden, Liverpool, and nearby
+            suburbs. Find your
+            <strong className="pl-1"> local taxi service near me </strong>
+            easily in our{" "}
+            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+              service areas.
+            </Link>{" "}
+          </>
+        ),
+      },
+      {
+        question: "Are wheelchair-accessible taxis available?",
+        answer: (
+          <>
+            Yes. Our
+            <strong className="pl-1">local taxi cab service near me</strong>
+            ensures safe, accessible, and comfortable rides for seniors or
+            passengers with mobility challenges.{" "}
+            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+              service areas.
+            </Link>{" "}
+          </>
+        ),
+      },
+      {
+        question: " How can I contact Campbelltown Taxi & Maxi Cabs?",
+        answer: (
+          <>
+            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
+            or visit{" "}
+            <Link to={`/`} className="underline font-semibold pl-1">
+              campbelltowntaxicabs.com.au.
+            </Link>{" "}
+            Book your trusted
+            <strong className="pl-1">Appin taxi cab service </strong>
+            today.
+          </>
+        ),
       },
     ],
   },
   "currans-hills-nsw": {
-    heroTitle: "Taxi Service in Currans Hills",
-    heroDescription:
-      "Currans Hill Taxi Cabs offers professional and reliable taxi and maxi cab services in Currans Hill NSW and surrounding Macarthur suburbs. We cater to families, groups, and business travellers with clean, modern vehicles and experienced local drivers for a safe and comfortable journey. Our fleet includes standard taxis, maxi cabs, SUVs, luxury cars, and wheelchair-accessible taxis, providing flexible transport for any occasion. Available 24/7, we specialise in airport transfers, corporate travel, cruise terminal pickups, and everyday local taxi services across Currans Hill, Campbelltown, Narellan, and nearby areas.",
+    pageTitle:
+      "Local Currans Hills Taxi & Maxi Cabs | Easy Booking & Fair Pricing",
+    metaDescription:
+      "Reliable Currans Hills Taxi & Maxi Cabs - 24/7 local taxi service, Maxi Cabs, baby seats, and corporate rides. Book online or call today for stress-free travel.",
+    heroTitle:
+      "Local Currans Hills Taxi & Maxi Cabs | Easy Booking & Fair Pricing",
+    heroDescription: (
+      <>
+        Looking for <strong>Currans Hills Taxi & Maxi Cabs</strong> you can rely
+        on? You’ve come to the right place. We offer professional,{" "}
+        <strong>24/7 local taxi service in Currans Hills</strong> and nearby
+        Macarthur suburbs. Whether you need a{" "}
+        <strong>Currans Hills taxi cab close to me</strong>, a local taxi
+        service near me, or maxi cabs near me in Currans Hills, we’ve got you
+        covered. <br />
+        Our fleet includes standard taxis, spacious maxi cabs, SUVs, luxury
+        vehicles, and wheelchair-accessible taxis. You can choose the right
+        option for families, groups, or business travel. Every ride is clean,
+        safe, and comfortable, with experienced local drivers who know the area
+        well. <br />
+        We specialise in airport transfers, corporate travel, cruise terminal
+        pickups, and everyday taxi services. From Currans Hills to Campbelltown,
+        Narellan, and surrounding suburbs, we make sure your journey is smooth,
+        timely, and stress-free.
+      </>
+    ),
+    bookingFormTitle: "Book Baby Seat Taxi Sydney in Currans Hills ",
     locationSectionTitle:
-      "Currans Hill NSW Taxi & Maxi Cab Services | Corporate, Group & Airport Transfers",
-    locationSectionDescription:
-      "Currans Hill Taxi Cab provides dependable taxi and maxi cab services in Currans Hill NSW and the surrounding Macarthur region. Our modern, well-maintained fleet and easy-to-use booking system make it simple for corporate clients, solo travellers, and groups to enjoy reliable, on-time transport. We work closely with local Currans Hill businesses, including professional offices and manufacturing facilities, delivering corporate taxi solutions that streamline daily operations and enhance business mobility. Operating 24/7, our services cover airport transfers, corporate travel, group bookings, and urgent trips, ensuring a smooth and professional journey every time. With professional drivers, clean vehicles, and a strong focus on safety, comfort, and punctuality, Currans Hill Taxi Cab is the trusted choice for airport, corporate, and group taxi services in Currans Hill and across the Macarthur region.",
+      "Currans Hills Taxi & Maxi Cab Services | Corporate, Group & Airport Transfers",
+    locationSectionDescription: (
+      <>
+        Need dependable Currans Hills taxi and cab services for business or
+        group travel? Our Currans Hills Taxi & Maxi Cabs provide reliable
+        transport for corporate clients, solo travellers, and families. Our
+        modern, well-maintained fleet and easy booking system make scheduling
+        simple and stress-free. <br />
+        We partner with local Currans Hills businesses, including professional
+        offices and manufacturing facilities, offering corporate taxi solutions
+        that improve daily operations. Whether you need a maxi cab services
+        Currans Hills, taxi service close to me Currans Hills, or local taxi cab
+        service near me, we ensure punctual, safe, and comfortable rides. <br />
+        Operating 24/7, our services cover airport transfers, corporate travel,
+        group bookings, and urgent trips. With professional drivers and clean
+        vehicles, you can trust us for a smooth, reliable journey every time.
+        Currans Hills Taxi & Maxi Cabs is your go-to service for airport,
+        corporate, and group travel in Currans Hills and the Macarthur region.
+      </>
+    ),
     locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in Currans Hills, NSW",
-    serviceSubtitle:
-      "Currans Hill Taxi Cab offers professional taxi and maxi cab services in Currans Hill NSW and nearby areas. Whether you’re booking a reliable Sydney Airport taxi, a maxi cab for group or family travel, or a comfortable ride for corporate or special events, we provide flexible transport solutions. With experienced local drivers, well-maintained vehicles, and a commitment to punctual, safe service, we are a trusted provider of local, airport, and business taxi services in Currans Hill.",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+    serviceTitle: "Our Taxi and Maxi Services in Appin",
+    serviceSubtitle: (
+      <>
+        When you need a fast and reliable ride,
+        <strong> Currans Hills Taxi & Maxi Cabs</strong>iis your go-to local
+        service. Whether you’re heading to work, school, the airport, or a
+        family event, you can rely on our professional, safe, and punctual
+        drivers. We understand your daily travel needs and peak-hour challenges.
+        Our modern fleet, local knowledge, and friendly drivers ensure you never
+        wait long for a taxi or maxi cab. With simple phone or online bookings,
+        transparent fares, and stress-free journeys, our
+        <strong> Currans Hills taxi service </strong> is the most convenient
+        choice for residents and visitors.
+      </>
+    ),
+    locationServices: {
+      S001: {
+        service_id: "S001",
+        title: "Wedding Transfer",
+        description: (
+          <>
+            Enjoy a smooth and stylish ride on your special day. Our Currans
+            Hills taxi cab services handle luggage, pick you up on time, and
+            ensure a stress-free journey. Book now on our
+            <Link
+              to={`/services/wedding-transfer`}
+              className="underline font-semibold  pl-1"
+            >
+              wedding transfer page.
+            </Link>{" "}
+          </>
+        ),
+        image: "/car.png",
+        pathname: "/services/wedding-transfer",
       },
 
+      S002: {
+        service_id: "S002",
+        title: "Luxury Transfer",
+        description: (
+          <>
+            Travel in comfort and style. Perfect for VIP trips, corporate
+            travel, or airport rides. Learn more at
+            <Link
+              to={`/services/luxury-transfer`}
+              className="underline font-semibold"
+            >
+              luxury transfer page.
+            </Link>{" "}
+          </>
+        ),
+        image: "/vehicle.png",
+        pathname: "/services/luxury-transfer",
+      },
+
+      S003: {
+        service_id: "S003",
+        title: "Baby Seat Taxi Sydney",
+        description: (
+          <>
+            Keep your child safe with adjustable seats. Our Currans Hills taxi
+            cab service is ideal for school runs, medical trips, and family
+            outings. Book at
+            <Link
+              to={`/services/baby-seat-taxi-sydney`}
+              className="underline font-semibold pl-1"
+            >
+              Baby Seat Taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/baby-seat.png",
+        pathname: "/services/baby-seat-taxi-sydney",
+      },
+
+      S004: {
+        service_id: "S004",
+        title: "Corporate Transport Services",
+        description: (
+          <>
+            Reliable rides for office staff, meetings, and business trips. Our
+            local taxi service Currans Hills ensures professional and punctual
+            service. See
+            <Link
+              to={`/services/corporate-transport-services`}
+              className="underline font-semibold pl-1"
+            >
+              corporate transport services.
+            </Link>{" "}
+          </>
+        ),
+        image: "/corporate.png",
+        pathname: "/services/corporate-transport-services",
+      },
+
+      S005: {
+        service_id: "S005",
+        title: "Cruise Terminal Transfer",
+        description: (
+          <>
+            Travel to or from cruise terminals with ease. Our Currans Hills taxi
+            and cab services are timely, safe, and luggage-friendly. Details at
+            <Link
+              to={`/services/cruise-terminal-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              cruise terminal transfer.
+            </Link>{" "}
+          </>
+        ),
+        image: "/ship.png",
+        pathname: "/services/cruise-terminal-transfer",
+      },
+
+      S006: {
+        service_id: "S006",
+        title: "Event Transfer",
+        description: (
+          <>
+            Arrive on time for parties, concerts, or weddings. Our Currans Hills
+            taxi service handles group rides efficiently. Learn more at
+            <Link
+              to={`/services/event-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              event transfer.
+            </Link>{" "}
+          </>
+        ),
+        image: "/event.png",
+        pathname: "/services/event-transfer",
+      },
+
+      S007: {
+        service_id: "S007",
+        title: "Maxi Taxi Service",
+        description: (
+          <>
+            Spacious taxis for families or groups. Our maxi cab services Currans
+            Hills accommodate up to 12 passengers comfortably. Explore
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              Maxi Taxi Service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/users.png",
+        pathname: "/services/maxi-taxi-service",
+      },
+      S008: {
+        service_id: "S009",
+        title: "Corporate Trips",
+        description: (
+          <>
+            Travel between offices or meetings smoothly. Our local taxi cab
+            service near me ensures professional, reliable service. Learn more
+            at
+            <Link
+              to={`/services/corporate-tips`}
+              className="underline font-semibold pl-1"
+            >
+              corporate trips.
+            </Link>{" "}
+          </>
+        ),
+        image: "/briefcase.png",
+        pathname: "/services/corporate-tips",
+      },
+      S009: {
+        service_id: "S008",
+        title: "Reliable Airport Transfers",
+        description: (
+          <>
+            Our Currans Hills taxi cab close to me service guarantees on-time
+            pickups, safe rides, and luggage help. Book your airport taxi at
+            <Link
+              to={`/services/book-taxi-sydney-airport`}
+              className="underline font-semibold pl-1"
+            >
+              airport taxi service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/airport.png",
+        pathname: "/services/taxi-sydney-service",
+      },
+    },
+    fleetSectionTitle:
+      "Executive Fleet Options by Currans Hills Taxi & Maxi Cabs",
+    fleetSectionSubTitle:
+      "Your ride matters. With Currans Hills Taxi & Maxi Cabs, you choose vehicles that match your comfort, group size, and travel style. Our local drivers know Currans Hills inside out. From solo trips to family or group travel, our fleet ensures safe, smooth, and timely journeys. Whether it’s a quick city ride or a luxury airport transfer, you’ll always find a vehicle to suit your needs.",
+
+    fleetSectionVehicles: {
+      1: {
+        id: 1,
+        name: "Easy Sedan",
+        passengerCapacity: 4,
+        bagsCapacity: 2,
+        description: (
+          <>
+            Perfect for daily commuting, errands, or short trips. Enjoy a
+            comfortable and punctual Currans Hills taxi service. Book online at
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              book a taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-easy-sedan.png",
+      },
+
+      2: {
+        id: 2,
+        name: "Luxury Vehicle",
+        passengerCapacity: 4,
+        bagsCapacity: 2,
+        description: (
+          <>
+            Ideal for VIP travel, airport rides, or special events. Experience
+            comfort and privacy with our Currans Hills taxi cab service. See
+            <Link
+              to={`/services/luxury-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              luxury transfer
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-luxury-vehicle.png",
+      },
+
+      3: {
+        id: 3,
+        name: "Suv or Wagon",
+        passengerCapacity: 7,
+        bagsCapacity: 5,
+        description: (
+          <>
+            Great for families or travelers with luggage. Smooth rides with our
+            taxi services near me in Currans Hills. Learn more at
+            <Link to={`/fleet`} className="underline font-semibold pl-1">
+              premium fleet.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-suv-wagon.png",
+      },
+
+      4: {
+        id: 4,
+        name: "Kia Carnival",
+        passengerCapacity: 7,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Perfect for larger groups. Our maxi cab near me in Currans Hills can
+            handle up to 12 passengers comfortably. Check
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              Maxi Taxi Service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-kia-carnival.png",
+      },
+
+      5: {
+        id: 5,
+        name: "Maxi Taxi",
+        passengerCapacity: 11,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Spacious and reliable for family trips or corporate outings. Our
+            maxi cab services Currans Hills guarantee comfort and punctuality.
+            More info
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              here.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-maxi-taxi.png",
+      },
+
+      6: {
+        id: 6,
+        name: "Wheelchair Taxi Service",
+        passengerCapacity: 7,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Fully equipped vehicles for seniors and passengers with mobility
+            needs. Our local taxi service Currans Hills ensures safe, smooth
+            travel. Book at
+            <Link
+              to={`/services/wheelchair-accessible-taxi`}
+              className="underline font-semibold pl-1"
+            >
+              wheelchair taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-maxi-taxi.png",
+      },
+    },
+    faqSectionTitle:
+      "Frequently Asked Questions About Currans Hills Taxi & Maxi Cabs",
+    faqs: [
       {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
+        question: "How can I book a Currans Hills  taxi near me?",
+        answer: (
+          <>
+            Call 1300 450 428 or book online at{" "}
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              campbelltowntaxicabs.com.
+            </Link>{" "}
+            campbelltowntaxicabs.com. Our{" "}
+            <strong className="pl-1">Campbelltown taxi cab close to me</strong>{" "}
+            service ensures fast, safe, and reliable pickups.
+          </>
+        ),
       },
       {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
+        question: "Do you provide Maxi Cab services in Currans Hills ?",
+        answer: (
+          <>
+            Yes, our
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              maxi cab services Currans Hills
+            </Link>{" "}
+            accommodate up to 12 passengers. Perfect for families, group travel,
+            and airport transfers with ample luggage space.
+          </>
+        ),
       },
       {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
+        question: "Are your taxis available 24/7?",
+        answer: (
+          <>
+            Absolutely. Our
+            <strong className="pl-1">
+              {" "}
+              Currans Hills taxi and cab services
+            </strong>{" "}
+            operate day and night, including weekends and holidays. You can rely
+            on us whenever you need a ride..
+          </>
+        ),
       },
       {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
+        question: "Can I get a taxi with a baby seat?",
+        answer: (
+          <>
+            Yes. Adjustable baby seats are available for safety. Travel
+            comfortably for school runs, appointments, or family outings with
+            our
+            <strong className="pl-1">Currans Hills taxi service</strong>
+          </>
+        ),
       },
       {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
+        question: "Do you offer corporate transport services?",
+        answer: (
+          <>
+            Yes, our
+            <strong className="pl-1"> local taxi service Currans Hills </strong>
+            handles office commutes, meetings, and corporate travel.
+            Professional drivers ensure safe, on-time, and stress-free rides
+            every time.
+          </>
+        ),
       },
       {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
+        question: "Is there a luxury transfer option?",
+        answer: (
+          <>
+            Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
+            a<strong className="pl-1"> Currans Hills taxi cab service</strong>{" "}
+            for airport trips, VIP travel, or special occasions.
+          </>
+        ),
       },
       {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
+        question: "Are wheelchair-accessible taxis available?",
+        answer: (
+          <>
+            Yes. Our
+            <strong className="pl-1">local taxi cab service near me</strong>
+            ensures safe, accessible, and comfortable rides for seniors or
+            passengers with mobility challenges.
+          </>
+        ),
       },
       {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
+        question: " Do you operate outside Currans Hills ?",
+        answer: (
+          <>
+            Yes. We cover Raby, Macarthur, Camden, Liverpool, and nearby
+            suburbs. Find your
+            <strong className="pl-1"> local taxi service near me </strong>
+            easily in our{" "}
+            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+              service areas.
+            </Link>{" "}
+          </>
+        ),
+      },
+      {
+        question: "Are wheelchair-accessible taxis available?",
+        answer: (
+          <>
+            Yes. Our
+            <strong className="pl-1">local taxi cab service near me</strong>
+            ensures safe, accessible, and comfortable rides for seniors or
+            passengers with mobility challenges.{" "}
+            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+              service areas.
+            </Link>{" "}
+          </>
+        ),
+      },
+      {
+        question: "How can I contact Campbelltown Taxi & Maxi Cabs?",
+        answer: (
+          <>
+            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
+            or visit{" "}
+            <Link to={`/`} className="underline font-semibold pl-1">
+              campbelltowntaxicabs.com.au.
+            </Link>{" "}
+            Book your trusted
+            <strong className="pl-1">Currans Hills taxi cab service </strong>
+            today.
+          </>
+        ),
       },
     ],
   },
   "claymore-nsw": {
-    heroTitle: "Taxi Service in Claymore",
-    heroDescription:
-      "Campbelltown Taxi Cabs offers professional and reliable taxi and maxi cab services in Claymore NSW and surrounding Claymore suburbs. We cater to families, groups, and business travellers with clean, modern vehicles and experienced local drivers for a safe and comfortable journey. Our fleet includes standard taxis, maxi cabs, SUVs, luxury cars, and wheelchair-accessible taxis, providing flexible transport for any occasion. Available 24/7, we specialise in airport transfers, corporate travel, cruise terminal pickups, and everyday local taxi services across Currans Hill, Campbelltown, Narellan, and nearby areas.",
+    pageTitle:
+      "Claymore Taxi & Maxi Cabs Services – 24/7 Safe & Comfortable Rides",
+    metaDescription:
+      "Choose Claymore Taxi & Maxi Cabs for reliable transport, spacious maxi cabs, and 24/7 availability. Call today and enjoy smooth, affordable local travel.",
+    heroTitle: "Claymore Taxi & Maxi Cabs: 24/7 Airport & Local Transfers",
+    heroDescription: (
+      <>
+        Looking for Claymore Taxi & Maxi Cabs you can rely on? You’re in the
+        right place. We provide fast, safe, and reliable taxi services across
+        Claymore and the wider Macarthur region. Whether you need a Claymore
+        taxi cab close to me, a maxi cab near me in Claymore, or a local taxi
+        service near me, we’ve got you covered. <br />
+        Our fleet includes standard taxis, spacious maxi cabs, SUVs, and
+        wheelchair-accessible vehicles. Every ride is clean, comfortable, and
+        stress-free. Families, groups, solo travellers, and corporate passengers
+        trust us for daily travel, station drop-offs, medical appointments, and
+        airport transfers. Our experienced drivers know Claymore routes inside
+        out and ensure on-time journeys every time. <br />
+        You can count on us for Claymore taxi and cab services anywhere in
+        Claymore, Campbelltown, and surrounding Macarthur suburbs. From short
+        local trips to long-distance rides, we make your travel simple, safe,
+        and convenient.
+      </>
+    ),
+    bookingFormTitle: "Book Baby Seat Taxi Sydney in Claymore ",
     locationSectionTitle:
-      "Claymore Taxi & Maxi Cab Services | Corporate, Group & Airport Transfers",
-    locationSectionDescription:
-      "Campbelltown Taxi Cab provides dependable taxi and maxi cab services in Claymore and the surrounding Macarthur region. Our modern, well-maintained fleet and easy-to-use booking system make it simple for corporate clients, solo travellers, and groups to enjoy reliable, on-time transport. We work closely with local Claymore businesses, including professional offices and manufacturing facilities, delivering corporate taxi solutions that streamline daily operations and enhance business mobility. Operating 24/7, our services cover airport transfers, corporate travel, group bookings, and urgent trips, ensuring a smooth and professional journey every time. With professional drivers, clean vehicles, and a strong focus on safety, comfort, and punctuality, Claymore Taxi Cab is the trusted choice for airport, corporate, and group taxi services in Claymore and across the Macarthur region.",
+      "Trusted Claymore Taxi for Airport Transfers and Corporate Travel | 24/7 Taxi & Maxi Cab Services",
+    locationSectionDescription: (
+      <>
+        Need professional Claymore taxi cab service for corporate or airport
+        travel? Claymore Taxi & Maxi Cabs is your trusted choice. Our maxi cab
+        services Claymore cater to solo travellers, corporate teams, and groups.
+        You can book taxi service near me or taxi cab service near me easily
+        with our streamlined system. <br />
+        We proudly support local Claymore businesses, including offices,
+        professional services, and manufacturing facilities. Our 24/7 services
+        cover Sydney Airport transfers, inter-office travel, group outings, and
+        special events. <br />
+        With experienced drivers, clean vehicles, and a focus on comfort and
+        safety, your journey is always smooth. Whether you need a maxi cab near
+        me, taxi service close to me, or local taxi cab service near me, we
+        provide dependable, timely service every time.
+      </>
+    ),
     locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in Claymore, NSW",
-    serviceSubtitle:
-      "Campbelltown Taxi Cab offers professional taxi and maxi cab services in Claymore NSW and nearby areas. Whether you’re booking a reliable Sydney Airport taxi, a maxi cab for group or family travel, or a comfortable ride for corporate or special events, we provide flexible transport solutions. With experienced local drivers, well-maintained vehicles, and a commitment to punctual, safe service, we are a trusted provider of local, airport, and business taxi services in Claymore.",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+    serviceTitle: "Our Taxi and Maxi Services in Claymore",
+    serviceSubtitle: (
+      <>
+  When you need a dependable ride, 
+        <strong> Claymore  Taxi & Maxi Cabs</strong> is your trusted local option. Whether you’re travelling to work, the airport, or family events, our drivers ensure timely, safe, and stress-free journeys. We understand your daily commuting challenges, peak-hour delays, and the importance of comfort. With our modern fleet, professional drivers, and local knowledge, you can rely on our
+        <strong> Claymore  taxi service </strong> . Book easily online or by phone, enjoy transparent fares, and experience hassle-free travel. Our goal is to provide <strong>local taxi service Claymore</strong> you can trust anytime, day or night.
+
+      </>
+    ),
+    locationServices: {
+      S001: {
+        service_id: "S001",
+        title: "Wedding Transfer",
+        description: (
+          <>
+          Enjoy a worry-free wedding day with our Claymore taxi cab service. We arrive on time, help with luggage, and ensure your guests reach safely. More details on
+            <Link
+              to={`/services/wedding-transfer`}
+              className="underline font-semibold  pl-1"
+            >
+              wedding transfer page.
+            </Link>{" "}
+          </>
+        ),
+        image: "/car.png",
+        pathname: "/services/wedding-transfer",
       },
 
-      {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
-      },
-      {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
-      },
-      {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
-      },
-      {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
-      },
-      {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
-      },
-      {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
-      },
-      {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
-      },
-      {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
-      },
-    ],
-  },
-  "raby-nsw": {
-    heroTitle: "Taxi Service in Raby",
-    heroDescription:
-      "Campbelltown Taxi Cabs provides safe, reliable, and professional taxi services across Raby, NSW and surrounding Sydney suburbs. We support families, groups, and business travellers with clean, comfortable vehicles and experienced local drivers. Our fleet includes standard taxis, maxi cabs, SUVs, luxury cars, and wheelchair-accessible taxis. Operating 24/7, we offer airport transfers, corporate travel, cruise terminal pickups, and everyday local transport throughout Raby, Campbelltown, and nearby areas.",
-    locationSectionTitle:
-      "Reliable Taxi & Maxi Cab Services in Raby NSW | 24/7 Corporate & Airport Transfers",
-    locationSectionDescription:
-      "Campbelltown Taxi Cab delivers professional corporate taxi services across the Raby region with efficient, streamlined booking systems designed for business travel. Our modern fleet caters to solo executives, corporate teams, and group transfers with reliable, on-time service. We proudly partner with local businesses around Raby and surrounding suburbs, including commercial sites and professional service firms, providing dependable transport solutions that support daily operations and corporate mobility. Our services operate 24/7, accommodating early-morning departures, late-night arrivals, and time-sensitive travel requirements. From airport transfers to inter-office transport, we ensure a smooth and professional experience for every journey. With experienced drivers and well-maintained vehicles, Raby Taxi Cab services remain a trusted choice for corporate transport in the area.",
-    locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in Raby",
-    serviceSubtitle:
-      "At Campbelltown Taxi Cabs, we provide reliable and efficient taxi and maxi cab services to meet all your travel needs across Raby and surrounding suburbs. Whether you require a prompt airport transfer to Sydney Airport, a spacious maxi taxi for group travel, or a comfortable luxury transfer for special occasions, we have you covered.",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+      S002: {
+        service_id: "S002",
+        title: "Luxury Transfer",
+        description: (
+          <>
+         Travel in style for corporate trips or special occasions. Our luxury vehicles offer privacy, comfort, and punctual service. Check
+            <Link
+              to={`/services/luxury-transfer`}
+              className="underline font-semibold"
+            >
+              luxury transfer page.
+            </Link>{" "}
+          </>
+        ),
+        image: "/vehicle.png",
+        pathname: "/services/luxury-transfer",
       },
 
-      {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
-      },
-      {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
-      },
-      {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
-      },
-      {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
-      },
-      {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
-      },
-      {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
-      },
-      {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
-      },
-      {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
-      },
-    ],
-  },
-  "st-andrew's-nsw": {
-    heroTitle: "Taxi Service in St Andrews",
-    heroDescription:
-      "Campbelltown Taxi Cabs offers fast, safe, and reliable taxi services in St Andrews, NSW, supporting residents, commuters, and businesses with dependable transport. Whether you need a local taxi in St Andrews, a maxi cab for family or group travel, or a smooth airport transfer, our professional drivers and clean vehicles are available 24/7. We handle daily travel, station drop-offs, medical appointments, corporate trips, and long-distance rides, with full coverage across St Andrews and the wider Macarthur region",
-    locationSectionTitle:
-      "Trusted St Andrews Taxi for Airport Transfers and Corporate Travel | 24/7 Taxi and Maxi Cab Services",
-    locationSectionDescription:
-      "St Andrews Taxi Cab provides professional taxi and maxi cab services throughout St Andrews and the surrounding Macarthur region. With a streamlined booking system and a modern, well-maintained fleet, we cater to solo travellers, corporate teams, and group travel, delivering reliable and on-time service every time. We proudly support local St Andrews businesses, including manufacturing facilities and professional service firms, by offering dependable corporate transport solutions that assist with daily operations and business mobility. Our 24/7 taxi and maxi cab services are ideal for Sydney Airport transfers, inter-office travel, group outings, and special occasions. With experienced drivers, clean vehicles, and a strong focus on comfort and safety, St Andrews Taxi Cab is a trusted choice for corporate, airport, and group taxi services across St Andrews and the wider Macarthur region.",
-    locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in St Andrews",
-    serviceSubtitle:
-      "At St Andrews Taxi Cab, we deliver reliable and efficient taxi and maxi cab services in St Andrews NSW and surrounding areas. Whether you require a fast Sydney Airport transfer, a spacious maxi taxi for group travel, or a luxury taxi service for special occasions, we are here to help. Our experienced drivers provide safe, punctual, and comfortable journeys, making us a trusted choice for airport, corporate, and local taxi services in St Andrews.",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+      S003: {
+        service_id: "S003",
+        title: "Baby Seat Taxi Sydney",
+        description: (
+          <>
+           Ensure your child’s safety with our adjustable baby seats. Ideal for school runs, hospital visits, or family outings with Claymore taxi service. Learn more
+            <Link
+              to={`/services/baby-seat-taxi-sydney`}
+              className="underline font-semibold pl-1"
+            >
+              Baby Seat Taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/baby-seat.png",
+        pathname: "/services/baby-seat-taxi-sydney",
       },
 
-      {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
-      },
-      {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
-      },
-      {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
-      },
-      {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
-      },
-      {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
-      },
-      {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
-      },
-      {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
-      },
-      {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
-      },
-    ],
-  },
-  "ruse-nsw": {
-    heroTitle: "Taxi Service in Ruse",
-    heroDescription:
-      "Campbelltown Taxi Cabs offers fast, safe, and reliable taxi services in Ruse, NSW, supporting residents, commuters, and businesses with dependable transport. Whether you need a local taxi in Ruse, a maxi cab for family or group travel, or a smooth airport transfer, our professional drivers and clean vehicles are available 24/7. We handle daily travel, station drop-offs, medical appointments, corporate trips, and long-distance rides, with full coverage across Ruse and the wider Macarthur region.",
-    locationSectionTitle:
-      "Reliable Ruse Taxi & Maxi Cabs for Airport Transfers and Corporate Travel | 24/7 Taxi and Maxi Cab Services",
-    locationSectionDescription:
-      "Ruse Taxi Cab provides professional taxi and maxi cab services throughout Ruse and the surrounding Macarthur region. With a streamlined booking system and a modern, well-maintained fleet, we cater to solo travellers, corporate teams, and group travel, delivering reliable and on-time service every time. We proudly support local Ruse businesses, including manufacturing facilities and professional service firms, by offering dependable corporate transport solutions that assist with daily operations and business mobility. Our 24/7 taxi and maxi cab services are ideal for Sydney Airport transfers, inter-office travel, group outings, and special occasions. With experienced drivers, clean vehicles, and a strong focus on comfort and safety, Ruse Taxi Cab is a trusted choice for corporate, airport, and group taxi services across Ruse and the wider Macarthur region.",
-    locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in Ruse",
-    serviceSubtitle:
-      "At Ruse Taxi Cab, we deliver reliable and efficient taxi and maxi cab services in Ruse NSW and surrounding areas. Whether you require a fast Sydney Airport transfer, a spacious maxi taxi for group travel, or a luxury taxi service for special occasions, we are here to help. Our experienced drivers provide safe, punctual, and comfortable journeys, making us a trusted choice for airport, corporate, and local taxi services in Ruse.",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+      S004: {
+        service_id: "S004",
+        title: "Corporate Transport Services",
+        description: (
+          <>
+         Reliable and professional rides for business trips, meetings, or airport transfers. Our local taxi cab service near me ensures smooth, stress-free travel. Explore
+            <Link
+              to={`/services/corporate-transport-services`}
+              className="underline font-semibold pl-1"
+            >
+              corporate transport services.
+            </Link>{" "}
+          </>
+        ),
+        image: "/corporate.png",
+        pathname: "/services/corporate-transport-services",
       },
 
-      {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
-      },
-      {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
-      },
-      {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
-      },
-      {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
-      },
-      {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
-      },
-      {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
-      },
-      {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
-      },
-      {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
-      },
-    ],
-  },
-  "minto-nsw": {
-    heroTitle: "Taxi Service in Minto",
-    heroDescription:
-      "Campbelltown Taxi Cabs offers fast, safe, and reliable taxi services in Minto, NSW, supporting residents, commuters, and businesses with dependable transport. Whether you need a local taxi in Minto, a maxi cab for family or group travel, or a smooth airport transfer, our professional drivers and clean vehicles are available 24/7. We handle daily travel, station drop-offs, medical appointments, corporate trips, and long-distance rides, with full coverage across Minto and the wider Macarthur region.",
-    locationSectionTitle:
-      "Reliable Minto Taxi & Maxi Cabs for Travel | 24/7 Taxi and Maxi Cab Services",
-    locationSectionDescription:
-      "Campbelltown Taxi Cab provides professional taxi and maxi cab services throughout Minto and the surrounding Macarthur region. With a streamlined booking system and a modern, well-maintained fleet, we cater to solo travellers, corporate teams, and group travel, delivering reliable and on-time service every time. We proudly support local Minto businesses, including manufacturing facilities and professional service firms, by offering dependable corporate transport solutions that assist with daily operations and business mobility. Our 24/7 taxi and maxi cab services are ideal for Sydney Airport transfers, inter-office travel, group outings, and special occasions. With experienced drivers, clean vehicles, and a strong focus on comfort and safety, Minto Taxi Cab is a trusted choice for corporate, airport, and group taxi services across Minto and the wider Macarthur region.",
-    locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in Minto",
-    serviceSubtitle:
-      "At Minto Taxi Cab, we deliver reliable and efficient taxi and maxi cab services in Minto NSW and surrounding areas. Whether you require a fast Sydney Airport transfer, a spacious maxi taxi for group travel, or a luxury taxi service for special occasions, we are here to help. Our experienced drivers provide safe, punctual, and comfortable journeys, making us a trusted choice for airport, corporate, and local taxi services in Minto.",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+      S005: {
+        service_id: "S005",
+        title: "Cruise Terminal Transfer",
+        description: (
+          <>
+          Start or finish your cruise on time. Our Claymore taxi cab close to me service handles luggage and schedules efficiently. See 
+            <Link
+              to={`/services/cruise-terminal-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              cruise terminal transfer.
+            </Link>{" "}
+          </>
+        ),
+        image: "/ship.png",
+        pathname: "/services/cruise-terminal-transfer",
       },
 
-      {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
-      },
-      {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
-      },
-      {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
-      },
-      {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
-      },
-      {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
-      },
-      {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
-      },
-      {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
-      },
-      {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
-      },
-    ],
-  },
-  "glenfield-nsw": {
-    heroTitle: "Taxi Service in Glenfield",
-    heroDescription:
-      "Campbelltown Taxi Cabs delivers dependable and professional taxi and maxi cab services in Glenfield NSW and nearby Macarthur suburbs. We cater to families, group travellers, and corporate passengers with clean, modern vehicles driven by experienced local drivers. Our diverse fleet features standard taxis, spacious maxi cabs, SUVs, premium vehicles, and wheelchair-accessible taxis, ensuring a comfortable option for every journey. Available 24/7, we provide reliable Sydney Airport transfers, corporate transport, cruise terminal pickups, and everyday local taxi services throughout Glenfield, Campbelltown, Narellan, and surrounding areas.",
-    locationSectionTitle:
-      "Reliable Taxi and Maxi Cab Services in Glenfield, NSW | 24/7 Taxi & Maxi Cab Services for Safe, Comfortable Travel",
-    locationSectionDescription:
-      "Glenfield Taxi Cab provides professional corporate taxi and maxi cab services across Glenfield and the wider Macarthur region. Our streamlined booking system and modern, well-maintained fleet ensure efficient, reliable transport for solo executives, corporate teams, and group travel. We proudly support local Glenfield businesses, including manufacturing facilities and professional service firms, offering dependable corporate transport solutions that enhance daily operations and business mobility. Available 24/7, our services cover airport transfers, inter-office travel, and time-critical corporate journeys, delivering a smooth, professional experience every time. With experienced drivers and a focus on safety, comfort, and punctuality, Glenfield Taxi Cab is the trusted choice for corporate, airport, and group taxi services in Glenfield and across Macarthur NSW.",
-    locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in Glenfield",
-    serviceSubtitle:
-      "Glenfield Taxi Cab offers dependable taxi and maxi cab services across Glenfield NSW and surrounding suburbs. From Sydney Airport taxi transfers to maxi cabs for group bookings and premium taxis for special events, we deliver flexible transport solutions to suit every need. With courteous, fully licensed drivers and well-maintained vehicles, we guarantee on-time pickups, safe travel, and a comfortable ride, making us a preferred provider for local, corporate, and airport taxi services in Glenfield.",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+      S006: {
+        service_id: "S006",
+        title: "Event Transfer",
+        description: (
+          <>
+           Attend concerts, weddings, or parties without worry. Our Claymore taxi service manages your schedule for prompt, comfortable rides. More info 
+            <Link
+              to={`/services/event-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              event transfer.
+            </Link>{" "}
+          </>
+        ),
+        image: "/event.png",
+        pathname: "/services/event-transfer",
       },
 
-      {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
+      S007: {
+        service_id: "S007",
+        title: "Maxi Taxi Service",
+        description: (
+          <>
+           Travelling with a large group? Our maxi cab services Claymore accommodate up to 12 passengers. Perfect for family trips or corporate outings. Learn more
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              Maxi Taxi Service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/users.png",
+        pathname: "/services/maxi-taxi-service",
       },
-      {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
+      S008: {
+        service_id: "S009",
+        title: "Corporate Trips",
+        description: (
+          <>
+            
+
+ Get reliable office or business travel with our professional drivers. Our local taxi service Claymore ensures comfort, safety, and punctuality. Explore
+            <Link
+              to={`/services/corporate-tips`}
+              className="underline font-semibold pl-1"
+            >
+              corporate trips.
+            </Link>{" "}
+          </>
+        ),
+        image: "/briefcase.png",
+        pathname: "/services/corporate-tips",
       },
-      {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
+      S009: {
+        service_id: "S008",
+        title: "Reliable Airport Transfers",
+        description: (
+          <>
+          Never miss a flight. Our Claymore taxi cab close to me service offers on-time pickups, safe journeys, and luggage assistance. Book now via
+            <Link
+              to={`/services/book-taxi-sydney-airport`}
+              className="underline font-semibold pl-1"
+            >
+              airport taxi service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/airport.png",
+        pathname: "/services/taxi-sydney-service",
       },
-      {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
-      },
-      {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
-      },
-      {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
-      },
-      {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
-      },
-      {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
-      },
-    ],
-  },
-  "camden-south-nsw": {
-    heroTitle: "Taxi Service in Camden South",
-    heroDescription:
-      "Campbelltown Taxi Cabs delivers dependable and professional taxi and maxi cab services in Camden South NSW and nearby Macarthur suburbs. We cater to families, group travellers, and corporate passengers with clean, modern vehicles driven by experienced local drivers. Our diverse fleet features standard taxis, spacious maxi cabs, SUVs, premium vehicles, and wheelchair-accessible taxis, ensuring a comfortable option for every journey. Available 24/7, we provide reliable Sydney Airport transfers, corporate transport, cruise terminal pickups, and everyday local taxi services throughout Camden South, Campbelltown, Narellan, and surrounding areas.",
-    locationSectionTitle:
-      "Reliable Taxi and Maxi Cab Services in Camden South, NSW - Airport & Corporate Transfers | 24/7 Taxi & Maxi Cab Services ",
-    locationSectionDescription:
-      "Camden South Taxi Cab provides professional corporate taxi and maxi cab services across Camden South and the wider Macarthur region. Our streamlined booking system and modern, well-maintained fleet ensure efficient, reliable transport for solo executives, corporate teams, and group travel. We proudly support local Camden South businesses, including manufacturing facilities and professional service firms, offering dependable corporate transport solutions that enhance daily operations and business mobility. Available 24/7, our services cover airport transfers, inter-office travel, and time-critical corporate journeys, delivering a smooth, professional experience every time. With experienced drivers and a focus on safety, comfort, and punctuality, Camden South Taxi Cab is the trusted choice for corporate, airport, and group taxi services in Camden South and across Macarthur NSW.",
-    locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in Camden South",
-    serviceSubtitle:
-      "Camden South Taxi Cab offers dependable taxi and maxi cab services across Camden South NSW and surrounding suburbs. From Sydney Airport taxi transfers to maxi cabs for group bookings and premium taxis for special events, we deliver flexible transport solutions to suit every need. With courteous, fully licensed drivers and well-maintained vehicles, we guarantee on-time pickups, safe travel, and a comfortable ride, making us a preferred provider for local, corporate, and airport taxi services in Camden South.",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+    },
+    fleetSectionTitle:
+      "Executive Fleet Options by Claymore Taxi & Maxi Cabs",
+    fleetSectionSubTitle:
+      "Your ride matters. With Claymore Taxi & Maxi Cabs, you can choose vehicles to suit your style, group size, and comfort needs. Our drivers know local routes well, ensuring safe, smooth, and timely trips. Whether you need a quick city ride, a luxury airport transfer, or a group journey, our fleet has the right option for you. Every vehicle is clean, modern, and maintained for your peace of mind.",
+
+    fleetSectionVehicles: {
+      1: {
+        id: 1,
+        name: "Easy Sedan",
+        passengerCapacity: 4,
+        bagsCapacity: 2,
+        description: (
+          <>
+            Ideal for everyday travel. Our Claymore taxi service offers comfort, reliability, and short wait times. Book easily at 
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              book a taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-easy-sedan.png",
       },
 
-      {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
-      },
-      {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
-      },
-      {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
-      },
-      {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
-      },
-      {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
-      },
-      {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
-      },
-      {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
-      },
-      {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
-      },
-    ],
-  },
-  "gregory-hills-nsw": {
-    heroTitle: "Taxi Service in Gregory Hills",
-    heroDescription:
-      "Gregory Hills Taxi Cabs delivers dependable and professional taxi and maxi cab services in Gregory Hills NSW and nearby Macarthur suburbs. We cater to families, group travellers, and corporate passengers with clean, modern vehicles driven by experienced local drivers. Our diverse fleet features standard taxis, spacious maxi cabs, SUVs, premium vehicles, and wheelchair-accessible taxis, ensuring a comfortable option for every journey. Available 24/7, we provide reliable Sydney Airport transfers, corporate transport, cruise terminal pickups, and everyday local taxi services throughout Gregory Hills, Campbelltown, Narellan, and surrounding areas.",
-    locationSectionTitle:
-      "Trusted Taxi and Maxi Cab Services in Gregory Hills, NSW | 24/7 Safe, Comfortable, On-Time Taxi & Maxi Cab Services ",
-    locationSectionDescription:
-      "Gregory Hills Taxi Cab provides professional corporate taxi and maxi cab services across Gregory Hills and the wider Macarthur region. Our streamlined booking system and modern, well-maintained fleet ensure efficient, reliable transport for solo executives, corporate teams, and group travel. We proudly support local Gregory Hills businesses, including manufacturing facilities and professional service firms, offering dependable corporate transport solutions that enhance daily operations and business mobility. Available 24/7, our services cover airport transfers, inter-office travel, and time-critical corporate journeys, delivering a smooth, professional experience every time. With experienced drivers and a focus on safety, comfort, and punctuality, Gregory Hills Taxi Cab is the trusted choice for corporate, airport, and group taxi services in Gregory Hills and across Macarthur NSW.",
-    locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in Gregory Hills",
-    serviceSubtitle:
-      "Gregory Hills Taxi Cab offers dependable taxi and maxi cab services across Gregory Hills NSW and surrounding suburbs. From Sydney Airport taxi transfers to maxi cabs for group bookings and premium taxis for special events, we deliver flexible transport solutions to suit every need. With courteous, fully licensed drivers and well-maintained vehicles, we guarantee on-time pickups, safe travel, and a comfortable ride, making us a preferred provider for local, corporate, and airport taxi services in Gregory Hills.",
-    faqs: [
-      {
-        question: "How Do Corporate Taxi Services Sydney Billing Systems Work?",
-        answer:
-          " We provide monthly consolidated invoices detailing all employee trips with cost center codes. Integration with accounting platforms automates expense reconciliation. Credit terms extend 60 days for established accounts with ABN verification.",
-      },
-      {
-        question:
-          " Can I Book Corporate Taxi Services Campbelltown Without Manager Approval?",
-        answer:
-          " Booking permissions depend on your company's authorization workflow settings. We configure approval requirements matching internal policies. Some accounts allow direct employee booking while others require manager pre-authorization codes before ride confirmation.",
+      2: {
+        id: 2,
+        name: "Luxury Vehicle",
+        passengerCapacity: 4,
+        bagsCapacity: 2,
+        description: (
+          <>
+            Perfect for VIP travel, airport rides, or special occasions. Enjoy privacy, comfort, and punctuality with our Claymore taxi cab service. Learn more at
+            <Link
+              to={`/services/luxury-transfer`}
+              className="underline font-semibold pl-1"
+            >
+              luxury transfer
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-luxury-vehicle.png",
       },
 
+      3: {
+        id: 3,
+        name: "Suv or Wagon",
+        passengerCapacity: 7,
+        bagsCapacity: 5,
+        description: (
+          <>
+           Spacious and reliable for families or luggage-heavy trips. Find our taxi services near me in Claymore for safe rides. Explore
+            <Link to={`/fleet`} className="underline font-semibold pl-1">
+              premium fleet.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-suv-wagon.png",
+      },
+
+      4: {
+        id: 4,
+        name: "Kia Carnival",
+        passengerCapacity: 7,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Perfect for groups or family travel. Our maxi cab near me in Claymore fits up to 12 passengers comfortably. Check 
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              Maxi Taxi Service.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-kia-carnival.png",
+      },
+
+      5: {
+        id: 5,
+        name: "Maxi Taxi",
+        passengerCapacity: 11,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Spacious rides for large groups. Our maxi cab services Claymore handle family trips, events, and corporate travel efficiently. Learn more 
+            <Link
+              to={`/services/maxi-taxi-service`}
+              className="underline font-semibold pl-1"
+            >
+              here.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-maxi-taxi.png",
+      },
+
+      6: {
+        id: 6,
+        name: "Wheelchair Taxi Service",
+        passengerCapacity: 7,
+        bagsCapacity: 8,
+        description: (
+          <>
+            Fully equipped for safe travel. Our Claymore taxi cab service ensures accessible rides for seniors and passengers with mobility needs. Book via
+            <Link
+              to={`/services/wheelchair-accessible-taxi`}
+              className="underline font-semibold pl-1"
+            >
+              wheelchair taxi.
+            </Link>{" "}
+          </>
+        ),
+        image: "/campbelltown-maxi-taxi.png",
+      },
+    },
+    faqSectionTitle:
+      "Frequently Asked Questions About Claymore Taxi & Maxi Cabs",
+    faqs: [
       {
-        question:
-          "What Makes Corporate Taxi Services Sydney Different From Regular Taxi qookings?",
-        answer:
-          " Corporate accounts receive dedicated management, consolidated billing, and expense tracking. Priority dispatch ensures punctuality. Volume discounts apply monthly. Regular taxis lack business invoicing and account coordination features completely.",
+        question: "How can I book a Claymore  taxi near me?",
+        answer: (
+          <>
+            Call 1300 450 428 or book online at{" "}
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              campbelltowntaxicabs.com.
+            </Link>{" "}
+            campbelltowntaxicabs.com. Our{" "}
+            <strong className="pl-1">Campbelltown taxi cab close to me</strong>{" "}
+            service ensures fast, safe, and reliable pickups.
+          </>
+        ),
       },
       {
-        question:
-          " How Quickly Can We Set Up Corporate Taxi Services For Our Business?",
-        answer:
-          " Account setup completes within 48 hours after receiving the company ABN and authorization details. We provide employee booking instructions and portal access immediately. Training sessions are available for administrative staff managing transportation coordination.",
+        question: "Do you provide Maxi Cab services in Claymore ?",
+        answer: (
+          <>
+            Yes, our
+            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+              maxi cab services Claymore
+            </Link>{" "}
+            accommodate up to 12 passengers. Perfect for families, group travel,
+            and airport transfers with ample luggage space.
+          </>
+        ),
       },
       {
-        question:
-          " Do You Provide Corporate Taxi Services For After-Hours Shift Workers?",
-        answer:
-          " Yes, we operate 24/7, including overnight shifts and early morning starts. After-hours corporate accounts receive identical service standards. Shift worker transportation ensures employees reach home safely regardless of departure times throughout the night.",
+        question: "Are your taxis available 24/7?",
+        answer: (
+          <>
+            Absolutely. Our
+            <strong className="pl-1">
+              {" "}
+              Claymore taxi and cab services
+            </strong>{" "}
+            operate day and night, including weekends and holidays. You can rely
+            on us whenever you need a ride..
+          </>
+        ),
       },
       {
-        question:
-          " Can We Track Employee Rides In Real-Time For Security Purposes?",
-        answer:
-          " Yes, our vehicle tracking system provides real-time location monitoring. Executive assistants and security personnel access live trip progress. GPS timestamping verifies pickup and drop-off times. Ride completion notifications are sent automatically via email.",
+        question: "Can I get a taxi with a baby seat?",
+        answer: (
+          <>
+            Yes. Adjustable baby seats are available for safety. Travel
+            comfortably for school runs, appointments, or family outings with
+            our
+            <strong className="pl-1">Claymore taxi service</strong>
+          </>
+        ),
       },
       {
-        question:
-          " What Payment Methods Do Corporate Taxi Services Sydney Accounts Accept?",
-        answer:
-          " We accept monthly invoicing with bank transfer payments. Credit card autopay is available for automated billing. Direct debit arrangements simplify payment processing. Payment terms extend 60 days for qualified accounts meeting established credit criteria.",
+        question: "Do you offer corporate transport services?",
+        answer: (
+          <>
+            Yes, our
+            <strong className="pl-1"> local taxi service Claymore </strong>
+            handles office commutes, meetings, and corporate travel.
+            Professional drivers ensure safe, on-time, and stress-free rides
+            every time.
+          </>
+        ),
       },
       {
-        question:
-          " Do You Provide Reporting For Corporate Travel Policy Compliance?",
-        answer:
-          " Yes, monthly reports detail all trips with pickup/drop-off locations and times. Data exports integrate with expense management systems. Compliance reporting identifies policy exceptions requiring review. Quarterly business reviews analyze spending patterns and optimization opportunities.",
+        question: "Is there a luxury transfer option?",
+        answer: (
+          <>
+            Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
+            a<strong className="pl-1"> Claymore taxi cab service</strong>{" "}
+            for airport trips, VIP travel, or special occasions.
+          </>
+        ),
       },
       {
-        question:
-          " Can Multiple Employees From Our Company Book Simultaneously?",
-        answer:
-          " Absolutely. Our dispatch system handles multiple concurrent bookings from the same corporate account. Each employee receives a dedicated vehicle assignment. Group coordination is available for team events requiring simultaneous departures. No booking conflicts occur within accounts.",
+        question: "Are wheelchair-accessible taxis available?",
+        answer: (
+          <>
+            Yes. Our
+            <strong className="pl-1">local taxi cab service near me</strong>
+            ensures safe, accessible, and comfortable rides for seniors or
+            passengers with mobility challenges.
+          </>
+        ),
       },
       {
-        question:
-          " Do Corporate Taxi Services Campbelltown Offer Volume Discounts?",
-        answer:
-          " Yes, volume-based discount tiers activate at 100, 250, and 500 monthly rides. Discounts range from 10% to 20% depending on usage levels. Annual contracts receive additional preferential pricing. Contact us for customized corporate rate structures.",
+        question: " Do you operate outside Claymore ?",
+        answer: (
+          <>
+            Yes. We cover Raby, Macarthur, Camden, Liverpool, and nearby
+            suburbs. Find your
+            <strong className="pl-1"> local taxi service near me </strong>
+            easily in our{" "}
+            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+              service areas.
+            </Link>{" "}
+          </>
+        ),
+      },
+      {
+        question: "Are wheelchair-accessible taxis available?",
+        answer: (
+          <>
+            Yes. Our
+            <strong className="pl-1">local taxi cab service near me</strong>
+            ensures safe, accessible, and comfortable rides for seniors or
+            passengers with mobility challenges.{" "}
+            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+              service areas.
+            </Link>{" "}
+          </>
+        ),
+      },
+      {
+        question: "How can I contact Campbelltown Taxi & Maxi Cabs?",
+        answer: (
+          <>
+            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
+            or visit{" "}
+            <Link to={`/`} className="underline font-semibold pl-1">
+              campbelltowntaxicabs.com.au.
+            </Link>{" "}
+            Book your trusted
+            <strong className="pl-1">Claymore taxi cab service </strong>
+            today.
+          </>
+        ),
       },
     ],
   },
