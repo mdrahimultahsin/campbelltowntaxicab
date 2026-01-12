@@ -1,10 +1,8 @@
 import {useState} from "react";
 import Container from "./Container";
 
-const Faq = ({faqs}) => {
+const Faq = ({faqs, faqSectionTitle}) => {
   const [openIndex, setOpenIndex] = useState(null);
-
-  
 
   const toggleFaq = (index) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -14,7 +12,7 @@ const Faq = ({faqs}) => {
     <section className="mt-30 mb-10">
       <Container>
         <h2 className="section-title">
-          Frequently Asked Questions
+          {faqSectionTitle ? faqSectionTitle : "Frequently Asked Questions"}
         </h2>
 
         <div className="space-y-4">

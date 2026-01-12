@@ -3,7 +3,7 @@ import titleImg from "../../../assets/campbelltown-pages-hero-img.png";
 import useSEO from "../../../hooks/useSEO";
 import Container from "../../../shared/Container";
 import ButtonSecondary from "../../../shared/ButtonSecondary";
-import { FaHandPointer} from "react-icons/fa";
+import {FaHandPointer} from "react-icons/fa";
 import {IoCallSharp} from "react-icons/io5";
 import BookingForm from "../../../shared/BookingForm";
 import corporateTripsImg from "../../../assets/services/campbelltown-corporate-trips.jpeg";
@@ -21,20 +21,16 @@ const CoveredLocation = () => {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
 
-
   return (
     <>
       {useSEO({
-        title: `Taxi and Maxi Service in ${modifiedLocationName} | Campbelltown Taxi Cabs`,
-        description:
-          "Premium Taxi Service in Campbelltown NSW for comfortable, fast, and affordable rides. Book your ride today with Campbelltown Taxi Cabs!",
-        keywords: `${modifiedLocationName} taxi, campbelltown taxi cabs, taxi campbelltown,taxi campbelltown nsw, campbelltown taxi,campbelltown taxis,taxi service campbelltown nsw,taxis campbelltown,luxury taxi campbelltown,taxi service campbelltown`,
+        title: `${locationData.pageTitle}`,
+        description: `${locationData.metaDescription}`,
+        keywords: `${modifiedLocationName} taxi,${modifiedLocationName} Taxi & Maxi Cabs,${modifiedLocationName} taxi cab close to me,${modifiedLocationName} taxi and cab services,${modifiedLocationName} taxi service,taxi service close to me ${modifiedLocationName}, taxi service near me,taxi cab service near me,taxi services near me,${modifiedLocationName} taxi cab service,local taxi service ${modifiedLocationName}, local taxi service near me,local taxi cab service near me,maxi cab, maxi cab near me,maxi cab services ${modifiedLocationName}, Maxi cabs near me in ${modifiedLocationName} `,
         canonical: `https://campbelltowntaxicabs.com.au/taxi-maxi-service-in/${location}`,
       })}
-      {
-        !locationData && <PageNotFound/>
-      }
-     
+      {!locationData && <PageNotFound />}
+
       <div>
         <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
           <Container>
@@ -70,7 +66,7 @@ const CoveredLocation = () => {
           </Container>
         </div>
         {/* Booking Form */}
-        <BookingForm formTitle={`Book Taxi in ${modifiedLocationName} `} />
+        <BookingForm formTitle={locationData.bookingFormTitle} />
 
         {/* ---------------------------------------- */}
         {/* SECTION: Locatiion Details Dynamic */}
@@ -107,22 +103,29 @@ const CoveredLocation = () => {
         </section>
 
         <ServicesSection
+          className={`pt-0!`}
           sectionTitle={`${
             locationData.serviceTitle
               ? locationData.serviceTitle
               : "Our Taxi and Maxi Services in " + modifiedLocationName
           }`}
           serviceSubtitle={locationData.serviceSubtitle}
+          locationServices={Object.values(locationData.locationServices)}
         />
 
         {/* Fleet */}
         <FeatureFleet
-          fleetSectionTitle={
-            "Executive Fleet Options for Professional Corporate Travel"
-          }
+          fleetSectionTitle={`${locationData.fleetSectionTitle}`}
+          fleetSectionSubTitle={locationData.fleetSectionSubTitle}
+          fleetSectionVehicles={Object.values(
+            locationData.fleetSectionVehicles
+          )}
         />
         {/* Faqs */}
-        <Faq faqs={locationData.faqs} />
+        <Faq
+          faqSectionTitle={locationData.faqSectionTitle}
+          faqs={locationData.faqs}
+        />
       </div>
     </>
   );

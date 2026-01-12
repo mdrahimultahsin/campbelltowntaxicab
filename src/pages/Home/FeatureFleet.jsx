@@ -6,7 +6,11 @@ import {GiConcreteBag} from "react-icons/gi";
 import ButtonPrimary from "../../shared/ButtonPrimary";
 import Loading from "../../shared/Loading";
 
-const FeatureFleet = ({fleetSectionTitle}) => {
+const FeatureFleet = ({
+  fleetSectionTitle,
+  fleetSectionSubTitle,
+  fleetSectionVehicles,
+}) => {
   const [fleets, setFleets] = useState([]);
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -36,11 +40,72 @@ const FeatureFleet = ({fleetSectionTitle}) => {
             ? fleetSectionTitle
             : "Our Premium Fleet: Travel in Comfort and Style"}
         </h2>
+        {fleetSectionSubTitle && (
+          <p className="text-base text-accent md:text-xl text-center max-w-6xl mx-auto leading-relaxed">
+            Choose the right vehicle for your journey with Campbelltown Taxi &
+            Maxi Cabs. Whether you travel alone or with a group, our fleet
+            offers comfort, safety, and reliability. Our drivers are local
+            experts and know the fastest routes around Campbelltown. From
+            airport transfers to corporate trips, we have a solution for every
+            need. Trust our Campbelltown taxi and cab services for smooth,
+            stress-free travel any time of day or night.
+          </p>
+        )}
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {loading ? (
             <Loading />
+          ) : fleetSectionVehicles ? (
+            fleetSectionVehicles.map((fleet, idx) => (
+              <div
+                key={fleet.id}
+                className="bg-light rounded-xl shadow-md flex flex-col h-full min-h-[460px] relative overflow-hidden py-2"
+              >
+                <div
+                  className={`absolute w-full left-0 top-0 h-20 ${
+                    colors[idx % colors.length]
+                  }`}
+                ></div>
+
+                <img
+                  className="w-80 mt-0 z-10 mx-auto object-contain h-[150px] "
+                  src={fleet.image}
+                  alt={fleet.name + "Campbelltown Taxi Cabs"}
+                />
+
+                <h3
+                  className={`text-xl font-semibold py-1 ${
+                    colors[idx % colors.length]
+                  } text-white text-center`}
+                >
+                  {fleet.name}
+                </h3>
+
+                <div className="flex flex-col h-full z-10 p-3 md:p-6">
+                  <div className="flex items-center gap-3 text-primary text-lg mb-4">
+                    <IoPeopleSharp />
+                    <p>{fleet.passengerCapacity} Passengers</p>
+                  </div>
+
+                  <div className="flex items-center gap-3 text-primary text-lg mb-4">
+                    <GiConcreteBag />
+                    <p>{fleet.bagsCapacity} Bags</p>
+                  </div>
+
+                  <p className="text-accent text-xs md:text-base mb-4">
+                    {fleet.description}
+                  </p>
+
+                  <div className="mt-auto">
+                    <Link to={`/book-a-taxi`}>
+                      <ButtonPrimary className="text-base md:text-lg py-2 md:py-4 px-4 w-full">
+                        Book Now
+                      </ButtonPrimary>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            ))
           ) : (
-            fleets &&
             fleets.map((fleet, idx) => (
               <div
                 key={fleet.id}

@@ -98,7 +98,7 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
         },
         {
           id: 9,
-          label: "Maxi Taxi Service",
+          label: "Taxi Maxi Service",
           pathname: "/services/maxi-taxi-service",
           icon: <FaUsers />,
           desc: "Large group taxi service.",
