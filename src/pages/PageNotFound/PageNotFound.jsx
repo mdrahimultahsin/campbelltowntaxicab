@@ -1,6 +1,7 @@
-import { Link } from "react-router";
+import {useNavigate} from "react-router";
 
 const PageNotFound = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen flex flex-col items-center justify-center text-center px-6 bg-gray-50">
       <h1 className="text-7xl font-extrabold text-primary">404</h1>
@@ -13,12 +14,12 @@ const PageNotFound = () => {
         The page you're looking for doesn't exist or has been moved.
       </p>
 
-      <Link
-        to="/"
+      <button
+        onClick={() => navigate(-1)}
         className="mt-6 inline-block bg-primary hover:bg-primary/90 transition text-white font-medium px-6 py-3 rounded-lg"
       >
-        Go Back Home
-      </Link>
+        Go Back
+      </button>
     </div>
   );
 };

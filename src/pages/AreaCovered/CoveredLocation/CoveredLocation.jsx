@@ -20,18 +20,18 @@ const CoveredLocation = () => {
     .split("-")
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(" ");
-
+  
   return (
     <>
+    
       {useSEO({
-        title: `${locationData.pageTitle}`,
-        description: `${locationData.metaDescription}`,
+        title: `${locationData?.pageTitle ||`24/7 ${modifiedLocationName} Taxi & Maxi Cabs for Fast Pickups` }`,
+        description: `${locationData?.metaDescription || "Comfortable rides for every journey – Campbelltown Taxi & Maxi Cabs support local, group, and long trips. Book today for a smooth and trusted experience."}`,
         keywords: `${modifiedLocationName} taxi,${modifiedLocationName} Taxi & Maxi Cabs,${modifiedLocationName} taxi cab close to me,${modifiedLocationName} taxi and cab services,${modifiedLocationName} taxi service,taxi service close to me ${modifiedLocationName}, taxi service near me,taxi cab service near me,taxi services near me,${modifiedLocationName} taxi cab service,local taxi service ${modifiedLocationName}, local taxi service near me,local taxi cab service near me,maxi cab, maxi cab near me,maxi cab services ${modifiedLocationName}, Maxi cabs near me in ${modifiedLocationName} `,
         canonical: `https://campbelltowntaxicabs.com.au/taxi-maxi-service-in/${location}`,
       })}
-      {!locationData && <PageNotFound />}
-
-      <div>
+      {
+        !locationData ? <PageNotFound /> : <div>
         <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
           <Container>
             <div className="flex flex-col md:flex-row text-white md:gap-6">
@@ -127,6 +127,9 @@ const CoveredLocation = () => {
           faqs={locationData.faqs}
         />
       </div>
+      }
+
+     
     </>
   );
 };
