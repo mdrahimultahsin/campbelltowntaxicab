@@ -21,7 +21,7 @@ body {
 
 button,
 a {
-  @apply cursor-pointer;
+  @apply cursor-pointer ;
 }
 
 @layer utilities {
@@ -58,4 +58,8 @@ body {
 
 .section-title {
   @apply text-lg sm:text-xl md:text-4xl font-playfair font-bold  text-primary mb-6 text-center
+}
+
+strong{
+  @apply px-1!;
 }

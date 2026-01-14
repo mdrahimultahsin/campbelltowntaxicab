@@ -11,24 +11,24 @@ export const allLocationsData = {
         When you need Campbelltown Taxi & Maxi Cabs, you want speed, safety, and
         reliability. Many people face long wait times, cancelled rides, or small
         vehicles that cannot fit your group or luggage. With our{" "}
-        <Link to={`/book-a-taxi`} className="underline font-semibold">
+        <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
           Campbelltown taxi and cab services
         </Link>
         , you never have to worry about that. Our fleet includes maxi cabs near
         me in Campbelltown, SUVs, and standard taxis, ensuring every journey is
         comfortable. Whether you search for a taxi{" "}
-        <Link to={`/area-covered`} className="underline font-semibold">
+        <Link to={`/area-covered`} className="underline font-semibold px-1">
           service near me
         </Link>{" "}
         or a{" "}
-        <Link to={`/fleet`} className="underline font-semibold">
+        <Link to={`/fleet`} className="underline font-semibold px-1">
           local taxi service Campbelltown
         </Link>{" "}
         , we’re available 24/7. Families, students, shift workers, and business
         travellers trust us for airport transfers, medical appointments, local
         trips, and group travel. Our experienced drivers know Campbelltown
         routes inside out, making every ride punctual and stress-free. With our{" "}
-        <Link to={`/fleet`} className="underline font-semibold">
+        <Link to={`/fleet`} className="underline font-semibold px-1">
           premium fleet
         </Link>{" "}
         and easy booking, you get a reliable ride anytime, solving your travel
@@ -47,21 +47,21 @@ export const allLocationsData = {
         solve these issues with our{" "}
         <Link
           to={`/services/corporate-transport-services`}
-          className="underline font-semibold"
+          className="underline font-semibold px-1"
         >
           corporate taxi services
         </Link>{" "}
         and{" "}
         <Link
           to={`/services/maxi-taxi-service`}
-          className="underline font-semibold"
+          className="underline font-semibold px-1"
         >
           maxi cab services Campbelltown
         </Link>
         . Solo executives, corporate teams, and groups can rely on us for{" "}
         <Link
           to={`/services/taxi-sydney-service`}
-          className="underline font-semibold"
+          className="underline font-semibold px-1"
         >
           taxi cab service near me
         </Link>{" "}
@@ -71,7 +71,7 @@ export const allLocationsData = {
         local businesses. You can schedule{" "}
         <Link
           to={`/services/book-taxi-sydney-airport`}
-          className="underline font-semibold"
+          className="underline font-semibold px-1"
         >
           airport transfers
         </Link>{" "}
@@ -79,7 +79,7 @@ export const allLocationsData = {
         about delays. With
         <Link
           to={`/services/book-taxi-sydney-airport`}
-          className="underline font-semibold"
+          className="underline font-semibold px-1"
         >
           Campbelltown taxi cab service
         </Link>
@@ -110,14 +110,14 @@ export const allLocationsData = {
         description: (
           <>
             Travel worry-free on your special day. Our
-            <strong className="pl-1">
+            <strong>
               Campbelltown taxi and cab services
             </strong>{" "}
             offer professional drivers, timely pickups, and luggage assistance.
             We ensure all guests arrive safely and on time. Book via our
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -134,11 +134,11 @@ export const allLocationsData = {
           <>
             Arrive in style for airport trips, VIP events, or corporate travel.
             Our{" "}
-            <strong className="pl-1">Campbelltown taxi and cab services</strong>{" "}
+            <strong>Campbelltown taxi and cab services</strong>{" "}
             guarantees comfort, privacy, and punctuality. Learn more at{" "}
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -155,11 +155,11 @@ export const allLocationsData = {
           <>
             Travel safely with your child. Our taxis include adjustable baby
             seats for school runs, medical visits, and family outings. Our{" "}
-            <strong className="pl-1">Campbelltown taxi and cab services</strong>{" "}
+            <strong>Campbelltown taxi and cab services</strong>{" "}
             ensures secure and convenient rides. Visit
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -176,14 +176,14 @@ export const allLocationsData = {
           <>
             Reliable and professional transport for office staff, meetings, and
             business trips. Our
-            <strong className="pl-1">
+            <strong>
               local taxi service Campbelltown{" "}
             </strong>{" "}
             provides punctual service, safe vehicles, and smooth journeys. Check
             corporate
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -199,12 +199,12 @@ export const allLocationsData = {
         description: (
           <>
             Start your cruise without travel stress. Our
-            <strong className="pl-1">Campbelltown taxi cab service</strong>{" "}
+            <strong>Campbelltown taxi cab service</strong>{" "}
             ensures timely pickups, luggage support, and comfortable journeys.
             Learn more at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -221,12 +221,12 @@ export const allLocationsData = {
           <>
             Attend weddings, parties, or concerts without transportation
             worries. Our
-            <strong className="pl-1">Campbelltown taxi cab service</strong>{" "}
+            <strong>Campbelltown taxi cab service</strong>{" "}
             handles schedules efficiently, providing safe and timely rides.
             Details at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -242,13 +242,13 @@ export const allLocationsData = {
         description: (
           <>
             Perfect for groups, families, or luggage-heavy trips. Our
-            <strong className="pl-1">
+            <strong>
               maxi cab services Campbelltown
             </strong>{" "}
             accommodate up to 12 passengers comfortably. Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -264,7 +264,7 @@ export const allLocationsData = {
         description: (
           <>
             Never miss a flight with our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Campbelltown taxi cab close to me{" "}
             </strong>{" "}
@@ -282,7 +282,7 @@ export const allLocationsData = {
         description: (
           <>
             Move between offices or meetings with ease. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               local taxi cab service near me
             </strong>{" "}
@@ -290,7 +290,7 @@ export const allLocationsData = {
             Learn more at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -315,9 +315,9 @@ export const allLocationsData = {
           <>
             Ideal for short trips, errands, and school runs. Our sedans are
             clean, spacious, and comfortable. With our
-            <strong className="pl-1">Campbelltown taxi service</strong> , you
+            <strong>Campbelltown taxi service</strong> , you
             can enjoy safe and reliable rides for daily travel. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -334,12 +334,12 @@ export const allLocationsData = {
           <>
             Travel in style for airport transfers, corporate travel, or special
             occasions. Our
-            <strong className="pl-1">Campbelltown taxi service</strong> provides
+            <strong>Campbelltown taxi service</strong> provides
             privacy, comfort, and punctual service with professional drivers.
             Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -357,9 +357,9 @@ export const allLocationsData = {
           <>
             Perfect for families, groups, or luggage-heavy trips. Our SUVs offer
             ample seating, smooth rides, and convenience. Our
-            <strong className="pl-1">taxi services near me </strong> in
+            <strong>taxi services near me </strong> in
             Campbelltown ensure safe and comfortable travel. Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -376,7 +376,7 @@ export const allLocationsData = {
           <>
             Ideal for small groups or large families. With spacious seating and
             luggage capacity, our
-            <strong className="pl-1">
+            <strong>
               {" "}
               maxi cab near me in Campbelltown{" "}
             </strong>{" "}
@@ -384,7 +384,7 @@ export const allLocationsData = {
             travel. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -402,7 +402,7 @@ export const allLocationsData = {
           <>
             Spacious, safe, and comfortable for up to 12 passengers or
             luggage-heavy trips. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               maxi cab services Campbelltown{" "}
             </strong>{" "}
@@ -410,7 +410,7 @@ export const allLocationsData = {
             Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -427,7 +427,7 @@ export const allLocationsData = {
         description: (
           <>
             Fully equipped for accessibility and safety. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               local taxi service Campbelltown{" "}
             </strong>{" "}
@@ -435,7 +435,7 @@ export const allLocationsData = {
             for seniors or passengers with mobility needs. Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -452,11 +452,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Campbelltown taxi cab close to me</strong>{" "}
+            <strong>Campbelltown taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -466,7 +466,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               maxi cab services Campbelltown
             </Link>{" "}
             accommodate up to 12 passengers. Perfect for families, group travel,
@@ -479,7 +479,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Campbelltown taxi and cab services
             </strong>{" "}
@@ -495,7 +495,7 @@ export const allLocationsData = {
             Yes. Adjustable baby seats are available for safety. Travel
             comfortably for school runs, appointments, or family outings with
             our
-            <strong className="pl-1">Campbelltown taxi service</strong>
+            <strong>Campbelltown taxi service</strong>
           </>
         ),
       },
@@ -504,7 +504,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Campbelltown </strong>
+            <strong> local taxi service Campbelltown </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -516,7 +516,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Campbelltown taxi cab service</strong>{" "}
+            a<strong> Campbelltown taxi cab service</strong>{" "}
             for airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -526,7 +526,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -538,7 +538,7 @@ export const allLocationsData = {
           <>
             Yes. We cover Raby, Macarthur, Camden, Liverpool, and nearby
             suburbs. Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at
           </>
         ),
@@ -548,10 +548,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -563,11 +563,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Campbelltown taxi cab service </strong>
+            <strong>Campbelltown taxi cab service </strong>
             today.
           </>
         ),
@@ -661,12 +661,12 @@ export const allLocationsData = {
         description: (
           <>
             Celebrate your big day stress-free. Our taxis and
-            <strong className="pl-1">Ambarvale taxi cab services</strong> ensure
+            <strong>Ambarvale taxi cab services</strong> ensure
             on-time pickups, safe journeys, and assistance with luggage. Book
             your wedding transfer easily through our
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               dedicated wedding transfer page.
             </Link>{" "}
@@ -685,7 +685,7 @@ export const allLocationsData = {
             airport rides, or corporate events. Check out our
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer page.
             </Link>{" "}
@@ -704,7 +704,7 @@ export const allLocationsData = {
             school runs, medical appointments, and family outings. Learn more at
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Baby Seat Taxi.
             </Link>{" "}
@@ -723,7 +723,7 @@ export const allLocationsData = {
             commutes, meetings, and business trips. Visit
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate transport services.
             </Link>{" "}
@@ -739,12 +739,12 @@ export const allLocationsData = {
         description: (
           <>
             Travel to or from cruise terminals without stress. Our
-            <strong className="pl-1">local taxi service, Ambarvale</strong>{" "}
+            <strong>local taxi service, Ambarvale</strong>{" "}
             ensures timely ensures timely arrivals and smooth luggage handling.
             Check the
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -760,11 +760,11 @@ export const allLocationsData = {
         description: (
           <>
             Arrive in style for concerts, parties, or weddings. Our
-            <strong className="pl-1">Ambarvale taxi cab service</strong> handles
+            <strong>Ambarvale taxi cab service</strong> handles
             manage your schedule efficiently. More info on
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -780,13 +780,13 @@ export const allLocationsData = {
         description: (
           <>
             Perfect for groups or families. Our
-            <strong className="pl-1">
+            <strong>
               maxi cab services in Ambarvale{" "}
             </strong>{" "}
             fit up to 12 passengers comfortably. Learn more at
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -802,14 +802,14 @@ export const allLocationsData = {
         description: (
           <>
             Never miss a flight with our
-            <strong className="pl-1">
+            <strong>
               Ambarvale taxi service, available close to you.{" "}
             </strong>{" "}
             On-time pickups, safe journeys, and luggage help make your trip
             hassle-free. Book an
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               airport taxi service.
             </Link>{" "}
@@ -826,11 +826,11 @@ export const allLocationsData = {
           <>
             Travel between offices or meetings with reliability and efficiency.
             Our
-            <strong className="pl-1"> local taxi service</strong> ensures
+            <strong> local taxi service</strong> ensures
             professionalism and comfort in your area. Explore
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -853,9 +853,9 @@ export const allLocationsData = {
         description: (
           <>
             Ideal for daily commuting or errands. Our sedans offer a reliable
-            <strong className="pl-1">Ambarvale taxi service</strong> , providing
+            <strong>Ambarvale taxi service</strong> , providing
             comfort and convenience. Book now at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -872,11 +872,11 @@ export const allLocationsData = {
           <>
             Perfect for VIP travel or airport rides. Experience privacy,
             comfort, and punctuality with our
-            <strong className="pl-1">Ambarvale taxi cab service</strong> Learn
+            <strong>Ambarvale taxi cab service</strong> Learn
             more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -893,9 +893,9 @@ export const allLocationsData = {
         description: (
           <>
             Ideal for families or heavy luggage. Enjoy smooth rides with our
-            <strong className="pl-1">taxi services near me </strong> iin
+            <strong>taxi services near me </strong> iin
             Ambarvale. Explore our
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -911,11 +911,11 @@ export const allLocationsData = {
         description: (
           <>
             Perfect for larger groups. Our
-            <strong className="pl-1">maxi cab near me in Ambarvale</strong>{" "}
+            <strong>maxi cab near me in Ambarvale</strong>{" "}
             handles up to 12 passengers comfortably. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -932,14 +932,14 @@ export const allLocationsData = {
         description: (
           <>
             Spacious and reliable for group travel. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               maxi cab services in Ambarvale
             </strong>{" "}
             are perfect for family trips and corporate outings. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -956,7 +956,7 @@ export const allLocationsData = {
         description: (
           <>
             Fully equipped for safe Travel. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Ambarvale service Campbelltown{" "}
             </strong>{" "}
@@ -964,7 +964,7 @@ export const allLocationsData = {
             a
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -981,11 +981,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Campbelltown taxi cab close to me</strong>{" "}
+            <strong>Campbelltown taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -995,7 +995,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               maxi cab services Ambarvale
             </Link>{" "}
             accommodate up to 12 passengers. Perfect for families, group travel,
@@ -1008,7 +1008,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Ambarvale taxi and cab services
             </strong>{" "}
@@ -1024,7 +1024,7 @@ export const allLocationsData = {
             Yes. Adjustable baby seats are available for safety. Travel
             comfortably for school runs, appointments, or family outings with
             our
-            <strong className="pl-1">Ambarvale taxi service</strong>
+            <strong>Ambarvale taxi service</strong>
           </>
         ),
       },
@@ -1033,7 +1033,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Ambarvale </strong>
+            <strong> local taxi service Ambarvale </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -1045,7 +1045,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Ambarvale taxi cab service</strong> for
+            a<strong> Ambarvale taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -1055,7 +1055,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -1067,9 +1067,9 @@ export const allLocationsData = {
           <>
             Yes. We cover Raby, Macarthur, Camden, Liverpool, and nearby
             suburbs. Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             easily in our{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -1080,10 +1080,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -1095,11 +1095,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Ambarvale taxi cab service </strong>
+            <strong>Ambarvale taxi cab service </strong>
             today.
           </>
         ),
@@ -1188,12 +1188,12 @@ export const allLocationsData = {
         description: (
           <>
             Travel stress-free on your big day. Our
-            <strong className="pl-1">Appin taxi cab services</strong> ensure
+            <strong>Appin taxi cab services</strong> ensure
             on-time arrivals, comfortable rides, and help with luggage. Book via
             our
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -1212,7 +1212,7 @@ export const allLocationsData = {
             events. Our luxury vehicles provide privacy and style. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer page.
             </Link>{" "}
@@ -1231,7 +1231,7 @@ export const allLocationsData = {
             appointments, or family outings. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Baby Seat Taxi.
             </Link>{" "}
@@ -1248,11 +1248,11 @@ export const allLocationsData = {
           <>
             Punctual, professional drivers for office commutes, meetings, and
             business travel. Our{" "}
-            <strong className="pl-1">local taxi service Appin </strong> ensures
+            <strong>local taxi service Appin </strong> ensures
             smooth corporate trips. See
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate transport services.
             </Link>{" "}
@@ -1271,7 +1271,7 @@ export const allLocationsData = {
             provides on-time pickups and luggage assistance. Visit
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -1290,7 +1290,7 @@ export const allLocationsData = {
             close to me Appin manages schedules efficiently. More info at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -1309,7 +1309,7 @@ export const allLocationsData = {
             handle up to 12 passengers comfortably. Learn more at
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -1324,14 +1324,14 @@ export const allLocationsData = {
         description: (
           <>
             Reliable rides between offices and meetings. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               local taxi cab service near me{" "}
             </strong>{" "}
             provides safe and professional trips. Explore
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -1346,14 +1346,14 @@ export const allLocationsData = {
         description: (
           <>
             Never miss a flight. Our
-            <strong className="pl-1">
+            <strong>
               Appin taxi service, available close to you.{" "}
             </strong>{" "}
             service ensures on-time pickups, safe rides, and luggage help. Book
             at
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               airport taxi service.
             </Link>{" "}
@@ -1376,9 +1376,9 @@ export const allLocationsData = {
         description: (
           <>
             Ideal for daily travel, errands, or short trips. Our
-            <strong className="pl-1">Appin taxi service</strong> provides
+            <strong>Appin taxi service</strong> provides
             reliable, stress-free rides. Book at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -1395,10 +1395,10 @@ export const allLocationsData = {
           <>
             Travel in style for airport transfers or special events. Experience
             privacy and comfort with our
-            <strong className="pl-1">Appin taxi cab service</strong> See
+            <strong>Appin taxi cab service</strong> See
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -1415,9 +1415,9 @@ export const allLocationsData = {
         description: (
           <>
             Perfect for families or luggage-heavy trips. Our
-            <strong className="pl-1">taxi services near me </strong> iin Appin
+            <strong>taxi services near me </strong> iin Appin
             are spacious and comfortable. Learn more at
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -1433,11 +1433,11 @@ export const allLocationsData = {
         description: (
           <>
             Great for large groups. Our
-            <strong className="pl-1">maxi cab near me in Appin </strong> seats
+            <strong>maxi cab near me in Appin </strong> seats
             up to 12 passengers comfortably. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -1454,11 +1454,11 @@ export const allLocationsData = {
         description: (
           <>
             Reliable and spacious for group travel. Our
-            <strong className="pl-1"> maxi cab services in Appin</strong> suit
+            <strong> maxi cab services in Appin</strong> suit
             family trips, corporate outings, and airport journeys. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -1475,11 +1475,11 @@ export const allLocationsData = {
         description: (
           <>
             Fully equipped for safe, accessible travel. Our
-            <strong className="pl-1"> local taxi service Appin</strong> helps
+            <strong> local taxi service Appin</strong> helps
             seniors and mobility-challenged passengers. Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -1495,11 +1495,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Campbelltown taxi cab close to me</strong>{" "}
+            <strong>Campbelltown taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -1509,7 +1509,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               maxi cab services Appin
             </Link>{" "}
             accommodate up to 12 passengers. Perfect for families, group travel,
@@ -1522,7 +1522,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1"> Appin taxi and cab services</strong>{" "}
+            <strong> Appin taxi and cab services</strong>{" "}
             operate day and night, including weekends and holidays. You can rely
             on us whenever you need a ride..
           </>
@@ -1535,7 +1535,7 @@ export const allLocationsData = {
             Yes. Adjustable baby seats are available for safety. Travel
             comfortably for school runs, appointments, or family outings with
             our
-            <strong className="pl-1">Appin taxi service</strong>
+            <strong>Appin taxi service</strong>
           </>
         ),
       },
@@ -1544,7 +1544,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Appin </strong>
+            <strong> local taxi service Appin </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -1556,7 +1556,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Appin taxi cab service</strong> for
+            a<strong> Appin taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -1566,7 +1566,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -1578,9 +1578,9 @@ export const allLocationsData = {
           <>
             Yes. We cover Raby, Macarthur, Camden, Liverpool, and nearby
             suburbs. Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             easily in our{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -1591,10 +1591,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -1606,11 +1606,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Appin taxi cab service </strong>
+            <strong>Appin taxi cab service </strong>
             today.
           </>
         ),
@@ -1693,7 +1693,7 @@ export const allLocationsData = {
             ensure a stress-free journey. Book now on our
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -1712,7 +1712,7 @@ export const allLocationsData = {
             travel, or airport rides. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer page.
             </Link>{" "}
@@ -1732,7 +1732,7 @@ export const allLocationsData = {
             outings. Book at
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Baby Seat Taxi.
             </Link>{" "}
@@ -1752,7 +1752,7 @@ export const allLocationsData = {
             service. See
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate transport services.
             </Link>{" "}
@@ -1771,7 +1771,7 @@ export const allLocationsData = {
             and cab services are timely, safe, and luggage-friendly. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -1790,7 +1790,7 @@ export const allLocationsData = {
             taxi service handles group rides efficiently. Learn more at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -1809,7 +1809,7 @@ export const allLocationsData = {
             Hills accommodate up to 12 passengers comfortably. Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -1828,7 +1828,7 @@ export const allLocationsData = {
             at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -1846,7 +1846,7 @@ export const allLocationsData = {
             pickups, safe rides, and luggage help. Book your airport taxi at
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               airport taxi service.
             </Link>{" "}
@@ -1871,7 +1871,7 @@ export const allLocationsData = {
           <>
             Perfect for daily commuting, errands, or short trips. Enjoy a
             comfortable and punctual Currans Hills taxi service. Book online at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -1890,7 +1890,7 @@ export const allLocationsData = {
             comfort and privacy with our Currans Hills taxi cab service. See
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -1908,7 +1908,7 @@ export const allLocationsData = {
           <>
             Great for families or travelers with luggage. Smooth rides with our
             taxi services near me in Currans Hills. Learn more at
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -1927,7 +1927,7 @@ export const allLocationsData = {
             handle up to 12 passengers comfortably. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -1948,7 +1948,7 @@ export const allLocationsData = {
             More info
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -1969,7 +1969,7 @@ export const allLocationsData = {
             travel. Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -1986,11 +1986,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Campbelltown taxi cab close to me</strong>{" "}
+            <strong>Campbelltown taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -2000,7 +2000,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               maxi cab services Currans Hills
             </Link>{" "}
             accommodate up to 12 passengers. Perfect for families, group travel,
@@ -2013,7 +2013,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Currans Hills taxi and cab services
             </strong>{" "}
@@ -2029,7 +2029,7 @@ export const allLocationsData = {
             Yes. Adjustable baby seats are available for safety. Travel
             comfortably for school runs, appointments, or family outings with
             our
-            <strong className="pl-1">Currans Hills taxi service</strong>
+            <strong>Currans Hills taxi service</strong>
           </>
         ),
       },
@@ -2038,7 +2038,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Currans Hills </strong>
+            <strong> local taxi service Currans Hills </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -2050,7 +2050,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Currans Hills taxi cab service</strong>{" "}
+            a<strong> Currans Hills taxi cab service</strong>{" "}
             for airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -2060,7 +2060,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -2072,9 +2072,9 @@ export const allLocationsData = {
           <>
             Yes. We cover Raby, Macarthur, Camden, Liverpool, and nearby
             suburbs. Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             easily in our{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -2085,10 +2085,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -2100,11 +2100,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Currans Hills taxi cab service </strong>
+            <strong>Currans Hills taxi cab service </strong>
             today.
           </>
         ),
@@ -2184,7 +2184,7 @@ export const allLocationsData = {
             safely. More details on
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -2203,7 +2203,7 @@ export const allLocationsData = {
             vehicles offer privacy, comfort, and punctual service. Check
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer page.
             </Link>{" "}
@@ -2223,7 +2223,7 @@ export const allLocationsData = {
             service. Learn more
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Baby Seat Taxi.
             </Link>{" "}
@@ -2243,7 +2243,7 @@ export const allLocationsData = {
             smooth, stress-free travel. Explore
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate transport services.
             </Link>{" "}
@@ -2262,7 +2262,7 @@ export const allLocationsData = {
             me service handles luggage and schedules efficiently. See
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -2282,7 +2282,7 @@ export const allLocationsData = {
             More info
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -2302,7 +2302,7 @@ export const allLocationsData = {
             corporate outings. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -2321,7 +2321,7 @@ export const allLocationsData = {
             and punctuality. Explore
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -2340,7 +2340,7 @@ export const allLocationsData = {
             now via
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               airport taxi service.
             </Link>{" "}
@@ -2364,7 +2364,7 @@ export const allLocationsData = {
           <>
             Ideal for everyday travel. Our Claymore taxi service offers comfort,
             reliability, and short wait times. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -2384,7 +2384,7 @@ export const allLocationsData = {
             service. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -2402,7 +2402,7 @@ export const allLocationsData = {
           <>
             Spacious and reliable for families or luggage-heavy trips. Find our
             taxi services near me in Claymore for safe rides. Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -2421,7 +2421,7 @@ export const allLocationsData = {
             Claymore fits up to 12 passengers comfortably. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -2442,7 +2442,7 @@ export const allLocationsData = {
             more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -2463,7 +2463,7 @@ export const allLocationsData = {
             needs. Book via
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -2480,11 +2480,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Campbelltown taxi cab close to me</strong>{" "}
+            <strong>Campbelltown taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -2494,7 +2494,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               maxi cab services Claymore
             </Link>{" "}
             accommodate up to 12 passengers. Perfect for families, group travel,
@@ -2507,7 +2507,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Claymore taxi and cab services
             </strong>{" "}
@@ -2523,7 +2523,7 @@ export const allLocationsData = {
             Yes. Adjustable baby seats are available for safety. Travel
             comfortably for school runs, appointments, or family outings with
             our
-            <strong className="pl-1">Claymore taxi service</strong>
+            <strong>Claymore taxi service</strong>
           </>
         ),
       },
@@ -2532,7 +2532,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Claymore </strong>
+            <strong> local taxi service Claymore </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -2544,7 +2544,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Claymore taxi cab service</strong> for
+            a<strong> Claymore taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -2554,7 +2554,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -2566,9 +2566,9 @@ export const allLocationsData = {
           <>
             Yes. We cover Raby, Macarthur, Camden, Liverpool, and nearby
             suburbs. Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             easily in our{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -2579,10 +2579,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -2594,11 +2594,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Claymore taxi cab service </strong>
+            <strong>Claymore taxi cab service </strong>
             today.
           </>
         ),
@@ -2688,14 +2688,14 @@ export const allLocationsData = {
         description: (
           <>
             Make your day stress-free. Our
-            <strong className="pl-1">
+            <strong>
               Macarthur taxi and cab services
             </strong>{" "}
             provide on-time pickups, elegant interiors, and luggage assistance.
             Celebrate without worrying about transport. Book via
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -2712,13 +2712,13 @@ export const allLocationsData = {
           <>
             Travel in comfort and style for corporate events, airport trips, or
             personal occasions. Our
-            <strong className="pl-1">
+            <strong>
               Macarthur taxi and cab services
             </strong>{" "}
             ensures privacy, reliability, and punctuality. See more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -2737,7 +2737,7 @@ export const allLocationsData = {
             for school runs or family outings. Learn more on
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -2754,14 +2754,14 @@ export const allLocationsData = {
           <>
             Professional drivers, scheduled pickups, and on-time service make
             business travel seamless. Book your
-            <strong className="pl-1">
+            <strong>
               local taxi service Campbelltown{" "}
             </strong>{" "}
             provides punctual service, safe vehicles, and smooth journeys. Check
             corporate
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -2777,11 +2777,11 @@ export const allLocationsData = {
         description: (
           <>
             Travel to cruise terminals without stress. Our
-            <strong className="pl-1">taxi cab service near me </strong> ensures
+            <strong>taxi cab service near me </strong> ensures
             timely pickups, luggage assistance, and smooth journeys. Check
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -2797,11 +2797,11 @@ export const allLocationsData = {
         description: (
           <>
             Arrive on time for parties, concerts, or weddings. Our
-            <strong className="pl-1">Macarthur taxi cab service</strong>manages
+            <strong>Macarthur taxi cab service</strong>manages
             schedules efficiently. Learn more at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -2817,11 +2817,11 @@ export const allLocationsData = {
         description: (
           <>
             Travel comfortably with large groups. Our
-            <strong className="pl-1">maxi cab services Macarthur</strong> fits
+            <strong>maxi cab services Macarthur</strong> fits
             up to 12 passengers. Perfect for family or corporate trips. Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -2836,14 +2836,14 @@ export const allLocationsData = {
         description: (
           <>
             Reliable rides between offices or meetings. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               local taxi cab service near me
             </strong>{" "}
             ensures smooth and professional service. Visit
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -2858,7 +2858,7 @@ export const allLocationsData = {
         description: (
           <>
             Never miss a flight. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Macarthur taxi cab close to me{" "}
             </strong>{" "}
@@ -2883,9 +2883,9 @@ export const allLocationsData = {
         description: (
           <>
             Perfect for everyday travel. Our sedans offer a reliable
-            <strong className="pl-1">Macarthur taxi service</strong> .Book
+            <strong>Macarthur taxi service</strong> .Book
             online at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -2901,11 +2901,11 @@ export const allLocationsData = {
         description: (
           <>
             Ideal for airport rides, VIP travel, and special events. Our
-            <strong className="pl-1">Macarthur taxi service</strong> provides
+            <strong>Macarthur taxi service</strong> provides
             comfort, privacy, and punctuality. Check
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -2922,9 +2922,9 @@ export const allLocationsData = {
         description: (
           <>
             Spacious for families or luggage-heavy trips. Enjoy our
-            <strong className="pl-1">taxi services near me </strong> in
+            <strong>taxi services near me </strong> in
             Macarthur. Learn more at
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -2940,14 +2940,14 @@ export const allLocationsData = {
         description: (
           <>
             Perfect for larger groups. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               maxi cab near me in Macarthur{" "}
             </strong>{" "}
             fits up to 12 passengers. Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -2964,11 +2964,11 @@ export const allLocationsData = {
         description: (
           <>
             Comfortable group travel with on-time service. Our
-            <strong className="pl-1"> maxi cab services Macarthur </strong> are
+            <strong> maxi cab services Macarthur </strong> are
             perfect for family or corporate trips. Details
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -2985,11 +2985,11 @@ export const allLocationsData = {
         description: (
           <>
             Fully equipped for safe travel. Our
-            <strong className="pl-1"> local taxi service near me</strong>{" "}
+            <strong> local taxi service near me</strong>{" "}
             ensures easy boarding and professional assistance. Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -3006,11 +3006,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Macarthur taxi cab close to me</strong>{" "}
+            <strong>Macarthur taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -3020,7 +3020,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               maxi cab services Macarthur
             </Link>{" "}
             accommodate up to 12 passengers. Perfect for families, group travel,
@@ -3033,7 +3033,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Macarthur taxi and cab services
             </strong>{" "}
@@ -3049,7 +3049,7 @@ export const allLocationsData = {
             Yes. Adjustable baby seats are available for safety. Travel
             comfortably for school runs, appointments, or family outings with
             our
-            <strong className="pl-1">Macarthur taxi service</strong>
+            <strong>Macarthur taxi service</strong>
           </>
         ),
       },
@@ -3058,7 +3058,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Macarthur </strong>
+            <strong> local taxi service Macarthur </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -3070,7 +3070,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Macarthur taxi cab service</strong> for
+            a<strong> Macarthur taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -3080,7 +3080,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -3092,7 +3092,7 @@ export const allLocationsData = {
           <>
             Yes. We cover Raby, Macarthur, Camden, Liverpool, and nearby
             suburbs. Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at
           </>
         ),
@@ -3102,10 +3102,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -3117,11 +3117,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Macarthur taxi cab service </strong>
+            <strong>Macarthur taxi cab service </strong>
             today.
           </>
         ),
@@ -3210,14 +3210,14 @@ export const allLocationsData = {
         description: (
           <>
             Celebrate your big day without transport worries. Our
-            <strong className="pl-1">
+            <strong>
               Menangle taxi and cab services
             </strong>{" "}
             ensure timely pickups, comfortable rides, and luggage assistance.
             Learn more on our
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -3234,10 +3234,10 @@ export const allLocationsData = {
           <>
             Travel in style and comfort for airport rides, business meetings, or
             special occasions. Book your
-            <strong className="pl-1">local taxi service Menangle</strong> via
+            <strong>local taxi service Menangle</strong> via
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -3257,7 +3257,7 @@ export const allLocationsData = {
             on
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -3274,14 +3274,14 @@ export const allLocationsData = {
           <>
             Professional drivers, scheduled pickups, and reliable vehicles for
             all corporate travel. Check our
-            <strong className="pl-1">
+            <strong>
               local taxi service Campbelltown{" "}
             </strong>{" "}
             provides punctual service, safe vehicles, and smooth journeys. Check
             corporate
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -3300,7 +3300,7 @@ export const allLocationsData = {
             cab services handle luggage efficiently. Learn more on
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -3319,7 +3319,7 @@ export const allLocationsData = {
             taxi cab service keeps your group comfortable and punctual. See
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -3338,7 +3338,7 @@ export const allLocationsData = {
             accommodate up to 12 passengers. Learn more on
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -3357,7 +3357,7 @@ export const allLocationsData = {
             service. Explore
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -3392,9 +3392,9 @@ export const allLocationsData = {
         description: (
           <>
             Perfect for everyday travel, school runs, or errands. Our
-            <strong className="pl-1">Menangle taxi service</strong> ensures a
+            <strong>Menangle taxi service</strong> ensures a
             reliable, comfortable ride. Book at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -3411,10 +3411,10 @@ export const allLocationsData = {
           <>
             Ideal for VIP trips, corporate travel, or airport transfers. Travel
             in comfort with our
-            <strong className="pl-1">Menangle taxi service</strong> See
+            <strong>Menangle taxi service</strong> See
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -3432,7 +3432,7 @@ export const allLocationsData = {
           <>
             Great for families or luggage-heavy trips. Enjoy our taxi services
             near me in Menangle. Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -3451,7 +3451,7 @@ export const allLocationsData = {
             12 passengers comfortably. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -3471,7 +3471,7 @@ export const allLocationsData = {
             services Menangle are perfect for family trips. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -3492,7 +3492,7 @@ export const allLocationsData = {
             mobility needs. Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -3509,11 +3509,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Menangle taxi cab close to me</strong>{" "}
+            <strong>Menangle taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -3523,7 +3523,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               maxi cab services Menangle
             </Link>{" "}
             accommodate up to 12 passengers. Perfect for families, group travel,
@@ -3536,7 +3536,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Menangle taxi and cab services
             </strong>{" "}
@@ -3552,7 +3552,7 @@ export const allLocationsData = {
             Yes. Adjustable baby seats are available for safety. Travel
             comfortably for school runs, appointments, or family outings with
             our
-            <strong className="pl-1">Menangle taxi service</strong>
+            <strong>Menangle taxi service</strong>
           </>
         ),
       },
@@ -3561,7 +3561,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Menangle </strong>
+            <strong> local taxi service Menangle </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -3573,7 +3573,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Menangle taxi cab service</strong> for
+            a<strong> Menangle taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -3583,7 +3583,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -3595,8 +3595,8 @@ export const allLocationsData = {
           <>
             Yes. We cover Raby, Menangle, Camden, Liverpool, and nearby suburbs.
             Find your
-            <strong className="pl-1"> local taxi service near me </strong>
-            at <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <strong> local taxi service near me </strong>
+            at <Link to={`/area-covered`} className="underline font-semibold px-1">
               here
             </Link>{" "}
           </>
@@ -3607,10 +3607,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -3622,11 +3622,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Menangle taxi cab service </strong>
+            <strong>Menangle taxi cab service </strong>
             today.
           </>
         ),
@@ -3715,13 +3715,13 @@ export const allLocationsData = {
         description: (
           <>
             Celebrate your big day without travel stress. Our
-            <strong className="pl-1">Leumeah taxi and cab services</strong>{" "}
+            <strong>Leumeah taxi and cab services</strong>{" "}
             provide on-time pickups, professional drivers, and assistance with
             luggage. We ensure a smooth journey for all guests. Book your
             wedding ride easily via our
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -3741,7 +3741,7 @@ export const allLocationsData = {
             guarantees privacy, comfort, and punctuality. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -3762,7 +3762,7 @@ export const allLocationsData = {
             comfortable journeys. Visit on
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -3783,7 +3783,7 @@ export const allLocationsData = {
             and well-maintained vehicles. Check
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -3803,7 +3803,7 @@ export const allLocationsData = {
             to the terminal. Enjoy a smooth, stress-free journey. Learn more at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -3823,7 +3823,7 @@ export const allLocationsData = {
             providing safe and reliable rides. More information at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -3843,7 +3843,7 @@ export const allLocationsData = {
             handle up to 12 passengers with ease. Learn more at
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -3862,7 +3862,7 @@ export const allLocationsData = {
             comfortable rides. Explore
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -3900,7 +3900,7 @@ export const allLocationsData = {
             Perfect for short trips, school runs, or errands. Our sedans are
             clean, spacious, and comfortable. You can trust our Leumeah taxi
             service for safe, reliable, and stress-free travel. Book quickly at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -3921,7 +3921,7 @@ export const allLocationsData = {
             drivers for a premium ride. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -3941,7 +3941,7 @@ export const allLocationsData = {
             SUVs provide spacious seating, smooth rides, and reliable service.
             Our taxi services near me in Leumeah ensures stress-free and
             comfortable transportation for every trip. Explore our fleet at
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -3962,7 +3962,7 @@ export const allLocationsData = {
             events, or city travel. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -3984,7 +3984,7 @@ export const allLocationsData = {
             social events. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -4006,7 +4006,7 @@ export const allLocationsData = {
             challenges. Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -4023,11 +4023,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Leumeah taxi cab close to me</strong>{" "}
+            <strong>Leumeah taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -4037,7 +4037,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               maxi cab services Leumeah
             </Link>{" "}
             accommodate up to 12 passengers. Perfect for families, group travel,
@@ -4050,7 +4050,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Leumeah taxi and cab services
             </strong>{" "}
@@ -4066,7 +4066,7 @@ export const allLocationsData = {
             Yes. Adjustable baby seats are available for safety. Travel
             comfortably for school runs, appointments, or family outings with
             our
-            <strong className="pl-1">Leumeah taxi service</strong>
+            <strong>Leumeah taxi service</strong>
           </>
         ),
       },
@@ -4075,7 +4075,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Leumeah </strong>
+            <strong> local taxi service Leumeah </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -4087,7 +4087,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Leumeah taxi cab service</strong> for
+            a<strong> Leumeah taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -4097,7 +4097,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -4109,7 +4109,7 @@ export const allLocationsData = {
           <>
             Yes. We cover Raby, Leumeah, Camden, Liverpool, and nearby suburbs.
             Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at
           </>
         ),
@@ -4119,10 +4119,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -4134,11 +4134,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Leumeah taxi cab service </strong>
+            <strong>Leumeah taxi cab service </strong>
             today.
           </>
         ),
@@ -4235,7 +4235,7 @@ export const allLocationsData = {
             wedding guests. Book through our
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -4255,7 +4255,7 @@ export const allLocationsData = {
             punctuality for a premium experience. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -4275,7 +4275,7 @@ export const allLocationsData = {
             Our Raby taxi service ensures secure, stress-free travel. Visit
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -4295,7 +4295,7 @@ export const allLocationsData = {
             and smooth corporate travel with trained drivers. Check
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -4315,7 +4315,7 @@ export const allLocationsData = {
             hassle-free journey. Learn more at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -4335,7 +4335,7 @@ export const allLocationsData = {
             providing safe and timely rides for you and your group. Details at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -4355,7 +4355,7 @@ export const allLocationsData = {
             space. Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -4374,7 +4374,7 @@ export const allLocationsData = {
             rides every time. Learn more at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -4412,7 +4412,7 @@ export const allLocationsData = {
             Ideal for everyday travel, errands, or school runs. Our sedans are
             clean, spacious, and comfortable. With our Raby taxi service, you
             will enjoy stress-free, safe, and reliable trips. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -4432,7 +4432,7 @@ export const allLocationsData = {
             punctual service with professional drivers. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -4451,7 +4451,7 @@ export const allLocationsData = {
             Ideal for families, groups, or luggage-heavy trips. Our SUVs provide
             ample seating, smooth rides, and convenience. Our taxi services near
             me in Raby ensures safe and comfortable travel. Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -4472,7 +4472,7 @@ export const allLocationsData = {
             event travel. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -4493,7 +4493,7 @@ export const allLocationsData = {
             family outings, corporate travel, and group trips. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -4515,7 +4515,7 @@ export const allLocationsData = {
             Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -4531,11 +4531,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Raby taxi cab close to me</strong> service
+            <strong>Raby taxi cab close to me</strong> service
             ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -4545,7 +4545,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               maxi cab services Raby
             </Link>{" "}
             accommodate up to 12 passengers. Perfect for families, group travel,
@@ -4558,7 +4558,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1"> Raby taxi and cab services</strong>{" "}
+            <strong> Raby taxi and cab services</strong>{" "}
             operate day and night, including weekends and holidays. You can rely
             on us whenever you need a ride..
           </>
@@ -4571,7 +4571,7 @@ export const allLocationsData = {
             Yes. Adjustable baby seats are available for safety. Travel
             comfortably for school runs, appointments, or family outings with
             our
-            <strong className="pl-1">Raby taxi service</strong>
+            <strong>Raby taxi service</strong>
           </>
         ),
       },
@@ -4580,7 +4580,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Raby </strong>
+            <strong> local taxi service Raby </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -4592,7 +4592,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Raby taxi cab service</strong> for
+            a<strong> Raby taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -4602,7 +4602,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -4614,7 +4614,7 @@ export const allLocationsData = {
           <>
             Yes. We cover Raby, Raby , Camden, Liverpool, and nearby suburbs.
             Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at
           </>
         ),
@@ -4624,10 +4624,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -4639,11 +4639,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Raby taxi cab service </strong>
+            <strong>Raby taxi cab service </strong>
             today.
           </>
         ),
@@ -4739,7 +4739,7 @@ export const allLocationsData = {
             all wedding guests. Book easily at
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -4759,7 +4759,7 @@ export const allLocationsData = {
             punctual service every time. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -4779,7 +4779,7 @@ export const allLocationsData = {
             Andrew's taxi service ensures secure and comfortable travel. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -4800,7 +4800,7 @@ export const allLocationsData = {
             vehicles. Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -4820,7 +4820,7 @@ export const allLocationsData = {
             stress-free journeys. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -4841,7 +4841,7 @@ export const allLocationsData = {
             at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -4861,7 +4861,7 @@ export const allLocationsData = {
             family outings, airport trips, or group events. Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -4880,7 +4880,7 @@ export const allLocationsData = {
             comfortable rides every time. More details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -4919,7 +4919,7 @@ export const allLocationsData = {
             Ideal for everyday travel, errands, or school runs. Our sedans are
             clean, spacious, and comfortable. With our St Andrew's taxi service,
             you will enjoy stress-free, safe, and reliable trips. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -4939,7 +4939,7 @@ export const allLocationsData = {
             and punctual service with professional drivers. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -4958,7 +4958,7 @@ export const allLocationsData = {
             Ideal for families, groups, or luggage-heavy trips. Our SUVs provide
             ample seating, smooth rides, and convenience. Our taxi services near
             me in St Andrew's ensures safe and comfortable travel. Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -4979,7 +4979,7 @@ export const allLocationsData = {
             event travel. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -5000,7 +5000,7 @@ export const allLocationsData = {
             for family outings, corporate travel, and group trips. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -5022,7 +5022,7 @@ export const allLocationsData = {
             mobility needs. Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -5039,11 +5039,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">St Andrew's taxi cab close to me</strong>{" "}
+            <strong>St Andrew's taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -5053,7 +5053,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               maxi cab services St Andrew's
             </Link>{" "}
             accommodate up to 12 passengers. Perfect for families, group travel,
@@ -5066,7 +5066,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               St Andrew's taxi and cab services
             </strong>{" "}
@@ -5082,7 +5082,7 @@ export const allLocationsData = {
             Yes. Adjustable baby seats are available for safety. Travel
             comfortably for school runs, appointments, or family outings with
             our
-            <strong className="pl-1">St Andrew's taxi service</strong>
+            <strong>St Andrew's taxi service</strong>
           </>
         ),
       },
@@ -5091,7 +5091,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service St Andrew's </strong>
+            <strong> local taxi service St Andrew's </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -5103,7 +5103,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> St Andrew's taxi cab service</strong> for
+            a<strong> St Andrew's taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -5113,7 +5113,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -5125,7 +5125,7 @@ export const allLocationsData = {
           <>
             Yes. We cover St Andrew's,Appin , Camden, Liverpool, and nearby
             suburbs. Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at
           </>
         ),
@@ -5135,10 +5135,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -5150,11 +5150,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">St Andrew's taxi cab service </strong>
+            <strong>St Andrew's taxi cab service </strong>
             today.
           </>
         ),
@@ -5238,7 +5238,7 @@ export const allLocationsData = {
             at
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -5258,7 +5258,7 @@ export const allLocationsData = {
             Experience a ride that matches your lifestyle at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -5278,7 +5278,7 @@ export const allLocationsData = {
             Perfect for family travel around Ruse. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -5299,7 +5299,7 @@ export const allLocationsData = {
             us. . Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -5320,7 +5320,7 @@ export const allLocationsData = {
             at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -5341,7 +5341,7 @@ export const allLocationsData = {
             at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -5361,7 +5361,7 @@ export const allLocationsData = {
             convenience, reliability, and safety in every ride. Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -5381,7 +5381,7 @@ export const allLocationsData = {
             More details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -5421,7 +5421,7 @@ export const allLocationsData = {
             vehicle is comfortable, fuel-efficient, and easy to park. Perfect
             for solo travellers or couples needing reliable transport. Your ride
             will always be prompt and hassle-free. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -5443,7 +5443,7 @@ export const allLocationsData = {
             never been simpler or more enjoyable. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -5464,7 +5464,7 @@ export const allLocationsData = {
             shopping, or weekend trips. The vehicle provides comfort for every
             passenger, while keeping your belongings secure. Enjoy flexibility
             and reliability for any journey in Ruse. Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -5486,7 +5486,7 @@ export const allLocationsData = {
             luggage stays organised and safe. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -5509,7 +5509,7 @@ export const allLocationsData = {
             without compromising on safety or punctuality. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -5533,7 +5533,7 @@ export const allLocationsData = {
             priority. Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -5549,11 +5549,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Ruse taxi cab close to me</strong> service
+            <strong>Ruse taxi cab close to me</strong> service
             ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -5563,7 +5563,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               maxi cab services Ruse
             </Link>{" "}
             accommodate up to 12 passengers. Perfect for families, group travel,
@@ -5576,7 +5576,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1"> Ruse taxi and cab services</strong>{" "}
+            <strong> Ruse taxi and cab services</strong>{" "}
             operate day and night, including weekends and holidays. You can rely
             on us whenever you need a ride..
           </>
@@ -5589,7 +5589,7 @@ export const allLocationsData = {
             Yes. Adjustable baby seats are available for safety. Travel
             comfortably for school runs, appointments, or family outings with
             our
-            <strong className="pl-1">Ruse taxi service</strong>
+            <strong>Ruse taxi service</strong>
           </>
         ),
       },
@@ -5598,7 +5598,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Ruse </strong>
+            <strong> local taxi service Ruse </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -5610,7 +5610,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Ruse taxi cab service</strong> for
+            a<strong> Ruse taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -5620,7 +5620,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -5632,7 +5632,7 @@ export const allLocationsData = {
           <>
             Yes. We cover Ruse,Appin , Camden, Liverpool, and nearby suburbs.
             Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at
           </>
         ),
@@ -5642,10 +5642,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -5657,11 +5657,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Ruse taxi cab service </strong>
+            <strong>Ruse taxi cab service </strong>
             today.
           </>
         ),
@@ -5744,7 +5744,7 @@ export const allLocationsData = {
             memorable day at
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -5764,7 +5764,7 @@ export const allLocationsData = {
             Experience a ride that matches your lifestyle at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -5784,7 +5784,7 @@ export const allLocationsData = {
             Perfect for family travel around Minto. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -5805,7 +5805,7 @@ export const allLocationsData = {
             us. . Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -5826,7 +5826,7 @@ export const allLocationsData = {
             at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -5847,7 +5847,7 @@ export const allLocationsData = {
             at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -5867,7 +5867,7 @@ export const allLocationsData = {
             convenience, reliability, and safety in every ride. Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -5887,7 +5887,7 @@ export const allLocationsData = {
             More details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -5927,7 +5927,7 @@ export const allLocationsData = {
             vehicle is comfortable, fuel-efficient, and easy to park. Perfect
             for solo travellers or couples needing reliable transport. Your ride
             will always be prompt and hassle-free. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -5949,7 +5949,7 @@ export const allLocationsData = {
             never been simpler or more enjoyable. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -5970,7 +5970,7 @@ export const allLocationsData = {
             shopping, or weekend trips. The vehicle provides comfort for every
             passenger, while keeping your belongings secure. Enjoy flexibility
             and reliability for any journey in Minto. Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -5992,7 +5992,7 @@ export const allLocationsData = {
             luggage stays organised and safe. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -6015,7 +6015,7 @@ export const allLocationsData = {
             without compromising on safety or punctuality. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -6039,7 +6039,7 @@ export const allLocationsData = {
             priority. Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -6056,11 +6056,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Minto taxi cab close to me</strong> service
+            <strong>Minto taxi cab close to me</strong> service
             ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -6070,7 +6070,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               maxi cab services Minto
             </Link>{" "}
             accommodate up to 12 passengers. Perfect for families, group travel,
@@ -6083,7 +6083,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1"> Minto taxi and cab services</strong>{" "}
+            <strong> Minto taxi and cab services</strong>{" "}
             operate day and night, including weekends and holidays. You can rely
             on us whenever you need a ride..
           </>
@@ -6096,7 +6096,7 @@ export const allLocationsData = {
             Yes. Adjustable baby seats are available for safety. Travel
             comfortably for school runs, appointments, or family outings with
             our
-            <strong className="pl-1">Minto taxi service</strong>
+            <strong>Minto taxi service</strong>
           </>
         ),
       },
@@ -6105,7 +6105,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Minto </strong>
+            <strong> local taxi service Minto </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -6117,7 +6117,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Minto taxi cab service</strong> for
+            a<strong> Minto taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -6127,7 +6127,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -6139,7 +6139,7 @@ export const allLocationsData = {
           <>
             Yes. We cover Minto,Appin , Camden, Liverpool, and nearby suburbs.
             Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at
           </>
         ),
@@ -6149,10 +6149,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -6164,11 +6164,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Minto taxi cab service </strong>
+            <strong>Minto taxi cab service </strong>
             today.
           </>
         ),
@@ -6252,7 +6252,7 @@ export const allLocationsData = {
             celebrating. Here
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -6274,7 +6274,7 @@ export const allLocationsData = {
             Details at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -6295,7 +6295,7 @@ export const allLocationsData = {
             by phone, ensuring a stress-free family journey. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -6317,7 +6317,7 @@ export const allLocationsData = {
             efficiently. Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -6338,7 +6338,7 @@ export const allLocationsData = {
             group and solo transfers hassle-free in Glenfield. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -6360,7 +6360,7 @@ export const allLocationsData = {
             at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -6381,7 +6381,7 @@ export const allLocationsData = {
             comfort, and reliable service every time. Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -6402,7 +6402,7 @@ export const allLocationsData = {
             details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -6442,7 +6442,7 @@ export const allLocationsData = {
             The vehicle is comfortable, fuel-efficient, and easy to park.
             Perfect for solo travellers or couples needing reliable transport.
             Your ride will always be prompt and hassle-free. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -6464,7 +6464,7 @@ export const allLocationsData = {
             never been simpler or more enjoyable. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -6485,7 +6485,7 @@ export const allLocationsData = {
             shopping, or weekend trips. The vehicle provides comfort for every
             passenger, while keeping your belongings secure. Enjoy flexibility
             and reliability for any journey in Glenfield . Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -6507,7 +6507,7 @@ export const allLocationsData = {
             luggage stays organised and safe. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -6530,7 +6530,7 @@ export const allLocationsData = {
             without compromising on safety or punctuality. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -6554,7 +6554,7 @@ export const allLocationsData = {
             priority. Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -6571,11 +6571,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Glenfield taxi cab close to me</strong>{" "}
+            <strong>Glenfield taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -6585,7 +6585,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               maxi cab services Glenfield
             </Link>{" "}
             accommodate up to 12 passengers. Perfect for families, group travel,
@@ -6598,7 +6598,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Glenfield taxi and cab services
             </strong>{" "}
@@ -6614,7 +6614,7 @@ export const allLocationsData = {
             Yes. Adjustable baby seats are available for safety. Travel
             comfortably for school runs, appointments, or family outings with
             our
-            <strong className="pl-1">Glenfield taxi service</strong>
+            <strong>Glenfield taxi service</strong>
           </>
         ),
       },
@@ -6623,7 +6623,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Glenfield </strong>
+            <strong> local taxi service Glenfield </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -6635,7 +6635,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Glenfield taxi cab service</strong> for
+            a<strong> Glenfield taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -6645,7 +6645,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -6657,7 +6657,7 @@ export const allLocationsData = {
           <>
             Yes. We cover Glenfield ,Appin , Camden, Liverpool, and nearby
             suburbs. Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at
           </>
         ),
@@ -6667,10 +6667,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -6682,11 +6682,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Glenfield taxi cab service </strong>
+            <strong>Glenfield taxi cab service </strong>
             today.
           </>
         ),
@@ -6759,7 +6759,7 @@ export const allLocationsData = {
             celebrating. Here
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -6781,7 +6781,7 @@ export const allLocationsData = {
             Details at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -6802,7 +6802,7 @@ export const allLocationsData = {
             online or by phone, ensuring a stress-free family journey. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -6824,7 +6824,7 @@ export const allLocationsData = {
             efficiently. Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -6845,7 +6845,7 @@ export const allLocationsData = {
             group and solo transfers hassle-free in Camden South. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -6867,7 +6867,7 @@ export const allLocationsData = {
             at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -6888,7 +6888,7 @@ export const allLocationsData = {
             comfort, and reliable service every time. Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -6909,7 +6909,7 @@ export const allLocationsData = {
             More details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -6950,7 +6950,7 @@ export const allLocationsData = {
             The vehicle is comfortable, fuel-efficient, and easy to park.
             Perfect for solo travellers or couples needing reliable transport.
             Your ride will always be prompt and hassle-free. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -6972,7 +6972,7 @@ export const allLocationsData = {
             never been simpler or more enjoyable. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -6993,7 +6993,7 @@ export const allLocationsData = {
             shopping, or weekend trips. The vehicle provides comfort for every
             passenger, while keeping your belongings secure. Enjoy flexibility
             and reliability for any journey in Camden South . Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -7015,7 +7015,7 @@ export const allLocationsData = {
             luggage stays organised and safe. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -7038,7 +7038,7 @@ export const allLocationsData = {
             without compromising on safety or punctuality. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -7062,7 +7062,7 @@ export const allLocationsData = {
             priority. Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -7079,11 +7079,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Camden South taxi cab close to me</strong>{" "}
+            <strong>Camden South taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -7095,7 +7095,7 @@ export const allLocationsData = {
             Yes, our
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -7111,7 +7111,7 @@ export const allLocationsData = {
             Absolutely. Our
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -7134,7 +7134,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Camden South taxi and cab services
             </strong>{" "}
@@ -7150,13 +7150,13 @@ export const allLocationsData = {
             Yes. Adjustable{" "}
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seats
             </Link>{" "}
             are available for safety. Travel comfortably for school runs,
             appointments, or family outings with our
-            <strong className="pl-1">Camden South taxi service</strong>
+            <strong>Camden South taxi service</strong>
           </>
         ),
       },
@@ -7165,7 +7165,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Camden South </strong>
+            <strong> local taxi service Camden South </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -7177,7 +7177,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Camden South taxi cab service</strong>{" "}
+            a<strong> Camden South taxi cab service</strong>{" "}
             for airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -7187,7 +7187,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -7199,7 +7199,7 @@ export const allLocationsData = {
           <>
             Yes. We cover Camden South ,Appin , Camden, Liverpool, and nearby
             suburbs. Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at
           </>
         ),
@@ -7209,10 +7209,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -7224,11 +7224,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Camden South taxi cab service </strong>
+            <strong>Camden South taxi cab service </strong>
             today.
           </>
         ),
@@ -7278,7 +7278,7 @@ export const allLocationsData = {
             celebrating. Here
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -7300,7 +7300,7 @@ export const allLocationsData = {
             Details at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -7321,7 +7321,7 @@ export const allLocationsData = {
             online or by phone, ensuring a stress-free family journey. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -7343,7 +7343,7 @@ export const allLocationsData = {
             efficiently. Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -7364,7 +7364,7 @@ export const allLocationsData = {
             group and solo transfers hassle-free in Camden. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -7386,7 +7386,7 @@ export const allLocationsData = {
             at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -7407,7 +7407,7 @@ export const allLocationsData = {
             comfort, and reliable service every time. Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -7428,7 +7428,7 @@ export const allLocationsData = {
             More details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -7469,7 +7469,7 @@ export const allLocationsData = {
             The vehicle is comfortable, fuel-efficient, and easy to park.
             Perfect for solo travellers or couples needing reliable transport.
             Your ride will always be prompt and hassle-free. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -7491,7 +7491,7 @@ export const allLocationsData = {
             never been simpler or more enjoyable. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -7512,7 +7512,7 @@ export const allLocationsData = {
             shopping, or weekend trips. The vehicle provides comfort for every
             passenger, while keeping your belongings secure. Enjoy flexibility
             and reliability for any journey in Camden . Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -7534,7 +7534,7 @@ export const allLocationsData = {
             luggage stays organised and safe. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -7557,7 +7557,7 @@ export const allLocationsData = {
             without compromising on safety or punctuality. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -7581,7 +7581,7 @@ export const allLocationsData = {
             priority. Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -7598,11 +7598,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Camden taxi cab close to me</strong>{" "}
+            <strong>Camden taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -7614,7 +7614,7 @@ export const allLocationsData = {
             Yes, our
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -7630,7 +7630,7 @@ export const allLocationsData = {
             Absolutely. Our
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -7653,7 +7653,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Camden taxi and cab services
             </strong>{" "}
@@ -7669,13 +7669,13 @@ export const allLocationsData = {
             Yes. Adjustable{" "}
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seats
             </Link>{" "}
             are available for safety. Travel comfortably for school runs,
             appointments, or family outings with our
-            <strong className="pl-1">Camden taxi service</strong>
+            <strong>Camden taxi service</strong>
           </>
         ),
       },
@@ -7684,7 +7684,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Camden </strong>
+            <strong> local taxi service Camden </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -7696,7 +7696,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Camden taxi cab service</strong>{" "}
+            a<strong> Camden taxi cab service</strong>{" "}
             for airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -7706,7 +7706,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -7718,8 +7718,8 @@ export const allLocationsData = {
           <>
             Yes. We cover Camden ,Appin , Camden, Liverpool, and nearby
             suburbs. Find your
-            <strong className="pl-1"> local taxi service near me </strong>
-            at <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <strong> local taxi service near me </strong>
+            at <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -7730,10 +7730,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -7745,11 +7745,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Camden taxi cab service </strong>
+            <strong>Camden taxi cab service </strong>
             today.
           </>
         ),
@@ -7826,7 +7826,7 @@ export const allLocationsData = {
             covers Gregory Hills and surrounding areas. Here
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -7848,7 +7848,7 @@ export const allLocationsData = {
             tailored to your comfort and schedule. Details at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -7869,7 +7869,7 @@ export const allLocationsData = {
             your little ones are secure and comfortable on every journey. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -7891,7 +7891,7 @@ export const allLocationsData = {
             Hills is stress-free. Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -7913,7 +7913,7 @@ export const allLocationsData = {
             reliable. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -7934,7 +7934,7 @@ export const allLocationsData = {
             no delays—just a smooth and enjoyable experience. Learn more at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -7956,7 +7956,7 @@ export const allLocationsData = {
             come standard Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -7977,7 +7977,7 @@ export const allLocationsData = {
             reliability and trust. More details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -8018,7 +8018,7 @@ export const allLocationsData = {
             fuel-efficient, and easy to park, it’s perfect for solo travelers or
             couples. You’ll enjoy reliable, stress-free rides every time. Book
             easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -8040,7 +8040,7 @@ export const allLocationsData = {
             traffic and parking. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -8061,7 +8061,7 @@ export const allLocationsData = {
             rides comfortably while your belongings are secure. Our vehicles
             combine convenience, safety, and reliability for your travel needs
             in Gregory Hills. Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -8082,7 +8082,7 @@ export const allLocationsData = {
             with organised seating and ample space. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -8104,7 +8104,7 @@ export const allLocationsData = {
             Flexible booking options make group travel easy. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -8127,7 +8127,7 @@ export const allLocationsData = {
             Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -8144,11 +8144,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Gregory Hills taxi cab close to me</strong>{" "}
+            <strong>Gregory Hills taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups.
           </>
         ),
@@ -8160,7 +8160,7 @@ export const allLocationsData = {
             Yes, our
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -8176,7 +8176,7 @@ export const allLocationsData = {
             Absolutely. Our
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -8199,7 +8199,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1">
+            <strong>
               {" "}
               Gregory Hills taxi and cab services
             </strong>{" "}
@@ -8215,13 +8215,13 @@ export const allLocationsData = {
             Yes. Adjustable{" "}
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seats
             </Link>{" "}
             are available for safety. Travel comfortably for school runs,
             appointments, or family outings with our
-            <strong className="pl-1">Gregory Hills taxi service</strong>
+            <strong>Gregory Hills taxi service</strong>
           </>
         ),
       },
@@ -8230,7 +8230,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Gregory Hills </strong>
+            <strong> local taxi service Gregory Hills </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -8242,7 +8242,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Gregory Hills taxi cab service</strong>{" "}
+            a<strong> Gregory Hills taxi cab service</strong>{" "}
             for airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -8252,7 +8252,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -8264,7 +8264,7 @@ export const allLocationsData = {
           <>
             Yes. We cover Gregory Hills ,Appin , Camden, Liverpool, and nearby
             suburbs. Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at
           </>
         ),
@@ -8274,10 +8274,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -8289,11 +8289,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Gregory Hills taxi cab service </strong>
+            <strong>Gregory Hills taxi cab service </strong>
             today.
           </>
         ),
@@ -8368,7 +8368,7 @@ export const allLocationsData = {
             covers Wilton and surrounding areas. Here
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -8390,7 +8390,7 @@ export const allLocationsData = {
             tailored to your comfort and schedule. Details at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -8411,7 +8411,7 @@ export const allLocationsData = {
             little ones are secure and comfortable on every journey. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -8433,7 +8433,7 @@ export const allLocationsData = {
             stress-free. Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -8455,7 +8455,7 @@ export const allLocationsData = {
             reliable. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -8476,7 +8476,7 @@ export const allLocationsData = {
             no delays—just a smooth and enjoyable experience. Learn more at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -8498,7 +8498,7 @@ export const allLocationsData = {
             standard Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -8519,7 +8519,7 @@ export const allLocationsData = {
             reliability and trust. More details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -8558,7 +8558,7 @@ export const allLocationsData = {
             it for shopping, work, or airport runs. Comfortable, fuel-efficient,
             and easy to park, it’s perfect for solo travelers or couples. You’ll
             enjoy reliable, stress-free rides every time. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -8580,7 +8580,7 @@ export const allLocationsData = {
             traffic and parking. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -8601,7 +8601,7 @@ export const allLocationsData = {
             rides comfortably while your belongings are secure. Our vehicles
             combine convenience, safety, and reliability for your travel needs
             in Wilton. Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -8622,7 +8622,7 @@ export const allLocationsData = {
             with organised seating and ample space. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -8644,7 +8644,7 @@ export const allLocationsData = {
             Flexible booking options make group travel easy. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -8667,7 +8667,7 @@ export const allLocationsData = {
             Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -8684,11 +8684,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Wilton taxi cab close to me</strong>{" "}
+            <strong>Wilton taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups. Advance bookings
             are recommended for airport transfers or special occasions.
           </>
@@ -8719,7 +8719,7 @@ export const allLocationsData = {
             Yes, our
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -8735,7 +8735,7 @@ export const allLocationsData = {
             Absolutely. Our
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -8758,7 +8758,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1"> Wilton taxi and cab services</strong>{" "}
+            <strong> Wilton taxi and cab services</strong>{" "}
             operate day and night, including weekends and holidays. You can rely
             on us whenever you need a ride..
           </>
@@ -8771,13 +8771,13 @@ export const allLocationsData = {
             Yes. Adjustable{" "}
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seats
             </Link>{" "}
             are available for safety. Travel comfortably for school runs,
             appointments, or family outings with our
-            <strong className="pl-1">Wilton taxi service</strong>
+            <strong>Wilton taxi service</strong>
           </>
         ),
       },
@@ -8786,7 +8786,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Wilton </strong>
+            <strong> local taxi service Wilton </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -8798,7 +8798,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Wilton taxi cab service</strong> for
+            a<strong> Wilton taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -8808,7 +8808,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -8820,7 +8820,7 @@ export const allLocationsData = {
           <>
             Yes. We cover Wilton ,Appin , Camden, Liverpool, and nearby suburbs.
             Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at
           </>
         ),
@@ -8830,10 +8830,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -8845,11 +8845,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Wilton taxi cab service </strong>
+            <strong>Wilton taxi cab service </strong>
             today.
           </>
         ),
@@ -8910,7 +8910,7 @@ export const allLocationsData = {
             Celebrate special occasions without transport worries. Our professional drivers ensure timely pickups, comfortable rides, and stress-free travel for weddings, keeping you focused on the event. Here
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -8928,7 +8928,7 @@ export const allLocationsData = {
             Enjoy a premium travel experience with our luxury vehicle options, perfect for corporate clients, business meetings, or special nights out in Phesant Nest. Details at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -8946,7 +8946,7 @@ export const allLocationsData = {
            Safety for your little ones is our priority. We provide child seats in our taxis for secure and comfortable travel for families with young children. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -8964,7 +8964,7 @@ export const allLocationsData = {
             Dependable rides for employees, executives, and business meetings. Our corporate transport ensures punctuality, professionalism, and convenience. Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -8982,7 +8982,7 @@ export const allLocationsData = {
             Hassle-free pickups and drop-offs at nearby cruise terminals. Our drivers help you travel with comfort and ease while managing luggage efficiently. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -9000,7 +9000,7 @@ export const allLocationsData = {
             From conferences to parties, our taxis and maxi cabs provide reliable transport to ensure your guests arrive on time and in comfort. Learn more at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -9019,7 +9019,7 @@ export const allLocationsData = {
             standard Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -9036,7 +9036,7 @@ export const allLocationsData = {
            Seamless long-distance rides for corporate clients, airport transfers, or group business travel, with on-time service and professional drivers. More details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -9075,7 +9075,7 @@ export const allLocationsData = {
             it for shopping, work, or airport runs. Comfortable, fuel-efficient,
             and easy to park, it’s perfect for solo travelers or couples. You’ll
             enjoy reliable, stress-free rides every time. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -9097,7 +9097,7 @@ export const allLocationsData = {
             traffic and parking. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -9118,7 +9118,7 @@ export const allLocationsData = {
             rides comfortably while your belongings are secure. Our vehicles
             combine convenience, safety, and reliability for your travel needs
             in Phesant Nest. Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -9139,7 +9139,7 @@ export const allLocationsData = {
             with organised seating and ample space. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -9161,7 +9161,7 @@ export const allLocationsData = {
             Flexible booking options make group travel easy. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -9184,7 +9184,7 @@ export const allLocationsData = {
             Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -9201,11 +9201,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Phesant Nest taxi cab close to me</strong>{" "}
+            <strong>Phesant Nest taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups. Advance bookings
             are recommended for airport transfers or special occasions.
           </>
@@ -9236,7 +9236,7 @@ export const allLocationsData = {
             Yes, our
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -9252,7 +9252,7 @@ export const allLocationsData = {
             Absolutely. Our
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -9275,7 +9275,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1"> Phesant Nest taxi and cab services</strong>{" "}
+            <strong> Phesant Nest taxi and cab services</strong>{" "}
             operate day and night, including weekends and holidays. You can rely
             on us whenever you need a ride..
           </>
@@ -9288,13 +9288,13 @@ export const allLocationsData = {
             Yes. Adjustable{" "}
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seats
             </Link>{" "}
             are available for safety. Travel comfortably for school runs,
             appointments, or family outings with our
-            <strong className="pl-1">Phesant Nest taxi service</strong>
+            <strong>Phesant Nest taxi service</strong>
           </>
         ),
       },
@@ -9303,7 +9303,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Phesant Nest </strong>
+            <strong> local taxi service Phesant Nest </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -9315,7 +9315,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Phesant Nest taxi cab service</strong> for
+            a<strong> Phesant Nest taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -9325,7 +9325,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -9337,7 +9337,7 @@ export const allLocationsData = {
           <>
             Yes. We cover Phesant Nest ,Appin , Camden, Liverpool, and nearby suburbs.
             Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at
           </>
         ),
@@ -9347,10 +9347,10 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold pl-1">
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
             </Link>{" "}
           </>
@@ -9361,7 +9361,7 @@ export const allLocationsData = {
         answer: (
           <>
             Simply search for
-            <strong className="pl-1">Phesant Nest taxi cab service</strong> or <strong>taxi service close to me</strong>
+            <strong>Phesant Nest taxi cab service</strong> or <strong>taxi service close to me</strong>
            and we’ll be ready for quick dispatch.
 
           </>
@@ -9373,11 +9373,11 @@ export const allLocationsData = {
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
             or visit{" "}
-            <Link to={`/`} className="underline font-semibold pl-1">
+            <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong className="pl-1">Phesant Nest taxi cab service </strong>
+            <strong>Phesant Nest taxi cab service </strong>
             today.
           </>
         ),
@@ -9439,7 +9439,7 @@ export const allLocationsData = {
             Make your special day stress-free with our luxurious wedding transfer options. Our professional drivers will ensure timely arrivals and elegant transport, making your big day memorable and smooth. Enjoy a comfortable ride for your bridal party and guests, while leaving transportation logistics to the experts. Here
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -9457,7 +9457,7 @@ export const allLocationsData = {
             Travel in style with our luxury taxi services. Whether it’s for business meetings, airport pickups, or special occasions, our high-end vehicles and courteous drivers provide a premium experience that prioritizes comfort, punctuality, and convenience. Details at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -9475,7 +9475,7 @@ export const allLocationsData = {
             Safety comes first with our baby seat-equipped taxis. Perfect for families with infants and toddlers, our vehicles are fitted with age-appropriate child restraints, giving parents peace of mind while traveling across Austral or for airport transfers. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -9493,7 +9493,7 @@ export const allLocationsData = {
             Impress clients or ensure smooth staff commutes with our corporate transport solutions. We provide punctual, professional, and comfortable rides tailored for meetings, events, and business trips across Austral. Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -9511,7 +9511,7 @@ export const allLocationsData = {
             Heading to a cruise? Our dedicated cruise terminal transfer service ensures you reach your ship on time, stress-free, with ample luggage space and professional drivers familiar with the routes. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -9529,7 +9529,7 @@ export const allLocationsData = {
             From conferences to parties, our event transfer services make group travel simple and organized. Count on Austral Taxi & Maxi Cabs to handle large bookings efficiently, ensuring timely arrivals and departures. Learn more at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -9548,7 +9548,7 @@ export const allLocationsData = {
             standard Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -9565,7 +9565,7 @@ export const allLocationsData = {
            For day-long business travel or client visits, we provide reliable, well-maintained taxis and maxi cabs. Our professional drivers prioritize punctuality and smooth rides, making your corporate travel hassle-free. More details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -9604,7 +9604,7 @@ export const allLocationsData = {
             it for shopping, work, or airport runs. Comfortable, fuel-efficient,
             and easy to park, it’s perfect for solo travelers or couples. You’ll
             enjoy reliable, stress-free rides every time. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -9626,7 +9626,7 @@ export const allLocationsData = {
             traffic and parking. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -9647,7 +9647,7 @@ export const allLocationsData = {
             rides comfortably while your belongings are secure. Our vehicles
             combine convenience, safety, and reliability for your travel needs
             in Austral . Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -9668,7 +9668,7 @@ export const allLocationsData = {
             with organised seating and ample space. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -9690,7 +9690,7 @@ export const allLocationsData = {
             Flexible booking options make group travel easy. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -9713,7 +9713,7 @@ export const allLocationsData = {
             Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -9730,11 +9730,11 @@ export const allLocationsData = {
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Austral  taxi cab close to me</strong>{" "}
+            <strong>Austral  taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups. Advance bookings
             are recommended for airport transfers or special occasions.
           </>
@@ -9765,7 +9765,7 @@ export const allLocationsData = {
             Yes, our
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -9781,7 +9781,7 @@ export const allLocationsData = {
             Absolutely. Our
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -9804,7 +9804,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1"> Austral  taxi and cab services</strong>{" "}
+            <strong> Austral  taxi and cab services</strong>{" "}
             operate day and night, including weekends and holidays. You can rely
             on us whenever you need a ride..
           </>
@@ -9817,13 +9817,13 @@ export const allLocationsData = {
             Yes. Adjustable{" "}
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seats
             </Link>{" "}
             are available for safety. Travel comfortably for school runs,
             appointments, or family outings with our
-            <strong className="pl-1">Austral  taxi service</strong>
+            <strong>Austral  taxi service</strong>
           </>
         ),
       },
@@ -9832,7 +9832,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Austral  </strong>
+            <strong> local taxi service Austral  </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -9844,7 +9844,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Austral  taxi cab service</strong> for
+            a<strong> Austral  taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -9854,7 +9854,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -9941,7 +9941,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Make your special day stress-free with our professional wedding transfer services. Our drivers ensure timely arrivals at ceremonies and receptions, and our luxury vehicles provide comfort and elegance for you and your guests throughout the day. Here
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -9959,7 +9959,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Travel in style with our luxury taxi services. Whether it’s for business meetings, airport pickups, or special occasions, our high-end vehicles and courteous drivers provide a premium experience that prioritizes comfort, punctuality, and convenience. Details at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -9977,7 +9977,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Safety comes first with our baby seat-equipped taxis. Perfect for families with infants and toddlers, our vehicles are fitted with age-appropriate child restraints, giving parents peace of mind while traveling across Thilmere or for airport transfers. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -9995,7 +9995,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Impress clients or ensure smooth staff commutes with our corporate transport solutions. We provide punctual, professional, and comfortable rides tailored for meetings, events, and business trips across Thilmere. Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -10013,7 +10013,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Heading to a cruise? Our dedicated cruise terminal transfer service ensures you reach your ship on time, stress-free, with ample luggage space and professional drivers familiar with the routes. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -10031,7 +10031,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             From conferences to parties, our event transfer services make group travel simple and organized. Count on Thilmere Taxi & Maxi Cabs to handle large bookings efficiently, ensuring timely arrivals and departures. Learn more at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -10050,7 +10050,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             standard Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -10067,7 +10067,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
            For day-long business travel or client visits, we provide reliable, well-maintained taxis and maxi cabs. Our professional drivers prioritize punctuality and smooth rides, making your corporate travel hassle-free. More details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -10106,7 +10106,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             it for shopping, work, or airport runs. Comfortable, fuel-efficient,
             and easy to park, it’s perfect for solo travelers or couples. You’ll
             enjoy reliable, stress-free rides every time. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -10128,7 +10128,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             traffic and parking. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -10149,7 +10149,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             rides comfortably while your belongings are secure. Our vehicles
             combine convenience, safety, and reliability for your travel needs
             in Thilmere . Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -10170,7 +10170,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             with organised seating and ample space. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -10192,7 +10192,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Flexible booking options make group travel easy. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -10215,7 +10215,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -10232,11 +10232,11 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Thilmere  taxi cab close to me</strong>{" "}
+            <strong>Thilmere  taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups. Advance bookings
             are recommended for airport transfers or special occasions.
           </>
@@ -10267,7 +10267,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Yes, our
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -10283,7 +10283,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Absolutely. Our
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -10306,7 +10306,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1"> Thilmere  taxi and cab services</strong>{" "}
+            <strong> Thilmere  taxi and cab services</strong>{" "}
             operate day and night, including weekends and holidays. You can rely
             on us whenever you need a ride..
           </>
@@ -10319,13 +10319,13 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Yes. Adjustable{" "}
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seats
             </Link>{" "}
             are available for safety. Travel comfortably for school runs,
             appointments, or family outings with our
-            <strong className="pl-1">Thilmere  taxi service</strong>
+            <strong>Thilmere  taxi service</strong>
           </>
         ),
       },
@@ -10334,7 +10334,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Thilmere  </strong>
+            <strong> local taxi service Thilmere  </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -10346,7 +10346,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Thilmere  taxi cab service</strong> for
+            a<strong> Thilmere  taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -10356,7 +10356,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -10368,10 +10368,10 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
           <>
             Yes. We cover Thilmere  ,Appin , Camden, Liverpool, and nearby suburbs.
             Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at <Link
               to={`/area-covered`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here
             </Link>{" "}
@@ -10461,7 +10461,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Make your special day stress-free with our professional wedding transfer services. Our drivers ensure timely arrivals at ceremonies and receptions, and our luxury vehicles provide comfort and elegance for you and your guests throughout the day. Here
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -10479,7 +10479,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Travel in style with our luxury taxi services. Whether it’s for business meetings, airport pickups, or special occasions, our high-end vehicles and courteous drivers provide a premium experience that prioritizes comfort, punctuality, and convenience. Details at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -10497,7 +10497,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Safety comes first with our baby seat-equipped taxis. Perfect for families with infants and toddlers, our vehicles are fitted with age-appropriate child restraints, giving parents peace of mind while traveling across Goulburn or for airport transfers. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -10515,7 +10515,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Impress clients or ensure smooth staff commutes with our corporate transport solutions. We provide punctual, professional, and comfortable rides tailored for meetings, events, and business trips across Goulburn. Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -10533,7 +10533,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Heading to a cruise? Our dedicated cruise terminal transfer service ensures you reach your ship on time, stress-free, with ample luggage space and professional drivers familiar with the routes. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -10551,7 +10551,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             From conferences to parties, our event transfer services make group travel simple and organized. Count on Goulburn Taxi & Maxi Cabs to handle large bookings efficiently, ensuring timely arrivals and departures. Learn more at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -10570,7 +10570,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             standard Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -10587,7 +10587,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
            For day-long business travel or client visits, we provide reliable, well-maintained taxis and maxi cabs. Our professional drivers prioritize punctuality and smooth rides, making your corporate travel hassle-free. More details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -10626,7 +10626,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             it for shopping, work, or airport runs. Comfortable, fuel-efficient,
             and easy to park, it’s perfect for solo travelers or couples. You’ll
             enjoy reliable, stress-free rides every time. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -10648,7 +10648,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             traffic and parking. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -10669,7 +10669,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             rides comfortably while your belongings are secure. Our vehicles
             combine convenience, safety, and reliability for your travel needs
             in Goulburn . Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -10690,7 +10690,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             with organised seating and ample space. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -10712,7 +10712,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Flexible booking options make group travel easy. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -10735,7 +10735,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -10752,11 +10752,11 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Goulburn  taxi cab close to me</strong>{" "}
+            <strong>Goulburn  taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups. Advance bookings
             are recommended for airport transfers or special occasions.
           </>
@@ -10787,7 +10787,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Yes, our
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -10803,7 +10803,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Absolutely. Our
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -10826,7 +10826,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1"> Goulburn  taxi and cab services</strong>{" "}
+            <strong> Goulburn  taxi and cab services</strong>{" "}
             operate day and night, including weekends and holidays. You can rely
             on us whenever you need a ride..
           </>
@@ -10839,13 +10839,13 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Yes. Adjustable{" "}
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seats
             </Link>{" "}
             are available for safety. Travel comfortably for school runs,
             appointments, or family outings with our
-            <strong className="pl-1">Goulburn  taxi service</strong>
+            <strong>Goulburn  taxi service</strong>
           </>
         ),
       },
@@ -10854,7 +10854,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Goulburn  </strong>
+            <strong> local taxi service Goulburn  </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -10866,7 +10866,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Goulburn  taxi cab service</strong> for
+            a<strong> Goulburn  taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -10876,7 +10876,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Yes. Our
-            <strong className="pl-1">local taxi cab service near me</strong>
+            <strong>local taxi cab service near me</strong>
             ensures safe, accessible, and comfortable rides for seniors or
             passengers with mobility challenges.
           </>
@@ -10888,10 +10888,10 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
           <>
             Yes. We cover Goulburn  ,Appin , Camden, Liverpool, and nearby suburbs.
             Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at <Link
               to={`/area-covered`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
              here
             </Link>{" "}
@@ -10977,7 +10977,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Make your special day stress-free with our professional wedding transfer services. Our drivers ensure timely arrivals at ceremonies and receptions, and our luxury vehicles provide comfort and elegance for you and your guests throughout the day. Here
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -10995,7 +10995,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Travel in style with our luxury taxi services. Whether it’s for business meetings, airport pickups, or special occasions, our high-end vehicles and courteous drivers provide a premium experience that prioritizes comfort, punctuality, and convenience. Details at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -11013,7 +11013,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Safety comes first with our baby seat-equipped taxis. Perfect for families with infants and toddlers, our vehicles are fitted with age-appropriate child restraints, giving parents peace of mind while traveling across Leppington or for airport transfers. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -11031,7 +11031,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Impress clients or ensure smooth staff commutes with our corporate transport solutions. We provide punctual, professional, and comfortable rides tailored for meetings, events, and business trips across Leppington. Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -11049,7 +11049,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Heading to a cruise? Our dedicated cruise terminal transfer service ensures you reach your ship on time, stress-free, with ample luggage space and professional drivers familiar with the routes. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -11067,7 +11067,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             From conferences to parties, our event transfer services make group travel simple and organized. Count on Leppington Taxi & Maxi Cabs to handle large bookings efficiently, ensuring timely arrivals and departures. Learn more at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -11086,7 +11086,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             standard Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -11103,7 +11103,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
            For day-long business travel or client visits, we provide reliable, well-maintained taxis and maxi cabs. Our professional drivers prioritize punctuality and smooth rides, making your corporate travel hassle-free. More details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -11142,7 +11142,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             it for shopping, work, or airport runs. Comfortable, fuel-efficient,
             and easy to park, it’s perfect for solo travelers or couples. You’ll
             enjoy reliable, stress-free rides every time. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -11164,7 +11164,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             traffic and parking. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -11185,7 +11185,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             rides comfortably while your belongings are secure. Our vehicles
             combine convenience, safety, and reliability for your travel needs
             in Leppington . Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -11206,7 +11206,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             with organised seating and ample space. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -11228,7 +11228,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Flexible booking options make group travel easy. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -11251,7 +11251,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -11268,11 +11268,11 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Leppington  taxi cab close to me</strong>{" "}
+            <strong>Leppington  taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups. Advance bookings
             are recommended for airport transfers or special occasions.
           </>
@@ -11303,7 +11303,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Yes, our
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -11319,7 +11319,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Absolutely. Our
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -11342,7 +11342,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1"> Leppington  taxi and cab services</strong>{" "}
+            <strong> Leppington  taxi and cab services</strong>{" "}
             operate day and night, including weekends and holidays. You can rely
             on us whenever you need a ride..
           </>
@@ -11355,13 +11355,13 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Yes. Adjustable{" "}
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seats
             </Link>{" "}
             are available for safety. Travel comfortably for school runs,
             appointments, or family outings with our
-            <strong className="pl-1">Leppington  taxi service</strong>
+            <strong>Leppington  taxi service</strong>
           </>
         ),
       },
@@ -11370,7 +11370,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Leppington  </strong>
+            <strong> local taxi service Leppington  </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -11382,7 +11382,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Leppington  taxi cab service</strong> for
+            a<strong> Leppington  taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -11394,10 +11394,10 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
           <>
             Yes. We cover Leppington  ,Appin , Camden, Liverpool, and nearby suburbs.
             Find your
-            <strong className="pl-1"> local taxi service near me </strong>
+            <strong> local taxi service near me </strong>
             at <Link
               to={`/area-covered`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
              here
             </Link>{" "}
@@ -11483,7 +11483,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Make your special day stress-free with our professional wedding transfer services. Our drivers ensure timely arrivals at ceremonies and receptions, and our luxury vehicles provide comfort and elegance for you and your guests throughout the day. Here
             <Link
               to={`/services/wedding-transfer`}
-              className="underline font-semibold  pl-1"
+              className="underline font-semibold  px-1"
             >
               wedding transfer page.
             </Link>{" "}
@@ -11501,7 +11501,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Travel in style with our luxury taxi services. Whether it’s for business meetings, airport pickups, or special occasions, our high-end vehicles and courteous drivers provide a premium experience that prioritizes comfort, punctuality, and convenience. Details at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold"
+              className="underline font-semibold px-1"
             >
               luxury transfer.
             </Link>{" "}
@@ -11519,7 +11519,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Safety comes first with our baby seat-equipped taxis. Perfect for families with infants and toddlers, our vehicles are fitted with age-appropriate child restraints, giving parents peace of mind while traveling across Eagle Vale or for airport transfers. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seat taxi.
             </Link>{" "}
@@ -11537,7 +11537,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Impress clients or ensure smooth staff commutes with our corporate transport solutions. We provide punctual, professional, and comfortable rides tailored for meetings, events, and business trips across Eagle Vale. Learn more at
             <Link
               to={`/services/corporate-transport-services`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               transport services.
             </Link>{" "}
@@ -11555,7 +11555,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Heading to a cruise? Our dedicated cruise terminal transfer service ensures you reach your ship on time, stress-free, with ample luggage space and professional drivers familiar with the routes. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               cruise terminal transfer.
             </Link>{" "}
@@ -11573,7 +11573,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             From conferences to parties, our event transfer services make group travel simple and organized. Count on Eagle Vale Taxi & Maxi Cabs to handle large bookings efficiently, ensuring timely arrivals and departures. Learn more at
             <Link
               to={`/services/event-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               event transfer.
             </Link>{" "}
@@ -11592,7 +11592,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             standard Explore
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -11609,7 +11609,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
            For day-long business travel or client visits, we provide reliable, well-maintained taxis and maxi cabs. Our professional drivers prioritize punctuality and smooth rides, making your corporate travel hassle-free. More details at
             <Link
               to={`/services/corporate-tips`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               corporate trips.
             </Link>{" "}
@@ -11648,7 +11648,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             it for shopping, work, or airport runs. Comfortable, fuel-efficient,
             and easy to park, it’s perfect for solo travelers or couples. You’ll
             enjoy reliable, stress-free rides every time. Book easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
           </>
@@ -11670,7 +11670,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             traffic and parking. Learn more at
             <Link
               to={`/services/luxury-transfer`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               luxury transfer
             </Link>{" "}
@@ -11691,7 +11691,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             rides comfortably while your belongings are secure. Our vehicles
             combine convenience, safety, and reliability for your travel needs
             in Eagle Vale . Explore
-            <Link to={`/fleet`} className="underline font-semibold pl-1">
+            <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
           </>
@@ -11712,7 +11712,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             with organised seating and ample space. Check
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Maxi Taxi Service.
             </Link>{" "}
@@ -11734,7 +11734,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Flexible booking options make group travel easy. Learn more
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               here.
             </Link>{" "}
@@ -11757,7 +11757,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Book at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               wheelchair taxi.
             </Link>{" "}
@@ -11774,11 +11774,11 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold pl-1">
+            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong className="pl-1">Eagle Vale  taxi cab close to me</strong>{" "}
+            <strong>Eagle Vale  taxi cab close to me</strong>{" "}
             service ensures fast, safe, and reliable pickups. Advance bookings
             are recommended for airport transfers or special occasions.
           </>
@@ -11809,7 +11809,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Yes, our
             <Link
               to={`/services/book-taxi-sydney-airport`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -11825,7 +11825,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Absolutely. Our
             <Link
               to={`/services/maxi-taxi-service`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
@@ -11848,7 +11848,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Absolutely. Our
-            <strong className="pl-1"> Eagle Vale  taxi and cab services</strong>{" "}
+            <strong> Eagle Vale  taxi and cab services</strong>{" "}
             operate day and night, including weekends and holidays. You can rely
             on us whenever you need a ride..
           </>
@@ -11861,13 +11861,13 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
             Yes. Adjustable{" "}
             <Link
               to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
               baby seats
             </Link>{" "}
             are available for safety. Travel comfortably for school runs,
             appointments, or family outings with our
-            <strong className="pl-1">Eagle Vale  taxi service</strong>
+            <strong>Eagle Vale  taxi service</strong>
           </>
         ),
       },
@@ -11876,7 +11876,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Yes, our
-            <strong className="pl-1"> local taxi service Eagle Vale  </strong>
+            <strong> local taxi service Eagle Vale  </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -11888,7 +11888,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong className="pl-1"> Eagle Vale  taxi cab service</strong> for
+            a<strong> Eagle Vale  taxi cab service</strong> for
             airport trips, VIP travel, or special occasions.
           </>
         ),
@@ -11900,7 +11900,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
           <>
             Yes. We cover Eagle Vale  Ambarvale, Leumeah, Minto, Campbelltown, and surrounding suburbs. Check full coverage  <Link
               to={`/area-covered`}
-              className="underline font-semibold pl-1"
+              className="underline font-semibold px-1"
             >
              here
             </Link>{" "}
@@ -11911,7 +11911,7 @@ Our drivers are professionally trained, licensed, and familiar with all local ro
         question: "Can I pay with CabCharge?",
         answer: (
           <>
-              Yes, we provide <Link to="/cabcharge-taxi" className="underline font-semibold pl-1">CabCharge Taxi services</Link> for easy and secure payments.
+              Yes, we provide <Link to="/cabcharge-taxi" className="underline font-semibold px-1">CabCharge Taxi services</Link> for easy and secure payments.
           </>
         ),
       },
