@@ -53,18 +53,18 @@ const BookingForm = ({className, params, formTitle}) => {
 
     // Build message string
     let message = `
-  <b style="font-weight:bold; font-size:24px">Customer Name:</b> ${formData.name} <br/>
-  <b style="font-weight:bold; font-size:24px">Phone:</b> +${formData.phone} <br/>
-  <b style="font-weight:bold; font-size:24px">Email:</b> ${formData.email} <br/>
-  <b style="font-weight:bold; font-size:24px">Pickup Address:</b> ${formData.pickupAddress} <br/>
-  <b style="font-weight:bold; font-size:24px">Dropoff Address:</b> ${formData.dropoffAddress} <br/>
-  <b style="font-weight:bold; font-size:24px">Passengers:</b> ${formData.passengers} <br/>
-  <b style="font-weight:bold; font-size:24px">Vehicle Type:</b> ${formData.vehicleType} <br/>
-  <b style="font-weight:bold; font-size:24px">Pickup Date:</b> ${formData.pickupDate} <br/>
-  <b style="font-weight:bold; font-size:24px">Pickup Time:</b> ${formData.pickupTime} <br/>
-  <b style="font-weight:bold; font-size:24px">Return Trip:</b> ${formData.returnTrip} <br/>
-  <b style="font-weight:bold; font-size:24px">Special Instructions:</b> ${formData.specialInstructions} <br/>
-  <b style="font-weight:bold; font-size:24px">Payment Mode:</b> ${formData.paymentMode}
+  <b style="font-weight:bold;">Customer Name:</b> ${formData.name} <br/>
+  <b style="font-weight:bold;">Phone:</b> +${formData.phone} <br/>
+  <b style="font-weight:bold;">Email:</b> ${formData.email} <br/>
+  <b style="font-weight:bold;">Pickup Address:</b> ${formData.pickupAddress} <br/>
+  <b style="font-weight:bold;">Dropoff Address:</b> ${formData.dropoffAddress} <br/>
+  <b style="font-weight:bold;">Passengers:</b> ${formData.passengers} <br/>
+  <b style="font-weight:bold;">Vehicle Type:</b> ${formData.vehicleType} <br/>
+  <b style="font-weight:bold;">Pickup Date:</b> ${formData.pickupDate} <br/>
+  <b style="font-weight:bold;">Pickup Time:</b> ${formData.pickupTime} <br/>
+  <b style="font-weight:bold;">Return Trip:</b> ${formData.returnTrip} <br/>
+  <b style="font-weight:bold;">Special Instructions:</b> ${formData.specialInstructions} <br/>
+  <b style="font-weight:bold;">Payment Mode:</b> ${formData.paymentMode}
 `;
 
     // Add airport details only if pickupType is airport
