@@ -149,7 +149,7 @@ const modifiedLocationName = "Sydney Airport";
 
         <section className="py-12 bg-white">
           <Container>
-            <div className="flex flex-col-reverse md:flex-row gap-5 items-center">
+            <div className="flex flex-col-reverse md:flex-row gap-5 md:gap-20 items-center">
               {/* LEFT SIDE — Content */}
               <div className="flex-1">
                 {/* Title */}
@@ -222,15 +222,15 @@ const modifiedLocationName = "Sydney Airport";
         </section>
         <section className="py-12 bg-white">
           <Container>
-            <div className="flex flex-col-reverse md:flex-row gap-5 md:gap-20 items-center">
+            <div className="flex flex-col-reverse md:flex-row gap-5  items-center">
                 {/* Left SIDE — Image */}
-              <div className="">
+              <div className="md:flex-1">
                 <img
                   src={sydneyAirportImg}
                   alt={
                     "Campbelltown airport taxi service providing reliable Sydney Airport transfers with local drivers, clean vehicles and luggage assistance."
                   }
-                  className="rounded-xl shadow-lg w-full max-w-md "
+                  className="rounded-xl shadow-lg w-full max-w-md md:max-w-full"
                 />
               </div>
               {/* Right SIDE — Content */}

@@ -83,50 +83,49 @@ const features = [
   "Personalised route planning to match schedules.",
 ];
 const serviceAreas = [
-  "Campbelltown",
-  "Ambarvale",
-  "Appin",
-  "Currans Hills",
-  "Claymore",
-  "Macarthur",
-  "Menangle Park",
-  "Leumeah",
-  "Raby",
-  "St Andrew's",
-  "St Helen's park",
-  "Ruse",
-  "Minto",
-  "Ingleburn",
-  "Glenfield",
-  "Camden",
-  "Camden south",
-  "Oran park",
-  "Gregory hills",
-  "Eagle vale",
-  "Douglas Park",
-  "Elderslie",
-  "Wilton",
-  "Spring farm",
-  "Cobbity",
-  "Mount Annan",
-  "Phesant Nest",
-  "Cowdor",
-  "Denham court",
-  "Edmondson park",
-  "Austral",
-  "Razorback",
-  "Liverpool",
-  "Picton",
-  "Thilmere",
-  "Bargo",
-  "Bowral",
-  "Kearns",
-  "Goulburn",
-  "Rosemeadow",
-  "Airds",
-  "Gledswood Hills",
-  "Leppington",
-  "Smeaton Grange",
+  "Campbelltown NSW",
+  "Ambarvale NSW",
+  "Appin NSW",
+  "Currans Hills NSW",
+  "Claymore NSW",
+  "Macarthur NSW",
+  "Menangle Park NSW",
+  "Leumeah NSW",
+  "Raby NSW",
+  "St Andrew's NSW",
+  "St Helen's park NSW",
+  "Ruse NSW",
+  "Minto NSW",
+  "Ingleburn NSW",
+  "Glenfield NSW",
+  "Camden NSW",
+  "Camden south NSW",
+  "Oran park NSW",
+  "Gregory hills NSW",
+  "Eagle vale NSW",
+  "Douglas Park NSW",
+  "Elderslie NSW",
+  "Wilton NSW",
+  "Spring farm NSW",
+  "Cobbity NSW",
+  "Mount Annan NSW",
+  "Phesant Nest NSW",
+  "Cowdor NSW",
+  "Denham court NSW",
+  "Edmondson park NSW",
+  "Austral NSW",
+  "Razorback NSW",
+  "Liverpool NSW",
+  "Picton NSW",
+  "Thilmere NSW",
+  "Bargo NSW",
+  "Bowral NSW",
+  "Kearns NSW",
+  "Rosemeadow NSW",
+  "Airds NSW",
+  "Gledswood Hills NSW",
+  "Leppington NSW",
+  "Smeaton Grange NSW",
 ];
 const WeddingTransfer = () => {
   const navigate = useNavigate();
@@ -314,7 +313,7 @@ const WeddingTransfer = () => {
               <div className="text-white">
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 font-playfair">
                   Why Choose
-                  <span className="text-secondary">
+                  <span className="text-secondary px-1">
                     Campbelltown Taxi Cab
                   </span>{" "}
                   for Wedding Transfers
@@ -361,16 +360,27 @@ const WeddingTransfer = () => {
 
           <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <Link
+                to={`/book-taxi-maxi-service-in-sydney-airport`}
+                 
+                  className="flex flex-col md:flex-row text-center md:text-left items-center gap-3 p-3 rounded-lg hover:bg-blue-50 transition-all duration-300 group cursor-pointer"
+                >
+                  <FaLocationDot size={20} className="text-primary" />
+                  <span className="text-gray-700 font-medium group-hover:text-primary transition-colors duration-300">
+                    Sydney
+                  </span>
+                </Link>
               {serviceAreas.map((serviceArea, idx) => (
-                <div
+                <Link
+                to={`/taxi-maxi-service-in/${serviceArea.toLowerCase().replace(/\s+/g, "-")}`}
                   key={idx}
                   className="flex flex-col md:flex-row text-center md:text-left items-center gap-3 p-3 rounded-lg hover:bg-blue-50 transition-all duration-300 group cursor-pointer"
                 >
                   <FaLocationDot size={20} className="text-primary" />
                   <span className="text-gray-700 font-medium group-hover:text-primary transition-colors duration-300">
-                    {serviceArea}
+                      {serviceArea.split(" NSW").join("")}
                   </span>
-                </div>
+                </Link>
               ))}
             </div>
 

@@ -29,39 +29,46 @@ const Footer = () => {
       });
   }, []);
   const serviceAreas = [
-    "Sydney",
-    "Campbelltown",
-    "Macarthur",
-    "Menangle",
-    "Leumeah",
-    "Raby",
-    "St Andrew's",
-    "St Helen's park",
-    "Ruse",
-    "Minto",
-    "Ingleburn",
-    "Glenfield",
-    "Camden",
-    "Camden south",
-    "Oran park",
-    "Gregory hills",
-    "Eagle vale",
-    "Elderslie",
-    "Spring farm",
-    "Cobbity",
-    "Cowdor",
-    "Denham court",
-    "Edmondson park",
-    "Austral",
-    "Liverpool",
-    "Picton",
-    "Thilmere",
-    "Bargo",
-    "Bowral",
-    "Goulburn",
-    "Airds",
-    "Gledswood Hills",
-    "Leppington",
+    "Campbelltown NSW",
+    "Ambarvale NSW",
+    "Appin NSW",
+    "Currans Hills NSW",
+    "Claymore NSW",
+    "Macarthur NSW",
+    "Menangle NSW",
+    "Leumeah NSW",
+    "Raby NSW",
+    "Ruse NSW",
+    "Minto NSW",
+    "Ingleburn NSW",
+    "Glenfield NSW",
+    "Camden south NSW",
+    "Oran park NSW",
+    "Gregory hills NSW",
+    "Eagle vale NSW",
+    "Douglas Park NSW",
+    "Elderslie NSW",
+    "Wilton NSW",
+    "Spring farm NSW",
+    "Cobbity NSW",
+    "Mount Annan NSW",
+    "Phesant Nest NSW",
+    "Cowdor NSW",
+    "Denham court NSW",
+    "Edmondson park NSW",
+    "Austral NSW",
+    "Razorback NSW",
+    "Liverpool NSW",
+    "Picton NSW",
+    "Thilmere NSW",
+    "Bargo NSW",
+    "Bowral NSW",
+    "Kearns NSW",
+    "Goulburn NSW",
+    "Rosemeadow NSW",
+    "Airds NSW",
+    "Leppington NSW",
+    "Smeaton Grange NSW",
   ];
 
   return (
@@ -124,12 +131,12 @@ const Footer = () => {
             <div className="grid grid-cols-2 gap-1">
               {serviceAreas.slice(0, 16).map((area, index) => (
                 <Link
-                  to="/area-covered"
+                  to={`/taxi-maxi-service-in/${area.toLowerCase().replace(/\s+/g, "-")}`}
                   key={index}
                   className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2"
                 >
                   <FaAngleDoubleRight className="text-primary" />
-                  <span className="text-sm md:text-base">{area}</span>
+                  <span className="text-sm md:text-base">{area.split(" NSW").join("")}</span>
                 </Link>
               ))}
             </div>

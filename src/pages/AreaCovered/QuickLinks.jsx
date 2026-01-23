@@ -7,19 +7,19 @@ const quickLinks = [
     id: 1,
     label: "Airport Transfers",
     icon: <FaPlane />,
-    to: "/services/airport-transfers", // route or use #id for scrolling
+    to: "/services/book-taxi-sydney-airport", 
   },
   {
     id: 2,
     label: "Wedding Transfers",
     icon: <FaCar />,
-    to: "/services/wedding-transfers",
+    to: "/services/wedding-transfer",
   },
   {
     id: 3,
     label: "Cruise Transfers",
     icon: <FaShip />,
-    to: "/services/cruise-transfers",
+    to: "/services/cruise-terminal-transfer",
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const quickLinks = [
     id: 5,
     label: "Percel Delivery",
     icon: <FaBox />,
-    to: "/services/percel-delivery",
+    to: "/services/parcel-delivery",
   },
   {
     id: 6,
