@@ -29,6 +29,7 @@ const Footer = () => {
       });
   }, []);
   const serviceAreas = [
+    "Sydney",
     "Campbelltown",
     "Macarthur",
     "Menangle",
@@ -142,8 +143,7 @@ const Footer = () => {
             <div>
               <ul className="mt-5 space-y-3">
                 <li className="flex items-center gap-2">
-                  <FaLocationDot className="text-primary" size={20} /> 1 Hurley
-                  St, Campbelltown, Australia
+                  <a href="https://share.google/K9uIHai7caaEaFuBf" target="_blank" className="hover:underline flex items-center gap-2"><FaLocationDot className="text-primary" size={20} /> 1 Hurley St, Campbelltown NSW 2560, Australia</a>
                 </li>
                 <li className="flex items-center gap-2">
                   <a

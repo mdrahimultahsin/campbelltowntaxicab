@@ -1,6 +1,7 @@
 import {Link} from "react-router";
 import corporateTripsImg from "../../../assets/services/campbelltown-corporate-trips.jpeg";
 export const allLocationsData = {
+
   "campbelltown-nsw": {
     pageTitle: "24/7 Campbelltown Taxi & Maxi Cabs for Fast Pickups",
     metaDescription:

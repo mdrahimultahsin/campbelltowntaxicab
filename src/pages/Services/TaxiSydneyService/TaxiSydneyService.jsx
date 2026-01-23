@@ -333,7 +333,7 @@ const TaxiSydneyService = () => {
               <div className="text-white">
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 font-playfair">
                   Why Choose
-                  <span className="text-secondary">
+                  <span className="text-secondary px-1">
                     Campbelltown Taxi Cab
                   </span>{" "}
                   for Taxi Sydney Service?

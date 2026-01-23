@@ -16,10 +16,20 @@ import PageNotFound from "../../PageNotFound/PageNotFound";
 const CoveredLocation = () => {
   const {location} = useParams();
   const locationData = allLocationsData[location];
-  const modifiedLocationName = location
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
+const parts = location.split('-');
+const state = parts.pop()?.toUpperCase() || '';           
+const citySlug = parts.join('-');                         
+
+// Convert city slug → proper title case
+const cityFormatted = citySlug
+  .split('-')
+  .map(word =>
+    word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+  )
+  .join(' ');
+
+const modifiedLocationName = `${cityFormatted} ${state}`.trim();
+
   
   return (
     <>
@@ -66,7 +76,7 @@ const CoveredLocation = () => {
           </Container>
         </div>
         {/* Booking Form */}
-        <BookingForm formTitle={locationData.bookingFormTitle} />
+        <BookingForm formTitle={`Book A Taxi/Maxi in ${modifiedLocationName}`} />
 
         {/* ---------------------------------------- */}
         {/* SECTION: Locatiion Details Dynamic */}

@@ -1,5 +1,6 @@
 import { FaPlane,  FaCalendarAlt, FaTaxi, FaGift } from "react-icons/fa";
 import Container from "../../shared/Container";
+import { Link } from "react-router";
 
 const FeatureCards = () => {
   return (
@@ -8,31 +9,31 @@ const FeatureCards = () => {
         <div className="grid grid-cols-2 md:grid-cols-4">
 
           {/* Airport */}
-          <div className="flex flex-col items-center text-center py-6 
+          <Link to={`/services/book-taxi-sydney-airport`} className="flex flex-col items-center text-center py-6 
             border-r border-b-2 border-white md:border-b-0 md:border-r-2">
             <FaPlane className="text-4xl mb-3" />
             <p className="text-lg">Airport Transportation</p>
-          </div>
+          </Link>
 
           {/* Car Service */}
-          <div className="flex flex-col items-center text-center py-6 
+          <Link to={`/services/wedding-transfer`} className="flex flex-col items-center text-center py-6 
             border-b-2 border-white md:border-b-0 md:border-r-2">
             <FaGift  className="text-4xl mb-3" />
             <p className="text-lg">Wedding Transfer</p>
-          </div>
+          </Link>
 
           {/* Events */}
-          <div className="flex flex-col items-center text-center py-6 
+          <Link to={`/services/wedding-transfer`} className="flex flex-col items-center text-center py-6 
             border-r border-white md:border-r-2">
             <FaCalendarAlt className="text-4xl mb-3" />
-            <p className="text-lg">Events</p>
-          </div>
+            <p className="text-lg">Event Transfer</p>
+          </Link>
 
           {/* Taxi */}
-          <div className="flex flex-col items-center text-center py-6">
+          <Link to={`/book-a-taxi`} className="flex flex-col items-center text-center py-6">
             <FaTaxi className="text-4xl mb-3" />
             <p className="text-lg">Taxi Service</p>
-          </div>
+          </Link>
 
         </div>
       </Container>

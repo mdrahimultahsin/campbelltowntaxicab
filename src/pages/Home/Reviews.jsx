@@ -64,33 +64,40 @@ const Reviews = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <div className="space-y-4">
+          <div className="flex justify-between items-center">
           {/* Google Rating */}
           <div
             aria-labelledby="google-rating"
-            className="flex justify-center mb-4 md:mb-0 md:flex-row items-center md:items-center gap-4 md:gap-2 col-span-1 "
+            className="flex justify-center mb-4 md:mb-0 md:flex-row items-center md:items-center gap-2 md:gap-2 col-span-1 "
           >
-            <img className="w-16 md:w-24" src={googleLogo} alt="google-logo" />
-            <div className="text-center md:text-left">
+            <img className="w-12 md:w-24" src={googleLogo} alt="google-logo" />
+            <div className="text-left md:text-left">
               <h2
                 id="google-rating"
                 className="text-lg md:text-xl font-semibold text-primary"
               >
                 Excellent
               </h2>
-              <div className="mt-2 flex flex-col md:flex-row items-center md:items-center gap-2">
+              <div className="md:mt-2 flex  md:flex-row items-center md:items-center gap-2">
                 <h3 className="font-black text-orange-500 text-xl md:text-2xl">
-                  4.9
+                  5.0
                 </h3>
                 <div className="flex items-center">
                   <IoMdStar size={20} className="text-orange-500" />
                   <IoMdStar size={20} className="text-orange-500" />
                   <IoMdStar size={20} className="text-orange-500" />
                   <IoMdStar size={20} className="text-orange-500" />
-                  <IoIosStarHalf size={20} className="text-orange-500" />
+                  <IoMdStar size={20} className="text-orange-500" />
                 </div>
               </div>
+                <span className="text-accent">(Based on 430 reviews)</span>
             </div>
+            </div>
+            <div>
+              <a href="https://g.page/r/CWSePUO1I9pNEBM/review" target="_blank" className="block px-2 md:px-4 py-3 bg-primary  text-white rounded-md font-semibold text-xs sm:text-sm  md:text-xl hover:bg-primary/80 hover:scale-105 hover:transition-all text-center">Write a Review</a>
+            </div>
+             
           </div>
 
           {/* Reviews slider */}
@@ -103,7 +110,7 @@ const Reviews = () => {
                   breakpoints={{
                     0: {slidesPerView: 1},
                     768: {slidesPerView: 2},
-                    1024: {slidesPerView: 3},
+                    1024: {slidesPerView: 4},
                   }}
                   autoplay={{delay: 3000}}
                   onSwiper={(swiper) => (swiperRef.current = swiper)}

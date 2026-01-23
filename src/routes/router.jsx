@@ -30,6 +30,7 @@ import PercelDelivery from "../pages/Services/PercelDelivery/PercelDelivery";
 import MaxiTaxiService from "../pages/Services/MaxiTaxiService/MaxiTaxiService";
 import LuxuryTransfer from "../pages/Services/LuxuryTransfer/LuxuryTransfer";
 import CoveredLocation from "../pages/AreaCovered/CoveredLocation/CoveredLocation";
+import SydneyAirportLocation from "../pages/SydneyAirportLocation/SydneyAirportLocation";
 
 const router = createBrowserRouter([
   {
@@ -123,6 +124,15 @@ const router = createBrowserRouter([
         path: "/taxi-maxi-service-in/:location",
         Component: CoveredLocation,
         loader: async () => {
+          const res = await fetch("/service.json");
+          return res.json();
+        },
+        hydrateFallbackElement: <Loading />,
+      },
+      {
+        path: "/book-taxi-maxi-service-in-sydney-airport",
+        Component: SydneyAirportLocation,
+         loader: async () => {
           const res = await fetch("/service.json");
           return res.json();
         },
