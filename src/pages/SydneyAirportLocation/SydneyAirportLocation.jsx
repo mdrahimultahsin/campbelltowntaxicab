@@ -214,7 +214,7 @@ const modifiedLocationName = "Sydney Airport";
                   alt={
                     "Campbelltown airport taxi service providing reliable Sydney Airport transfers with local drivers, clean vehicles and luggage assistance."
                   }
-                  className="rounded-xl shadow-lg w-full h-120 object-cover object-center"
+                  className="rounded-xl shadow-lg w-full max-w-md object-cover object-center"
                 />
               </div>
             </div>
@@ -222,15 +222,15 @@ const modifiedLocationName = "Sydney Airport";
         </section>
         <section className="py-12 bg-white">
           <Container>
-            <div className="flex flex-col-reverse md:flex-row gap-5 items-center">
+            <div className="flex flex-col-reverse md:flex-row gap-5 md:gap-20 items-center">
                 {/* Left SIDE — Image */}
-              <div className="flex-1 ">
+              <div className="">
                 <img
                   src={sydneyAirportImg}
                   alt={
                     "Campbelltown airport taxi service providing reliable Sydney Airport transfers with local drivers, clean vehicles and luggage assistance."
                   }
-                  className="rounded-xl shadow-lg w-full h-120 object-cover object-center"
+                  className="rounded-xl shadow-lg w-full max-w-md "
                 />
               </div>
               {/* Right SIDE — Content */}
@@ -241,7 +241,7 @@ const modifiedLocationName = "Sydney Airport";
                 </h2>
 
                 {/* Description */}
-                <p className="text-gray-700 leading-relaxed text-[15px] mb-6">
+                <p className="text-gray-700 leading-relaxed text-[15px] mb-4">
                     If you need professional transport, our Campbelltown Taxi & Maxi Cabs
         provide seamless corporate travel across Campbelltown and the wider
         Macarthur region. Many businesses struggle with on-time airport pickups,
@@ -287,6 +287,14 @@ const modifiedLocationName = "Sydney Airport";
         </Link>
         , your team arrives on time, every time, and your corporate reputation
         stays intact.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed text-[15px] mb-4">
+
+                        If you need professional transport, our Campbelltown Taxi & Maxi Cabs
+        provide seamless corporate travel across Campbelltown and the wider
+        Macarthur region. Many businesses struggle with on-time airport pickups,
+        inter-office travel, or group transport for meetings and events.
                 </p>
               </div>
 
