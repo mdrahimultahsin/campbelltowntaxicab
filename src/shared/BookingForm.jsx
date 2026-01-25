@@ -6,12 +6,12 @@ import emailjs from "@emailjs/browser";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import {useNavigate} from "react-router";
-const BookingForm = ({className, params, formTitle}) => {
+const BookingForm = ({className, params, formTitle,pickupType}) => {
   const [loading, setLoading] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
   const [phoneError, setPhoneError] = useState("");
   const [formData, setFormData] = useState({
-    pickupType: "anywhere",
+    pickupType: pickupType?pickupType:"anywhere",
     name: "",
     phone: "",
     email: "",

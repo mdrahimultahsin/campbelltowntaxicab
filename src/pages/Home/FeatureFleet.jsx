@@ -26,6 +26,7 @@ const FeatureFleet = ({
         setLoading(false);
       });
   }, []);
+  
   const colors = [
     "bg-amber-300",
     "bg-blue-300",
