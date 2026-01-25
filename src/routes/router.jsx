@@ -31,6 +31,7 @@ import MaxiTaxiService from "../pages/Services/MaxiTaxiService/MaxiTaxiService";
 import LuxuryTransfer from "../pages/Services/LuxuryTransfer/LuxuryTransfer";
 import CoveredLocation from "../pages/AreaCovered/CoveredLocation/CoveredLocation";
 import SydneyAirportLocation from "../pages/SydneyAirportLocation/SydneyAirportLocation";
+import TaxiMaxiServiceIn from "../pages/taxi-maxi-service-in/TaxiMaxiServiceIn";
 
 const router = createBrowserRouter([
   {
@@ -119,6 +120,15 @@ const router = createBrowserRouter([
       {
         path: "/area-covered",
         Component: AreaCovered,
+      },
+      {
+        path: "/taxi-maxi-service-in",
+        Component: TaxiMaxiServiceIn,
+         loader: async () => {
+          const res = await fetch("/service.json");
+          return res.json();
+        },
+        hydrateFallbackElement: <Loading />,
       },
       {
         path: "/taxi-maxi-service-in/:location",

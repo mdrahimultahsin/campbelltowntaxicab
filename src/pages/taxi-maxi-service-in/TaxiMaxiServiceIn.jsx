@@ -1,0 +1,330 @@
+import Container from "../../shared/Container";
+import {
+  FaMapMarkerAlt,
+  FaTaxi,
+  FaStar,
+  FaPhoneAlt,
+  FaHandPointer,
+} from "react-icons/fa";
+import {IoCallSharp, IoCarSport, IoTime} from "react-icons/io5";
+import titleImg from "../../assets/campbelltown-pages-hero-img.png";
+import QuickLinks from "../AreaCovered/QuickLinks";
+import {Link, useNavigate} from "react-router";
+import ButtonSecondary from "../../shared/ButtonSecondary";
+import useSEO from "../../hooks/useSEO";
+
+const TaxiMaxiServiceIn = () => {
+  const navigate = useNavigate();
+  const serviceAreas = [
+    "Campbelltown NSW",
+    "Ambarvale NSW",
+    "Appin NSW",
+    "Currans Hills NSW",
+    "Claymore NSW",
+    "Macarthur NSW",
+    "Menangle NSW",
+    "Leumeah NSW",
+    "Raby NSW",
+    "St Andrew's NSW",
+    "St Helen's park NSW",
+    "Ruse NSW",
+    "Minto NSW",
+    "Ingleburn NSW",
+    "Glenfield NSW",
+    "Camden south NSW",
+    "Oran park NSW",
+    "Gregory hills NSW",
+    "Eagle vale NSW",
+    "Douglas Park NSW",
+    "Elderslie NSW",
+    "Wilton NSW",
+    "Spring farm NSW",
+    "Cobbity NSW",
+    "Mount Annan NSW",
+    "Phesant Nest NSW",
+    "Cowdor NSW",
+    "Denham court NSW",
+    "Edmondson park NSW",
+    "Austral NSW",
+    "Razorback NSW",
+    "Liverpool NSW",
+    "Picton NSW",
+    "Thilmere NSW",
+    "Bargo NSW",
+    "Bowral NSW",
+    "Kearns NSW",
+    "Goulburn NSW",
+    "Rosemeadow NSW",
+    "Airds NSW",
+    "Gledswood Hills NSW",
+    "Leppington NSW",
+    "Smeaton Grange NSW",
+  ];
+
+  const serviceFeatures = [
+    {
+      icon: IoTime,
+      title: "24/7 Service",
+      description: "Round the clock availability",
+    },
+    {
+      icon: FaStar,
+      title: "Rated 5.0/5",
+      description: "By 2000+ customers",
+    },
+    {
+      icon: IoCarSport,
+      title: "Modern Fleet",
+      description: "Clean & comfortable vehicles",
+    },
+    {
+      icon: FaPhoneAlt,
+      title: "Instant Booking",
+      description: "Quick & easy reservations",
+    },
+  ];
+
+  const popularRoutes = [
+    {from: "Campbelltown", to: "Sydney Airport", time: "45 min"},
+    {from: "Camden", to: "Liverpool", time: "25 min"},
+    {from: "Bowral", to: "Campbelltown", time: "35 min"},
+    {from: "Oran Park", to: "Parramatta", time: "40 min"},
+  ];
+
+  return (
+    <>
+      {useSEO({
+        title: "Area Covered | Campbelltown Taxi Cabs",
+        description:
+          "Premium Taxi Service in Campbelltown NSW for comfortable, fast, and affordable rides. Book your ride today with Campbelltown Taxi Cabs!",
+        keywords:
+          "campbelltown taxi cabs, taxi campbelltown,taxi campbelltown nsw, campbelltown taxi,campbelltown taxis,taxi service campbelltown nsw,taxis campbelltown,luxury taxi campbelltown,taxi service campbelltown",
+        canonical: "https://campbelltowntaxicabs.com.au/area-covered",
+      })}
+      <div className="pb-15">
+        <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
+          <Container>
+            <div className="flex flex-col md:flex-row text-white md:gap-6">
+              <div className="py-10 md:py-20  flex-1 text-center md:text-left ">
+                <h2 className="section-hero-title">Service Areas We Cover</h2>
+
+                <p className="mt-8 text-sm md:text-base">
+                  Campbelltown Taxi Cabs provides safe and reliable transport
+                  across Sydney and the Macarthur region. We support families,
+                  groups, and business travellers with clean vehicles and
+                  trained drivers. Our fleet includes sedans, SUVs, maxi cabs,
+                  luxury cars, and wheelchair-accessible taxis. We operate 24/7
+                  and cover airport transfers, corporate trips, cruise pickups,
+                  and daily travel needs.
+                </p>
+                <div className="flex py-4 gap-4 justify-center md:justify-start">
+                  <Link to="/book-a-taxi" className=" ">
+                    <ButtonSecondary className="flex gap-2 items-center border-2 border-transparent hover:border-white">
+                      <FaHandPointer />
+                      Book Online
+                    </ButtonSecondary>
+                  </Link>
+                  <a href="tel:1300450428" className="">
+                    <ButtonSecondary className="flex gap-2 items-center bg-transparent! border-2 hover:bg-secondary!">
+                      <IoCallSharp className="" /> 1300 450 428
+                    </ButtonSecondary>
+                  </a>
+                </div>
+              </div>
+              <div className="flex flex-1 items-center pb-10 md:pb-0">
+                <img
+                  className="w-full"
+                  src={titleImg}
+                  alt="Campbelltown Taxi Cabs"
+                />
+              </div>
+            </div>
+          </Container>
+        </div>
+
+        <Container>
+          <div className="mx-auto pt-15">
+            {/* Header Section */}
+            <div className="text-center mb-5 md:mb-10">
+              <h2 className="section-title">
+                Proudly Serving the Campbelltown and Macarthur Community
+              </h2>
+              <p className="leading-relaxed text-accent max-w-3xl mx-auto mt-5 text-sm md:text-lg">
+                We connect travellers across{" "}
+                <span className="text-primary font-semibold">44+ suburbs</span>{" "}
+                with safe, fast, and comfortable taxi services. Our team
+                supports local trips, airport transfers, and daily travel with
+                reliable drivers and well-maintained vehicles you can trust.
+                across Greater Sydney with reliable, affordable, and comfortable
+                transportation solutions.
+              </p>
+            </div>
+
+            {/* Features Grid */}
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 mb-15 md:mb-10 text-center md:text-left">
+              {serviceFeatures.map((feature, index) => (
+                <div
+                  key={index}
+                  className="backdrop-blur-sm rounded-xl p-3 md:p-6 border shadow-sm bg-primary/5 border-primary/10 hover:bg-primary/15 transition-all duration-300 group"
+                >
+                  <div className="w-10 md:w-14 h-10 md:h-14 bg-linear-to-r from-[#04A9E9] to-[#003E60] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform  mx-auto md:mx-0">
+                    <feature.icon className="text-2xl text-white" />
+                  </div>
+                  <h3 className="text-secondary font-bold text-sm md:text-lg mb-2">
+                    {feature.title}
+                  </h3>
+                  <p className="text-accent text-xs md:text-sm">
+                    {feature.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            {/* Main Content Grid */}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 md:gap-6 mb-5 md:mb-10">
+              {/* Service Areas Card */}
+              <div className="lg:col-span-2 backdrop-blur-sm rounded-xl p-3 md:p-6 border shadow-sm bg-primary/5 border-primary/10">
+                <div className="flex items-center gap-3 mb-4 md:mb-8">
+                  <div className="w-10 md:w-14 h-10 md:h-14 bg-linear-to-r from-[#04A9E9] to-[#003E60] rounded-xl flex items-center justify-center">
+                    <FaMapMarkerAlt className="text-xl md:text-2xl text-white" />
+                  </div>
+                  <div>
+                    <h2 className="text-xl md:text-2xl font-bold text-secondary">
+                      All Service Areas
+                    </h2>
+                    <p className="text-accent text-xs md:text-base">
+                      Complete taxi coverage across Campbelltown, Macarthur, and
+                      surrounding Sydney suburbs.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                  <Link to={`/book-taxi-maxi-service-in-sydney-airport`} className="relative group">
+                      <div className="bg-primary/5 hover:bg-primary/10 border border-primary/10 rounded-xl p-4 text-center transition-all duration-300 group-hover:scale-105 group-hover:border-primary/20">
+                        <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-2 group-hover:bg-[#003E60] transition-colors">
+                          <FaTaxi className="text-white text-sm" />
+                        </div>
+                        <span className="text-secondary font-medium text-sm">
+                          Sydney
+                        </span>
+                      </div>
+                    </Link>
+                  {serviceAreas.map((area, index) => (
+                    <Link to={`/taxi-maxi-service-in/${area.toLowerCase().replace(/\s+/g, "-")}`} key={index} className="relative group">
+                      <div className="bg-primary/5 hover:bg-primary/10 border border-primary/10 rounded-xl p-4 text-center transition-all duration-300 group-hover:scale-105 group-hover:border-primary/20">
+                        <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-2 group-hover:bg-[#003E60] transition-colors">
+                          <FaTaxi className="text-white text-sm" />
+                        </div>
+                        <span className="text-secondary font-medium text-sm">
+                          {area.split(" NSW").join("")}
+                        </span>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+
+              {/* Popular Routes & Info Card */}
+              <div className="space-y-6">
+                {/* Popular Routes */}
+                <div className="backdrop-blur-sm rounded-xl p-6 border shadow-sm bg-primary/5 border-primary/10">
+                  <h3 className="text-xl font-bold text-primary mb-4 flex items-center gap-2">
+                    <IoCarSport className="text-primary" />
+                    Popular Routes
+                  </h3>
+                  <div className="space-y-0 md:space-y-4">
+                    {popularRoutes.map((route, index) => (
+                      <div
+                        key={index}
+                        className="bg-white/5 rounded-xl p-4 border border-white/10 hover:bg-white/10 transition-colors"
+                      >
+                        <div className="flex justify-between items-start mb-2">
+                          <span className="text-secondary font-semibold text-sm">
+                            {route.from}
+                          </span>
+                          <span className="text-primary text-xs bg-yellow-400/10 px-2 py-1 rounded-full">
+                            {route.time}
+                          </span>
+                        </div>
+                        <div className="text-accent text-xs">
+                          → to {route.to}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Quick Stats */}
+                <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60] text-white rounded-xl p-3 md:p-6">
+                  <h3 className="font-bold text-lg mb-4">Why Choose Us?</h3>
+                  <div className="space-y-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm md:text-base md:font-semibold">
+                        Response Time
+                      </span>
+                      <span className="bg-white/20 px-2 md:px-3 py-1 rounded-full text-xs md:text-sm">
+                        Under 10min
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm md:text-base md:font-semibold">
+                        Fleet Size
+                      </span>
+                      <span className="bg-white/20 px-2 md:px-3 py-1 rounded-full text-xs md:text-sm">
+                        50+ Vehicles
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-sm md:text-base md:font-semibold">
+                        Experience
+                      </span>
+                      <span className="bg-white/20 px-2 md:px-3 py-1 rounded-full text-xs md:text-sm">
+                        Since 2010
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <QuickLinks />
+              </div>
+            </div>
+
+            {/* Call to Action */}
+            <div className="text-center">
+              <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60] text-white rounded-xl p-3 md:p-6 shadow-md">
+                <h3 className="text-2xl md:text-3xl font-bold mb-2 md:mb-4">
+                  Need a Taxi Without the Wait?
+                </h3>
+                <p className="text-sm md:text-lg mb-6 md:font-semibold">
+                  Get fast pickup, round-the-clock service, and clear pricing
+                  every time you book.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                  <a
+                    href="tel:1300450428"
+                    className="bg-secondary text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold hover:bg-secondary/80 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2 text-xs md:text-base"
+                  >
+                    <FaPhoneAlt className="text-sm md:text-lg" />
+                    Call: 1300 123 456
+                  </a>
+                  <button
+                    onClick={() => navigate("/book-a-taxi")}
+                    className="border-2 border-white text-white px-3 md:px-8 py-1 md:py-3 text-sm md:text-base rounded-full font-semibold hover:bg-secondary/80 hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+                  >
+                    <IoCarSport className="text-sm md:text-lg" />
+                    Book Online Now
+                  </button>
+                </div>
+                <p className="text-sm mt-4 text-white">
+                  Average wait time: 8 minutes • Transparent Pricing
+                </p>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </div>
+    </>
+  );
+};
+
+export default TaxiMaxiServiceIn;
