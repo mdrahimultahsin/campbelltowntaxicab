@@ -31,6 +31,7 @@ const AreaCovered = () => {
     "Minto NSW",
     "Ingleburn NSW",
     "Glenfield NSW",
+    "Camden NSW",
     "Camden south NSW",
     "Oran park NSW",
     "Gregory hills NSW",

@@ -1,39 +1,32 @@
 import {Link} from "react-router";
 import corporateTripsImg from "../../../assets/services/campbelltown-corporate-trips.jpeg";
 export const allLocationsData = {
-
   "campbelltown-nsw": {
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26441.60751525321!2d150.8048336!3d-34.06436289999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ee5195038d7f%3A0x5017d681632af40!2sCampbelltown%20NSW%202560%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769792355520!5m2!1sen!2sbd",
     pageTitle: "24/7 Campbelltown Taxi & Maxi Cabs for Fast Pickups",
     metaDescription:
       "Reliable Campbelltown Taxi & Maxi Cabs – 24/7 local taxi service, Maxi Cabs, baby seats, and corporate rides. Call or book online for safe, comfortable transport.",
     heroTitle: "24/7 Campbelltown Taxi and Maxi Cabs for Fast Pickups",
     heroDescription: (
       <>
-        When you need Campbelltown Taxi & Maxi Cabs, you want speed, safety, and
-        reliability. Many people face long wait times, cancelled rides, or small
-        vehicles that cannot fit your group or luggage. With our{" "}
+        When you need{" "}
         <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
-          Campbelltown taxi and cab services
-        </Link>
-        , you never have to worry about that. Our fleet includes maxi cabs near
-        me in Campbelltown, SUVs, and standard taxis, ensuring every journey is
-        comfortable. Whether you search for a taxi{" "}
-        <Link to={`/area-covered`} className="underline font-semibold px-1">
-          service near me
+          Campbelltown Taxi & Maxi Cabs,
         </Link>{" "}
-        or a{" "}
-        <Link to={`/fleet`} className="underline font-semibold px-1">
-          local taxi service Campbelltown
-        </Link>{" "}
-        , we’re available 24/7. Families, students, shift workers, and business
-        travellers trust us for airport transfers, medical appointments, local
-        trips, and group travel. Our experienced drivers know Campbelltown
-        routes inside out, making every ride punctual and stress-free. With our{" "}
-        <Link to={`/fleet`} className="underline font-semibold px-1">
-          premium fleet
-        </Link>{" "}
-        and easy booking, you get a reliable ride anytime, solving your travel
-        challenges without hassle.
+        services, you want a ride that is fast, safe, and dependable. Many
+        locals deal with long delays, last‑minute cancellations, or vehicles
+        that are too small for their group or luggage. With our Campbelltown
+        taxi and cab service, those issues are taken care of. Our fleet includes
+        maxi cabs, SUVs, and standard taxis, so every passenger enjoys a
+        comfortable journey. Whether you search for a taxi near you or a local
+        taxi service in Campbelltown, we are available 24/7 for your trips.
+        Families, students, shift workers, and business travellers regularly use
+        us for airport transfers, medical visits, local trips, and group travel.
+        Our experienced drivers know the Campbelltown area well, which helps
+        keep every ride on time and stress‑free. With our premium vehicles and
+        simple booking options, you always have a reliable ride when you need
+        it.
       </>
     ),
     bookingFormTitle: "Book Taxi Maxi Service in Campbelltown NSW",
@@ -41,67 +34,41 @@ export const allLocationsData = {
       "Reliable Corporate Taxi Services Across Campbelltown & Surrounding Areas",
     locationSectionDescription: (
       <>
-        If you need professional transport, our Campbelltown Taxi & Maxi Cabs
-        provide seamless corporate travel across Campbelltown and the wider
-        Macarthur region. Many businesses struggle with on-time airport pickups,
-        inter-office travel, or group transport for meetings and events. We
-        solve these issues with our{" "}
-        <Link
-          to={`/services/corporate-transport-services`}
-          className="underline font-semibold px-1"
-        >
-          corporate taxi services
-        </Link>{" "}
-        and{" "}
-        <Link
-          to={`/services/maxi-taxi-service`}
-          className="underline font-semibold px-1"
-        >
-          maxi cab services Campbelltown
-        </Link>
-        . Solo executives, corporate teams, and groups can rely on us for{" "}
-        <Link
-          to={`/services/taxi-sydney-service`}
-          className="underline font-semibold px-1"
-        >
-          taxi cab service near me
-        </Link>{" "}
-        bookings that are fast and stress-free. Every vehicle is clean,
-        well-maintained, and equipped for comfort. Our professional drivers
-        prioritise punctuality, safety, and smooth travel, earning us trust from
-        local businesses. You can schedule{" "}
-        <Link
-          to={`/services/book-taxi-sydney-airport`}
-          className="underline font-semibold px-1"
-        >
-          airport transfers
-        </Link>{" "}
-        , inter-office trips, and special corporate events without worrying
-        about delays. With
-        <Link
-          to={`/services/book-taxi-sydney-airport`}
-          className="underline font-semibold px-1"
-        >
-          Campbelltown taxi cab service
-        </Link>
-        , your team arrives on time, every time, and your corporate reputation
-        stays intact.
+        For professional and organized transport, our Campbelltown Taxi & Maxi
+        Cabs team offers smooth corporate travel across Campbelltown and the
+        wider Macarthur region. Businesses often struggle with late airport
+        pickups, complicated inter‑office travel, or moving groups to meetings
+        and events. Our corporate taxi and maxi cab services are designed to fix
+        those problems. Only executives and larger teams can quickly book a taxi
+        near them for efficient, stress‑free travel. Every vehicle is clean,
+        well‑maintained, and set up for comfort. Our professional drivers focus
+        on punctuality, safety, and a calm ride, which is why many local
+        businesses choose us regularly. You can arrange airport transfers,
+        office‑to‑office trips, and special corporate events without worrying
+        about delays. With our Campbelltown taxi service, your staff arrive on
+        time, and your corporate image remains strong.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Campbelltown NSW",
     serviceSubtitle: (
       <>
-        When you need a safe and punctual ride,
-        <strong>Campbelltown Taxi & Maxi Cabs</strong> is your trusted local
-        transport service. Whether you are commuting to work, heading to the
-        airport, or attending an event, our professional drivers provide
-        reliable, comfortable, and stress-free journeys. We understand your
-        travel needs, peak-hour traffic, group trips, and luggage-heavy rides.
-        With modern vehicles and local knowledge, you’ll never face long waits
-        or cancelled rides. Booking is simple online or over the phone with
-        clear pricing. Trust our <strong> Campbelltown taxi service</strong> for
-        daily trips, airport transfers, family outings, or corporate travel
+        Campbelltown Taxi & Maxi Cabs is a trusted local transport option for a
+        safe, punctual ride. Whether you are going to work, catching a flight,
+        or attending an event, our drivers provide comfortable, reliable, and
+        hassle‑free journeys. We understand peak‑hour traffic, group travel, and
+        luggage‑heavy trips. Our modern vehicles and strong local knowledge help
+        you avoid long waits and cancelled bookings. You can book online or by
+        phone with clear, upfront pricing. Choose our{" "}
+        <a
+          target="_blank"
+          href={`https://www.transport.nsw.gov.au/operations/point-to-point-transport/`}
+          className="underline font-semibold px-1"
+        >
+          Campbelltown taxi
+        </a>
+        service for daily commutes, airport transfers, family trips, or business
+        travel.
       </>
     ),
     locationServices: {
@@ -287,8 +254,30 @@ export const allLocationsData = {
     },
     fleetSectionTitle:
       "Executive Fleet Options by Campbelltown Taxi & Maxi Cabs",
-    fleetSectionSubTitle:
-      "Choose the right vehicle for your journey with Campbelltown Taxi & Maxi Cabs. Whether you travel alone or with a group, our fleet offers comfort, safety, and reliability. Our drivers are local experts and know the fastest routes around Campbelltown. From airport transfers to corporate trips, we have a solution for every need. Trust our Campbelltown taxi and cab services for smooth, stress-free travel any time of day or night.",
+    fleetSectionSubTitle: (
+      <>
+        Campbelltown Taxi & Maxi Cabs offers a range of vehicles so you can
+        match your ride to your needs. Whether you are travelling alone or with
+        a group, every option focuses on comfort,{" "}
+        <a
+          target="_blank"
+          href={`https://www.nhtsa.gov/ten-tips-for-safe-driving`}
+          className="underline font-semibold px-1"
+        >
+          safety,
+        </a>{" "}
+        and reliability. Our local drivers know the quickest routes around
+        Campbelltown, which keeps your journey efficient. From short trips to{" "}
+        <a
+          target="_blank"
+          href={`https://www.pointtopoint.nsw.gov.au/what-a-service-provider/taxi-service-providers`}
+          className="underline font-semibold px-1"
+        >
+          corporate travel
+        </a>{" "}
+        and airport runs, we have a suitable vehicle ready for you.
+      </>
+    ),
 
     fleetSectionVehicles: {
       1: {
@@ -455,18 +444,17 @@ export const allLocationsData = {
             Absolutely. Our
             <strong> Campbelltown taxi and cab services</strong> operate day and
             night, including weekends and holidays. You can rely on us whenever
-            you need a ride..
+            you need a ride.
           </>
         ),
       },
       {
-        question: "Can I get a taxi with a baby seat?",
+        question: "Can I request a taxi with a baby seat?",
         answer: (
           <>
-            Yes. Adjustable baby seats are available for safety. Travel
-            comfortably for school runs, appointments, or family outings with
-            our
-            <strong>Campbelltown taxi service</strong>
+            Yes. We can supply adjustable baby seats so children travel
+            securely, whether you are heading to school, a medical appointment,
+            or a family event.
           </>
         ),
       },
@@ -546,41 +534,35 @@ export const allLocationsData = {
     ],
   },
   "ambarvale-nsw": {
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13216.97067225621!2d150.7943473!3d-34.08892335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ee288b33d48f%3A0x5017d681632ab70!2sAmbarvale%20NSW%202560%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769793320905!5m2!1sen!2sbd",
     pageTitle: "Ambarvale Taxi & Maxi Cabs | Reliable Local Taxi Service 24/7",
     metaDescription:
       "Enjoy safe, on-time travel with Ambarvale Taxi & Maxi Cabs – local drivers, clean vehicles. Book now for quick pickup & stress-free rides. 24/7 service",
     heroTitle: "Ambarvale Taxi & Maxi Cabs | Reliable Local Taxi Service 24/7",
     heroDescription: (
       <>
-        Looking for <strong> Ambarvale Taxi & Maxi Cabs</strong> you can trust?
-        You’re in the right place. We provide professional,
-        <strong>24/7 local taxi service in Ambarvale</strong> and the
-        surrounding Macarthur suburbs. Whether you need a{" "}
-        <strong> maxi cab near me in Ambarvale,</strong>, a{" "}
-        <strong>taxi service close to me in Ambarvale</strong> , or a{" "}
-        <strong>local taxi cab service near me</strong>, we’ve got you covered.
-        <br />
-        Our fleet includes{" "}
-        <strong>
-          {" "}
-          standard taxis, spacious maxi cabs, SUVs, premium vehicles, and
-          wheelchair-accessible taxis
-        </strong>
-        . Every ride is clean, safe, and comfortable, making it perfect for
-        families, corporate travelers, or groups. With{" "}
-        <strong>experienced local drivers</strong>, you can relax knowing your
-        journey will be smooth and timely.
-        <br />
-        We provide{" "}
-        <strong>
-          airport transfers, cruise terminal pickups, corporate transport, and
-          everyday taxi services.
-        </strong>{" "}
-        From{" "}
-        <strong>
-          Ambarvale to Campbelltown, Narellan, and surrounding areas
-        </strong>
-        , we ensure you reach your destination safely and on time.
+        Looking for{" "}
+        <Link
+          to={`https://campbelltowntaxicabs.com.au/book-a-taxi`}
+          className="underline font-semibold px-1"
+        >
+          Ambarvale Taxi & Maxi Cabs
+        </Link>{" "}
+        you can rely on? You're in the right place. We offer professional, 24/7
+        local taxi services in Ambarvale and across the surrounding Macarthur
+        suburbs. Whether you need a maxi cab near you, a taxi service in
+        Ambarvale, or a dependable local cab for everyday trips, we are ready to
+        help. <br />
+        Our fleet includes standard taxis, spacious maxi cabs, SUVs, luxury
+        vehicles, and wheelchair-accessible taxis. Every vehicle is clean, safe,
+        and comfortable, making our service ideal for families, corporate
+        travelers, and groups of all sizes. With experienced local drivers, you
+        can sit back and relax while we handle your journey. <br />
+        We provide airport transfers, cruise terminal pickups, corporate
+        transport, and everyday local taxi services. From Ambarvale to
+        Campbelltown, Narellan, and other nearby areas, we ensure you reach your
+        destination safely and on time.
       </>
     ),
     bookingFormTitle: "Book  Taxi Sydney Airport Service in Ambarvale",
@@ -614,15 +596,23 @@ export const allLocationsData = {
     serviceTitle: "Our Taxi and Maxi Services in Ambarvale",
     serviceSubtitle: (
       <>
-        When you need a trusted ride,
-        <strong> Ambarvale Taxi & Maxi Cabs</strong>is your go-to local service.
-        Whether you’re travelling to work, the airport, or a family event, you
-        can rely on our punctual, safe, and professional service. We understand
-        your daily travel needs and the challenges of peak hours. With our
-        modern fleet, experienced drivers, and local knowledge, you’ll never
-        wait long for a taxi or maxi cab. Booking is easy online or over the
-        phone, giving you transparent fares and stress-free Travel every time.
-        Experience the best <strong> Ambarvale taxi service</strong> today.
+        When you need a trusted ride, Ambarvale Taxi & Maxi Cabs is your go-to
+        local option. Whether you are travelling to work, heading to the
+        airport, attending an appointment, or going to a family function, you
+        can rely on our punctual, safe, and friendly service. <br />
+        We understand the challenges of peak-hour traffic and daily travel
+        needs. With our modern fleet, local route knowledge, and experienced
+        drivers, you never have to wait long for a taxi or maxi cab.
+        <a
+          target="_blank"
+          href={`https://www.pointtopoint.nsw.gov.au/safety-and-compliance/`}
+          className="underline font-semibold px-1"
+        >
+          Booking
+        </a>{" "}
+        is quick and easy online or over the phone, giving you transparent fares
+        and stress-free travel every time. Enjoy the convenience of a reliable
+        Ambarvale taxi service whenever you need it.
       </>
     ),
     locationServices: {
@@ -809,8 +799,27 @@ export const allLocationsData = {
       },
     },
     fleetSectionTitle: "Executive Fleet Options by Ambarvale Taxi & Maxi Cabs",
-    fleetSectionSubTitle:
-      "Your ride matters. With Ambarvale Taxi & Maxi Cabs, you can choose vehicles to match your travel style, group size, or comfort needs. Our drivers know local routes well. From solo trips to group travel, our fleet guarantees safety, comfort, and timely arrivals. Whether you're looking for a quick local ride or a luxurious airport transfer, we have the perfect option for you.",
+    fleetSectionSubTitle: (
+      <>
+        Your ride matters, and we make sure it suits your needs. With Ambarvale
+        Taxi & Maxi Cabs, you can choose from a range of vehicles that match
+        your travel style, group size, and comfort level. Our drivers know the
+        local roads and traffic patterns, ensuring efficient routes and on-time
+        arrivals.
+        <br />
+        From solo trips to group travel, short local journeys to long-distance
+        rides, our fleet is designed for safety, comfort, and reliability.
+        Whether you need a quick local taxi or a{" "}
+        <a
+          target="_blank"
+          href={`https://www.nsw.gov.au/easy-read/transport`}
+          className="underline font-semibold px-1"
+        >
+          more
+        </a>{" "}
+        luxurious airport transfer, we have the right option for you.
+      </>
+    ),
 
     fleetSectionVehicles: {
       1: {
@@ -918,15 +927,16 @@ export const allLocationsData = {
         bagsCapacity: 8,
         description: (
           <>
-            Fully equipped for safe Travel. Our
-            <strong> Ambarvale service Campbelltown </strong> taxi service
-            ensures easy boarding and professional assistance. Book a
-            <Link
-              to={`/services/wheelchair-accessible-taxi`}
+            Fully equipped wheelchair-accessible{" "}
+            <a
+              target="_blank"
+              href={`https://en.wikipedia.org/wiki/Taxi`}
               className="underline font-semibold px-1"
             >
-              wheelchair taxi.
-            </Link>{" "}
+              taxis
+            </a>{" "}
+            with trained drivers to ensure safe, comfortable, and dignified
+            travel for passengers with mobility needs.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -1063,6 +1073,8 @@ export const allLocationsData = {
     ],
   },
   "appin-nsw": {
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105581.61797394945!2d150.80853134999998!3d-34.21215075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b13a9a7ea03d4cb%3A0x40609b490438d80!2sAppin%20NSW%202560%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769793398339!5m2!1sen!2sbd",
     pageTitle: "24/7 Appin Taxi & Maxi Cabs for Local & Long-Distance Trips",
     metaDescription:
       "Enjoy smooth rides with Appin Taxi & Maxi Cabs – perfect for groups, airport trips, and daily travel. Book today for reliable service",
@@ -1127,14 +1139,33 @@ export const allLocationsData = {
     serviceSubtitle: (
       <>
         When you need a reliable ride,
-        <strong> Appin Taxi & Maxi Cabs</strong>is here for you 24/7. Whether
-        it’s a quick local trip, airport transfer, or long-distance journey, our
-        professional drivers provide safe, timely, and comfortable rides. You
-        can trust us to handle your luggage, schedule, and travel needs. With
-        our modern fleet and local knowledge, you won’t experience long waits or
-        unreliable service. Booking is fast online or by phone. Experience the
-        most convenient <strong> Appin taxi service</strong> today, tailored for
-        families, students, and professionals alike.
+        <strong> Appin Taxi & Maxi Cabs</strong>is here for you 24/7 with
+        flexible options tailored to your needs. Whether it's a quick local
+        trip, a long-distance journey, or a Sydney{" "}
+        <a
+          target="_blank"
+          href={`https://www.transport.nsw.gov.au/operations/point-to-point-transport/taxi-information`}
+          className="underline font-semibold px-1"
+        >
+          Airport transfer
+        </a>
+        , our professional drivers provide safe, timely, and comfortable rides
+        every time. You can trust our Appin taxi service and Appin taxi cab
+        service to take care of your luggage, schedule, and travel plans, so you
+        never have to worry about delays or missed connections. With our modern
+        fleet, maxi cab options, and knowledgeable local drivers, you avoid long
+        waits and unreliable{" "}
+        <a
+          target="_blank"
+          href={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle`}
+          className="underline font-semibold px-1"
+        >
+          taxi services
+        </a>{" "}
+        that fail to show up when it matters most. Booking your Appin taxi cab
+        is fast and simple, online or by phone, making it easy for families,
+        students, professionals, and visitors to experience convenient local
+        taxi cab service near me anytime.
       </>
     ),
     locationServices: {
@@ -1313,8 +1344,36 @@ export const allLocationsData = {
       },
     },
     fleetSectionTitle: "Executive Fleet Options by Appin Taxi & Maxi Cabs",
-    fleetSectionSubTitle:
-      "Your ride is important. With Appin Taxi & Maxi Cabs, you can select vehicles to suit your travel style, group size, or comfort needs. Our local drivers know every route, ensuring timely pickups and smooth journeys. From solo trips to group travel, our fleet covers all your needs. Whether it’s a quick city ride or a luxury airport transfer, we provide reliable, safe, and comfortable options.",
+    fleetSectionSubTitle: (
+      <>
+        Your ride matters, and{" "}
+        <a
+          target="_blank"
+          href={`https://www.qld.gov.au/transport/public/operators/information-for-passengers/passenger-rights-and-fares/taxi-service-standards`}
+          className="underline font-semibold px-1"
+        >
+          Appin Taxi & Maxi Cabs
+        </a>{" "}
+        gives you the flexibility to choose the right vehicle for your trip,
+        whether it is a short local ride or a long-distance transfer. Our local
+        drivers know Appin, Campbelltown, Camden, Liverpool, and the wider
+        Macarthur region in detail, helping you avoid traffic delays and reach
+        your destination on time. From everyday trips to VIP airport transfers,
+        our fleet includes standard{" "}
+        <a
+          target="_blank"
+          href={`https://en.wikipedia.org/wiki/Taxi`}
+          className="underline font-semibold px-1"
+        >
+          taxis,
+        </a>{" "}
+        maxi cabs, SUVs, wagons, luxury vehicles, and wheelchair-accessible
+        options to match your group size and comfort needs. Whether you search
+        for maxi cabs near me, Appintaxi cab service, or taxi services near me,
+        you can expect clean vehicles, safe driving, and a professional attitude
+        on every journey.
+      </>
+    ),
 
     fleetSectionVehicles: {
       1: {
@@ -1365,7 +1424,15 @@ export const allLocationsData = {
           <>
             Perfect for families or luggage-heavy trips. Our
             <strong>taxi services near me </strong> iin Appin are spacious and
-            comfortable. Learn more at
+            comfortable.
+            <a
+              target="_blank"
+              href={`https://www.accesscanberra.act.gov.au/driving-transport-and-parking/ride-share-taxis-and-hire-car/taxi-service-accreditation`}
+              className="underline font-semibold px-1"
+            >
+              Learn more
+            </a>{" "}
+            at
             <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
@@ -1559,7 +1626,17 @@ export const allLocationsData = {
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong>Appin taxi cab service </strong>
+            <strong>
+              Appin{" "}
+              <a
+                target="_blank"
+                href={`https://en.wikipedia.org/wiki/Maxi_taxi`}
+                className="underline font-semibold px-1"
+              >
+                taxi or maxi cab
+              </a>{" "}
+              service{" "}
+            </strong>
             today.
           </>
         ),
@@ -1567,6 +1644,8 @@ export const allLocationsData = {
     ],
   },
   "currans-hills-nsw": {
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26447.279978857343!2d150.77377029999997!3d-34.04617974999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12f1b8586089ad%3A0x5017d681632b3b0!2sCurrans%20Hill%20NSW%202567%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769793762600!5m2!1sen!2sbd",
     pageTitle:
       "Local Currans Hills Taxi & Maxi Cabs | Easy Booking & Fair Pricing",
     metaDescription:
@@ -1575,22 +1654,18 @@ export const allLocationsData = {
       "Local Currans Hills Taxi & Maxi Cabs | Easy Booking & Fair Pricing",
     heroDescription: (
       <>
-        Looking for <strong>Currans Hills Taxi & Maxi Cabs</strong> you can rely
-        on? You’ve come to the right place. We offer professional,{" "}
-        <strong>24/7 local taxi service in Currans Hills</strong> and nearby
-        Macarthur suburbs. Whether you need a{" "}
-        <strong>Currans Hills taxi cab close to me</strong>, a local taxi
-        service near me, or maxi cabs near me in Currans Hills, we’ve got you
-        covered. <br />
-        Our fleet includes standard taxis, spacious maxi cabs, SUVs, luxury
-        vehicles, and wheelchair-accessible taxis. You can choose the right
-        option for families, groups, or business travel. Every ride is clean,
-        safe, and comfortable, with experienced local drivers who know the area
-        well. <br />
-        We specialise in airport transfers, corporate travel, cruise terminal
-        pickups, and everyday taxi services. From Currans Hills to Campbelltown,
-        Narellan, and surrounding suburbs, we make sure your journey is smooth,
-        timely, and stress-free.
+       Looking for a trusted, reliable, and convenient taxi service in Currans Hills? <Link 
+              to={`https://campbelltowntaxicabs.com.au/`}
+              className="underline font-semibold  px-1"
+            >
+           Currans Hills Taxi & Maxi Cabs 
+            </Link> is your go-to solution for all local travel needs. We provide 24/7 taxi and maxi cab services to ensure your journey is safe, punctual, and stress-free. Whether it's a short local ride,<Link 
+              to={`https://campbelltowntaxicabs.com.au/services/book-taxi-sydney-airport`}
+              className="underline font-semibold  px-1"
+            >
+        airport transfer,
+            </Link>or a group trip, our professional drivers ensure comfort, reliability, and peace of mind. Our fleet includes standard taxis, maxi cabs, and executive vehicles suitable for families, students, professionals, and seniors. With transparent pricing and easy booking, traveling around Currans Hills has never been easier. Experience top-quality service that caters to every passenger, whether you're commuting, running errands, or heading to an event. Trust Currans Hills Taxi & Maxi Cabs for a seamless ride every time.
+
       </>
     ),
     bookingFormTitle: "Book Baby Seat Taxi Sydney in Currans Hills ",
@@ -1598,25 +1673,35 @@ export const allLocationsData = {
       "Currans Hills Taxi & Maxi Cab Services | Corporate, Group & Airport Transfers",
     locationSectionDescription: (
       <>
-        Need dependable Currans Hills taxi and cab services for business or
-        group travel? Our Currans Hills Taxi & Maxi Cabs provide reliable
-        transport for corporate clients, solo travellers, and families. Our
-        modern, well-maintained fleet and easy booking system make scheduling
-        simple and stress-free. <br />
-        We partner with local Currans Hills businesses, including professional
-        offices and manufacturing facilities, offering corporate taxi solutions
-        that improve daily operations. Whether you need a maxi cab services
-        Currans Hills, taxi service close to me Currans Hills, or local taxi cab
-        service near me, we ensure punctual, safe, and comfortable rides. <br />
-        Operating 24/7, our services cover airport transfers, corporate travel,
-        group bookings, and urgent trips. With professional drivers and clean
-        vehicles, you can trust us for a smooth, reliable journey every time.
-        Currans Hills Taxi & Maxi Cabs is your go-to service for airport,
-        corporate, and group travel in Currans Hills and the Macarthur region.
+        Need trustworthy Currans Hill taxi and cab services for business travel
+        or group transport? Our Currans Hills Taxi & Maxi Cabs offer dependable
+        rides for corporate clients, individuals, and families alike. With our
+        modern, well-kept fleet and simple booking options, arranging your trip
+        is quick and hassle-free. <br />
+        We work closely with local Currans Hill businesses, including offices,
+        warehouses, and service providers, offering corporate taxi solutions
+        that support day-to-day operations. Whether you are looking for maxi cab
+        services in Currans Hills, a taxi service close to me in Currans Hills,
+        or a local taxi cab service near me, we focus on punctual, safe, and
+        comfortable travel.
+        <br />
+        Our service operates 24/7 and covers{" "}
+        <a
+          target="_blank"
+          href={`https://immi.homeaffairs.gov.au/settling-in-australia/settle-in-australia/key-settlement-topics/transport`}
+          className="underline font-semibold px-1"
+        >
+          airport transfers,
+        </a>{" "}
+        corporate trips, group bookings, and urgent last-minute journeys. With
+        professional drivers and spotless vehicles, you can rely on us for a
+        relaxed and efficient ride every time. Currans Hills Taxi & Maxi Cabs is
+        your trusted choice for airport, business, and group transport across
+        Currans Hills and the wider Macarthur area.
       </>
     ),
     locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in Appin",
+    serviceTitle: "Our Taxi and Maxi Services in Currans Hill",
     serviceSubtitle: (
       <>
         When you need a fast and reliable ride,
@@ -1637,15 +1722,16 @@ export const allLocationsData = {
         title: "Wedding Transfer",
         description: (
           <>
-            Enjoy a smooth and stylish ride on your special day. Our Currans
-            Hills taxi cab services handle luggage, pick you up on time, and
-            ensure a stress-free journey. Book now on our
-            <Link
-              to={`/services/wedding-transfer`}
-              className="underline font-semibold  px-1"
+            Travel smoothly and in style on your big day. Our Currans Hills{" "}
+            <a
+              target="_blank"
+              href={`https://en.wikipedia.org/wiki/Taxi`}
+              className="underline font-semibold px-1"
             >
-              wedding transfer page.
-            </Link>{" "}
+              taxi cab
+            </a>{" "}
+            services manage your luggage, arrive on time, and make your trip
+            relaxed. Book via our dedicated wedding transfer page.
           </>
         ),
         image: "/car.png",
@@ -1808,7 +1894,11 @@ export const allLocationsData = {
     fleetSectionTitle:
       "Executive Fleet Options by Currans Hills Taxi & Maxi Cabs",
     fleetSectionSubTitle:
-      "Your ride matters. With Currans Hills Taxi & Maxi Cabs, you choose vehicles that match your comfort, group size, and travel style. Our local drivers know Currans Hills inside out. From solo trips to family or group travel, our fleet ensures safe, smooth, and timely journeys. Whether it’s a quick city ride or a luxury airport transfer, you’ll always find a vehicle to suit your needs.",
+    <>
+    Travel in style and comfort with our executive fleet designed to meet every need. Currans Hills <Link to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`} className="underline font-semibold px-1">
+             Taxi & Maxi Cabs
+            </Link> offers a variety of vehicle options, including sedans, SUVs, and maxi cabs, all maintained to the highest standards. Whether you’re heading to a business meeting, airport, or social event, our vehicles provide safety, luxury, and reliability. Each ride is monitored to ensure punctuality, cleanliness, and passenger satisfaction. Our experienced drivers offer professional, courteous service for a seamless travel experience.
+    </>,
 
     fleetSectionVehicles: {
       1: {
@@ -2001,17 +2091,7 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question: "Are wheelchair-accessible taxis available?",
-        answer: (
-          <>
-            Yes. Our
-            <strong>local taxi cab service near me</strong>
-            ensures safe, accessible, and comfortable rides for seniors or
-            passengers with mobility challenges.
-          </>
-        ),
-      },
+ 
       {
         question: " Do you operate outside Currans Hills ?",
         answer: (
@@ -2041,23 +2121,44 @@ export const allLocationsData = {
         ),
       },
       {
-        question: "How can I contact Campbelltown Taxi & Maxi Cabs?",
+        question: "How can I contact Currans Hills Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
-            <Link to={`/`} className="underline font-semibold px-1">
-              campbelltowntaxicabs.com.au.
-            </Link>{" "}
-            Book your trusted
-            <strong>Currans Hills taxi cab service </strong>
-            today.
+            You can call 1300 450 428, email silvercabscampbelltown@gmail.com,
+            or reserve your trusted Currans Hills
+            <a
+              target="_blank"
+              href={`https://en.wikipedia.org/wiki/Taxi`}
+              className="underline font-semibold px-1"
+            >
+              taxi cab
+            </a>
+            service today.​
+          </>
+        ),
+      },
+      {
+        question: "Are your vehicles accessible for passengers with mobility issues?",
+        answer: (
+          <>
+           Yes. We offer wheelchair-accessible taxis equipped to provide a safe, comfortable, and convenient
+            <a
+              target="_blank"
+              href={`https://en.wikipedia.org/wiki/Travel`}
+              className="underline font-semibold px-1"
+            >
+             journey 
+            </a>
+            for all passengers.
+
           </>
         ),
       },
     ],
   },
   "claymore-nsw": {
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13223.492035077968!2d150.81187329999997!3d-34.04712849999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ee622c6c623d%3A0x5017d681632b1e0!2sClaymore%20NSW%202559%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769794056870!5m2!1sen!2sbd",
     pageTitle:
       "Claymore Taxi & Maxi Cabs Services – 24/7 Safe & Comfortable Rides",
     metaDescription:
@@ -2065,21 +2166,25 @@ export const allLocationsData = {
     heroTitle: "Claymore Taxi & Maxi Cabs: 24/7 Airport & Local Transfers",
     heroDescription: (
       <>
-        Looking for Claymore Taxi & Maxi Cabs you can rely on? You’re in the
-        right place. We provide fast, safe, and reliable taxi services across
-        Claymore and the wider Macarthur region. Whether you need a Claymore
-        taxi cab close to me, a maxi cab near me in Claymore, or a local taxi
-        service near me, we’ve got you covered. <br />
-        Our fleet includes standard taxis, spacious maxi cabs, SUVs, and
-        wheelchair-accessible vehicles. Every ride is clean, comfortable, and
-        stress-free. Families, groups, solo travellers, and corporate passengers
-        trust us for daily travel, station drop-offs, medical appointments, and
-        airport transfers. Our experienced drivers know Claymore routes inside
-        out and ensure on-time journeys every time. <br />
-        You can count on us for Claymore taxi and cab services anywhere in
-        Claymore, Campbelltown, and surrounding Macarthur suburbs. From short
-        local trips to long-distance rides, we make your travel simple, safe,
-        and convenient.
+        Looking for dependable Claymore{" "}
+        <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+          taxi and maxi cab services
+        </Link>{" "}
+        for everyday or airport travel? You're in the right place. We deliver
+        fast, safe, and comfortable rides across Claymore and the wider
+        Macarthur region, whenever you need a taxi near you. <br />​ Our diverse
+        fleet includes standard taxis, roomy maxi cabs, SUVs, and
+        wheelchair-accessible vehicles for every passenger type. Families,
+        groups, corporate clients, and solo travellers rely on us for daily
+        commutes, station drop-offs, medical visits, and airport transfers with
+        on-time, stress-free service.​ <br />
+        You can depend on our Claymore{" "}
+        <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+          taxi and cab service
+        </Link>{" "}
+        across Claymore, Campbelltown, and surrounding Macarthur suburbs for
+        both quick local trips and longer-distance journeys, making every ride
+        simple, secure, and convenient.​
       </>
     ),
     bookingFormTitle: "Book Baby Seat Taxi Sydney in Claymore ",
@@ -2087,36 +2192,36 @@ export const allLocationsData = {
       "Trusted Claymore Taxi for Airport Transfers and Corporate Travel | 24/7 Taxi & Maxi Cab Services",
     locationSectionDescription: (
       <>
-        Need professional Claymore taxi cab service for corporate or airport
-        travel? Claymore Taxi & Maxi Cabs is your trusted choice. Our maxi cab
-        services Claymore cater to solo travellers, corporate teams, and groups.
-        You can book taxi service near me or taxi cab service near me easily
-        with our streamlined system. <br />
-        We proudly support local Claymore businesses, including offices,
-        professional services, and manufacturing facilities. Our 24/7 services
-        cover Sydney Airport transfers, inter-office travel, group outings, and
-        special events. <br />
-        With experienced drivers, clean vehicles, and a focus on comfort and
-        safety, your journey is always smooth. Whether you need a maxi cab near
-        me, taxi service close to me, or local taxi cab service near me, we
-        provide dependable, timely service every time.
+        Need a professional Claymore taxi for business meetings or airport
+        transfers? Claymore{" "}
+        <Link
+          to={`/services/maxi-taxi-service`}
+          className="underline font-semibold px-1"
+        >
+          Taxi & Maxi Cabs
+        </Link>{" "}
+        is a trusted local provider for solo travellers, executives, and groups,
+        making it easy to book a taxi near you using our simple booking
+        options.​ <br />
+        We support Claymore businesses of all sizes with 24/7 transport for
+        Sydney Airport transfers, inter-office travel, corporate events, and
+        staff movements.​ <br />
+        With experienced drivers, clean vehicles, and a strong focus on comfort
+        and safety, every journey runs smoothly—whether you search for a maxi
+        cab near you, a nearby taxi service, or a local Claymore cab.​
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Claymore",
     serviceSubtitle: (
       <>
-        When you need a dependable ride,
-        <strong> Claymore Taxi & Maxi Cabs</strong> is your trusted local
-        option. Whether you’re travelling to work, the airport, or family
-        events, our drivers ensure timely, safe, and stress-free journeys. We
-        understand your daily commuting challenges, peak-hour delays, and the
-        importance of comfort. With our modern fleet, professional drivers, and
-        local knowledge, you can rely on our
-        <strong> Claymore taxi service </strong> . Book easily online or by
-        phone, enjoy transparent fares, and experience hassle-free travel. Our
-        goal is to provide <strong>local taxi service Claymore</strong> you can
-        trust anytime, day or night.
+        When you need a reliable ride, Claymore Taxi & Maxi Cabs is your local
+        transport partner for work, airport trips, school runs, and family
+        occasions. Our drivers understand peak-hour traffic, local routes, and
+        customer needs, ensuring safe, punctual, and comfortable travel every
+        day. We offer easy phone and online bookings, clear pricing, and a
+        modern fleet, so your local taxi service in Claymore is always
+        convenient and trustworthy, day or night.
       </>
     ),
     locationServices: {
@@ -2346,11 +2451,16 @@ export const allLocationsData = {
         bagsCapacity: 5,
         description: (
           <>
-            Spacious and reliable for families or luggage-heavy trips. Find our
-            taxi services near me in Claymore for safe rides. Explore
-            <Link to={`/fleet`} className="underline font-semibold px-1">
-              premium fleet.
-            </Link>{" "}
+            Select spacious SUVs or wagons for family journeys or luggage-heavy
+            trips using our
+            <a
+              target="_blank"
+              href={`https://en.wikipedia.org/wiki/Taxis_of_Australia`}
+              className="underline font-semibold px-1"
+            >
+              taxi
+            </a>
+            services near you in Claymore.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -2436,7 +2546,7 @@ export const allLocationsData = {
         ),
       },
       {
-        question: "Do you provide Maxi Cab services in Claymore ?",
+        question: "Do you provide Maxi Cab services in Claymore?",
         answer: (
           <>
             Yes, our
@@ -2463,10 +2573,16 @@ export const allLocationsData = {
         question: "Can I get a taxi with a baby seat?",
         answer: (
           <>
-            Yes. Adjustable baby seats are available for safety. Travel
-            comfortably for school runs, appointments, or family outings with
-            our
-            <strong>Claymore taxi service</strong>
+            Yes, we supply adjustable baby seats so children can{" "}
+            <a
+              target="_blank"
+              href={`https://en.wikipedia.org/wiki/Road_trip`}
+              className="underline font-semibold px-1"
+            >
+              travel
+            </a>{" "}
+            safely, making our Claymore taxi service suitable for school runs
+            and family travel.
           </>
         ),
       },
@@ -2549,35 +2665,31 @@ export const allLocationsData = {
     ],
   },
   "macarthur-nsw": {
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d422862.0888993145!2d150.54837919999997!3d-34.10512829999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12f980e34e2ded%3A0xcaa8c95c21253621!2sMacarthur%2C%20NSW%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769794562272!5m2!1sen!2sbd",
     pageTitle: "Macarthur Taxi & Maxi Cabs Services – Book 24/7",
     metaDescription:
       "Reliable Macarthur Taxi & Maxi Cabs - 24/7 local taxi service, safe rides, Maxi Cabs, corporate travel, and baby seats. Call or book online today!",
     heroTitle: "Macarthur Taxi & Maxi Cabs Services – Book 24/7",
     heroDescription: (
       <>
-        Looking for <strong>Macarthur Taxi & Maxi Cabs</strong> you can trust?
-        You’re in the right place. We provide safe, reliable, and professional{" "}
-        <strong>taxi and maxi cab services Macarthur</strong> and surrounding
-        Sydney suburbs. Whether you need a{" "}
-        <strong>Macarthur taxi cab close to me</strong>,{" "}
-        <strong>taxi service near me</strong>, or a{" "}
-        <strong>local taxi cab service near me</strong>, we’ve got you covered.{" "}
-        <br />
-        Our fleet includes{" "}
-        <strong>
-          standard taxis, spacious maxi cabs, SUVs, luxury cars, and
-          wheelchair-accessible taxis
-        </strong>
-        . Each ride is clean, comfortable, and driven by{" "}
-        <strong>experienced local drivers</strong>. We cater to families,
-        groups, and corporate travellers. Operating 24/7, we provide{" "}
-        <strong>
-          airport transfers, corporate transport, cruise terminal pickups, and
-          everyday taxi service close to me Macarthur
-        </strong>
-        . From{" "}
-        <strong>Campbelltown to Camden, Narellan, and nearby areas</strong>,
-        your journey is smooth and stress-free.
+        Looking for reliable Macarthur{" "}
+        <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+          Taxi & Maxi Cabs
+        </Link>{" "}
+        you can depend on? You're in the right place. We offer safe,
+        comfortable, and professional taxi and maxi cab services across
+        Macarthur and nearby Sydney suburbs. Whether you're searching for a
+        MacArthur taxi cab near me, a taxi service near me, or a local taxi cab
+        service near me, we are ready to help 24/7​ <br />
+        Our fleet includes standard taxis, spacious maxi cabs, SUVs, luxury
+        vehicles, and wheelchair-accessible taxis. Every ride is clean,
+        air-conditioned, and driven by experienced local drivers familiar with
+        Macarthur roads. We support families, groups, and corporate travelers
+        with 24/7 airport transfers, corporate transport, cruise terminal
+        pickups, and everyday taxi service in Macarthur. From Campbelltown to
+        Camden, Narellan, and surrounding areas, we focus on smooth, stress-free
+        travel every time.​
       </>
     ),
     bookingFormTitle: "Book Taxi Maxi Service in Macarthur NSW",
@@ -2612,16 +2724,22 @@ export const allLocationsData = {
     serviceTitle: "Our Taxi and Maxi Services in Macarthur NSW",
     serviceSubtitle: (
       <>
-        When you need a reliable ride,
-        <strong>Macarthur Taxi & Maxi Cabs</strong> is your trusted local
-        choice. Whether you’re heading to work, school, the airport, or an
-        event, you can rely on our punctual, safe, and professional service. We
-        understand your travel needs, peak-hour challenges, and the importance
-        of comfort. With our modern fleet, experienced drivers, and local
-        knowledge, your ride will always be stress-free. Booking is simple
-        online or by phone, giving you transparent fares and fast service.
-        Experience the best<strong> Macarthur taxi service</strong> and{" "}
-        <strong>maxi cab services Macarthur</strong> today.
+        When you need a dependable ride,{" "}
+        <a
+          target="_blank"
+          href={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges`}
+          className="underline font-semibold px-1"
+        >
+          Macarthur Taxi & Maxi Cabs
+        </a>{" "}
+        is your trusted local option. From work and school runs to airport,
+        medical, and event transfers, we deliver punctual, safe, and friendly
+        service tailored to your needs. We understand local traffic patterns,
+        peak-hour congestion, and the importance of passenger comfort. With a
+        modern fleet, skilled drivers, and strong local knowledge, your trip
+        stays simple and stress-free. Booking is quick online or by phone, with
+        clear pricing and fast response times, so you enjoy the best MacArthur
+        taxi service and maxi cab services every day.​
       </>
     ),
     locationServices: {
@@ -2790,9 +2908,15 @@ export const allLocationsData = {
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight. Our
-            <strong> Macarthur taxi cab close to me </strong> service guarantees
-            on-time pickups, luggage help, and stress-free journeys. Book via
+            Avoid missing flights with Macarthur taxi cabs close to me, offering
+            on-time pickups, luggage assistance, and relaxed airport{" "}
+            <a
+              target="_blank"
+              href={`https://en.wikipedia.org/wiki/Road_trip`}
+              className="underline font-semibold px-1"
+            >
+              travel
+            </a>
           </>
         ),
         image: "/airport.png",
@@ -2908,15 +3032,16 @@ export const allLocationsData = {
         bagsCapacity: 8,
         description: (
           <>
-            Fully equipped for safe travel. Our
-            <strong> local taxi service near me</strong> ensures easy boarding
-            and professional assistance. Book at
-            <Link
-              to={`/services/wheelchair-accessible-taxi`}
+            Fully equipped, accessible vehicles ensure safe, easy travel for
+            seniors and passengers with mobility needs through our local
+            <a
+              target="_blank"
+              href={`https://en.wikipedia.org/wiki/Taxis_of_Australia`}
               className="underline font-semibold px-1"
             >
-              wheelchair taxi.
-            </Link>{" "}
+              taxi
+            </a>
+            service near me.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -3050,34 +3175,32 @@ export const allLocationsData = {
     ],
   },
   "menangle-nsw": {
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52839.76147907741!2d150.71858199999997!3d-34.13392955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12efee1a0907d9%3A0x5017d6816333c80!2sMenangle%20NSW%202568%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769794880492!5m2!1sen!2sbd",
     pageTitle: "24/7 Menangle Taxi & Maxi Cabs | Local & Long-Distance Travel",
     metaDescription:
       "Reliable transport you can trust with Menangle Taxi & Maxi Cabs – On-time service, modern cars & maxi cabs available. Book now and ride with confidence",
     heroTitle: "Macarthur Taxi & Maxi Cabs Services – Book 24/7",
     heroDescription: (
       <>
-        Looking for <strong>Menangle Taxi & Maxi Cabs</strong> you can rely on?
-        You’re in the right place. We provide professional
-        <strong>Menangle taxi and cab services</strong> 24/7. Whether you need a
-        <strong>local taxi service Menangle, a maxi cab near me</strong>, or a
-        comfortable
-        <strong> airport transfer</strong> our experienced drivers ensure a
-        smooth journey.
-        <br />
-        Our fleet includes
-        <strong>
-          {" "}
-          standard taxis, spacious maxi cabs, SUVs, and wheelchair-accessible
-          vehicles.
-        </strong>
-        Every ride is clean, safe, and on time. From
-        <strong>daily commutes and school runs</strong>
-        to
-        <strong> group travel and long-distance trips,</strong>.we cover
-        Menangle and the wider Macarthur region. You can also book
-        <strong>Menangle taxi cab service</strong>
-        for events, corporate travel, or family outings, all with professional
-        drivers who know the local routes.
+        Searching for reliable Menangle{" "}
+        <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+          Taxi & Maxi Cabs?
+        </Link>{" "}
+        You've come to the right place. We deliver professional Menangle taxi
+        and cab services 24/7. Whether you're after a local taxi service in
+        Menangle, a maxi cab near me, or a smooth airport transfer, our skilled
+        drivers make every trip hassle-free. <br />
+        Our{" "}
+        <Link to={`/fleet`} className="underline font-semibold px-1">
+          fleet features standard taxis,?
+        </Link>{" "}
+        roomy maxi cabs, SUVs, and wheelchair-accessible vehicles. Every journey
+        is clean, secure, and on schedule. From daily commutes and school runs
+        to group outings and long-distance travel, we service Menangle and the
+        wider Macarthur region. You can also schedule Menangle taxi cab service
+        for events, corporate travel, or family trips, all handled by expert
+        drivers who know the local area well.
       </>
     ),
     bookingFormTitle: "Book  Baby Taxi in Menangle NSW",
@@ -3085,28 +3208,24 @@ export const allLocationsData = {
       "Reliable Taxi & Maxi Cab Services in Menangle NSW | 24/7 Corporate, Group & Airport Transfers",
     locationSectionDescription: (
       <>
-        Need professional <strong>Menangle taxi cab service</strong> for
-        business or group travel? Our
-        <strong>Menangle Taxi & Maxi Cabs</strong> provide corporate, airport,
-        and group transport you can trust. With a modern fleet and streamlined
-        booking system, you get <strong>reliable, on-time service</strong> every
-        time. <br />
-        We proudly support local Menangle businesses and the wider Macarthur
-        region. From
-        <strong>solo executives and corporate teams</strong> to
-        <strong>group outings, our maxi cab services Menangle</strong> meet all
-        needs. You can also rely on us for taxi service near me, taxi cab
-        service near me, and local taxi service near me requests.
-        <br />
-        Our drivers focus on
-        <strong>comfort, safety, and punctuality.</strong>
-        Whether it’s an
-        <strong>
-          airport transfer, inter-office travel, or special occasion, Menangle
-          Taxi & Maxi Cabs
-        </strong>
-        is your trusted choice for professional taxi services in Menangle and
-        beyond.
+        Looking for a professional Menangle{" "}
+        <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+          taxi cab service
+        </Link>
+        taxi cab service for business trips or group travel? Our Menangle Taxi &
+        Maxi Cabs deliver dependable corporate, airport, and group
+        transportation. With a modern fleet and an easy booking system, you
+        enjoy reliable, on-time service every ride. <br />
+        We proudly support local Menangle customers and the broader Macarthur
+        community. From solo executives and office teams to family groups and
+        social outings, our maxi cab services in Menangle cover every travel
+        need. You can also depend on us for taxi service near me, taxi cab
+        service near me, and local taxi service near me whenever you need a
+        quick ride. <br />
+        Our drivers prioritize comfort, safety, and punctuality. Whether it's an
+        airport transfer, inter-office travel, or a special event, Menangle Taxi
+        & Maxi Cabs is your trusted option for professional taxi services in
+        Menangle and surrounding suburbs.
       </>
     ),
     locationSectionImg: corporateTripsImg,
@@ -3296,8 +3415,22 @@ export const allLocationsData = {
       },
     },
     fleetSectionTitle: "Executive Fleet Options by Menangle Taxi & Maxi Cabs",
-    fleetSectionSubTitle:
-      "Your ride matters. With Menangle Taxi & Maxi Cabs, you choose vehicles that fit your needs, style, and comfort. From solo trips to group travel, our fleet guarantees safe, smooth, and timely rides. Our drivers know the local area well. Whether you want a quick city trip or a long-distance airport ride, we have the perfect vehicle.",
+    fleetSectionSubTitle: (
+      <>
+        Your travel experience matters. With Menangle{" "}
+        <Link
+          to={`/services/maxi-taxi-service`}
+          className="underline font-semibold px-1"
+        >
+          Taxi & Maxi Cabs,
+        </Link>{" "}
+        you can pick vehicles that match your needs, style, and comfort level.
+        From solo rides to larger group journeys, our fleet offers safe, smooth,
+        and punctual transportation. Our drivers know Menangle and the nearby
+        areas very well. Whether you're heading across town or taking a
+        long-distance airport trip, we have the right vehicle for you.
+      </>
+    ),
 
     fleetSectionVehicles: {
       1: {
@@ -3383,14 +3516,15 @@ export const allLocationsData = {
         bagsCapacity: 8,
         description: (
           <>
-            Spacious and reliable for large groups or luggage. Our maxi cab
-            services Menangle are perfect for family trips. Learn more
-            <Link
-              to={`/services/maxi-taxi-service`}
+            Spacious and dependable for big groups or heavy luggage. Our maxi
+            cab services in Menangle are ideal for family holidays and
+            <a
+              target="_blank"
+              href={`https://en.wikipedia.org/wiki/Road_trip`}
               className="underline font-semibold px-1"
             >
-              here.
-            </Link>{" "}
+              group trips.
+            </a>
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -3403,22 +3537,24 @@ export const allLocationsData = {
         bagsCapacity: 8,
         description: (
           <>
-            Fully equipped for safe and accessible travel. Our local taxi
-            service near me ensures smooth rides for seniors or passengers with
-            mobility needs. Book at
-            <Link
-              to={`/services/wheelchair-accessible-taxi`}
+            Fully equipped vehicles for safe and accessible travel. Our local
+            taxi service near me supports seniors and passengers with mobility
+            needs. Book via our wheelchair
+            <a
+              target="_blank"
+              href={`https://en.wikipedia.org/wiki/Taxis_of_Australia`}
               className="underline font-semibold px-1"
             >
-              wheelchair taxi.
-            </Link>{" "}
+              taxi
+            </a>
+            service page.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
       },
     },
     faqSectionTitle:
-      "Frequently Asked Questions About Menangle  Taxi & Maxi Cabs",
+      "Frequently Asked Questions About Menangle Taxi & Maxi Cabs",
     faqs: [
       {
         question: "How can I book a Menangle  taxi near me?",
@@ -3548,63 +3684,67 @@ export const allLocationsData = {
     ],
   },
   "leumeah-nsw": {
+    mapUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13222.43819893756!2d150.83956699999993!3d-34.05388549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12eebf89e270b1%3A0x5017d681632be10!2sLeumeah%20NSW%202560%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769795229971!5m2!1sen!2sbd",
     pageTitle: "Leumeah Taxi & Maxi Cabs – Comfortable, Reliable & Affordable",
     metaDescription:
       "Experience stress-free travel with Leumeah Taxi & Maxi Cabs – clean vehicles, friendly drivers & quick booking. Call now for 24/7 availability.",
     heroTitle: "Leumeah Taxi & Maxi Cabs – Comfortable, Reliable & Affordable",
     heroDescription: (
       <>
-        Looking for <strong>Leumeah Taxi & Maxi Cabs</strong> you can rely on?
-        You’ve found the right service. We offer
-        <strong>
-          fast, safe, and affordable local taxi service Leumeah
-        </strong>{" "}
-        for residents, commuters, and businesses. Whether you need a
-        <strong>
-          maxi cab near me, a Leumeah taxi cab close to me, or a local taxi cab
-          service near me
-        </strong>{" "}
-        we make your ride easy and stress-free. <br />
-        Our modern fleet includes
-        <strong>
-          standard taxis, spacious maxi cabs, SUVs, and wheelchair-accessible
-          vehicles.
-        </strong>
-        You’ll enjoy a clean, comfortable, and safe ride every time. We cover
-        <strong>
-          daily travel, medical appointments, station drop-offs, airport
-          transfers, and long-distance rides.
-        </strong>
-        From
-        <strong>
-          {" "}
-          Leumeah to Campbelltown, Macarthur, and surrounding suburbs,
-        </strong>
-        .our professional drivers ensure you reach your destination on time.
+        Looking for{" "}
+        <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+          Leumeah Taxi & Maxi Cabs
+        </Link>{" "}
+        you can trust every day? Our local team offers quick, safe, and
+        reasonably priced rides for residents, workers, and visitors across
+        Leumeah. Whether you are searching for a maxi cab near me, a Leumeah
+        taxi close to me, or a dependable local taxi service near me, we make
+        every trip simple and hassle-free. <br />
+        Our updated fleet includes standard sedans, roomy maxi cabs,
+        family‑friendly SUVs, and wheelchair-accessible vehicles to suit every
+        type of traveler. From school runs and doctor visits to station
+        pick‑ups, airport drop‑offs, and long-distance trips, we focus on
+        punctual, stress-free transport. Whether you are heading from Leumeah to
+        Campbelltown, Macarthur, or nearby suburbs, our experienced drivers help
+        you arrive safely and on time. <br />
       </>
     ),
     bookingFormTitle: "Book Baby Taxi in Leumeah NSW",
-    locationSectionTitle:
-      "Trusted Leumeah Taxi & Maxi Cabs for Airport Transfers and Corporate Travel | 24/7 Taxi and Maxi Cab Services",
+    locationSectionTitle: (
+      <>
+        Trusted Leumeah Taxi & Maxi Cabs for{" "}
+        <Link
+          to={`/services/book-taxi-sydney-airport`}
+          className="underline font-semibold px-1"
+        >
+          Airport Transfers
+        </Link>
+        and{" "}
+        <Link
+          to={`https://campbelltowntaxicabs.com.au/services/corporate-tips`}
+          className="underline font-semibold px-1"
+        >
+          Corporate Travel
+        </Link>
+        | 24/7 Taxi and Maxi Cab Services
+      </>
+    ),
     locationSectionDescription: (
       <>
-        Need a <strong>reliable corporate taxi service Leumeah?</strong> Our
-        <strong> Leumeah Taxi & Maxi Cabs </strong> are perfect for solo
-        travellers, corporate teams, and group journeys. With a{" "}
-        <strong> modern, well-maintained fleet </strong> and a streamlined
-        booking system, we provide efficient, on-time service every time.
-        <br />
-        We proudly support local businesses in Leumeah and the Macarthur region.
-        Whether you need
-        <strong>
-          airport transfers, inter-office travel, or group outings, our maxi cab
-          services Leumeah
-        </strong>{" "}
-        to make your travel smooth and professional. Experienced drivers, clean
-        vehicles, and a focus on safety ensure that Leumeah taxi cab service is
-        always reliable. You can trust us fo
-        <strong>taxi service near me, taxi services near me,</strong>
-        or local taxi service near me—anytime, 24/7.
+        Need a dependable corporate taxi service in Leumeah for staff, clients,
+        or guests? Our Leumeah Taxi & Maxi Cabs are ideal for solo travelers,
+        office teams, and larger groups. With a carefully maintained fleet and a
+        simple booking process, we deliver on-time, professional transport every
+        day of the week. <br />
+        We proudly support businesses throughout Leumeah and the wider Macarthur
+        region with smooth airport transfers, inter-office travel, and group
+        movements. Our maxi cab services in Leumeah provide a polished,
+        comfortable experience for meetings, events, and company functions.
+        Clean cars, polite drivers, and a strong focus on safety mean your
+        Leumeah taxi cab service is always dependable —24/7, whether you book a
+        taxi service near me, taxi services near me, or a local taxi service
+        near me.​
       </>
     ),
     locationSectionImg: corporateTripsImg,
@@ -3801,7 +3941,10 @@ export const allLocationsData = {
     },
     fleetSectionTitle: "Executive Fleet Options by Leumeah Taxi & Maxi Cabs",
     fleetSectionSubTitle:
-      "Your ride is important. With Leumeah Taxi & Maxi Cabs, you can choose the perfect vehicle for comfort, style, or group travel. From solo trips to large groups, our fleet ensures safety, punctuality, and enjoyable journeys. Our drivers know local routes and peak-hour traffic, making your ride smooth and efficient. Whether it’s a short city trip or a luxury airport transfer, we have a solution to meet your travel needs. Rely on our Leumeah taxi and cab services for dependable and professional transport.",
+      <>
+      Your ride should match your needs, whether it is a quick local trip or a premium <Link target="_blank" to={`https://www.pointtopoint.nsw.gov.au/safety-and-compliance/safety-standards-for-taxis`} className="underline font-semibold px-1">
+airport transfer.</Link>  With Leumeah Taxi & Maxi Cabs, you can select from a range of vehicles built for comfort, space, or accessibility. Our drivers understand local roads, busy times, and the best routes, helping you avoid delays and unnecessary detours. From everyday errands to VIP transport, our Leumeah taxi and cab services give you a smooth, reliable journey.​
+      </>,
 
     fleetSectionVehicles: {
       1: {
@@ -3950,12 +4093,11 @@ export const allLocationsData = {
         question: "Do you provide Maxi Cab services in Leumeah?",
         answer: (
           <>
-            Yes, our
-            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
-              maxi cab services Leumeah
+           Yes, our maxi cab services in Leumeah can carry up to 12 passengers, making them ideal for family groups, 
+            <Link to={`/services/book-taxi-sydney-airport`} className="underline font-semibold px-1">
+              airport transfers,
             </Link>{" "}
-            accommodate up to 12 passengers. Perfect for families, group travel,
-            and airport transfers with ample luggage space.
+             and social outings with extra luggage.
           </>
         ),
       },
@@ -3963,10 +4105,12 @@ export const allLocationsData = {
         question: "Are your taxis available 24/7?",
         answer: (
           <>
-            Absolutely. Our
-            <strong> Leumeah taxi and cab services</strong> operate day and
-            night, including weekends and holidays. You can rely on us whenever
-            you need a ride..
+            Yes, our Leumeah taxi and cab services operate day and night, including weekends and public holidays, so you can  <a target="_blank"
+              href={`https://en.wikipedia.org/wiki/Road_trip`}
+              className="underline font-semibold px-1"
+            >
+            travel 
+            </a>anytime you need.​
           </>
         ),
       },
@@ -3997,9 +4141,9 @@ export const allLocationsData = {
         question: "Is there a luxury transfer option?",
         answer: (
           <>
-            Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong> Leumeah taxi cab service</strong> for airport trips, VIP
-            travel, or special occasions.
+            Yes, we provide luxury vehicles for VIP transfers, business travel, and special occasions; you can book a Leumeah <a target="_blank" href={`https://en.wikipedia.org/wiki/Taxis_of_Australia`} className="underline font-semibold px-1">
+taxi </a>  cab service for a more premium experience.
+
           </>
         ),
       },
@@ -4057,37 +4201,17 @@ export const allLocationsData = {
     ],
   },
   "raby-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13227.693875770648!2d150.816272!3d-34.02017535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ec331a2ff577%3A0x5017d681632c7d0!2sRaby%20NSW%202566%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769795877024!5m2!1sen!2sbd",
     pageTitle: "Raby Taxi & Maxi Cabs Services – 24/7 Convenient Transport",
     metaDescription:
       "Get to your destination on time with Raby Taxi & Maxi Cabs – professional drivers & 24/7 service. Book your ride today!",
     heroTitle: "Raby Taxi & Maxi Cabs Services – 24/7 Convenient Transport",
     heroDescription: (
       <>
-        Looking for <strong>Raby Taxi & Maxi Cabs </strong> you can rely on?
-        You’ve come to the right place. We provide
-        <strong>
-          safe, professional, and 24/7 local taxi service in Raby
-        </strong>{" "}
-        and surrounding Sydney suburbs. Whether you need a
-        <strong>Raby taxi cab close to me,</strong> taxi service near me, or a
-        maxi cab near me, we have the right ride for you.
-        <br />
-        Our modern fleet includes
-        <strong>
-          standard taxis, spacious maxi cabs, SUVs, and wheelchair-accessible
-          vehicles.
-        </strong>
-        Every vehicle is clean, comfortable, and maintained to the highest
-        standard. You can trust our
-        <strong>experienced local drivers</strong>
-        to make your journey smooth, timely, and stress-free. <br />
-        We offer
-        <strong>
-          airport transfers, cruise terminal pickups, corporate travel, and
-          everyday local transport.
-        </strong>
-        From <strong>Raby to Campbelltown and nearby areas,</strong>
-        we ensure you reach your destination safely and on time.
+       Looking for reliable Raby <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+Taxi & Maxi Cabs services</Link> you can trust? We have you covered with safe, professional, and 24/7 local taxi service in Raby and nearby Sydney suburbs. Whether you are searching for a Raby taxi cab close to me, a taxi service near me, or a maxi cab near me, we provide the right vehicle for every trip.​ <br/>
+Our fleet includes standard taxis, spacious maxi cabs, SUVs, luxury cars, and wheelchair-accessible taxis, all kept clean, comfortable, and well maintained. With experienced local drivers, your journey stays smooth, on time, and stress-free. We handle airport transfers, cruise terminal pickups, corporate travel, and everyday local rides from Raby to Campbelltown and surrounding areas so you always reach your destination safely.​
+
       </>
     ),
     bookingFormTitle: "Book Baby Taxi in Raby NSW",
@@ -4095,27 +4219,10 @@ export const allLocationsData = {
       "Reliable Taxi & Maxi Cab Services in Raby NSW | 24/7 Corporate & Airport Transfers",
     locationSectionDescription: (
       <>
-        Need a <strong>professional Raby taxi cab service</strong> for work or
-        group travel? Our
-        <strong> Raby Taxi & Maxi Cabs </strong>are perfect for corporate and
-        business passengers. You can book
-        <strong> taxi services near me </strong> or maxi cab services Raby with
-        confidence.
-        <br />
-        Our
-        <strong>modern, well-maintained fleet</strong> caters to solo
-        executives, corporate teams, and larger groups. We partner with local
-        businesses around Raby, including commercial and professional service
-        firms, providing
-        <strong>dependable transport solutions</strong>
-        for daily operations.
-        <br />
-        Operating 24/7, we accommodate early-morning departures, late-night
-        arrivals, and time-sensitive airport transfers. From inter-office travel
-        to Maxi cabs near me in Raby, we focus on safety, comfort, and
-        punctuality. With our experienced drivers, Raby Taxi & Maxi Cabs remain
-        the trusted choice for local taxi service Raby and corporate transport
-        across the region.
+       If you need a professional Raby <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+taxi cab service</Link> for work, meetings, or group travel, our Raby Taxi & Maxi Cabs are ideal for business and corporate passengers. You can confidently book taxi services near me or maxi cab services in Raby for individuals, teams, and larger groups. <br/>
+Our modern, well-presented vehicles support local businesses across Raby by providing dependable transport solutions for day-to-day operations. Operating 24/7, we manage early-morning flights, late-night arrivals, and urgent airport transfers with a strong focus on safety, comfort, and punctuality. From inter-office travel to maxi cabs near me in Raby, our experienced drivers make us a trusted choice for local taxi service in Raby and corporate transport throughout the region.​
+
       </>
     ),
     locationSectionImg: corporateTripsImg,
@@ -4123,7 +4230,8 @@ export const allLocationsData = {
     serviceSubtitle: (
       <>
         When you need a reliable ride,
-        <strong>Raby Taxi & Maxi Cabs</strong> is your trusted local service.
+        Raby <Link to={`/services/maxi-taxi-service`} className="underline font-semibold px-1">
+Taxi & Maxi Cabs</Link> is your trusted local service.
         Whether you are heading to work, the airport, or attending an event, our
         professional drivers ensure safe, comfortable, and punctual journeys. We
         understand your travel needs, including early-morning flights,
@@ -4299,9 +4407,9 @@ export const allLocationsData = {
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our Raby taxi cab close to me service. We
-            provide timely pickups, luggage support, and stress-free travel.
-            Book at
+            Avoid missing flights with Raby taxi cab close to me airport transfers offering on-time pickups, luggage help, and relaxed <Link target="_blank" to={`https://en.wikipedia.org/wiki/Road_trip`} className="underline font-semibold px-1">
+travel</Link>to and from the terminal.​
+
           </>
         ),
         image: "/airport.png",
@@ -4310,7 +4418,10 @@ export const allLocationsData = {
     },
     fleetSectionTitle: "Executive Fleet Options by Raby Taxi & Maxi Cabs",
     fleetSectionSubTitle:
-      "Your comfort matters. With Raby Taxi & Maxi Cabs, you can choose the right vehicle for your journey. From solo trips to large groups, our fleet ensures safety, comfort, and punctuality. Our local drivers know the fastest and safest routes across Raby and surrounding suburbs. Whether it’s a quick city ride or a luxury airport transfer, we have the perfect vehicle to meet your needs. Travel confidently with our Raby taxi and cab services, designed for reliability and convenience.",
+    <>
+    Your comfort is a priority, and Raby <Link to={`/services/maxi-taxi-service`} className="underline font-semibold px-1">
+Taxi & Maxi Cabs</Link> allows you to choose the vehicle that best suits your trip. From solo rides to large group transfers, our fleet is designed for safety, convenience, and punctual service across Raby and nearby suburbs. Whether you need a quick local trip or a premium airport transfer, our Raby taxi and cab options deliver a reliable experience every time.​
+    </>,
 
     fleetSectionVehicles: {
       1: {
@@ -4502,9 +4613,9 @@ export const allLocationsData = {
         question: "Is there a luxury transfer option?",
         answer: (
           <>
-            Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong> Raby taxi cab service</strong> for airport trips, VIP
-            travel, or special occasions.
+            Yes, we operate luxury vehicles that provide privacy and comfort, and you can book a Raby <Link target="_blank" to={`https://en.wikipedia.org/wiki/Taxis_of_Australia`} className="underline font-semibold px-1">
+taxi</Link>  cab service for VIP rides, airport transfers, or special events.
+
           </>
         ),
       },
@@ -4562,38 +4673,19 @@ export const allLocationsData = {
     ],
   },
   "st-andrew's-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26453.89929474565!2d150.83060170000002!3d-34.02495065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ec3bc85445e7%3A0x442ae9119441f920!2sSt%20Andrews%20NSW%202566%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769796388084!5m2!1sen!2sbd",
     pageTitle: "St Andrew's Taxi & Maxi Cabs: 24/7 Airport & Local Transfers",
     metaDescription:
       "Need a stress-free ride? St Andrew's Taxi & Maxi Cabs offers reliable service anytime, anywhere in Campbelltown. Book online today!",
     heroTitle: "St Andrew's Taxi & Maxi Cabs: 24/7 Airport & Local Transfers",
     heroDescription: (
       <>
-        Looking for <strong>St Andrew's Taxi & Maxi Cabs </strong> you can rely
-        on? You’re in the right place. We provide
-        <strong>fast, safe, and reliable taxi services</strong> across St
-        Andrew’s and the wider Macarthur region. Whether you need a
-        <strong>St Andrew's taxi cab close to me,</strong> a maxi cab near me in
-        St Andrew's, or a local taxi service near me, we’ve got you covered.
-        <br />
-        Our modern fleet includes
-        <strong>
-          standard taxis, spacious maxi cabs, SUVs, and wheelchair-accessible
-          vehicles.
-        </strong>
-        Every ride is clean, comfortable, and stress-free. Families, groups,
-        solo travellers, and corporate passengers trust us for
-        <strong>
-          daily travel, station drop-offs, medical appointments, and airport
-          transfers.
-        </strong>
-        Our experienced drivers know St Andrew’s routes inside out and ensure
-        on-time journeys every time.
-        <br />
-        You can count on us for
-        <strong>St Andrew's taxi and cab services</strong>
-        anywhere in St Andrew’s, Campbelltown, and surrounding Macarthur
-        suburbs. From <strong>short local trips to long-distance rides,</strong>
-        we make your travel simple, safe, and convenient.
+        Looking for reliable St. Andrew's <Link  to={`/services/maxi-taxi-service`} className="underline font-semibold px-1">
+Taxi & Maxi Cabs?</Link> You're in the right place. We offer fast, safe, and dependable taxi services across St. Andrew's and the wider Macarthur region. Whether you need a St. Andrew's taxi cab close to you, a maxi cab in St. Andrew's, or a trusted local taxi service, we are ready to help. <br/>
+Our fleet includes <Link to={`/fleet`} className="underline font-semibold px-1">
+standard taxis,</Link> maxi cabs, SUVs, and wheelchair-accessible vehicles. Every ride is clean, comfortable, and hassle-free. Families, groups, solo travelers, and corporate passengers choose us for daily trips, train station drop-offs, medical visits, and airport transfers. Our experienced drivers know St. Andrew's and the surrounding routes well and focus on on-time, smooth journeys. <br/>
+You can rely on our St. Andrew's <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+taxi and cab services</Link> anywhere in St. Andrew's, Campbelltown, and nearby Macarthur suburbs. From short local rides to long-distance travel, we make every trip simple, safe, and convenient.
       </>
     ),
     bookingFormTitle: "Book Baby Taxi in Raby NSW",
@@ -4601,26 +4693,13 @@ export const allLocationsData = {
       "Trusted St Andrew's Taxi for Airport Transfers and Corporate Travel | 24/7 Taxi & Maxi Cab Services",
     locationSectionDescription: (
       <>
-        Need a <strong> St Andrew's taxi cab service </strong> for corporate or
-        airport travel?
-        <strong>St Andrew's Taxi & Maxi Cabs</strong>is your trusted choice. Our
-        <strong>maxi cab services St Andrew's </strong> cater to solo
-        travellers, corporate teams, and groups. You can book taxi service near
-        me or taxi cab service near me easily with our streamlined system.
-        <br />
-        We proudly support
-        <strong>local St Andrew’s businesses</strong> including offices,
-        professional services, and manufacturing facilities. Our 24/7 services
-        cover
-        <strong>
-          Sydney Airport transfers, inter-office travel, group outings, and
-          special events.
-        </strong>
-        <br />
-        With experienced drivers, clean vehicles, and a focus on comfort and
-        safety, your journey is always smooth. Whether you need a maxi cab near
-        me, taxi service close to me, or local taxi cab service near me, we
-        provide dependable, timely service every time.
+        Need a professional St. Andrews taxi cab service for <Link to={`https://campbelltowntaxicabs.com.au/services/book-taxi-sydney-airport`} className="underline font-semibold px-1">
+airport</Link> or <Link to={`https://campbelltowntaxicabs.com.au/services/corporate-tips`} className="underline font-semibold px-1">
+corporate travel?</Link> St Andrew's Taxi & Maxi Cabs is a trusted choice for both business and personal needs. Our maxi cab services in St. Andrew's are ideal for individuals, teams, and larger groups, with easy booking via search results for taxi service near you. <br/>
+We proudly support local St. Andrew's businesses, including offices, professional services, and industrial sites. Our 24/7 operations cover <Link to={`/services/book-taxi-sydney-airport`} className="underline font-semibold px-1">
+Sydney Airport transfers,</Link> staff transport, inter-office trips, group outings, and special occasions. <br/>
+With skilled drivers, well-maintained vehicles, and a focus on comfort and safety, every ride is smooth and reliable. Whether you need a maxi cab, a taxi close to you, or a regular local <Link to={`https://campbelltowntaxicabs.com.au/book-a-taxi`} className="underline font-semibold px-1">
+ taxi cab service</Link>taxi cab service, we provide punctual, consistent transport around the clock.
       </>
     ),
     locationSectionImg: corporateTripsImg,
@@ -4685,14 +4764,13 @@ export const allLocationsData = {
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-            Keep your children safe with adjustable baby seats in our vehicles.
-            Ideal for school runs, medical visits, or family outings, our St
-            Andrew's taxi service ensures secure and comfortable travel. Check
+            Keep children safe with fitted baby seats in selected vehicles. Ideal for school runs, medical appointments, and family outings, our St. Andrew's taxi service supports secure family travel. Check
             <Link
-              to={`/services/baby-seat-taxi-sydney`}
+            target="_blank"
+              to={`https://www.transport.nsw.gov.au/roadsafety/parents/child-car-seats`}
               className="underline font-semibold px-1"
             >
-              baby seat taxi.
+             the baby seat taxi.
             </Link>{" "}
           </>
         ),
@@ -4726,15 +4804,14 @@ export const allLocationsData = {
         title: "Cruise Terminal Transfer",
         description: (
           <>
-            Travel to cruise terminals safely and on time. Our St Andrew's taxi
-            cab service provides luggage assistance and reliable rides, ensuring
-            stress-free journeys. Details at
+             Reach cruise terminals on time with stress-free, reliable transfers. Our St. Andrew's
             <Link
-              to={`/services/cruise-terminal-transfer`}
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Taxis_of_Australia`}
               className="underline font-semibold px-1"
             >
-              cruise terminal transfer.
-            </Link>{" "}
+              taxi 
+            </Link> cab service includes help with luggage and smooth pickup and drop-off.
           </>
         ),
         image: "/ship.png",
@@ -4817,7 +4894,10 @@ export const allLocationsData = {
     fleetSectionTitle:
       "Executive Fleet Options by St Andrew's Taxi & Maxi Cabs",
     fleetSectionSubTitle:
-      "Comfort matters on every trip. With St Andrew's Taxi & Maxi Cabs, you can select the perfect vehicle for your journey. From solo trips to group travel, our fleet provides safety, comfort, and punctuality. Our local drivers know the fastest and safest routes across St Andrew's and nearby suburbs. Whether it’s a city ride, airport transfer, or luxury trip, we have the ideal vehicle for your travel needs. Rely on our St Andrew's taxi and cab services for professional, reliable, and convenient rides every time.",
+     <>
+     Comfort is important on every trip, and St. Andrew's  <Link target="_blank" to={`https://en.wikipedia.org/wiki/Maxi_taxi`} className="underline font-semibold px-1">
+Taxi & Maxi Cabs</Link> offers a range of vehicles to suit your needs. From solo rides to group transfers, our fleet focuses on safety, comfort, and reliability. Local drivers know the best routes through St. Andrew's and nearby suburbs, helping you avoid delays. Whether you are heading into the city, catching a flight, or booking a luxury trip, we have a vehicle suited to your plans. Rely on our St. Andrew's taxi and cab services for professional and convenient transport at any time.
+     </>,
 
     fleetSectionVehicles: {
       1: {
@@ -5070,18 +5150,22 @@ export const allLocationsData = {
     ],
   },
   "st-helen's-park-nsw": {
-    pageTitle: "St Helen's Park Taxi & Maxi Cabs: 24/7 Airport & Local Transfers",
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26428.694682494446!2d150.81491865!3d-34.10572335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ef86d8cd3e19%3A0x5017d681632cbd0!2sSt%20Helens%20Park%20NSW%202560%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769796991883!5m2!1sen!2sbd",
+    pageTitle:
+      "St Helen's Park Taxi & Maxi Cabs: 24/7 Airport & Local Transfers",
     metaDescription:
       "Need a stress-free ride? St Helen's Park Taxi & Maxi Cabs offers reliable service anytime, anywhere in Campbelltown. Book online today!",
-    heroTitle: "St Helen's Park Taxi & Maxi Cabs: 24/7 Airport & Local Transfers",
+    heroTitle:
+      "St Helen's Park Taxi & Maxi Cabs: 24/7 Airport & Local Transfers",
     heroDescription: (
       <>
-        Looking for <strong>St Helen's Park Taxi & Maxi Cabs </strong> you can rely
-        on? You’re in the right place. We provide
+        Looking for <strong>St Helen's Park Taxi & Maxi Cabs </strong> you can
+        rely on? You’re in the right place. We provide
         <strong>fast, safe, and reliable taxi services</strong> across St
         Andrew’s and the wider Macarthur region. Whether you need a
-        <strong>St Helen's Park taxi cab close to me,</strong> a maxi cab near me in
-        St Helen's Park, or a local taxi service near me, we’ve got you covered.
+        <strong>St Helen's Park taxi cab close to me,</strong> a maxi cab near
+        me in St Helen's Park, or a local taxi service near me, we’ve got you
+        covered.
         <br />
         Our modern fleet includes
         <strong>
@@ -5109,9 +5193,10 @@ export const allLocationsData = {
       "Trusted St Helen's Park Taxi for Airport Transfers and Corporate Travel | 24/7 Taxi & Maxi Cab Services",
     locationSectionDescription: (
       <>
-        Need a <strong> St Helen's Park taxi cab service </strong> for corporate or
-        airport travel?
-        <strong>St Helen's Park Taxi & Maxi Cabs</strong>is your trusted choice. Our
+        Need a <strong> St Helen's Park taxi cab service </strong> for corporate
+        or airport travel?
+        <strong>St Helen's Park Taxi & Maxi Cabs</strong>is your trusted choice.
+        Our
         <strong>maxi cab services St Helen's Park </strong> cater to solo
         travellers, corporate teams, and groups. You can book taxi service near
         me or taxi cab service near me easily with our streamlined system.
@@ -5152,10 +5237,10 @@ export const allLocationsData = {
         title: "Wedding Transfer",
         description: (
           <>
-            Celebrate your special day without transport stress. Our St Helen's Park
-            taxi and cab services offer punctual pickups, professional drivers,
-            and luggage assistance. We ensure smooth, comfortable journeys for
-            all wedding guests. Book easily at
+            Celebrate your special day without transport stress. Our St Helen's
+            Park taxi and cab services offer punctual pickups, professional
+            drivers, and luggage assistance. We ensure smooth, comfortable
+            journeys for all wedding guests. Book easily at
             <Link
               to={`/services/wedding-transfer`}
               className="underline font-semibold  px-1"
@@ -5174,8 +5259,8 @@ export const allLocationsData = {
         description: (
           <>
             Travel in style for airport rides, business meetings, or VIP trips.
-            Our St Helen's Park taxi cab service guarantees privacy, comfort, and
-            punctual service every time. Learn more at
+            Our St Helen's Park taxi cab service guarantees privacy, comfort,
+            and punctual service every time. Learn more at
             <Link
               to={`/services/luxury-transfer`}
               className="underline font-semibold px-1"
@@ -5234,9 +5319,9 @@ export const allLocationsData = {
         title: "Cruise Terminal Transfer",
         description: (
           <>
-            Travel to cruise terminals safely and on time. Our St Helen's Park taxi
-            cab service provides luggage assistance and reliable rides, ensuring
-            stress-free journeys. Details at
+            Travel to cruise terminals safely and on time. Our St Helen's Park
+            taxi cab service provides luggage assistance and reliable rides,
+            ensuring stress-free journeys. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
               className="underline font-semibold px-1"
@@ -5255,9 +5340,9 @@ export const allLocationsData = {
         description: (
           <>
             Attend concerts, weddings, or parties without transportation
-            worries. Our St Helen's Park taxi service handles schedules efficiently,
-            providing safe and timely rides for you and your guests. Learn more
-            at
+            worries. Our St Helen's Park taxi service handles schedules
+            efficiently, providing safe and timely rides for you and your
+            guests. Learn more at
             <Link
               to={`/services/event-transfer`}
               className="underline font-semibold px-1"
@@ -5275,9 +5360,9 @@ export const allLocationsData = {
         title: "Maxi Taxi Service",
         description: (
           <>
-            Travel comfortably with our maxi cab services St Helen's Park. Spacious
-            vehicles accommodate up to 12 passengers and luggage. Perfect for
-            family outings, airport trips, or group events. Explore
+            Travel comfortably with our maxi cab services St Helen's Park.
+            Spacious vehicles accommodate up to 12 passengers and luggage.
+            Perfect for family outings, airport trips, or group events. Explore
             <Link
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
@@ -5336,8 +5421,9 @@ export const allLocationsData = {
         description: (
           <>
             Ideal for everyday travel, errands, or school runs. Our sedans are
-            clean, spacious, and comfortable. With our St Helen's Park taxi service,
-            you will enjoy stress-free, safe, and reliable trips. Book easily at
+            clean, spacious, and comfortable. With our St Helen's Park taxi
+            service, you will enjoy stress-free, safe, and reliable trips. Book
+            easily at
             <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
@@ -5354,8 +5440,9 @@ export const allLocationsData = {
         description: (
           <>
             Travel in style for airport transfers, VIP trips, or special
-            occasions. Our St Helen's Park taxi cab service offers privacy, comfort,
-            and punctual service with professional drivers. Learn more at
+            occasions. Our St Helen's Park taxi cab service offers privacy,
+            comfort, and punctual service with professional drivers. Learn more
+            at
             <Link
               to={`/services/luxury-transfer`}
               className="underline font-semibold px-1"
@@ -5415,8 +5502,9 @@ export const allLocationsData = {
         description: (
           <>
             Spacious, safe, and reliable for up to 12 passengers or
-            luggage-heavy trips. Our maxi cab services St Helen's Park are perfect
-            for family outings, corporate travel, and group trips. Learn more
+            luggage-heavy trips. Our maxi cab services St Helen's Park are
+            perfect for family outings, corporate travel, and group trips. Learn
+            more
             <Link
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
@@ -5462,8 +5550,8 @@ export const allLocationsData = {
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong>St Helen's Park taxi cab close to me</strong> service ensures
-            fast, safe, and reliable pickups.
+            <strong>St Helen's Park taxi cab close to me</strong> service
+            ensures fast, safe, and reliable pickups.
           </>
         ),
       },
@@ -5485,9 +5573,9 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong> St Helen's Park taxi and cab services</strong> operate day and
-            night, including weekends and holidays. You can rely on us whenever
-            you need a ride..
+            <strong> St Helen's Park taxi and cab services</strong> operate day
+            and night, including weekends and holidays. You can rely on us
+            whenever you need a ride..
           </>
         ),
       },
@@ -5519,8 +5607,8 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong> St Helen's Park taxi cab service</strong> for airport trips,
-            VIP travel, or special occasions.
+            a<strong> St Helen's Park taxi cab service</strong> for airport
+            trips, VIP travel, or special occasions.
           </>
         ),
       },
@@ -5578,32 +5666,20 @@ export const allLocationsData = {
     ],
   },
   "ruse-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13220.066559110199!2d150.84005670000005!3d-34.0690877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12efa236828397%3A0x5017d681632c9b0!2sRuse%20NSW%202560%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769797099585!5m2!1sen!2sbd",
     pageTitle: "Best Ruse Taxi & Maxi Cabs Near You – Book Anytime",
     metaDescription:
       "Need a stress-free ride? Ruse Taxi & Maxi Cabs offers reliable service anytime, anywhere in Campbelltown. Book online today!",
     heroTitle: "Best Ruse Taxi & Maxi Cabs Near You – Book Anytime",
     heroDescription: (
       <>
-        Looking for <strong>Ruse Taxi & Maxi Cabs </strong> you can rely on?
-        You’ve found the right service. Our
-        <strong>Ruse taxi cab service</strong> provides fast, safe, and
-        dependable transport across Ruse and the Macarthur region. Whether you
-        need a
-        <strong>taxi service close to me Ruse, a maxi cab near me,</strong> or
-        local taxi service Ruse, we are available 24/7.
+        Looking for  <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+ Ruse Taxi & Maxi Cabs</Link> you can rely on? You’ve found the right service. Our
+        <strong>Ruse taxi cab service</strong>provides fast, safe, and dependable transport across Ruse and the Macarthur region. Whether you need a taxi service close to me Ruse, a maxi cab near you, or local taxi service Ruse, we are available 24/7. <br/>
+        You can book a <strong>taxi and cab service in Ruse</strong> for daily commuting, medical appointments, station drop-offs, or long-distance rides. Families and groups love our <strong>maxi cabs in Ruse</strong>
+         for smooth travel with luggage. Professional drivers and clean vehicles make every journey comfortable and stress-free.
         <br />
-        You can book a<strong>taxi and cab service in Ruse</strong>
-        for daily commuting, medical appointments, station drop-offs, or
-        long-distance rides. Families and groups love our maxi cabs near me in
-        Ruse for smooth travel with luggage. Professional drivers and clean
-        vehicles make every journey comfortable and stress-free.
-        <br />
-        From local trips to
-        <strong>Sydney Airport transfers </strong>
-        or corporate travel, our <strong>Ruse taxi and cab services </strong>
-        cover all your transport needs. We serve Ruse, Campbelltown, Narellan,
-        and surrounding areas with reliable taxi service near me options
-        whenever you need them.
+        From local trips to Sydney Airport transfers or corporate travel, our Ruse taxi and cab services cover all your transport needs. We serve Ruse, Campbelltown, Narellan, and surrounding areas with reliable taxi service in Ruse options whenever you need them.
       </>
     ),
     bookingFormTitle: "Book Baby Taxi in Ruse NSW",
@@ -5611,7 +5687,8 @@ export const allLocationsData = {
       "Reliable Ruse Taxi & Maxi Cabs for Corporate Travel & Airport Transfers",
     locationSectionDescription: (
       <>
-        Our <strong> Ruse Taxi & Maxi Cabs </strong> provide professional
+        Our <Link to={`/services/maxi-taxi-service`} className="underline font-semibold px-1">
+ Ruse Taxi & Maxi Cabs</Link> provide professional
         corporate and group transport across Ruse and the wider Macarthur
         region. Need a<strong>Ruse taxi cab close to me </strong>for a business
         trip or a<strong>maxi cab services Ruse </strong> for a team outing? We
@@ -5620,8 +5697,9 @@ export const allLocationsData = {
         With a modern, well-maintained fleet and a streamlined booking system,
         we cater to solo travellers, corporate teams, and families. You can rely
         on our
-        <strong> taxi service near me </strong> or{" "}
-        <strong>local taxi cab service near me </strong> for punctual, smooth
+        <strong> taxi service near me </strong> or
+        <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+ local taxi cab service near Ruse</Link> for punctual, smooth
         rides every time.
         <br />
         We proudly support local Ruse businesses, including offices and
@@ -5958,10 +6036,10 @@ export const allLocationsData = {
         image: "/campbelltown-maxi-taxi.png",
       },
     },
-    faqSectionTitle: "Frequently Asked Questions About Ruse   Taxi & Maxi Cabs",
+    faqSectionTitle: "Frequently Asked Questions About Ruse  Taxi & Maxi Cabs",
     faqs: [
       {
-        question: "How can I book a Ruse   taxi near me?",
+        question: "How can I book a Ruse taxi near me?",
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
@@ -6032,24 +6110,22 @@ export const allLocationsData = {
         ),
       },
       {
-        question: "Are wheelchair-accessible taxis available?",
+        question: "Are your drivers experienced and trustworthy?",
         answer: (
           <>
-            Yes. Our
-            <strong>local taxi cab service near me</strong>
-            ensures safe, accessible, and comfortable rides for seniors or
-            passengers with mobility challenges.
+            Yes. All <Link target="_blank" to={`https://simple.wikipedia.org/wiki/Driver%27s_license`} className="underline font-semibold px-1">
+drivers are licensed,</Link> vetted, and familiar with Ruse and surrounding suburbs. Safety and punctuality are our top priorities.
+
           </>
         ),
       },
+    
       {
-        question: " Do you operate outside Ruse?",
+        question: "Do you provide luxury or corporate transport?",
         answer: (
           <>
-            Yes. We cover Ruse,Appin , Camden, Liverpool, and nearby suburbs.
-            Find your
-            <strong> local taxi service near me </strong>
-            at
+            Yes. Our Premium Corporate Transport Services and Luxury Transfers ensure professional <Link target="_blank" to={`https://en.wikipedia.org/wiki/Travel`} className="underline font-semibold px-1">
+ travel</Link>for clients or executives.
           </>
         ),
       },
@@ -6068,7 +6144,24 @@ export const allLocationsData = {
         ),
       },
       {
-        question: " How can I contact Ruse  Taxi & Maxi Cabs?",
+        question: "Can I book a taxi for events or weddings?",
+        answer: (
+          <>
+           Yes. We offer Premium Wedding Transfers and Event Transfers with professional drivers.
+
+          </>
+        ),
+      },
+      {
+        question: "Do you operate during late nights and weekends?",
+        answer: (
+          <>
+           Yes. We understand travel demands. Our service is available 24/7 for Ruse residents and visitors.
+          </>
+        ),
+      },
+      {
+        question: " How can I contact Ruse Taxi & Maxi Cabs?",
         answer: (
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
@@ -6085,13 +6178,15 @@ export const allLocationsData = {
     ],
   },
   "minto-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26451.830616649077!2d150.85019885!3d-34.03158645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ec7d3ed567ff%3A0x5017d681632c160!2sMinto%20NSW%202566%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769797620994!5m2!1sen!2sbd",
     pageTitle: "Minto Taxi & Maxi Cabs Services – 24/7 Convenient Transport",
     metaDescription:
       "Get affordable and on-time transport – Ruse Taxi & Maxi Cabs provide clean vehicles and expert drivers. Call today for quick bookings and comfortable rides.",
     heroTitle: "Minto Taxi & Maxi Cabs Services – 24/7 Convenient Transport",
     heroDescription: (
       <>
-        Looking for <strong>Minto Taxi & Maxi Cabs </strong> you can rely on?
+        Looking for <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+ Minto Ruse Taxi & Maxi Cabs</Link> you can rely on?
         You’re in the right place. Our service offers
         <strong>
           fast, safe, and dependable taxi and maxi cab services in Minto{" "}
@@ -6117,7 +6212,8 @@ export const allLocationsData = {
       "Reliable Minto Taxi & Maxi Cabs for Travel | 24/7 Taxi and Maxi Cab Services",
     locationSectionDescription: (
       <>
-        Our <strong> Minto Taxi & Maxi Cabs </strong> provide professional
+        Our <strong> Minto <Link to={`/services/maxi-taxi-service`} className="underline font-semibold px-1">
+ Taxi & Maxi Cabs</Link>Taxi & Maxi Cabs </strong> provide professional
         corporate and group transport across Minto and the wider Macarthur
         region. Need a<strong>Minto taxi cab close to me </strong>for a business
         trip or a<strong>maxi cab services Minto </strong> for a team outing? We
@@ -6142,10 +6238,9 @@ export const allLocationsData = {
     serviceTitle: "Our Taxi and Maxi Services in Minto",
     serviceSubtitle: (
       <>
-        We offer a wide range of services to meet your every need. No matter
-        where you’re going, our professional drivers provide safe and efficient
-        travel for all passengers. Here’s how we help you move with comfort and
-        ease
+        At Minto Taxi Cab, we deliver reliable and efficient taxi and maxi cab services in Minto NSW and surrounding areas. Whether you require a fast Sydney Airport transfer, a spacious maxi taxi for group <Link target="_blank" to={`https://en.wikipedia.org/wiki/Travel`} className="underline font-semibold px-1">
+travel,</Link> or a luxury taxi service for special occasions, we are here to help. Our experienced drivers provide safe, punctual, and comfortable journeys, making us a trusted choice for airport, corporate, and local <Link target="_blank" to={`https://en.wikipedia.org/wiki/Maxi_taxi`} className="underline font-semibold px-1">
+taxi</Link> services in Minto.
       </>
     ),
     locationServices: {
@@ -6592,6 +6687,7 @@ export const allLocationsData = {
     ],
   },
   "glenfield-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26470.706280134043!2d150.8924733!3d-33.970995800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12eb34aa2ec725%3A0x5017d681632b840!2sGlenfield%20NSW%202167%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769797856084!5m2!1sen!2sbd",
     pageTitle:
       "Book Glenfield Taxi & Maxi Cabs Anytime – Local & Long-Distance",
     metaDescription:
@@ -6600,7 +6696,8 @@ export const allLocationsData = {
       "Book Glenfield Taxi & Maxi Cabs Anytime – Local & Long-Distance",
     heroDescription: (
       <>
-        <strong>Glenfield Taxi & Maxi Cabs</strong> delivers dependable and
+        <strong>Glenfield <Link to={`https://campbelltowntaxicabs.com.au/book-a-taxi`} className="underline font-semibold px-1">
+Taxi & Maxi Cabs</Link></strong> delivers dependable and
         professional taxi and maxi cab services in Glenfield NSW and the nearby
         Macarthur suburbs. You can rely on us for
         <strong>
@@ -6624,7 +6721,8 @@ export const allLocationsData = {
       "Reliable Taxi and Maxi Cab Services in Glenfield, NSW | 24/7 Taxi & Maxi Cab Services for Safe, Comfortable Travel",
     locationSectionDescription: (
       <>
-        You can trust <strong> Glenfield Taxi & Maxi Cabs</strong> for
+        You can trust <strong> <Link to={`/services/maxi-taxi-service`} className="underline font-semibold px-1">
+Glenfield Taxi & Maxi Cabs</Link></strong> for
         professional corporate taxi and maxi cab services across Glenfield and
         the wider Macarthur region. If you search for{" "}
         <strong>taxi service close to me, taxi cab service near me</strong>or
@@ -6649,7 +6747,8 @@ export const allLocationsData = {
     serviceTitle: "Our Taxi and Maxi Services in Glenfield",
     serviceSubtitle: (
       <>
-        We provide professional taxi services near you in Glenfield. Every ride
+        We provide <Link to={`/services/taxi-sydney-service`} className="underline font-semibold px-1">
+professional taxi services</Link> near you in Glenfield. Every ride
         is safe, comfortable, and stress-free. Our vehicles and drivers meet
         your every travel requirement. Here’s how we make your journey
         effortless:
@@ -6834,7 +6933,8 @@ export const allLocationsData = {
           <>
             Never miss a flight with our Glenfield taxi cab close to me service.
             Timely pickups, luggage support, and stress-free journeys are
-            guaranteed. Book now at  <Link
+            guaranteed. Book now at{" "}
+            <Link
               to={`/services/book-taxi-sydney-airport`}
               className="underline font-semibold px-1"
             >
@@ -6848,7 +6948,12 @@ export const allLocationsData = {
     },
     fleetSectionTitle: "Executive Fleet Options by Glenfield  Taxi & Maxi Cabs",
     fleetSectionSubTitle:
-      "Our fleet is designed to suit any journey in Glenfield. Whether it’s a local trip or long-distance travel, you’ll enjoy comfort, safety, and reliability. Every vehicle is well-maintained, clean, and driven by experienced professionals.",
+      <>
+
+      Our fleet is designed to suit any journey in Glenfield. Whether it’s a local trip or long-distance travel, you’ll enjoy comfort, safety, and reliability. Every <Link target="_blank" to={`https://en.wikipedia.org/wiki/Vehicle`} className="underline font-semibold px-1">
+vehicle</Link> is well-maintained, clean, and driven by experienced professionals.
+      </>
+      ,
 
     fleetSectionVehicles: {
       1: {
@@ -6988,7 +7093,7 @@ export const allLocationsData = {
       "Frequently Asked Questions About Glenfield    Taxi & Maxi Cabs",
     faqs: [
       {
-        question: "How can I book a Glenfield    taxi near me?",
+        question: "How can I book a Glenfield taxi near me?",
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
@@ -7002,7 +7107,7 @@ export const allLocationsData = {
         ),
       },
       {
-        question: "Do you provide Maxi Cab services in Glenfield ?",
+        question: "Do you provide Maxi Cab services in Glenfield?",
         answer: (
           <>
             Yes, our
@@ -7049,26 +7154,16 @@ export const allLocationsData = {
         ),
       },
       {
-        question: "Is there a luxury transfer option?",
+        question: "Do you provide luxury or corporate transfers?",
         answer: (
           <>
-            Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong> Glenfield taxi cab service</strong> for airport trips, VIP
-            travel, or special occasions.
+            Yes. Our Premium Corporate Transport and Luxury Transfers ensure professional, comfortable <Link target="_blank" to={`https://en.wikipedia.org/wiki/Driving`} className="underline font-semibold px-1">
+rides.
+</Link>
           </>
         ),
       },
-      {
-        question: "Are wheelchair-accessible taxis available?",
-        answer: (
-          <>
-            Yes. Our
-            <strong>local taxi cab service near me</strong>
-            ensures safe, accessible, and comfortable rides for seniors or
-            passengers with mobility challenges.
-          </>
-        ),
-      },
+    
       {
         question: " Do you operate outside Glenfield ?",
         answer: (
@@ -7112,17 +7207,18 @@ export const allLocationsData = {
     ],
   },
   "camden-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26443.38812605632!2d150.69372610000002!3d-34.058656049999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12f100fc3b4915%3A0x5017d6816333c30!2sCamden%20NSW%202570%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769798143967!5m2!1sen!2sbd",
     pageTitle:
-      "Affordable Camden South Taxi & Maxi Cabs | Call for Instant Pickup",
+      "Affordable Camden Taxi & Maxi Cabs | Call for Instant Pickup",
     metaDescription:
       "Need safe transport today? Camden South Taxi & Maxi Cabs offers on-time service, friendly drivers & fair rates. Book your ride now. 24/7 availability.",
     heroTitle:
-      "Affordable Camden South Taxi & Maxi Cabs | Call for Instant Pickup",
+      "Affordable Camden Taxi & Maxi Cabs | Call for Instant Pickup",
     heroDescription: (
       <>
-        Looking for Camden South Taxi & Maxi Cabs you can rely on? You’ve found
-        the right service. We provide professional and affordable Camden South
-        taxi and cab services 24/7. Whether you need a Camden South taxi cab
+        Looking for Camden Taxi & Maxi Cabs you can rely on? You’ve found
+        the right service. We provide professional and affordable Camden
+        taxi and cab services 24/7. Whether you need a Camden taxi cab
         close to me, a taxi service near me, or a local taxi cab service near
         me, we are always ready to pick you up.
         <br />
@@ -7131,34 +7227,34 @@ export const allLocationsData = {
         and comfortable. Families, groups, and corporate travellers trust us for
         smooth journeys. You can rely on us for airport transfers, corporate
         transport, cruise terminal pickups, or everyday local taxi services
-        across Camden South, Campbelltown, Narellan, and surrounding areas.
+        across Camden, Campbelltown, Narellan, and surrounding areas.
       </>
     ),
-    bookingFormTitle: "Book Wheelchair Taxi in Camden South,NSW",
+    bookingFormTitle: "Book Wheelchair Taxi in Camden,NSW",
     locationSectionTitle:
-      "Reliable Taxi and Maxi Cab Services in Camden South, NSW – Airport & Corporate Transfers",
+      "Reliable Taxi and Maxi Cab Services in Camden, NSW – Airport & Corporate Transfers",
     locationSectionDescription: (
       <>
-        Need professional corporate taxi and maxi cab services in Camden South?
-        Our Camden South Taxi & Maxi Cabs provide efficient and reliable
+        Need professional corporate taxi and maxi cab services in Camden?
+        Our Camden Taxi & Maxi Cabs provide efficient and reliable
         transport for executives, teams, and groups. You can book easily through
         our streamlined system, and our well-maintained fleet ensures comfort
         and safety for every ride.
         <br />
-        We support local Camden South businesses, including offices and
+        We support local Camden businesses, including offices and
         manufacturing facilities, with dependable corporate transport. From
         airport transfers to inter-office travel, we cover all time-critical
         journeys. You can trust our experienced drivers to deliver punctual,
-        secure, and comfortable rides. For Camden South taxi cab service, local
-        taxi service Camden South, or maxi cab services Camden South, we are the
-        reliable choice across Camden South and the wider Macarthur region.
+        secure, and comfortable rides. For Camden taxi cab service, local
+        taxi service Camden, or maxi cab services Camden, we are the
+        reliable choice across Camden and the wider Macarthur region.
       </>
     ),
     locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in Camden South",
+    serviceTitle: "Our Taxi and Maxi Services in Camden",
     serviceSubtitle: (
       <>
-        We provide reliable taxi services near you in Camden South. Each ride is
+        We provide reliable taxi services near you in Camden. Each ride is
         designed for your safety, comfort, and convenience. Our vehicles are
         clean, modern, and driven by friendly, professional drivers. Here’s how
         we make every journey easy:
@@ -7172,8 +7268,7 @@ export const allLocationsData = {
           <>
             Make your big day unforgettable. Our professional drivers ensure
             timely pickups. You’ll enjoy spacious vehicles, safe travel for
-            guests, and a stress-free experience. Perfect for weddings in Camden
-            South and nearby suburbs. We handle every detail so you focus on
+            guests, and a stress-free experience. Perfect for weddings in  and nearby suburbs. We handle every detail so you focus on
             celebrating. Here
             <Link
               to={`/services/wedding-transfer`}
@@ -7341,7 +7436,7 @@ export const allLocationsData = {
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our Camden South taxi cab close to me
+            Never miss a flight with our Camden taxi cab close to me
             service. Timely pickups, luggage support, and stress-free journeys
             are guaranteed. Book now at
           </>
@@ -7351,9 +7446,9 @@ export const allLocationsData = {
       },
     },
     fleetSectionTitle:
-      "Executive Fleet Options by Camden South  Taxi & Maxi Cabs",
+      "Executive Fleet Options by Camden  Taxi & Maxi Cabs",
     fleetSectionSubTitle:
-      "Our fleet is designed to suit any journey in Camden South. Whether it’s a local trip or long-distance travel, you’ll enjoy comfort, safety, and reliability. Every vehicle is well-maintained, clean, and driven by experienced professionals.",
+      "Our fleet is designed to suit any journey in Camden. Whether it’s a local trip or long-distance travel, you’ll enjoy comfort, safety, and reliability. Every vehicle is well-maintained, clean, and driven by experienced professionals.",
 
     fleetSectionVehicles: {
       1: {
@@ -7363,7 +7458,7 @@ export const allLocationsData = {
         bagsCapacity: 2,
         description: (
           <>
-            Ideal for quick trips around Camden South or nearby suburbs. You can
+            Ideal for quick trips around Camden or nearby suburbs. You can
             use it for daily commuting, school runs, or short shopping trips.
             The vehicle is comfortable, fuel-efficient, and easy to park.
             Perfect for solo travellers or couples needing reliable transport.
@@ -7410,7 +7505,7 @@ export const allLocationsData = {
             those carrying extra luggage. You can easily manage school runs,
             shopping, or weekend trips. The vehicle provides comfort for every
             passenger, while keeping your belongings secure. Enjoy flexibility
-            and reliability for any journey in Camden South . Explore
+            and reliability for any journey in Camden . Explore
             <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
@@ -7490,10 +7585,10 @@ export const allLocationsData = {
       },
     },
     faqSectionTitle:
-      "Frequently Asked Questions About Camden South    Taxi & Maxi Cabs",
+      "Frequently Asked Questions About Camden    Taxi & Maxi Cabs",
     faqs: [
       {
-        question: "How can I book a Camden South    taxi near me?",
+        question: "How can I book a Camden    taxi near me?",
         answer: (
           <>
             Call 1300 450 428 or book online at{" "}
@@ -7501,7 +7596,7 @@ export const allLocationsData = {
               campbelltowntaxicabs.com.
             </Link>{" "}
             campbelltowntaxicabs.com. Our{" "}
-            <strong>Camden South taxi cab close to me</strong> service ensures
+            <strong>Camden taxi cab close to me</strong> service ensures
             fast, safe, and reliable pickups.
           </>
         ),
@@ -7534,7 +7629,7 @@ export const allLocationsData = {
               Fast and Reliable Taxi Airport Service
             </Link>{" "}
             accommodates large groups and luggage. Perfect for events, family
-            trips, or corporate travel in Camden South.
+            trips, or corporate travel in Camden.
           </>
         ),
       },
@@ -7542,8 +7637,7 @@ export const allLocationsData = {
         question: "Are your drivers professional and trustworthy?",
         answer: (
           <>
-            Yes. All drivers are licensed, vetted, and familiar with Camden
-            South. Safety, punctuality, and professionalism are our priorities.
+            Yes. All drivers are licensed, vetted, and familiar with . Safety, punctuality, and professionalism are our priorities.
           </>
         ),
       },
@@ -7552,7 +7646,7 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong> Camden South taxi and cab services</strong> operate day and
+            <strong> Camden taxi and cab services</strong> operate day and
             night, including weekends and holidays. You can rely on us whenever
             you need a ride..
           </>
@@ -7571,7 +7665,7 @@ export const allLocationsData = {
             </Link>{" "}
             are available for safety. Travel comfortably for school runs,
             appointments, or family outings with our
-            <strong>Camden South taxi service</strong>
+            <strong>Camden taxi service</strong>
           </>
         ),
       },
@@ -7580,7 +7674,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes, our
-            <strong> local taxi service Camden South </strong>
+            <strong> local taxi service Camden </strong>
             handles office commutes, meetings, and corporate travel.
             Professional drivers ensure safe, on-time, and stress-free rides
             every time.
@@ -7592,7 +7686,7 @@ export const allLocationsData = {
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong> Camden South taxi cab service</strong> for airport trips,
+            a<strong> Camden taxi cab service</strong> for airport trips,
             VIP travel, or special occasions.
           </>
         ),
@@ -7609,10 +7703,10 @@ export const allLocationsData = {
         ),
       },
       {
-        question: " Do you operate outside Camden South ?",
+        question: " Do you operate outside Camden ?",
         answer: (
           <>
-            Yes. We cover Camden South ,Appin , Camden, Liverpool, and nearby
+            Yes. We cover Camden ,Appin , Camden, Liverpool, and nearby
             suburbs. Find your
             <strong> local taxi service near me </strong>
             at
@@ -7634,7 +7728,7 @@ export const allLocationsData = {
         ),
       },
       {
-        question: " How can I contact Camden South   Taxi & Maxi Cabs?",
+        question: " How can I contact Camden   Taxi & Maxi Cabs?",
         answer: (
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
@@ -7643,7 +7737,7 @@ export const allLocationsData = {
               campbelltowntaxicabs.com.au.
             </Link>{" "}
             Book your trusted
-            <strong>Camden South taxi cab service </strong>
+            <strong>Camden taxi cab service </strong>
             today.
           </>
         ),
@@ -7651,14 +7745,17 @@ export const allLocationsData = {
     ],
   },
   "camden-south-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13218.005903756077!2d150.70061644999998!3d-34.08229164999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12f0f84fddbf9b%3A0x5017d6816333c40!2sCamden%20South%20NSW%202570%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769798185288!5m2!1sen!2sbd",
     pageTitle: "Camden Taxi & Maxi Cabs - Reliable 24/7 Local Transport",
     metaDescription:
       "Camden Taxi & Maxi Cabs - Fast, safe rides in Camden. Book 24/7 online or call us now. Enjoy reliable, licensed service today!",
     heroTitle: "Camden Taxi & Maxi Cabs - Reliable 24/7 Local Transport",
     heroDescription: (
       <>
-        Looking for a{" "}
-        <strong>trusted taxi service in Camden? Camden Taxi & Maxi Cabs</strong>{" "}
+        Looking for
+        <strong>Camden South <Link to={`/services/maxi-taxi-service`} className="underline font-semibold px-1">
+Taxi & Maxi Cabs
+</Link></strong>
         provides safe, reliable, and 24/7 transport services for local
         residents, students, professionals, families, and seniors. Our fleet
         includes modern taxis and spacious maxi cabs, ideal for individuals and
@@ -7677,35 +7774,22 @@ export const allLocationsData = {
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Camden",
     locationSectionDescription: (
       <>
-        When it comes to <strong>Camden taxi and cab services</strong>, our team
-        delivers unmatched reliability. We understand the frustration of long
-        waits, last-minute cancellations, or limited transport options—common
-        pain points for residents and travelers.{" "}
-        <strong>Camden Taxi & Maxi Cabs</strong> solves these issues with 24/7
-        availability, professional drivers, and a fleet of modern taxis and maxi
-        cabs. Whether you need a quick ride across town, airport transfer, or
-        group travel, our service ensures comfort, safety, and timeliness.
-        Families, seniors, and late-night travelers can trust our vehicles to be
-        well-maintained, fully insured, and equipped with safety features like
-        child seats and spacious luggage capacity. With transparent pricing and
-        easy phone or online bookings, we remove the uncertainty often
-        associated with ride-hailing. We also provide specialized services,
-        including corporate trips, cruise terminal transfers, and event
-        transportation. If you’re searching for{" "}
-        <strong>Camden taxi cab service</strong> or{" "}
-        <strong>local taxi service near me</strong>, we are the solution for
-        dependable travel. Experience convenient rides, courteous drivers, and
-        stress-free journeys every time.
+        Need professional <strong>corporate taxi and maxi cab services in Camden South? Our Camden South Taxi & Maxi Cabs</strong>provide efficient and reliable transport for executives, teams, and groups. You can book easily through our streamlined system, and our <Link to={`/fleet`} className="underline font-semibold px-1">
+well-maintained fleet
+</Link> ensures comfort and safety for every ride. <br/>
+We support local Camden South businesses, including offices and manufacturing facilities, with dependable corporate transport. From airport transfers to inter-office travel, we cover all time-critical journeys. You can trust our experienced drivers to deliver punctual, secure, and comfortable rides. For 
+        <strong>Camden South taxi cab service, local taxi service Camden South,</strong> or
+        <strong>maxi cab services Camden South,</strong>, we are the reliable choice across Camden South and the wider Macarthur region.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Camden",
     serviceSubtitle: (
       <>
-        We provide reliable taxi services near you in Camden. Each ride is
-        designed for your safety, comfort, and convenience. Our vehicles are
-        clean, modern, and driven by friendly, professional drivers. Here’s how
-        we make every journey easy:
+       We provide reliable <Link to={`/services/taxi-sydney-service`} className="underline font-semibold px-1">
+taxi services 
+</Link>near you in Camden South. Each ride is designed for your safety, comfort, and convenience. Our vehicles are clean, modern, and driven by friendly, professional drivers. Here’s how we make every journey easy:
+
       </>
     ),
     locationServices: {
@@ -7716,8 +7800,7 @@ export const allLocationsData = {
           <>
             Make your big day unforgettable. Our professional drivers ensure
             timely pickups. You’ll enjoy spacious vehicles, safe travel for
-            guests, and a stress-free experience. Perfect for weddings in Camden
-            South and nearby suburbs. We handle every detail so you focus on
+            guests, and a stress-free experience. Perfect for weddings in  and nearby suburbs. We handle every detail so you focus on
             celebrating. Here
             <Link
               to={`/services/wedding-transfer`}
@@ -7736,10 +7819,9 @@ export const allLocationsData = {
         title: "Luxury Transfer",
         description: (
           <>
-            Travel in comfort with our luxury vehicles. Ideal for business
-            trips, airport transfers, or special events. You’ll enjoy a smooth
-            ride, modern interiors, and reliable service. Our drivers take care
-            of traffic and parking so you can arrive relaxed and on time.
+            Travel in style for business or special occasions. You’ll enjoy modern interiors, smooth rides, and <Link target="_blank" to={`https://en.wikipedia.org/wiki/Driver`} className="underline font-semibold px-1">
+professional drivers.
+</Link> Perfect for airport trips, corporate meetings, or celebratory events. Arrive relaxed, on time, and ready to impress every time.
             Details at
             <Link
               to={`/services/luxury-transfer`}
@@ -7887,7 +7969,8 @@ export const allLocationsData = {
           <>
             Never miss a flight with our Camden taxi cab close to me service.
             Timely pickups, luggage support, and stress-free journeys are
-            guaranteed. Book now at <Link
+            guaranteed. Book now at{" "}
+            <Link
               to={`/services/book-taxi-sydney-airport`}
               className="underline font-semibold px-1"
             >
@@ -8074,15 +8157,7 @@ export const allLocationsData = {
         question: "Can I get a Maxi Cab for group travel?",
         answer: (
           <>
-            Absolutely. Our
-            <Link
-              to={`/services/maxi-taxi-service`}
-              className="underline font-semibold px-1"
-            >
-              Fast and Reliable Taxi Airport Service
-            </Link>{" "}
-            accommodates large groups and luggage. Perfect for events, family
-            trips, or corporate travel in Camden.
+           Absolutely. Our Maxi Taxi Service accommodates large groups and luggage. Perfect for events, family trips, or corporate travel in Camden South.
           </>
         ),
       },
@@ -8145,17 +8220,7 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question: "Are wheelchair-accessible taxis available?",
-        answer: (
-          <>
-            Yes. Our
-            <strong>local taxi cab service near me</strong>
-            ensures safe, accessible, and comfortable rides for seniors or
-            passengers with mobility challenges.
-          </>
-        ),
-      },
+    
       {
         question: " Do you operate outside Camden ?",
         answer: (
@@ -8166,6 +8231,17 @@ export const allLocationsData = {
             at{" "}
             <Link to={`/area-covered`} className="underline font-semibold px-1">
               service areas.
+            </Link>{" "}
+          </>
+        ),
+      },
+      {
+        question: "Do you provide luxury or corporate transfers?",
+        answer: (
+          <>
+            Yes. Our Premium Corporate Transport Services and Luxury Transfers guarantee professional and 
+            <Link target="_blank" to={`https://en.wikipedia.org/wiki/Driving`} className="underline font-semibold px-1">
+              comfortable rides.
             </Link>{" "}
           </>
         ),
@@ -8185,7 +8261,15 @@ export const allLocationsData = {
         ),
       },
       {
-        question: " How can I contact Camden   Taxi & Maxi Cabs?",
+        question: "Can I book taxis for weddings or events?",
+        answer: (
+          <>
+            Yes. Our Premium Wedding Transfers and Event Transfers are perfect for group travel and special occasions.
+          </>
+        ),
+      },
+      {
+        question: " How can I contact Camden South Taxi & Maxi Cabs?",
         answer: (
           <>
             Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
@@ -8202,26 +8286,22 @@ export const allLocationsData = {
     ],
   },
   "gregory-hills-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26451.814077142175!2d150.77705644999998!3d-34.03163950000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ee0339afd07b%3A0xdd01b13b920dd7e1!2sGregory%20Hills%20NSW%202557%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769798835792!5m2!1sen!2sbd",
     pageTitle: "Professional Gregory Hills Taxi & Maxi Cabs Near You",
     metaDescription:
       "Choose Gregory Hills Taxi & Maxi Cabs for safe, affordable rides – perfect for families and groups. Call today for instant booking. Spacious maxi cabs available.",
     heroTitle: "Professional Gregory Hills Taxi & Maxi Cabs Near You",
     heroDescription: (
       <>
-        Looking for Gregory Hills Taxi & Maxi Cabs you can trust? You’ve come to
-        the right place. We provide dependable, 24/7 local taxi service Gregory
-        Hills and surrounding Macarthur suburbs. Whether you need a Gregory
-        Hills taxi cab close to me, a maxi cab near me, or a local taxi cab
-        service near me, we have the perfect ride for you.
+        Looking for <Link to={`/fleet`} className="underline font-semibold px-1">
+Gregory Hills Taxi & Maxi Cabs
+</Link> you can trust? You've come to the right place. We provide dependable, 24/7 local taxi service in Gregory Hills and the surrounding Macarthur suburbs. Whether you need a Gregory Hills taxi cab near you, a maxi cab, or a local taxi cab service in Gregory, we have the perfect ride for you.
         <br />
-        Our fleet includes standard taxis, spacious maxi cabs, SUVs, premium
-        vehicles, and wheelchair-accessible taxis. Every vehicle is clean, safe,
-        and comfortable. Families, groups, and corporate travellers enjoy
-        stress-free journeys with our experienced local drivers. <br />
-        We offer Sydney Airport transfers, cruise terminal pickups, corporate
-        transport, and everyday taxi service. From Gregory Hills to
-        Campbelltown, Narellan, and nearby areas, we make your travel smooth,
-        timely, and worry-free.
+        Our fleet includes standard taxis, spacious maxi cabs, SUVs, premium vehicles, and wheelchair-accessible taxis. Every vehicle is clean, safe, and comfortable. Families, groups, and corporate travellers enjoy stress-free journeys with our experienced local drivers. <br />
+        We offer <Link to={`https://campbelltowntaxicabs.com.au/services/book-taxi-sydney-airport`} className="underline font-semibold px-1">
+Sydney Airport transfers,
+</Link> cruise terminal pickups, corporate transport, and everyday taxi service. From Gregory Hills to Campbelltown, Narellan, and nearby areas, we make your travel smooth, timely, and worry-free.
+
       </>
     ),
     bookingFormTitle: "Book Wheelchair Taxi in Gregory Hills, NSW",
@@ -8229,24 +8309,15 @@ export const allLocationsData = {
       "Trusted Taxi and Maxi Cab Services in Gregory Hills, NSW",
     locationSectionDescription: (
       <>
-        Need reliable Gregory Hills taxi and cab services for work or group
-        travel? Our Gregory Hills Taxi & Maxi Cabs provide professional, safe,
-        and on-time corporate transport across Gregory Hills and the wider
-        Macarthur region.
+        Need reliable <Link to={`https://campbelltowntaxicabs.com.au/book-a-taxi`} className="underline font-semibold px-1">
+taxi and cab services
+</Link> in Gregory Hills for work or group travel? Our Gregory Hills Taxi & Maxi Cabs provide professional, safe, and on-time corporate transport across Gregory Hills and the wider Macarthur region.
         <br />
-        We make booking simple with a streamlined system and well-maintained
-        modern fleet. Whether you’re an executive, a corporate team, or a group,
-        our maxi cab services Gregory Hills handle your travel efficiently.
+        We make booking simple with a streamlined system and a well-maintained modern fleet. Whether you’re an executive, a corporate team, or a group, our maxi cab services in Gregory Hills handle your travel efficiently.
         <br />
-        We proudly support local Gregory Hills businesses, from offices to
-        manufacturing facilities. Our corporate taxi service covers airport
-        transfers, inter-office travel, and time-sensitive journeys, ensuring
-        you stay on schedule.
+        We proudly support local Gregory Hills businesses, from offices to manufacturing facilities. Our corporate taxi service covers airport transfers, inter-office travel, and time-sensitive journeys, ensuring you stay on schedule.
         <br />
-        With experienced drivers focused on safety, comfort, and punctuality,
-        you can trust Gregory Hills Taxi & Maxi Cabs for local taxi service near
-        me, maxi cabs near me in Gregory Hills, and all your professional or
-        family travel needs.
+        With experienced drivers focused on safety, comfort, and punctuality, you can trust Gregory Hills Taxi & Maxi Cabs for local taxi service near me, maxi cabs near me in Gregory Hills, and all your professional or family travel needs.
       </>
     ),
     locationSectionImg: corporateTripsImg,
@@ -8438,7 +8509,8 @@ export const allLocationsData = {
           <>
             Never miss a flight with our Gregory Hills taxi cab close to me
             service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed. Book now at <Link
+            are guaranteed. Book now at{" "}
+            <Link
               to={`/services/book-taxi-sydney-airport`}
               className="underline font-semibold px-1"
             >
@@ -8453,7 +8525,11 @@ export const allLocationsData = {
     fleetSectionTitle:
       "Executive Fleet Options by Gregory Hills Taxi & Maxi Cabs",
     fleetSectionSubTitle:
-      "Our modern fleet is perfect for all types of trips in Gregory Hills. From short commutes to long-distance travel, we ensure comfort, safety, and efficiency. Every vehicle is clean, well-maintained, and driven by experienced drivers.",
+      <>
+      Our modern fleet is perfect for all types of trips in Gregory Hills. From short commutes to long-distance travel, we ensure comfort, safety, and efficiency. Every vehicle is clean, well-maintained, and driven by <Link target="_blank" to={`https://en.wikipedia.org/wiki/Taxis_of_Australia`} className="underline font-semibold px-1">
+experienced drivers.
+</Link>
+      </>,
 
     fleetSectionVehicles: {
       1: {
@@ -8590,21 +8666,19 @@ export const allLocationsData = {
       "Frequently Asked Questions About Gregory Hills    Taxi & Maxi Cabs",
     faqs: [
       {
-        question: "How can I book a Gregory Hills    taxi near me?",
+        question: "How can I book a Gregory Hills taxi near me?",
         answer: (
           <>
-            Call 1300 450 428 or book online at{" "}
+           Book online via our
             <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
-              campbelltowntaxicabs.com.
+             Taxi Booking page
             </Link>{" "}
-            campbelltowntaxicabs.com. Our{" "}
-            <strong>Gregory Hills taxi cab close to me</strong> service ensures
-            fast, safe, and reliable pickups.
+            or call <strong>1300 450 428.</strong> Bookings guarantee timely pickups and reliable service.
           </>
         ),
       },
       {
-        question: "Do you provide airport transfers ?",
+        question: "Do you provide airport transfers?",
         answer: (
           <>
             Yes, our
@@ -8628,19 +8702,17 @@ export const allLocationsData = {
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
             >
-              Fast and Reliable Taxi Airport Service
-            </Link>{" "}
-            accommodates large groups and luggage. Perfect for events, family
-            trips, or corporate travel in Gregory Hills.
+             Maxi Taxi Service
+            </Link>accommodates large groups and luggage. Ideal for events, family trips, or corporate travel in Gregory Hills.
+
           </>
         ),
       },
       {
-        question: "Are your drivers professional and trustworthy?",
+        question: "Are your drivers experienced and trustworthy?",
         answer: (
           <>
-            Yes. All drivers are licensed, vetted, and familiar with Camden
-            South. Safety, punctuality, and professionalism are our priorities.
+            Yes. All drivers are licensed, vetted, and familiar with Gregory Hills routes. Safety, punctuality, and professionalism are guaranteed.
           </>
         ),
       },
@@ -8672,18 +8744,7 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question: "Do you offer corporate transport services?",
-        answer: (
-          <>
-            Yes, our
-            <strong> local taxi service Gregory Hills </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
-          </>
-        ),
-      },
+ 
       {
         question: "Is there a luxury or corporate transfer option?",
         answer: (
@@ -8694,17 +8755,7 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question: "Are wheelchair-accessible taxis available?",
-        answer: (
-          <>
-            Yes. Our
-            <strong>local taxi cab service near me</strong>
-            ensures safe, accessible, and comfortable rides for seniors or
-            passengers with mobility challenges.
-          </>
-        ),
-      },
+ 
       {
         question: " Do you operate outside Gregory Hills ?",
         answer: (
@@ -8748,6 +8799,7 @@ export const allLocationsData = {
     ],
   },
   "wilton-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105521.80591658501!2d150.68159464999997!3d-34.2598604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12fd9bcf11dc3b%3A0x40609b490439250!2sWilton%20NSW%202571%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769799284436!5m2!1sen!2sbd",
     pageTitle: "Wilton Taxi & Maxi Cabs – 24/7 Taxi & Maxi Cab Hire",
     metaDescription:
       "Wilton Taxi & Maxi Cabs provides dependable local transport – Ideal for families, groups, and airport trips. Call now for quick pickup.",
@@ -8755,13 +8807,19 @@ export const allLocationsData = {
     heroDescription: (
       <>
         Looking for a reliable, safe, and professional taxi service in Wilton?{" "}
-        <strong>Wilton Taxi & Maxi Cabs</strong> offers 24/7 taxi and maxi cab
+        <Link to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`} className="underline font-semibold px-1">
+Wilton Taxi & Maxi Cabs
+</Link> offers 24/7 taxi and maxi cab
         services tailored to meet the travel needs of residents, families,
-        students, professionals, and seniors. Our fleet includes standard taxis,
+        students, professionals, and seniors. Our fleet includes <Link to={`https://campbelltowntaxicabs.com.au/fleet`} className="underline font-semibold px-1">
+standard taxis,
+</Link>
         luxury vehicles, and spacious maxi cabs for group travel. With prompt
         pickups, professional drivers, and transparent pricing, we ensure a
         smooth and stress-free journey. Whether it’s a short trip across town,
-        airport transfer, or a special event, our team is committed to providing
+        <Link to={`https://campbelltowntaxicabs.com.au/services/book-taxi-sydney-airport`} className="underline font-semibold px-1">
+airport transfer,
+</Link> or a special event, our team is committed to providing
         comfort, safety, and reliability every time. Experience Wilton’s most
         trusted taxi and maxi cab service today, designed to handle all travel
         requirements, from solo travelers to groups with luggage. Book easily
@@ -8770,8 +8828,7 @@ export const allLocationsData = {
       </>
     ),
     bookingFormTitle: "Book Wheelchair Taxi in Wilton",
-    locationSectionTitle:
-      "Trusted Taxi and Maxi Cab Services in Wilton, NSW",
+    locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Wilton, NSW",
     locationSectionDescription: (
       <>
         When it comes to{" "}
@@ -8830,17 +8887,13 @@ export const allLocationsData = {
         title: "Luxury Transfer",
         description: (
           <>
-            Travel in style with modern, luxurious vehicles. Ideal for corporate
-            events, airport transfers, or special occasions. You’ll enjoy smooth
-            rides, professional drivers, and on-time arrivals. Forget parking or
-            traffic worries while we take care of the route. Every ride is
-            tailored to your comfort and schedule. Details at
+            Need a premium travel experience? Choose our 
             <Link
               to={`/services/luxury-transfer`}
               className="underline font-semibold px-1"
             >
-              luxury transfer.
-            </Link>{" "}
+             luxury taxi and maxi cab service
+            </Link>for a stylish and comfortable ride. Ideal for corporate clients, special events, or those seeking extra comfort, our luxury vehicles combine elegance with reliability, ensuring a first-class experience in Wilton.
           </>
         ),
         image: "/vehicle.png",
@@ -8982,7 +9035,8 @@ export const allLocationsData = {
           <>
             Never miss a flight with our Wilton taxi cab close to me service.
             Timely pickups, luggage support, and stress-free journeys are
-            guaranteed. Book now at <Link
+            guaranteed. Book now at{" "}
+            <Link
               to={`/services/book-taxi-sydney-airport`}
               className="underline font-semibold px-1"
             >
@@ -9068,16 +9122,14 @@ export const allLocationsData = {
         bagsCapacity: 8,
         description: (
           <>
-            Perfect for larger groups or family trips. Seats up to 7 passengers
-            with room for luggage. Ideal for Maxi Cab services, airport
-            transfers, or group outings. Enjoy relaxed, stress-free journeys
-            with organised seating and ample space. Check
+            Our Kia Carnival vehicles are ideal for 
             <Link
-              to={`/services/maxi-taxi-service`}
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Road_trip`}
               className="underline font-semibold px-1"
             >
-              Maxi Taxi Service.
-            </Link>{" "}
+             group travel,
+            </Link>airport pickups, or family trips, offering ample seating and luggage space for stress-free travel.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -9129,7 +9181,7 @@ export const allLocationsData = {
       },
     },
     faqSectionTitle:
-      "Frequently Asked Questions About Wilton    Taxi & Maxi Cabs",
+      "Frequently Asked Questions About Wilton Taxi & Maxi Cabs",
     faqs: [
       {
         question: "How can I book a taxi in Wilton?",
@@ -9234,14 +9286,13 @@ export const allLocationsData = {
         ),
       },
       {
-        question: "Do you offer corporate transport services?",
+        question: "Can I request a child seat for my ride?",
         answer: (
           <>
-            Yes, our
-            <strong> local taxi service Wilton </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
+            Yes, we offer baby seat <Link target="_blank" to={`https://en.wikipedia.org/wiki/Taxis_of_Australia`} className="underline font-semibold px-1">
+ taxi
+</Link>services to ensure children's safety during the journey.
+
           </>
         ),
       },
@@ -9255,17 +9306,7 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question: "Are wheelchair-accessible taxis available?",
-        answer: (
-          <>
-            Yes. Our
-            <strong>local taxi cab service near me</strong>
-            ensures safe, accessible, and comfortable rides for seniors or
-            passengers with mobility challenges.
-          </>
-        ),
-      },
+   
       {
         question: " Do you operate outside Wilton ?",
         answer: (
@@ -9278,16 +9319,14 @@ export const allLocationsData = {
         ),
       },
       {
-        question: "Are wheelchair-accessible taxis available?",
+        question: "Do you provide accessible vehicles for passengers with disabilities?",
         answer: (
           <>
-            Yes. Our
-            <strong>local taxi cab service near me</strong>
-            ensures safe, accessible, and comfortable rides for seniors or
-            passengers with mobility challenges.{" "}
-            <Link to={`/area-covered`} className="underline font-semibold px-1">
-              service areas.
-            </Link>{" "}
+            Yes, our wheelchair 
+            <Link target="_blank" to={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle`} className="underline font-semibold px-1">
+              taxi 
+            </Link>services are fully equipped to provide safe and comfortable transportation for passengers with mobility needs.
+
           </>
         ),
       },
@@ -9315,38 +9354,26 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question:
-          " Do you provide accessible vehicles for passengers with disabilities?",
-        answer: (
-          <>
-            Yes, our wheelchair taxi services are fully equipped to provide safe
-            and comfortable transportation for passengers with mobility needs.
-          </>
-        ),
-      },
+   
     ],
   },
   "phesant-nest-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105521.80591658501!2d150.68159464999997!3d-34.2598604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b13010d92f18e6f%3A0x40609b490439120!2sPheasants%20Nest%20NSW%202574%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769799904103!5m2!1sen!2sbd",
     pageTitle: "Phesant Nest Taxi & Maxi Cabs | Reliable Local Transport",
     metaDescription:
       "Looking for reliable rides? Phesant Nest Taxi & Maxi Cabs delivers convenient local transport across Campbelltown. Book today and ride with confidence.",
     heroTitle: "Phesant Nest Taxi & Maxi Cabs | Reliable Local Transport",
     heroDescription: (
       <>
-        Looking for
+       Looking for reliable taxi and maxi cab services in Phesant Nest? 
         <strong>
-          reliable taxi and maxi cab services in Phesant Nest? Phesant Nest Taxi
-          & Maxi Cabs
-        </strong>{" "}
-        offers 24/7 professional transportation for residents, students,
-        professionals, and families. Our locally based service ensures fast
-        pickups, safe journeys, and convenient travel options tailored to your
-        schedule. Whether it’s airport transfers, corporate travel, or group
-        trips, our fleet of taxis and maxi cabs caters to all your travel needs.
-        With punctual drivers, affordable fares, and a customer-first approach,
-        we make commuting stress-free. Trust us to deliver a comfortable,
-        dependable, and safe ride every time you choose
+          Phesant Nest <Link to={`/services/maxi-taxi-service`} className="underline font-semibold px-1">
+ Taxi & Maxi Cabs
+</Link>
+         
+        </strong>offers 24/7 professional transportation for residents, students, professionals, and families. Our locally based service ensures fast pickups, safe journeys, and convenient travel options tailored to your schedule. Whether it’s <Link to={`https://campbelltowntaxicabs.com.au/services/book-taxi-sydney-airport`} className="underline font-semibold px-1">
+  airport transfers,
+</Link>corporate travel, or group trips, our fleet of taxis and maxi cabs caters to all your travel needs. With punctual drivers, affordable fares, and a customer-first approach, we make commuting stress-free. Trust us to deliver a comfortable, dependable, and safe ride every time you choose
         <strong>Phesant Nest Taxi & Maxi Cabs.</strong>.
       </>
     ),
@@ -9367,7 +9394,9 @@ export const allLocationsData = {
         and ride cancellations. With our local knowledge and community-focused
         service, you can enjoy
         <strong>trustworthy taxi cab service near me </strong> anytime, anywhere
-        in Phesant Nest. Book online or call us for quick dispatch and enjoy a
+        in Phesant Nest. <Link to={`https://campbelltowntaxicabs.com.au/book-a-taxi`} className="underline font-semibold px-1">
+Book online or call us
+</Link> for quick dispatch and enjoy a
         smooth, stress-free journey.
       </>
     ),
@@ -9548,7 +9577,8 @@ export const allLocationsData = {
           <>
             Never miss a flight with our Phesant Nest taxi cab close to me
             service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed. Book now at <Link
+            are guaranteed. Book now at{" "}
+            <Link
               to={`/services/book-taxi-sydney-airport`}
               className="underline font-semibold px-1"
             >
@@ -9785,19 +9815,12 @@ export const allLocationsData = {
         ),
       },
       {
-        question: "Can I get a taxi with a baby seat?",
+        question: "Do you provide child seats in taxis?",
         answer: (
           <>
-            Yes. Adjustable{" "}
-            <Link
-              to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold px-1"
-            >
-              baby seats
-            </Link>{" "}
-            are available for safety. Travel comfortably for school runs,
-            appointments, or family outings with our
-            <strong>Phesant Nest taxi service</strong>
+             Yes, our baby seat taxi service ensures children's safety during <Link target="_blank" to={`https://en.wikipedia.org/wiki/Travel`} className="underline font-semibold px-1">
+travel.
+</Link>
           </>
         ),
       },
@@ -9823,17 +9846,7 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question: "Are wheelchair-accessible taxis available?",
-        answer: (
-          <>
-            Yes. Our
-            <strong>local taxi cab service near me</strong>
-            ensures safe, accessible, and comfortable rides for seniors or
-            passengers with mobility challenges.
-          </>
-        ),
-      },
+    
       {
         question: " Do you operate outside Phesant Nest ?",
         answer: (
@@ -9860,13 +9873,12 @@ export const allLocationsData = {
         ),
       },
       {
-        question: "How do I find a local taxi service near me in Phesant Nest?",
+        question: "How do I find a local taxi service near you in Phesant Nest?",
         answer: (
           <>
-            Simply search for
-            <strong>Phesant Nest taxi cab service</strong> or{" "}
-            <strong>taxi service close to me</strong>
-            and we’ll be ready for quick dispatch.
+             Simply search for Phesant Nest <Link target="_blank" to={`https://ablis.business.gov.au/service/nsw/authorisation-to-provide-a-taxi-service/40027`} className="underline font-semibold px-1">
+ taxi service
+</Link> or taxi service, and we’ll be ready for quick dispatch.
           </>
         ),
       },
@@ -9907,6 +9919,7 @@ export const allLocationsData = {
     ],
   },
   "austral-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52970.409150210464!2d150.80886895!3d-33.9243918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b1292e0b4940d81%3A0x5017d681632ac30!2sAustral%20NSW%202179%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769800365132!5m2!1sen!2sbd",
     pageTitle: "Austral Taxi & Maxi Cabs | Reliable Local Cab Service",
     metaDescription:
       "Fast & reliable local transport – Austral Taxi & Maxi Cabs offers 24/7 taxi & maxi cab services. Call now to book your ride with trusted local drivers.",
@@ -10136,7 +10149,8 @@ export const allLocationsData = {
           <>
             Never miss a flight with our Austral taxi cab close to me service.
             Timely pickups, luggage support, and stress-free journeys are
-            guaranteed. Book now at <Link
+            guaranteed. Book now at{" "}
+            <Link
               to={`/services/book-taxi-sydney-airport`}
               className="underline font-semibold px-1"
             >
@@ -10283,7 +10297,7 @@ export const allLocationsData = {
       },
     },
     faqSectionTitle:
-      "Frequently Asked Questions About Austral     Taxi & Maxi Cabs",
+      "Frequently Asked Questions About Austral Taxi & Maxi Cabs",
     faqs: [
       {
         question: "How can I book a taxi in Austral ?",
@@ -10387,18 +10401,7 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question: "Do you offer corporate transport services?",
-        answer: (
-          <>
-            Yes, our
-            <strong> local taxi service Austral </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
-          </>
-        ),
-      },
+  
       {
         question: "Is there a luxury or corporate transfer option?",
         answer: (
@@ -10409,17 +10412,7 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question: "Are wheelchair-accessible taxis available?",
-        answer: (
-          <>
-            Yes. Our
-            <strong>local taxi cab service near me</strong>
-            ensures safe, accessible, and comfortable rides for seniors or
-            passengers with mobility challenges.
-          </>
-        ),
-      },
+    
 
       {
         question: "How are your fares calculated?",
@@ -10467,9 +10460,21 @@ export const allLocationsData = {
           </>
         ),
       },
+      {
+        question:
+          " What areas do you serve in Austral?",
+        answer: (
+          <>
+            We cover the Austral and surrounding suburbs, including local pickups, airport transfers, and event <Link target="_blank" to={`https://en.wikipedia.org/wiki/Road_trip`} className="underline font-semibold px-1">
+  travel.
+</Link>
+          </>
+        ),
+      },
     ],
   },
   "thilmere-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52795.143920690345!2d150.54883935!3d-34.2052303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b130010574da411%3A0x40609b4904391c0!2sThirlmere%20NSW%202572%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769800512956!5m2!1sen!2sbd",
     pageTitle: "Thilmere Taxi & Maxi Cabs – 24/7 Taxi Service",
     metaDescription:
       "Need a dependable ride? Thilmere Taxi & Maxi Cabs delivers safe and convenient transport. Call today and enjoy reliable local taxi service.",
@@ -10946,18 +10951,7 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question: "Do you offer corporate transport services?",
-        answer: (
-          <>
-            Yes, our
-            <strong> local taxi service Thilmere </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
-          </>
-        ),
-      },
+      
       {
         question: "Is there a luxury or corporate transfer option?",
         answer: (
@@ -11021,27 +11015,47 @@ export const allLocationsData = {
         ),
       },
       {
-        question: "  Is pricing transparent?",
+        question: "Can I pre-book a maxi cab for group travel?",
         answer: (
           <>
-            All rides have clear pricing with no hidden charges. We also offer
-            fixed-price bookings for added convenience.
+             Yes, our maxi cabs can be pre-booked for groups, family trips, or corporate outings, with ample luggage space.
           </>
         ),
       },
       {
         question:
-          " Do you provide accessible vehicles for passengers with disabilities?",
+          " Do you provide wheelchair-accessible taxis?",
         answer: (
           <>
-            Yes, our wheelchair taxi services are fully equipped to provide safe
-            and comfortable transportation for passengers with mobility needs.
+           Yes, our wheelchair <Link target="_blank"
+              to={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges`}
+              className="underline font-semibold  px-1"
+            >
+              taxi 
+            </Link>service ensures safe and accessible  <Link target="_blank"
+              to={`https://en.wikipedia.org/wiki/Travel`}
+              className="underline font-semibold  px-1"
+            >
+              travel
+            </Link>for passengers with mobility needs.
+
+          </>
+        ),
+      },
+      {
+        question:
+          "Can I book a taxi for late-night travel?",
+        answer: (
+          <>
+           Absolutely. Our 24/7 taxi service ensures safe, reliable rides at any time, including late nights and early mornings.
+
           </>
         ),
       },
     ],
   },
   "goulburn-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104909.82089540572!2d149.71510619999998!3d-34.7447115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b16aee4c4caa029%3A0xcb4a391116a3e191!2sGoulburn%20NSW%202580%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769800779234!5m2!1sen!2sbd",
     pageTitle: "Goulburn Taxi & Maxi Cabs | 24/7 Reliable Local Service",
     metaDescription:
       "Reliable local transport – Goulburn Taxi & Maxi Cabs offers safe, affordable rides for individuals & groups. Book now for fast pickup & 24/7 service.",
@@ -11050,18 +11064,33 @@ export const allLocationsData = {
       <>
         Looking for a
         <strong>
-          trusted taxi service in Goulburn? Goulburn Taxi & Maxi Cabs
-        </strong>{" "}
+          trusted taxi service in Goulburn? <Link 
+              to={`https://campbelltowntaxicabs.com.au/`}
+              className="underline font-semibold  px-1"
+            >
+           Goulburn Taxi & Maxi Cabs
+            </Link>
+        </strong>
         offers 24/7 professional taxi and maxi cab services for local residents,
         students, families, professionals, and seniors. Whether you need a quick
-        ride across town, airport transfers, or group travel, our reliable
+        ride across town, <Link 
+              to={`https://campbelltowntaxicabs.com.au/services/book-taxi-sydney-airport`}
+              className="underline font-semibold  px-1"
+            >
+        airport transfers,
+            </Link> or group travel, our reliable
         service ensures you reach your destination safely and on time.
         <br />
         With a modern fleet, experienced drivers, and affordable rates, we make
         traveling in Goulburn stress-free. No matter your schedule, our local
         taxi service Goulburn guarantees punctuality, comfort, and safety. From
         early morning airport trips to late-night social rides, we cater to all
-        your transportation needs. Book your ride easily via phone or online for
+        your transportation needs. Book your ride easily via <Link 
+              to={`https://campbelltowntaxicabs.com.au/book-a-taxi`}
+              className="underline font-semibold  px-1"
+            >
+           phone or online
+            </Link> for
         a seamless experience. <br />
         Travel with confidence knowing our team is licensed, insured, and
         dedicated to providing a superior taxi experience for every passenger in
@@ -11273,7 +11302,8 @@ export const allLocationsData = {
           <>
             Never miss a flight with our Goulburn taxi cab close to me service.
             Timely pickups, luggage support, and stress-free journeys are
-            guaranteed. Book now at <Link
+            guaranteed. Book now at{" "}
+            <Link
               to={`/services/book-taxi-sydney-airport`}
               className="underline font-semibold px-1"
             >
@@ -11403,17 +11433,14 @@ export const allLocationsData = {
         bagsCapacity: 8,
         description: (
           <>
-            Accessible travel for passengers with mobility challenges. You’ll
-            enjoy comfort, safety, and professional assistance. Perfect for
-            medical appointments, social visits, or airport transfers. Every
-            journey prioritises accessibility, reliability, and peace of mind.
-            Book at
+             Fully equipped 
             <Link
-              to={`/services/wheelchair-accessible-taxi`}
+            target="_blank"
+              to={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges`}
               className="underline font-semibold px-1"
             >
-              wheelchair taxi.
-            </Link>{" "}
+              vehicles
+            </Link>and trained drivers ensure safe and comfortable travel for passengers with mobility needs.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -11508,34 +11535,22 @@ export const allLocationsData = {
         ),
       },
       {
-        question: "Can I get a taxi with a baby seat?",
+        question: "Are baby seats available in your taxis?",
         answer: (
           <>
-            Yes. Adjustable{" "}
+           Yes, we provide properly installed baby and booster seats for
             <Link
-              to={`/services/baby-seat-taxi-sydney`}
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Safe_Travels`}
               className="underline font-semibold px-1"
             >
-              baby seats
-            </Link>{" "}
-            are available for safety. Travel comfortably for school runs,
-            appointments, or family outings with our
-            <strong>Goulburn taxi service</strong>
+           safe travel
+            </Link> with young children.
+
           </>
         ),
       },
-      {
-        question: "Do you offer corporate transport services?",
-        answer: (
-          <>
-            Yes, our
-            <strong> local taxi service Goulburn </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
-          </>
-        ),
-      },
+      
       {
         question: "Is there a luxury or corporate transfer option?",
         answer: (
@@ -11546,17 +11561,7 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question: "Are wheelchair-accessible taxis available?",
-        answer: (
-          <>
-            Yes. Our
-            <strong>local taxi cab service near me</strong>
-            ensures safe, accessible, and comfortable rides for seniors or
-            passengers with mobility challenges.
-          </>
-        ),
-      },
+   
       {
         question: " Do you operate outside Goulburn  ?",
         answer: (
@@ -11620,6 +11625,7 @@ export const allLocationsData = {
     ],
   },
   "leppington-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52938.2456030044!2d150.80039725!3d-33.9760824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ed91330965f3%3A0x5017d681632bdf0!2sLeppington%20NSW%202179%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769801166069!5m2!1sen!2sbd",
     pageTitle: "Leppington Taxi & Maxi Cabs | 24/7 Local Transport",
     metaDescription:
       "24/7 local taxi service – Leppington Taxi & Maxi Cabs ensure quick response & fair pricing. Call now for reliable pickups.",
@@ -11627,18 +11633,17 @@ export const allLocationsData = {
     heroDescription: (
       <>
         When it comes to reliable local transport in Leppington,{" "}
-        <strong>Leppington Taxi & Maxi Cabs</strong> stands out for its 24/7
-        professional service. Whether you are a student, a busy professional, or
-        a family looking for a safe ride, our team ensures punctual and
-        comfortable travel. We cater to airport transfers, group trips, and
-        daily commutes, offering a wide range of vehicles, from standard taxis
-        to spacious maxi cabs. With experienced drivers, transparent fares, and
-        convenient booking, your travel experience becomes stress-free. Whether
-        you’re searching for a taxi service near me or maxi cabs near me in
-        Leppington, we provide prompt solutions. Safety, convenience, and
-        reliability are at the heart of our service, making us the go-to local
-        transport provider for residents and visitors alike. Enjoy peace of
-        mind, quick pickups, and hassle-free travel with{" "}
+        <Link 
+              to={`https://campbelltowntaxicabs.com.au/`}
+              className="underline font-semibold  px-1"
+            >
+          Leppington  Taxi & Maxi Cabs
+            </Link>stands out for its 24/7 professional service. Whether you are a student, a busy professional, or a family looking for a safe ride, our team ensures punctual and comfortable travel. We cater to airport transfers, group trips, and daily commutes, offering a wide range of vehicles, from standard taxis to spacious maxi cabs. With experienced drivers, transparent fares, and convenient booking through our <Link 
+              to={`https://campbelltowntaxicabs.com.au/book-a-taxi`}
+              className="underline font-semibold  px-1"
+            >
+         online taxi booking system,
+            </Link> your travel experience becomes stress-free. Whether you're searching for a taxi service near me or maxi cabs near me in Leppington, we provide prompt solutions. Safety, convenience, and reliability are at the heart of our service, making us the go-to local transport provider for residents and visitors alike. Enjoy peace of mind, quick pickups, and hassle-free travel with
         <strong>Leppington Taxi & Maxi Cabs</strong>, your trusted partner for
         every journey.
       </>
@@ -11847,7 +11852,8 @@ export const allLocationsData = {
           <>
             Never miss a flight with our Leppington taxi cab close to me
             service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed. Book now at <Link
+            are guaranteed. Book now at{" "}
+            <Link
               to={`/services/book-taxi-sydney-airport`}
               className="underline font-semibold px-1"
             >
@@ -12002,14 +12008,11 @@ export const allLocationsData = {
         question: "How can I book a taxi in Leppington ?",
         answer: (
           <>
-            Call 1300 450 428 or book online at{" "}
-            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
-              campbelltowntaxicabs.com.
-            </Link>{" "}
-            campbelltowntaxicabs.com. Our{" "}
-            <strong>Leppington taxi cab close to me</strong> service ensures
-            fast, safe, and reliable pickups. Advance bookings are recommended
-            for airport transfers or special occasions.
+            You can book a
+            <Link target="_blank" to={`https://en.wikipedia.org/wiki/Taxi`} className="underline font-semibold px-1">
+              taxi
+            </Link>via our website, by phone, or via our mobile app. We offer instant booking for immediate rides and advance scheduling for planned trips.
+
           </>
         ),
       },
@@ -12147,23 +12150,19 @@ export const allLocationsData = {
         ),
       },
       {
-        question: "Can I schedule a taxi in advance?",
+        question: "Can I pre-book a taxi for a specific time?",
         answer: (
           <>
-            Yes. You can pre-book taxis or maxi cabs in advance to ensure
-            punctual service at your preferred time.
+            Yes, booking is available for scheduled pickups, airport transfers, and corporate <Link  target="_blank"
+              to={`https://en.wikipedia.org/wiki/Travel`}
+              className="underline font-semibold  px-1"
+            >
+          travel.
+            </Link>
           </>
         ),
       },
-      {
-        question: " Are your drivers licensed and professional?",
-        answer: (
-          <>
-            All drivers are fully licensed, insured, and trained to provide
-            safe, courteous, and professional service.
-          </>
-        ),
-      },
+     
       {
         question: "Can I book a ride for special events?",
         answer: (
@@ -12183,52 +12182,50 @@ export const allLocationsData = {
           </>
         ),
       },
+      {
+        question:
+          "Are your taxis safe for solo travelers, women, and seniors?",
+        answer: (
+          <>
+           Yes, our drivers prioritize passenger safety, especially for late-night, solo, or senior travelers, providing a secure and comfortable journey.
+          </>
+        ),
+      },
     ],
   },
   "eagle-vale-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13224.927128931937!2d150.81110139999998!3d-34.03792504999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ee7d16a927b9%3A0x5017d681632b550!2sEagle%20Vale%20NSW%202558%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769802101432!5m2!1sen!2sbd",
     pageTitle: "24/7 Eagle Vale Taxi & Maxi Cabs – Licensed & Insured",
     metaDescription:
       "Safe & reliable Eagle Vale Taxi & Maxi Cabs - 24/7 service for airport, corporate & group travel. Book now for comfort & stress-free rides!",
     heroTitle: "24/7 Eagle Vale Taxi & Maxi Cabs – Licensed & Insured",
     heroDescription: (
       <>
-        When it comes to reliable local transport in Leppington,{" "}
-        <strong>Eagle Vale Taxi & Maxi Cabs</strong> stands out for its 24/7
-        professional service. Whether you are a student, a busy professional, or
-        a family looking for a safe ride, our team ensures punctual and
-        comfortable travel. We cater to airport transfers, group trips, and
-        daily commutes, offering a wide range of vehicles, from standard taxis
-        to spacious maxi cabs. With experienced drivers, transparent fares, and
-        convenient booking, your travel experience becomes stress-free. Whether
-        you’re searching for a taxi service near me or maxi cabs near me in
-        Eagle Vale, we provide prompt solutions. Safety, convenience, and
-        reliability are at the heart of our service, making us the go-to local
-        transport provider for residents and visitors alike. Enjoy peace of
-        mind, quick pickups, and hassle-free travel with{" "}
-        <strong>Eagle Vale Taxi & Maxi Cabs</strong>, your trusted partner for
-        every journey.
+        Looking for a
+        <strong>reliable Eagle Vale Taxi & Maxi Cabs</strong> service? You've come to the right place. We provide fast, safe, and 
+<Link to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`} className="underline font-semibold px-1">
+          professional taxi and maxi cab services
+            </Link>
+
+       in Eagle Vale. Whether you need an airport transfer, a group ride, or a corporate trip, we've got you covered. Our drivers are licensed, insured, and highly experienced. You can count on punctuality and comfort every time. Book your ride in minutes online or over the phone. Enjoy a seamless travel experience with our modern fleet, including maxi cabs for larger groups. At
+        <strong>Eagle Vale Taxi & Maxi Cabs,</strong>your convenience and safety come first.
+
       </>
     ),
     bookingFormTitle: "Book for Group Transfer in Eagle Vale",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Eagle Vale",
     locationSectionDescription: (
       <>
-        At <strong>Eagle Vale Taxi & Maxi Cabs</strong>, we understand that your
-        travel needs require more than just a ride—it requires trust,
-        punctuality, and convenience. We are committed to providing 24/7 taxi
-        and maxi cab services that cater to local residents, students,
-        professionals, families, and seniors. Our services are designed to solve
-        common travel pain points like long wait times, ride cancellations, and
-        limited vehicle options. Searching for a{" "}
-        <strong>Eagle Vale taxi cab close to me</strong>? Our experienced
-        drivers ensure safe pickups, timely drop-offs, and clear communication.
-        From local taxi services Eagle Vale to airport transfers and group
-        trips, we offer a range of vehicles including sedans, SUVs, and maxi
-        cabs. With easy phone booking, online scheduling, and competitive fares,
-        we make local travel stress-free. Residents trust us for{" "}
-        <strong>taxi service near me</strong> and maxi cab services Eagle Vale
-        because of our professionalism, reliability, and customer-first
-        approach.
+      When you need a<strong> trusted Eagle Vale Taxi & Maxi Cabs service</strong>, you want reliability, safety, and local expertise. That's exactly what we offer. Our drivers know every route in Eagle Vale and the surrounding areas, ensuring you reach your destination on time. From short local trips to airport transfers, you can rely on us for a smooth, stress-free journey.
+<br/>
+        We specialize in<strong>taxi cab services near you </strong>with flexible scheduling and 24/7 availability. Whether it's an urgent airport transfer or a planned group trip, we handle every ride professionally. You can book through our <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+       online taxi booking system
+            </Link>or call us directly at 1300 450 428. With our premium fleet, including <Link to={`https://campbelltowntaxicabs.com.au/fleet`} className="underline font-semibold px-1">
+         luxury vehicles 
+            </Link>and maxi cabs for large groups, your comfort and convenience are guaranteed. We also provide<Link to={`https://campbelltowntaxicabs.com.au/cabcharge-taxi`} className="underline font-semibold px-1">
+      CabCharge Taxi services
+            </Link> for easy payment and corporate accounts. Our goal is to give you safe, affordable, and reliable transport, making your travel experience effortless every time.
+
       </>
     ),
     locationSectionImg: corporateTripsImg,
@@ -12413,7 +12410,8 @@ export const allLocationsData = {
           <>
             Never miss a flight with our Eagle Vale taxi cab close to me
             service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed. Book now at <Link
+            are guaranteed. Book now at{" "}
+            <Link
               to={`/services/book-taxi-sydney-airport`}
               className="underline font-semibold px-1"
             >
@@ -12545,17 +12543,15 @@ export const allLocationsData = {
         bagsCapacity: 8,
         description: (
           <>
-            Accessible travel for passengers with mobility challenges. You’ll
-            enjoy comfort, safety, and professional assistance. Perfect for
-            medical appointments, social visits, or airport transfers. Every
-            journey prioritises accessibility, reliability, and peace of mind.
-            Book at
+           Safe, reliable, and accessible transport for passengers with mobility needs. Our wheelchair-accessible
             <Link
-              to={`/services/wheelchair-accessible-taxi`}
+            target="_blank"
+              to={`https://nt.gov.au/driving/industry/commercial-passenger-vehicles/taxi-areas-meters-and-fares`}
               className="underline font-semibold px-1"
             >
-              wheelchair taxi.
-            </Link>{" "}
+             vehicles 
+            </Link> make travel smooth and stress-free.
+
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -12568,14 +12564,11 @@ export const allLocationsData = {
         question: "How can I book a taxi in Eagle Vale ?",
         answer: (
           <>
-            Call 1300 450 428 or book online at{" "}
+           You can book online via our 
             <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
-              campbelltowntaxicabs.com.
-            </Link>{" "}
-            campbelltowntaxicabs.com. Our{" "}
-            <strong>Eagle Vale taxi cab close to me</strong> service ensures
-            fast, safe, and reliable pickups. Advance bookings are recommended
-            for airport transfers or special occasions.
+              booking page 
+            </Link>or call 1300 450 428. We offer 24/7 service for your convenience.
+
           </>
         ),
       },
@@ -12666,18 +12659,7 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question: "Do you offer corporate transport services?",
-        answer: (
-          <>
-            Yes, our
-            <strong> local taxi service Eagle Vale </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
-          </>
-        ),
-      },
+   
       {
         question: "Is there a luxury or corporate transfer option?",
         answer: (
@@ -12705,11 +12687,12 @@ export const allLocationsData = {
         question: "Can I pay with CabCharge?",
         answer: (
           <>
-            Yes, we provide{" "}
-            <Link to="/cabcharge-taxi" className="underline font-semibold px-1">
-              CabCharge Taxi services
+           Yes, we offer CabCharge
+            <Link target="_blank" to="https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges" className="underline font-semibold px-1">
+              Taxi
             </Link>{" "}
-            for easy and secure payments.
+         services for easy, secure payments.
+
           </>
         ),
       },
@@ -12753,6 +12736,7 @@ export const allLocationsData = {
     ],
   },
   "spring-farm-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26440.368013990577!2d150.72513164999998!3d-34.068335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12f084b9e7e251%3A0x5017d681632cba0!2sSpring%20Farm%20NSW%202570%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769802559053!5m2!1sen!2sbd",
     pageTitle: "Spring Farm Taxi & Maxi Cabs – Book Online Today",
     metaDescription:
       "Safe & reliable Spring Farm Taxi & Maxi Cabs – 24/7 airport, event, and group rides. Book now for comfort and stress-free travel!",
@@ -12762,7 +12746,9 @@ export const allLocationsData = {
         Looking for a reliable taxi service in Spring Farm? Your search ends
         here. At <strong>Spring Farm Taxi & Maxi Cabs</strong>, we provide fast,
         safe, and convenient transport for everyone. Whether you need a quick
-        ride to work, airport transfers, or a Maxi Cab for a group, we’ve got
+        ride to work, airport transfers, or a <Link to={`/services/maxi-taxi-service`} className="underline font-semibold px-1">
+        Maxi Cab
+            </Link> for a group, we’ve got
         you covered. Our friendly drivers know Spring Farm and surrounding areas
         well. You can count on punctual pickups and professional service every
         time. Book online or call us today. Your comfort, safety, and
@@ -12779,7 +12765,9 @@ export const allLocationsData = {
         rides. Our team is trained to handle everything—from airport trips to
         social events, corporate transport, and more. You won’t face the
         frustration of long waits or cancellations like ride-share apps. You can
-        book a taxi in advance or on-demand, with options for Maxi Cabs, baby
+        <Link to={`https://campbelltowntaxicabs.com.au/book-a-taxi`} className="underline font-semibold px-1">
+         book a taxi
+            </Link> in advance or on-demand, with options for Maxi Cabs, baby
         seats, and wheelchair-accessible vehicles. Your safety is guaranteed
         with experienced drivers who prioritise care, especially during
         late-night or early-morning trips. Whether you’re commuting, travelling
@@ -12969,7 +12957,8 @@ export const allLocationsData = {
           <>
             Never miss a flight with our Spring Farm taxi cab close to me
             service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed. Book now at <Link
+            are guaranteed. Book now at{" "}
+            <Link
               to={`/services/book-taxi-sydney-airport`}
               className="underline font-semibold px-1"
             >
@@ -13105,7 +13094,7 @@ export const allLocationsData = {
       "Frequently Asked Questions About Spring Farm Taxi & Maxi Cabs",
     faqs: [
       {
-        question: "How can I book a taxi in Eagle Vale ?",
+        question: "How can I book a taxi in Spring Farm ?",
         answer: (
           <>
             You can book online via our
@@ -13151,22 +13140,7 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question: "Can I get a Maxi Cab for group travel?",
-        answer: (
-          <>
-            Absolutely. Our
-            <Link
-              to={`/services/maxi-taxi-service`}
-              className="underline font-semibold px-1"
-            >
-              Fast and Reliable Taxi Airport Service
-            </Link>{" "}
-            accommodates large groups and luggage. Perfect for events, family
-            trips, or corporate travel in Spring Farm .
-          </>
-        ),
-      },
+    
       {
         question: "Are your drivers professional and trustworthy?",
         answer: (
@@ -13208,24 +13182,14 @@ export const allLocationsData = {
         question: "Do you offer corporate transport services?",
         answer: (
           <>
-            Yes, our
-            <strong> local taxi service Spring Farm </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
+           Yes. We offer reliable corporate transport services with professional <Link target="_blank" to={`https://en.wikipedia.org/wiki/Driving`} className="underline font-semibold px-1">
+         drivers 
+            </Link>for business needs.
+
           </>
         ),
       },
-      {
-        question: "Is there a luxury or corporate transfer option?",
-        answer: (
-          <>
-            Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong> Spring Farm taxi cab service</strong> for airport trips,
-            VIP travel, or special occasions.
-          </>
-        ),
-      },
+      
 
       {
         question: " Do you operate outside Spring Farm  ?",
@@ -13270,6 +13234,17 @@ export const allLocationsData = {
         ),
       },
       {
+        question: "Are your vehicles wheelchair accessible?",
+        answer: (
+          <>
+            Yes. Our wheelchair <Link target="_blank" to={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges`} className="underline font-semibold px-1">
+         taxi
+            </Link>service is designed for safe and easy mobility.
+
+          </>
+        ),
+      },
+      {
         question: " Do you offer event and wedding transfers?",
         answer: (
           <>
@@ -13288,23 +13263,38 @@ export const allLocationsData = {
           </>
         ),
       },
+      {
+        question:
+          "Do you operate late at night or early morning?",
+        answer: (
+          <>
+          Yes. We cover early airport trips, night shifts, and weekend travel in Spring Farm and nearby areas.
+          </>
+        ),
+      },
+      {
+        question:
+          "How reliable is your taxi service?",
+        answer: (
+          <>
+         Our drivers are punctual, experienced, and familiar with Spring Farm. You can trust us for safe, timely journeys.
+          </>
+        ),
+      },
     ],
   },
   "cowdor-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52863.51792461724!2d150.66637964999998!3d-34.09591230000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12fa1e3f1dc3a1%3A0x5017d6816333c50!2sCawdor%20NSW%202570%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769802941608!5m2!1sen!2sbd",
     pageTitle: "Reliable Cowdor Taxi & Maxi Cabs – 24/7 Local Service",
     metaDescription:
       "Fast and safe Cowdor Taxi & Maxi Cabs for airport, events, and corporate trips. Call now and experience professional local travel.",
     heroTitle: "Reliable Cowdor Taxi & Maxi Cabs – 24/7 Local Service",
     heroDescription: (
       <>
-        Looking for a dependable Cowdor Taxi & Maxi Cabs service? You’ve come to
-        the right place. We offer safe, prompt, and affordable rides around
-        Cowdor and nearby areas. Whether you need a quick trip, airport
-        transfer, or group travel, we’re ready 24/7. You can trust our
-        experienced drivers to get you to your destination on time. Our fleet
-        includes modern sedans, maxi cabs, and luxury vehicles. Booking is easy,
-        either online or over the phone. Count on us for comfort, reliability,
-        and local expertise every time you ride with Silver Cabs
+        Looking for a dependable Cowdor Taxi & Maxi Cabs service? You've come to the right place. We offer safe, prompt, and affordable rides around Cowdor and nearby areas. Whether you need a quick trip, <Link to={`https://campbelltowntaxicabs.com.au/services/book-taxi-sydney-airport`} className="underline font-semibold px-1">
+        airport transfer, 
+            </Link>or group travel, we're ready 24/7. You can trust our experienced drivers to get you to your destination on time. Our fleet includes modern sedans, maxi cabs, and luxury vehicles. Booking is easy, either online or over the phone. Count on us for comfort, reliability, and local expertise every time you ride with Silver Cabs.
+
       </>
     ),
     bookingFormTitle: "Book for Wedding Transfer in Cowdor",
@@ -13319,13 +13309,15 @@ export const allLocationsData = {
         <strong> maxi cab near me in Cowdor </strong>for group trips or airport
         runs. We make booking simple through{" "}
         <Link to={`/book-a-taxi`} className="underline font-semibold  px-1">
-          out Taxi booking page.
+          our Taxi booking page.
         </Link>
         Many locals trust our service because we know the roads and shortcuts
         around Campbelltown, Cowdor, and surrounding suburbs. For families,
         seniors, and professionals, we provide a smooth, stress-free experience.
-        Your satisfaction is our top priority. Whether you need a Cowdor taxi
-        cab close to me or a special service, we’ve got you covered.
+        Your satisfaction is our top priority. Whether you need a <Link to={`https://campbelltowntaxicabs.com.au/book-a-taxi`} className="underline font-semibold px-1">
+       Cowdor taxi
+        cab close to me
+            </Link> or a special service, we’ve got you covered.
       </>
     ),
     locationSectionImg: corporateTripsImg,
@@ -13502,7 +13494,8 @@ export const allLocationsData = {
           <>
             Never miss a flight with our Cowdor taxi cab close to me service.
             Timely pickups, luggage support, and stress-free journeys are
-            guaranteed. Book now at <Link
+            guaranteed. Book now at{" "}
+            <Link
               to={`/services/book-taxi-sydney-airport`}
               className="underline font-semibold px-1"
             >
@@ -13690,34 +13683,23 @@ export const allLocationsData = {
         ),
       },
       {
-        question: "Can I get a taxi with a baby seat?",
+        question: "Can I request a baby seat taxi in Cowdor?",
         answer: (
           <>
-            Yes. Adjustable{" "}
+           Certainly, we provide secure baby seats to keep children safe during 
             <Link
-              to={`/services/baby-seat-taxi-sydney`}
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Road_trip`}
               className="underline font-semibold px-1"
             >
-              baby seats
+            travel.
             </Link>{" "}
-            are available for safety. Travel comfortably for school runs,
-            appointments, or family outings with our
-            <strong>Cowdor taxi service</strong>
+            Just mention it while booking.
+
           </>
         ),
       },
-      {
-        question: "Do you offer corporate transport services?",
-        answer: (
-          <>
-            Yes, our
-            <strong> local taxi service Cowdor </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
-          </>
-        ),
-      },
+      
       {
         question: "Is there a luxury or corporate transfer option?",
         answer: (
@@ -13790,38 +13772,89 @@ export const allLocationsData = {
           </>
         ),
       },
+      {
+        question:
+          " Do you offer luxury or premium taxi services?",
+        answer: (
+          <>
+           Yes, our fleet includes luxury <Link target="_blank" to={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges`} className="underline font-semibold px-1">
+      vehicles
+            </Link> for VIP travel, events, and executive transfers.
+
+          </>
+        ),
+      },
+      {
+        question:
+          "How do I contact Cowdor Taxi & Maxi Cabs?",
+        answer: (
+          <>
+         Call 1300 450 428, email silvercabscampbelltown@gmail.com, or visit <Link to={`/`} className="underline font-semibold px-1">
+    campbelltowntaxicabs.com.
+            </Link> Our team is always ready to assist.
+
+          </>
+        ),
+      },
     ],
   },
   "razorback-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52823.53861610221!2d150.64417165!3d-34.1598695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12fea74615d92d%3A0x40609b490439140!2sRazorback%20NSW%202571%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769803269039!5m2!1sen!2sbd",
     pageTitle: "Razorback Taxi & Maxi Cabs – 24/7 Reliable Rides Near You",
     metaDescription:
       "Book Razorback Taxi & Maxi Cabs – Fast, professional service with maxi cabs for groups. Reserve your ride today and travel with ease!",
     heroTitle: "Razorback Taxi & Maxi Cabs – 24/7 Reliable Rides Near You",
     heroDescription: (
       <>
-      Looking for Razorback Taxi & Maxi Cabs you can trust? You’re in the right place. Our taxis and maxi cabs are available 24/7. Whether you need a quick ride to work, airport transfer, or group travel, we’ve got you covered. You can book easily by phone or online. We provide safe, punctual, and comfortable rides for everyone. Our friendly drivers know Razorback and nearby areas well. You’ll never face long waits or last-minute cancellations. From solo commuters to families, seniors, and students, we have vehicles suited for every trip. Razorback Taxi & Maxi Cabs are your local solution for reliable transport anytime you need.
+        Looking for Razorback Taxi & Maxi Cabs you can trust? You’re in the
+        right place. Our taxis and maxi cabs are available 24/7. Whether you
+        need a quick ride to work, <Link to={`https://campbelltowntaxicabs.com.au/services/book-taxi-sydney-airport`} className="underline font-semibold px-1">
+   airport transfer,
+            </Link> or group travel, we’ve got
+        you covered. You can book easily by phone or online. We provide safe,
+        punctual, and comfortable rides for everyone. Our friendly drivers know
+        Razorback and nearby areas well. You’ll never face long waits or
+        last-minute cancellations. From solo commuters to families, seniors, and
+        students, we have vehicles suited for every trip. <strong>
+          Razorback Taxi & Maxi
+          Cabs
+        </strong> are your local solution for reliable transport anytime you need.
       </>
     ),
     bookingFormTitle: "Book for Wedding Transfer in Razorback",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Razorback",
     locationSectionDescription: (
       <>
-     When you need a <strong>Razorback taxi service</strong>, you want a provider who values safety, reliability, and convenience. Our team ensures you get a
-        <strong>  taxi cab service near me </strong>that’s always punctual. You can rely on us for airport transfers, school drop-offs, medical appointments, or even late-night travel. We understand your daily travel needs, whether it’s commuting to work or visiting friends. Our professional drivers are fully licensed and trained to make your journey smooth. We operate a premium fleet, including maxi cabs for group travel. With easy phone booking at 1300 450 428 or 
+        When you need a <strong>Razorback taxi service</strong>, you want a
+        provider who values safety, reliability, and convenience. Our team
+        ensures you get a<strong> taxi cab service near me </strong>that’s
+        always punctual. You can rely on us for airport transfers, school
+        drop-offs, medical appointments, or even late-night travel. We
+        understand your daily travel needs, whether it’s commuting to work or
+        visiting friends. Our professional drivers are fully licensed and
+        trained to make your journey smooth. We operate a premium fleet,
+        including maxi cabs for group travel. With easy phone booking at 1300
+        450 428 or
         <Link to={`/book-a-taxi`} className="underline font-semibold  px-1">
           out Taxi booking page.
         </Link>
-      your Razorback taxi ride is just a click away. Enjoy peace of mind knowing your ride is safe, reliable, and affordable. Learn more about our  <Link to={`/fleet`} className="underline font-semibold  px-1">
-       fleet options
-        </Link> and service areas today.
-
+        your Razorback taxi ride is just a click away. Enjoy peace of mind
+        knowing your ride is safe, reliable, and affordable. Learn more about
+        our
+        <Link to={`/fleet`} className="underline font-semibold  px-1">
+          fleet options
+        </Link>
+        and <Link to={`https://campbelltowntaxicabs.com.au/area-covered`} className="underline font-semibold px-1">
+    service areas
+            </Link> today.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Razorback",
     serviceSubtitle: (
       <>
-        We offer a full range of Razorback taxi and cab services for every need. From solo trips to family outings, your travel is our priority.
+        We offer a full range of Razorback taxi and cab services for every need.
+        From solo trips to family outings, your travel is our priority.
       </>
     ),
     locationServices: {
@@ -13830,7 +13863,10 @@ export const allLocationsData = {
         title: "Wedding Transfer",
         description: (
           <>
-            Arrive on time in style. Our luxury taxis and maxi cabs make your wedding day smooth. Our drivers coordinate every detail, ensuring a stress-free, elegant journey. You can trust our professional team to handle your wedding transport with care.
+            Arrive on time in style. Our luxury taxis and maxi cabs make your
+            wedding day smooth. Our drivers coordinate every detail, ensuring a
+            stress-free, elegant journey. You can trust our professional team to
+            handle your wedding transport with care.
           </>
         ),
         image: "/car.png",
@@ -13842,7 +13878,9 @@ export const allLocationsData = {
         title: "Luxury Transfer",
         description: (
           <>
-           Treat yourself or clients with premium vehicles. Experience comfort, privacy, and punctuality. Whether for business or special occasions, our luxury taxi service in Razorback ensures a first-class ride.
+            Treat yourself or clients with premium vehicles. Experience comfort,
+            privacy, and punctuality. Whether for business or special occasions,
+            our luxury taxi service in Razorback ensures a first-class ride.
           </>
         ),
         image: "/vehicle.png",
@@ -13854,7 +13892,10 @@ export const allLocationsData = {
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-            Travel safely with your little ones. We provide child seats on request, ensuring a secure journey for families. Our drivers are trained to help with installation and comfort.
+            Travel safely with your little ones. We provide <Link target="_blank" to={`https://www.transport.nsw.gov.au/roadsafety/parents/child-car-seats`} className="underline font-semibold px-1">
+     child seats 
+            </Link>on request, ensuring a secure journey for families. Our drivers are trained to help with installation and comfort.
+
           </>
         ),
         image: "/baby-seat.png",
@@ -13866,8 +13907,9 @@ export const allLocationsData = {
         title: "Corporate Transport Services",
         description: (
           <>
-           Impress clients and employees with reliable, professional corporate transport. From meetings to airport pickups, your company benefits from our punctual and well-maintained fleet.
-
+            Impress clients and employees with reliable, professional corporate
+            transport. From meetings to airport pickups, your company benefits
+            from our punctual and well-maintained fleet.
           </>
         ),
         image: "/corporate.png",
@@ -13879,7 +13921,9 @@ export const allLocationsData = {
         title: "Cruise Terminal Transfer",
         description: (
           <>
-            Make your holiday smooth with prompt cruise transfers. We ensure timely arrivals and luggage handling, giving you a relaxed start or end to your trip.
+            Make your holiday smooth with prompt cruise transfers. We ensure
+            timely arrivals and luggage handling, giving you a relaxed start or
+            end to your trip.
           </>
         ),
         image: "/ship.png",
@@ -13891,7 +13935,9 @@ export const allLocationsData = {
         title: "Event Transfer",
         description: (
           <>
-            Get to your events without stress. Our maxi cabs and taxis handle group bookings for parties, sports, or conferences. You focus on the event; we handle transport.
+            Get to your events without stress. Our maxi cabs and taxis handle
+            group bookings for parties, sports, or conferences. You focus on the
+            event; we handle transport.
           </>
         ),
         image: "/event.png",
@@ -13903,8 +13949,9 @@ export const allLocationsData = {
         title: "Maxi Taxi Service",
         description: (
           <>
-            Ideal for groups and family trips. Our spacious maxi cabs accommodate luggage and multiple passengers comfortably. No one gets left behind during your Razorback journey.
-
+            Ideal for groups and family trips. Our spacious maxi cabs
+            accommodate luggage and multiple passengers comfortably. No one gets
+            left behind during your Razorback journey.
           </>
         ),
         image: "/users.png",
@@ -13915,8 +13962,9 @@ export const allLocationsData = {
         title: "Corporate Trips",
         description: (
           <>
-            From airport pickups to boardroom meetings, our corporate trips ensure professionalism and comfort. Count on us for safe, reliable, and punctual rides every time.
-
+            From airport pickups to boardroom meetings, our corporate trips
+            ensure professionalism and comfort. Count on us for safe, reliable,
+            and punctual rides every time.
           </>
         ),
         image: "/briefcase.png",
@@ -13927,7 +13975,7 @@ export const allLocationsData = {
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our Razorback  taxi cab close to me service.
+            Never miss a flight with our Razorback taxi cab close to me service.
             Timely pickups, luggage support, and stress-free journeys are
             guaranteed.
           </>
@@ -14095,7 +14143,9 @@ export const allLocationsData = {
         question: "Are your drivers professional and trustworthy?",
         answer: (
           <>
-            Yes. All drivers are licensed, vetted, and familiar with Camden
+            Yes. All <Link target="_blank" to={`https://en.wikipedia.org/wiki/Driver`} className="underline font-semibold px-1">
+   drivers
+            </Link> are licensed, vetted, and familiar with Camden
             South. Safety, punctuality, and professionalism are our priorities.
           </>
         ),
@@ -14132,24 +14182,14 @@ export const allLocationsData = {
         question: "Do you offer corporate transport services?",
         answer: (
           <>
-            Yes, our
-            <strong> local taxi service Razorback </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
+            Yes, our corporate transport services provide professional, reliable <Link target="_blank" to={`https://rct.fandom.com/wiki/Car_Ride`} className="underline font-semibold px-1">
+   rides 
+            </Link>for meetings and events.
+
           </>
         ),
       },
-      {
-        question: "Is there a luxury or corporate transfer option?",
-        answer: (
-          <>
-            Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong> Razorback taxi cab service</strong> for airport trips, VIP
-            travel, or special occasions.
-          </>
-        ),
-      },
+      
 
       {
         question: " Do you operate outside Razorback?",
@@ -14215,40 +14255,72 @@ export const allLocationsData = {
     ],
   },
   "bargo-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105487.71708425588!2d150.5869286!3d-34.28702559999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b1300e537c1f0cb%3A0x40609b490438df0!2sBargo%20NSW%202574%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769803590392!5m2!1sen!2sbd",
     pageTitle: "Book Bargo Taxi & Maxi Cabs Near You – Fast, Safe & Affordable",
     metaDescription:
       "Book professional Bargo Taxi & Maxi Cabs near you – fast, affordable, and comfortable rides for families, students, and business trips.",
     heroTitle: "Book Bargo Taxi & Maxi Cabs Near You – Fast, Safe & Affordable",
     heroDescription: (
       <>
-     Looking for a reliable ride in Bargo? You’ve come to the right place. Our <strong>Bargo Taxi & Maxi Cabs</strong> are perfect for your daily commute, airport transfers, or group trips. We provide safe, punctual, and affordable taxi services tailored to your needs. With a professional team and a modern fleet, you can enjoy a smooth, stress-free journey every time. Whether you need a local taxi service in Bargo or a maxi cab for large groups, we are ready to serve you. Trust us to get you where you need to go safely. Our easy phone booking and online options make scheduling your ride simple and fast. Ride with confidence, knowing our drivers prioritise your comfort and safety at all times. Experience the convenience of a premium Bargo taxi cab service that locals trust.
-
+        Looking for a reliable ride in Bargo? You’ve come to the right place.
+        Our <Link  to={`https://campbelltowntaxicabs.com.au/book-a-taxi`} className="underline font-semibold px-1">
+ Bargo Taxi & Maxi Cabs
+            </Link> are perfect for your daily
+        commute, airport transfers, or group trips. We provide safe, punctual,
+        and <Link to={`https://campbelltowntaxicabs.com.au/book-a-taxi`} className="underline font-semibold px-1">
+   affordable taxi services
+            </Link> tailored to your needs. With a professional
+        team and a modern fleet, you can enjoy a smooth, stress-free journey
+        every time. Whether you need a local taxi service in Bargo or a maxi cab
+        for large groups, we are ready to serve you. Trust us to get you where
+        you need to go safely. Our easy phone booking and online options make
+        scheduling your ride simple and fast. Ride with confidence, knowing our
+        drivers prioritise your comfort and safety at all times. Experience the
+        convenience of a premium Bargo taxi cab service that locals trust.
       </>
     ),
     bookingFormTitle: "Book for Event Transfer in Bargo",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Bargo",
     locationSectionDescription: (
       <>
-    When it comes to <strong> Bargo taxi and cab services</strong>,you deserve reliability and comfort. Our team understands the local roads and traffic patterns, ensuring you reach your destination on time. You can rely on our taxis for 
-        <strong>  airport transfers, corporate trips, or family outings. </strong>We provide maxi cab services in Bargo for groups and luggage-heavy trips. You can book easily by phone or online, and our friendly drivers assist you from start to finish. Safety is a priority—our vehicles are regularly inspected and cleaned for your peace of mind. With transparent pricing, you never face hidden charges. We also offer CabCharge options for corporate clients. Whether you need a quick ride to the city or a luxurious transfer for a special event, our Bargo taxi service is always ready. Make your journey stress-free and dependable today. <br/>
+        When it comes to <strong> Bargo taxi and cab services</strong>,you
+        deserve reliability and comfort. Our team understands the local roads
+        and traffic patterns, ensuring you reach your destination on time. You
+        can rely on our taxis for
+        <strong>
+          {" "}
+          <Link to={`https://campbelltowntaxicabs.com.au/services/book-taxi-sydney-airport`} className="underline font-semibold px-1">
+  airport transfers,
+            </Link> <Link to={`https://campbelltowntaxicabs.com.au/services/corporate-tips`} className="underline font-semibold px-1">
+   corporate trips,
+            </Link> or family outings.
+        </strong>
+        We provide maxi cab services in Bargo for groups and luggage-heavy
+        trips. You can book easily by phone or online, and our friendly drivers
+        assist you from start to finish. Safety is a priority—our vehicles are
+        regularly inspected and cleaned for your peace of mind. With transparent
+        pricing, you never face hidden charges. We also offer CabCharge options
+        for corporate clients. Whether you need a quick ride to the city or a
+        luxurious transfer for a special event, our Bargo taxi service is always
+        ready. Make your journey stress-free and dependable today. <br />
         <Link to={`/book-a-taxi`} className="underline font-semibold  px-1">
-         Book a Taxi
+          Book a Taxi
         </Link>
         <Link to={`/about`} className="underline font-semibold  px-1">
-         About Us
+          About Us
         </Link>
         <Link to={`/area-covered`} className="underline font-semibold  px-1">
-         Service Area
+          Service Area
         </Link>
-     
-
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Bargo",
     serviceSubtitle: (
       <>
-       We offer a full range of taxi and maxi cab services in Bargo to meet all travel needs. Whether you’re heading to the airport or attending a special event, we’ve got you covered.
+        We offer a full range of taxi and maxi cab services in Bargo to meet all
+        travel needs. Whether you’re heading to the airport or attending a
+        special event, we’ve got you covered.
       </>
     ),
     locationServices: {
@@ -14257,7 +14329,10 @@ export const allLocationsData = {
         title: "Wedding Transfer",
         description: (
           <>
-         Arrive in style on your special day. Our professional drivers ensure timely and elegant transfers, perfect for weddings in Bargo and surrounding areas. We make your big day seamless, stress-free, and memorable.
+            Arrive in style on your special day. Our professional drivers ensure
+            timely and elegant transfers, perfect for weddings in Bargo and
+            surrounding areas. We make your big day seamless, stress-free, and
+            memorable.
           </>
         ),
         image: "/car.png",
@@ -14269,7 +14344,9 @@ export const allLocationsData = {
         title: "Luxury Transfer",
         description: (
           <>
-     Travel in comfort with our premium vehicles. Ideal for corporate clients or special occasions. Enjoy smooth rides with well-maintained cars and experienced drivers.
+            Travel in comfort with our premium vehicles. Ideal for corporate
+            clients or special occasions. Enjoy smooth rides with
+            well-maintained cars and experienced drivers.
           </>
         ),
         image: "/vehicle.png",
@@ -14281,7 +14358,9 @@ export const allLocationsData = {
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-            Safety comes first for families. We provide certified baby seats, giving parents peace of mind. Perfect for school runs, airport trips, or family outings.
+            Safety comes first for families. We provide certified baby seats,
+            giving parents peace of mind. Perfect for school runs, airport
+            trips, or family outings.
           </>
         ),
         image: "/baby-seat.png",
@@ -14293,8 +14372,9 @@ export const allLocationsData = {
         title: "Corporate Transport Services",
         description: (
           <>
-          Reliable service for business trips and meetings. Punctual pickups, professional drivers, and CabCharge options make your commute stress-free.
-
+            Reliable service for business trips and meetings. Punctual pickups,
+            professional drivers, and CabCharge options make your commute
+            stress-free.
           </>
         ),
         image: "/corporate.png",
@@ -14306,7 +14386,9 @@ export const allLocationsData = {
         title: "Cruise Terminal Transfer",
         description: (
           <>
-           Catch your cruise without worry. Our drivers know the fastest routes, ensuring timely arrivals for cruise departures from local terminals.
+            Catch your cruise without worry. Our drivers know the fastest
+            routes, ensuring timely arrivals for cruise departures from local
+            terminals.
           </>
         ),
         image: "/ship.png",
@@ -14318,7 +14400,9 @@ export const allLocationsData = {
         title: "Event Transfer",
         description: (
           <>
-             Arrive safely at concerts, parties, or sports events. Group travel is easy with our spacious maxi cabs. Hassle-free service for every occasion.
+            Arrive safely at concerts, parties, or sports events. Group travel
+            is easy with our spacious maxi cabs. Hassle-free service for every
+            occasion.
           </>
         ),
         image: "/event.png",
@@ -14330,8 +14414,9 @@ export const allLocationsData = {
         title: "Maxi Taxi Service",
         description: (
           <>
-            Ideal for groups and family trips. Our spacious maxi cabs accommodate luggage and multiple passengers comfortably. No one gets left behind during your Razorback journey.
-
+            Ideal for groups and family trips. Our spacious maxi cabs
+            accommodate luggage and multiple passengers comfortably. No one gets
+            left behind during your Razorback journey.
           </>
         ),
         image: "/users.png",
@@ -14342,8 +14427,9 @@ export const allLocationsData = {
         title: "Corporate Trips",
         description: (
           <>
-            From airport pickups to boardroom meetings, our corporate trips ensure professionalism and comfort. Count on us for safe, reliable, and punctual rides every time.
-
+            From airport pickups to boardroom meetings, our corporate trips
+            ensure professionalism and comfort. Count on us for safe, reliable,
+            and punctual rides every time.
           </>
         ),
         image: "/briefcase.png",
@@ -14353,7 +14439,9 @@ export const allLocationsData = {
         service_id: "S009",
         title: "Reliable Airport Transfers",
         description: (
-          <>Efficient rides for staff or clients. Flexible scheduling and professional service make business travel smooth and reliable.
+          <>
+            Efficient rides for staff or clients. Flexible scheduling and
+            professional service make business travel smooth and reliable.
           </>
         ),
         image: "/airport.png",
@@ -14372,7 +14460,8 @@ export const allLocationsData = {
         bagsCapacity: 2,
         description: (
           <>
-           Perfect for solo travel or small groups. Comfortable, fuel-efficient, and punctual for short trips or airport runs.
+            Perfect for solo travel or small groups. Comfortable,
+            fuel-efficient, and punctual for short trips or airport runs.
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -14385,7 +14474,8 @@ export const allLocationsData = {
         bagsCapacity: 2,
         description: (
           <>
-            Travel in style for business or special occasions. Fully equipped interiors for comfort and premium experience.
+            Travel in style for business or special occasions. Fully equipped
+            interiors for comfort and premium experience.
           </>
         ),
         image: "/campbelltown-luxury-vehicle.png",
@@ -14398,8 +14488,8 @@ export const allLocationsData = {
         bagsCapacity: 5,
         description: (
           <>
-           Spacious rides for families and groups. Handles luggage easily, ideal for weekend getaways or corporate trips.
-
+            Spacious rides for families and groups. Handles luggage easily,
+            ideal for weekend getaways or corporate trips.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -14412,7 +14502,8 @@ export const allLocationsData = {
         bagsCapacity: 8,
         description: (
           <>
-             Maxi cab comfort with room for passengers and luggage. Ideal for airport transfers or group outings.
+            Maxi cab comfort with room for passengers and luggage. Ideal for
+            airport transfers or group outings.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -14425,7 +14516,8 @@ export const allLocationsData = {
         bagsCapacity: 8,
         description: (
           <>
-           Perfect for larger groups or families. Handles multiple passengers and luggage with ease, ensuring safe travel.
+            Perfect for larger groups or families. Handles multiple passengers
+            and luggage with ease, ensuring safe travel.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -14438,14 +14530,14 @@ export const allLocationsData = {
         bagsCapacity: 8,
         description: (
           <>
-           Inclusive travel for everyone. Our wheelchair-accessible vehicles make mobility convenient and safe.
+            Inclusive travel for everyone. Our wheelchair-accessible vehicles
+            make mobility convenient and safe.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
       },
     },
-    faqSectionTitle:
-      "Frequently Asked Questions About Bargo Taxi & Maxi Cabs",
+    faqSectionTitle: "Frequently Asked Questions About Bargo Taxi & Maxi Cabs",
     faqs: [
       {
         question: "How can I book a taxi in Bargo ?",
@@ -14524,9 +14616,9 @@ export const allLocationsData = {
         answer: (
           <>
             Absolutely. Our
-            <strong> Bargo taxi and cab services</strong> operate day and
-            night, including weekends and holidays. You can rely on us whenever
-            you need a ride..
+            <strong> Bargo taxi and cab services</strong> operate day and night,
+            including weekends and holidays. You can rely on us whenever you
+            need a ride..
           </>
         ),
       },
@@ -14547,18 +14639,7 @@ export const allLocationsData = {
           </>
         ),
       },
-      {
-        question: "Do you offer corporate transport services?",
-        answer: (
-          <>
-            Yes, our
-            <strong> local taxi service Bargo </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
-          </>
-        ),
-      },
+      
       {
         question: "Is there a luxury or corporate transfer option?",
         answer: (
@@ -14623,43 +14704,73 @@ export const allLocationsData = {
       },
       {
         question:
-          " Do you provide accessible vehicles for passengers with disabilities?",
+          "Are your vehicles wheelchair accessible?",
         answer: (
           <>
-            Yes, our wheelchair taxi services are fully equipped to provide safe
-            and comfortable transportation for passengers with mobility needs.
+            Yes. We have wheelchair <Link target="_blank" to={`https://en.wikipedia.org/wiki/Taxis_of_Australia`} className="underline font-semibold px-1">
+  taxis 
+            </Link>for easy and safe mobility.
+
+          </>
+        ),
+      },
+      {
+        question:
+          "What if I need a taxi late at night or early morning?",
+        answer: (
+          <>
+            We operate 24/7. You can rely on us for safe early or late rides.
+
           </>
         ),
       },
     ],
   },
   "rosemeadow-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13214.231474690321!2d150.7917544!3d-34.106465199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12e547a5d87e31%3A0x5017d681632c930!2sRosemeadow%20NSW%202560%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769803867065!5m2!1sen!2sbd",
     pageTitle: "24/7 Rosemeadow Taxi & Maxi Cabs – Fast, Safe & Reliable Rides",
     metaDescription:
       "Reliable Rosemeadow Taxi & Maxi Cabs – 24/7 service for airport, events & groups. Book now for safe, punctual rides with comfort guaranteed.",
     heroTitle: "24/7 Rosemeadow Taxi & Maxi Cabs – Fast, Safe & Reliable Rides",
     heroDescription: (
       <>
-     When you need a<strong>Rosemeadow Taxi & Maxi Cabs</strong>, you want service that’s fast, safe, and reliable. Our local team knows every street in Rosemeadow and surrounding areas. We cater to families, students, professionals, and seniors. With 24/7 availability, you can book rides anytime. Our fleet includes maxi cabs, sedans, and luxury vehicles. We make airport transfers, event rides, and daily commutes effortless. Trust us for convenient booking and friendly drivers.
-
+        When you need a<strong>Rosemeadow <Link  to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`} className="underline font-semibold px-1">
+Taxi & Maxi Cabs
+            </Link></strong>, you want
+        service that’s fast, safe, and reliable. Our local team knows every
+        street in Rosemeadow and surrounding areas. We cater to families,
+        students, professionals, and seniors. With 24/7 availability, you can
+        book rides anytime. Our fleet includes maxi cabs, sedans, and luxury
+        vehicles. We make airport transfers, event rides, and daily commutes
+        effortless. Trust us for convenient booking and friendly drivers.
       </>
     ),
     bookingFormTitle: "Book for Event Transfer in Rosemeadow",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Rosemeadow",
     locationSectionDescription: (
       <>
-   When you choose our <strong>Rosemeadow taxi and cab services,</strong>you get punctuality and peace of mind. We understand your busy lifestyle and daily travel needs. Whether you’re heading to work, a flight, or a social event, our drivers ensure smooth rides. You can book over the phone, online, or through our
+        When you choose our <strong>Rosemeadow taxi and cab services,</strong>
+        you get punctuality and peace of mind. We understand your busy lifestyle
+        and daily travel needs. Whether you’re heading to work, a flight, or a
+        social event, our drivers ensure smooth rides. You can book over the
+        phone, online, or through our
         <Link to={`/book-a-taxi`} className="underline font-semibold  px-1">
-        Taxi Booking page.
+          Taxi Booking page.
         </Link>
-      Our community trusts us for <strong>safe baby taxis, wheelchair-accessible rides,</strong> and luxury transfers. You don’t need to worry about long waits or hidden costs. We make your journey seamless. With local knowledge and modern vehicles, we are your first choice for <strong>Rosemeadow taxi cab service.</strong>
+        Our community trusts us for{" "}
+        <strong>safe baby taxis, wheelchair-accessible rides,</strong> and
+        luxury transfers. You don’t need to worry about long waits or hidden
+        costs. We make your journey seamless. With local knowledge and modern
+        vehicles, we are your first choice for{" "}
+        <strong>Rosemeadow taxi cab service.</strong>
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Rosemeadow",
     serviceSubtitle: (
       <>
-      We offer tailored services to meet all your travel needs. From airport trips to group travel, we have the right vehicle and driver for you.
+        We offer tailored services to meet all your travel needs. From airport
+        trips to group travel, we have the right vehicle and driver for you.
       </>
     ),
     locationServices: {
@@ -14668,10 +14779,16 @@ export const allLocationsData = {
         title: "Wedding Transfer",
         description: (
           <>
-         Celebrate your special day without stress. Our professional drivers ensure timely pickups, elegant vehicles, and a smooth journey to your wedding venue. You can rely on us for comfort and style. Book easily via our
-          <Link to={`/services/wedding-transfer`} className="underline font-semibold  px-1">
-       Wedding Transfer Page
-        </Link>
+            Celebrate your special day without stress. Our professional drivers
+            ensure timely pickups, elegant vehicles, and a smooth journey to
+            your wedding venue. You can rely on us for comfort and style. Book
+            easily via our
+            <Link
+              to={`/services/wedding-transfer`}
+              className="underline font-semibold  px-1"
+            >
+              Wedding Transfer Page
+            </Link>
           </>
         ),
         image: "/car.png",
@@ -14683,7 +14800,9 @@ export const allLocationsData = {
         title: "Luxury Transfer",
         description: (
           <>
-Arrive in style for business meetings or special events. Our premium sedans and SUVs guarantee comfort and punctuality. Choose Rosemeadow luxury taxi services for a seamless ride. 
+            Arrive in style for business meetings or special events. Our premium
+            sedans and SUVs guarantee comfort and punctuality. Choose Rosemeadow
+            luxury taxi services for a seamless ride.
           </>
         ),
         image: "/vehicle.png",
@@ -14695,7 +14814,8 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-            Keep your little ones safe. We provide certified baby seats in all vehicles. Perfect for family trips or airport transfers.
+            Keep your little ones safe. We provide certified baby seats in all
+            vehicles. Perfect for family trips or airport transfers.
           </>
         ),
         image: "/baby-seat.png",
@@ -14707,8 +14827,8 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         title: "Corporate Transport Services",
         description: (
           <>
-           Impress clients and employees with reliable, professional transport. Our corporate fleet offers punctuality, comfort, and convenience. 
-
+            Impress clients and employees with reliable, professional transport.
+            Our corporate fleet offers punctuality, comfort, and convenience.
           </>
         ),
         image: "/corporate.png",
@@ -14720,7 +14840,8 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         title: "Cruise Terminal Transfer",
         description: (
           <>
-          Avoid last-minute stress with airport and cruise terminal transfers. We handle luggage, schedules, and comfort. 
+            Avoid last-minute stress with airport and cruise terminal transfers.
+            We handle luggage, schedules, and comfort.
           </>
         ),
         image: "/ship.png",
@@ -14732,7 +14853,8 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         title: "Event Transfer",
         description: (
           <>
-         Heading to concerts, sports, or festivals? We offer timely pick-ups, group-friendly vehicles, and hassle-free rides.
+            Heading to concerts, sports, or festivals? We offer timely pick-ups,
+            group-friendly vehicles, and hassle-free rides.
           </>
         ),
         image: "/event.png",
@@ -14744,8 +14866,8 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         title: "Maxi Taxi Service",
         description: (
           <>
-         Travelling in a group or with lots of luggage? Our spacious maxi cabs in Rosemeadow ensure everyone rides together comfortably. 
-
+            Travelling in a group or with lots of luggage? Our spacious maxi
+            cabs in Rosemeadow ensure everyone rides together comfortably.
           </>
         ),
         image: "/users.png",
@@ -14756,8 +14878,8 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         title: "Corporate Trips",
         description: (
           <>
-           Travel smart for business. Our premium corporate taxi services provide a professional, reliable experience.
-
+            Travel smart for business. Our premium corporate taxi services
+            provide a professional, reliable experience.
           </>
         ),
         image: "/briefcase.png",
@@ -14767,7 +14889,9 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         service_id: "S009",
         title: "Reliable Airport Transfers",
         description: (
-          <>Efficient rides for staff or clients. Flexible scheduling and professional service make business travel smooth and reliable.
+          <>
+            Efficient rides for staff or clients. Flexible scheduling and
+            professional service make business travel smooth and reliable.
           </>
         ),
         image: "/airport.png",
@@ -14786,7 +14910,8 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         bagsCapacity: 2,
         description: (
           <>
-           Perfect for short trips and solo travellers. Comfort and efficiency are guaranteed.
+            Perfect for short trips and solo travellers. Comfort and efficiency
+            are guaranteed.
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -14799,7 +14924,10 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         bagsCapacity: 2,
         description: (
           <>
-            Arrive in style with premium sedans and SUVs. Ideal for special events or corporate clients. 
+            Arrive in style with premium sedans and SUVs. Ideal for special
+            events or corporate clients.Learn more about <Link to={`https://campbelltowntaxicabs.com.au/services/luxury-transfer`} className="underline font-semibold px-1">
+   Luxury Transfer.
+            </Link>
           </>
         ),
         image: "/campbelltown-luxury-vehicle.png",
@@ -14812,8 +14940,8 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         bagsCapacity: 5,
         description: (
           <>
-          Travel with family or friends comfortably. Spacious interiors and smooth rides make every trip enjoyable.
-
+            Travel with family or friends comfortably. Spacious interiors and
+            smooth rides make every trip enjoyable.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -14826,7 +14954,8 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         bagsCapacity: 8,
         description: (
           <>
-             Our multi-seat vans are perfect for group travel or airport pickups. Reliable and convenient.
+            Our multi-seat vans are perfect for group travel or airport pickups.
+            Reliable and convenient.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -14839,7 +14968,8 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         bagsCapacity: 8,
         description: (
           <>
-         Large groups and luggage? Our maxi cabs carry up to 12 passengers easily. 
+            Large groups and luggage? Our maxi cabs carry up to 12 passengers
+            easily.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -14852,14 +14982,14 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         bagsCapacity: 8,
         description: (
           <>
-        Our vehicles are accessible and safe for passengers with mobility needs.
+            Our vehicles are accessible and safe for passengers with mobility
+            needs.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
       },
     },
-    faqSectionTitle:
-      "Frequently Asked Questions About Bargo Taxi & Maxi Cabs",
+    faqSectionTitle: "Frequently Asked Questions About Bargo Taxi & Maxi Cabs",
     faqs: [
       {
         question: "How can I book a taxi in Rosemeadow?",
@@ -14945,41 +15075,23 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         ),
       },
       {
-        question: "Can I get a taxi with a baby seat?",
+        question: "Do you provide baby seats and child safety options?",
         answer: (
           <>
-            Yes. Adjustable{" "}
-            <Link
-              to={`/services/baby-seat-taxi-sydney`}
-              className="underline font-semibold px-1"
-            >
-              baby seats
-            </Link>{" "}
-            are available for safety. Travel comfortably for school runs,
-            appointments, or family outings with our
-            <strong>Rosemeadow taxi service</strong>
+           Yes. We have certified baby seats available upon request for safe <Link target="_blank" to={`https://en.wikipedia.org/wiki/Family_Travel_Forum`} className="underline font-semibold px-1">
+  family travel.
+            </Link>
           </>
         ),
       },
-      {
-        question: "Do you offer corporate transport services?",
-        answer: (
-          <>
-            Yes, our
-            <strong> local taxi service Rosemeadow </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
-          </>
-        ),
-      },
+    
       {
         question: "Is there a luxury or corporate transfer option?",
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong> Rosemeadow taxi cab service</strong> for airport trips, VIP
-            travel, or special occasions.
+            a<strong> Rosemeadow taxi cab service</strong> for airport trips,
+            VIP travel, or special occasions.
           </>
         ),
       },
@@ -14988,8 +15100,8 @@ Arrive in style for business meetings or special events. Our premium sedans and 
         question: " Do you operate outside Rosemeadow?",
         answer: (
           <>
-            Yes. We cover Rosemeadow Ambarvale, Leumeah, Minto, Campbelltown, and
-            surrounding suburbs. Check full coverage{" "}
+            Yes. We cover Rosemeadow Ambarvale, Leumeah, Minto, Campbelltown,
+            and surrounding suburbs. Check full coverage{" "}
             <Link to={`/area-covered`} className="underline font-semibold px-1">
               here
             </Link>{" "}
@@ -15037,59 +15149,112 @@ Arrive in style for business meetings or special events. Our premium sedans and 
       },
       {
         question:
-          " Do you provide accessible vehicles for passengers with disabilities?",
+          "Do you offer wheelchair-accessible taxis?",
         answer: (
           <>
-            Yes, our wheelchair taxi services are fully equipped to provide safe
-            and comfortable transportation for passengers with mobility needs.
+           Yes. Our fleet includes wheelchair-accessible<Link target="_blank" to={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges`} className="underline font-semibold px-1">
+   vehicles
+            </Link> for easy mobility.
+
+          </>
+        ),
+      },
+      {
+        question:
+          "How much does a taxi ride in Rosemeadow cost?",
+        answer: (
+          <>
+         Our fares are competitive. Exact pricing depends on distance and service type. Call us for a quote.
+
+          </>
+        ),
+      },
+      {
+        question:
+          "Can I schedule airport or cruise terminal transfers?",
+        answer: (
+          <>
+ Absolutely. We specialise in airport and cruise terminal transfers, handling luggage efficiently.
+
           </>
         ),
       },
     ],
   },
-   "smeaton-grange-nsw": {
+  "smeaton-grange-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13225.046166150634!2d150.75760985!3d-34.03716155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12f1801acf8fc1%3A0x5017d681632cb10!2sSmeaton%20Grange%20NSW%202567%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769804218723!5m2!1sen!2sbd",
     pageTitle: "Smeaton Grange Taxi & Maxi Cabs – 24/7 Reliable Local Service",
     metaDescription:
       "Book Smeaton Grange Taxi & Maxi Cabs for fast, professional rides. Enjoy on-time service, modern vehicles & hassle-free travel every time.",
     heroTitle: "Smeaton Grange Taxi & Maxi Cabs – 24/7 Reliable Local Service",
     heroDescription: (
       <>
-       Looking for a reliable taxi service in Smeaton Grange? Your search ends here. With <strong>Smeaton Grange Taxi & Maxi Cabs,</strong> you enjoy fast, safe, and comfortable rides any time of the day. Whether you need a quick trip to work, a school drop-off, or an airport transfer, our experienced drivers are always ready to serve. <br/>
-We pride ourselves on punctuality, professional service, and vehicles that suit every need. From solo travellers to large groups, our fleet ensures smooth, stress-free journeys. Safety and comfort are our top priorities, making us the most trusted local taxi service. You can book easily via phone, online, or through our website. <br/>
-Our team knows Smeaton Grange and surrounding suburbs like the back of their hands. Every ride is tailored to your schedule, whether it’s an early morning airport trip or a late-night event transfer. We also offer Maxi Cabs for groups or families with luggage, ensuring everyone travels together comfortably. <br/>
-With <strong>Smeaton Grange Taxi & Maxi Cabs</strong> , you never have to wait long. Our transparent pricing, friendly drivers, and flexible booking options make your travel experience hassle-free. Book today and enjoy a ride that prioritises your convenience, safety, and peace of mind.
+        Looking for a reliable taxi service in Smeaton Grange? Your search ends
+        here. With <strong>Smeaton Grange <Link  to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`} className="underline font-semibold px-1">
+ Taxi & Maxi Cabs,
+            </Link></strong> you enjoy
+        fast, safe, and comfortable rides any time of the day. Whether you need
+        a quick trip to work, a school drop-off, or an airport transfer, our
+        experienced drivers are always ready to serve. <br />
+        We pride ourselves on punctuality, professional service, and vehicles
+        that suit every need. From solo travellers to large groups, our fleet
+        ensures smooth, stress-free journeys. Safety and comfort are our top
+        priorities, making us the most <Link to={`https://campbelltowntaxicabs.com.au/book-a-taxi`} className="underline font-semibold px-1">
+   trusted local taxi service.
+            </Link> You can book
+        easily via phone, online, or through our website. <br />
+        Our team knows Smeaton Grange and surrounding suburbs like the back of
+        their hands. Every ride is tailored to your schedule, whether it’s an
+        early morning airport trip or a late-night event transfer. We also offer
+        Maxi Cabs for groups or families with luggage, ensuring everyone travels
+        together comfortably. <br />
+        With <strong>Smeaton Grange Taxi & Maxi Cabs</strong> , you never have
+        to wait long. Our transparent pricing, friendly drivers, and flexible
+        booking options make your travel experience hassle-free. Book today and
+        enjoy a ride that prioritises your convenience, safety, and peace of
+        mind.
       </>
     ),
     bookingFormTitle: "Book Taxi Maxi in Smeaton Grange",
-    locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Smeaton Grange",
+    locationSectionTitle:
+      "Trusted Taxi and Maxi Cab Services in Smeaton Grange",
     locationSectionDescription: (
       <>
-        When you choose <strong> Smeaton Grange taxi and cab services, </strong> you’re opting for reliability. You get on-time pickups, modern vehicles, and drivers who understand your local routes. Our service covers short local trips and long-distance journeys, including airport and event transfers. <br/>
-We know your pain points. You might worry about late-night availability, small vehicles, or unreliable rides. That’s why we maintain a fleet ready 24/7, including
-
-        <strong>Maxi Cabs near you in Smeaton Grange</strong>for families and large groups. Every trip is planned to save you time and stress.
-<br/>Booking is simple. You can call 1300 450 428, email 
-        <strong>silvercabscampbelltown@gmail.com,</strong> or reserve online at  <Link
-              to={`/book-a-taxi`}
-              className="underline font-semibold  px-1"
-            >
-              book a taxi.
-            </Link>{" "} From airport shuttles to corporate transport, we ensure you travel safely and comfortably. Our local expertise means your journey is smooth, efficient, and personalised.
-<br/>
- <Link
-              to={`/area-covered`}
-              className="underline font-semibold  px-1"
-            >
-            Learn more about our service areas
-            </Link>{" "}
- and see why we’re the go-to local taxi service in Smeaton Grange.
+        When you choose <strong> Smeaton Grange <Link to={`https://campbelltowntaxicabs.com.au/book-a-taxi`} className="underline font-semibold px-1">
+  taxi and cab services,
+            </Link> </strong>{" "}
+        you’re opting for reliability. You get on-time pickups, modern vehicles,
+        and drivers who understand your local routes. Our service covers short
+        local trips and long-distance journeys, including airport and event
+        transfers. <br />
+        We know your pain points. You might worry about late-night availability,
+        small vehicles, or unreliable rides. That’s why we maintain a fleet
+        ready 24/7, including
+        <strong>Maxi Cabs near you in Smeaton Grange</strong>for families and
+        large groups. Every trip is planned to save you time and stress.
+        <br />
+        Booking is simple. You can call 1300 450 428, email
+        <strong>silvercabscampbelltown@gmail.com,</strong> or reserve online at{" "}
+        <Link to={`/book-a-taxi`} className="underline font-semibold  px-1">
+          book a taxi.
+        </Link>{" "}
+        From airport shuttles to corporate transport, we ensure you travel
+        safely and comfortably. Our local expertise means your journey is
+        smooth, efficient, and personalised.
+        <br />
+        <Link to={`/area-covered`} className="underline font-semibold  px-1">
+          Learn more about our service areas
+        </Link>{" "}
+        and see why we’re the go-to local taxi service in Smeaton Grange.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Smeaton Grange",
     serviceSubtitle: (
       <>
-       We offer a wide range of services designed for your needs. Every ride is handled with care, whether you travel alone or in a group. Our goal is to provide convenience, safety, and comfort for all travellers.
+        We offer a wide range of services designed for your needs. Every ride is
+        handled with care, whether you travel alone or in a group. Our goal is
+        to provide convenience, safety, and comfort for all travellers.
       </>
     ),
     locationServices: {
@@ -15098,7 +15263,10 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Wedding Transfer",
         description: (
           <>
-            Make your special day stress-free. Our professional drivers ensure timely arrivals and departures. Vehicles are immaculate, and we accommodate bridal parties, guests, and luggage. Your wedding transport will be seamless and memorable. Here
+            Make your special day stress-free. Our professional drivers ensure
+            timely arrivals and departures. Vehicles are immaculate, and we
+            accommodate bridal parties, guests, and luggage. Your wedding
+            transport will be seamless and memorable. Here
             <Link
               to={`/services/wedding-transfer`}
               className="underline font-semibold  px-1"
@@ -15116,7 +15284,10 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Luxury Transfer",
         description: (
           <>
-            Travel in style with our premium vehicles. Perfect for corporate meetings or special occasions. You’ll enjoy comfort, punctuality, and personalised service. Arrive confidently with our luxury taxi and maxi cab options. Details at
+            Travel in style with our premium vehicles. Perfect for corporate
+            meetings or special occasions. You’ll enjoy comfort, punctuality,
+            and personalised service. Arrive confidently with our luxury taxi
+            and maxi cab options. Details at
             <Link
               to={`/services/luxury-transfer`}
               className="underline font-semibold px-1"
@@ -15134,7 +15305,9 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-           Safety comes first for your little ones. Our vehicles include secure child seats on request. Ideal for family trips, airport transfers, and school runs. Relax knowing your child is protected. Check
+            Safety comes first for your little ones. Our vehicles include secure
+            child seats on request. Ideal for family trips, airport transfers,
+            and school runs. Relax knowing your child is protected. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
               className="underline font-semibold px-1"
@@ -15152,7 +15325,10 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Corporate Transport Services",
         description: (
           <>
-             Impress clients with timely, reliable corporate rides. Our fleet handles business travellers efficiently. You’ll enjoy stress-free transport for meetings, conferences, and executive trips. Learn more at
+            Impress clients with timely, reliable corporate rides. Our fleet
+            handles business travellers efficiently. You’ll enjoy stress-free
+            transport for meetings, conferences, and executive trips. Learn more
+            at
             <Link
               to={`/services/corporate-transport-services`}
               className="underline font-semibold px-1"
@@ -15170,7 +15346,9 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Cruise Terminal Transfer",
         description: (
           <>
-             Avoid the rush and make your cruise departure smooth. Our drivers help with luggage and ensure punctual arrivals at Sydney cruise terminals. Travel relaxed and on schedule. Details at
+            Avoid the rush and make your cruise departure smooth. Our drivers
+            help with luggage and ensure punctual arrivals at Sydney cruise
+            terminals. Travel relaxed and on schedule. Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
               className="underline font-semibold px-1"
@@ -15188,7 +15366,9 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Event Transfer",
         description: (
           <>
-             Attending weddings, parties, or social events? Our vehicles handle large groups and busy schedules. You’ll arrive together and in comfort, without worrying about parking or traffic. Learn more at
+            Attending weddings, parties, or social events? Our vehicles handle
+            large groups and busy schedules. You’ll arrive together and in
+            comfort, without worrying about parking or traffic. Learn more at
             <Link
               to={`/services/event-transfer`}
               className="underline font-semibold px-1"
@@ -15206,7 +15386,9 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Maxi Taxi Service",
         description: (
           <>
-           Perfect for groups, families, or airport trips. Our spacious Maxi Cabs in Smeaton Grange accommodate everyone with luggage. Travel together without splitting into multiple vehicles.Comfort and
+            Perfect for groups, families, or airport trips. Our spacious Maxi
+            Cabs in Smeaton Grange accommodate everyone with luggage. Travel
+            together without splitting into multiple vehicles.Comfort and
             reliability come standard Explore
             <Link
               to={`/services/maxi-taxi-service`}
@@ -15224,7 +15406,11 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Corporate Trips",
         description: (
           <>
-             Dependable, professional rides for business purposes. Efficient routes, punctual service, and comfort are guaranteed. Make work travel stress-free with our executive fleet. More details at
+            Dependable, professional rides for business purposes. Efficient
+            routes, punctual service, and comfort are guaranteed. Make <Link target="_blank" to={`https://en.wikipedia.org/wiki/Business_travel`} className="underline font-semibold px-1">
+   work
+            travel
+            </Link> stress-free with our executive fleet. More details at
             <Link
               to={`/services/corporate-tips`}
               className="underline font-semibold px-1"
@@ -15263,8 +15449,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 2,
         description: (
           <>
-            Ideal for solo or small group travel. Comfortable, quick, and perfect for city or airport trips. Reliable for short or long journeys. Book
-            easily at
+            Ideal for solo or small group travel. Comfortable, quick, and
+            perfect for city or airport trips. Reliable for short or long
+            journeys. Book easily at
             <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
@@ -15280,7 +15467,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 2,
         description: (
           <>
-             Travel in style and comfort. Suited for special events, corporate meetings, or premium airport transfers. Make an impression while enjoying smooth rides. Learn more at
+            Travel in style and comfort. Suited for special events, corporate
+            meetings, or premium airport transfers. Make an impression while
+            enjoying smooth rides. Learn more at
             <Link
               to={`/services/luxury-transfer`}
               className="underline font-semibold px-1"
@@ -15299,7 +15488,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 5,
         description: (
           <>
-         More space for passengers and luggage. Perfect for families, business travellers, or social outings. You’ll travel stress-free and comfortably. Explore
+            More space for passengers and luggage. Perfect for families,
+            business travellers, or social outings. You’ll travel stress-free
+            and comfortably. Explore
             <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
@@ -15315,8 +15506,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 8,
         description: (
           <>
-      Spacious and practical, ideal for groups or families. Perfect for airport runs and long-distance trips. Comfortable seating and smooth ride guaranteed.
- Check
+            Spacious and practical, ideal for groups or families. Perfect for
+            airport runs and long-distance trips. Comfortable seating and smooth
+            ride guaranteed. Check
             <Link
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
@@ -15335,7 +15527,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 8,
         description: (
           <>
-        Large groups? Our Maxi Cabs ensure everyone travels together. Great for weddings, events, or group outings. Luggage space included. Learn more
+            Large groups? Our Maxi Cabs ensure everyone travels together. Great
+            for weddings, events, or group outings. Luggage space included.
+            Learn more
             <Link
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
@@ -15354,8 +15548,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 8,
         description: (
           <>
-           Accessibility is our priority. Wheelchair-friendly vehicles with trained drivers ensure easy, safe mobility for all passengers.
-            Book at
+            Accessibility is our priority. Wheelchair-friendly vehicles with
+            trained drivers ensure easy, safe mobility for all passengers. Book
+            at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
               className="underline font-semibold px-1"
@@ -15449,9 +15644,9 @@ We know your pain points. You might worry about late-night availability, small v
         answer: (
           <>
             Absolutely. Our
-            <strong> Smeaton Grange taxi and cab services</strong> operate day and
-            night, including weekends and holidays. You can rely on us whenever
-            you need a ride..
+            <strong> Smeaton Grange taxi and cab services</strong> operate day
+            and night, including weekends and holidays. You can rely on us
+            whenever you need a ride..
           </>
         ),
       },
@@ -15472,25 +15667,14 @@ We know your pain points. You might worry about late-night availability, small v
           </>
         ),
       },
-      {
-        question: "Do you offer corporate transport services?",
-        answer: (
-          <>
-            Yes, our
-            <strong> local taxi service Smeaton Grange </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
-          </>
-        ),
-      },
+
       {
         question: "Is there a luxury or corporate transfer option?",
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong> Smeaton Grange taxi cab service</strong> for airport trips,
-            VIP travel, or special occasions.
+            a<strong> Smeaton Grange taxi cab service</strong> for airport
+            trips, VIP travel, or special occasions.
           </>
         ),
       },
@@ -15499,16 +15683,18 @@ We know your pain points. You might worry about late-night availability, small v
         question: " Can I book late-night or early-morning rides?",
         answer: (
           <>
-            Absolutely. Our taxi service operates 24/7, perfect for shift workers, night travellers, and airport runs.
+            Absolutely. Our taxi service operates 24/7, perfect for shift
+            workers, night travellers, and airport runs.
           </>
         ),
       },
       {
-        question: "How much do your taxi rides cost?",
+        question: "Are your fares transparent?",
         answer: (
           <>
-            Our pricing is transparent and competitive. You can check fares
-            online or contact us for a quote.
+            Yes. No hidden costs. You'll know the fare before your<Link target="_blank" to={`https://en.wikipedia.org/wiki/Rides`} className="underline font-semibold px-1">
+ ride 
+            </Link>begins. Fair pricing is guaranteed.
           </>
         ),
       },
@@ -15525,7 +15711,8 @@ We know your pain points. You might worry about late-night availability, small v
         question: "How do I pay for my ride?",
         answer: (
           <>
-           We accept cash, card, and CabCharge for convenience. Payment options are flexible and secure.
+            We accept cash, card, and CabCharge for convenience. Payment options
+            are flexible and secure.
           </>
         ),
       },
@@ -15549,45 +15736,66 @@ We know your pain points. You might worry about late-night availability, small v
       },
       {
         question:
-          " Do you provide accessible vehicles for passengers with disabilities?",
+          "Is your fleet wheelchair accessible?",
         answer: (
           <>
-            Yes, our wheelchair taxi services are fully equipped to provide safe
-            and comfortable transportation for passengers with mobility needs.
+            Yes. We have dedicated wheelchair<Link target="_blank" to={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges`} className="underline font-semibold px-1">
+   taxis
+            </Link>  with trained drivers to ensure smooth mobility.
           </>
         ),
       },
     ],
   },
-   "douglas-park-nsw": {
+  "douglas-park-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52802.42505945942!2d150.7127046!3d-34.19360365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12fbf56a209ce1%3A0x40609b490438f10!2sDouglas%20Park%20NSW%202569%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769804546771!5m2!1sen!2sbd",
     pageTitle: "Fast, Reliable Douglas Park Taxi & Maxi Cabs Near You",
     metaDescription:
       "Douglas Park Taxi & Maxi Cabs – Affordable, safe, and reliable rides. Perfect for families, students, and professionals. Book online today!",
     heroTitle: "Fast, Reliable Douglas Park Taxi & Maxi Cabs Near You",
     heroDescription: (
       <>
-       Looking for a<strong>reliable Douglas Park Taxi & Maxi Cabs </strong> service? You’ve come to the right place. Whether you need a quick ride to work, school, the airport, or a special event, we are here for you. Our local drivers know Douglas Park inside out. You’ll enjoy prompt pickups, safe journeys, and comfortable rides. We offer <strong> Maxi Cabs for groups</strong>, child seats for families, and wheelchair-accessible options. Booking is simple, either online or by phone. Trust us to make your travel stress-free and affordable.
-
+        Looking for a<strong>reliable Douglas Park <Link  to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`} className="underline font-semibold px-1">
+   Taxi & Maxi Cabs
+            </Link></strong>
+        service? You’ve come to the right place. Whether you need a quick ride
+        to work, school, the airport, or a special event, we are here for you.
+        Our local drivers know Douglas Park inside out. You’ll enjoy prompt
+        pickups, safe journeys, and comfortable rides. We offer{" "}
+        <strong> Maxi Cabs for groups</strong>, child seats for families, and
+        wheelchair-accessible options. Booking is simple, either online or by
+        phone. Trust us to make your travel stress-free and affordable.
       </>
     ),
     bookingFormTitle: "Book Corporate Tips in Douglas Park",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Douglas Park",
     locationSectionDescription: (
       <>
-        When you choose <strong> Douglas taxi and cab services, </strong> you get 
-        <strong>peace of mind with every ride.</strong>Our team prioritises safety, reliability, and punctuality. We understand that missing flights, appointments, or school pickups is stressful. That’s why our drivers arrive on time and assist with luggage and boarding. You can rely on our local taxi service in Douglas Park for airport transfers, event travel, and corporate rides. Our <Link
-              to={`/book-a-taxi`}
-              className="underline font-semibold  px-1"
-            >
+        When you choose <strong> Douglas <Link  to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`} className="underline font-semibold px-1">
+  Park taxi and cab services,
+            </Link> </strong> you
+        get
+        <strong>peace of mind with every ride.</strong>Our team prioritises
+        safety, reliability, and punctuality. We understand that missing
+        flights, appointments, or school pickups is stressful. That’s why our
+        drivers arrive on time and assist with luggage and boarding. You can
+        rely on our local taxi service in Douglas Park for airport transfers,
+        event travel, and corporate rides. Our{" "}
+        <Link to={`/book-a-taxi`} className="underline font-semibold  px-1">
           Taxi Booking Page
-            </Link>makes scheduling easy. From casual trips to professional transfers, we ensure your journey is smooth and comfortable. With a diverse fleet, including Maxi Cabs, luxury vehicles, and baby-friendly taxis, your travel needs are always covered.
+        </Link>
+        makes scheduling easy. From casual trips to professional transfers, we
+        ensure your journey is smooth and comfortable. With a diverse fleet,
+        including Maxi Cabs, luxury vehicles, and baby-friendly taxis, your
+        travel needs are always covered.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Douglas Park",
     serviceSubtitle: (
       <>
-      We offer a wide range of Douglas Park taxi and cab services tailored to your needs. You can trust us for punctual, safe, and friendly transport.
+        We offer a wide range of Douglas Park taxi and cab services tailored to
+        your needs. You can trust us for punctual, safe, and friendly transport.
       </>
     ),
     locationServices: {
@@ -15596,7 +15804,10 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Wedding Transfer",
         description: (
           <>
-            Make your special day flawless. Our taxis and Maxi Cabs arrive on time. Drivers handle your luggage carefully. We ensure smooth journeys for you and your guests. You’ll enjoy professional service with luxury options to match your wedding style. Here
+            Make your special day flawless. Our taxis and Maxi Cabs arrive on
+            time. Drivers handle your luggage carefully. We ensure smooth
+            journeys for you and your guests. You’ll enjoy professional service
+            with luxury options to match your wedding style. Here
             <Link
               to={`/services/wedding-transfer`}
               className="underline font-semibold  px-1"
@@ -15614,7 +15825,10 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Luxury Transfer",
         description: (
           <>
-             Travel in style with our premium vehicles. Perfect for corporate trips, VIP airport pickups, or special nights out. Our fleet includes sedans, SUVs, and Kia Carnival vehicles. We provide comfort, privacy, and punctuality for every ride. Details at
+            Travel in style with our premium vehicles. Perfect for corporate
+            trips, VIP airport pickups, or special nights out. Our fleet
+            includes sedans, SUVs, and Kia Carnival vehicles. We provide
+            comfort, privacy, and punctuality for every ride. Details at
             <Link
               to={`/services/luxury-transfer`}
               className="underline font-semibold px-1"
@@ -15632,7 +15846,10 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-          Keep your little ones safe. Our vehicles include child seats and boosters. You’ll have peace of mind knowing your child is secure. Drivers are trained to assist with children, making family travel stress-free. Check
+            Keep your little ones safe. Our vehicles include child seats and
+            boosters. You’ll have peace of mind knowing your child is secure.
+            Drivers are trained to assist with children, making family travel
+            stress-free. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
               className="underline font-semibold px-1"
@@ -15650,7 +15867,10 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Corporate Transport Services",
         description: (
           <>
-             Impress clients or colleagues. Our corporate taxis arrive promptly. We offer tailored services for meetings, airport transfers, or corporate events. Your professionalism is reflected in every ride. Learn more at
+            Impress clients or colleagues. Our corporate taxis arrive promptly.
+            We offer tailored services for meetings, airport transfers, or
+            corporate events. Your professionalism is reflected in every ride.
+            Learn more at
             <Link
               to={`/services/corporate-transport-services`}
               className="underline font-semibold px-1"
@@ -15668,7 +15888,9 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Cruise Terminal Transfer",
         description: (
           <>
-            Never miss your cruise. Our taxis provide timely pickups and drop-offs. We handle luggage efficiently. Enjoy a smooth journey from Douglas Park to Sydney cruise terminals.Details at
+            Never miss your cruise. Our taxis provide timely pickups and
+            drop-offs. We handle luggage efficiently. Enjoy a smooth journey
+            from Douglas Park to Sydney cruise terminals.Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
               className="underline font-semibold px-1"
@@ -15685,7 +15907,10 @@ We know your pain points. You might worry about late-night availability, small v
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <>From sports to parties, we cover all events. Our Maxi Cabs accommodate groups comfortably. Drivers are experienced with busy locations. Your travel is stress-free and reliable. Learn more at
+          <>
+            From sports to parties, we cover all events. Our Maxi Cabs
+            accommodate groups comfortably. Drivers are experienced with busy
+            locations. Your travel is stress-free and reliable. Learn more at
             <Link
               to={`/services/event-transfer`}
               className="underline font-semibold px-1"
@@ -15703,7 +15928,9 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Maxi Taxi Service",
         description: (
           <>
-           Travel with friends, family, or colleagues. Our Maxi Cabs fit up to 8 passengers with luggage. Perfect for group outings, airport trips, or tours. Comfort and space are guaranteed. Explore
+            Travel with friends, family, or colleagues. Our Maxi Cabs fit up to
+            8 passengers with luggage. Perfect for group outings, airport trips,
+            or tours. Comfort and space are guaranteed. Explore
             <Link
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
@@ -15720,7 +15947,9 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Corporate Trips",
         description: (
           <>
-          Dependable transport for professionals. We offer flexible bookings, on-demand rides, and long-distance trips. Focus on your work, while we handle your travel. More details at
+            Dependable transport for professionals. We offer flexible bookings,
+            on-demand rides, and long-distance trips. Focus on your work, while
+            we handle your travel. More details at
             <Link
               to={`/services/corporate-tips`}
               className="underline font-semibold px-1"
@@ -15737,9 +15966,8 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
@@ -15759,8 +15987,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 2,
         description: (
           <>
-            Ideal for solo or small group travel. Comfortable, quick, and perfect for city or airport trips. Reliable for short or long journeys. Book
-            easily at
+            Ideal for solo or small group travel. Comfortable, quick, and
+            perfect for city or airport trips. Reliable for short or long
+            journeys. Book easily at
             <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
@@ -15776,7 +16005,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 2,
         description: (
           <>
-             Travel in style and comfort. Suited for special events, corporate meetings, or premium airport transfers. Make an impression while enjoying smooth rides. Learn more at
+            Travel in style and comfort. Suited for special events, corporate
+            meetings, or premium airport transfers. Make an impression while
+            enjoying smooth rides. Learn more at
             <Link
               to={`/services/luxury-transfer`}
               className="underline font-semibold px-1"
@@ -15795,7 +16026,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 5,
         description: (
           <>
-         More space for passengers and luggage. Perfect for families, business travellers, or social outings. You’ll travel stress-free and comfortably. Explore
+            More space for passengers and luggage. Perfect for families,
+            business travellers, or social outings. You’ll travel stress-free
+            and comfortably. Explore
             <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
@@ -15811,8 +16044,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 8,
         description: (
           <>
-      Spacious and practical, ideal for groups or families. Perfect for airport runs and long-distance trips. Comfortable seating and smooth ride guaranteed.
- Check
+            Spacious and practical, ideal for groups or families. Perfect for
+            airport runs and long-distance trips. Comfortable seating and smooth
+            ride guaranteed. Check
             <Link
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
@@ -15831,7 +16065,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 8,
         description: (
           <>
-        Large groups? Our Maxi Cabs ensure everyone travels together. Great for weddings, events, or group outings. Luggage space included. Learn more
+            Large groups? Our Maxi Cabs ensure everyone travels together. Great
+            for weddings, events, or group outings. Luggage space included.
+            Learn more
             <Link
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
@@ -15850,8 +16086,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 8,
         description: (
           <>
-           Accessibility is our priority. Wheelchair-friendly vehicles with trained drivers ensure easy, safe mobility for all passengers.
-            Book at
+            Accessibility is our priority. Wheelchair-friendly vehicles with
+            trained drivers ensure easy, safe mobility for all passengers. Book
+            at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
               className="underline font-semibold px-1"
@@ -15873,7 +16110,8 @@ We know your pain points. You might worry about late-night availability, small v
             Call 1300 450 428 or book online at{" "}
             <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               Taxi Booking Page.
-            </Link>Scheduling in advance ensures timely pickups.
+            </Link>
+            Scheduling in advance ensures timely pickups.
           </>
         ),
       },
@@ -15931,7 +16169,8 @@ We know your pain points. You might worry about late-night availability, small v
         question: "Are your drivers professional and trustworthy?",
         answer: (
           <>
-            Yes. All drivers are licensed, vetted, and familiar with Douglas Park. Safety, punctuality, and professionalism are our priorities.
+            Yes. All drivers are licensed, vetted, and familiar with Douglas
+            Park. Safety, punctuality, and professionalism are our priorities.
           </>
         ),
       },
@@ -15939,7 +16178,8 @@ We know your pain points. You might worry about late-night availability, small v
         question: " Are your Maxi Cabs suitable for groups?",
         answer: (
           <>
-        Yes, our Maxi Cabs fit up to 8 passengers comfortably. They’re ideal for airport transfers, family trips, or events.
+            Yes, our Maxi Cabs fit up to 8 passengers comfortably. They’re ideal
+            for airport transfers, family trips, or events.
           </>
         ),
       },
@@ -15955,34 +16195,23 @@ We know your pain points. You might worry about late-night availability, small v
         ),
       },
       {
-        question: "Can I get a taxi with a baby seat?",
+        question: "Can I request a baby seat in my taxi?",
         answer: (
           <>
-            Yes. Adjustable{" "}
+            Yes, we provide safe baby seat 
             <Link
-              to={`/services/baby-seat-taxi-sydney`}
+            target="_blank"
+              to={`https://www.pointtopoint.nsw.gov.au/what-a-service-provider/taxi-service-providers`}
               className="underline font-semibold px-1"
             >
-              baby seats
+            taxis
             </Link>{" "}
-            are available for safety. Travel comfortably for school runs,
-            appointments, or family outings with our
-            <strong>Douglas Park taxi service</strong>
+          Your child's safety is our top priority.
+
           </>
         ),
       },
-      {
-        question: "Do you offer corporate transport services?",
-        answer: (
-          <>
-            Yes, our
-            <strong> local taxi service Smeaton Grange </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
-          </>
-        ),
-      },
+     
       {
         question: "Is there a luxury or corporate transfer option?",
         answer: (
@@ -15998,7 +16227,8 @@ We know your pain points. You might worry about late-night availability, small v
         question: " Can I book late-night or early-morning rides?",
         answer: (
           <>
-            Absolutely. Our taxi service operates 24/7, perfect for shift workers, night travellers, and airport runs.
+            Absolutely. Our taxi service operates 24/7, perfect for shift
+            workers, night travellers, and airport runs.
           </>
         ),
       },
@@ -16024,11 +16254,23 @@ We know your pain points. You might worry about late-night availability, small v
         question: "How do I pay for my ride?",
         answer: (
           <>
-           We accept cash, card, and CabCharge for convenience. Payment options are flexible and secure.
+            We accept cash, card, and CabCharge for convenience. Payment options
+            are flexible and secure.
           </>
         ),
       },
 
+      {
+        question: "Do you accept corporate payments or CabCharge?",
+        answer: (
+          <>
+           Yes, we accept <Link target="_blank" to={`https://en.wikipedia.org/wiki/Cabcharge`} className="underline font-semibold px-1">
+
+            CabCharge
+            </Link> and corporate accounts for convenient billing. Check the Cab Charge Taxi page for details.
+          </>
+        ),
+      },
       {
         question: "Can I book a ride for special events?",
         answer: (
@@ -16050,36 +16292,58 @@ We know your pain points. You might worry about late-night availability, small v
       },
     ],
   },
-   "cobbity-nsw": {
-    pageTitle: "Reliable Cobbity Taxi & Maxi Cabs – 24/7 Airport & Local Services",
+  "cobbity-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105849.22235332457!2d150.6799902!3d-33.99797365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12f13ed251ef45%3A0x5017d681632b230!2sCobbitty%20NSW%202570%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769804803649!5m2!1sen!2sbd",
+    pageTitle:
+      "Reliable Cobbity Taxi & Maxi Cabs – 24/7 Airport & Local Services",
     metaDescription:
       "Safe & reliable Cobbity Taxi & Maxi Cabs – 24/7 airport, corporate, and group transfers. Book now for comfort and stress-free rides.",
-    heroTitle: "Reliable Cobbity Taxi & Maxi Cabs – 24/7 Airport & Local Services",
+    heroTitle:
+      "Reliable Cobbity Taxi & Maxi Cabs – 24/7 Airport & Local Services",
     heroDescription: (
       <>
-    Looking for a reliable taxi in Cobbity? You’ve come to the right place. At<strong>Cobbity Taxi & Maxi Cabs,</strong>we provide 24/7 airport transfers, local trips, and group travel solutions. Our team ensures you reach your destination safely and on time. We cater to families, students, professionals, and seniors. Whether you need a maxi cab for a group or a quiet sedan for business, we have the right vehicle for you. You can easily book online or by phone. Experience comfort, reliability, and convenience with every ride. Trust us for all your local travel and airport needs.
-
-
+        Looking for a reliable taxi in Cobbity? You’ve come to the right place.
+        At<strong>Cobbity <Link  to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`} className="underline font-semibold px-1">
+Taxi & Maxi Cabs,
+            </Link></strong>we provide 24/7 airport
+        transfers, local trips, and group travel solutions. Our team ensures you
+        reach your destination safely and on time. We cater to families,
+        students, professionals, and seniors. Whether you need a maxi cab for a
+        group or a quiet sedan for business, we have the right vehicle for you.
+        You can easily book online or by phone. Experience comfort, reliability,
+        and convenience with every ride. Trust us for all your local travel and
+        airport needs.
       </>
     ),
     bookingFormTitle: "Book Corporate Tips in Cobbity",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Cobbity",
     locationSectionDescription: (
       <>
-        When you choose <strong> Douglas taxi and cab services, </strong> you get 
-        <strong>peace of mind with every ride.</strong>Our team prioritises safety, reliability, and punctuality. We understand that missing flights, appointments, or school pickups is stressful. That’s why our drivers arrive on time and assist with luggage and boarding. You can rely on our local taxi service in Cobbity for airport transfers, event travel, and corporate rides. Our <Link
-              to={`/book-a-taxi`}
-              className="underline font-semibold  px-1"
-            >
+        When you choose <strong> Douglas taxi and cab services, </strong> you
+        get
+        <strong>peace of mind with every ride.</strong>Our team prioritises
+        safety, reliability, and punctuality. We understand that missing
+        flights, appointments, or school pickups is stressful. That’s why our
+        drivers arrive on time and assist with luggage and boarding. You can
+        rely on our local taxi service in Cobbity for airport transfers, event
+        travel, and corporate rides. Our{" "}
+        <Link to={`/book-a-taxi`} className="underline font-semibold  px-1">
           Taxi Booking Page
-            </Link>makes scheduling easy. From casual trips to professional transfers, we ensure your journey is smooth and comfortable. With a diverse fleet, including Maxi Cabs, luxury vehicles, and baby-friendly taxis, your travel needs are always covered.
+        </Link>
+        makes scheduling easy. From casual trips to professional transfers, we
+        ensure your journey is smooth and comfortable. With a diverse fleet,
+        including Maxi Cabs, luxury vehicles, and baby-friendly taxis, your
+        travel needs are always covered.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Cobbity",
     serviceSubtitle: (
       <>
-      We offer a wide range of Cobbity taxi and cab services tailored to your needs. You can trust us for punctual, safe, and friendly transport.
+        We offer a wide range of <Link  to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`} className="underline font-semibold px-1">
+Cobbity taxi and cab services
+            </Link> tailored to your
+        needs. You can trust us for punctual, safe, and friendly transport.
       </>
     ),
     locationServices: {
@@ -16088,7 +16352,10 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Wedding Transfer",
         description: (
           <>
-            Make your special day flawless. Our taxis and Maxi Cabs arrive on time. Drivers handle your luggage carefully. We ensure smooth journeys for you and your guests. You’ll enjoy professional service with luxury options to match your wedding style. Here
+            Make your special day flawless. Our taxis and Maxi Cabs arrive on
+            time. Drivers handle your luggage carefully. We ensure smooth
+            journeys for you and your guests. You’ll enjoy professional service
+            with luxury options to match your wedding style. Here
             <Link
               to={`/services/wedding-transfer`}
               className="underline font-semibold  px-1"
@@ -16106,7 +16373,10 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Luxury Transfer",
         description: (
           <>
-             Travel in style with our premium vehicles. Perfect for corporate trips, VIP airport pickups, or special nights out. Our fleet includes sedans, SUVs, and Kia Carnival vehicles. We provide comfort, privacy, and punctuality for every ride. Details at
+            Travel in style with our premium vehicles. Perfect for corporate
+            trips, VIP airport pickups, or special nights out. Our fleet
+            includes sedans, SUVs, and Kia Carnival vehicles. We provide
+            comfort, privacy, and punctuality for every ride. Details at
             <Link
               to={`/services/luxury-transfer`}
               className="underline font-semibold px-1"
@@ -16124,7 +16394,10 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-          Keep your little ones safe. Our vehicles include child seats and boosters. You’ll have peace of mind knowing your child is secure. Drivers are trained to assist with children, making family travel stress-free. Check
+            Keep your little ones safe. Our vehicles include child seats and
+            boosters. You’ll have peace of mind knowing your child is secure.
+            Drivers are trained to assist with children, making family travel
+            stress-free. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
               className="underline font-semibold px-1"
@@ -16142,7 +16415,10 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Corporate Transport Services",
         description: (
           <>
-             Impress clients or colleagues. Our corporate taxis arrive promptly. We offer tailored services for meetings, airport transfers, or corporate events. Your professionalism is reflected in every ride. Learn more at
+            Impress clients or colleagues. Our corporate taxis arrive promptly.
+            We offer tailored services for meetings, airport transfers, or
+            corporate events. Your professionalism is reflected in every ride.
+            Learn more at
             <Link
               to={`/services/corporate-transport-services`}
               className="underline font-semibold px-1"
@@ -16160,7 +16436,9 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Cruise Terminal Transfer",
         description: (
           <>
-            Never miss your cruise. Our taxis provide timely pickups and drop-offs. We handle luggage efficiently. Enjoy a smooth journey from Cobbity to Sydney cruise terminals.Details at
+            Never miss your cruise. Our taxis provide timely pickups and
+            drop-offs. We handle luggage efficiently. Enjoy a smooth journey
+            from Cobbity to Sydney cruise terminals.Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
               className="underline font-semibold px-1"
@@ -16177,7 +16455,10 @@ We know your pain points. You might worry about late-night availability, small v
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <>From sports to parties, we cover all events. Our Maxi Cabs accommodate groups comfortably. Drivers are experienced with busy locations. Your travel is stress-free and reliable. Learn more at
+          <>
+            From sports to parties, we cover all events. Our Maxi Cabs
+            accommodate groups comfortably. Drivers are experienced with busy
+            locations. Your travel is stress-free and reliable. Learn more at
             <Link
               to={`/services/event-transfer`}
               className="underline font-semibold px-1"
@@ -16195,7 +16476,9 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Maxi Taxi Service",
         description: (
           <>
-           Travel with friends, family, or colleagues. Our Maxi Cabs fit up to 8 passengers with luggage. Perfect for group outings, airport trips, or tours. Comfort and space are guaranteed. Explore
+            Travel with friends, family, or colleagues. Our Maxi Cabs fit up to
+            8 passengers with luggage. Perfect for group outings, airport trips,
+            or tours. Comfort and space are guaranteed. Explore
             <Link
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
@@ -16212,7 +16495,9 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Corporate Trips",
         description: (
           <>
-          Dependable transport for professionals. We offer flexible bookings, on-demand rides, and long-distance trips. Focus on your work, while we handle your travel. More details at
+            Dependable transport for professionals. We offer flexible bookings,
+            on-demand rides, and long-distance trips. Focus on your work, while
+            we handle your travel. More details at
             <Link
               to={`/services/corporate-tips`}
               className="underline font-semibold px-1"
@@ -16229,17 +16514,15 @@ We know your pain points. You might worry about late-night availability, small v
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
         pathname: "/services/book-taxi-sydney-airport",
       },
     },
-    fleetSectionTitle:
-      "Executive Fleet Options by Cobbity Taxi & Maxi Cabs",
+    fleetSectionTitle: "Executive Fleet Options by Cobbity Taxi & Maxi Cabs",
     fleetSectionSubTitle:
       "We offer modern and comfortable vehicles designed for every need. Our fleet meets local travel demands in Cobbity. You’ll find options for individual trips, group travel, and special services. Each vehicle is cleaned, maintained, and insured. You can trust our drivers for safe and professional service.",
 
@@ -16251,11 +16534,11 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 2,
         description: (
           <>
-            Ideal for solo or small group travel. Comfortable, quick, and perfect for city or airport trips. Reliable for short or long journeys. Book
-            easily at
-            <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
-              book a taxi.
-            </Link>{" "}
+            Perfect for
+            <Link target="_blank" to={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges`} className="underline font-semibold px-1">
+              solo traveller
+            </Link> or couples. Comfortable, fuel-efficient, and ideal for local trips. Quick pickups and smooth rides are guaranteed.
+
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -16268,7 +16551,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 2,
         description: (
           <>
-             Travel in style and comfort. Suited for special events, corporate meetings, or premium airport transfers. Make an impression while enjoying smooth rides. Learn more at
+            Travel in style and comfort. Suited for special events, corporate
+            meetings, or premium airport transfers. Make an impression while
+            enjoying smooth rides. Learn more at
             <Link
               to={`/services/luxury-transfer`}
               className="underline font-semibold px-1"
@@ -16287,7 +16572,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 5,
         description: (
           <>
-         More space for passengers and luggage. Perfect for families, business travellers, or social outings. You’ll travel stress-free and comfortably. Explore
+            More space for passengers and luggage. Perfect for families,
+            business travellers, or social outings. You’ll travel stress-free
+            and comfortably. Explore
             <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
@@ -16303,8 +16590,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 8,
         description: (
           <>
-      Spacious and practical, ideal for groups or families. Perfect for airport runs and long-distance trips. Comfortable seating and smooth ride guaranteed.
- Check
+            Spacious and practical, ideal for groups or families. Perfect for
+            airport runs and long-distance trips. Comfortable seating and smooth
+            ride guaranteed. Check
             <Link
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
@@ -16323,7 +16611,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 8,
         description: (
           <>
-        Large groups? Our Maxi Cabs ensure everyone travels together. Great for weddings, events, or group outings. Luggage space included. Learn more
+            Large groups? Our Maxi Cabs ensure everyone travels together. Great
+            for weddings, events, or group outings. Luggage space included.
+            Learn more
             <Link
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
@@ -16342,8 +16632,9 @@ We know your pain points. You might worry about late-night availability, small v
         bagsCapacity: 8,
         description: (
           <>
-           Accessibility is our priority. Wheelchair-friendly vehicles with trained drivers ensure easy, safe mobility for all passengers.
-            Book at
+            Accessibility is our priority. Wheelchair-friendly vehicles with
+            trained drivers ensure easy, safe mobility for all passengers. Book
+            at
             <Link
               to={`/services/wheelchair-accessible-taxi`}
               className="underline font-semibold px-1"
@@ -16365,7 +16656,8 @@ We know your pain points. You might worry about late-night availability, small v
             Call 1300 450 428 or book online at{" "}
             <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               Taxi Booking Page.
-            </Link>Scheduling in advance ensures timely pickups.
+            </Link>
+            Scheduling in advance ensures timely pickups.
           </>
         ),
       },
@@ -16382,7 +16674,9 @@ We know your pain points. You might worry about late-night availability, small v
         question: "Do you offer maxi cab services for large groups?",
         answer: (
           <>
-            Absolutely. Our maxi cabs can accommodate families, corporate
+            Absolutely. Our <Link  to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`} className="underline font-semibold px-1">
+maxi cabs
+            </Link> can accommodate families, corporate
             groups, and travelers with luggage or equipment.
           </>
         ),
@@ -16423,18 +16717,12 @@ We know your pain points. You might worry about late-night availability, small v
         question: "Are your drivers professional and trustworthy?",
         answer: (
           <>
-            Yes. All drivers are licensed, vetted, and familiar with Cobbity. Safety, punctuality, and professionalism are our priorities.
+            Yes. All drivers are licensed, vetted, and familiar with Cobbity.
+            Safety, punctuality, and professionalism are our priorities.
           </>
         ),
       },
-      {
-        question: " Are your Maxi Cabs suitable for groups?",
-        answer: (
-          <>
-        Yes, our Maxi Cabs fit up to 8 passengers comfortably. They’re ideal for airport transfers, family trips, or events.
-          </>
-        ),
-      },
+  
       {
         question: "Are your taxis available 24/7?",
         answer: (
@@ -16463,25 +16751,14 @@ We know your pain points. You might worry about late-night availability, small v
           </>
         ),
       },
-      {
-        question: "Do you offer corporate transport services?",
-        answer: (
-          <>
-            Yes, our
-            <strong> local taxi service Smeaton Grange </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
-          </>
-        ),
-      },
+   
       {
         question: "Is there a luxury or corporate transfer option?",
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong> Cobbity taxi cab service</strong> for airport trips,
-            VIP travel, or special occasions.
+            a<strong> Cobbity taxi cab service</strong> for airport trips, VIP
+            travel, or special occasions.
           </>
         ),
       },
@@ -16490,7 +16767,8 @@ We know your pain points. You might worry about late-night availability, small v
         question: " Can I book late-night or early-morning rides?",
         answer: (
           <>
-            Absolutely. Our taxi service operates 24/7, perfect for shift workers, night travellers, and airport runs.
+            Absolutely. Our taxi service operates 24/7, perfect for shift
+            workers, night travellers, and airport runs.
           </>
         ),
       },
@@ -16516,7 +16794,8 @@ We know your pain points. You might worry about late-night availability, small v
         question: "How do I pay for my ride?",
         answer: (
           <>
-           We accept cash, card, and CabCharge for convenience. Payment options are flexible and secure.
+            We accept cash, card, and CabCharge for convenience. Payment options
+            are flexible and secure.
           </>
         ),
       },
@@ -16532,52 +16811,70 @@ We know your pain points. You might worry about late-night availability, small v
       },
       {
         question:
-          " Do you provide accessible vehicles for passengers with disabilities?",
+          "Why should I choose Cobbity Taxi & Maxi Cabs?",
         answer: (
           <>
-            Yes, our wheelchair taxi services are fully equipped to provide safe
-            and comfortable transportation for passengers with mobility needs.
+          We offer reliability, safety, local expertise, and 24/7 availability. Our fleet suits every <Link target="_blank"  to={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges`} className="underline font-semibold px-1">
+travel
+            </Link> need, from solo trips to large groups.
           </>
         ),
       },
     ],
   },
-   "denham-court-nsw": {
+  "denham-court-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52934.82518046566!2d150.83072995!3d-33.98157535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ec3f7e58014b%3A0x5017d681632b450!2sDenham%20Court%20NSW%202565%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769805060589!5m2!1sen!2sbd",
     pageTitle: "24/7 Denham Court Taxi & Maxi Cabs – Safe, Reliable Ride",
     metaDescription:
       "Book Denham Court Taxi & Maxi Cabs online – quick, secure rides for families, students, and professionals. Call now for fast pickups!",
     heroTitle: "24/7 Denham Court Taxi & Maxi Cabs – Safe, Reliable Ride",
     heroDescription: (
       <>
-    Looking for a reliable ride in Denham Court? You’ve come to the right place. Our <strong>Denham Court Taxi & Maxi Cabs</strong>operate 24/7 to ensure you reach your destination safely and on time. Whether it’s a short local trip, airport transfer, or a group journey in a maxi cab, we provide professional, punctual, and comfortable service. Our fleet includes sedans, SUVs, and luxury vehicles for any travel need. You can trust our experienced drivers who know Denham Court routes inside out. Book your ride easily via <Link
-              to={`/book-a-taxi`}
-              className="underline font-semibold  px-1"
-            >
-         our taxi booking page
-            </Link>
-or call us for immediate assistance. Safety, reliability, and convenience are our promises, making your journey stress-free every time.
-
-
+        Looking for a reliable ride in Denham Court? You’ve come to the right
+        place. Our <strong>Denham Court <Link  to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`} className="underline font-semibold px-1">
+Taxi & Maxi Cabs,
+            </Link></strong>operate 24/7 to
+        ensure you reach your destination safely and on time. Whether it’s a
+        short local trip, airport transfer, or a group journey in a maxi cab, we
+        provide professional, punctual, and comfortable service. Our fleet
+        includes sedans, SUVs, and luxury vehicles for any travel need. You can
+        trust our experienced drivers who know Denham Court routes inside out.
+        Book your ride easily via{" "}
+        <Link to={`/book-a-taxi`} className="underline font-semibold  px-1">
+          our taxi booking page
+        </Link>
+        or call us for immediate assistance. Safety, reliability, and
+        convenience are our promises, making your journey stress-free every
+        time.
       </>
     ),
     bookingFormTitle: "Book Corporate Tips in Denham Court",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Denham Court",
     locationSectionDescription: (
       <>
-       When you choose our<strong> Denham  taxi and cab services, </strong> you get more than just a ride. We understand your need for reliable, safe, and timely transportation, especially during peak hours or late-night travel. You no longer have to worry about ride cancellations, unclear fares, or unavailable taxis. Our service covers airport transfers, corporate travel, special events, and everyday trips. You can book in advance or call us anytime for an urgent ride. With a focus on safety, comfort, and punctuality, you’ll enjoy a smooth journey every time. Learn more about <Link
-              to={`/fleet`}
-              className="underline font-semibold  px-1"
-            >
-      our fleet options
-            </Link>and experience the difference of a local taxi service tailored for Denham Court.
-
+        When you choose our<strong> Denham taxi and cab services, </strong> you
+        get more than just a ride. We understand your need for reliable, safe,
+        and timely transportation, especially during peak hours or late-night
+        travel. You no longer have to worry about ride cancellations, unclear
+        fares, or unavailable taxis. Our service covers airport transfers,
+        corporate travel, special events, and everyday trips. You can book in
+        advance or call us anytime for an urgent ride. With a focus on safety,
+        comfort, and punctuality, you’ll enjoy a smooth journey every time.
+        Learn more about{" "}
+        <Link to={`/fleet`} className="underline font-semibold  px-1">
+          our fleet options
+        </Link>
+        and experience the difference of a local taxi service tailored for
+        Denham Court.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Denham Court",
     serviceSubtitle: (
       <>
-  We provide a range of services designed to meet all your travel needs. Our Denham Court taxi cab service ensures you travel with comfort and safety.
+        We provide a range of services designed to meet all your travel needs.
+        Our Denham Court taxi cab service ensures you travel with comfort and
+        safety.
       </>
     ),
     locationServices: {
@@ -16586,7 +16883,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Wedding Transfer",
         description: (
           <>
-           Arrive in style for your special day. Our professional drivers ensure punctuality and comfort. We provide luxury vehicles and mini-buses suitable for groups of any size. Here at
+            Arrive in style for your special day. Our professional drivers
+            ensure punctuality and comfort. We provide luxury vehicles and
+            mini-buses suitable for groups of any size. Here at
             <Link
               to={`/services/wedding-transfer`}
               className="underline font-semibold  px-1"
@@ -16604,7 +16903,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Luxury Transfer",
         description: (
           <>
-            Travel in comfort and elegance. Our sedans and SUVs are perfect for business or leisure. Enjoy quiet, air-conditioned rides with experienced drivers.  Details at
+            Travel in comfort and elegance. Our sedans and SUVs are perfect for
+            business or leisure. Enjoy quiet, air-conditioned rides with
+            experienced drivers. Details at
             <Link
               to={`/services/luxury-transfer`}
               className="underline font-semibold px-1"
@@ -16622,7 +16923,10 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-          Keep your little ones safe. Our vehicles include child seats and boosters. You’ll have peace of mind knowing your child is secure. Drivers are trained to assist with children, making family travel stress-free. Check
+            Keep your little ones safe. Our vehicles include child seats and
+            boosters. You’ll have peace of mind knowing your child is secure.
+            Drivers are trained to assist with children, making family travel
+            stress-free. Check
             <Link
               to={`/services/baby-seat-taxi-sydney`}
               className="underline font-semibold px-1"
@@ -16640,7 +16944,10 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Corporate Transport Services",
         description: (
           <>
-             Impress clients or colleagues. Our corporate taxis arrive promptly. We offer tailored services for meetings, airport transfers, or corporate events. Your professionalism is reflected in every ride. Learn more at
+            Impress clients or colleagues. Our corporate taxis arrive promptly.
+            We offer tailored services for meetings, airport transfers, or
+            corporate events. Your professionalism is reflected in every ride.
+            Learn more at
             <Link
               to={`/services/corporate-transport-services`}
               className="underline font-semibold px-1"
@@ -16658,7 +16965,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Cruise Terminal Transfer",
         description: (
           <>
-            Never miss your cruise. Our taxis provide timely pickups and drop-offs. We handle luggage efficiently. Enjoy a smooth journey from Denham Court to Sydney cruise terminals.Details at
+            Never miss your cruise. Our taxis provide timely pickups and
+            drop-offs. We handle luggage efficiently. Enjoy a smooth journey
+            from Denham Court to Sydney cruise terminals.Details at
             <Link
               to={`/services/cruise-terminal-transfer`}
               className="underline font-semibold px-1"
@@ -16675,7 +16984,10 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <>From sports to parties, we cover all events. Our Maxi Cabs accommodate groups comfortably. Drivers are experienced with busy locations. Your travel is stress-free and reliable. Learn more at
+          <>
+            From sports to parties, we cover all events. Our Maxi Cabs
+            accommodate groups comfortably. Drivers are experienced with busy
+            locations. Your travel is stress-free and reliable. Learn more at
             <Link
               to={`/services/event-transfer`}
               className="underline font-semibold px-1"
@@ -16693,7 +17005,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Maxi Taxi Service",
         description: (
           <>
-           Travel with friends, family, or colleagues. Our Maxi Cabs fit up to 8 passengers with luggage. Perfect for group outings, airport trips, or tours. Comfort and space are guaranteed. Explore
+            Travel with friends, family, or colleagues. Our Maxi Cabs fit up to
+            8 passengers with luggage. Perfect for group outings, airport trips,
+            or tours. Comfort and space are guaranteed. Explore
             <Link
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
@@ -16710,7 +17024,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Corporate Trips",
         description: (
           <>
-          Dependable transport for professionals. We offer flexible bookings, on-demand rides, and long-distance trips. Focus on your work, while we handle your travel. More details at
+            Dependable transport for professionals. We offer flexible bookings,
+            on-demand rides, and long-distance trips. Focus on your work, while
+            we handle your travel. More details at
             <Link
               to={`/services/corporate-tips`}
               className="underline font-semibold px-1"
@@ -16727,9 +17043,8 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
@@ -16749,8 +17064,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         bagsCapacity: 2,
         description: (
           <>
-            Ideal for solo or small group travel. Comfortable, quick, and perfect for city or airport trips. Reliable for short or long journeys. Book
-            easily at
+            Ideal for solo or small group travel. Comfortable, quick, and
+            perfect for city or airport trips. Reliable for short or long
+            journeys. Book easily at
             <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               book a taxi.
             </Link>{" "}
@@ -16766,7 +17082,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         bagsCapacity: 2,
         description: (
           <>
-             Travel in style and comfort. Suited for special events, corporate meetings, or premium airport transfers. Make an impression while enjoying smooth rides. Learn more at
+            Travel in style and comfort. Suited for special events, corporate
+            meetings, or premium airport transfers. Make an impression while
+            enjoying smooth rides. Learn more at
             <Link
               to={`/services/luxury-transfer`}
               className="underline font-semibold px-1"
@@ -16785,7 +17103,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         bagsCapacity: 5,
         description: (
           <>
-         More space for passengers and luggage. Perfect for families, business travellers, or social outings. You’ll travel stress-free and comfortably. Explore
+            More space for passengers and luggage. Perfect for families,
+            business travellers, or social outings. You’ll travel stress-free
+            and comfortably. Explore
             <Link to={`/fleet`} className="underline font-semibold px-1">
               premium fleet.
             </Link>{" "}
@@ -16801,8 +17121,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         bagsCapacity: 8,
         description: (
           <>
-      Spacious and practical, ideal for groups or families. Perfect for airport runs and long-distance trips. Comfortable seating and smooth ride guaranteed.
- Check
+            Spacious and practical, ideal for groups or families. Perfect for
+            airport runs and long-distance trips. Comfortable seating and smooth
+            ride guaranteed. Check
             <Link
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
@@ -16821,7 +17142,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         bagsCapacity: 8,
         description: (
           <>
-        Large groups? Our Maxi Cabs ensure everyone travels together. Great for weddings, events, or group outings. Luggage space included. Learn more
+            Large groups? Our Maxi Cabs ensure everyone travels together. Great
+            for weddings, events, or group outings. Luggage space included.
+            Learn more
             <Link
               to={`/services/maxi-taxi-service`}
               className="underline font-semibold px-1"
@@ -16840,14 +17163,15 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         bagsCapacity: 8,
         description: (
           <>
-           Accessibility is our priority. Wheelchair-friendly vehicles with trained drivers ensure easy, safe mobility for all passengers.
-            Book at
+            Fully accessible vehicles with
             <Link
-              to={`/services/wheelchair-accessible-taxi`}
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Driver%27s_education`}
               className="underline font-semibold px-1"
             >
-              wheelchair taxi.
-            </Link>{" "}
+              trained drivers 
+            </Link>to assist passengers. Safe and reliable.
+
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -16863,7 +17187,8 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
             Call 1300 450 428 or book online at{" "}
             <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               Taxi Booking Page.
-            </Link>Scheduling in advance ensures timely pickups.
+            </Link>
+            Scheduling in advance ensures timely pickups.
           </>
         ),
       },
@@ -16901,27 +17226,13 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
           </>
         ),
       },
-      {
-        question: "Can I get a Maxi Cab for group travel?",
-        answer: (
-          <>
-            Absolutely. Our
-            <Link
-              to={`/services/maxi-taxi-service`}
-              className="underline font-semibold px-1"
-            >
-              Fast and Reliable Taxi Airport Service
-            </Link>{" "}
-            accommodates large groups and luggage. Perfect for events, family
-            trips, or corporate travel in Denham Court .
-          </>
-        ),
-      },
+  
       {
         question: "Are your drivers professional and trustworthy?",
         answer: (
           <>
-            Yes. All drivers are licensed, vetted, and familiar with Denham Court. Safety, punctuality, and professionalism are our priorities.
+            Yes. All drivers are licensed, vetted, and familiar with Denham
+            Court. Safety, punctuality, and professionalism are our priorities.
           </>
         ),
       },
@@ -16929,7 +17240,8 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         question: " Are your Maxi Cabs suitable for groups?",
         answer: (
           <>
-        Yes, our Maxi Cabs fit up to 8 passengers comfortably. They’re ideal for airport transfers, family trips, or events.
+            Yes, our Maxi Cabs fit up to 8 passengers comfortably. They’re ideal
+            for airport transfers, family trips, or events.
           </>
         ),
       },
@@ -16961,18 +17273,7 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
           </>
         ),
       },
-      {
-        question: "Do you offer corporate transport services?",
-        answer: (
-          <>
-            Yes, our
-            <strong> local taxi service Smeaton Grange </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
-          </>
-        ),
-      },
+ 
       {
         question: "Is there a luxury or corporate transfer option?",
         answer: (
@@ -16988,7 +17289,8 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         question: " Can I book late-night or early-morning rides?",
         answer: (
           <>
-            Absolutely. Our taxi service operates 24/7, perfect for shift workers, night travellers, and airport runs.
+            Absolutely. Our taxi service operates 24/7, perfect for shift
+            workers, night travellers, and airport runs.
           </>
         ),
       },
@@ -17011,10 +17313,17 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         ),
       },
       {
-        question: "How do I pay for my ride?",
+        question: "What payment methods are accepted?",
         answer: (
           <>
-           We accept cash, card, and CabCharge for convenience. Payment options are flexible and secure.
+            We accept cash, cards, and <Link
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Cabcharge`}
+              className="underline font-semibold px-1"
+            >
+             CabCharge
+            </Link> for easy payments.
+
           </>
         ),
       },
@@ -17040,40 +17349,69 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
       },
     ],
   },
-   "liverpool-nsw": {
+  "liverpool-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26486.119043651972!2d150.9160342!3d-33.9214504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129610b02d4195%3A0x5017d681632bea0!2sLiverpool%20NSW%202170%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769805255379!5m2!1sen!2sbd",
     pageTitle: "24/7 Liverpool Taxi & Maxi Cabs – Fast, Safe & Reliable Rides",
     metaDescription:
       "[24/7 Liverpool Taxi & Maxi Cabs] - [Reliable airport transfers, group travel, and baby seats near 1 Hurley St.] [Book your safe ride now!] [Call 1300 450 428]",
     heroTitle: "24/7 Liverpool Taxi & Maxi Cabs – Fast, Safe & Reliable Rides",
     heroDescription: (
       <>
-   Experience the best <strong>Liverpool Taxi & Maxi Cabs</strong> for all your travel needs. We provide prompt pickups and professional drivers near <strong>1 Hurley St, Campbelltown.</strong> Our fleet handles solo trips or large groups with absolute ease. You can enjoy fixed rates and clean vehicles for every journey. We prioritise your safety and comfort throughout the entire Sydney region. Book your reliable local taxi service Liverpool now for a premium experience. Book your ride easily via <Link
-              to={`/book-a-taxi`}
-              className="underline font-semibold  px-1"
+        Experience the best <strong>Liverpool <Link
+        
+              to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`}
+              className="underline font-semibold px-1"
             >
-         our taxi booking page.
-            </Link>
-
-
-
+              Taxi & Maxi Cabs
+            </Link></strong> for all
+        your travel needs. We provide prompt pickups and professional drivers
+        near <strong>1 Hurley St, Campbelltown.</strong> Our fleet handles solo
+        trips or large groups with absolute ease. You can enjoy fixed rates and
+        clean vehicles for every journey. We prioritise your safety and comfort
+        throughout the entire Sydney region. Book your reliable local taxi
+        service Liverpool now for a premium experience. Book your ride easily
+        via{" "}
+        <Link to={`/book-a-taxi`} className="underline font-semibold  px-1">
+          our taxi booking page.
+        </Link>
       </>
     ),
     bookingFormTitle: "Book Corporate Tips in Liverpool",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Denham Court",
     locationSectionDescription: (
       <>
-       Are you tired of ride-share apps cancelling your important trips? You deserve a <strong> Liverpool   taxi and cab services, </strong> provider that values your time. We offer a dependable <strong>taxi service close to me</strong> 
-        for every resident. Our team understands the stress of reaching 1 Hurley St, Campbelltown on time. You will find our Liverpool taxi cab service operates around the clock. We solve the common pain point of long wait times during peak hours. Our drivers know the quickest routes to avoid heavy local traffic. You can rely on our local taxi service near me for school runs. We provide a safe environment for women and seniors travelling late at night. Your comfort is our mission while navigating the busy suburban streets. We use modern tracking to ensure your maxi cab arrives exactly when promised. Trust our expert team for your next ride across the local area.
-       
-   
-
+        Are you tired of ride-share apps cancelling your important trips? You
+        deserve a <strong> Liverpool taxi and cab services, </strong> provider
+        that values your time. We offer a dependable{" "}
+        <strong>taxi service close to me</strong>
+        for every resident. Our team understands the stress of reaching 1 Hurley
+        St, Campbelltown on time. You will find our  <Link
+        
+              to={`https://campbelltowntaxicabs.com.au/book-a-taxi`}
+              className="underline font-semibold px-1"
+            >
+             Liverpool taxi cab service
+            </Link>
+        operates around the clock. We solve the common pain point of long wait
+        times during peak hours. Our drivers know the quickest routes to avoid
+        heavy local traffic. You can rely on our local taxi service near me for
+        school runs. We provide a safe environment for women and seniors
+        travelling late at night. Your comfort is our mission while navigating
+        the busy suburban streets. We use modern tracking to ensure your maxi
+        cab arrives exactly when promised. Trust our expert team for your next
+        ride across the local area.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Liverpool",
     serviceSubtitle: (
       <>
- Finding a high-quality <strong>taxi service near me</strong> shouldn't be a difficult task. We offer versatile transport solutions for families, corporate clients, and social groups. Our Liverpool taxi cab fleet stays ready for immediate dispatch or advanced bookings. Experience a seamless journey with our dedicated team of professional local drivers.
+        Finding a high-quality <strong>taxi service near me</strong> shouldn't
+        be a difficult task. We offer versatile transport solutions for
+        families, corporate clients, and social groups. Our Liverpool taxi cab
+        fleet stays ready for immediate dispatch or advanced bookings.
+        Experience a seamless journey with our dedicated team of professional
+        local drivers.
       </>
     ),
     locationServices: {
@@ -17082,7 +17420,13 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Wedding Transfer",
         description: (
           <>
-        You need elegant transport for your special day near <strong>1 Hurley St, Campbelltown</strong>. Our <strong>Liverpool Taxi & Maxi Cabs</strong> provide stylish vehicles for the bridal party. We ensure every guest arrives at the venue on time and safely. You can relax knowing our drivers handle the logistics with total professionalism. Your wedding photos will look great with our pristine, polished fleet. Here at
+            You need elegant transport for your special day near{" "}
+            <strong>1 Hurley St, Campbelltown</strong>. Our{" "}
+            <strong>Liverpool Taxi & Maxi Cabs</strong> provide stylish vehicles
+            for the bridal party. We ensure every guest arrives at the venue on
+            time and safely. You can relax knowing our drivers handle the
+            logistics with total professionalism. Your wedding photos will look
+            great with our pristine, polished fleet. Here at
             <Link
               to={`/services/wedding-transfer`}
               className="underline font-semibold  px-1"
@@ -17100,13 +17444,15 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Luxury Transfer",
         description: (
           <>
-            Treat yourself to a premium ride with our local taxi cab service near me. We use high-end vehicles to give you a first-class experience every time. You will enjoy leather seats and a quiet cabin during your commute. This service is perfect for special dates or important business meetings. We maintain our
-            <Link
-              to={`/fleet`}
-              className="underline font-semibold px-1"
-            >
-             Taxi Cabs Premium Fleet 
-            </Link>to the highest possible standards.
+            Treat yourself to a premium ride with our local taxi cab service
+            near me. We use high-end vehicles to give you a first-class
+            experience every time. You will enjoy leather seats and a quiet
+            cabin during your commute. This service is perfect for special dates
+            or important business meetings. We maintain our
+            <Link to={`/fleet`} className="underline font-semibold px-1">
+              Taxi Cabs Premium Fleet
+            </Link>
+            to the highest possible standards.
           </>
         ),
         image: "/vehicle.png",
@@ -17118,13 +17464,18 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-          Safety for your children is our highest priority during any trip. We provide 
+            Safety for your children is our highest priority during any trip. We
+            provide
             <Link
               to={`/services/baby-seat-taxi-sydney`}
               className="underline font-semibold px-1"
             >
-               Taxi Booking
-            </Link>options that include pre-installed, certified child seats. You don't have to carry your own heavy equipment when you travel. Our drivers ensure the seats are secure before you begin your journey. It makes family travel to 1 Hurley St, Campbelltown much easier for parents.
+              Taxi Booking
+            </Link>
+            options that include pre-installed, certified child seats. You don't
+            have to carry your own heavy equipment when you travel. Our drivers
+            ensure the seats are secure before you begin your journey. It makes
+            family travel to 1 Hurley St, Campbelltown much easier for parents.
           </>
         ),
         image: "/baby-seat.png",
@@ -17136,13 +17487,20 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Corporate Transport Services",
         description: (
           <>
-            mpress your clients with our punctual and professional Liverpool taxi service. We offer 
+            mpress your clients with our punctual and professional Liverpool
+            taxi service. We offer
             <Link
-              to={`/cabcharge-taxi`}
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Taxis_of_Australia`}
               className="underline font-semibold px-1"
             >
               CabCharge Taxi Campbelltown
-            </Link>options for easy business expense management. Your staff will appreciate the reliable pickups for early morning meetings. We provide quiet environments so you can work while on the move. Our drivers maintain total discretion for all your sensitive corporate conversations.
+            </Link>
+            options for easy business expense management. Your staff will
+            appreciate the reliable pickups for early morning meetings. We
+            provide quiet environments so you can work while on the move. Our
+            drivers maintain total discretion for all your sensitive corporate
+            conversations.
           </>
         ),
         image: "/corporate.png",
@@ -17154,8 +17512,12 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Cruise Terminal Transfer",
         description: (
           <>
-           Start your holiday without the stress of driving to the docks. Our maxi cab services Liverpool have plenty of room for all your suitcases. We drop you off right at the terminal entrance for convenience. You won't have to worry about expensive long-term parking fees at the port. We monitor ship schedules to ensure your return pickup is perfectly timed.
-
+            Start your holiday without the stress of driving to the docks. Our
+            maxi cab services Liverpool have plenty of room for all your
+            suitcases. We drop you off right at the terminal entrance for
+            convenience. You won't have to worry about expensive long-term
+            parking fees at the port. We monitor ship schedules to ensure your
+            return pickup is perfectly timed.
           </>
         ),
         image: "/ship.png",
@@ -17166,7 +17528,12 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <>Head to the big game or a concert without any parking hassles. Our maxi cab near me is the best way to travel with friends. We handle the navigation while you enjoy the pre-event excitement with your group. You can book a return ride to avoid the post-event crowds. We pick you up from designated areas for a fast exit.
+          <>
+            Head to the big game or a concert without any parking hassles. Our
+            maxi cab near me is the best way to travel with friends. We handle
+            the navigation while you enjoy the pre-event excitement with your
+            group. You can book a return ride to avoid the post-event crowds. We
+            pick you up from designated areas for a fast exit.
           </>
         ),
         image: "/event.png",
@@ -17178,13 +17545,15 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Maxi Taxi Service",
         description: (
           <>
-           Moving a large group requires a spacious and comfortable maxi cab. Our vehicles accommodate up to eleven passengers in a single trip. This is a cost-effective choice for large families or social clubs. You get ample legroom and a dedicated area for your bulky luggage. We are the top choice for
-            <Link
-              to={`/area-covered`}
-              className="underline font-semibold px-1"
-            >
-             Service Areas We Cover
-            </Link>in the region.
+            Moving a large group requires a spacious and comfortable maxi cab.
+            Our vehicles accommodate up to eleven passengers in a single trip.
+            This is a cost-effective choice for large families or social clubs.
+            You get ample legroom and a dedicated area for your bulky luggage.
+            We are the top choice for
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
+              Service Areas We Cover
+            </Link>
+            in the region.
           </>
         ),
         image: "/users.png",
@@ -17195,14 +17564,15 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Corporate Trips",
         description: (
           <>
-          Coordinate your team building events with our reliable
-            <Link
-              to={`/about`}
-              className="underline font-semibold px-1"
-            >
-          About Us 
-            </Link>transport team. We manage multiple pickups for large office groups heading to local venues. You can track all your bookings through our easy online system. Our fleet handles high-volume requests without sacrificing any service quality. We help your business stay on schedule for every important regional event.
-
+            Coordinate your team building events with our reliable
+            <Link to={`/about`} className="underline font-semibold px-1">
+              About Us
+            </Link>
+            transport team. We manage multiple pickups for large office groups
+            heading to local venues. You can track all your bookings through our
+            easy online system. Our fleet handles high-volume requests without
+            sacrificing any service quality. We help your business stay on
+            schedule for every important regional event.
           </>
         ),
         image: "/briefcase.png",
@@ -17213,17 +17583,15 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
         pathname: "/services/book-taxi-sydney-airport",
       },
     },
-    fleetSectionTitle:
-      "Executive Fleet Options by Liverpool Taxi & Maxi Cabs",
+    fleetSectionTitle: "Executive Fleet Options by Liverpool Taxi & Maxi Cabs",
     fleetSectionSubTitle:
       "Choosing the right vehicle makes your journey through 1 Hurley St, Campbelltown much better. Our diverse fleet meets every specific travel requirement for our multicultural community. We maintain each car to ensure mechanical safety and interior cleanliness. You can select a vehicle that fits your budget and passenger count. Our taxi services near me offer everything from compact cars to large vans. We use the latest GPS technology for efficient routing in every vehicle. You will find our drivers are experts at handling these modern machines. Read our Blogs to learn more about our vehicle standards.",
 
@@ -17235,7 +17603,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         bagsCapacity: 2,
         description: (
           <>
-            This is the perfect choice for solo travellers or couples. You get a comfortable ride for short trips around the suburb. It is an affordable and efficient way to reach your destination.
+            This is the perfect choice for solo travellers or couples. You get a
+            comfortable ride for short trips around the suburb. It is an
+            affordable and efficient way to reach your destination.
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -17248,7 +17618,10 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         bagsCapacity: 2,
         description: (
           <>
-           Enjoy a superior level of comfort with our executive car range. These cars feature premium interiors for a more sophisticated travel experience. You can impress your guests with this high-end transport option today.
+            Enjoy a superior level of comfort with our executive car range.
+            These cars feature premium interiors for a more sophisticated travel
+            experience. You can impress your guests with this high-end transport
+            option today.
           </>
         ),
         image: "/campbelltown-luxury-vehicle.png",
@@ -17261,7 +17634,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         bagsCapacity: 5,
         description: (
           <>
-         Do you have extra bags or sports equipment to carry? Our SUVs provide the additional cargo space you need for daily errands. They offer a smooth ride for families with a few small children.
+            Do you have extra bags or sports equipment to carry? Our SUVs
+            provide the additional cargo space you need for daily errands. They
+            offer a smooth ride for families with a few small children.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -17274,7 +17649,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         bagsCapacity: 8,
         description: (
           <>
-      This vehicle is a favourite for medium-sized families in the area. It offers a perfect balance of passenger seating and storage space. You will love the easy access and modern safety features included.
+            This vehicle is a favourite for medium-sized families in the area.
+            It offers a perfect balance of passenger seating and storage space.
+            You will love the easy access and modern safety features included.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -17287,7 +17664,9 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         bagsCapacity: 8,
         description: (
           <>
-        Our Maxi cabs near me in Liverpool are built for big groups. You can fit your entire party into one clean, air-conditioned van. It is the most social way to travel to any local event.
+            Our Maxi cabs near me in Liverpool are built for big groups. You can
+            fit your entire party into one clean, air-conditioned van. It is the
+            most social way to travel to any local event.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -17300,7 +17679,16 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         bagsCapacity: 8,
         description: (
           <>
-           We provide inclusive transport for passengers with specific mobility needs. Our vehicles feature professional ramps and secure tie-down points for your safety. Our drivers are trained to assist you with care and patience.
+            We provide inclusive transport for passengers with specific mobility
+            needs. Our vehicles feature professional ramps and secure tie-down
+            points for your  <Link
+        target="_blank"
+              to={`https://www.nhtsa.gov/ten-tips-for-safe-driving`}
+              className="underline font-semibold px-1"
+            >
+              safety.
+            </Link> Our drivers are trained to assist you with
+            care and patience.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -17316,19 +17704,12 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
             Call 1300 450 428 or book online at{" "}
             <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               Taxi Booking Page.
-            </Link>Scheduling in advance ensures timely pickups.
+            </Link>
+            Scheduling in advance ensures timely pickups.
           </>
         ),
       },
-      {
-        question: "Are your drivers licensed and professional?",
-        answer: (
-          <>
-            Yes, all our drivers are fully licensed, insured, and trained to
-            provide safe and courteous service.
-          </>
-        ),
-      },
+
       {
         question: "Do you offer maxi cab services for large groups?",
         answer: (
@@ -17374,18 +17755,12 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         question: "Are your drivers professional and trustworthy?",
         answer: (
           <>
-            Yes. All drivers are licensed, vetted, and familiar with Liverpool. Safety, punctuality, and professionalism are our priorities.
+            Yes. All drivers are licensed, vetted, and familiar with Liverpool.
+            Safety, punctuality, and professionalism are our priorities.
           </>
         ),
       },
-      {
-        question: " Are your Maxi Cabs suitable for groups?",
-        answer: (
-          <>
-        Yes, our Maxi Cabs fit up to 8 passengers comfortably. They’re ideal for airport transfers, family trips, or events.
-          </>
-        ),
-      },
+
       {
         question: "Are your taxis available 24/7?",
         answer: (
@@ -17415,14 +17790,11 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         ),
       },
       {
-        question: "Do you offer corporate transport services?",
+        question: "Is your taxi service available on public holidays?",
         answer: (
           <>
-            Yes, our
-            <strong> local taxi service Smeaton Grange </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
+            We operate every day of the year, including Christmas and New Year. You can always find a reliable ride with our professional local team.
+
           </>
         ),
       },
@@ -17431,8 +17803,8 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong> Liverpool taxi cab service</strong> for airport trips,
-            VIP travel, or special occasions.
+            a<strong> Liverpool taxi cab service</strong> for airport trips, VIP
+            travel, or special occasions.
           </>
         ),
       },
@@ -17441,7 +17813,8 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         question: " Can I book late-night or early-morning rides?",
         answer: (
           <>
-            Absolutely. Our taxi service operates 24/7, perfect for shift workers, night travellers, and airport runs.
+            Absolutely. Our taxi service operates 24/7, perfect for shift
+            workers, night travellers, and airport runs.
           </>
         ),
       },
@@ -17467,7 +17840,8 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
         question: "How do I pay for my ride?",
         answer: (
           <>
-           We accept cash, card, and CabCharge for convenience. Payment options are flexible and secure.
+            We accept cash, card, and CabCharge for convenience. Payment options
+            are flexible and secure.
           </>
         ),
       },
@@ -17493,31 +17867,71 @@ or call us for immediate assistance. Safety, reliability, and convenience are ou
       },
     ],
   },
-   "bowral-nsw": {
+  "bowral-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52620.592732552046!2d150.43002019999997!3d-34.48292615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b13a298402fbfcf%3A0x50609b490442490!2sBowral%20NSW%202576%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769805506197!5m2!1sen!2sbd",
     pageTitle: "Bowral Taxi & Maxi Cabs Near Me – Book Your Ride Today",
     metaDescription:
       "Fast & reliable Bowral Taxi & Maxi Cabs – Safe rides for airport, events & groups. Call now 1300 450 428 or book online for stress-free travel.",
     heroTitle: "Bowral Taxi & Maxi Cabs Near Me – Book Your Ride Today",
     heroDescription: (
       <>
-  Are you searching for a reliable <strong>Bowral taxi and cab services</strong> provider? We offer premium transport solutions for residents and visitors in the Southern Highlands. Our team provides 24/7 support for all your local travel requirements. You can book a <strong>maxi cab</strong> for group outings or airport runs. We ensure every journey is safe, comfortable, and always on time. Experience the best <strong>local taxi service Bowral</strong> has to offer with our fleet.
-
-
+        Are you searching for a reliable{" "}
+        <strong>Bowral  <Link
+        
+              to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`}
+              className="underline font-semibold px-1"
+            >
+              Taxi & Maxi Cabs
+            </Link></strong> provider? We offer premium
+        transport solutions for residents and visitors in the Southern
+        Highlands. Our team provides 24/7 support for all your local travel
+        requirements. You can book a <strong>maxi cab</strong> for group outings
+        or airport runs. We ensure every journey is safe, comfortable, and
+        always on time. Experience the best{" "}
+        <strong> <Link
+        
+              to={`https://campbelltowntaxicabs.com.au/book-a-taxi`}
+              className="underline font-semibold px-1"
+            >
+              local taxi service
+            </Link> Bowral</strong> has to offer with our fleet.
       </>
     ),
     bookingFormTitle: "Book Taxi Maxi in Bowral, Australia",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Denham Court",
     locationSectionDescription: (
       <>
-       Finding a dependable <strong> taxi service near me</strong> often feels like a gamble. Many passengers deal with late drivers or cancelled bookings on apps. You deserve a <strong>Bowral Taxi Service</strong> that values your precious time. We focus on punctuality for every trip near 1 Hurley St. Our professional drivers know every shortcut in the local area perfectly. You will enjoy a clean, modern vehicle for your daily commute. We solve the common pain point of unreliable transport for seniors. Our team offers assisted door-to-door service for those needing extra help. You can trust our local taxi service near me for late-night safety. We never use surge pricing during busy holiday peak periods. Your fare remains transparent and fair for every single journey. We provide peace of mind for families and solo female travellers. Choose Bowral taxi and cab services for a stress-free experience today. You can rely on our expertise for all your Southern Highlands transport.
-
+        Finding a dependable <strong>  <Link
+        
+              to={`https://campbelltowntaxicabs.com.au/book-a-taxi`}
+              className="underline font-semibold px-1"
+            >
+        taxi service near me
+            </Link></strong> often feels
+        like a gamble. Many passengers deal with late drivers or cancelled
+        bookings on apps. You deserve a <strong>Bowral Taxi Service</strong>{" "}
+        that values your precious time. We focus on punctuality for every trip
+        near 1 Hurley St. Our professional drivers know every shortcut in the
+        local area perfectly. You will enjoy a clean, modern vehicle for your
+        daily commute. We solve the common pain point of unreliable transport
+        for seniors. Our team offers assisted door-to-door service for those
+        needing extra help. You can trust our local taxi service near me for
+        late-night safety. We never use surge pricing during busy holiday peak
+        periods. Your fare remains transparent and fair for every single
+        journey. We provide peace of mind for families and solo female
+        travellers. Choose Bowral taxi and cab services for a stress-free
+        experience today. You can rely on our expertise for all your Southern
+        Highlands transport.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Bowral, Australia",
     serviceSubtitle: (
       <>
-You can access a wide range of professional transport options here. We cater to diverse needs, from solo trips to group tours. Our Taxi Booking system is fast and very easy to use. You get high-quality service for every mile we drive together.
+        You can access a wide range of professional transport options here. We
+        cater to diverse needs, from solo trips to group tours. Our Taxi Booking
+        system is fast and very easy to use. You get high-quality service for
+        every mile we drive together.
       </>
     ),
     locationServices: {
@@ -17526,7 +17940,13 @@ You can access a wide range of professional transport options here. We cater to 
         title: "Wedding Transfer",
         description: (
           <>
-        You need elegant transport for your special day near <strong>1 Hurley St, Campbelltown</strong>. Our <strong>Bowral Taxi & Maxi Cabs</strong> provide stylish vehicles for the bridal party. We ensure every guest arrives at the venue on time and safely. You can relax knowing our drivers handle the logistics with total professionalism. Your wedding photos will look great with our pristine, polished fleet. Here at
+            You need elegant transport for your special day near{" "}
+            <strong>1 Hurley St, Campbelltown</strong>. Our{" "}
+            <strong>Bowral Taxi & Maxi Cabs</strong> provide stylish vehicles
+            for the bridal party. We ensure every guest arrives at the venue on
+            time and safely. You can relax knowing our drivers handle the
+            logistics with total professionalism. Your wedding photos will look
+            great with our pristine, polished fleet. Here at
             <Link
               to={`/services/wedding-transfer`}
               className="underline font-semibold  px-1"
@@ -17544,13 +17964,15 @@ You can access a wide range of professional transport options here. We cater to 
         title: "Luxury Transfer",
         description: (
           <>
-            Treat yourself to a premium ride with our local taxi cab service near me. We use high-end vehicles to give you a first-class experience every time. You will enjoy leather seats and a quiet cabin during your commute. This service is perfect for special dates or important business meetings. We maintain our
-            <Link
-              to={`/fleet`}
-              className="underline font-semibold px-1"
-            >
-             Taxi Cabs Premium Fleet 
-            </Link>to the highest possible standards.
+            Treat yourself to a premium ride with our local taxi cab service
+            near me. We use high-end vehicles to give you a first-class
+            experience every time. You will enjoy leather seats and a quiet
+            cabin during your commute. This service is perfect for special dates
+            or important business meetings. We maintain our
+            <Link to={`/fleet`} className="underline font-semibold px-1">
+              Taxi Cabs Premium Fleet
+            </Link>
+            to the highest possible standards.
           </>
         ),
         image: "/vehicle.png",
@@ -17562,13 +17984,18 @@ You can access a wide range of professional transport options here. We cater to 
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-          Safety for your children is our highest priority during any trip. We provide 
+            Safety for your children is our highest priority during any trip. We
+            provide
             <Link
               to={`/services/baby-seat-taxi-sydney`}
               className="underline font-semibold px-1"
             >
-               Taxi Booking
-            </Link>options that include pre-installed, certified child seats. You don't have to carry your own heavy equipment when you travel. Our drivers ensure the seats are secure before you begin your journey. It makes family travel to 1 Hurley St, Campbelltown much easier for parents.
+              Taxi Booking
+            </Link>
+            options that include pre-installed, certified child seats. You don't
+            have to carry your own heavy equipment when you travel. Our drivers
+            ensure the seats are secure before you begin your journey. It makes
+            family travel to 1 Hurley St, Campbelltown much easier for parents.
           </>
         ),
         image: "/baby-seat.png",
@@ -17580,13 +18007,19 @@ You can access a wide range of professional transport options here. We cater to 
         title: "Corporate Transport Services",
         description: (
           <>
-            Impress your clients with our punctual and professional Bowral taxi service. We offer 
+            Impress your clients with our punctual and professional Bowral taxi
+            service. We offer
             <Link
               to={`/cabcharge-taxi`}
               className="underline font-semibold px-1"
             >
               CabCharge Taxi Campbelltown
-            </Link>options for easy business expense management. Your staff will appreciate the reliable pickups for early morning meetings. We provide quiet environments so you can work while on the move. Our drivers maintain total discretion for all your sensitive corporate conversations.
+            </Link>
+            options for easy business expense management. Your staff will
+            appreciate the reliable pickups for early morning meetings. We
+            provide quiet environments so you can work while on the move. Our
+            drivers maintain total discretion for all your sensitive corporate
+            conversations.
           </>
         ),
         image: "/corporate.png",
@@ -17598,8 +18031,12 @@ You can access a wide range of professional transport options here. We cater to 
         title: "Cruise Terminal Transfer",
         description: (
           <>
-           Start your holiday without the stress of driving to the docks. Our maxi cab services Bowral have plenty of room for all your suitcases. We drop you off right at the terminal entrance for convenience. You won't have to worry about expensive long-term parking fees at the port. We monitor ship schedules to ensure your return pickup is perfectly timed.
-
+            Start your holiday without the stress of driving to the docks. Our
+            maxi cab services Bowral have plenty of room for all your suitcases.
+            We drop you off right at the terminal entrance for convenience. You
+            won't have to worry about expensive long-term parking fees at the
+            port. We monitor ship schedules to ensure your return pickup is
+            perfectly timed.
           </>
         ),
         image: "/ship.png",
@@ -17610,7 +18047,12 @@ You can access a wide range of professional transport options here. We cater to 
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <>Head to the big game or a concert without any parking hassles. Our maxi cab near me is the best way to travel with friends. We handle the navigation while you enjoy the pre-event excitement with your group. You can book a return ride to avoid the post-event crowds. We pick you up from designated areas for a fast exit.
+          <>
+            Head to the big game or a concert without any parking hassles. Our
+            maxi cab near me is the best way to travel with friends. We handle
+            the navigation while you enjoy the pre-event excitement with your
+            group. You can book a return ride to avoid the post-event crowds. We
+            pick you up from designated areas for a fast exit.
           </>
         ),
         image: "/event.png",
@@ -17622,13 +18064,15 @@ You can access a wide range of professional transport options here. We cater to 
         title: "Maxi Taxi Service",
         description: (
           <>
-           Moving a large group requires a spacious and comfortable maxi cab. Our vehicles accommodate up to eleven passengers in a single trip. This is a cost-effective choice for large families or social clubs. You get ample legroom and a dedicated area for your bulky luggage. We are the top choice for
-            <Link
-              to={`/area-covered`}
-              className="underline font-semibold px-1"
-            >
-             Service Areas We Cover
-            </Link>in the region.
+            Moving a large group requires a spacious and comfortable maxi cab.
+            Our vehicles accommodate up to eleven passengers in a single trip.
+            This is a cost-effective choice for large families or social clubs.
+            You get ample legroom and a dedicated area for your bulky luggage.
+            We are the top choice for
+            <Link to={`/area-covered`} className="underline font-semibold px-1">
+              Service Areas We Cover
+            </Link>
+            in the region.
           </>
         ),
         image: "/users.png",
@@ -17639,14 +18083,15 @@ You can access a wide range of professional transport options here. We cater to 
         title: "Corporate Trips",
         description: (
           <>
-          Coordinate your team building events with our reliable
-            <Link
-              to={`/about`}
-              className="underline font-semibold px-1"
-            >
-          About Us 
-            </Link>transport team. We manage multiple pickups for large office groups heading to local venues. You can track all your bookings through our easy online system. Our fleet handles high-volume requests without sacrificing any service quality. We help your business stay on schedule for every important regional event.
-
+            Coordinate your team building events with our reliable
+            <Link to={`/about`} className="underline font-semibold px-1">
+              About Us
+            </Link>
+            transport team. We manage multiple pickups for large office groups
+            heading to local venues. You can track all your bookings through our
+            easy online system. Our fleet handles high-volume requests without
+            sacrificing any service quality. We help your business stay on
+            schedule for every important regional event.
           </>
         ),
         image: "/briefcase.png",
@@ -17657,17 +18102,15 @@ You can access a wide range of professional transport options here. We cater to 
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
         pathname: "/services/book-taxi-sydney-airport",
       },
     },
-    fleetSectionTitle:
-      "Executive Fleet Options by Bowral Taxi & Maxi Cabs",
+    fleetSectionTitle: "Executive Fleet Options by Bowral Taxi & Maxi Cabs",
     fleetSectionSubTitle:
       "Choosing the right vehicle makes your journey through 1 Hurley St, Campbelltown much better. Our diverse fleet meets every specific travel requirement for our multicultural community. We maintain each car to ensure mechanical safety and interior cleanliness. You can select a vehicle that fits your budget and passenger count. Our taxi services near me offer everything from compact cars to large vans. We use the latest GPS technology for efficient routing in every vehicle. You will find our drivers are experts at handling these modern machines. Read our Blogs to learn more about our vehicle standards.",
 
@@ -17679,7 +18122,9 @@ You can access a wide range of professional transport options here. We cater to 
         bagsCapacity: 2,
         description: (
           <>
-            This is the perfect choice for solo travellers or couples. You get a comfortable ride for short trips around the suburb. It is an affordable and efficient way to reach your destination.
+            This is the perfect choice for solo travellers or couples. You get a
+            comfortable ride for short trips around the suburb. It is an
+            affordable and efficient way to reach your destination.
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -17692,7 +18137,10 @@ You can access a wide range of professional transport options here. We cater to 
         bagsCapacity: 2,
         description: (
           <>
-           Enjoy a superior level of comfort with our executive car range. These cars feature premium interiors for a more sophisticated travel experience. You can impress your guests with this high-end transport option today.
+            Enjoy a superior level of comfort with our executive car range.
+            These cars feature premium interiors for a more sophisticated travel
+            experience. You can impress your guests with this high-end transport
+            option today.
           </>
         ),
         image: "/campbelltown-luxury-vehicle.png",
@@ -17705,7 +18153,9 @@ You can access a wide range of professional transport options here. We cater to 
         bagsCapacity: 5,
         description: (
           <>
-         Do you have extra bags or sports equipment to carry? Our SUVs provide the additional cargo space you need for daily errands. They offer a smooth ride for families with a few small children.
+            Do you have extra bags or sports equipment to carry? Our SUVs
+            provide the additional cargo space you need for daily errands. They
+            offer a smooth ride for families with a few small children.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -17718,7 +18168,9 @@ You can access a wide range of professional transport options here. We cater to 
         bagsCapacity: 8,
         description: (
           <>
-      This vehicle is a favourite for medium-sized families in the area. It offers a perfect balance of passenger seating and storage space. You will love the easy access and modern safety features included.
+            This vehicle is a favourite for medium-sized families in the area.
+            It offers a perfect balance of passenger seating and storage space.
+            You will love the easy access and modern safety features included.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -17731,7 +18183,9 @@ You can access a wide range of professional transport options here. We cater to 
         bagsCapacity: 8,
         description: (
           <>
-        Our Maxi cabs near me in Bowral are built for big groups. You can fit your entire party into one clean, air-conditioned van. It is the most social way to travel to any local event.
+            Our Maxi cabs near me in Bowral are built for big groups. You can
+            fit your entire party into one clean, air-conditioned van. It is the
+            most social way to travel to any local event.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -17744,14 +18198,16 @@ You can access a wide range of professional transport options here. We cater to 
         bagsCapacity: 8,
         description: (
           <>
-           We provide inclusive transport for passengers with specific mobility needs. Our vehicles feature professional ramps and secure tie-down points for your safety. Our drivers are trained to assist you with care and patience.
+            We provide inclusive transport for passengers with specific mobility
+            needs. Our vehicles feature professional ramps and secure tie-down
+            points for your safety. Our drivers are trained to assist you with
+            care and patience.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
       },
     },
-    faqSectionTitle:
-      "Frequently Asked Questions About Bowral Taxi & Maxi Cabs",
+    faqSectionTitle: "Frequently Asked Questions About Bowral Taxi & Maxi Cabs",
     faqs: [
       {
         question: "How can I book a taxi in Bowral?",
@@ -17760,19 +18216,12 @@ You can access a wide range of professional transport options here. We cater to 
             Call 1300 450 428 or book online at{" "}
             <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
               Taxi Booking Page.
-            </Link>Scheduling in advance ensures timely pickups.
+            </Link>
+            Scheduling in advance ensures timely pickups.
           </>
         ),
       },
-      {
-        question: "Are your drivers licensed and professional?",
-        answer: (
-          <>
-            Yes, all our drivers are fully licensed, insured, and trained to
-            provide safe and courteous service.
-          </>
-        ),
-      },
+ 
       {
         question: "Do you offer maxi cab services for large groups?",
         answer: (
@@ -17798,27 +18247,13 @@ You can access a wide range of professional transport options here. We cater to 
           </>
         ),
       },
-      {
-        question: "Can I get a Maxi Cab for group travel?",
-        answer: (
-          <>
-            Absolutely. Our
-            <Link
-              to={`/services/maxi-taxi-service`}
-              className="underline font-semibold px-1"
-            >
-              Fast and Reliable Taxi Airport Service
-            </Link>{" "}
-            accommodates large groups and luggage. Perfect for events, family
-            trips, or corporate travel in Bowral .
-          </>
-        ),
-      },
+
       {
         question: "Are your drivers professional and trustworthy?",
         answer: (
           <>
-            Yes. All drivers are licensed, vetted, and familiar with Bowral. Safety, punctuality, and professionalism are our priorities.
+            Yes. All drivers are licensed, vetted, and familiar with Bowral.
+            Safety, punctuality, and professionalism are our priorities.
           </>
         ),
       },
@@ -17826,7 +18261,8 @@ You can access a wide range of professional transport options here. We cater to 
         question: " Are your Maxi Cabs suitable for groups?",
         answer: (
           <>
-        Yes, our Maxi Cabs fit up to 8 passengers comfortably. They’re ideal for airport transfers, family trips, or events.
+            Yes, our Maxi Cabs fit up to 8 passengers comfortably. They’re ideal
+            for airport transfers, family trips, or events.
           </>
         ),
       },
@@ -17859,14 +18295,16 @@ You can access a wide range of professional transport options here. We cater to 
         ),
       },
       {
-        question: "Do you offer corporate transport services?",
+        question: "What are the taxi rates near me?",
         answer: (
           <>
-            Yes, our
-            <strong> local taxi service Smeaton Grange </strong>
-            handles office commutes, meetings, and corporate travel.
-            Professional drivers ensure safe, on-time, and stress-free rides
-            every time.
+            Our rates follow standard meter pricing with no hidden surge fees. You get an honest price for your local <Link
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Taxis_of_Australia`}
+              className="underline font-semibold px-1"
+            >
+              taxi
+            </Link> service in Bowral.
           </>
         ),
       },
@@ -17875,8 +18313,8 @@ You can access a wide range of professional transport options here. We cater to 
         answer: (
           <>
             Yes. Luxury vehicles provide comfort, privacy, and punctuality. Book
-            a<strong> Bowral taxi cab service</strong> for airport trips,
-            VIP travel, or special occasions.
+            a<strong> Bowral taxi cab service</strong> for airport trips, VIP
+            travel, or special occasions.
           </>
         ),
       },
@@ -17885,7 +18323,8 @@ You can access a wide range of professional transport options here. We cater to 
         question: " Can I book late-night or early-morning rides?",
         answer: (
           <>
-            Absolutely. Our taxi service operates 24/7, perfect for shift workers, night travellers, and airport runs.
+            Absolutely. Our taxi service operates 24/7, perfect for shift
+            workers, night travellers, and airport runs.
           </>
         ),
       },
@@ -17908,10 +18347,16 @@ You can access a wide range of professional transport options here. We cater to 
         ),
       },
       {
-        question: "How do I pay for my ride?",
+        question: "Can I pay for my Bowral taxi and cab services with CabCharge?",
         answer: (
           <>
-           We accept cash, card, and CabCharge for convenience. Payment options are flexible and secure.
+        We proudly accept CabCharge for all corporate and personal <Link
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Travel`}
+              className="underline font-semibold px-1"
+            >
+              travel
+            </Link> needs. It makes expense tracking for your business trips very simple.
           </>
         ),
       },
@@ -17935,40 +18380,80 @@ You can access a wide range of professional transport options here. We cater to 
           </>
         ),
       },
+      {
+        question:
+          "Are your drivers experienced with the local Bowral area?",
+        answer: (
+          <>
+       Our drivers are local experts who know every street and landmark well. They use this knowledge to avoid traffic and get you there faster.
+
+          </>
+        ),
+      },
     ],
   },
-   "airds-nsw": {
+  "airds-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13217.43702992732!2d150.83296045!3d-34.085936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ef9a6edcde1b%3A0x5017d681632ab20!2sAirds%20NSW%202560%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769805743852!5m2!1sen!2sbd",
     pageTitle: "Airds Taxi & Maxi Cabs | 24/7 Reliable Local Taxi Service",
     metaDescription:
       "Airds Taxi & Maxi Cabs provides 24/7 reliable transport. We offer airport transfers, baby seats, and group maxi cabs. Book your safe Airds ride now. Call 1300 450 428!",
     heroTitle: "Airds Taxi & Maxi Cabs | 24/7 Reliable Local Taxi Service",
     heroDescription: (
       <>
-  You can rely on our professional transport team anytime. We offer premium rides throughout the Airds area daily. Our drivers ensure you arrive at your destination safely. You will enjoy modern vehicles and very punctual pickups. We cater to families, corporate groups, and solo travellers. Experience the best<strong> Airds Taxi & Maxi Cabs</strong> service today.
-
-
+        You can rely on our professional transport team anytime. We offer
+        premium rides throughout the Airds area daily. Our drivers ensure you
+        arrive at your destination safely. You will enjoy modern vehicles and
+        very punctual pickups. We cater to families, corporate groups, and solo
+        travellers. Experience the best<strong> Airds <Link
+     
+              to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`}
+              className="underline font-semibold px-1"
+            >
+             Taxi & Maxi Cabs
+            </Link></strong>{" "}
+        service today.
       </>
     ),
     bookingFormTitle: "Book Taxi Maxi in Airds",
-    locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Airds, 1 Hurley St, Campbelltown",
+    locationSectionTitle:
+      "Trusted Taxi and Maxi Cab Services in Airds, 1 Hurley St, Campbelltown",
     locationSectionDescription: (
       <>
-      Finding a dependable<strong> local taxi service near me</strong> often feels difficult. You might face long wait times or sudden cancellations elsewhere. Our<strong>Airds taxi service</strong> solves these common travel frustrations immediately. We operate right near <strong>1 Hurley St, Campbelltown,</strong> for fast responses. You will never worry about missing an important flight again. Our team understands that reliability is your top priority. We use advanced dispatch technology to track every single ride. This ensures your Airds taxi cab service arrives exactly on time. You can book a ride for work or medical trips. We offer transparent pricing to keep your travel costs low. Our drivers maintain clean, comfortable cars for your total enjoyment. You get a stress-free journey across the entire Macarthur region. We prioritize your safety during late-night social outings or events. Trust our expertise for every local trip you need to take.
-
-
+        Finding a dependable <Link
+     
+              to={`https://campbelltowntaxicabs.com.au/book-a-taxi`}
+              className="underline font-semibold px-1"
+            >
+             local taxi service near me
+            </Link> often
+        feels difficult. You might face long wait times or sudden cancellations
+        elsewhere. Our<strong>Airds taxi service</strong> solves these common
+        travel frustrations immediately. We operate right near{" "}
+        <strong>1 Hurley St, Campbelltown,</strong> for fast responses. You will
+        never worry about missing an important flight again. Our team
+        understands that reliability is your top priority. We use advanced
+        dispatch technology to track every single ride. This ensures your Airds
+        taxi cab service arrives exactly on time. You can book a ride for work
+        or medical trips. We offer transparent pricing to keep your travel costs
+        low. Our drivers maintain clean, comfortable cars for your total
+        enjoyment. You get a stress-free journey across the entire Macarthur
+        region. We prioritize your safety during late-night social outings or
+        events. Trust our expertise for every local trip you need to take.
       </>
     ),
     locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in Airds, 1 Hurley St, Campbelltown",
+    serviceTitle:
+      "Our Taxi and Maxi Services in Airds, 1 Hurley St, Campbelltown",
     serviceSubtitle: (
       <>
-Experience the most versatile transport options for your daily needs. We provide specialized vehicles for every occasion near 1 Hurley St. You can    <Link
-              to={`/book-a-taxi`}
-              className="underline font-semibold  px-1"
-            >
-              book a taxi
-            </Link>easily through our website or phone. Our professional team handles group bookings and individual transfers with precision.
-
+        Experience the most versatile transport options for your daily needs. We
+        provide specialized vehicles for every occasion near 1 Hurley St. You
+        can{" "}
+        <Link to={`/book-a-taxi`} className="underline font-semibold  px-1">
+          book a taxi
+        </Link>
+        easily through our website or phone. Our professional team handles group
+        bookings and individual transfers with precision.
       </>
     ),
     locationServices: {
@@ -17977,7 +18462,12 @@ Experience the most versatile transport options for your daily needs. We provide
         title: "Wedding Transfer",
         description: (
           <>
-         Your special day deserves the finest <strong> local taxi service Airds</strong>offers. We coordinate multiple vehicles to transport your guests between local venues. You can relax while our professional drivers handle the heavy traffic. We ensure every guest arrives on time for the ceremony. Our premium fleet adds a touch of class to your event.Here at
+            Your special day deserves the finest{" "}
+            <strong> local taxi service Airds</strong>offers. We coordinate
+            multiple vehicles to transport your guests between local venues. You
+            can relax while our professional drivers handle the heavy traffic.
+            We ensure every guest arrives on time for the ceremony. Our premium
+            fleet adds a touch of class to your event.Here at
             <Link
               to={`/services/wedding-transfer`}
               className="underline font-semibold  px-1"
@@ -17995,7 +18485,12 @@ Experience the most versatile transport options for your daily needs. We provide
         title: "Luxury Transfer",
         description: (
           <>
-            You can enjoy a high-end experience with our premium sedan fleet. This service is perfect for those seeking extra comfort and style. Our drivers provide a discreet and professional atmosphere for your quiet journey. You will love the plush interiors of our premium fleet vehicles. We make every trip feel like a first-class experience for you.
+            You can enjoy a high-end experience with our premium sedan fleet.
+            This service is perfect for those seeking extra comfort and style.
+            Our drivers provide a discreet and professional atmosphere for your
+            quiet journey. You will love the plush interiors of our premium
+            fleet vehicles. We make every trip feel like a first-class
+            experience for you.
           </>
         ),
         image: "/vehicle.png",
@@ -18007,8 +18502,11 @@ Experience the most versatile transport options for your daily needs. We provide
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-         Safety for your children is our absolute number one priority. We provide clean, compliant baby seats for all your family trips. You don't have to carry your own heavy child restraints anymore. Our drivers install the seats correctly before they reach your front door. We make family travel to the shops or doctors very simple.
-
+            Safety for your children is our absolute number one priority. We
+            provide clean, compliant baby seats for all your family trips. You
+            don't have to carry your own heavy child restraints anymore. Our
+            drivers install the seats correctly before they reach your front
+            door. We make family travel to the shops or doctors very simple.
           </>
         ),
         image: "/baby-seat.png",
@@ -18020,7 +18518,12 @@ Experience the most versatile transport options for your daily needs. We provide
         title: "Corporate Transport Services",
         description: (
           <>
-            Business professionals trust our Airds taxi and cab services for vital meetings. You can work comfortably in the back seat during your commute. We provide detailed receipts for all your company expense claims easily. Our punctuality ensures you never walk late into a boardroom session. We represent your business values through our high-quality, professional driving standards.
+            Business professionals trust our Airds taxi and cab services for
+            vital meetings. You can work comfortably in the back seat during
+            your commute. We provide detailed receipts for all your company
+            expense claims easily. Our punctuality ensures you never walk late
+            into a boardroom session. We represent your business values through
+            our high-quality, professional driving standards.
           </>
         ),
         image: "/corporate.png",
@@ -18032,8 +18535,11 @@ Experience the most versatile transport options for your daily needs. We provide
         title: "Cruise Terminal Transfer",
         description: (
           <>
-           Start your holiday stress-free with our reliable cruise terminal transport. We have plenty of room for all your heavy suitcases. Our drivers know the quickest routes to the Sydney ports from Airds. You won't have to navigate busy city traffic or expensive parking. We drop you right at the terminal doors for maximum convenience.
-
+            Start your holiday stress-free with our reliable cruise terminal
+            transport. We have plenty of room for all your heavy suitcases. Our
+            drivers know the quickest routes to the Sydney ports from Airds. You
+            won't have to navigate busy city traffic or expensive parking. We
+            drop you right at the terminal doors for maximum convenience.
           </>
         ),
         image: "/ship.png",
@@ -18044,7 +18550,12 @@ Experience the most versatile transport options for your daily needs. We provide
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <>Getting to concerts or sports games is easy with our help. You can avoid the hassle of finding a park in crowds. We pick you up from your door and drop you close. Our Maxi cabs near me in Airds are perfect for your group. Enjoy the festivities while we take care of the driving for you.
+          <>
+            Getting to concerts or sports games is easy with our help. You can
+            avoid the hassle of finding a park in crowds. We pick you up from
+            your door and drop you close. Our Maxi cabs near me in Airds are
+            perfect for your group. Enjoy the festivities while we take care of
+            the driving for you.
           </>
         ),
         image: "/event.png",
@@ -18056,7 +18567,18 @@ Experience the most versatile transport options for your daily needs. We provide
         title: "Maxi Taxi Service",
         description: (
           <>
-            Our maxi cab services Airds accommodate up to eleven passengers at once. This is the ultimate solution for large families or social groups. You can share the cost with friends to save significant money. We offer CabCharge options for easy payment during your group trip. Your entire party travels together in one spacious, air-conditioned vehicle.
+            Our maxi cab services Airds accommodate up to eleven passengers at
+            once. This is the ultimate solution for large families or social
+            groups. You can share the cost with friends to save significant
+            money. We offer <Link
+     target="_blank"
+              to={`https://en.wikipedia.org/wiki/Maxi_taxi`}
+              className="underline font-semibold px-1"
+            >
+             CabCharge
+            </Link> options for easy payment during your group
+            trip. Your entire party travels together in one spacious,
+            air-conditioned vehicle.
           </>
         ),
         image: "/users.png",
@@ -18067,8 +18589,12 @@ Experience the most versatile transport options for your daily needs. We provide
         title: "Corporate Trips",
         description: (
           <>
-          We manage large-scale transport for your staff and visiting clients. You can set up a corporate account for regular weekly bookings. Our fleet handles airport runs and inter-office transfers with great efficiency. We offer a dedicated service that aligns with your busy schedule. Your clients will appreciate the professional greeting and smooth ride we provide.
-
+            We manage large-scale transport for your staff and visiting clients.
+            You can set up a corporate account for regular weekly bookings. Our
+            fleet handles airport runs and inter-office transfers with great
+            efficiency. We offer a dedicated service that aligns with your busy
+            schedule. Your clients will appreciate the professional greeting and
+            smooth ride we provide.
           </>
         ),
         image: "/briefcase.png",
@@ -18079,9 +18605,8 @@ Experience the most versatile transport options for your daily needs. We provide
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
@@ -18101,7 +18626,9 @@ Experience the most versatile transport options for your daily needs. We provide
         bagsCapacity: 2,
         description: (
           <>
-            This is the perfect choice for solo riders or couples. You get a compact car that navigates narrow Airds streets quickly. It is our most affordable option for your daily local commutes.
+            This is the perfect choice for solo riders or couples. You get a
+            compact car that navigates narrow Airds streets quickly. It is our
+            most affordable option for your daily local commutes.
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -18114,7 +18641,9 @@ Experience the most versatile transport options for your daily needs. We provide
         bagsCapacity: 2,
         description: (
           <>
-         Treat yourself to an executive car for your next big event. You will enjoy extra legroom and a very quiet cabin environment. It is ideal for impressing clients or celebrating a special anniversary.
+            Treat yourself to an executive car for your next big event. You will
+            enjoy extra legroom and a very quiet cabin environment. It is ideal
+            for impressing clients or celebrating a special anniversary.
           </>
         ),
         image: "/campbelltown-luxury-vehicle.png",
@@ -18127,7 +18656,9 @@ Experience the most versatile transport options for your daily needs. We provide
         bagsCapacity: 5,
         description: (
           <>
-        Choose this option if you have extra bags or groceries. You get more space than a sedan without needing a full van. It provides a smooth ride for small families heading out for the day.
+            Choose this option if you have extra bags or groceries. You get more
+            space than a sedan without needing a full van. It provides a smooth
+            ride for small families heading out for the day.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -18140,7 +18671,9 @@ Experience the most versatile transport options for your daily needs. We provide
         bagsCapacity: 8,
         description: (
           <>
-   This popular vehicle bridges the gap between a car and a van. You can seat up to seven passengers in total comfort. It is the favorite choice for school runs and small group outings.
+            This popular vehicle bridges the gap between a car and a van. You
+            can seat up to seven passengers in total comfort. It is the favorite
+            choice for school runs and small group outings.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -18153,7 +18686,9 @@ Experience the most versatile transport options for your daily needs. We provide
         bagsCapacity: 8,
         description: (
           <>
-     Our largest vehicle handles your big groups and bulky items easily. You can fit surfboards, bikes, or several large suitcases in the back. It is the best maxi cab near me for airport runs.
+            Our largest vehicle handles your big groups and bulky items easily.
+            You can fit surfboards, bikes, or several large suitcases in the
+            back. It is the best maxi cab near me for airport runs.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -18166,30 +18701,35 @@ Experience the most versatile transport options for your daily needs. We provide
         bagsCapacity: 8,
         description: (
           <>
-      We provide accessible vehicles with hydraulic hoists for your mobility needs. Our drivers are trained to assist passengers with disabilities with total care. You can travel with dignity and safety to any local destination.
+            We provide accessible vehicles with hydraulic hoists for your
+            mobility needs. Our drivers are trained to assist passengers with
+            disabilities with total care. You can travel with dignity and safety
+            to any local destination.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
       },
     },
-    faqSectionTitle:
-      "Frequently Asked Questions About Airds Taxi & Maxi Cabs",
+    faqSectionTitle: "Frequently Asked Questions About Airds Taxi & Maxi Cabs",
     faqs: [
       {
         question: "How do I find an Airds taxi cab close to me?",
         answer: (
           <>
-           You can call our 24/7 hotline at 1300 450 428 for immediate dispatch. We have drivers stationed near 1 Hurley St to reach you fast.
-
+            You can call our 24/7 hotline at 1300 450 428 for immediate
+            dispatch. We have drivers stationed near 1 Hurley St to reach you
+            fast.
           </>
         ),
       },
       {
-        question: "Are your Maxi Cabs near me in Airds available for airport runs?",
+        question:
+          "Are your Maxi Cabs near me in Airds available for airport runs?",
         answer: (
           <>
-           Yes, we specialize in airport transfers for large groups and heavy luggage. You should book in advance to ensure a perfectly timed morning pickup.
-
+            Yes, we specialize in airport transfers for large groups and heavy
+            luggage. You should book in advance to ensure a perfectly timed
+            morning pickup.
           </>
         ),
       },
@@ -18197,8 +18737,12 @@ Experience the most versatile transport options for your daily needs. We provide
         question: "Can I pay with a credit card in your Airds taxi service?",
         answer: (
           <>
-         Every vehicle in our fleet accepts all major credit cards and <Link to="/cabcharge-taxi" className="underline px-1 font-bold">CabCharge</Link> . You will receive an electronic or paper receipt for your records immediately.
-
+            Every vehicle in our fleet accepts all major credit cards and{" "}
+            <Link target="_blank" to="https://en.wikipedia.org/wiki/Cabcharge" className="underline px-1 font-bold">
+              CabCharge
+            </Link>{" "}
+            . You will receive an electronic or paper receipt for your records
+            immediately.
           </>
         ),
       },
@@ -18206,28 +18750,34 @@ Experience the most versatile transport options for your daily needs. We provide
         question: "Do you offer a local taxi service near me with baby seats?",
         answer: (
           <>
-           We provide pre-installed baby seats upon request for all family bookings. Please mention the age of your child when you call our team.
-
+            We provide pre-installed baby seats upon request for all family
+            bookings. Please mention the age of your child when you call our
+            team.
           </>
         ),
       },
       {
-        question: "What makes your Airds taxi cab service safer than ride-sharing?",
+        question:
+          "What makes your Airds taxi cab service safer than ride-sharing?",
         answer: (
           <>
-           Our drivers are fully licensed professionals who undergo regular police background checks. We use <Link to="/about" className="underline px-1 font-bold">about us</Link>  verified vehicles that meet strict government safety regulations.
-
-
+            Our drivers are fully licensed professionals who undergo regular
+            police background checks. We use{" "}
+            <Link to="/about" className="underline px-1 font-bold">
+              about us
+            </Link>{" "}
+            verified vehicles that meet strict government safety regulations.
           </>
         ),
       },
       {
-        question: "How many people can fit in a maxi cab services Airds vehicle?",
+        question:
+          "How many people can fit in a maxi cab services Airds vehicle?",
         answer: (
           <>
-            Our Maxi Cabs can comfortably transport up to 11 passengers at one time. This makes them the most cost-effective choice for your large group travels.
-
-
+            Our Maxi Cabs can comfortably transport up to 11 passengers at one
+            time. This makes them the most cost-effective choice for your large
+            group travels.
           </>
         ),
       },
@@ -18235,68 +18785,114 @@ Experience the most versatile transport options for your daily needs. We provide
         question: "Can I book an Airds taxi and cab services ride in advance?",
         answer: (
           <>
-           You can schedule your ride days or weeks ahead via our website. This guarantees your driver will be waiting at your door on time.
-
+            You can schedule your ride days or weeks ahead via our website. This
+            guarantees your driver will be waiting at your door on time.
           </>
         ),
       },
       {
-        question: "Is there a taxi service close to me available on public holidays?",
+        question:
+          "Is there a taxi service close to me available on public holidays?",
         answer: (
           <>
-           Our Airds taxi service operates 24 hours a day, 365 days a year. We never close, even on Christmas Day or New Year's Eve.
-
+            Our Airds <Link
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Taxi`}
+              className="underline font-semibold px-1"
+            >
+              taxi
+            </Link> service operates 24 hours a day, 365 days a year. We
+            never close, even on Christmas Day or New Year's Eve.
           </>
         ),
       },
       {
-        question: "Do you provide a taxi service near me for medical appointments? ",
+        question:
+          "Do you provide a taxi service near me for medical appointments? ",
         answer: (
           <>
-          We help many residents reach local hospitals and clinics for their appointments. Our drivers can assist you from your door to the vehicle safely.
-
-
+            We help many residents reach local hospitals and clinics for their
+            appointments. Our drivers can assist you from your door to the
+            vehicle safely.
           </>
         ),
       },
       {
-        question: "Where is your main office located for the Airds taxi cab service? ",
+        question:
+          "Where is your main office located for the Airds taxi cab service? ",
         answer: (
           <>
-          Our primary hub is located at <strong>1 Hurley St, Campbelltown, Australia.</strong> This central location allows us to serve all surrounding suburbs very rapidly.
+            Our primary hub is located at{" "}
+            <strong>1 Hurley St, Campbelltown, Australia.</strong> This central
+            location allows us to serve all surrounding suburbs very rapidly.
           </>
         ),
       },
-     
     ],
   },
-   "ingleburn-nsw": {
-    pageTitle: "Ingleburn Taxi & Maxi Cabs – Affordable & Professional Cab Service",
+  "ingleburn-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26460.13834357409!2d150.85813989999994!3d-34.00493044999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12eb6398af0615%3A0x5017d681632bb90!2sIngleburn%20NSW%202565%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769805961761!5m2!1sen!2sbd",
+    pageTitle:
+      "Ingleburn Taxi & Maxi Cabs – Affordable & Professional Cab Service",
     metaDescription:
       "Reliable Ingleburn Taxi & Maxi Cabs Professional airport transfers and group travel with baby seats Book your safe ride now Call 1300 450 428",
-    heroTitle: "Ingleburn Taxi & Maxi Cabs – Affordable & Professional Cab Service",
+    heroTitle:
+      "Ingleburn Taxi & Maxi Cabs – Affordable & Professional Cab Service",
     heroDescription: (
       <>
-  Experience the best transport in <strong> Ingleburn </strong> with our reliable drivers. We offer Ingleburn taxi and cab services for every travel need. You can book an Ingleburn taxi service for local or long trips. Our fleet includes spacious <strong>maxi cabs near me in Ingleburn</strong> for groups. We guarantee punctual arrivals and clean vehicles for your total comfort. Enjoy a stress-free journey with the top <strong>local taxi service Ingleburn</strong> offers.
-
+        Experience the best transport in <strong> Ingleburn </strong> with our
+        reliable drivers. We offer Ingleburn <Link
+     
+              to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`}
+              className="underline font-semibold px-1"
+            >
+             Taxi & Maxi Cabs
+            </Link> services for every
+        travel need. You can book an Ingleburn taxi service for local or long
+        trips. Our fleet includes spacious{" "}
+        <strong>maxi cabs near me in Ingleburn</strong> for groups. We guarantee
+        punctual arrivals and clean vehicles for your total comfort. Enjoy a
+        stress-free journey with the top{" "}
+        <strong>local taxi service Ingleburn</strong> offers.
       </>
     ),
     bookingFormTitle: "Book for Corporate Transport Service in Ingleburn",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Ingleburn",
     locationSectionDescription: (
       <>
-      Finding a<strong> local taxi service near me</strong> often feels quite stressful. Many passengers worry about late drivers or high surge pricing fees. You deserve a reliable<strong> Ingleburn taxi cab service</strong> that values your time. We provide professional transport solutions directly from our base in Ingleburn. Our team understands the local roads around 1 Hurley St very well. We eliminate the frustration of last-minute cancellations from ride-sharing apps. You get a guaranteed booking when you choose our Ingleburn taxi service. Our drivers maintain high standards of cleanliness for every single passenger. We offer fixed rates to ensure you never face hidden costs. Your safety remains our highest priority during late-night or early-morning trips. We support the multicultural community with friendly and respectful local drivers. You can trust us for daily commutes or special medical visits. We make booking a taxi service close to me fast and simple. Experience the difference with a team that truly cares about your ride.
-
-
+        Finding a<Link
+     
+              to={`https://campbelltowntaxicabs.com.au/book-a-taxi`}
+              className="underline font-semibold px-1"
+            >
+         local taxi service near me
+            </Link> often feels quite
+        stressful. Many passengers worry about late drivers or high surge
+        pricing fees. You deserve a reliable
+        <strong> Ingleburn taxi cab service</strong> that values your time. We
+        provide professional transport solutions directly from our base in
+        Ingleburn. Our team understands the local roads around 1 Hurley St very
+        well. We eliminate the frustration of last-minute cancellations from
+        ride-sharing apps. You get a guaranteed booking when you choose our
+        Ingleburn taxi service. Our drivers maintain high standards of
+        cleanliness for every single passenger. We offer fixed rates to ensure
+        you never face hidden costs. Your safety remains our highest priority
+        during late-night or early-morning trips. We support the multicultural
+        community with friendly and respectful local drivers. You can trust us
+        for daily commutes or special medical visits. We make booking a taxi
+        service close to me fast and simple. Experience the difference with a
+        team that truly cares about your ride.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Ingleburn",
     serviceSubtitle: (
       <>
-You can access a wide range of premium transport options today. We tailor our Ingleburn taxi and cab services to fit your schedule. Our team handles everything from quick local hops to long journeys. Enjoy the convenience of professional drivers who know the fastest local routes.
-
-
+        You can access a wide range of premium transport options today. We
+        tailor our Ingleburn taxi and cab services to fit your schedule. Our
+        team handles everything from quick local hops to long journeys. Enjoy
+        the convenience of professional drivers who know the fastest local
+        routes.
       </>
     ),
     locationServices: {
@@ -18305,7 +18901,12 @@ You can access a wide range of premium transport options today. We tailor our In
         title: "Wedding Transfer",
         description: (
           <>
-         Your special day deserves the finest <strong> local taxi service Ingleburn </strong>offers. We coordinate multiple vehicles to transport your guests between local venues. You can relax while our professional drivers handle the heavy traffic. We ensure every guest arrives on time for the ceremony. Our premium fleet adds a touch of class to your event.Here at
+            Your special day deserves the finest{" "}
+            <strong> local taxi service Ingleburn </strong>offers. We coordinate
+            multiple vehicles to transport your guests between local venues. You
+            can relax while our professional drivers handle the heavy traffic.
+            We ensure every guest arrives on time for the ceremony. Our premium
+            fleet adds a touch of class to your event.Here at
             <Link
               to={`/services/wedding-transfer`}
               className="underline font-semibold  px-1"
@@ -18323,7 +18924,12 @@ You can access a wide range of premium transport options today. We tailor our In
         title: "Luxury Transfer",
         description: (
           <>
-            You can enjoy a high-end experience with our premium sedan fleet. This service is perfect for those seeking extra comfort and style. Our drivers provide a discreet and professional atmosphere for your quiet journey. You will love the plush interiors of our premium fleet vehicles. We make every trip feel like a first-class experience for you.
+            You can enjoy a high-end experience with our premium sedan fleet.
+            This service is perfect for those seeking extra comfort and style.
+            Our drivers provide a discreet and professional atmosphere for your
+            quiet journey. You will love the plush interiors of our premium
+            fleet vehicles. We make every trip feel like a first-class
+            experience for you.
           </>
         ),
         image: "/vehicle.png",
@@ -18335,8 +18941,11 @@ You can access a wide range of premium transport options today. We tailor our In
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-         Safety for your children is our absolute number one priority. We provide clean, compliant baby seats for all your family trips. You don't have to carry your own heavy child restraints anymore. Our drivers install the seats correctly before they reach your front door. We make family travel to the shops or doctors very simple.
-
+            Safety for your children is our absolute number one priority. We
+            provide clean, compliant baby seats for all your family trips. You
+            don't have to carry your own heavy child restraints anymore. Our
+            drivers install the seats correctly before they reach your front
+            door. We make family travel to the shops or doctors very simple.
           </>
         ),
         image: "/baby-seat.png",
@@ -18348,7 +18957,12 @@ You can access a wide range of premium transport options today. We tailor our In
         title: "Corporate Transport Services",
         description: (
           <>
-            Business professionals trust our Ingleburn taxi and cab services for vital meetings. You can work comfortably in the back seat during your commute. We provide detailed receipts for all your company expense claims easily. Our punctuality ensures you never walk late into a boardroom session. We represent your business values through our high-quality, professional driving standards.
+            Business professionals trust our Ingleburn taxi and cab services for
+            vital meetings. You can work comfortably in the back seat during
+            your commute. We provide detailed receipts for all your company
+            expense claims easily. Our punctuality ensures you never walk late
+            into a boardroom session. We represent your business values through
+            our high-quality, professional driving standards.
           </>
         ),
         image: "/corporate.png",
@@ -18360,8 +18974,11 @@ You can access a wide range of premium transport options today. We tailor our In
         title: "Cruise Terminal Transfer",
         description: (
           <>
-           Start your holiday stress-free with our reliable cruise terminal transport. We have plenty of room for all your heavy suitcases. Our drivers know the quickest routes to the Sydney ports from Ingleburn. You won't have to navigate busy city traffic or expensive parking. We drop you right at the terminal doors for maximum convenience.
-
+            Start your holiday stress-free with our reliable cruise terminal
+            transport. We have plenty of room for all your heavy suitcases. Our
+            drivers know the quickest routes to the Sydney ports from Ingleburn.
+            You won't have to navigate busy city traffic or expensive parking.
+            We drop you right at the terminal doors for maximum convenience.
           </>
         ),
         image: "/ship.png",
@@ -18372,7 +18989,12 @@ You can access a wide range of premium transport options today. We tailor our In
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <>Getting to concerts or sports games is easy with our help. You can avoid the hassle of finding a park in crowds. We pick you up from your door and drop you close. Our Maxi cabs near me in Ingleburn are perfect for your group. Enjoy the festivities while we take care of the driving for you.
+          <>
+            Getting to concerts or sports games is easy with our help. You can
+            avoid the hassle of finding a park in crowds. We pick you up from
+            your door and drop you close. Our Maxi cabs near me in Ingleburn are
+            perfect for your group. Enjoy the festivities while we take care of
+            the driving for you.
           </>
         ),
         image: "/event.png",
@@ -18384,7 +19006,12 @@ You can access a wide range of premium transport options today. We tailor our In
         title: "Maxi Taxi Service",
         description: (
           <>
-            Our maxi cab services Ingleburn accommodate up to eleven passengers at once. This is the ultimate solution for large families or social groups. You can share the cost with friends to save significant money. We offer CabCharge options for easy payment during your group trip. Your entire party travels together in one spacious, air-conditioned vehicle.
+            Our maxi cab services Ingleburn accommodate up to eleven passengers
+            at once. This is the ultimate solution for large families or social
+            groups. You can share the cost with friends to save significant
+            money. We offer CabCharge options for easy payment during your group
+            trip. Your entire party travels together in one spacious,
+            air-conditioned vehicle.
           </>
         ),
         image: "/users.png",
@@ -18395,8 +19022,12 @@ You can access a wide range of premium transport options today. We tailor our In
         title: "Corporate Trips",
         description: (
           <>
-          We manage large-scale transport for your staff and visiting clients. You can set up a corporate account for regular weekly bookings. Our fleet handles airport runs and inter-office transfers with great efficiency. We offer a dedicated service that aligns with your busy schedule. Your clients will appreciate the professional greeting and smooth ride we provide.
-
+            We manage large-scale transport for your staff and visiting clients.
+            You can set up a corporate account for regular weekly bookings. Our
+            fleet handles airport runs and inter-office transfers with great
+            efficiency. We offer a dedicated service that aligns with your busy
+            schedule. Your clients will appreciate the professional greeting and
+            smooth ride we provide.
           </>
         ),
         image: "/briefcase.png",
@@ -18407,17 +19038,15 @@ You can access a wide range of premium transport options today. We tailor our In
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
         pathname: "/services/book-taxi-sydney-airport",
       },
     },
-    fleetSectionTitle:
-      "Executive Fleet Options by Ingleburn Taxi & Maxi Cabs",
+    fleetSectionTitle: "Executive Fleet Options by Ingleburn Taxi & Maxi Cabs",
     fleetSectionSubTitle:
       "Choosing the right vehicle makes your journey much more enjoyable and relaxing. We offer a diverse fleet to meet every specific passenger requirement. You can select a car based on your group size or luggage. Our local taxi cab service near me features modern and well-maintained models. We invest in the latest technology to ensure your ride is safe. Every vehicle undergoes regular mechanical checks to prevent any unexpected road delays. You will find our cars clean, fresh, and ready for your trip. We take pride in offering the best fleet in the Ingleburn area.",
 
@@ -18429,7 +19058,9 @@ You can access a wide range of premium transport options today. We tailor our In
         bagsCapacity: 2,
         description: (
           <>
-            This is the perfect choice for solo riders or couples. You get a compact car that navigates narrow Airds streets quickly. It is our most affordable option for your daily local commutes.
+            This is the perfect choice for solo riders or couples. You get a
+            compact car that navigates narrow Airds streets quickly. It is our
+            most affordable option for your daily local commutes.
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -18442,7 +19073,9 @@ You can access a wide range of premium transport options today. We tailor our In
         bagsCapacity: 2,
         description: (
           <>
-         Treat yourself to an executive car for your next big event. You will enjoy extra legroom and a very quiet cabin environment. It is ideal for impressing clients or celebrating a special anniversary.
+            Treat yourself to an executive car for your next big event. You will
+            enjoy extra legroom and a very quiet cabin environment. It is ideal
+            for impressing clients or celebrating a special anniversary.
           </>
         ),
         image: "/campbelltown-luxury-vehicle.png",
@@ -18455,7 +19088,9 @@ You can access a wide range of premium transport options today. We tailor our In
         bagsCapacity: 5,
         description: (
           <>
-        Choose this option if you have extra bags or groceries. You get more space than a sedan without needing a full van. It provides a smooth ride for small families heading out for the day.
+            Choose this option if you have extra bags or groceries. You get more
+            space than a sedan without needing a full van. It provides a smooth
+            ride for small families heading out for the day.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -18468,7 +19103,9 @@ You can access a wide range of premium transport options today. We tailor our In
         bagsCapacity: 8,
         description: (
           <>
-   This popular vehicle bridges the gap between a car and a van. You can seat up to seven passengers in total comfort. It is the favorite choice for school runs and small group outings.
+            This popular vehicle bridges the gap between a car and a van. You
+            can seat up to seven passengers in total comfort. It is the favorite
+            choice for school runs and small group outings.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -18481,7 +19118,9 @@ You can access a wide range of premium transport options today. We tailor our In
         bagsCapacity: 8,
         description: (
           <>
-     Our largest vehicle handles your big groups and bulky items easily. You can fit surfboards, bikes, or several large suitcases in the back. It is the best maxi cab near me for airport runs.
+            Our largest vehicle handles your big groups and bulky items easily.
+            You can fit surfboards, bikes, or several large suitcases in the
+            back. It is the best maxi cab near me for airport runs.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -18494,7 +19133,10 @@ You can access a wide range of premium transport options today. We tailor our In
         bagsCapacity: 8,
         description: (
           <>
-      We provide accessible vehicles with hydraulic hoists for your mobility needs. Our drivers are trained to assist passengers with disabilities with total care. You can travel with dignity and safety to any local destination.
+            We provide accessible vehicles with hydraulic hoists for your
+            mobility needs. Our drivers are trained to assist passengers with
+            disabilities with total care. You can travel with dignity and safety
+            to any local destination.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -18507,26 +19149,34 @@ You can access a wide range of premium transport options today. We tailor our In
         question: "How do I find an Ingleburn taxi cab close to me?",
         answer: (
           <>
-           You can call our 24/7 hotline at 1300 450 428 for immediate dispatch. We have drivers stationed near 1 Hurley St to reach you fast.
-
+            You can call our 24/7 hotline at 1300 450 428 for immediate
+            dispatch. We have drivers stationed near 1 Hurley St to reach you
+            fast.
           </>
         ),
       },
       {
-        question: "Are your Maxi Cabs near me in Ingleburn available for airport runs?",
+        question:
+          "Are your Maxi Cabs near me in Ingleburn available for airport runs?",
         answer: (
           <>
-           Yes, we specialize in airport transfers for large groups and heavy luggage. You should book in advance to ensure a perfectly timed morning pickup.
-
+            Yes, we specialize in airport transfers for large groups and heavy
+            luggage. You should book in advance to ensure a perfectly timed
+            morning pickup.
           </>
         ),
       },
       {
-        question: "Can I pay with a credit card in your Ingleburn taxi service?",
+        question:
+          "Can I pay with a credit card in your Ingleburn taxi service?",
         answer: (
           <>
-         Every vehicle in our fleet accepts all major credit cards and <Link to="/cabcharge-taxi" className="underline px-1 font-bold">CabCharge</Link> . You will receive an electronic or paper receipt for your records immediately.
-
+            Every vehicle in our fleet accepts all major credit cards and{" "}
+            <Link to="/cabcharge-taxi" className="underline px-1 font-bold">
+              CabCharge
+            </Link>{" "}
+            . You will receive an electronic or paper receipt for your records
+            immediately.
           </>
         ),
       },
@@ -18534,98 +19184,144 @@ You can access a wide range of premium transport options today. We tailor our In
         question: "Do you offer a local taxi service near me with baby seats?",
         answer: (
           <>
-           We provide pre-installed baby seats upon request for all family bookings. Please mention the age of your child when you call our team.
-
+            We provide pre-installed baby seats upon request for all family
+            bookings. Please mention the age of your child when you call our
+            team.
           </>
         ),
       },
       {
-        question: "What makes your Ingleburn taxi cab service safer than ride-sharing?",
+        question:
+          "Do your Ingleburn taxi and cab services accept CabCharge? ",
         answer: (
           <>
-           Our drivers are fully licensed professionals who undergo regular police background checks. We use <Link to="/about" className="underline px-1 font-bold">about us</Link>  verified vehicles that meet strict government safety regulations.
-
-
+            OYes, we fully support CabCharge for all our corporate and government travel clients. It makes your
+            <Link target="_blank" to="https://en.wikipedia.org/wiki/Business_travel" className="underline px-1 font-bold">
+             business trip 
+            </Link> payments very simple and completely cashless.
           </>
         ),
       },
       {
-        question: "How many people can fit in a maxi cab services Ingleburn vehicle?",
+        question:
+          "How many people can fit in a maxi cab services Ingleburn vehicle?",
         answer: (
           <>
-            Our Maxi Cabs can comfortably transport up to 11 passengers at one time. This makes them the most cost-effective choice for your large group travels.
-
-
+            Our Maxi Cabs can comfortably transport up to 11 passengers at one
+            time. This makes them the most cost-effective choice for your large
+            group travels.
           </>
         ),
       },
       {
-        question: "Can I book an Ingleburn taxi and cab services ride in advance?",
+        question:
+          "Can I book an Ingleburn taxi and cab services ride in advance?",
         answer: (
           <>
-           You can schedule your ride days or weeks ahead via our website. This guarantees your driver will be waiting at your door on time.
-
+            You can schedule your ride days or weeks ahead via our website. This
+            guarantees your driver will be waiting at your door on time.
           </>
         ),
       },
       {
-        question: "Is there a taxi service close to me available on public holidays?",
+        question:
+          "Is there a taxi service close to me available on public holidays?",
         answer: (
           <>
-           Our Ingleburn taxi service operates 24 hours a day, 365 days a year. We never close, even on Christmas Day or New Year's Eve.
-
+            Our Ingleburn taxi service operates 24 hours a day, 365 days a year.
+            We never close, even on Christmas Day or New Year's Eve.
           </>
         ),
       },
       {
-        question: "Do you provide a taxi service near me for medical appointments? ",
+        question:
+          "Do you provide a taxi service near me for medical appointments? ",
         answer: (
           <>
-          We help many residents reach local hospitals and clinics for their appointments. Our drivers can assist you from your door to the vehicle safely.
-
-
+            We help many residents reach local hospitals and clinics for their
+            appointments. Our drivers can assist you from your door to the
+            <Link
+     target="_blank"
+              to={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges`}
+              className="underline font-semibold px-1"
+            >
+           vehicle
+            </Link> safely.
           </>
         ),
       },
       {
-        question: "Where is your main office located for the Ingleburn taxi cab service? ",
+        question:
+          "Where is your main office located for the Ingleburn taxi cab service? ",
         answer: (
           <>
-          Our primary hub is located at <strong>1 Hurley St, Campbelltown, Australia.</strong> This central location allows us to serve all surrounding suburbs very rapidly.
+            Our primary hub is located at{" "}
+            <strong>1 Hurley St, Campbelltown, Australia.</strong> This central
+            location allows us to serve all surrounding suburbs very rapidly.
           </>
         ),
       },
-     
     ],
   },
-   "oran-park-nsw": {
+  "oran-park-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52929.12490038304!2d150.74249319999998!3d-33.99072785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12f17c6db613d5%3A0x5017d681632c510!2sOran%20Park%20NSW%202570%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769806220226!5m2!1sen!2sbd",
     pageTitle: "Oran Park Taxi & Maxi Cabs – 24/7 Reliable Local Taxi Service",
     metaDescription:
       "Reliable Oran Park Taxi & Maxi Cabs! Get 24/7 airport transfers and group rides with baby seats. Book your safe local ride now. Trusted professional drivers!",
     heroTitle: "Oran Park Taxi & Maxi Cabs – 24/7 Reliable Local Taxi Service",
     heroDescription: (
       <>
-  Experience the best <strong> Oran Park Taxi & Maxi Cabs </strong>  for every journey. You get professional drivers who know the local area perfectly. We provide clean, modern vehicles for your total comfort. Our team offers 24/7 support for all your travel needs. You can enjoy stress-free <strong>airport transfers </strong>  and group trips. Trust the most reliable<strong> local taxi service Oran park</strong> today.
-
+        Experience the best <strong> Oran Park  <Link
+     
+              to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`}
+              className="underline font-semibold px-1"
+            >
+             Taxi & Maxi Cabs
+            </Link> </strong> for
+        every journey. You get professional drivers who know the local area
+        perfectly. We provide clean, modern vehicles for your total comfort. Our
+        team offers 24/7 support for all your travel needs. You can enjoy
+        stress-free <strong>airport transfers </strong> and group trips. Trust
+        the most reliable<strong> local taxi service Oran park</strong> today.
       </>
     ),
     bookingFormTitle: "Book for Corporate Transport Service in Oran Park",
-    locationSectionTitle: "Trusted Taxi and Maxi Cab Services 1 Hurley St, Campbelltown, Australia",
+    locationSectionTitle:
+      "Trusted Taxi and Maxi Cab Services 1 Hurley St, Campbelltown, Australia",
     locationSectionDescription: (
       <>
-      Finding a <strong>taxi service near me </strong> often feels quite stressful. You might worry about late drivers or dirty car interiors. Our <strong> Oran Park Taxi & Maxi Cabs</strong>team solves these issues. We maintain a fleet of high-quality vehicles for your safety. You will receive a prompt pickup at 1 Hurley St, Campbelltown, Australia. Our drivers understand the importance of your daily schedule. We provide a local taxi service near me that you can trust. You can avoid the surge pricing of common ride-share apps. We offer transparent rates for every single passenger we serve. Our staff treats you with the highest level of respect. You will love our air-conditioned cars during the hot summer. We focus on being the top taxi cab service near me. You deserve a smooth ride to work or social events. Let us handle the traffic while you relax in back. Your satisfaction remains our biggest priority every single day of the year.
-
-
-
+        Finding a <strong><Link
+     
+              to={`https://campbelltowntaxicabs.com.au/book-a-taxi`}
+              className="underline font-semibold px-1"
+            >
+             taxi service near me
+            </Link>  </strong> often feels quite
+        stressful. You might worry about late drivers or dirty car interiors.
+        Our <strong> Oran Park Taxi & Maxi Cabs</strong>team solves these
+        issues. We maintain a fleet of high-quality vehicles for your safety.
+        You will receive a prompt pickup at 1 Hurley St, Campbelltown,
+        Australia. Our drivers understand the importance of your daily schedule.
+        We provide a local taxi service near me that you can trust. You can
+        avoid the surge pricing of common ride-share apps. We offer transparent
+        rates for every single passenger we serve. Our staff treats you with the
+        highest level of respect. You will love our air-conditioned cars during
+        the hot summer. We focus on being the top taxi cab service near me. You
+        deserve a smooth ride to work or social events. Let us handle the
+        traffic while you relax in back. Your satisfaction remains our biggest
+        priority every single day of the year.
       </>
     ),
     locationSectionImg: corporateTripsImg,
-    serviceTitle: "Our Taxi and Maxi Services in 1 Hurley St, Campbelltown, Australia",
+    serviceTitle:
+      "Our Taxi and Maxi Services in 1 Hurley St, Campbelltown, Australia",
     serviceSubtitle: (
       <>
-You need a versatile taxi service close to me for different needs. We offer specialised transport solutions for every unique occasion you plan. Our Oran Park taxi and cab services cover everything from luxury to groups. You will enjoy a seamless experience with our professional local team.
-
-
+        You need a versatile taxi service close to me for different needs. We
+        offer specialised transport solutions for every unique occasion you
+        plan. Our Oran Park taxi and cab services cover everything from luxury
+        to groups. You will enjoy a seamless experience with our professional
+        local team.
       </>
     ),
     locationServices: {
@@ -18634,7 +19330,12 @@ You need a versatile taxi service close to me for different needs. We offer spec
         title: "Wedding Transfer",
         description: (
           <>
-         Your special day deserves the finest <strong> local taxi service Oran Park </strong>offers. We coordinate multiple vehicles to transport your guests between local venues. You can relax while our professional drivers handle the heavy traffic. We ensure every guest arrives on time for the ceremony. Our premium fleet adds a touch of class to your event.Here at
+            Your special day deserves the finest{" "}
+            <strong> local taxi service Oran Park </strong>offers. We coordinate
+            multiple vehicles to transport your guests between local venues. You
+            can relax while our professional drivers handle the heavy traffic.
+            We ensure every guest arrives on time for the ceremony. Our premium
+            fleet adds a touch of class to your event.Here at
             <Link
               to={`/services/wedding-transfer`}
               className="underline font-semibold  px-1"
@@ -18652,7 +19353,12 @@ You need a versatile taxi service close to me for different needs. We offer spec
         title: "Luxury Transfer",
         description: (
           <>
-            You can enjoy a high-end experience with our premium sedan fleet. This service is perfect for those seeking extra comfort and style. Our drivers provide a discreet and professional atmosphere for your quiet journey. You will love the plush interiors of our premium fleet vehicles. We make every trip feel like a first-class experience for you.
+            You can enjoy a high-end experience with our premium sedan fleet.
+            This service is perfect for those seeking extra comfort and style.
+            Our drivers provide a discreet and professional atmosphere for your
+            quiet journey. You will love the plush interiors of our premium
+            fleet vehicles. We make every trip feel like a first-class
+            experience for you.
           </>
         ),
         image: "/vehicle.png",
@@ -18664,8 +19370,11 @@ You need a versatile taxi service close to me for different needs. We offer spec
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-         Safety for your children is our absolute number one priority. We provide clean, compliant baby seats for all your family trips. You don't have to carry your own heavy child restraints anymore. Our drivers install the seats correctly before they reach your front door. We make family travel to the shops or doctors very simple.
-
+            Safety for your children is our absolute number one priority. We
+            provide clean, compliant baby seats for all your family trips. You
+            don't have to carry your own heavy child restraints anymore. Our
+            drivers install the seats correctly before they reach your front
+            door. We make family travel to the shops or doctors very simple.
           </>
         ),
         image: "/baby-seat.png",
@@ -18677,7 +19386,12 @@ You need a versatile taxi service close to me for different needs. We offer spec
         title: "Corporate Transport Services",
         description: (
           <>
-            Business professionals trust our Oran Park taxi and cab services for vital meetings. You can work comfortably in the back seat during your commute. We provide detailed receipts for all your company expense claims easily. Our punctuality ensures you never walk late into a boardroom session. We represent your business values through our high-quality, professional driving standards.
+            Business professionals trust our Oran Park taxi and cab services for
+            vital meetings. You can work comfortably in the back seat during
+            your commute. We provide detailed receipts for all your company
+            expense claims easily. Our punctuality ensures you never walk late
+            into a boardroom session. We represent your business values through
+            our high-quality, professional driving standards.
           </>
         ),
         image: "/corporate.png",
@@ -18689,8 +19403,11 @@ You need a versatile taxi service close to me for different needs. We offer spec
         title: "Cruise Terminal Transfer",
         description: (
           <>
-           Start your holiday stress-free with our reliable cruise terminal transport. We have plenty of room for all your heavy suitcases. Our drivers know the quickest routes to the Sydney ports from Oran Park. You won't have to navigate busy city traffic or expensive parking. We drop you right at the terminal doors for maximum convenience.
-
+            Start your holiday stress-free with our reliable cruise terminal
+            transport. We have plenty of room for all your heavy suitcases. Our
+            drivers know the quickest routes to the Sydney ports from Oran Park.
+            You won't have to navigate busy city traffic or expensive parking.
+            We drop you right at the terminal doors for maximum convenience.
           </>
         ),
         image: "/ship.png",
@@ -18701,7 +19418,12 @@ You need a versatile taxi service close to me for different needs. We offer spec
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <>Getting to concerts or sports games is easy with our help. You can avoid the hassle of finding a park in crowds. We pick you up from your door and drop you close. Our Maxi cabs near me in Oran Park are perfect for your group. Enjoy the festivities while we take care of the driving for you.
+          <>
+            Getting to concerts or sports games is easy with our help. You can
+            avoid the hassle of finding a park in crowds. We pick you up from
+            your door and drop you close. Our Maxi cabs near me in Oran Park are
+            perfect for your group. Enjoy the festivities while we take care of
+            the driving for you.
           </>
         ),
         image: "/event.png",
@@ -18713,7 +19435,18 @@ You need a versatile taxi service close to me for different needs. We offer spec
         title: "Maxi Taxi Service",
         description: (
           <>
-            Our maxi cab services Oran Park accommodate up to eleven passengers at once. This is the ultimate solution for large families or social groups. You can share the cost with friends to save significant money. We offer CabCharge options for easy payment during your group trip. Your entire party travels together in one spacious, air-conditioned vehicle.
+            Our <Link
+     target="_blank"
+              to={`https://en.wikipedia.org/?title=Maxicab&redirect=no`}
+              className="underline font-semibold px-1"
+            >
+             Maxi Cabs
+            </Link> services Oran Park accommodate up to eleven passengers
+            at once. This is the ultimate solution for large families or social
+            groups. You can share the cost with friends to save significant
+            money. We offer CabCharge options for easy payment during your group
+            trip. Your entire party travels together in one spacious,
+            air-conditioned vehicle.
           </>
         ),
         image: "/users.png",
@@ -18724,7 +19457,13 @@ You need a versatile taxi service close to me for different needs. We offer spec
         title: "Corporate Trips",
         description: (
           <>
-          We manage large-scale transport for your staff and visiting clients. You can set up a corporate account for regular weekly bookings. Our fleet handles airport runs and inter-office transfers with great efficiency. We offer a dedicated service that aligns with your busy schedule. Your clients will appreciate the professional greeting and smooth ride we provide.
+            Coordinate your team building or off-site meetings with our professional fleet. We provide reliable transport for multiple employees simultaneously. Our Oran Park<Link
+     target="_blank"
+              to={`https://en.wikipedia.org/wiki/Taxi`}
+              className="underline font-semibold px-1"
+            >
+             Taxi
+            </Link>cab is close to me, ensuring nobody is late. You can book in advance to secure your preferred travel times. We provide tax invoices for easy company expense reporting and tracking. Trust our expertise to handle your corporate logistics with total care.
 
           </>
         ),
@@ -18736,17 +19475,15 @@ You need a versatile taxi service close to me for different needs. We offer spec
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
         pathname: "/services/book-taxi-sydney-airport",
       },
     },
-    fleetSectionTitle:
-      "Executive Fleet Options by Oran Park Taxi & Maxi Cabs",
+    fleetSectionTitle: "Executive Fleet Options by Oran Park Taxi & Maxi Cabs",
     fleetSectionSubTitle:
       "Choosing the right vehicle makes your journey much more enjoyable and relaxing. We offer a diverse fleet to meet every specific passenger requirement. You can select a car based on your group size or luggage. Our local taxi cab service near me features modern and well-maintained models. We invest in the latest technology to ensure your ride is safe. Every vehicle undergoes regular mechanical checks to prevent any unexpected road delays. You will find our cars clean, fresh, and ready for your trip. We take pride in offering the best fleet in the Oran Park area.",
 
@@ -18758,7 +19495,9 @@ You need a versatile taxi service close to me for different needs. We offer spec
         bagsCapacity: 2,
         description: (
           <>
-            This is the perfect choice for solo riders or couples. You get a compact car that navigates narrow Airds streets quickly. It is our most affordable option for your daily local commutes.
+            This is the perfect choice for solo riders or couples. You get a
+            compact car that navigates narrow Airds streets quickly. It is our
+            most affordable option for your daily local commutes.
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -18771,7 +19510,9 @@ You need a versatile taxi service close to me for different needs. We offer spec
         bagsCapacity: 2,
         description: (
           <>
-         Treat yourself to an executive car for your next big event. You will enjoy extra legroom and a very quiet cabin environment. It is ideal for impressing clients or celebrating a special anniversary.
+            Treat yourself to an executive car for your next big event. You will
+            enjoy extra legroom and a very quiet cabin environment. It is ideal
+            for impressing clients or celebrating a special anniversary.
           </>
         ),
         image: "/campbelltown-luxury-vehicle.png",
@@ -18784,7 +19525,9 @@ You need a versatile taxi service close to me for different needs. We offer spec
         bagsCapacity: 5,
         description: (
           <>
-        Choose this option if you have extra bags or groceries. You get more space than a sedan without needing a full van. It provides a smooth ride for small families heading out for the day.
+            Choose this option if you have extra bags or groceries. You get more
+            space than a sedan without needing a full van. It provides a smooth
+            ride for small families heading out for the day.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -18797,7 +19540,9 @@ You need a versatile taxi service close to me for different needs. We offer spec
         bagsCapacity: 8,
         description: (
           <>
-   This popular vehicle bridges the gap between a car and a van. You can seat up to seven passengers in total comfort. It is the favorite choice for school runs and small group outings.
+            This popular vehicle bridges the gap between a car and a van. You
+            can seat up to seven passengers in total comfort. It is the favorite
+            choice for school runs and small group outings.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -18810,7 +19555,9 @@ You need a versatile taxi service close to me for different needs. We offer spec
         bagsCapacity: 8,
         description: (
           <>
-     Our largest vehicle handles your big groups and bulky items easily. You can fit surfboards, bikes, or several large suitcases in the back. It is the best maxi cab near me for airport runs.
+            Our largest vehicle handles your big groups and bulky items easily.
+            You can fit surfboards, bikes, or several large suitcases in the
+            back. It is the best maxi cab near me for airport runs.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -18823,7 +19570,10 @@ You need a versatile taxi service close to me for different needs. We offer spec
         bagsCapacity: 8,
         description: (
           <>
-      We provide accessible vehicles with hydraulic hoists for your mobility needs. Our drivers are trained to assist passengers with disabilities with total care. You can travel with dignity and safety to any local destination.
+            We provide accessible vehicles with hydraulic hoists for your
+            mobility needs. Our drivers are trained to assist passengers with
+            disabilities with total care. You can travel with dignity and safety
+            to any local destination.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -18836,26 +19586,34 @@ You need a versatile taxi service close to me for different needs. We offer spec
         question: "How do I find an Oran Park taxi cab close to me?",
         answer: (
           <>
-           You can call our 24/7 hotline at 1300 450 428 for immediate dispatch. We have drivers stationed near 1 Hurley St to reach you fast.
-
+            You can call our 24/7 hotline at 1300 450 428 for immediate
+            dispatch. We have drivers stationed near 1 Hurley St to reach you
+            fast.
           </>
         ),
       },
       {
-        question: "Are your Maxi Cabs near me in Oran Park available for airport runs?",
+        question:
+          "Are your Maxi Cabs near me in Oran Park available for airport runs?",
         answer: (
           <>
-           Yes, we specialize in airport transfers for large groups and heavy luggage. You should book in advance to ensure a perfectly timed morning pickup.
-
+            Yes, we specialize in airport transfers for large groups and heavy
+            luggage. You should book in advance to ensure a perfectly timed
+            morning pickup.
           </>
         ),
       },
       {
-        question: "Can I pay with a credit card in your Oran Park taxi service?",
+        question:
+          "Can I pay with a credit card in your Oran Park taxi service?",
         answer: (
           <>
-         Every vehicle in our fleet accepts all major credit cards and <Link to="/cabcharge-taxi" className="underline px-1 font-bold">CabCharge</Link> . You will receive an electronic or paper receipt for your records immediately.
-
+            Every vehicle in our fleet accepts all major credit cards and{" "}
+            <Link to="/cabcharge-taxi" className="underline px-1 font-bold">
+              CabCharge
+            </Link>{" "}
+            . You will receive an electronic or paper receipt for your records
+            immediately.
           </>
         ),
       },
@@ -18863,96 +19621,146 @@ You need a versatile taxi service close to me for different needs. We offer spec
         question: "Do you offer a local taxi service near me with baby seats?",
         answer: (
           <>
-           We provide pre-installed baby seats upon request for all family bookings. Please mention the age of your child when you call our team.
-
+            We provide pre-installed baby seats upon request for all family
+            bookings. Please mention the age of your child when you call our
+            team.
           </>
         ),
       },
       {
-        question: "What makes your Oran Park taxi cab service safer than ride-sharing?",
+        question:
+          "What makes your Oran Park taxi cab service safer than ride-sharing?",
         answer: (
           <>
-           Our drivers are fully licensed professionals who undergo regular police background checks. We use <Link to="/about" className="underline px-1 font-bold">about us</Link>  verified vehicles that meet strict government safety regulations.
-
-
+            Our drivers are fully licensed professionals who undergo regular
+            police background checks. We use{" "}
+            <Link to="/about" className="underline px-1 font-bold">
+              about us
+            </Link>{" "}
+            verified vehicles that meet strict government safety regulations.
           </>
         ),
       },
       {
-        question: "How many people can fit in a maxi cab services Oran Park vehicle?",
+        question:
+          "How many people can fit in a maxi cab services Oran Park vehicle?",
         answer: (
           <>
-            Our Maxi Cabs can comfortably transport up to 11 passengers at one time. This makes them the most cost-effective choice for your large group travels.
-
-
+            Our Maxi Cabs can comfortably transport up to 11 passengers at one
+            time. This makes them the most cost-effective choice for your large
+            group travels.
           </>
         ),
       },
       {
-        question: "Can I book an Oran Park taxi and cab services ride in advance?",
+        question:
+          "Can I book an Oran Park taxi and cab services ride in advance?",
         answer: (
           <>
-           You can schedule your ride days or weeks ahead via our website. This guarantees your driver will be waiting at your door on time.
-
+            You can schedule your ride days or weeks ahead via our website. This
+            guarantees your driver will be waiting at your door on time.
           </>
         ),
       },
       {
-        question: "Is there a taxi service close to me available on public holidays?",
+        question:
+          "Is there a taxi service close to me available on public holidays?",
         answer: (
           <>
-           Our Oran Park taxi service operates 24 hours a day, 365 days a year. We never close, even on Christmas Day or New Year's Eve.
-
+            Our Oran Park taxi service operates 24 hours a day, 365 days a year.
+            We never close, even on Christmas Day or New Year's Eve.
           </>
         ),
       },
       {
-        question: "Do you provide a taxi service near me for medical appointments? ",
+        question:
+          "Do you provide a taxi service near me for medical appointments? ",
         answer: (
           <>
-          We help many residents reach local hospitals and clinics for their appointments. Our drivers can assist you from your door to the vehicle safely.
-
-
+            We help many residents reach local hospitals and clinics for their
+            appointments. Our drivers can assist you from your door to the
+            vehicle safely.
           </>
         ),
       },
       {
-        question: "Where is your main office located for the Oran Park taxi cab service? ",
+        question:
+          "Where is your main office located for the Oran Park taxi cab service? ",
         answer: (
           <>
-          Our primary hub is located at <strong>1 Hurley St, Campbelltown, Australia.</strong> This central location allows us to serve all surrounding suburbs very rapidly.
+            Our primary hub is located at{" "}
+            <strong>1 Hurley St, Campbelltown, Australia.</strong> This central
+            location allows us to serve all surrounding suburbs very rapidly.
           </>
         ),
       },
-     
     ],
   },
-   "elderslie-nsw": {
+  "elderslie-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26443.73229282772!2d150.7160768999999!3d-34.05755289999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12f0d49999b5c7%3A0x5017d681632b620!2sElderslie%20NSW%202570%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769806487887!5m2!1sen!2sbd",
     pageTitle: "Elderslie Taxi & Maxi Cabs – Reliable 24/7 Local Service",
     metaDescription:
       "Get 24/7 reliable rides with Elderslie Taxi & Maxi Cabs. We offer clean vehicles and expert local drivers. Call 1300 450 428 to book your premium ride now!",
     heroTitle: "Elderslie Taxi & Maxi Cabs – Reliable 24/7 Local Service",
     heroDescription: (
       <>
- <strong>Elderslie Taxi & Maxi Cabs</strong> provides fast and dependable local transport for you. Our professional drivers ensure you reach your destination safely and on time. We offer a modern fleet ranging from sleek sedans to large vans. You can book our services for airport runs or quick local trips. Experience premium comfort with our 24/7 availability across the entire Macarthur region. Your satisfaction remains our top priority for every single journey you take.
-
+        <strong>Elderslie <Link
+     
+              to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`}
+              className="underline font-semibold px-1"
+            >
+             Taxi & Maxi Cabs
+            </Link> </strong> provides fast and dependable
+        local transport for you. Our professional drivers ensure you reach your
+        destination safely and on time. We offer a modern fleet ranging from
+        sleek sedans to large vans. You can<Link
+     
+              to={`https://campbelltowntaxicabs.com.au/book-a-taxi`}
+              className="underline font-semibold px-1"
+            >
+             book our
+            </Link>   services for airport runs
+        or quick local trips. Experience premium comfort with our 24/7
+        availability across the entire Macarthur region. Your satisfaction
+        remains our top priority for every single journey you take.
       </>
     ),
     bookingFormTitle: "Book for Corporate Transport Service in Elderslie",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services Elderslie",
     locationSectionDescription: (
       <>
-     You deserve a transport partner that values your time and safety. Finding a reliable<strong> local taxi service Elderslie </strong>  can often feel quite stressful. Many passengers worry about late arrivals or cars that never show up. I have seen many commuters stranded at stations due to unreliable apps. We solve these problems by providing a guaranteed <strong>Elderslie taxi service</strong>you can trust. Our drivers know the best routes around <strong>1 Hurley St, Campbelltown</strong>and beyond. We maintain our Taxi Cabs Premium Fleet to the highest mechanical standards. You will enjoy a clean, climate-controlled environment on every single trip. We focus on being the most dependable Elderslie taxi cab service for you. Our team treats every passenger with professional care and local expertise. You can relax knowing your driver is a fully licensed professional. We provide transparent pricing without any hidden surge fees or costs.
-
+        You deserve a transport partner that values your time and safety.
+        Finding a reliable<strong> local taxi service Elderslie </strong> can
+        often feel quite stressful. Many passengers worry about late arrivals or
+        cars that never show up. I have seen many commuters stranded at stations
+        due to unreliable apps. We solve these problems by providing a
+        guaranteed <strong>Elderslie taxi service</strong>you can trust. Our
+        drivers know the best routes around{" "}
+        <strong>1 Hurley St, Campbelltown</strong>and beyond. We maintain our
+        Taxi Cabs <Link
+     
+              to={`https://campbelltowntaxicabs.com.au/fleet`}
+              className="underline font-semibold px-1"
+            >
+             Premium Fleet
+            </Link> to the highest mechanical standards. You will
+        enjoy a clean, climate-controlled environment on every single trip. We
+        focus on being the most dependable Elderslie taxi cab service for you.
+        Our team treats every passenger with professional care and local
+        expertise. You can relax knowing your driver is a fully licensed
+        professional. We provide transparent pricing without any hidden surge
+        fees or costs.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Elderslie",
     serviceSubtitle: (
       <>
-We provide a comprehensive range of transport solutions for your daily needs. Our team handles everything from quick errands to major corporate events. You get a personalized experience with our <strong>local taxi service near me.</strong>Explore our specialized services designed to make your travel much easier.
-
-
+        We provide a comprehensive range of transport solutions for your daily
+        needs. Our team handles everything from quick errands to major corporate
+        events. You get a personalized experience with our{" "}
+        <strong>local taxi service near me.</strong>Explore our specialized
+        services designed to make your travel much easier.
       </>
     ),
     locationServices: {
@@ -18961,7 +19769,11 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Wedding Transfer",
         description: (
           <>
-          You will arrive at your venue in total style and comfort. We coordinate multiple vehicles to move your entire guest list safely. Our drivers ensure punctuality so your special day runs without any delays. You can trust our <strong>Elderslie taxi and cab services </strong>for your big event.
+            You will arrive at your venue in total style and comfort. We
+            coordinate multiple vehicles to move your entire guest list safely.
+            Our drivers ensure punctuality so your special day runs without any
+            delays. You can trust our{" "}
+            <strong>Elderslie taxi and cab services </strong>for your big event.
           </>
         ),
         image: "/car.png",
@@ -18973,7 +19785,10 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Luxury Transfer",
         description: (
           <>
-            Treat yourself to a premium ride in our high-end corporate sedans. These vehicles offer extra legroom and a quiet space for your work. I recommend this service for VIP guests or special dinner dates. You will enjoy the smoothest ride available in the local Elderslie area.
+            Treat yourself to a premium ride in our high-end corporate sedans.
+            These vehicles offer extra legroom and a quiet space for your work.
+            I recommend this service for VIP guests or special dinner dates. You
+            will enjoy the smoothest ride available in the local Elderslie area.
           </>
         ),
         image: "/vehicle.png",
@@ -18985,8 +19800,11 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-         Your child’s safety is our most important concern during any trip. We provide professionally installed child restraints for all ages upon your request. Just mention your needs during your Taxi Booking to ensure a safe ride. Parents love this convenience when traveling to medical appointments or family visits.
-
+            Your child’s safety is our most important concern during any trip.
+            We provide professionally installed child restraints for all ages
+            upon your request. Just mention your needs during your Taxi Booking
+            to ensure a safe ride. Parents love this convenience when traveling
+            to medical appointments or family visits.
           </>
         ),
         image: "/baby-seat.png",
@@ -18998,7 +19816,11 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Corporate Transport Services",
         description: (
           <>
-            We help you maintain a professional image with our reliable executive cars. Use our CabCharge Taxi Campbelltown options for easy and fast digital billing. We ensure you never miss an important board meeting or a flight. Our drivers provide a discreet and punctual service for all business professionals.
+            We help you maintain a professional image with our reliable
+            executive cars. Use our CabCharge Taxi Campbelltown options for easy
+            and fast digital billing. We ensure you never miss an important
+            board meeting or a flight. Our drivers provide a discreet and
+            punctual service for all business professionals.
           </>
         ),
         image: "/corporate.png",
@@ -19010,8 +19832,10 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Cruise Terminal Transfer",
         description: (
           <>
-       Start your holiday early with a stress-free trip to the ship. We have plenty of room for all your heavy suitcases and bags. Our Maxi Cabs near me in Elderslie provide the perfect space for groups. We drop you right at the terminal door for ultimate convenience.
-
+            Start your holiday early with a stress-free trip to the ship. We
+            have plenty of room for all your heavy suitcases and bags. Our Maxi
+            Cabs near me in Elderslie provide the perfect space for groups. We
+            drop you right at the terminal door for ultimate convenience.
           </>
         ),
         image: "/ship.png",
@@ -19022,8 +19846,12 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <> Heading to a concert or a big game at the stadium? Avoid the massive parking crowds by choosing our professional Elderslie taxi cab service. We pick you up right after the event ends without any fuss. You and your friends can enjoy the night while we drive.
-
+          <>
+            {" "}
+            Heading to a concert or a big game at the stadium? Avoid the massive
+            parking crowds by choosing our professional Elderslie taxi cab
+            service. We pick you up right after the event ends without any fuss.
+            You and your friends can enjoy the night while we drive.
           </>
         ),
         image: "/event.png",
@@ -19035,8 +19863,10 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Maxi Taxi Service",
         description: (
           <>
-         You can move up to eleven people in one single vehicle. Our maxi cab services Elderslie are ideal for large family outings or parties. You save money by booking one large van instead of two small cars. We handle all your bulky gear and extra luggage with ease.
-
+            You can move up to eleven people in one single vehicle. Our maxi cab
+            services Elderslie are ideal for large family outings or parties.
+            You save money by booking one large van instead of two small cars.
+            We handle all your bulky gear and extra luggage with ease.
           </>
         ),
         image: "/users.png",
@@ -19047,9 +19877,11 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Corporate Trips",
         description: (
           <>
- We manage your staff transport needs with total efficiency and care. Our team provides detailed invoices to help you track your travel spending. You can rely on us for consistent service across all your office locations. We prioritize your business schedule to keep your operations running smoothly.
-
-
+            We manage your staff transport needs with total efficiency and care.
+            Our team provides detailed invoices to help you track your travel
+            spending. You can rely on us for consistent service across all your
+            office locations. We prioritize your business schedule to keep your
+            operations running smoothly.
           </>
         ),
         image: "/briefcase.png",
@@ -19060,19 +19892,26 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
         pathname: "/services/book-taxi-sydney-airport",
       },
     },
-    fleetSectionTitle:
-      "Executive Fleet Options by Elderslie Taxi & Maxi Cabs",
+    fleetSectionTitle: "Executive Fleet Options by Elderslie Taxi & Maxi Cabs",
     fleetSectionSubTitle:
-      "You want a vehicle that perfectly matches your specific travel requirements. Our diverse fleet ensures we have the right car for every passenger. I personally ensure each vehicle stays in pristine condition for your ride. We use the latest technology to track our fleet for your safety. You can choose from compact cars or very large multi-seater vans. We provide the most versatile taxi services near me for the community. Our drivers take great pride in maintaining the cleanliness of their cars. You will always feel comfortable and respected when you choose our service. We bridge the gap where public transport often fails you.",
+     <>
+     You want a vehicle that perfectly matches your specific travel requirements. Our diverse fleet ensures we have the right car for every passenger. I personally ensure each vehicle stays in pristine condition for your ride. We use the latest technology to track our fleet for your safety. You can choose from compact cars or very large multi-seater vans. We provide the most versatile <Link
+     target="_blank"
+              to={`https://en.wikipedia.org/wiki/Taxis_of_Australia`}
+              className="underline font-semibold px-1"
+            >
+             Taxi 
+            </Link>  services near me for the community. Our drivers take great pride in keeping their cars clean. You will always feel comfortable and respected when you choose our service. We bridge the gap where public transport often fails you.
+     
+     </>,
 
     fleetSectionVehicles: {
       1: {
@@ -19082,7 +19921,9 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         bagsCapacity: 2,
         description: (
           <>
-          This is the perfect choice for solo travelers or small groups. You get a quick and efficient taxi service close to me anytime. These cars offer great fuel efficiency and a very smooth ride.
+            This is the perfect choice for solo travelers or small groups. You
+            get a quick and efficient taxi service close to me anytime. These
+            cars offer great fuel efficiency and a very smooth ride.
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -19095,7 +19936,10 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         bagsCapacity: 2,
         description: (
           <>
-   Step up to a higher standard of travel for your next trip. These cars feature leather interiors and extra premium features for your comfort. It is the ultimate way to travel through the Elderslie region.
+            Step up to a higher standard of travel for your next trip. These
+            cars feature leather interiors and extra premium features for your
+            comfort. It is the ultimate way to travel through the Elderslie
+            region.
           </>
         ),
         image: "/campbelltown-luxury-vehicle.png",
@@ -19108,7 +19952,9 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         bagsCapacity: 5,
         description: (
           <>
-You get extra boot space for your groceries or sports gear. This option suits small families who have a few extra bags. It provides a more elevated seating position for a better view.
+            You get extra boot space for your groceries or sports gear. This
+            option suits small families who have a few extra bags. It provides a
+            more elevated seating position for a better view.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -19121,7 +19967,9 @@ You get extra boot space for your groceries or sports gear. This option suits sm
         bagsCapacity: 8,
         description: (
           <>
-This modern people mover is a favorite for local family trips. It offers a very spacious interior with plenty of room for everyone. You will enjoy the modern safety features and smooth handling.
+            This modern people mover is a favorite for local family trips. It
+            offers a very spacious interior with plenty of room for everyone.
+            You will enjoy the modern safety features and smooth handling.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -19134,7 +19982,9 @@ This modern people mover is a favorite for local family trips. It offers a very 
         bagsCapacity: 8,
         description: (
           <>
-Our maxi cab is the workhorse of our fleet for groups. It handles large crowds and heavy items without any struggle at all. You can book this for any group social outing or transfer.
+            Our maxi cab is the workhorse of our fleet for groups. It handles
+            large crowds and heavy items without any struggle at all. You can
+            book this for any group social outing or transfer.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -19147,7 +19997,9 @@ Our maxi cab is the workhorse of our fleet for groups. It handles large crowds a
         bagsCapacity: 8,
         description: (
           <>
-We offer fully accessible vehicles for passengers with limited mobility. Our drivers are trained to assist you with total patience and care. You get a safe and reliable taxi service near me.
+            We offer fully accessible vehicles for passengers with limited
+            mobility. Our drivers are trained to assist you with total patience
+            and care. You get a safe and reliable taxi service near me.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -19160,26 +20012,33 @@ We offer fully accessible vehicles for passengers with limited mobility. Our dri
         question: "How do I find an Elderslie taxi cab close to me?",
         answer: (
           <>
-          You can call us on 1300 450 428 for immediate service. We use GPS to send the nearest driver to your exact location.
-
+            You can call us on 1300 450 428 for immediate service. We use GPS to
+            send the nearest driver to your exact location.
           </>
         ),
       },
       {
-        question: "Are your Maxi Cabs near me in Elderslie available for airport runs?",
+        question:
+          "Are your Maxi Cabs near me in Elderslie available for airport runs?",
         answer: (
           <>
-           Yes, we specialize in airport transfers for large groups and heavy luggage. You should book in advance to ensure a perfectly timed morning pickup.
-
+            Yes, we specialize in airport transfers for large groups and heavy
+            luggage. You should book in advance to ensure a perfectly timed
+            morning pickup.
           </>
         ),
       },
       {
-        question: "Can I pay with a credit card in your Elderslie taxi service?",
+        question:
+          "Can I pay with a credit card in your Elderslie taxi service?",
         answer: (
           <>
-         Every vehicle in our fleet accepts all major credit cards and <Link to="/cabcharge-taxi" className="underline px-1 font-bold">CabCharge</Link> . You will receive an electronic or paper receipt for your records immediately.
-
+            Every vehicle in our fleet accepts all major credit cards and{" "}
+            <Link to="/cabcharge-taxi" className="underline px-1 font-bold">
+              CabCharge
+            </Link>{" "}
+            . You will receive an electronic or paper receipt for your records
+            immediately.
           </>
         ),
       },
@@ -19187,78 +20046,130 @@ We offer fully accessible vehicles for passengers with limited mobility. Our dri
         question: "Do you offer a local taxi service near me with baby seats?",
         answer: (
           <>
-           We provide pre-installed baby seats upon request for all family bookings. Please mention the age of your child when you call our team.
+            We provide pre-installed baby seats upon request for all family
+            bookings. Please mention the age of your child when you call our
+            team.
+          </>
+        ),
+      },
+      {
+        question:
+          "What makes your Elderslie taxi cab service safer than ride-sharing?",
+        answer: (
+          <>
+            Our drivers are fully licensed professionals who undergo regular
+            police background checks. We use{" "}
+            <Link to="/about" className="underline px-1 font-bold">
+              about us
+            </Link>{" "}
+            verified vehicles that meet strict government safety regulations.
+          </>
+        ),
+      },
+      {
+        question:
+          "How many people can fit in a maxi cab services Elderslie vehicle?",
+        answer: (
+          <>
+            Our Maxi Cabs can comfortably transport up to 11 passengers at one
+            time. This makes them the most cost-effective choice for your large
+            group travels.
+          </>
+        ),
+      },
+      {
+        question:
+          "Can I book an Elderslie taxi and cab services ride in advance?",
+        answer: (
+          <>
+            You can schedule your ride days or weeks ahead via our website. This
+            guarantees your driver will be waiting at your door on time.
+          </>
+        ),
+      },
+      {
+        question:
+          "Is there a taxi service close to me available on public holidays?",
+        answer: (
+          <>
+            Our Elderslie taxi service operates 24 hours a day, 365 days a year.
+            We never close, even on Christmas Day or New Year's Eve.
+          </>
+        ),
+      },
+      {
+        question:
+          "How much does a taxi cab service near me cost?  ",
+        answer: (
+          <>
+         We offer fair and regulated pricing for all our local <Link
+     target="_blank"
+              to={`https://en.wikipedia.org/wiki/Road_trip`}
+              className="underline font-semibold px-1"
+            >
+           trips.
+            </Link>  You will not encounter surge pricing, as is common on other apps.
 
           </>
         ),
       },
       {
-        question: "What makes your Elderslie taxi cab service safer than ride-sharing?",
+        question:
+          "Do you provide a taxi service near me for medical appointments? ",
         answer: (
           <>
-           Our drivers are fully licensed professionals who undergo regular police background checks. We use <Link to="/about" className="underline px-1 font-bold">about us</Link>  verified vehicles that meet strict government safety regulations.
-
-
+            We help many residents reach local hospitals and clinics for their
+            appointments. Our drivers can assist you from your door to the
+            vehicle safely.
           </>
         ),
       },
       {
-        question: "How many people can fit in a maxi cab services Elderslie vehicle?",
+        question:
+          "What areas do you cover besides Elderslie? ",
         answer: (
           <>
-            Our Maxi Cabs can comfortably transport up to 11 passengers at one time. This makes them the most cost-effective choice for your large group travels.
-
-
+            We serve Campbelltown CBD, Macarthur, Leumeah, Minto, Ingleburn, and Ambarvale. Our fleet covers the entire region to help you travel.
           </>
         ),
       },
       {
-        question: "Can I book an Elderslie taxi and cab services ride in advance?",
+        question:
+          "Where is your main office located for the Elderslie taxi cab service? ",
         answer: (
           <>
-           You can schedule your ride days or weeks ahead via our website. This guarantees your driver will be waiting at your door on time.
-
+            Our primary hub is located at{" "}
+            <strong>1 Hurley St, Campbelltown, Australia.</strong> This central
+            location allows us to serve all surrounding suburbs very rapidly.
           </>
         ),
       },
-      {
-        question: "Is there a taxi service close to me available on public holidays?",
-        answer: (
-          <>
-           Our Elderslie taxi service operates 24 hours a day, 365 days a year. We never close, even on Christmas Day or New Year's Eve.
-
-          </>
-        ),
-      },
-      {
-        question: "Do you provide a taxi service near me for medical appointments? ",
-        answer: (
-          <>
-          We help many residents reach local hospitals and clinics for their appointments. Our drivers can assist you from your door to the vehicle safely.
-
-
-          </>
-        ),
-      },
-      {
-        question: "Where is your main office located for the Elderslie taxi cab service? ",
-        answer: (
-          <>
-          Our primary hub is located at <strong>1 Hurley St, Campbelltown, Australia.</strong> This central location allows us to serve all surrounding suburbs very rapidly.
-          </>
-        ),
-      },
-     
     ],
   },
-   "mount-annan-nsw": {
+  "mount-annan-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26441.69032929234!2d150.7631658!3d-34.0640975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12e55889346653%3A0x5017d681632c220!2sMount%20Annan%20NSW%202567%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769806817654!5m2!1sen!2sbd",
     pageTitle: "Mount Annan Taxi & Maxi Cabs | Affordable Airport Transfers",
     metaDescription:
       "Get 24/7 reliability with Mount Annan Taxi & Maxi Cabs. We offer luxury sedans and large vans for any trip. Call 1300 450 428 to book your premium ride today!",
     heroTitle: "Mount Annan Taxi & Maxi Cabs | Affordable Airport Transfers",
     heroDescription: (
       <>
-Find your reliable ride with our professional local drivers today. We offer prompt pickups for all airport and local trips. Our fleet includes clean sedans and spacious vans for families. You can book a ride easily through our simple online system. We serve the Mount Annan community with safe and affordable transport. Experience the best local travel service with our dedicated transport team.
+        Find your reliable ride with our professional local drivers today. We
+        offer prompt pickups for all airport and local trips. Our fleet includes
+        clean sedans and spacious vans for families. You can <Link
+              to={`https://campbelltowntaxicabs.com.au/book-a-taxi`}
+              className="underline font-semibold px-1"
+            >
+           book a ride easily
+            </Link>
+        through our simple online system. We serve the Mount Annan community
+        with safe and affordable transport. Experience the best local travel
+        service with our <Link
+              to={`https://campbelltowntaxicabs.com.au/fleet`}
+              className="underline font-semibold px-1"
+            >
+           premium fleet of taxis and maxi cabs
+            </Link> and a dedicated transport team.
 
       </>
     ),
@@ -19266,17 +20177,32 @@ Find your reliable ride with our professional local drivers today. We offer prom
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services Mount Annan",
     locationSectionDescription: (
       <>
-     You deserve a transport partner that values your time and safety. Finding a reliable<strong> local taxi service Mount Annan </strong>  can often feel quite stressful. Many passengers worry about late arrivals or cars that never show up. I have seen many commuters stranded at stations due to unreliable apps. We solve these problems by providing a guaranteed <strong>Mount Annan taxi service</strong>you can trust. Our drivers know the best routes around <strong>1 Hurley St, Campbelltown</strong>and beyond. We maintain our Taxi Cabs Premium Fleet to the highest mechanical standards. You will enjoy a clean, climate-controlled environment on every single trip. We focus on being the most dependable Mount Annan taxi cab service for you. Our team treats every passenger with professional care and local expertise. You can relax knowing your driver is a fully licensed professional. We provide transparent pricing without any hidden surge fees or costs.
-
+        You deserve a transport partner that values your time and safety.
+        Finding a reliable<strong> local taxi service Mount Annan </strong> can
+        often feel quite stressful. Many passengers worry about late arrivals or
+        cars that never show up. I have seen many commuters stranded at stations
+        due to unreliable apps. We solve these problems by providing a
+        guaranteed <strong>Mount Annan taxi service</strong>you can trust. Our
+        drivers know the best routes around{" "}
+        <strong>1 Hurley St, Campbelltown</strong>and beyond. We maintain our
+        Taxi Cabs Premium Fleet to the highest mechanical standards. You will
+        enjoy a clean, climate-controlled environment on every single trip. We
+        focus on being the most dependable Mount Annan taxi cab service for you.
+        Our team treats every passenger with professional care and local
+        expertise. You can relax knowing your driver is a fully licensed
+        professional. We provide transparent pricing without any hidden surge
+        fees or costs.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Mount Annan",
     serviceSubtitle: (
       <>
-We provide a comprehensive range of transport solutions for your daily needs. Our team handles everything from quick errands to major corporate events. You get a personalized experience with our <strong>local taxi service near me.</strong>Explore our specialized services designed to make your travel much easier.
-
-
+        We provide a comprehensive range of transport solutions for your daily
+        needs. Our team handles everything from quick errands to major corporate
+        events. You get a personalized experience with our{" "}
+        <strong>local taxi service near me.</strong>Explore our specialized
+        services designed to make your travel much easier.
       </>
     ),
     locationServices: {
@@ -19285,7 +20211,12 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Wedding Transfer",
         description: (
           <>
-          You will arrive at your venue in total style and comfort. We coordinate multiple vehicles to move your entire guest list safely. Our drivers ensure punctuality so your special day runs without any delays. You can trust our <strong>Mount Annan taxi and cab services </strong>for your big event.
+            You will arrive at your venue in total style and comfort. We
+            coordinate multiple vehicles to move your entire guest list safely.
+            Our drivers ensure punctuality so your special day runs without any
+            delays. You can trust our{" "}
+            <strong>Mount Annan taxi and cab services </strong>for your big
+            event.
           </>
         ),
         image: "/car.png",
@@ -19297,7 +20228,11 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Luxury Transfer",
         description: (
           <>
-            Treat yourself to a premium ride in our high-end corporate sedans. These vehicles offer extra legroom and a quiet space for your work. I recommend this service for VIP guests or special dinner dates. You will enjoy the smoothest ride available in the local Mount Annan area.
+            Treat yourself to a premium ride in our high-end corporate sedans.
+            These vehicles offer extra legroom and a quiet space for your work.
+            I recommend this service for VIP guests or special dinner dates. You
+            will enjoy the smoothest ride available in the local Mount Annan
+            area.
           </>
         ),
         image: "/vehicle.png",
@@ -19309,8 +20244,11 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-         Your child’s safety is our most important concern during any trip. We provide professionally installed child restraints for all ages upon your request. Just mention your needs during your Taxi Booking to ensure a safe ride. Parents love this convenience when traveling to medical appointments or family visits.
-
+            Your child’s safety is our most important concern during any trip.
+            We provide professionally installed child restraints for all ages
+            upon your request. Just mention your needs during your Taxi Booking
+            to ensure a safe ride. Parents love this convenience when traveling
+            to medical appointments or family visits.
           </>
         ),
         image: "/baby-seat.png",
@@ -19322,7 +20260,11 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Corporate Transport Services",
         description: (
           <>
-            We help you maintain a professional image with our reliable executive cars. Use our CabCharge Taxi Campbelltown options for easy and fast digital billing. We ensure you never miss an important board meeting or a flight. Our drivers provide a discreet and punctual service for all business professionals.
+            We help you maintain a professional image with our reliable
+            executive cars. Use our CabCharge Taxi Campbelltown options for easy
+            and fast digital billing. We ensure you never miss an important
+            board meeting or a flight. Our drivers provide a discreet and
+            punctual service for all business professionals.
           </>
         ),
         image: "/corporate.png",
@@ -19334,8 +20276,10 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Cruise Terminal Transfer",
         description: (
           <>
-       Start your holiday early with a stress-free trip to the ship. We have plenty of room for all your heavy suitcases and bags. Our Maxi Cabs near me in Mount Annan provide the perfect space for groups. We drop you right at the terminal door for ultimate convenience.
-
+            Start your holiday early with a stress-free trip to the ship. We
+            have plenty of room for all your heavy suitcases and bags. Our Maxi
+            Cabs near me in Mount Annan provide the perfect space for groups. We
+            drop you right at the terminal door for ultimate convenience.
           </>
         ),
         image: "/ship.png",
@@ -19346,8 +20290,12 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <> Heading to a concert or a big game at the stadium? Avoid the massive parking crowds by choosing our professional Mount Annan taxi cab service. We pick you up right after the event ends without any fuss. You and your friends can enjoy the night while we drive.
-
+          <>
+            {" "}
+            Heading to a concert or a big game at the stadium? Avoid the massive
+            parking crowds by choosing our professional Mount Annan taxi cab
+            service. We pick you up right after the event ends without any fuss.
+            You and your friends can enjoy the night while we drive.
           </>
         ),
         image: "/event.png",
@@ -19359,8 +20307,10 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Maxi Taxi Service",
         description: (
           <>
-         You can move up to eleven people in one single vehicle. Our maxi cab services Mount Annan are ideal for large family outings or parties. You save money by booking one large van instead of two small cars. We handle all your bulky gear and extra luggage with ease.
-
+            You can move up to eleven people in one single vehicle. Our maxi cab
+            services Mount Annan are ideal for large family outings or parties.
+            You save money by booking one large van instead of two small cars.
+            We handle all your bulky gear and extra luggage with ease.
           </>
         ),
         image: "/users.png",
@@ -19371,9 +20321,11 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Corporate Trips",
         description: (
           <>
- We manage your staff transport needs with total efficiency and care. Our team provides detailed invoices to help you track your travel spending. You can rely on us for consistent service across all your office locations. We prioritize your business schedule to keep your operations running smoothly.
-
-
+            We manage your staff transport needs with total efficiency and care.
+            Our team provides detailed invoices to help you track your travel
+            spending. You can rely on us for consistent service across all your
+            office locations. We prioritize your business schedule to keep your
+            operations running smoothly.
           </>
         ),
         image: "/briefcase.png",
@@ -19384,9 +20336,8 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
@@ -19396,7 +20347,16 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
     fleetSectionTitle:
       "Executive Fleet Options by Mount Annan Taxi & Maxi Cabs",
     fleetSectionSubTitle:
-      "You want a vehicle that perfectly matches your specific travel requirements. Our diverse fleet ensures we have the right car for every passenger. I personally ensure each vehicle stays in pristine condition for your ride. We use the latest technology to track our fleet for your safety. You can choose from compact cars or very large multi-seater vans. We provide the most versatile taxi services near me for the community. Our drivers take great pride in maintaining the cleanliness of their cars. You will always feel comfortable and respected when you choose our service. We bridge the gap where public transport often fails you.",
+      <>
+      You can choose the perfect vehicle from our diverse and modern fleet. I take great pride in maintaining our cars to the highest standards. Whether you need a <Link
+      target="_blank"
+              to={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges`}
+              className="underline font-semibold px-1"
+            >
+         taxi cab
+            </Link> service near me or a large van, we have it. Our Mount Annan taxi cab options near me include vehicles for every possible scenario. We ensure every ride is smooth, safe, and tailored to your personal requirements.
+      </>
+      ,
 
     fleetSectionVehicles: {
       1: {
@@ -19406,7 +20366,9 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         bagsCapacity: 2,
         description: (
           <>
-          This is the perfect choice for solo travelers or small groups. You get a quick and efficient taxi service close to me anytime. These cars offer great fuel efficiency and a very smooth ride.
+            This is the perfect choice for solo travelers or small groups. You
+            get a quick and efficient taxi service close to me anytime. These
+            cars offer great fuel efficiency and a very smooth ride.
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -19419,7 +20381,10 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         bagsCapacity: 2,
         description: (
           <>
-   Step up to a higher standard of travel for your next trip. These cars feature leather interiors and extra premium features for your comfort. It is the ultimate way to travel through the Mount Annan region.
+            Step up to a higher standard of travel for your next trip. These
+            cars feature leather interiors and extra premium features for your
+            comfort. It is the ultimate way to travel through the Mount Annan
+            region.
           </>
         ),
         image: "/campbelltown-luxury-vehicle.png",
@@ -19432,7 +20397,9 @@ We provide a comprehensive range of transport solutions for your daily needs. Ou
         bagsCapacity: 5,
         description: (
           <>
-You get extra boot space for your groceries or sports gear. This option suits small families who have a few extra bags. It provides a more elevated seating position for a better view.
+            You get extra boot space for your groceries or sports gear. This
+            option suits small families who have a few extra bags. It provides a
+            more elevated seating position for a better view.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -19445,7 +20412,9 @@ You get extra boot space for your groceries or sports gear. This option suits sm
         bagsCapacity: 8,
         description: (
           <>
-This modern people mover is a favorite for local family trips. It offers a very spacious interior with plenty of room for everyone. You will enjoy the modern safety features and smooth handling.
+            This modern people mover is a favorite for local family trips. It
+            offers a very spacious interior with plenty of room for everyone.
+            You will enjoy the modern safety features and smooth handling.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -19458,7 +20427,9 @@ This modern people mover is a favorite for local family trips. It offers a very 
         bagsCapacity: 8,
         description: (
           <>
-Our maxi cab is the workhorse of our fleet for groups. It handles large crowds and heavy items without any struggle at all. You can book this for any group social outing or transfer.
+            Our maxi cab is the workhorse of our fleet for groups. It handles
+            large crowds and heavy items without any struggle at all. You can
+            book this for any group social outing or transfer.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -19471,7 +20442,9 @@ Our maxi cab is the workhorse of our fleet for groups. It handles large crowds a
         bagsCapacity: 8,
         description: (
           <>
-We offer fully accessible vehicles for passengers with limited mobility. Our drivers are trained to assist you with total patience and care. You get a safe and reliable taxi service near me.
+            We offer fully accessible vehicles for passengers with limited
+            mobility. Our drivers are trained to assist you with total patience
+            and care. You get a safe and reliable taxi service near me.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -19484,26 +20457,37 @@ We offer fully accessible vehicles for passengers with limited mobility. Our dri
         question: "How do I find an Mount Annan taxi cab close to me?",
         answer: (
           <>
-          You can call us on 1300 450 428 for immediate service. We use GPS to send the nearest driver to your exact location.
-
+            You can call us on 1300 450 428 for immediate service. We use GPS to
+            send the nearest driver to your exact location.
           </>
         ),
       },
       {
-        question: "Are your Maxi Cabs near me in Mount Annan available for airport runs?",
+        question:
+          "Are your Maxi Cabs near me in Mount Annan available for airport runs?",
         answer: (
           <>
-           Yes, we specialize in airport transfers for large groups and heavy luggage. You should book in advance to ensure a perfectly timed morning pickup.
-
+            Yes, we provide spacious Maxi <Link
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Taxi`}
+              className="underline font-semibold px-1"
+            >
+       cabs
+            </Link> near me in Mount Annan for all airports. We have enough room for your entire family and all your luggage.
           </>
         ),
       },
       {
-        question: "Can I pay with a credit card in your Mount Annan taxi service?",
+        question:
+          "Can I pay with a credit card in your Mount Annan taxi service?",
         answer: (
           <>
-         Every vehicle in our fleet accepts all major credit cards and <Link to="/cabcharge-taxi" className="underline px-1 font-bold">CabCharge</Link> . You will receive an electronic or paper receipt for your records immediately.
-
+            Every vehicle in our fleet accepts all major credit cards and{" "}
+            <Link to="/cabcharge-taxi" className="underline px-1 font-bold">
+              CabCharge
+            </Link>{" "}
+            . You will receive an electronic or paper receipt for your records
+            immediately.
           </>
         ),
       },
@@ -19511,95 +20495,150 @@ We offer fully accessible vehicles for passengers with limited mobility. Our dri
         question: "Do you offer a local taxi service near me with baby seats?",
         answer: (
           <>
-           We provide pre-installed baby seats upon request for all family bookings. Please mention the age of your child when you call our team.
-
+            We provide pre-installed baby seats upon request for all family
+            bookings. Please mention the age of your child when you call our
+            team.
           </>
         ),
       },
       {
-        question: "What makes your Mount Annan taxi cab service safer than ride-sharing?",
+        question:
+          "What makes your Mount Annan taxi cab service safer than ride-sharing?",
         answer: (
           <>
-           Our drivers are fully licensed professionals who undergo regular police background checks. We use <Link to="/about" className="underline px-1 font-bold">about us</Link>  verified vehicles that meet strict government safety regulations.
-
-
+            Our drivers are fully licensed professionals who undergo regular
+            police background checks. We use{" "}
+            <Link to="/about" className="underline px-1 font-bold">
+              about us
+            </Link>{" "}
+            verified vehicles that meet strict government safety regulations.
           </>
         ),
       },
       {
-        question: "How many people can fit in a maxi cab services Mount Annan vehicle?",
+        question:
+          "How many people can fit in a maxi cab services Mount Annan vehicle?",
         answer: (
           <>
-            Our Maxi Cabs can comfortably transport up to 11 passengers at one time. This makes them the most cost-effective choice for your large group travels.
-
-
+            Our Maxi Cabs can comfortably transport up to 11 passengers at one
+            time. This makes them the most cost-effective choice for your large
+            group travels.
           </>
         ),
       },
       {
-        question: "Can I book an Mount Annan taxi and cab services ride in advance?",
+        question:
+          "Can I book an Mount Annan taxi and cab services ride in advance?",
         answer: (
           <>
-           You can schedule your ride days or weeks ahead via our website. This guarantees your driver will be waiting at your door on time.
-
+            You can schedule your ride days or weeks ahead via our website. This
+            guarantees your driver will be waiting at your door on time.
           </>
         ),
       },
       {
-        question: "Is there a taxi service close to me available on public holidays?",
+        question:
+          "Is there a taxi service close to me available on public holidays?",
         answer: (
           <>
-           Our Mount Annan taxi service operates 24 hours a day, 365 days a year. We never close, even on Christmas Day or New Year's Eve.
-
+            Our Mount Annan taxi service operates 24 hours a day, 365 days a
+            year. We never close, even on Christmas Day or New Year's Eve.
           </>
         ),
       },
       {
-        question: "Do you provide a taxi service near me for medical appointments? ",
+        question:
+          "What are the payment options for your Mount Annan taxi service? ",
         answer: (
           <>
-          We help many residents reach local hospitals and clinics for their appointments. Our drivers can assist you from your door to the vehicle safely.
-
-
+         We accept cash, all major credit cards, and <Link
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Cabcharge`}
+              className="underline font-semibold px-1"
+            >
+       CabCharge
+            </Link>  Taxi Campbelltown. You will receive a digital or paper receipt for every single trip.
           </>
         ),
       },
       {
-        question: "Where is your main office located for the Mount Annan taxi cab service? ",
+        question:
+          "Do you provide a taxi service near me for medical appointments? ",
         answer: (
           <>
-          Our primary hub is located at <strong>1 Hurley St, Campbelltown, Australia.</strong> This central location allows us to serve all surrounding suburbs very rapidly.
+            We help many residents reach local hospitals and clinics for their
+            appointments. Our drivers can assist you from your door to the
+            vehicle safely.
           </>
         ),
       },
-     
+      {
+        question:
+          "Where is your main office located for the Mount Annan taxi cab service? ",
+        answer: (
+          <>
+            Our primary hub is located at{" "}
+            <strong>1 Hurley St, Campbelltown, Australia.</strong> This central
+            location allows us to serve all surrounding suburbs very rapidly.
+          </>
+        ),
+      },
     ],
   },
-   "edmondson-park-nsw": {
+  "edmondson-park-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26472.864478934767!2d150.85649420000001!3d-33.964061949999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12eca9a09ef223%3A0x5017d681632b600!2sEdmondson%20Park%20NSW%202174%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769807112931!5m2!1sen!2sbd",
     pageTitle: "Best Edmondson Park Taxi & Maxi Cabs | Fast, Safe & Affordable",
     metaDescription:
       "Enjoy fast and safe rides with our local fleet. We offer 24/7 reliability and spacious maxi cabs for groups. Call 1300 450 428 to book your ride now!",
     heroTitle: "Best Edmondson Park Taxi & Maxi Cabs | Fast, Safe & Affordable",
     heroDescription: (
       <>
-You deserve a ride that arrives on time every single day. Our team provides reliable transport for residents throughout the growing Macarthur region. We offer clean sedans and spacious vans for all your travel needs. Experience professional service with drivers who truly know the local area well. Whether you head to work or the airport, we ensure comfort. Book your next trip with the most trusted local fleet today.
+       You deserve a ride that arrives on time every single day. Our team provides reliable transport for residents throughout the growing Macarthur region. We offer clean sedans and spacious vans for all your travel needs. Experience professional service from drivers who truly know the local area. Whether you head to work or the airport, we ensure comfort. Book your next trip with the most trusted local fleet today via our<Link
+              to={`https://campbelltowntaxicabs.com.au/book-a-taxi`}
+              className="underline font-semibold px-1"
+            >
+        Taxi Booking
+            </Link>  page.
       </>
     ),
     bookingFormTitle: "Book for Luxury Transfer in Edmondson Park",
-    locationSectionTitle: "Trusted Taxi and Maxi Cab Services in Edmondson Park",
+    locationSectionTitle:
+      "Trusted Taxi and Maxi Cab Services in Edmondson Park",
     locationSectionDescription: (
       <>
-    You often face long wait times when booking a local taxi service near me. I see many passengers frustrated by unreliable apps that cancel last minute. Our Edmondson Park Taxi & Maxi Cabs service solves this problem with guaranteed punctuality. We focus on your safety and comfort during every single journey. You can rely on our taxi cab service near me for any trip. My drivers understand the stress of catching a flight or meeting. We provide a transparent pricing model without any hidden surge fees today. You will appreciate our clean vehicles and polite, professional local drivers. We use the latest navigation to find the quickest possible routes. Your time is valuable, so we never make you wait long. Our team maintains the highest standards for Edmondson park taxi and cab services. We treat every passenger like a VIP from start to finish.
-
-
+        You often face long wait times when booking a local taxi service near
+        me. I see many passengers frustrated by unreliable apps that cancel last
+        minute. Our Edmondson Park Taxi & Maxi Cabs service solves this problem
+        with guaranteed punctuality. We focus on your safety and comfort during
+        every single journey. You can rely on our taxi cab <Link
+              to={`https://campbelltowntaxicabs.com.au/area-covered`}
+              className="underline font-semibold px-1"
+            >
+      service near me
+            </Link>  for
+        any trip. My drivers understand the stress of catching a flight or
+        meeting. We provide a transparent pricing model without any hidden surge
+        fees today. You will appreciate our clean vehicles and polite,
+        professional local drivers. We use the latest navigation to find the
+        quickest possible routes. Your time is valuable, so we never make you
+        wait long. Our team maintains the highest standards for Edmondson park
+        taxi and cab services. We treat every passenger like a VIP from start to
+        finish.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Edmondson Park",
     serviceSubtitle: (
       <>
-You can access a wide range of professional transport solutions right now. We cater to every specific travel need with our modern local fleet. Our drivers ensure you reach your destination safely and very quickly. Choose from our specialized services listed below for your next trip.
-
+        You can access a wide range of <Link
+              to={`https://campbelltowntaxicabs.com.au/services/corporate-transport-services`}
+              className="underline font-semibold px-1"
+            >
+       professional transport solutions
+            </Link> right
+        now. We cater to every specific travel need with our modern local fleet.
+        Our drivers ensure you reach your destination safely and very quickly.
+        Choose from our specialized services listed below for your next trip.
       </>
     ),
     locationServices: {
@@ -19608,7 +20647,12 @@ You can access a wide range of professional transport solutions right now. We ca
         title: "Wedding Transfer",
         description: (
           <>
-         Your special day requires perfectly timed and elegant transport for guests. I coordinate these trips to ensure everyone arrives at the venue together. You can relax knowing our <strong>Edmondson Park taxi service </strong>handles the logistics. We offer stylish vehicles that look great in your professional wedding photos.
+            Your special day requires perfectly timed and elegant transport for
+            guests. I coordinate these trips to ensure everyone arrives at the
+            venue together. You can relax knowing our{" "}
+            <strong>Edmondson Park taxi service </strong>handles the logistics.
+            We offer stylish vehicles that look great in your professional
+            wedding photos.
           </>
         ),
         image: "/car.png",
@@ -19620,7 +20664,11 @@ You can access a wide range of professional transport solutions right now. We ca
         title: "Luxury Transfer",
         description: (
           <>
-            Choose our Taxi Cabs Premium Fleet for a high-end travel experience today. You will enjoy leather seats and a quiet cabin for your journey. I recommend this service for romantic dinners or very important private events. Our drivers provide a discreet and professional service for every luxury client.
+            Choose our Taxi Cabs Premium Fleet for a high-end travel experience
+            today. You will enjoy leather seats and a quiet cabin for your
+            journey. I recommend this service for romantic dinners or very
+            important private events. Our drivers provide a discreet and
+            professional service for every luxury client.
           </>
         ),
         image: "/vehicle.png",
@@ -19632,8 +20680,11 @@ You can access a wide range of professional transport solutions right now. We ca
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-     Safety remains our top priority when you travel with your little ones. We provide clean and secure child seats upon your request during booking. You won't have to carry your own heavy seat through the busy airport. I ensure every seat meets the strict Australian safety standards for your peace.
-
+            Safety remains our top priority when you travel with your little
+            ones. We provide clean and secure child seats upon your request
+            during booking. You won't have to carry your own heavy seat through
+            the busy airport. I ensure every seat meets the strict Australian
+            safety standards for your peace.
           </>
         ),
         image: "/baby-seat.png",
@@ -19645,7 +20696,12 @@ You can access a wide range of professional transport solutions right now. We ca
         title: "Corporate Transport Services",
         description: (
           <>
-            Impress your business clients with our reliable and professional Edmondson Park taxi cab service. We offer CabCharge Taxi Campbelltown options for easy and fast company billing. You can focus on your work while we handle the heavy morning traffic. Our drivers understand the importance of discretion and punctuality for all corporate trips.
+            Impress your business clients with our reliable and professional
+            Edmondson Park taxi cab service. We offer CabCharge Taxi
+            Campbelltown options for easy and fast company billing. You can
+            focus on your work while we handle the heavy morning traffic. Our
+            drivers understand the importance of discretion and punctuality for
+            all corporate trips.
           </>
         ),
         image: "/corporate.png",
@@ -19657,8 +20713,10 @@ You can access a wide range of professional transport solutions right now. We ca
         title: "Cruise Terminal Transfer",
         description: (
           <>
- Start your holiday early with our seamless transfers to the Sydney ports. We have plenty of room for all your heavy suitcases and gear. I track the ship schedules to ensure we pick you up promptly. You will avoid the high costs of long-term parking at the busy terminal.
-
+            Start your holiday early with our seamless transfers to the Sydney
+            ports. We have plenty of room for all your heavy suitcases and gear.
+            I track the ship schedules to ensure we pick you up promptly. You
+            will avoid the high costs of long-term parking at the busy terminal.
           </>
         ),
         image: "/ship.png",
@@ -19669,9 +20727,12 @@ You can access a wide range of professional transport solutions right now. We ca
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <> 
-          Heading to a concert or a big game at the local stadium? Our maxi cab services Edmondson Park are perfect for your entire group. You can all travel together and enjoy the pre-event excitement in one car. I ensure your driver finds the best drop-off spot near the main entrance.
-
+          <>
+            Heading to a concert or a big game at the local stadium? Our maxi
+            cab services Edmondson Park are perfect for your entire group. You
+            can all travel together and enjoy the pre-event excitement in one
+            car. I ensure your driver finds the best drop-off spot near the main
+            entrance.
           </>
         ),
         image: "/event.png",
@@ -19683,9 +20744,11 @@ You can access a wide range of professional transport solutions right now. We ca
         title: "Maxi Taxi Service",
         description: (
           <>
-      Our Maxi Cabs are the ultimate solution for large families and groups. You will find plenty of legroom and space for your bulky items. I often suggest these for airport runs with more than four passengers. It is much cheaper than booking two separate small taxi services near me.
-
-
+            Our Maxi Cabs are the ultimate solution for large families and
+            groups. You will find plenty of legroom and space for your bulky
+            items. I often suggest these for airport runs with more than four
+            passengers. It is much cheaper than booking two separate small taxi
+            services near me.
           </>
         ),
         image: "/users.png",
@@ -19696,9 +20759,11 @@ You can access a wide range of professional transport solutions right now. We ca
         title: "Corporate Trips",
         description: (
           <>
-We manage your staff transport needs with total efficiency and clear reporting. You can set up a regular schedule for your team's daily commute. I provide detailed invoices to help you track your business travel expenses. Our Edmondson Park taxi and cab services keep your business moving every single day.
-
-
+            We manage your staff transport needs with total efficiency and clear
+            reporting. You can set up a regular schedule for your team's daily
+            commute. I provide detailed invoices to help you track your business
+            travel expenses. Our Edmondson Park taxi and cab services keep your
+            business moving every single day.
           </>
         ),
         image: "/briefcase.png",
@@ -19709,9 +20774,8 @@ We manage your staff transport needs with total efficiency and clear reporting. 
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
@@ -19731,7 +20795,8 @@ We manage your staff transport needs with total efficiency and clear reporting. 
         bagsCapacity: 2,
         description: (
           <>
-   This is our most popular choice for quick solo trips. It is a fuel-efficient and comfortable way to reach your local destination.
+            This is our most popular choice for quick solo trips. It is a
+            fuel-efficient and comfortable way to reach your local destination.
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -19744,7 +20809,9 @@ We manage your staff transport needs with total efficiency and clear reporting. 
         bagsCapacity: 2,
         description: (
           <>
-Elevate your travel experience with our premium executive sedan options. These cars offer extra comfort and style for your most important journeys.
+            Elevate your travel experience with our premium executive sedan
+            options. These cars offer extra comfort and style for your most
+            important journeys.
           </>
         ),
         image: "/campbelltown-luxury-vehicle.png",
@@ -19757,7 +20824,8 @@ Elevate your travel experience with our premium executive sedan options. These c
         bagsCapacity: 5,
         description: (
           <>
-Perfect for small families with a bit of extra luggage. You get more trunk space without needing a full-sized maxi cab near me.
+            Perfect for small families with a bit of extra luggage. You get more
+            trunk space without needing a full-sized maxi cab near me.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -19770,7 +20838,9 @@ Perfect for small families with a bit of extra luggage. You get more trunk space
         bagsCapacity: 8,
         description: (
           <>
-This versatile vehicle comfortably seats up to seven passengers easily. I recommend this for airport transfers for families with several medium bags.
+            This versatile vehicle comfortably seats up to seven passengers
+            easily. I recommend this for airport transfers for families with
+            several medium bags.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -19783,7 +20853,8 @@ This versatile vehicle comfortably seats up to seven passengers easily. I recomm
         bagsCapacity: 8,
         description: (
           <>
-Our largest option fits up to eleven people with ease. It is the best way to move a big group around Edmondson Park.
+            Our largest option fits up to eleven people with ease. It is the
+            best way to move a big group around Edmondson Park.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -19796,7 +20867,9 @@ Our largest option fits up to eleven people with ease. It is the best way to mov
         bagsCapacity: 8,
         description: (
           <>
-We provide specialized vehicles with hydraulic ramps for total accessibility. Our trained drivers ensure a safe and dignified journey for every passenger.
+            We provide specialized vehicles with hydraulic ramps for total
+            accessibility. Our trained drivers ensure a safe and dignified
+            journey for every passenger.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -19809,26 +20882,33 @@ We provide specialized vehicles with hydraulic ramps for total accessibility. Ou
         question: "How do I find an Edmondson Park taxi cab close to me?",
         answer: (
           <>
-          You can call us on 1300 450 428 for immediate service. We use GPS to send the nearest driver to your exact location.
-
+            You can call us on 1300 450 428 for immediate service. We use GPS to
+            send the nearest driver to your exact location.
           </>
         ),
       },
       {
-        question: "Are your Maxi Cabs near me in Edmondson Park available for airport runs?",
+        question:
+          "Are your Maxi Cabs near me in Edmondson Park available for airport runs?",
         answer: (
           <>
-           Yes, we specialize in airport transfers for large groups and heavy luggage. You should book in advance to ensure a perfectly timed morning pickup.
-
+            Yes, we specialize in airport transfers for large groups and heavy
+            luggage. You should book in advance to ensure a perfectly timed
+            morning pickup.
           </>
         ),
       },
       {
-        question: "Can I pay with a credit card in your Edmondson Park taxi service?",
+        question:
+          "Can I pay with a credit card in your Edmondson Park taxi service?",
         answer: (
           <>
-         Every vehicle in our fleet accepts all major credit cards and <Link to="/cabcharge-taxi" className="underline px-1 font-bold">CabCharge</Link> . You will receive an electronic or paper receipt for your records immediately.
-
+            Every vehicle in our fleet accepts all major credit cards and{" "}
+            <Link to="/cabcharge-taxi" className="underline px-1 font-bold">
+              CabCharge
+            </Link>{" "}
+            . You will receive an electronic or paper receipt for your records
+            immediately.
           </>
         ),
       },
@@ -19836,95 +20916,161 @@ We provide specialized vehicles with hydraulic ramps for total accessibility. Ou
         question: "Do you offer a local taxi service near me with baby seats?",
         answer: (
           <>
-           We provide pre-installed baby seats upon request for all family bookings. Please mention the age of your child when you call our team.
+            We provide pre-installed baby seats upon request for all family
+            bookings. Please mention the age of your child when you call our
+            team.
+          </>
+        ),
+      },
+      {
+        question:
+          "What makes your Edmondson Park taxi cab service safer than ride-sharing?",
+        answer: (
+          <>
+            Our drivers are fully licensed professionals who undergo regular
+            police background checks. We use{" "}
+            <Link to="/about" className="underline px-1 font-bold">
+              about us
+            </Link>{" "}
+            verified vehicles that meet strict government safety regulations.
+          </>
+        ),
+      },
+      {
+        question:
+          "How many people can fit in a maxi cab services Edmondson Park vehicle?",
+        answer: (
+          <>
+            Our Maxi Cabs can comfortably transport up to 11 passengers at one
+            time. This makes them the most cost-effective choice for your large
+            group travels.
+          </>
+        ),
+      },
+      {
+        question:
+          "Can I book an Edmondson Park taxi and cab services ride in advance?",
+        answer: (
+          <>
+            You can schedule your ride days or weeks ahead via our website. This
+            guarantees your driver will be waiting at your door on time.
+          </>
+        ),
+      },
+      {
+        question:
+          "Is there a taxi service close to me available on public holidays?",
+        answer: (
+          <>
+            Our Edmondson Park taxi service operates 24 hours a day, 365 days a
+            year. We never close, even on Christmas Day or New Year's Eve.
+          </>
+        ),
+      },
+      {
+        question:
+          "Do you provide a taxi service near me for medical appointments? ",
+        answer: (
+          <>
+            We help many residents reach local hospitals and clinics for their
+            appointments. Our drivers can assist you from your door to the
+            vehicle safely.
+          </>
+        ),
+      },
+      {
+        question:
+          "Can I use CabCharge for my business trip? ",
+        answer: (
+          <>
+            We proudly accept CabCharge Taxi Campbelltown in all of our <Link
+            target="_blank"
+              to={`https://transportnsw.info/travel-info/ways-to-get-around/taxi-hire-vehicle/rank-hail-taxi-fares-charges`}
+              className="underline font-semibold px-1"
+            >
+       vehicles.
+            </Link> This makes paying for your business travel very simple and fast.
 
           </>
         ),
       },
       {
-        question: "What makes your Edmondson Park taxi cab service safer than ride-sharing?",
+        question:
+          "Why is your local taxi service near me the best? ",
         answer: (
           <>
-           Our drivers are fully licensed professionals who undergo regular police background checks. We use <Link to="/about" className="underline px-1 font-bold">about us</Link>  verified vehicles that meet strict government safety regulations.
-
-
+            We offer reliability, clean cars, and professional <Link
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Driver`}
+              className="underline font-semibold px-1"
+            >
+      drivers
+            </Link> who care. You get a premium experience at a very fair and honest price.
           </>
         ),
       },
-      {
-        question: "How many people can fit in a maxi cab services Edmondson Park vehicle?",
-        answer: (
-          <>
-            Our Maxi Cabs can comfortably transport up to 11 passengers at one time. This makes them the most cost-effective choice for your large group travels.
-
-
-          </>
-        ),
-      },
-      {
-        question: "Can I book an Edmondson Park taxi and cab services ride in advance?",
-        answer: (
-          <>
-           You can schedule your ride days or weeks ahead via our website. This guarantees your driver will be waiting at your door on time.
-
-          </>
-        ),
-      },
-      {
-        question: "Is there a taxi service close to me available on public holidays?",
-        answer: (
-          <>
-           Our Edmondson Park taxi service operates 24 hours a day, 365 days a year. We never close, even on Christmas Day or New Year's Eve.
-
-          </>
-        ),
-      },
-      {
-        question: "Do you provide a taxi service near me for medical appointments? ",
-        answer: (
-          <>
-          We help many residents reach local hospitals and clinics for their appointments. Our drivers can assist you from your door to the vehicle safely.
-
-
-          </>
-        ),
-      },
-      {
-        question: "Where is your main office located for the Edmondson Park taxi cab service? ",
-        answer: (
-          <>
-          Our primary hub is located at <strong>1 Hurley St, Campbelltown, Australia.</strong> This central location allows us to serve all surrounding suburbs very rapidly.
-          </>
-        ),
-      },
-     
     ],
   },
-   "picton-nsw": {
+  "picton-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52813.68208287246!2d150.6006166!3d-34.175621400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ffaa9d1de9ed%3A0x40609b490439130!2sPicton%20NSW%202571%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769807388270!5m2!1sen!2sbd",
     pageTitle: "Best Picton Taxi & Maxi Cabs | Fast, Safe & Affordable Rides",
     metaDescription:
       "Get reliable Picton Taxi & Maxi Cabs 24/7. Enjoy fixed rates, clean vans, and professional drivers. Call 1300 450 428 to book your safe ride in Picton now!",
     heroTitle: "Best Picton Taxi & Maxi Cabs | Fast, Safe & Affordable Rides",
     heroDescription: (
       <>
-You deserve a ride that arrives on time every single day. Our team provides the most reliable Picton Taxi & Maxi Cabs for you. We offer clean cars and professional drivers for every local trip. Your safety remains our top priority during each journey we take. Experience stress-free travel with our dedicated local transport experts today. We handle your luggage and special needs with genuine care.
+        You deserve a ride that arrives on time every single day. Our team
+        provides the most reliable Picton <Link
+     
+              to={`https://campbelltowntaxicabs.com.au/services/maxi-taxi-service`}
+              className="underline font-semibold px-1"
+            >
+    Taxi & Maxi Cabs.
+            </Link> for you. We offer
+        clean cars and professional drivers for every local trip. Your safety
+        remains our top priority during each journey we take. Experience
+        stress-free travel with our dedicated local transport experts today. We
+        handle your luggage and special needs with genuine care.You can easily <Link
+         
+              to={`https://campbelltowntaxicabs.com.au/book-a-taxi`}
+              className="underline font-semibold px-1"
+            >
+     book a taxi online
+            </Link> at any time for your convenience.
       </>
     ),
     bookingFormTitle: "Book for Luxury Transfer in Picton",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services Picton",
     locationSectionDescription: (
       <>
-   You need a transport partner that understands the unique roads of our region. I have driven these streets for years and know every shortcut available. Our Picton taxi and cab services eliminate the frustration of late arrivals or cancellations. You will find that our Picton taxi service prioritizes your schedule above all else. We solve common pain points like surge pricing and messy vehicles immediately. Many local residents trust us because we provide a consistent and honest experience. You can easily access our Taxi Booking system for any time of day. We focus on building long-term trust through excellent service and local expertise. Our drivers pass strict background checks to ensure your total peace of mind. You will enjoy a quiet, comfortable cabin while we navigate the traffic for you. We are the premier choice for anyone seeking a local taxi service Picton.
-
-
+        You need a <Link
+              to={`https://campbelltowntaxicabs.com.au/services/corporate-transport-services`}
+              className="underline font-semibold px-1"
+            >
+       transport partner
+            </Link> that understands the unique roads of our
+        region. I have driven these streets for years and know every shortcut
+        available. Our Picton taxi and cab services eliminate the frustration of
+        late arrivals or cancellations. You will find that our Picton taxi
+        service prioritizes your schedule above all else. We solve common pain
+        points like surge pricing and messy vehicles immediately. Many local
+        residents trust us because we provide a consistent and honest
+        experience. You can easily access our Taxi Booking system for any time
+        of day. We focus on building long-term trust through excellent service
+        and local expertise. Our drivers pass strict background checks to ensure
+        your total peace of mind. You will enjoy a quiet, comfortable cabin
+        while we navigate the traffic for you. We are the premier choice for
+        anyone seeking a local taxi service Picton.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Picton",
     serviceSubtitle: (
       <>
-You can access a wide variety of travel options for any event. Our Picton taxi cab service covers everything from quick errands to long-distance trips. We provide specialized solutions for groups, families, and corporate professionals across the entire local area.
-
+        You can access a wide variety of travel options for any event. Our
+        Picton taxi cab service covers everything from quick errands to
+        long-distance trips. We provide specialized solutions for groups,
+        families, and corporate professionals across the entire local area.
       </>
     ),
     locationServices: {
@@ -19933,7 +21079,11 @@ You can access a wide variety of travel options for any event. Our Picton taxi c
         title: "Wedding Transfer",
         description: (
           <>
-          You will arrive at the venue looking sharp and feeling relaxed. We coordinate multiple Picton Taxi & Maxi Cabs to move all your guests safely. I personally manage the timing to ensure no one misses the "I do" moment. Your wedding party deserves the luxury and punctuality of our dedicated premium transport service.
+            You will arrive at the venue looking sharp and feeling relaxed. We
+            coordinate multiple Picton Taxi & Maxi Cabs to move all your guests
+            safely. I personally manage the timing to ensure no one misses the
+            "I do" moment. Your wedding party deserves the luxury and
+            punctuality of our dedicated premium transport service.
           </>
         ),
         image: "/car.png",
@@ -19945,7 +21095,12 @@ You can access a wide variety of travel options for any event. Our Picton taxi c
         title: "Luxury Transfer",
         description: (
           <>
-             You can treat yourself to a high-end ride for special evenings out. Our Taxi Cabs Premium Fleet features top-tier sedans with pristine, leather-trimmed interiors. I ensure every luxury vehicle remains spotless and smells fresh for your total comfort. Enjoy a sophisticated atmosphere while our expert drivers handle the busy Picton road conditions.
+            You can treat yourself to a high-end ride for special evenings out.
+            Our Taxi Cabs Premium Fleet features top-tier sedans with pristine,
+            leather-trimmed interiors. I ensure every luxury vehicle remains
+            spotless and smells fresh for your total comfort. Enjoy a
+            sophisticated atmosphere while our expert drivers handle the busy
+            Picton road conditions.
           </>
         ),
         image: "/vehicle.png",
@@ -19957,8 +21112,11 @@ You can access a wide variety of travel options for any event. Our Picton taxi c
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-Your child's safety is the most important part of any family trip. We provide pre-installed, Australian-standard baby seats for your convenience and peace of mind. Simply request a seat when you book your maxi cab services Picton through our website. I double-check every restraint to ensure a secure fit before we start the engine.
-
+            Your child's safety is the most important part of any family trip.
+            We provide pre-installed, Australian-standard baby seats for your
+            convenience and peace of mind. Simply request a seat when you book
+            your maxi cab services Picton through our website. I double-check
+            every restraint to ensure a secure fit before we start the engine.
           </>
         ),
         image: "/baby-seat.png",
@@ -19970,7 +21128,12 @@ Your child's safety is the most important part of any family trip. We provide pr
         title: "Corporate Transport Services",
         description: (
           <>
-            You need to maintain a professional image when traveling for important business. Our drivers offer punctual pickups for all your meetings and city office transfers. We provide CabCharge Taxi Campbelltown and Picton options for easy, paperless company billing. I understand that your time is valuable, so we always take the most efficient routes.
+            You need to maintain a professional image when traveling for
+            important business. Our drivers offer punctual pickups for all your
+            meetings and city office transfers. We provide CabCharge Taxi
+            Campbelltown and Picton options for easy, paperless company billing.
+            I understand that your time is valuable, so we always take the most
+            efficient routes.
           </>
         ),
         image: "/corporate.png",
@@ -19982,8 +21145,11 @@ Your child's safety is the most important part of any family trip. We provide pr
         title: "Cruise Terminal Transfer",
         description: (
           <>
-You can start your holiday early without the stress of expensive port parking. We offer plenty of room for all your heavy suitcases and carry-on bags. Our Maxi cabs near me in Picton provide a direct door-to-ship service for your family. I track the terminal schedules to ensure we arrive exactly when your ship docks.
-
+            You can start your holiday early without the stress of expensive
+            port parking. We offer plenty of room for all your heavy suitcases
+            and carry-on bags. Our Maxi cabs near me in Picton provide a direct
+            door-to-ship service for your family. I track the terminal schedules
+            to ensure we arrive exactly when your ship docks.
           </>
         ),
         image: "/ship.png",
@@ -19994,9 +21160,12 @@ You can start your holiday early without the stress of expensive port parking. W
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <> 
-          You won't have to worry about finding a parking spot at crowded venues. We drop you off right at the front gates of any major local event. Our team handles the post-event rush so you can head home without any long waits. I recommend booking in advance to secure your ride during busy festival seasons.
-
+          <>
+            You won't have to worry about finding a parking spot at crowded
+            venues. We drop you off right at the front gates of any major local
+            event. Our team handles the post-event rush so you can head home
+            without any long waits. I recommend booking in advance to secure
+            your ride during busy festival seasons.
           </>
         ),
         image: "/event.png",
@@ -20008,9 +21177,11 @@ You can start your holiday early without the stress of expensive port parking. W
         title: "Maxi Taxi Service",
         description: (
           <>
-    You can fit up to eleven passengers in our spacious and clean vans. This is the perfect solution for friends heading to a night out together. Our maxi cab options save you money by avoiding the need for multiple cars. I assist every passenger with their bags to make the boarding process very fast.
-
-
+            You can fit up to eleven passengers in our spacious and clean vans.
+            This is the perfect solution for friends heading to a night out
+            together. Our maxi cab options save you money by avoiding the need
+            for multiple cars. I assist every passenger with their bags to make
+            the boarding process very fast.
           </>
         ),
         image: "/users.png",
@@ -20021,9 +21192,12 @@ You can start your holiday early without the stress of expensive port parking. W
         title: "Corporate Trips",
         description: (
           <>
-You will impress your clients with our reliable and high-quality transport solutions. We manage large group transfers for team-building events or site visits with ease. Our Service Areas We Cover include all major business hubs around the greater Picton region. I provide detailed receipts to make your travel expense claims simple and quick.
-
-
+            You will impress your clients with our reliable and high-quality
+            transport solutions. We manage large group transfers for
+            team-building events or site visits with ease. Our Service Areas We
+            Cover include all major business hubs around the greater Picton
+            region. I provide detailed receipts to make your travel expense
+            claims simple and quick.
           </>
         ),
         image: "/briefcase.png",
@@ -20034,17 +21208,15 @@ You will impress your clients with our reliable and high-quality transport solut
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
         pathname: "/services/book-taxi-sydney-airport",
       },
     },
-    fleetSectionTitle:
-      "Executive Fleet Options by Picton Taxi & Maxi Cabs",
+    fleetSectionTitle: "Executive Fleet Options by Picton Taxi & Maxi Cabs",
     fleetSectionSubTitle:
       "You deserve to ride in a vehicle that matches your specific travel needs. Our fleet offers everything from compact sedans to massive multi-seater vans for your convenience. I keep every car in top mechanical condition to prevent any unexpected breakdowns. You will experience a smooth ride thanks to our modern suspension systems and quiet engines. We offer the best taxi cab service near me by maintaining high standards for every single vehicle.",
 
@@ -20056,7 +21228,8 @@ You will impress your clients with our reliable and high-quality transport solut
         bagsCapacity: 2,
         description: (
           <>
-   This is our most popular choice for quick solo trips. It is a fuel-efficient and comfortable way to reach your local destination.
+            This is our most popular choice for quick solo trips. It is a
+            fuel-efficient and comfortable way to reach your local destination.
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -20069,7 +21242,9 @@ You will impress your clients with our reliable and high-quality transport solut
         bagsCapacity: 2,
         description: (
           <>
-Elevate your travel experience with our premium executive sedan options. These cars offer extra comfort and style for your most important journeys.
+            Elevate your travel experience with our premium executive sedan
+            options. These cars offer extra comfort and style for your most
+            important journeys.
           </>
         ),
         image: "/campbelltown-luxury-vehicle.png",
@@ -20082,7 +21257,8 @@ Elevate your travel experience with our premium executive sedan options. These c
         bagsCapacity: 5,
         description: (
           <>
-Perfect for small families with a bit of extra luggage. You get more trunk space without needing a full-sized maxi cab near me.
+            Perfect for small families with a bit of extra luggage. You get more
+            trunk space without needing a full-sized maxi cab near me.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -20095,7 +21271,9 @@ Perfect for small families with a bit of extra luggage. You get more trunk space
         bagsCapacity: 8,
         description: (
           <>
-This versatile vehicle comfortably seats up to seven passengers easily. I recommend this for airport transfers for families with several medium bags.
+            This versatile vehicle comfortably seats up to seven passengers
+            easily. I recommend this for airport transfers for families with
+            several medium bags.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -20108,7 +21286,8 @@ This versatile vehicle comfortably seats up to seven passengers easily. I recomm
         bagsCapacity: 8,
         description: (
           <>
-Our largest option fits up to eleven people with ease. It is the best way to move a big group around Edmondson Park.
+            Our largest option fits up to eleven people with ease. It is the
+            best way to move a big group around Edmondson Park.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -20121,38 +21300,47 @@ Our largest option fits up to eleven people with ease. It is the best way to mov
         bagsCapacity: 8,
         description: (
           <>
-We provide specialized vehicles with hydraulic ramps for total accessibility. Our trained drivers ensure a safe and dignified journey for every passenger.
+            We provide specialized vehicles with hydraulic ramps for total
+            accessibility. Our trained drivers ensure a safe and dignified
+            journey for every passenger.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
       },
     },
-    faqSectionTitle:
-      "Frequently Asked Questions About Picton Taxi & Maxi Cabs",
+    faqSectionTitle: "Frequently Asked Questions About Picton Taxi & Maxi Cabs",
     faqs: [
       {
         question: "How do I find an Picton taxi cab close to me?",
         answer: (
           <>
-          You can call us on 1300 450 428 for immediate service. We use GPS to send the nearest driver to your exact location.
-
+            You can call us on 1300 450 428 for immediate service. We use GPS to
+            send the nearest driver to your exact location.
           </>
         ),
       },
       {
-        question: "Are your Maxi Cabs near me in Picton available for airport runs?",
+        question:
+          "Are your Maxi Cabs near me in Picton available for airport runs?",
         answer: (
           <>
-           Yes, we specialize in airport transfers for large groups and heavy luggage. You should book in advance to ensure a perfectly timed morning pickup.
-
+            Yes, we specialize in airport transfers for large groups and heavy
+            luggage. You should book in advance to ensure a perfectly timed
+            morning pickup.
           </>
         ),
       },
       {
-        question: "Can I pay with a credit card in your Picton taxi service?",
+        question: "Can I use CabCharge for my Picton taxi cab service? ",
         answer: (
           <>
-         Every vehicle in our fleet accepts all major credit cards and <Link to="/cabcharge-taxi" className="underline px-1 font-bold">CabCharge</Link> . You will receive an electronic or paper receipt for your records immediately.
+            Yes, all our vehicles accept <Link
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Cabcharge`}
+              className="underline font-semibold px-1"
+            >
+       CabCharge
+            </Link> Taxi Campbelltown and Picton payments for your convenience. This makes business travel much easier for you to manage.
 
           </>
         ),
@@ -20161,28 +21349,34 @@ We provide specialized vehicles with hydraulic ramps for total accessibility. Ou
         question: "Do you offer a local taxi service near me with baby seats?",
         answer: (
           <>
-           We provide pre-installed baby seats upon request for all family bookings. Please mention the age of your child when you call our team.
-
+            We provide pre-installed baby seats upon request for all family
+            bookings. Please mention the age of your child when you call our
+            team.
           </>
         ),
       },
       {
-        question: "What makes your Picton taxi cab service safer than ride-sharing?",
+        question:
+          "What makes your Picton taxi cab service safer than ride-sharing?",
         answer: (
           <>
-           Our drivers are fully licensed professionals who undergo regular police background checks. We use <Link to="/about" className="underline px-1 font-bold">about us</Link>  verified vehicles that meet strict government safety regulations.
-
-
+            Our drivers are fully licensed professionals who undergo regular
+            police background checks. We use{" "}
+            <Link to="/about" className="underline px-1 font-bold">
+              about us
+            </Link>{" "}
+            verified vehicles that meet strict government safety regulations.
           </>
         ),
       },
       {
-        question: "How many people can fit in a maxi cab services Picton vehicle?",
+        question:
+          "How many people can fit in a maxi cab services Picton vehicle?",
         answer: (
           <>
-            Our Maxi Cabs can comfortably transport up to 11 passengers at one time. This makes them the most cost-effective choice for your large group travels.
-
-
+            Our Maxi Cabs can comfortably transport up to 11 passengers at one
+            time. This makes them the most cost-effective choice for your large
+            group travels.
           </>
         ),
       },
@@ -20190,65 +21384,116 @@ We provide specialized vehicles with hydraulic ramps for total accessibility. Ou
         question: "Can I book an Picton taxi and cab services ride in advance?",
         answer: (
           <>
-           You can schedule your ride days or weeks ahead via our website. This guarantees your driver will be waiting at your door on time.
-
+            You can schedule your ride days or weeks ahead via our website. This
+            guarantees your driver will be waiting at your door on time.
           </>
         ),
       },
       {
-        question: "Is there a taxi service close to me available on public holidays?",
+        question:
+          "Is there a taxi service close to me available on public holidays?",
         answer: (
           <>
-           Our Picton taxi service operates 24 hours a day, 365 days a year. We never close, even on Christmas Day or New Year's Eve.
-
+            Our Picton taxi service operates 24 hours a day, 365 days a year. We
+            never close, even on Christmas Day or New Year's Eve.
           </>
         ),
       },
       {
-        question: "Do you provide a taxi service near me for medical appointments? ",
+        question:
+          "Do you provide a taxi service near me for medical appointments? ",
         answer: (
           <>
-          We help many residents reach local hospitals and clinics for their appointments. Our drivers can assist you from your door to the vehicle safely.
-
-
+            We help many residents reach local hospitals and clinics for their
+            appointments. Our drivers can assist you from your door to the
+            vehicle safely.
           </>
         ),
       },
       {
-        question: "Where is your main office located for the Picton taxi cab service? ",
+        question:
+          "Where is your main office located for the Picton taxi cab service? ",
         answer: (
           <>
-          Our primary hub is located at <strong>1 Hurley St, Campbelltown, Australia.</strong> This central location allows us to serve all surrounding suburbs very rapidly.
+            Our primary hub is located at{" "}
+            <strong>1 Hurley St, Campbelltown, Australia.</strong> This central
+            location allows us to serve all surrounding suburbs very rapidly.
           </>
         ),
       },
-     
+      {
+        question:
+          "Do you provide child seats in your maxi cab? ",
+        answer: (
+          <>
+            We offer <Link
+            target="_blank"
+              to={`https://www.nhtsa.gov/equipment/car-seats-and-booster-seats`}
+              className="underline font-semibold px-1"
+            >
+       safe baby seats
+            </Link> upon your request to keep your little ones protected. Please include your child's age when you make your booking.
+          </>
+        ),
+      },
     ],
   },
-   "kearns-nsw": {
+  "kearns-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13227.753647882542!2d150.8013481!3d-34.01979180000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12eddae9a66805%3A0x5017d681632bbf0!2sKearns%20NSW%202558%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769807610202!5m2!1sen!2sbd",
     pageTitle: "Kearns Taxi & Maxi Cabs – 24/7 Reliable Local Service",
     metaDescription:
       "Enjoy reliable rides with Kearns Taxi & Maxi Cabs. We offer 24/7 local service and spacious vans. Call 1300 450 428 to book your professional driver now!",
     heroTitle: "Kearns Taxi & Maxi Cabs – 24/7 Reliable Local Service",
     heroDescription: (
       <>
-Experience the most reliable transport in the Macarthur region today. We offer prompt pickups for all local residents and visitors. Our fleet includes clean sedans and spacious vans for every need. You can book a ride 24/7 for any urgent trip. We prioritize your safety and comfort on every single suburban road. Trust our professional drivers to get you to your destination safely.
+        Experience the most <Link
+              to={`https://campbelltowntaxicabs.com.au/services/corporate-transport-services`}
+              className="underline font-semibold px-1"
+            >
+      reliable transport
+            </Link> in the Macarthur region today. We
+        offer prompt pickups for all local residents and visitors. Our fleet
+        includes clean sedans and spacious vans for every need. You can book a
+        ride 24/7 for any urgent trip. We prioritize your safety and comfort on
+        every single suburban road. Trust our professional drivers to get you to
+        your destination safely.
       </>
     ),
     bookingFormTitle: "Book Taxi Maxi in Kearns",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services Kearns",
     locationSectionDescription: (
       <>
-You deserve a transport partner that values your precious time. Finding a Kearns taxi cab close to me shouldn't feel like a gamble. I have seen many passengers frustrated by unreliable apps and late arrivals. Our team at Kearns Taxi & Maxi Cabs solves these common travel headaches. We employ local drivers who know every street around 1 Hurley St, Campbelltown. You will receive a clean vehicle and a professional, friendly driver. We offer transparent pricing without the stress of hidden surge costs. Whether you need a quick trip or a long journey, we deliver. Our <Link to="/" className="underline font-bold px-1"> Home page</Link> makes it easy to see our commitment to you. We handle your luggage with care and ensure a smooth ride. You can rely on us for medical appointments or grocery runs. Your safety remains our top priority during every local <Link to="/book-a-taxi" className="underline font-bold px-1">Taxi Booking</Link> you make with us.
-
+        You deserve a transport partner that values your precious time. Finding
+        a Kearns taxi cab close to me shouldn't feel like a gamble. I have seen
+        many passengers frustrated by unreliable apps and late arrivals. Our
+        team at Kearns Taxi & Maxi Cabs solves these common travel headaches. We
+        employ local drivers who know every street around 1 Hurley St,
+        Campbelltown. You will receive a clean vehicle and a professional,
+        friendly driver. We offer transparent pricing without the stress of
+        hidden surge costs. Whether you need a quick trip or a long journey, we
+        deliver. Our{" "}
+        <Link to="/" className="underline font-bold px-1">
+          {" "}
+          Home page
+        </Link>{" "}
+        makes it easy to see our commitment to you. We handle your luggage with
+        care and ensure a smooth ride. You can rely on us for medical
+        appointments or grocery runs. Your safety remains our top priority
+        during every local{" "}
+        <Link to="/book-a-taxi" className="underline font-bold px-1">
+          Taxi Booking
+        </Link>{" "}
+        you make with us.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Kearns",
     serviceSubtitle: (
       <>
-We provide comprehensive transport solutions for every possible local occasion. Our Kearns taxi and cab services cater to families, professionals, and groups. You get a tailored experience that fits your specific schedule perfectly.
-
+        We provide comprehensive transport solutions for every possible local
+        occasion. Our Kearns taxi and cab services cater to families,
+        professionals, and groups. You get a tailored experience that fits your
+        specific schedule perfectly.
       </>
     ),
     locationServices: {
@@ -20257,7 +21502,10 @@ We provide comprehensive transport solutions for every possible local occasion. 
         title: "Wedding Transfer",
         description: (
           <>
-         You will arrive at the venue in style and comfort. We coordinate multiple vehicles to move your entire guest list safely. Our drivers ensure punctuality so the ceremony starts without any delays. You can relax knowing your transport is in expert, professional hands.
+            You will arrive at the venue in style and comfort. We coordinate
+            multiple vehicles to move your entire guest list safely. Our drivers
+            ensure punctuality so the ceremony starts without any delays. You
+            can relax knowing your transport is in expert, professional hands.
           </>
         ),
         image: "/car.png",
@@ -20269,8 +21517,11 @@ We provide comprehensive transport solutions for every possible local occasion. 
         title: "Luxury Transfer",
         description: (
           <>
-            Enjoy a premium ride in our Taxi Cabs Premium Fleet for special nights. These high-end vehicles offer superior comfort and a very quiet cabin. I recommend this service for anniversaries or important corporate dinner events. You will make a great impression with our spotless, top-tier cars.
-
+            Enjoy a premium ride in our Taxi Cabs Premium Fleet for special
+            nights. These high-end vehicles offer superior comfort and a very
+            quiet cabin. I recommend this service for anniversaries or important
+            corporate dinner events. You will make a great impression with our
+            spotless, top-tier cars.
           </>
         ),
         image: "/vehicle.png",
@@ -20282,8 +21533,11 @@ We provide comprehensive transport solutions for every possible local occasion. 
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-Your child's safety is our most important daily mission. We provide professionally installed infant and toddler seats upon your request. You don't have to carry your own heavy seat through the airport. This service gives parents total peace of mind during every single trip.
-
+            Your child's safety is our most important daily mission. We provide
+            professionally installed infant and toddler seats upon your request.
+            You don't have to carry your own heavy seat through the airport.
+            This service gives parents total peace of mind during every single
+            trip.
           </>
         ),
         image: "/baby-seat.png",
@@ -20295,8 +21549,11 @@ Your child's safety is our most important daily mission. We provide professional
         title: "Corporate Transport Services",
         description: (
           <>
-           Business travelers value our efficiency and very high professional standards. We offer CabCharge Taxi Campbelltown options for easy and fast expense tracking. Your driver will choose the quickest routes to avoid heavy morning traffic. Stay productive in the back seat while we handle the busy roads.
-
+            Business travelers value our efficiency and very high professional
+            standards. We offer CabCharge Taxi Campbelltown options for easy and
+            fast expense tracking. Your driver will choose the quickest routes
+            to avoid heavy morning traffic. Stay productive in the back seat
+            while we handle the busy roads.
           </>
         ),
         image: "/corporate.png",
@@ -20308,9 +21565,11 @@ Your child's safety is our most important daily mission. We provide professional
         title: "Cruise Terminal Transfer",
         description: (
           <>
-Start your holiday stress-free with our reliable port shuttle service. We provide plenty of room for all your heavy holiday suitcases. Our drivers monitor traffic to ensure you board your ship on time. You won't have to worry about expensive long-term parking fees anymore.
-
-
+            Start your holiday stress-free with our reliable port shuttle
+            service. We provide plenty of room for all your heavy holiday
+            suitcases. Our drivers monitor traffic to ensure you board your ship
+            on time. You won't have to worry about expensive long-term parking
+            fees anymore.
           </>
         ),
         image: "/ship.png",
@@ -20321,9 +21580,11 @@ Start your holiday stress-free with our reliable port shuttle service. We provid
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <> 
-           Heading to a concert or a big local sporting match? We provide easy transport to avoid the nightmare of event parking. Our team handles group pickups from multiple locations for your entire party. You can focus on the fun while we manage the navigation.
-
+          <>
+            Heading to a concert or a big local sporting match? We provide easy
+            transport to avoid the nightmare of event parking. Our team handles
+            group pickups from multiple locations for your entire party. You can
+            focus on the fun while we manage the navigation.
           </>
         ),
         image: "/event.png",
@@ -20335,10 +21596,10 @@ Start your holiday stress-free with our reliable port shuttle service. We provid
         title: "Maxi Taxi Service",
         description: (
           <>
-    Our maxi cab services Kearns are perfect for large family groups. These vans fit up to eleven people and their bulky gear easily. I often suggest these for airport runs with lots of luggage. You save money by booking one large van instead of two.
-
-
-
+            Our maxi cab services Kearns are perfect for large family groups.
+            These vans fit up to eleven people and their bulky gear easily. I
+            often suggest these for airport runs with lots of luggage. You save
+            money by booking one large van instead of two.
           </>
         ),
         image: "/users.png",
@@ -20349,9 +21610,14 @@ Start your holiday stress-free with our reliable port shuttle service. We provid
         title: "Corporate Trips",
         description: (
           <>
-We manage transport for large teams attending seminars or office functions. Our fleet can move dozens of employees across the city efficiently. We provide detailed invoicing to help your accounting team track travel costs. Trust our <Link to="/about" className="underline font-bold px-1">About Us</Link> history of excellence for your business.
-
-
+            We manage transport for large teams attending seminars or office
+            functions. Our fleet can move dozens of employees across the city
+            efficiently. We provide detailed invoicing to help your accounting
+            team track travel costs. Trust our{" "}
+            <Link to="/about" className="underline font-bold px-1">
+              About Us
+            </Link>{" "}
+            history of excellence for your business.
           </>
         ),
         image: "/briefcase.png",
@@ -20362,17 +21628,15 @@ We manage transport for large teams attending seminars or office functions. Our 
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
         pathname: "/services/book-taxi-sydney-airport",
       },
     },
-    fleetSectionTitle:
-      "Executive Fleet Options by Kearns Taxi & Maxi Cabs",
+    fleetSectionTitle: "Executive Fleet Options by Kearns Taxi & Maxi Cabs",
     fleetSectionSubTitle:
       "You can choose the perfect vehicle from our diverse local fleet. We maintain our cars to the highest Australian safety standards daily. I personally ensure every cabin stays fresh and very clean for you. Our Kearns taxi cab service adapts to your unique luggage requirements. You will find a vehicle that fits your budget and style. We use modern technology to track every car for your safety. Experience the best local taxi service Kearns has to offer today. Our Service Areas We Cover page shows our wide reach.",
 
@@ -20384,7 +21648,14 @@ We manage transport for large teams attending seminars or office functions. Our 
         bagsCapacity: 2,
         description: (
           <>
-   This is our most popular choice for quick solo trips. It is a fuel-efficient and comfortable way to reach your local destination.
+           The best <Link
+            target="_blank"
+              to={`https://en.wikipedia.org/wiki/Taxis_of_Australia`}
+              className="underline font-semibold px-1"
+            >
+       taxi
+            </Link> service near me for individuals. It comfortably fits four passengers and two small bags.
+
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -20397,7 +21668,13 @@ We manage transport for large teams attending seminars or office functions. Our 
         bagsCapacity: 2,
         description: (
           <>
-Elevate your travel experience with our premium executive sedan options. These cars offer extra comfort and style for your most important journeys.
+            Choose this from our <Link
+              to={`https://campbelltowntaxicabs.com.au/fleet`}
+              className="underline font-semibold px-1"
+            >
+   Taxi Cabs Premium Fleet 
+            </Link>for a VIP experience. You get extra legroom and a high-end interior for any trip.
+
           </>
         ),
         image: "/campbelltown-luxury-vehicle.png",
@@ -20410,7 +21687,8 @@ Elevate your travel experience with our premium executive sedan options. These c
         bagsCapacity: 5,
         description: (
           <>
-Perfect for small families with a bit of extra luggage. You get more trunk space without needing a full-sized maxi cab near me.
+            Perfect for small families with a bit of extra luggage. You get more
+            trunk space without needing a full-sized maxi cab near me.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -20423,7 +21701,9 @@ Perfect for small families with a bit of extra luggage. You get more trunk space
         bagsCapacity: 8,
         description: (
           <>
-This versatile vehicle comfortably seats up to seven passengers easily. I recommend this for airport transfers for families with several medium bags.
+            This versatile vehicle comfortably seats up to seven passengers
+            easily. I recommend this for airport transfers for families with
+            several medium bags.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -20436,7 +21716,8 @@ This versatile vehicle comfortably seats up to seven passengers easily. I recomm
         bagsCapacity: 8,
         description: (
           <>
-Our largest option fits up to eleven people with ease. It is the best way to move a big group around Edmondson Park.
+            Our largest option fits up to eleven people with ease. It is the
+            best way to move a big group around Edmondson Park.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -20449,38 +21730,45 @@ Our largest option fits up to eleven people with ease. It is the best way to mov
         bagsCapacity: 8,
         description: (
           <>
-We provide specialized vehicles with hydraulic ramps for total accessibility. Our trained drivers ensure a safe and dignified journey for every passenger.
+            We provide specialized vehicles with hydraulic ramps for total
+            accessibility. Our trained drivers ensure a safe and dignified
+            journey for every passenger.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
       },
     },
-    faqSectionTitle:
-      "Frequently Asked Questions About Kearns Taxi & Maxi Cabs",
+    faqSectionTitle: "Frequently Asked Questions About Kearns Taxi & Maxi Cabs",
     faqs: [
       {
         question: "How do I find an Kearns taxi cab close to me?",
         answer: (
           <>
-          You can call us on 1300 450 428 for immediate service. We use GPS to send the nearest driver to your exact location.
-
+            You can call us on 1300 450 428 for immediate service. We use GPS to
+            send the nearest driver to your exact location.
           </>
         ),
       },
       {
-        question: "Are your Maxi Cabs near me in Kearns available for airport runs?",
+        question:
+          "Are your Maxi Cabs near me in Kearns available for airport runs?",
         answer: (
           <>
-           Yes, we specialize in airport transfers for large groups and heavy luggage. You should book in advance to ensure a perfectly timed morning pickup.
-
+            Yes, we specialize in airport transfers for large groups and heavy
+            luggage. You should book in advance to ensure a perfectly timed
+            morning pickup.
           </>
         ),
       },
       {
-        question: "Can I pay with a credit card in your Kearns taxi service?",
+        question: "Can I use CabCharge for a taxi service near me?",
         answer: (
           <>
-         Every vehicle in our fleet accepts all major credit cards and <Link to="/cabcharge-taxi" className="underline px-1 font-bold">CabCharge</Link> . You will receive an electronic or paper receipt for your records immediately.
+           We accept all
+            <Link target="_blank" to="https://en.wikipedia.org/wiki/Cabcharge" className="underline px-1 font-bold">
+              CabCharge Taxi
+            </Link>
+            Campbelltown payments across all vehicles. This is perfect for our local business and corporate passengers.
 
           </>
         ),
@@ -20489,28 +21777,34 @@ We provide specialized vehicles with hydraulic ramps for total accessibility. Ou
         question: "Do you offer a local taxi service near me with baby seats?",
         answer: (
           <>
-           We provide pre-installed baby seats upon request for all family bookings. Please mention the age of your child when you call our team.
-
+            We provide pre-installed baby seats upon request for all family
+            bookings. Please mention the age of your child when you call our
+            team.
           </>
         ),
       },
       {
-        question: "What makes your Kearns taxi cab service safer than ride-sharing?",
+        question:
+          "What makes your Kearns taxi cab service safer than ride-sharing?",
         answer: (
           <>
-           Our drivers are fully licensed professionals who undergo regular police background checks. We use <Link to="/about" className="underline px-1 font-bold">about us</Link>  verified vehicles that meet strict government safety regulations.
-
-
+            Our drivers are fully licensed professionals who undergo regular
+            police background checks. We use{" "}
+            <Link to="/about" className="underline px-1 font-bold">
+              about us
+            </Link>{" "}
+            verified vehicles that meet strict government safety regulations.
           </>
         ),
       },
       {
-        question: "How many people can fit in a maxi cab services Kearns vehicle?",
+        question:
+          "How many people can fit in a maxi cab services Kearns vehicle?",
         answer: (
           <>
-            Our Maxi Cabs can comfortably transport up to 11 passengers at one time. This makes them the most cost-effective choice for your large group travels.
-
-
+            Our Maxi Cabs can comfortably transport up to 11 passengers at one
+            time. This makes them the most cost-effective choice for your large
+            group travels.
           </>
         ),
       },
@@ -20518,35 +21812,40 @@ We provide specialized vehicles with hydraulic ramps for total accessibility. Ou
         question: "Can I book an Kearns taxi and cab services ride in advance?",
         answer: (
           <>
-           You can schedule your ride days or weeks ahead via our website. This guarantees your driver will be waiting at your door on time.
-
+            You can schedule your ride days or weeks ahead via our website. This
+            guarantees your driver will be waiting at your door on time.
           </>
         ),
       },
       {
-        question: "Is there a taxi service close to me available on public holidays?",
+        question:
+          "Is there a taxi service close to me available on public holidays?",
         answer: (
           <>
-           Our Kearns taxi service operates 24 hours a day, 365 days a year. We never close, even on Christmas Day or New Year's Eve.
-
+            Our Kearns taxi service operates 24 hours a day, 365 days a year. We
+            never close, even on Christmas Day or New Year's Eve.
           </>
         ),
       },
       {
-        question: "Do you provide a taxi service near me for medical appointments? ",
+        question:
+          "Do you provide a taxi service near me for medical appointments? ",
         answer: (
           <>
-          We help many residents reach local hospitals and clinics for their appointments. Our drivers can assist you from your door to the vehicle safely.
-
-
+            We help many residents reach local hospitals and clinics for their
+            appointments. Our drivers can assist you from your door to the
+            vehicle safely.
           </>
         ),
       },
       {
-        question: "Where is your main office located for the Kearns taxi cab service? ",
+        question:
+          "Where is your main office located for the Kearns taxi cab service? ",
         answer: (
           <>
-          Our primary hub is located at <strong>1 Hurley St, Campbelltown, Australia.</strong> This central location allows us to serve all surrounding suburbs very rapidly.
+            Our primary hub is located at{" "}
+            <strong>1 Hurley St, Campbelltown, Australia.</strong> This central
+            location allows us to serve all surrounding suburbs very rapidly.
           </>
         ),
       },
@@ -20554,37 +21853,68 @@ We provide specialized vehicles with hydraulic ramps for total accessibility. Ou
         question: "What if I need to contact the office directly?",
         answer: (
           <>
-          You can visit our <Link to="/contact" className="underline font-bold px-1">Contact us</Link> page for all our details. We are always happy to help with your travel questions.
+            You can visit our{" "}
+            <Link to="/contact" className="underline font-bold px-1">
+              Contact us
+            </Link>{" "}
+            page for all our details. We are always happy to help with your
+            travel questions.
           </>
         ),
       },
-     
     ],
   },
-   "gledswood-hills-nsw": {
+  "gledswood-hills-nsw": {
+    mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26457.406099336153!2d150.7787779!3d-34.0136991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12f276f52efba3%3A0x5d41c50bf3f24e5f!2sGledswood%20Hills%20NSW%202557%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769807839116!5m2!1sen!2sbd",
     pageTitle: "Gledswood Hills Taxi & Maxi Cabs – 24/7 Reliable Local Service",
     metaDescription:
       "Enjoy reliable rides with Gledswood Hills Taxi & Maxi Cabs. We offer 24/7 local service and spacious vans. Call 1300 450 428 to book your professional driver now!",
     heroTitle: "Gledswood Hills Taxi & Maxi Cabs – 24/7 Reliable Local Service",
     heroDescription: (
       <>
-Experience the most reliable transport in the Macarthur region today. We offer prompt pickups for all local residents and visitors. Our fleet includes clean sedans and spacious vans for every need. You can book a ride 24/7 for any urgent trip. We prioritize your safety and comfort on every single suburban road. Trust our professional drivers to get you to your destination safely.
+        Experience the most reliable transport in the Macarthur region today. We
+        offer prompt pickups for all local residents and visitors. Our fleet
+        includes clean sedans and spacious vans for every need. You can book a
+        ride 24/7 for any urgent trip. We prioritize your safety and comfort on
+        every single suburban road. Trust our professional drivers to get you to
+        your destination safely.
       </>
     ),
     bookingFormTitle: "Book Taxi Maxi in Gledswood Hills",
     locationSectionTitle: "Trusted Taxi and Maxi Cab Services Gledswood Hills",
     locationSectionDescription: (
       <>
-You deserve a transport partner that values your precious time. Finding a Gledswood Hills taxi cab close to me shouldn't feel like a gamble. I have seen many passengers frustrated by unreliable apps and late arrivals. Our team at Gledswood Hills Taxi & Maxi Cabs solves these common travel headaches. We employ local drivers who know every street around 1 Hurley St, Campbelltown. You will receive a clean vehicle and a professional, friendly driver. We offer transparent pricing without the stress of hidden surge costs. Whether you need a quick trip or a long journey, we deliver. Our <Link to="/" className="underline font-bold px-1"> Home page</Link> makes it easy to see our commitment to you. We handle your luggage with care and ensure a smooth ride. You can rely on us for medical appointments or grocery runs. Your safety remains our top priority during every local <Link to="/book-a-taxi" className="underline font-bold px-1">Taxi Booking</Link> you make with us.
-
+        You deserve a transport partner that values your precious time. Finding
+        a Gledswood Hills taxi cab close to me shouldn't feel like a gamble. I
+        have seen many passengers frustrated by unreliable apps and late
+        arrivals. Our team at Gledswood Hills Taxi & Maxi Cabs solves these
+        common travel headaches. We employ local drivers who know every street
+        around 1 Hurley St, Campbelltown. You will receive a clean vehicle and a
+        professional, friendly driver. We offer transparent pricing without the
+        stress of hidden surge costs. Whether you need a quick trip or a long
+        journey, we deliver. Our{" "}
+        <Link to="/" className="underline font-bold px-1">
+          {" "}
+          Home page
+        </Link>{" "}
+        makes it easy to see our commitment to you. We handle your luggage with
+        care and ensure a smooth ride. You can rely on us for medical
+        appointments or grocery runs. Your safety remains our top priority
+        during every local{" "}
+        <Link to="/book-a-taxi" className="underline font-bold px-1">
+          Taxi Booking
+        </Link>{" "}
+        you make with us.
       </>
     ),
     locationSectionImg: corporateTripsImg,
     serviceTitle: "Our Taxi and Maxi Services in Gledswood Hills",
     serviceSubtitle: (
       <>
-We provide comprehensive transport solutions for every possible local occasion. Our Gledswood Hills taxi and cab services cater to families, professionals, and groups. You get a tailored experience that fits your specific schedule perfectly.
-
+        We provide comprehensive transport solutions for every possible local
+        occasion. Our Gledswood Hills taxi and cab services cater to families,
+        professionals, and groups. You get a tailored experience that fits your
+        specific schedule perfectly.
       </>
     ),
     locationServices: {
@@ -20593,7 +21923,10 @@ We provide comprehensive transport solutions for every possible local occasion. 
         title: "Wedding Transfer",
         description: (
           <>
-         You will arrive at the venue in style and comfort. We coordinate multiple vehicles to move your entire guest list safely. Our drivers ensure punctuality so the ceremony starts without any delays. You can relax knowing your transport is in expert, professional hands.
+            You will arrive at the venue in style and comfort. We coordinate
+            multiple vehicles to move your entire guest list safely. Our drivers
+            ensure punctuality so the ceremony starts without any delays. You
+            can relax knowing your transport is in expert, professional hands.
           </>
         ),
         image: "/car.png",
@@ -20605,8 +21938,11 @@ We provide comprehensive transport solutions for every possible local occasion. 
         title: "Luxury Transfer",
         description: (
           <>
-            Enjoy a premium ride in our Taxi Cabs Premium Fleet for special nights. These high-end vehicles offer superior comfort and a very quiet cabin. I recommend this service for anniversaries or important corporate dinner events. You will make a great impression with our spotless, top-tier cars.
-
+            Enjoy a premium ride in our Taxi Cabs Premium Fleet for special
+            nights. These high-end vehicles offer superior comfort and a very
+            quiet cabin. I recommend this service for anniversaries or important
+            corporate dinner events. You will make a great impression with our
+            spotless, top-tier cars.
           </>
         ),
         image: "/vehicle.png",
@@ -20618,8 +21954,11 @@ We provide comprehensive transport solutions for every possible local occasion. 
         title: "Baby Seat Taxi Sydney",
         description: (
           <>
-Your child's safety is our most important daily mission. We provide professionally installed infant and toddler seats upon your request. You don't have to carry your own heavy seat through the airport. This service gives parents total peace of mind during every single trip.
-
+            Your child's safety is our most important daily mission. We provide
+            professionally installed infant and toddler seats upon your request.
+            You don't have to carry your own heavy seat through the airport.
+            This service gives parents total peace of mind during every single
+            trip.
           </>
         ),
         image: "/baby-seat.png",
@@ -20631,8 +21970,11 @@ Your child's safety is our most important daily mission. We provide professional
         title: "Corporate Transport Services",
         description: (
           <>
-           Business travelers value our efficiency and very high professional standards. We offer CabCharge Taxi Campbelltown options for easy and fast expense tracking. Your driver will choose the quickest routes to avoid heavy morning traffic. Stay productive in the back seat while we handle the busy roads.
-
+            Business travelers value our efficiency and very high professional
+            standards. We offer CabCharge Taxi Campbelltown options for easy and
+            fast expense tracking. Your driver will choose the quickest routes
+            to avoid heavy morning traffic. Stay productive in the back seat
+            while we handle the busy roads.
           </>
         ),
         image: "/corporate.png",
@@ -20644,9 +21986,11 @@ Your child's safety is our most important daily mission. We provide professional
         title: "Cruise Terminal Transfer",
         description: (
           <>
-Start your holiday stress-free with our reliable port shuttle service. We provide plenty of room for all your heavy holiday suitcases. Our drivers monitor traffic to ensure you board your ship on time. You won't have to worry about expensive long-term parking fees anymore.
-
-
+            Start your holiday stress-free with our reliable port shuttle
+            service. We provide plenty of room for all your heavy holiday
+            suitcases. Our drivers monitor traffic to ensure you board your ship
+            on time. You won't have to worry about expensive long-term parking
+            fees anymore.
           </>
         ),
         image: "/ship.png",
@@ -20657,9 +22001,11 @@ Start your holiday stress-free with our reliable port shuttle service. We provid
         service_id: "S006",
         title: "Event Transfer",
         description: (
-          <> 
-           Heading to a concert or a big local sporting match? We provide easy transport to avoid the nightmare of event parking. Our team handles group pickups from multiple locations for your entire party. You can focus on the fun while we manage the navigation.
-
+          <>
+            Heading to a concert or a big local sporting match? We provide easy
+            transport to avoid the nightmare of event parking. Our team handles
+            group pickups from multiple locations for your entire party. You can
+            focus on the fun while we manage the navigation.
           </>
         ),
         image: "/event.png",
@@ -20671,10 +22017,10 @@ Start your holiday stress-free with our reliable port shuttle service. We provid
         title: "Maxi Taxi Service",
         description: (
           <>
-    Our maxi cab services Gledswood Hills are perfect for large family groups. These vans fit up to eleven people and their bulky gear easily. I often suggest these for airport runs with lots of luggage. You save money by booking one large van instead of two.
-
-
-
+            Our maxi cab services Gledswood Hills are perfect for large family
+            groups. These vans fit up to eleven people and their bulky gear
+            easily. I often suggest these for airport runs with lots of luggage.
+            You save money by booking one large van instead of two.
           </>
         ),
         image: "/users.png",
@@ -20685,9 +22031,14 @@ Start your holiday stress-free with our reliable port shuttle service. We provid
         title: "Corporate Trips",
         description: (
           <>
-We manage transport for large teams attending seminars or office functions. Our fleet can move dozens of employees across the city efficiently. We provide detailed invoicing to help your accounting team track travel costs. Trust our <Link to="/about" className="underline font-bold px-1">About Us</Link> history of excellence for your business.
-
-
+            We manage transport for large teams attending seminars or office
+            functions. Our fleet can move dozens of employees across the city
+            efficiently. We provide detailed invoicing to help your accounting
+            team track travel costs. Trust our{" "}
+            <Link to="/about" className="underline font-bold px-1">
+              About Us
+            </Link>{" "}
+            history of excellence for your business.
           </>
         ),
         image: "/briefcase.png",
@@ -20698,9 +22049,8 @@ We manage transport for large teams attending seminars or office functions. Our 
         title: "Reliable Airport Transfers",
         description: (
           <>
-            Never miss a flight with our taxi cab close to me
-            service. Timely pickups, luggage support, and stress-free journeys
-            are guaranteed.
+            Never miss a flight with our taxi cab close to me service. Timely
+            pickups, luggage support, and stress-free journeys are guaranteed.
           </>
         ),
         image: "/airport.png",
@@ -20720,7 +22070,8 @@ We manage transport for large teams attending seminars or office functions. Our 
         bagsCapacity: 2,
         description: (
           <>
-   This is our most popular choice for quick solo trips. It is a fuel-efficient and comfortable way to reach your local destination.
+            This is our most popular choice for quick solo trips. It is a
+            fuel-efficient and comfortable way to reach your local destination.
           </>
         ),
         image: "/campbelltown-easy-sedan.png",
@@ -20733,7 +22084,9 @@ We manage transport for large teams attending seminars or office functions. Our 
         bagsCapacity: 2,
         description: (
           <>
-Elevate your travel experience with our premium executive sedan options. These cars offer extra comfort and style for your most important journeys.
+            Elevate your travel experience with our premium executive sedan
+            options. These cars offer extra comfort and style for your most
+            important journeys.
           </>
         ),
         image: "/campbelltown-luxury-vehicle.png",
@@ -20746,7 +22099,8 @@ Elevate your travel experience with our premium executive sedan options. These c
         bagsCapacity: 5,
         description: (
           <>
-Perfect for small families with a bit of extra luggage. You get more trunk space without needing a full-sized maxi cab near me.
+            Perfect for small families with a bit of extra luggage. You get more
+            trunk space without needing a full-sized maxi cab near me.
           </>
         ),
         image: "/campbelltown-suv-wagon.png",
@@ -20759,7 +22113,9 @@ Perfect for small families with a bit of extra luggage. You get more trunk space
         bagsCapacity: 8,
         description: (
           <>
-This versatile vehicle comfortably seats up to seven passengers easily. I recommend this for airport transfers for families with several medium bags.
+            This versatile vehicle comfortably seats up to seven passengers
+            easily. I recommend this for airport transfers for families with
+            several medium bags.
           </>
         ),
         image: "/campbelltown-kia-carnival.png",
@@ -20772,7 +22128,8 @@ This versatile vehicle comfortably seats up to seven passengers easily. I recomm
         bagsCapacity: 8,
         description: (
           <>
-Our largest option fits up to eleven people with ease. It is the best way to move a big group around Edmondson Park.
+            Our largest option fits up to eleven people with ease. It is the
+            best way to move a big group around Edmondson Park.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -20785,7 +22142,9 @@ Our largest option fits up to eleven people with ease. It is the best way to mov
         bagsCapacity: 8,
         description: (
           <>
-We provide specialized vehicles with hydraulic ramps for total accessibility. Our trained drivers ensure a safe and dignified journey for every passenger.
+            We provide specialized vehicles with hydraulic ramps for total
+            accessibility. Our trained drivers ensure a safe and dignified
+            journey for every passenger.
           </>
         ),
         image: "/campbelltown-maxi-taxi.png",
@@ -20798,26 +22157,33 @@ We provide specialized vehicles with hydraulic ramps for total accessibility. Ou
         question: "How do I find an Gledswood Hills taxi cab close to me?",
         answer: (
           <>
-          You can call us on 1300 450 428 for immediate service. We use GPS to send the nearest driver to your exact location.
-
+            You can call us on 1300 450 428 for immediate service. We use GPS to
+            send the nearest driver to your exact location.
           </>
         ),
       },
       {
-        question: "Are your Maxi Cabs near me in Gledswood Hills available for airport runs?",
+        question:
+          "Are your Maxi Cabs near me in Gledswood Hills available for airport runs?",
         answer: (
           <>
-           Yes, we specialize in airport transfers for large groups and heavy luggage. You should book in advance to ensure a perfectly timed morning pickup.
-
+            Yes, we specialize in airport transfers for large groups and heavy
+            luggage. You should book in advance to ensure a perfectly timed
+            morning pickup.
           </>
         ),
       },
       {
-        question: "Can I pay with a credit card in your Gledswood Hills taxi service?",
+        question:
+          "Can I pay with a credit card in your Gledswood Hills taxi service?",
         answer: (
           <>
-         Every vehicle in our fleet accepts all major credit cards and <Link to="/cabcharge-taxi" className="underline px-1 font-bold">CabCharge</Link> . You will receive an electronic or paper receipt for your records immediately.
-
+            Every vehicle in our fleet accepts all major credit cards and{" "}
+            <Link to="/cabcharge-taxi" className="underline px-1 font-bold">
+              CabCharge
+            </Link>{" "}
+            . You will receive an electronic or paper receipt for your records
+            immediately.
           </>
         ),
       },
@@ -20825,64 +22191,76 @@ We provide specialized vehicles with hydraulic ramps for total accessibility. Ou
         question: "Do you offer a local taxi service near me with baby seats?",
         answer: (
           <>
-           We provide pre-installed baby seats upon request for all family bookings. Please mention the age of your child when you call our team.
-
+            We provide pre-installed baby seats upon request for all family
+            bookings. Please mention the age of your child when you call our
+            team.
           </>
         ),
       },
       {
-        question: "What makes your Gledswood Hills taxi cab service safer than ride-sharing?",
+        question:
+          "What makes your Gledswood Hills taxi cab service safer than ride-sharing?",
         answer: (
           <>
-           Our drivers are fully licensed professionals who undergo regular police background checks. We use <Link to="/about" className="underline px-1 font-bold">about us</Link>  verified vehicles that meet strict government safety regulations.
-
-
+            Our drivers are fully licensed professionals who undergo regular
+            police background checks. We use{" "}
+            <Link to="/about" className="underline px-1 font-bold">
+              about us
+            </Link>{" "}
+            verified vehicles that meet strict government safety regulations.
           </>
         ),
       },
       {
-        question: "How many people can fit in a maxi cab services Gledswood Hills vehicle?",
+        question:
+          "How many people can fit in a maxi cab services Gledswood Hills vehicle?",
         answer: (
           <>
-            Our Maxi Cabs can comfortably transport up to 11 passengers at one time. This makes them the most cost-effective choice for your large group travels.
-
-
+            Our Maxi Cabs can comfortably transport up to 11 passengers at one
+            time. This makes them the most cost-effective choice for your large
+            group travels.
           </>
         ),
       },
       {
-        question: "Can I book an Gledswood Hills taxi and cab services ride in advance?",
+        question:
+          "Can I book an Gledswood Hills taxi and cab services ride in advance?",
         answer: (
           <>
-           You can schedule your ride days or weeks ahead via our website. This guarantees your driver will be waiting at your door on time.
-
+            You can schedule your ride days or weeks ahead via our website. This
+            guarantees your driver will be waiting at your door on time.
           </>
         ),
       },
       {
-        question: "Is there a taxi service close to me available on public holidays?",
+        question:
+          "Is there a taxi service close to me available on public holidays?",
         answer: (
           <>
-           Our Gledswood Hills taxi service operates 24 hours a day, 365 days a year. We never close, even on Christmas Day or New Year's Eve.
-
+            Our Gledswood Hills taxi service operates 24 hours a day, 365 days a
+            year. We never close, even on Christmas Day or New Year's Eve.
           </>
         ),
       },
       {
-        question: "Do you provide a taxi service near me for medical appointments? ",
+        question:
+          "Do you provide a taxi service near me for medical appointments? ",
         answer: (
           <>
-          We help many residents reach local hospitals and clinics for their appointments. Our drivers can assist you from your door to the vehicle safely.
-
-
+            We help many residents reach local hospitals and clinics for their
+            appointments. Our drivers can assist you from your door to the
+            vehicle safely.
           </>
         ),
       },
       {
-        question: "Where is your main office located for the Gledswood Hills taxi cab service? ",
+        question:
+          "Where is your main office located for the Gledswood Hills taxi cab service? ",
         answer: (
           <>
-          Our primary hub is located at <strong>1 Hurley St, Campbelltown, Australia.</strong> This central location allows us to serve all surrounding suburbs very rapidly.
+            Our primary hub is located at{" "}
+            <strong>1 Hurley St, Campbelltown, Australia.</strong> This central
+            location allows us to serve all surrounding suburbs very rapidly.
           </>
         ),
       },
@@ -20890,11 +22268,15 @@ We provide specialized vehicles with hydraulic ramps for total accessibility. Ou
         question: "What if I need to contact the office directly?",
         answer: (
           <>
-          You can visit our <Link to="/contact" className="underline font-bold px-1">Contact us</Link> page for all our details. We are always happy to help with your travel questions.
+            You can visit our{" "}
+            <Link to="/contact" className="underline font-bold px-1">
+              Contact us
+            </Link>{" "}
+            page for all our details. We are always happy to help with your
+            travel questions.
           </>
         ),
       },
-     
     ],
   },
 };

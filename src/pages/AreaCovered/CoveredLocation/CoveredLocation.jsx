@@ -12,134 +12,141 @@ import Faq from "../../../shared/Faq";
 import {allLocationsData} from "./AllLocationsDatas";
 import ServicesSection from "../../Home/ServicesSection";
 import PageNotFound from "../../PageNotFound/PageNotFound";
+import MapEmbed from "../../../shared/MapEmbed";
 
 const CoveredLocation = () => {
   const {location} = useParams();
   const locationData = allLocationsData[location];
-const parts = location.split('-');
-const state = parts.pop()?.toUpperCase() || '';           
-const citySlug = parts.join('-');                         
+  const parts = location.split("-");
+  const state = parts.pop()?.toUpperCase() || "";
+  const citySlug = parts.join("-");
 
-// Convert city slug → proper title case
-const cityFormatted = citySlug
-  .split('-')
-  .map(word =>
-    word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
-  )
-  .join(' ');
+  // Convert city slug → proper title case
+  const cityFormatted = citySlug
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(" ");
 
-const modifiedLocationName = `${cityFormatted} ${state}`.trim();
+  const modifiedLocationName = `${cityFormatted} ${state}`.trim();
 
-  
   return (
     <>
-    
       {useSEO({
-        title: `${locationData?.pageTitle ||`24/7 ${modifiedLocationName} Taxi & Maxi Cabs for Fast Pickups` }`,
+        title: `${locationData?.pageTitle || `24/7 ${modifiedLocationName} Taxi & Maxi Cabs for Fast Pickups`}`,
         description: `${locationData?.metaDescription || "Comfortable rides for every journey – Campbelltown Taxi & Maxi Cabs support local, group, and long trips. Book today for a smooth and trusted experience."}`,
         keywords: `${modifiedLocationName} taxi,${modifiedLocationName} Taxi & Maxi Cabs,${modifiedLocationName} taxi cab close to me,${modifiedLocationName} taxi and cab services,${modifiedLocationName} taxi service,taxi service close to me ${modifiedLocationName}, taxi service near me,taxi cab service near me,taxi services near me,${modifiedLocationName} taxi cab service,local taxi service ${modifiedLocationName}, local taxi service near me,local taxi cab service near me,maxi cab, maxi cab near me,maxi cab services ${modifiedLocationName}, Maxi cabs near me in ${modifiedLocationName} `,
         canonical: `https://campbelltowntaxicabs.com.au/taxi-maxi-service-in/${location}`,
       })}
-      {
-        !locationData ? <PageNotFound /> : <div>
-        <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
-          <Container>
-            <div className="flex flex-col md:flex-row text-white md:gap-6">
-              <div className="py-10 md:py-20  flex-1 text-center md:text-left ">
-                <h2 className="section-hero-title">{locationData.heroTitle}</h2>
+      {!locationData ? (
+        <PageNotFound />
+      ) : (
+        <div>
+          <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
+            <Container>
+              <div className="flex flex-col md:flex-row text-white md:gap-6">
+                <div className="py-10 md:py-20  flex-1 text-center md:text-left ">
+                  <h2 className="section-hero-title">
+                    {locationData.heroTitle}
+                  </h2>
 
-                <p className="mt-8 text-sm md:text-base">
-                  {locationData.heroDescription}
-                </p>
-                <div className="flex py-4 gap-4 justify-center md:justify-start">
-                  <Link to="/book-a-taxi" className=" ">
-                    <ButtonSecondary className="flex gap-2 items-center border-2 border-transparent hover:border-white">
-                      <FaHandPointer />
-                      Book Online
-                    </ButtonSecondary>
-                  </Link>
-                  <a href="tel:1300450428" className="">
-                    <ButtonSecondary className="flex gap-2 items-center bg-transparent! border-2 hover:bg-secondary!">
-                      <IoCallSharp className="" /> 1300 450 428
-                    </ButtonSecondary>
-                  </a>
+                  <p className="mt-8 text-sm md:text-base">
+                    {locationData.heroDescription}
+                  </p>
+                  <div className="flex py-4 gap-4 justify-center md:justify-start">
+                    <Link to="/book-a-taxi" className=" ">
+                      <ButtonSecondary className="flex gap-2 items-center border-2 border-transparent hover:border-white">
+                        <FaHandPointer />
+                        Book Online
+                      </ButtonSecondary>
+                    </Link>
+                    <a href="tel:1300450428" className="">
+                      <ButtonSecondary className="flex gap-2 items-center bg-transparent! border-2 hover:bg-secondary!">
+                        <IoCallSharp className="" /> 1300 450 428
+                      </ButtonSecondary>
+                    </a>
+                  </div>
+                </div>
+                <div className="flex flex-1 items-center pb-10 md:pb-0">
+                  <img
+                    className="w-full"
+                    src={titleImg}
+                    alt="Campbelltown Taxi Cabs"
+                  />
                 </div>
               </div>
-              <div className="flex flex-1 items-center pb-10 md:pb-0">
-                <img
-                  className="w-full"
-                  src={titleImg}
-                  alt="Campbelltown Taxi Cabs"
-                />
+            </Container>
+          </div>
+          {/* Booking Form */}
+          <BookingForm
+            formTitle={`Book A Taxi/Maxi in ${modifiedLocationName}`}
+          />
+
+          {/* ---------------------------------------- */}
+          {/* SECTION: Locatiion Details Dynamic */}
+          {/* ---------------------------------------- */}
+
+          <section className="py-12 bg-white">
+            <Container>
+              <div className="flex flex-col-reverse md:flex-row gap-5 items-center">
+                {/* LEFT SIDE — Content */}
+                <div className="flex-1">
+                  {/* Title */}
+                  <h2 className="text-xl md:text-3xl font-bold text-primary mb-4 capitalize">
+                    {locationData?.locationSectionTitle}
+                  </h2>
+
+                  {/* Description */}
+                  <p className="text-gray-700 leading-relaxed text-[15px] mb-6">
+                    {locationData.locationSectionDescription}
+                  </p>
+                </div>
+
+                {/* RIGHT SIDE — Image */}
+                <div className="flex-1 flex justify-center">
+                  <img
+                    src={locationData.locationSectionImg || corporateTripsImg}
+                    alt={
+                      "Corporate taxi services sydney for Campbelltown companies requiring account bookings, airport transfers, staff shuttles and client transport."
+                    }
+                    className="rounded-xl shadow-lg w-full max-w-md"
+                  />
+                </div>
               </div>
-            </div>
-          </Container>
+            </Container>
+          </section>
+
+          <ServicesSection
+            className={`pt-0!`}
+            sectionTitle={`${
+              locationData.serviceTitle
+                ? locationData.serviceTitle
+                : "Our Taxi and Maxi Services in " + modifiedLocationName
+            }`}
+            serviceSubtitle={locationData.serviceSubtitle}
+            locationServices={Object.values(locationData.locationServices)}
+          />
+
+          {/* Fleet */}
+          <FeatureFleet
+            fleetSectionTitle={`${locationData.fleetSectionTitle}`}
+            fleetSectionSubTitle={locationData.fleetSectionSubTitle}
+            fleetSectionVehicles={Object.values(
+              locationData.fleetSectionVehicles,
+            )}
+          />
+          {/* Faqs */}
+          <Faq
+            faqSectionTitle={locationData.faqSectionTitle}
+            faqs={locationData.faqs}
+          />
         </div>
-        {/* Booking Form */}
-        <BookingForm formTitle={`Book A Taxi/Maxi in ${modifiedLocationName}`} />
-
-        {/* ---------------------------------------- */}
-        {/* SECTION: Locatiion Details Dynamic */}
-        {/* ---------------------------------------- */}
-
-        <section className="py-12 bg-white">
-          <Container>
-            <div className="flex flex-col-reverse md:flex-row gap-5 items-center">
-              {/* LEFT SIDE — Content */}
-              <div className="flex-1">
-                {/* Title */}
-                <h2 className="text-xl md:text-3xl font-bold text-primary mb-4 capitalize">
-                  {locationData?.locationSectionTitle}
-                </h2>
-
-                {/* Description */}
-                <p className="text-gray-700 leading-relaxed text-[15px] mb-6">
-                  {locationData.locationSectionDescription}
-                </p>
-              </div>
-
-              {/* RIGHT SIDE — Image */}
-              <div className="flex-1 flex justify-center">
-                <img
-                  src={locationData.locationSectionImg || corporateTripsImg}
-                  alt={
-                    "Corporate taxi services sydney for Campbelltown companies requiring account bookings, airport transfers, staff shuttles and client transport."
-                  }
-                  className="rounded-xl shadow-lg w-full max-w-md"
-                />
-              </div>
-            </div>
-          </Container>
-        </section>
-
-        <ServicesSection
-          className={`pt-0!`}
-          sectionTitle={`${
-            locationData.serviceTitle
-              ? locationData.serviceTitle
-              : "Our Taxi and Maxi Services in " + modifiedLocationName
-          }`}
-          serviceSubtitle={locationData.serviceSubtitle}
-          locationServices={Object.values(locationData.locationServices)}
-        />
-
-        {/* Fleet */}
-        <FeatureFleet
-          fleetSectionTitle={`${locationData.fleetSectionTitle}`}
-          fleetSectionSubTitle={locationData.fleetSectionSubTitle}
-          fleetSectionVehicles={Object.values(
-            locationData.fleetSectionVehicles
-          )}
-        />
-        {/* Faqs */}
-        <Faq
-          faqSectionTitle={locationData.faqSectionTitle}
-          faqs={locationData.faqs}
-        />
-      </div>
-      }
-
-     
+      )}
+      <MapEmbed
+        mapSrc={
+          locationData.mapUrl ||
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27254.437674188684!2d151.17777345572537!3d-33.94576732229728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b0f11b3383db%3A0xafdf355d5a4b6577!2sPort%20lotniczy%20Sydney!5e0!3m2!1spl!2sbd!4v1769187539750!5m2!1spl!2sbd"
+        }
+      />
     </>
   );
 };

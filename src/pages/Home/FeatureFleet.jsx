@@ -41,17 +41,11 @@ const FeatureFleet = ({
             ? fleetSectionTitle
             : "Our Premium Fleet: Travel in Comfort and Style"}
         </h2>
-        {fleetSectionSubTitle && (
+     
           <p className="text-base text-accent md:text-xl text-center max-w-6xl mx-auto leading-relaxed">
-            Choose the right vehicle for your journey with Campbelltown Taxi &
-            Maxi Cabs. Whether you travel alone or with a group, our fleet
-            offers comfort, safety, and reliability. Our drivers are local
-            experts and know the fastest routes around Campbelltown. From
-            airport transfers to corporate trips, we have a solution for every
-            need. Trust our Campbelltown taxi and cab services for smooth,
-            stress-free travel any time of day or night.
+            {fleetSectionSubTitle?fleetSectionSubTitle:"Choose the right vehicle for your journey with Campbelltown Taxi & Maxi Cabs. Whether you travel alone or with a group, our fleet offers comfort, safety, and reliability. Our drivers are local experts and know the fastest routes around Campbelltown. From airport transfers to corporate trips, we have a solution for every need. Trust our Campbelltown taxi and cab services for smooth,stress-free travel any time of day or night."}
           </p>
-        )}
+       
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {loading ? (
             <Loading />
