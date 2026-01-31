@@ -10,9 +10,8 @@ const FeatureBanner = () => {
       <Container>
         <div className="flex items-center flex-col md:flex-row gap-10">
           <div className="flex-1">
-            <h2 className="section-title text-left!">
-              Reliable and Stress-Free Sydney Airport Transfers with
-              Campbelltown Taxi Cabs
+            <h2 className="section-title text-white! text-left!">
+              Reliable and Stress-Free Sydney Airport Transfers with Campbelltown Taxi Cabs
             </h2>
             <p className="mt-4 ">
               When it comes to airport transfers, Campbelltown Taxi Cabs is your
