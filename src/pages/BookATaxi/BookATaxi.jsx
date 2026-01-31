@@ -85,7 +85,7 @@ const BookATaxi = () => {
           <div className="flex flex-col md:flex-row text-white md:gap-6">
             <div className="py-10 md:py-20  flex-1 text-center md:text-left ">
               <h2 className="section-hero-title">
-                Fast and Easy Taxi Booking in Campbelltown
+                Fast and Easy Taxi Booking in Sydney and Suburbs
               </h2>
 
               <p className="mt-8 text-sm md:text-base">
@@ -122,7 +122,7 @@ const BookATaxi = () => {
         </Container>
       </div>
       <BookingForm
-        formTitle={"Book Your Taxi/Maxi Cabs in Sydney"}
+        formTitle={"Book Your Taxi/Maxi Cabs in Sydney and Suburbs"}
         className="mt-20!"
       />
       <section className="w-full bg-light py-16 relative overflow-hidden">

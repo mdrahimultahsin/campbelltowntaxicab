@@ -129,6 +129,7 @@ const Footer = () => {
               <FaMapLocationDot /> Covered Area
             </h2>
             <div className="grid grid-cols-2 gap-1">
+              
               {serviceAreas.slice(0, 16).map((area, index) => (
                 <Link
                   to={`/taxi-maxi-service-in/${area.toLowerCase().replace(/\s+/g, "-")}`}
@@ -136,9 +137,25 @@ const Footer = () => {
                   className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2"
                 >
                   <FaAngleDoubleRight className="text-primary" />
-                  <span className="text-sm md:text-base">{area.split(" NSW").join("")}</span>
+                  <span className="text-sm md:text-base">
+                    {area.split(" NSW").join("")}
+                  </span>
                 </Link>
               ))}
+              <Link
+                to={`/book-taxi-maxi-service-in-sydney-airport`}
+                className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2"
+              >
+                <FaAngleDoubleRight className="text-primary" />
+                <span className="text-sm md:text-base">Sydney</span>
+              </Link>
+              <Link
+                to={`/area-covered`}
+                className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2"
+              >
+                <FaAngleDoubleRight className="text-primary" />
+                <span className="text-sm md:text-base">More Areas</span>
+              </Link>
             </div>
           </div>
 
@@ -150,7 +167,14 @@ const Footer = () => {
             <div>
               <ul className="mt-5 space-y-3">
                 <li className="flex items-center gap-2">
-                  <a href="https://share.google/K9uIHai7caaEaFuBf" target="_blank" className="hover:underline flex items-center gap-2"><FaLocationDot className="text-primary" size={20} /> 1 Hurley St, Campbelltown NSW 2560, Australia</a>
+                  <a
+                    href="https://share.google/K9uIHai7caaEaFuBf"
+                    target="_blank"
+                    className="hover:underline flex items-center gap-2"
+                  >
+                    <FaLocationDot className="text-primary" size={20} /> 1
+                    Hurley St, Campbelltown NSW 2560, Australia
+                  </a>
                 </li>
                 <li className="flex items-center gap-2">
                   <a

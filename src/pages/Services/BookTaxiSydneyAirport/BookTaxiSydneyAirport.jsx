@@ -74,14 +74,14 @@ const faqs = [
   },
 ];
 const features = [
-  "NSW transport authority licensed & fully insured operations.",
-  "Drivers complete an annual advanced defensive driving certification.",
-  "Vehicle maintenance exceeds manufacturer standards by 30%.",
-  "Complimentary meet-and-greet service at all Sydney airport terminals.",
-  "GPS dispatch technology reduces wait times to under 8 minutes.",
-  "Fixed-rate pricing with zero hidden fees or surcharges.",
-  "Multi-payment options: cash, card, digital wallets, and corporate accounts.",
-  "Clean vehicle guarantee with post-trip sanitization protocol.",
+  "Fully licensed by NSW transport authorities and covered by comprehensive insurance.",
+  "Drivers complete regular advanced defensive driving and customer service training.",
+  "Vehicle maintenance schedules exceed the manufacturer's standard requirements for added safety.​",
+  "Meet-and-greet service available at all Sydney Airport terminals for a smoother arrival experience.​",
+  "GPS-based dispatch systems help reduce average passenger wait times.​",
+  "Fixed-rate and upfront pricing to make budgeting your trip simple and clear.​",
+  "Multiple payment options, including cash, card, and approved corporate accounts.​",
+  "Vehicles are sanitized after rides to maintain a clean, hygienic travel environment.​",
 ];
 const serviceAreas = [
   "Campbelltown NSW",
@@ -147,15 +147,24 @@ const BookTaxiSydneyAiport = () => {
           <div className="flex flex-col md:flex-row text-white md:gap-6">
             <div className="py-10 md:py-20  flex-1 text-center md:text-left ">
               <h2 className="section-hero-title">
-                Fast and Reliable Taxi Sydney Airport Service
+                Sydney Airport Taxi Service—Fast, Reliable & Affordable
+                Transfers
               </h2>
               <p className="mt-8 text-sm md:text-base">
-                Campbelltown Taxi Cabs is a leading NSW point-to-point transport
-                provider, specialising in premium Sydney Airport transfers for
-                individuals, families, and corporate travelers. Based in
-                Campbelltown, New South Wales, our professional taxi fleet
-                delivers on-time, reliable, and comfortable transport to and
-                from Sydney Airport and surrounding regions.
+                Need a dependable
+                <Link
+                  to={`https://campbelltowntaxicabs.com.au/`}
+                  className="px-1 underline font-semibold"
+                >
+                  Sydney Airport taxi service
+                </Link>
+                that runs day and night? Our team provides 24/7 premium airport
+                transfers for families, solo travelers, and corporate groups.
+                You can choose from modern sedans, spacious SUVs, and maxi cabs
+                to match your luggage and group size. With professional local
+                drivers and punctual pickups, your trip to or from Sydney
+                Airport stays smooth and stress-free. Book today and enjoy a
+                comfortable, on-time ride with a trusted local operator.
               </p>
               <div className="flex py-4 gap-4 justify-center md:justify-start">
                 <Link to="/book-a-taxi" className=" ">
@@ -199,39 +208,67 @@ const BookTaxiSydneyAiport = () => {
             {/* LEFT SIDE — Content */}
             <div className="flex-1">
               {/* Title */}
-              <h2 className="text-xl md:text-3xl font-bold text-primary mb-4 capitalize">
+              <h2 className="text-xl md:text-4xl font-bold text-primary mb-4 capitalize">
                 Premium Sydney Airport Taxi Service
               </h2>
 
               {/* Description */}
               <p className="text-gray-700 leading-relaxed text-[15px] mb-6">
-                Campbelltown Taxi Cab delivers reliable taxi services to Sydney
-                Airport with professional drivers. We ensure timely pickups and
-                stress-free travel for business and leisure passengers. Our
-                fleet offers comfort at transparent rates. Available 24/7, we
-                never let you miss departures.
+                You deserve a smooth, stress-free airport transfer every time
+                you travel. Our Sydney airport transfer service is built around
+                comfort, safety, and punctuality. Whether you
+                <Link
+                  to={`/book-a-taxi`}
+                  className="px-1 underline font-semibold"
+                >
+                  book a Sydney
+                </Link>
+                airport taxi for business or leisure, you receive reliable
+                service from start to finish, including clean vehicles,
+                professional drivers, and on-time pickups across all airport
+                terminals. <br />
+                When you choose our Sydney airport taxi transfers, you avoid
+                delays, hidden costs, and last-minute confusion. Your driver
+                knows the fastest airport routes and local traffic patterns,
+                helping you reach your destination smoothly and without
+                unnecessary stops. The booking process stays simple, fast, and
+                secure. <br />
+                We operate as a trusted
+                <Link to={`/`} className="px-1 underline font-semibold">
+                  Sydney taxi service
+                </Link>
+                with full licensing and insurance. You can book airport taxi
+                transfers Sydney-wide at any time—day or night, weekdays or
+                holidays. Your ride is always ready when you need it.
               </p>
-
+              <h2 className="text-xl md:text-2xl font-bold text-primary my-4 capitalize">
+                {" "}
+                Why Your Airport Transfer Works Better With Us
+              </h2>
               {/* Feature Points */}
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-center gap-3">
                   <FaCheck className="text-secondary" />
-                  <span>Professional and experienced drivers</span>
+                  <span>Experienced, licensed local drivers</span>
                 </li>
 
                 <li className="flex items-center gap-3">
                   <FaCheck className="text-secondary" />
-                  <span>Clean, comfortable, and modern vehicles</span>
+                  <span>Clean, air-conditioned vehicles</span>
                 </li>
 
                 <li className="flex items-center gap-3">
                   <FaCheck className="text-secondary" />
-                  <span> Affordable & transparent taxi fares</span>
+                  <span>Fair, upfront pricing with no surprises</span>
                 </li>
 
                 <li className="flex items-center gap-3">
                   <FaCheck className="text-secondary" />
-                  <span>Available 24/7 for bookings</span>
+                  <span>24/7 Sydney airport cab booking</span>
+                </li>
+                <li className="flex items-center gap-3">
+                  <FaCheck className="text-secondary" />
+                  <span>Real-time support for flight changes</span>
                 </li>
               </ul>
             </div>
@@ -255,38 +292,39 @@ const BookTaxiSydneyAiport = () => {
         <Container>
           <div>
             <h2 className="text-lg md:text-2xl text-primary font-bold font-playfair">
-              Real-Time Flight Tracking for Your Sydney Airport Taxi
+              Real-Time Flight Tracking for Your Sydney Airport Taxi Service
             </h2>
             <p className="mt-4 text-sm md:text-base">
-              Flight delays create massive stress for travelers heading to
-              Sydney Airport terminals daily. Campbelltown Taxi Cab reduces this
-              pressure with advanced flight-tracking technology integrated into
-              our operations. Our dispatch system monitors live arrival and
-              departure data from Sydney Airport’s T1 International, T2
-              Domestic, and T3 Qantas terminals. When flights land early,
-              drivers adjust pickup timing automatically without passenger
-              action. We follow NSW airport-access rules and maintain approved
-              meeting locations. Drivers wait in designated pickup zones to
-              ensure you have reliable and compliant airport transfers.
+              Flight changes can be stressful, but we help reduce that pressure
+              with live flight monitoring. Our operations team tracks arrivals
+              and departures at{" "}
+              <Link
+                to={`https://campbelltowntaxicabs.com.au/services/book-taxi-sydney-airport`}
+                className="px-1 underline font-semibold"
+              >
+                Sydney Airport's
+              </Link>{" "}
+              T1 International, T2 Domestic, and T3 Qantas terminals in real
+              time. If your flight arrives early or is delayed, your pickup time
+              is adjusted automatically so your driver is ready when you walk
+              out. We follow all NSW airport access rules and wait at approved
+              pickup zones for safe, compliant transfers.
             </p>
           </div>
           <div className="mt-10">
             <h2 className="text-lg md:text-2xl text-primary font-bold font-playfair">
-              24/7 Sydney Airport Taxi Services from Campbelltown
+              24/7 Sydney Airport Taxi Service
             </h2>
             <p className="mt-2 text-sm md:text-base">
-              Campbelltown Taxi Cab operates around the clock, serving airport
-              transfers across Sydney and the surrounding NSW regions. Our
-              dedicated night team manages early departures, including 3 AM
-              flights with safe timing. Red-eye arrivals at midnight get
-              immediate taxi dispatch from our 24-hour operations center in
-              Campbelltown. Weekend services run continuously without any
-              premium surcharges. On public holidays like Christmas, New Year,
-              and Easter, our full fleet remains available to prevent passengers
-              from being stranded. Large family groups can travel comfortably in
-              our 11-seater maxi taxis, with multiple luggage pieces securely
-              stored. Same-day bookings are accepted up to 30 minutes before the
-              required pickup from any Campbelltown suburb.
+              Our Sydney Airport taxi service operates around the clock to
+              support every type of flight schedule. Early morning departures,
+              late-night arrivals, and red-eye flights are all handled by our
+              dedicated 24/7 team. Even on weekends, public holidays, and peak
+              seasons, we keep a full fleet available so you are never left
+              without a ride. Large families and groups can travel together
+              comfortably in our maxi taxis, which offer plenty of luggage room
+              and flexible seating. Same-day bookings are accepted up to 30
+              minutes before your required pickup time, subject to availability.
             </p>
           </div>
         </Container>
@@ -313,11 +351,10 @@ const BookTaxiSydneyAiport = () => {
               {/* LEFT COLUMN */}
               <div className="text-white">
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 font-playfair">
-                  Why Choose
+                  Why Choose us
                   <span className="text-secondary px-1">
-                    Campbelltown Taxi Cab
+                    for Sydney Airport Taxi Service?
                   </span>{" "}
-                  for Sydney Airport Taxi Service?
                 </h2>
                 <ul className="space-y-3 text-lg">
                   {features.map((feature, index) => (
@@ -361,23 +398,22 @@ const BookTaxiSydneyAiport = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               <Link
                 to={`/book-taxi-maxi-service-in-sydney-airport`}
-                 
-                  className="flex flex-col md:flex-row text-center md:text-left items-center gap-3 p-3 rounded-lg hover:bg-blue-50 transition-all duration-300 group cursor-pointer"
-                >
-                  <FaLocationDot size={20} className="text-primary" />
-                  <span className="text-gray-700 font-medium group-hover:text-primary transition-colors duration-300">
-                    Sydney
-                  </span>
-                </Link>
+                className="flex flex-col md:flex-row text-center md:text-left items-center gap-3 p-3 rounded-lg hover:bg-blue-50 transition-all duration-300 group cursor-pointer"
+              >
+                <FaLocationDot size={20} className="text-primary" />
+                <span className="text-gray-700 font-medium group-hover:text-primary transition-colors duration-300">
+                  Sydney
+                </span>
+              </Link>
               {serviceAreas.map((serviceArea, idx) => (
                 <Link
-                to={`/taxi-maxi-service-in/${serviceArea.toLowerCase().replace(/\s+/g, "-")}`}
+                  to={`/taxi-maxi-service-in/${serviceArea.toLowerCase().replace(/\s+/g, "-")}`}
                   key={idx}
                   className="flex flex-col md:flex-row text-center md:text-left items-center gap-3 p-3 rounded-lg hover:bg-blue-50 transition-all duration-300 group cursor-pointer"
                 >
                   <FaLocationDot size={20} className="text-primary" />
                   <span className="text-gray-700 font-medium group-hover:text-primary transition-colors duration-300">
-                      {serviceArea.split(" NSW").join("")}
+                    {serviceArea.split(" NSW").join("")}
                   </span>
                 </Link>
               ))}
@@ -442,7 +478,11 @@ const BookTaxiSydneyAiport = () => {
           "Premium Vehicle Options for Reliable Campbelltown Airport Transfers"
         }
       />
-      <Faq faqs={faqs} />
+      <Faq
+        faqSectionTitle={`Frequently Asked Questions – Sydney Airport Taxi Service 
+`}
+        faqs={faqs}
+      />
     </div>
   );
 };

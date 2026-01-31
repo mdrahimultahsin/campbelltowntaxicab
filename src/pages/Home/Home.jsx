@@ -11,6 +11,7 @@ import ServicesSection from "./ServicesSection";
 import Blogs from "../Blogs/Blogs";
 import StatsSection from "./StatsSection";
 import useSEO from "../../hooks/useSEO";
+import HomeAreaCovered from "./HomeAreaCovered";
 
 
 const Home = () => {
@@ -89,6 +90,7 @@ const Home = () => {
       <Faq faqs={faqs}/>
 
       <Blogs />
+      <HomeAreaCovered/>
     </>
   );
 };
