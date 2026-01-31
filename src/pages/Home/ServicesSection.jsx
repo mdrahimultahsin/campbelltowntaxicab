@@ -1,5 +1,59 @@
-import {useLoaderData} from "react-router";
+import {Link, useLoaderData} from "react-router";
 import Container from "../../shared/Container";
+const servicesLinks = [
+  {
+    id: 6,
+    label: "Wedding Transfer",
+    pathname: "/services/wedding-transfer",
+  },
+    {
+    id: 10,
+    label: "Luxury Transfer",
+    pathname: "/services/luxury-transfer",
+  },
+  {
+    id: 2,
+    label: "Baby Seat Taxi Sydney",
+    pathname: "/services/baby-seat-taxi-sydney",
+  },
+
+ {
+    id: 4,
+    label: "Corporate Transport Services",
+    pathname: "/services/corporate-transport-services",
+  },
+ {
+    id: 5,
+    label: "Cruise Terminal Transfer",
+    pathname: "/services/cruise-terminal-transfer",
+    desc: "Timely transfers to cruise terminals.",
+  },
+ {
+    id: 7,
+    label: "Event Transfer",
+    pathname: "/services/event-transfer",
+  },
+{
+    id: 9,
+    label: "Maxi Taxi Service",
+    pathname: "/services/maxi-taxi-service",
+  },
+  {
+    id: 11,
+    label: "Taxi Sydney Service",
+    pathname: "/services/taxi-sydney-service",
+  },
+{
+    id: 13,
+    label: "Corporate Trips",
+    pathname: "/services/corporate-tips",
+  },
+
+
+
+  
+  
+];
 
 const ServicesSection = ({
   sectionTitle,
@@ -8,6 +62,13 @@ const ServicesSection = ({
   locationServices,
 }) => {
   const serviceData = useLoaderData() || [];
+
+  const getServicePath = (title) => {
+  const match = servicesLinks.find(
+    (link) => link.label.toLowerCase() === title.toLowerCase()
+  );
+  return match ? match.pathname : "#";
+};
   return (
     <section className={`pt-30 mb-30 ${className}`}>
       <Container>
@@ -26,9 +87,10 @@ const ServicesSection = ({
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
           {locationServices
             ? locationServices.map((service) => (
-                <div
+                <Link
+                 to={getServicePath(service.title)}
                   key={service.service_id}
-                  className="bg-light px-8 py-5 rounded-xl border-b-10 border-primary"
+                  className="bg-light px-8 py-5 rounded-xl border-b-10 border-primary cursor-pointer"
                 >
                   <img
                     src={service.image}
@@ -41,12 +103,13 @@ const ServicesSection = ({
                   <p className="text-accent md:text-lg">
                     {service.description}
                   </p>
-                </div>
+                </Link>
               ))
             : serviceData.map((service) => (
-                <div
+                <Link
+                 to={getServicePath(service.title)}
                   key={service.service_id}
-                  className="bg-light px-8 py-5 rounded-xl border-b-10 border-primary"
+                  className="bg-light px-8 py-5 rounded-xl border-b-10 border-primary cursor-pointer"
                 >
                   <img
                     src={service.image}
@@ -59,7 +122,7 @@ const ServicesSection = ({
                   <p className="text-accent md:text-lg">
                     {service.description}
                   </p>
-                </div>
+                </Link>
               ))}
         </div>
       </Container>
