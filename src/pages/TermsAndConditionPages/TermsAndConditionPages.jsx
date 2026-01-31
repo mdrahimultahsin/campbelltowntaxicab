@@ -4,9 +4,21 @@ import ButtonSecondary from "../../shared/ButtonSecondary";
 import {FaHandPointer} from "react-icons/fa";
 import titleImg from "../../assets/campbelltown-pages-hero-img.png";
 import {IoCallSharp} from "react-icons/io5";
+import useSEO from "../../hooks/useSEO";
 
 const TermsAndCondition = () => {
   return (
+    <>
+     {useSEO({
+        title: "Terms & Conditions | Campbelltown Taxi Cabs",
+        description:
+          "Premium Taxi Service in Campbelltown NSW for comfortable, fast, and affordable rides. Book your ride today with Campbelltown Taxi Cabs!",
+        keywords:
+          "campbelltown taxi cabs, taxi campbelltown,taxi campbelltown nsw, campbelltown taxi,campbelltown taxis,taxi service campbelltown nsw,taxis campbelltown,luxury taxi campbelltown,taxi service campbelltown",
+        canonical:
+          "https://www.campbelltowntaxicabs.com.au/terms-and-condition",
+      })}
+  
     <div className=" pb-10">
       <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
         <Container>
@@ -394,6 +406,7 @@ const TermsAndCondition = () => {
         </div>
       </Container>
     </div>
+      </>
   );
 };
 
