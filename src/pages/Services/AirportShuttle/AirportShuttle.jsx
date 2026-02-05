@@ -381,26 +381,28 @@ const AirportShuttle = () => {
           </div>
 
           <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
-             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               <Link
                 to={`/book-taxi-maxi-service-in-sydney-airport`}
-                 
-                  className="flex flex-col md:flex-row text-center md:text-left items-center gap-3 p-3 rounded-lg hover:bg-blue-50 transition-all duration-300 group cursor-pointer"
-                >
-                  <FaLocationDot size={20} className="text-primary" />
-                  <span className="text-gray-700 font-medium group-hover:text-primary transition-colors duration-300">
-                    Sydney
-                  </span>
-                </Link>
+                className="flex flex-col md:flex-row text-center md:text-left items-center gap-3 p-3 rounded-lg hover:bg-blue-50 transition-all duration-300 group cursor-pointer"
+              >
+                <FaLocationDot size={20} className="text-primary" />
+                <span className="text-gray-700 font-medium group-hover:text-primary transition-colors duration-300">
+                  Sydney
+                </span>
+              </Link>
               {serviceAreas.map((serviceArea, idx) => (
                 <Link
-                to={`/taxi-maxi-service-in/${serviceArea.toLowerCase().replace(/\s+/g, "-")}`}
+                  to={`/taxi-maxi-service-in/${serviceArea
+                    .toLowerCase()
+                    .replace(/'/g, "")
+                    .replace(/\s+/g, "-")}`}
                   key={idx}
                   className="flex flex-col md:flex-row text-center md:text-left items-center gap-3 p-3 rounded-lg hover:bg-blue-50 transition-all duration-300 group cursor-pointer"
                 >
                   <FaLocationDot size={20} className="text-primary" />
                   <span className="text-gray-700 font-medium group-hover:text-primary transition-colors duration-300">
-                      {serviceArea.split(" NSW").join("")}
+                    {serviceArea.split(" NSW").join("")}
                   </span>
                 </Link>
               ))}

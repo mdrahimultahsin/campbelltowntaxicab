@@ -390,7 +390,10 @@ const TaxiSydneyService = () => {
                 </Link>
               {serviceAreas.map((serviceArea, idx) => (
                 <Link
-                to={`/taxi-maxi-service-in/${serviceArea.toLowerCase().replace(/\s+/g, "-")}`}
+                 to={`/taxi-maxi-service-in/${serviceArea
+                    .toLowerCase()
+                    .replace(/'/g, "")
+                    .replace(/\s+/g, "-")}`}
                   key={idx}
                   className="flex flex-col md:flex-row text-center md:text-left items-center gap-3 p-3 rounded-lg hover:bg-blue-50 transition-all duration-300 group cursor-pointer"
                 >

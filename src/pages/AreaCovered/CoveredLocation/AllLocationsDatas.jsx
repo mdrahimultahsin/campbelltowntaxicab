@@ -4672,7 +4672,7 @@ taxi</Link>  cab service for VIP rides, airport transfers, or special events.
       },
     ],
   },
-  "st-andrew's-nsw": {
+  "st-andrews-nsw": {
     mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26453.89929474565!2d150.83060170000002!3d-34.02495065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ec3bc85445e7%3A0x442ae9119441f920!2sSt%20Andrews%20NSW%202566%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769796388084!5m2!1sen!2sbd",
     pageTitle: "St Andrew's Taxi & Maxi Cabs: 24/7 Airport & Local Transfers",
     metaDescription:
@@ -5149,7 +5149,7 @@ Taxi & Maxi Cabs</Link> offers a range of vehicles to suit your needs. From solo
       },
     ],
   },
-  "st-helen's-park-nsw": {
+  "st-helens-park-nsw": {
     mapUrl:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26428.694682494446!2d150.81491865!3d-34.10572335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ef86d8cd3e19%3A0x5017d681632cbd0!2sSt%20Helens%20Park%20NSW%202560%2C%20Australia!5e0!3m2!1sen!2sbd!4v1769796991883!5m2!1sen!2sbd",
     pageTitle:
       "St Helen's Park Taxi & Maxi Cabs: 24/7 Airport & Local Transfers",

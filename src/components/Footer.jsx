@@ -136,7 +136,10 @@ const Footer = () => {
             <div className="hidden md:grid grid-cols-2 gap-1">
               {serviceAreas.slice(0, 18).map((area, index) => (
                 <Link
-                  to={`/taxi-maxi-service-in/${area.toLowerCase().replace(/\s+/g, "-")}`}
+                  to={`/taxi-maxi-service-in/${area
+                    .toLowerCase()
+                    .replace(/'/g, "")
+                    .replace(/\s+/g, "-")}`}
                   key={index}
                   className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2"
                 >
@@ -164,7 +167,10 @@ const Footer = () => {
             <div className="grid grid-cols-2 gap-1 md:hidden">
               {serviceAreas.map((area, index) => (
                 <Link
-                  to={`/taxi-maxi-service-in/${area.toLowerCase().replace(/\s+/g, "-")}`}
+                  to={`/taxi-maxi-service-in/${area
+                    .toLowerCase()
+                    .replace(/'/g, "")
+                    .replace(/\s+/g, "-")}`}
                   key={index}
                   className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2"
                 >
