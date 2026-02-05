@@ -25,8 +25,7 @@ const AreaCovered = () => {
     "Menangle NSW",
     "Leumeah NSW",
     "Raby NSW",
-    "St Andrew's NSW",
-    "St Helen's park NSW",
+  
     "Ruse NSW",
     "Minto NSW",
     "Ingleburn NSW",

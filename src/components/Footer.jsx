@@ -37,12 +37,18 @@ const Footer = () => {
     "Macarthur NSW",
     "Menangle NSW",
     "Leumeah NSW",
-    "Raby NSW",
+    "St Helen's park NSW",
+
     "Ruse NSW",
     "Minto NSW",
+    "Rosemeadow NSW",
     "Ingleburn NSW",
     "Glenfield NSW",
     "Camden south NSW",
+    "Goulburn NSW",
+    "Mount Annan NSW",
+    "St Andrew's NSW",
+    "Raby NSW",
     "Oran park NSW",
     "Gregory hills NSW",
     "Eagle vale NSW",
@@ -51,7 +57,7 @@ const Footer = () => {
     "Wilton NSW",
     "Spring farm NSW",
     "Cobbity NSW",
-    "Mount Annan NSW",
+
     "Phesant Nest NSW",
     "Cowdor NSW",
     "Denham court NSW",
@@ -64,8 +70,7 @@ const Footer = () => {
     "Bargo NSW",
     "Bowral NSW",
     "Kearns NSW",
-    "Goulburn NSW",
-    "Rosemeadow NSW",
+
     "Airds NSW",
     "Leppington NSW",
     "Smeaton Grange NSW",
@@ -128,9 +133,36 @@ const Footer = () => {
             <h2 className="font-bold font-playfair flex gap-2 items-center uppercase text-xl mb-3">
               <FaMapLocationDot /> Covered Area
             </h2>
-            <div className="grid grid-cols-2 gap-1">
-              
-              {serviceAreas.slice(0, 16).map((area, index) => (
+            <div className="hidden md:grid grid-cols-2 gap-1">
+              {serviceAreas.slice(0, 18).map((area, index) => (
+                <Link
+                  to={`/taxi-maxi-service-in/${area.toLowerCase().replace(/\s+/g, "-")}`}
+                  key={index}
+                  className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2"
+                >
+                  <FaAngleDoubleRight className="text-primary" />
+                  <span className="text-sm md:text-base">
+                    {area.split(" NSW").join("")}
+                  </span>
+                </Link>
+              ))}
+              <Link
+                to={`/book-taxi-maxi-service-in-sydney-airport`}
+                className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2"
+              >
+                <FaAngleDoubleRight className="text-primary" />
+                <span className="text-sm md:text-base">Sydney</span>
+              </Link>
+              <Link
+                to={`/area-covered`}
+                className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2"
+              >
+                <FaAngleDoubleRight className="text-primary" />
+                <span className="text-sm md:text-base">More Areas</span>
+              </Link>
+            </div>
+            <div className="grid grid-cols-2 gap-1 md:hidden">
+              {serviceAreas.map((area, index) => (
                 <Link
                   to={`/taxi-maxi-service-in/${area.toLowerCase().replace(/\s+/g, "-")}`}
                   key={index}

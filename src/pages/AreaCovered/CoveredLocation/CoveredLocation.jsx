@@ -28,7 +28,6 @@ const CoveredLocation = () => {
     .join(" ");
 
   const modifiedLocationName = `${cityFormatted} ${state}`.trim();
-
   return (
     <>
       {useSEO({
