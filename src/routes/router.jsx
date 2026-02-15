@@ -33,6 +33,10 @@ import CoveredLocation from "../pages/AreaCovered/CoveredLocation/CoveredLocatio
 import SydneyAirportLocation from "../pages/SydneyAirportLocation/SydneyAirportLocation";
 import TaxiMaxiServiceIn from "../pages/taxi-maxi-service-in/TaxiMaxiServiceIn";
 import Blog1Details from "../pages/Blogs/Blog1Details";
+import Blog2Details from "../pages/Blogs/Blog2Details";
+import Blog3Details from "../pages/Blogs/Blog3Details";
+import Blog4Details from "../pages/Blogs/Blog4Details";
+import Blog5Details from "../pages/Blogs/Blog5Details";
 
 const router = createBrowserRouter([
   {
@@ -156,6 +160,22 @@ const router = createBrowserRouter([
       {
         path: "/best-transportation-options-for-weddings-and-events-in-campbelltown",
         Component: Blog1Details,
+      },
+      {
+        path: "/corporate-taxi-services-in-sydney-what-to-expect-and-how-to-book",
+        Component: Blog2Details,
+      },
+      {
+        path: "/how-to-book-a-taxi-in-campbelltown-phone-online-app-options",
+        Component: Blog3Details,
+      },
+      {
+        path: "/early-morning-airport-transfers-taxi-vs-train",
+        Component: Blog4Details,
+      },
+      {
+        path: "/event-transport-tips-for-stadiums-function-centres-venues",
+        Component: Blog5Details,
       },
       {
         path: "/:slug",

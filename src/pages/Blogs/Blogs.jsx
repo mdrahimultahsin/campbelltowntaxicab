@@ -1,31 +1,50 @@
 import titleImg from "../../assets/campbelltown-pages-hero-img.png";
 import Container from "../../shared/Container";
-import {FaCarSide, FaHandPointer} from "react-icons/fa";
-import {Link, useLocation} from "react-router";
-import {IoCallSharp} from "react-icons/io5";
+import { FaHandPointer } from "react-icons/fa";
+import { Link, useLocation } from "react-router";
+import { IoCallSharp } from "react-icons/io5";
 import ButtonSecondary from "../../shared/ButtonSecondary";
-import {useEffect, useState} from "react";
+import { useEffect, useMemo, useState } from "react";
+import ButtonPrimary from "../../shared/ButtonPrimary";
+import useSEO from "../../hooks/useSEO";
 
 const Blogs = () => {
   const [blogsData, setBlogsData] = useState([]);
+  const location = useLocation();
+
+  const isHome = location.pathname === "/";
+  const isBlogsPage = location.pathname === "/blogs";
 
   useEffect(() => {
     fetch("/blogs.json")
       .then((res) => res.json())
       .then((data) => setBlogsData(data));
   }, []);
-  const location = useLocation();
+
+  // ✅ show 3 on home, show all on /blogs
+  const visibleBlogs = useMemo(() => {
+    if (isHome) return blogsData.slice(0, 3);
+    return blogsData;
+  }, [blogsData, isHome]);
+
   return (
     <div>
-   
-      {location.pathname === "/blogs" && (
+      {useSEO({
+        title: "Blogs - Campbelltown Taxi Cabs",
+        description:
+          "Premium Taxi Service in Campbelltown NSW for comfortable, fast, and affordable rides. Book your ride today with Campbelltown Taxi Cabs!",
+        keywords:
+          "campbelltown taxi cabs, taxi campbelltown,taxi campbelltown nsw, campbelltown taxi,campbelltown taxis,taxi service campbelltown nsw,taxis campbelltown,luxury taxi campbelltown,taxi service campbelltown",
+        canonical:
+          "https://campbelltowntaxicabs.com.au/blogs",
+      })}
+      {/* ✅ Only show hero on /blogs */}
+      {isBlogsPage && (
         <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
           <Container>
-            <div className="flex flex-col md:flex-row text-white  md:gap-6">
-              <div className="py-10 md:py-20  flex-1 text-center md:text-left ">
-                <h2 className="section-hero-title">
-                  Blogs
-                </h2>
+            <div className="flex flex-col md:flex-row text-white md:gap-6">
+              <div className="py-10 md:py-20 flex-1 text-center md:text-left">
+                <h2 className="section-hero-title">Blogs</h2>
                 <p className="mt-8 text-sm md:text-base">
                   Campbelltown Taxi Cabs is a Sydney based maxi cab service
                   established in 2010. We provide affordable, reliable, and safe
@@ -35,20 +54,22 @@ const Blogs = () => {
                   suburbs and offer airport transfers, cruise transfers,
                   corporate trips, and baby seat taxis.
                 </p>
+
                 <div className="flex py-4 gap-4 justify-center md:justify-start">
-                  <Link to="/book-a-taxi" className=" ">
+                  <Link to="/book-a-taxi">
                     <ButtonSecondary className="flex gap-2 items-center border-2 border-transparent hover:border-white">
                       <FaHandPointer />
                       Book Online
                     </ButtonSecondary>
                   </Link>
-                  <a href="tel:1300450428" className="">
+                  <a href="tel:1300450428">
                     <ButtonSecondary className="flex gap-2 items-center bg-transparent! border-2 hover:bg-secondary!">
-                      <IoCallSharp className="" /> 1300 450 428
+                      <IoCallSharp /> 1300 450 428
                     </ButtonSecondary>
                   </a>
                 </div>
               </div>
+
               <div className="flex flex-1 items-center pb-10 md:pb-0">
                 <img
                   className="w-full"
@@ -75,26 +96,19 @@ const Blogs = () => {
             </p>
           </div>
 
-          {/* Regular Posts Grid */}
+          {/* ✅ Posts Grid (home = 3, /blogs = all) */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
-            {blogsData.map((post) => (
-              <Link
-                key={post.id}
-                to={`/${post.slug}`}
-              >
-                <div
-                  key={post.id}
-                  className="rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl group"
-                >
+            {visibleBlogs.map((post) => (
+              <Link key={post.id} to={`/${post.slug}`}>
+                <div className="rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl group h-100">
                   <div className="relative overflow-hidden">
                     <img
                       src={post.image}
                       alt={post.title}
-                      className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
+                      className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      loading="lazy"
                     />
-                 
-
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
                   </div>
 
                   <div className="p-3 md:p-6">
@@ -102,13 +116,24 @@ const Blogs = () => {
                       {post.title}
                     </h3>
                     <p className="text-accent text-sm mb-6 line-clamp-3">
-                      {post.description}
+                      {post.description.length > 150
+                        ? post.description.slice(0, 150) + "..."
+                        : post.description}
                     </p>
                   </div>
                 </div>
               </Link>
             ))}
           </div>
+
+          {/* ✅ Only show View All button on Home */}
+          {isHome && (
+            <div className="mt-6 flex justify-center items-center">
+              <Link to="/blogs">
+                <ButtonPrimary>View All</ButtonPrimary>
+              </Link>
+            </div>
+          )}
         </Container>
       </div>
     </div>
