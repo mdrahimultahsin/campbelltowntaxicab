@@ -1,35 +1,9 @@
 [
   {
     "id": 1,
-    "title": "The Future of Electric Vehicles in 2024",
-    "slug": "the-future-of-electric-vehicles-in-2024",
+    "title": "Best Transportation Options for Weddings and Events in Campbelltown",
+    "slug": "best-transportation-options-for-weddings-and-events-in-campbelltown",
     "description": "Exploring the latest advancements in EV technology and what to expect in the coming year.",
-    "image": "/campbelltown-blog1.avif",
-    "category": "Electric Vehicles",
-    "featured": true,
-    "tags": ["EV", "Sustainability", "Automotive"],
-    "content": "Electric vehicles (EVs) are rapidly evolving as battery technologies improve, charging infrastructure expands, and consumer adoption grows. In 2024, we can expect to see longer range EVs, faster charging stations, and more affordable models. Governments are incentivizing EV adoption through subsidies, tax benefits, and stricter emission regulations. Major automakers are introducing new models with cutting-edge technology and improved safety features. EVs not only reduce carbon emissions but also offer lower running costs and maintenance compared to traditional combustion vehicles. Consumers should stay informed about the latest EV trends to make smart choices for their next vehicle purchase."
-  },
-  {
-    "id": 2,
-    "title": "Top 10 Car Maintenance Tips for Winter",
-    "slug": "top-10-car-maintenance-tips-for-winter",
-    "description": "Essential maintenance practices to keep your vehicle running smoothly during cold months.",
-    "image": "/campbelltown-blog2.avif",
-    "category": "Maintenance",
-    "featured": false,
-    "tags": ["Winter", "Car Care", "Tips"],
-    "content": "Winter weather can be harsh on vehicles. To ensure your car runs safely, start by checking the battery, tires, and antifreeze levels. Use winter tires for better traction on icy roads and keep your windshield washer fluid full. Inspect brakes and wipers, and make sure all lights are functioning properly. Warm up your vehicle for a few minutes before driving in extremely cold conditions. Regularly clean the undercarriage to remove road salt that can cause rust. Following these simple tips helps prevent breakdowns, ensures your safety, and extends the life of your car during the cold season."
-  },
-  {
-    "id": 3,
-    "title": "Understanding Hybrid Technology: How It Works",
-    "slug": "understanding-hybrid-technology-how-it-works",
-    "description": "A deep dive into hybrid vehicle systems and their benefits for modern drivers.",
-    "image": "campbelltown-blog3.avif",
-    "category": "Technology",
-    "featured": false,
-    "tags": ["Hybrid", "Technology", "Sustainability"],
-    "content": "Hybrid vehicles combine a conventional internal combustion engine with an electric motor, resulting in better fuel efficiency and reduced emissions. The electric motor assists the engine during acceleration, allowing the engine to operate at lower RPMs and consume less fuel. Regenerative braking captures energy that would otherwise be lost, charging the battery while driving. Hybrids offer a smooth and quiet driving experience, especially in stop-and-go traffic, and can significantly reduce environmental impact. Understanding how hybrids work helps drivers appreciate the technology and optimize performance for cost-effective driving."
+    "image": "/campbelltown-blog1.png"
   }
 ]

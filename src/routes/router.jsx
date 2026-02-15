@@ -32,6 +32,7 @@ import LuxuryTransfer from "../pages/Services/LuxuryTransfer/LuxuryTransfer";
 import CoveredLocation from "../pages/AreaCovered/CoveredLocation/CoveredLocation";
 import SydneyAirportLocation from "../pages/SydneyAirportLocation/SydneyAirportLocation";
 import TaxiMaxiServiceIn from "../pages/taxi-maxi-service-in/TaxiMaxiServiceIn";
+import Blog1Details from "../pages/Blogs/Blog1Details";
 
 const router = createBrowserRouter([
   {
@@ -124,7 +125,7 @@ const router = createBrowserRouter([
       {
         path: "/taxi-maxi-service-in",
         Component: TaxiMaxiServiceIn,
-         loader: async () => {
+        loader: async () => {
           const res = await fetch("/service.json");
           return res.json();
         },
@@ -142,7 +143,7 @@ const router = createBrowserRouter([
       {
         path: "/book-taxi-maxi-service-in-sydney-airport",
         Component: SydneyAirportLocation,
-         loader: async () => {
+        loader: async () => {
           const res = await fetch("/service.json");
           return res.json();
         },
@@ -151,6 +152,10 @@ const router = createBrowserRouter([
       {
         path: "/blogs",
         Component: Blogs,
+      },
+      {
+        path: "/best-transportation-options-for-weddings-and-events-in-campbelltown",
+        Component: Blog1Details,
       },
       {
         path: "/:slug",

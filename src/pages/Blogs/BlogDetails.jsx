@@ -1,4 +1,3 @@
-import React from "react";
 import titleImg from "../../assets/campbelltown-pages-hero-img.png";
 import {useLoaderData, Link} from "react-router";
 import Container from "../../shared/Container";
@@ -8,7 +7,7 @@ import ButtonSecondary from "../../shared/ButtonSecondary";
 const BlogDetails = () => {
   const blog = useLoaderData();
   if (!blog) {
-    return <p className="text-center py-20 text-accent">Blog not found.</p>;
+    return <p className="text-center py-20 text-accent">Blog not found.</p>
   }
 
   return (

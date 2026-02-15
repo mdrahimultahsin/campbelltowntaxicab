@@ -92,12 +92,7 @@ const Blogs = () => {
                       alt={post.title}
                       className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-105"
                     />
-                    <div className="absolute top-4 left-4">
-                      <span className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-primary text-white text-xs font-medium rounded-full">
-                        <FaCarSide className="text-xs" />
-                        {post.category}
-                      </span>
-                    </div>
+                 
 
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300"></div>
                   </div>
