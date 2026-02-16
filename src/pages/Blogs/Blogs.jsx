@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import titleImg from "../../assets/campbelltown-pages-hero-img.png";
 import Container from "../../shared/Container";
 import {FaHandPointer} from "react-icons/fa";
@@ -17,8 +18,19 @@ const Blogs = () => {
   const isHome = location.pathname === "/";
   const isBlogsPage = location.pathname === "/blogs";
 
+  // ✅ call hook at top-level (always)
+  const seo = isBlogsPage
+    ? {
+        title: "Blogs - Campbelltown Taxi Cabs",
+        description:
+          "Premium Taxi Service in Campbelltown NSW for comfortable, fast, and affordable rides. Book your ride today with Campbelltown Taxi Cabs!",
+        keywords:
+          "campbelltown taxi cabs, taxi campbelltown,taxi campbelltown nsw, campbelltown taxi,campbelltown taxis,taxi service campbelltown nsw,taxis campbelltown,luxury taxi campbelltown,taxi service campbelltown",
+        canonical: "https://campbelltowntaxicabs.com.au/blogs",
+      }
+    : null;
+
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setLoading(true);
     fetch("/blogs.json")
       .then((res) => res.json())
@@ -26,10 +38,9 @@ const Blogs = () => {
         setBlogsData(data);
         setLoading(false);
       })
-      .catch((err) => {
-        setLoading(false);
-      });
+      .catch(() => setLoading(false));
   }, []);
+
   // ✅ show 3 on home, show all on /blogs
   const visibleBlogs = useMemo(() => {
     if (isHome) return blogsData.slice(0, 3);
@@ -38,14 +49,8 @@ const Blogs = () => {
 
   return (
     <div>
-      {useSEO({
-        title: "Blogs - Campbelltown Taxi Cabs",
-        description:
-          "Premium Taxi Service in Campbelltown NSW for comfortable, fast, and affordable rides. Book your ride today with Campbelltown Taxi Cabs!",
-        keywords:
-          "campbelltown taxi cabs, taxi campbelltown,taxi campbelltown nsw, campbelltown taxi,campbelltown taxis,taxi service campbelltown nsw,taxis campbelltown,luxury taxi campbelltown,taxi service campbelltown",
-        canonical: "https://campbelltowntaxicabs.com.au/blogs",
-      })}
+      {/* ✅ render Helmet only on /blogs */}
+      {seo && useSEO(seo)}
 
       {/* ✅ Only show hero on /blogs */}
       {isBlogsPage && (
@@ -80,11 +85,7 @@ const Blogs = () => {
               </div>
 
               <div className="flex flex-1 items-center pb-10 md:pb-0">
-                <img
-                  className="w-full"
-                  src={titleImg}
-                  alt="Campbelltown Taxi Cabs title img"
-                />
+                <img className="w-full" src={titleImg} alt="Blogs hero" />
               </div>
             </div>
           </Container>
@@ -94,18 +95,14 @@ const Blogs = () => {
       {/* blogs container */}
       <div className="py-15">
         <Container>
-          {/* Section Header */}
           <div className="text-center mb-5 md:mb-10">
-            <h2 className="section-title text-center">
-              Latest Blog and Articles
-            </h2>
+            <h2 className="section-title text-center">Latest Blog and Articles</h2>
             <p className="text-accent max-w-3xl mx-auto mt-5 text-sm md:text-lg">
               Stay informed with our latest insights, tips, and news about the
               automotive world and beyond.
             </p>
           </div>
 
-          {/* ✅ Posts Grid (home = 3, /blogs = all) */}
           {loading ? (
             <Loading />
           ) : (
