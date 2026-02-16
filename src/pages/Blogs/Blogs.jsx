@@ -1,26 +1,35 @@
 import titleImg from "../../assets/campbelltown-pages-hero-img.png";
 import Container from "../../shared/Container";
-import { FaHandPointer } from "react-icons/fa";
-import { Link, useLocation } from "react-router";
-import { IoCallSharp } from "react-icons/io5";
+import {FaHandPointer} from "react-icons/fa";
+import {Link, useLocation} from "react-router";
+import {IoCallSharp} from "react-icons/io5";
 import ButtonSecondary from "../../shared/ButtonSecondary";
-import { useEffect, useMemo, useState } from "react";
+import {useEffect, useMemo, useState} from "react";
 import ButtonPrimary from "../../shared/ButtonPrimary";
 import useSEO from "../../hooks/useSEO";
+import Loading from "../../shared/Loading";
 
 const Blogs = () => {
   const [blogsData, setBlogsData] = useState([]);
   const location = useLocation();
+  const [loading, setLoading] = useState(false);
 
   const isHome = location.pathname === "/";
   const isBlogsPage = location.pathname === "/blogs";
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setLoading(true);
     fetch("/blogs.json")
       .then((res) => res.json())
-      .then((data) => setBlogsData(data));
+      .then((data) => {
+        setBlogsData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        setLoading(false);
+      });
   }, []);
-
   // ✅ show 3 on home, show all on /blogs
   const visibleBlogs = useMemo(() => {
     if (isHome) return blogsData.slice(0, 3);
@@ -35,9 +44,9 @@ const Blogs = () => {
           "Premium Taxi Service in Campbelltown NSW for comfortable, fast, and affordable rides. Book your ride today with Campbelltown Taxi Cabs!",
         keywords:
           "campbelltown taxi cabs, taxi campbelltown,taxi campbelltown nsw, campbelltown taxi,campbelltown taxis,taxi service campbelltown nsw,taxis campbelltown,luxury taxi campbelltown,taxi service campbelltown",
-        canonical:
-          "https://campbelltowntaxicabs.com.au/blogs",
+        canonical: "https://campbelltowntaxicabs.com.au/blogs",
       })}
+
       {/* ✅ Only show hero on /blogs */}
       {isBlogsPage && (
         <div className="bg-linear-to-r from-[#04A9E9] to-[#003E60]">
@@ -97,34 +106,38 @@ const Blogs = () => {
           </div>
 
           {/* ✅ Posts Grid (home = 3, /blogs = all) */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
-            {visibleBlogs.map((post) => (
-              <Link key={post.id} to={`/${post.slug}`}>
-                <div className="rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl group h-100">
-                  <div className="relative overflow-hidden">
-                    <img
-                      src={post.image}
-                      alt={post.title}
-                      className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      loading="lazy"
-                    />
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
-                  </div>
+          {loading ? (
+            <Loading />
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
+              {visibleBlogs.map((post) => (
+                <Link key={post.id} to={`/${post.slug}`}>
+                  <div className="rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl group h-100">
+                    <div className="relative overflow-hidden">
+                      <img
+                        src={post.image}
+                        alt={post.title}
+                        className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        loading="lazy"
+                      />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
+                    </div>
 
-                  <div className="p-3 md:p-6">
-                    <h3 className="text-xl font-bold text-secondary mb-3 line-clamp-2 group-hover:text-primary transition-colors cursor-pointer">
-                      {post.title}
-                    </h3>
-                    <p className="text-accent text-sm mb-6 line-clamp-3">
-                      {post.description.length > 150
-                        ? post.description.slice(0, 150) + "..."
-                        : post.description}
-                    </p>
+                    <div className="p-3 md:p-6">
+                      <h3 className="text-xl font-bold text-secondary mb-3 line-clamp-2 group-hover:text-primary transition-colors cursor-pointer">
+                        {post.title}
+                      </h3>
+                      <p className="text-accent text-sm mb-6 line-clamp-3">
+                        {post.description.length > 150
+                          ? post.description.slice(0, 150) + "..."
+                          : post.description}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </Link>
-            ))}
-          </div>
+                </Link>
+              ))}
+            </div>
+          )}
 
           {/* ✅ Only show View All button on Home */}
           {isHome && (
