@@ -37,6 +37,11 @@ import Blog2Details from "../pages/Blogs/Blog2Details";
 import Blog3Details from "../pages/Blogs/Blog3Details";
 import Blog4Details from "../pages/Blogs/Blog4Details";
 import Blog5Details from "../pages/Blogs/Blog5Details";
+import Blog6Details from "../pages/Blogs/Blog6Details";
+import Blog7Details from "../pages/Blogs/Blog7Details";
+import Blog8Details from "../pages/Blogs/Blog8Details";
+import Blog9Details from "../pages/Blogs/Blog9Details";
+import Blog10Details from "../pages/Blogs/Blog10Details";
 
 const router = createBrowserRouter([
   {
@@ -176,6 +181,26 @@ const router = createBrowserRouter([
       {
         path: "/event-transport-tips-for-stadiums-function-centres-venues",
         Component: Blog5Details,
+      },
+      {
+        path: "/how-to-choose-the-best-taxi-service-in-campbelltown-nsw",
+        Component: Blog6Details,
+      },
+      {
+        path: "/accessibility-and-special-needs-taxi-services-explained",
+        Component: Blog7Details,
+      },
+      {
+        path: "/maxi-taxi-vs-standard-taxi-which-one-should-you-book",
+        Component: Blog8Details,
+      },
+      {
+        path: "/top-reasons-to-pre-book-a-taxi-instead-of-hailing-one",
+        Component: Blog9Details,
+      },
+      {
+        path: "/taxi-safety-tips-for-passengers-in-sydney-nsw",
+        Component: Blog10Details,
       },
      
       {
