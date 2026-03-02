@@ -62,11 +62,11 @@ const Blog11Details = () => {
   return (
     <>
       {useSEO({
-        title: "Campbelltown Taxi Service vs Uber – Which Is Cheaper & More Reliable?",
+        title: "Campbelltown Taxi Service vs Uber - 2026 Price and Reliability Guide",
         description:
-          "Compare Campbelltown Taxi Service vs Uber in 2026. Learn how surge pricing impacts Uber, why fixed fares help budgeting, and which option is more reliable in Campbelltown.",
+          "Compare Campbelltown Taxi Service vs Uber for your next trip. Learn about 2026 pricing, surge avoidance, and reliability. Book your fixed-fare ride today!",
         keywords:
-          "Campbelltown Taxi Service vs Uber,Uber surge pricing Sydney,fixed fare taxi Campbelltown,taxi booking Campbelltown,Uber vs taxi costs Sydney,taxi reliability Sydney,local taxi vs rideshare,best transport Campbelltown NSW,airport taxi Campbelltown,maxi taxi Campbelltown",
+          "Campbelltown Taxi Service vs Uber,taxi vs Uber Sydney,Uber vs taxi cost in Sydney,Campbelltown taxi service,taxi Campbelltown NSW,Uber price Campbelltown,local taxi vs rideshare,taxi reliability in Sydney,Uber surge pricing Sydney,Fixed fare taxi Campbelltown,best transport Campbelltown NSW,taxi booking Campbelltown",
         canonical:
           "https://campbelltowntaxicabs.com.au/campbelltown-taxi-service-vs-uber-which-is-cheaper-and-more-reliable",
       })}

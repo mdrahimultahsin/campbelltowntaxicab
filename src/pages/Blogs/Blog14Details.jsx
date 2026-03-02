@@ -61,11 +61,11 @@ const Blog14Details = () => {
   return (
     <>
       {useSEO({
-        title: "How Cabcharge Supports Safer Taxi Transactions",
+        title: "How Cabcharge Supports Safer Taxi Transactions - Secure Payments",
         description:
-          "Learn how Cabcharge supports safer taxi transactions in Campbelltown and Sydney. Discover cashless payment benefits, GST receipts, corporate accounts, and fare transparency tips.",
+          "Enjoy 100% secure rides. Our Cabcharge Supports Safer Taxi Transactions and digital safety for every trip. Book your taxi now. Call 1300 450 428 today",
         keywords:
-          "Cabcharge supports safer taxi transactions,Cabcharge taxi payment,cashless taxi Campbelltown,taxi card payment Campbelltown,secure taxi payment NSW,Cabcharge terminal taxi,taxi fare transparency,metered taxi payment NSW,taxi receipt with GST,taxi surcharge NSW,corporate Cabcharge account,digital taxi payment system",
+          "Cabcharge Supports Safer Taxi Transactions,Cabcharge taxi payment,Secure taxi payment NSW,Cashless taxi Campbelltown,Cabcharge terminal taxi,Taxi card payment Campbelltown,Corporate Cabcharge account,Taxi receipt with GST,Metered taxi payment NSW,Taxi fare transparency,Safe taxi payment option,Taxi surcharge NSW,Digital taxi payment system",
         canonical:
           "https://campbelltowntaxicabs.com.au/how-cabcharge-supports-safer-taxi-transactions",
       })}

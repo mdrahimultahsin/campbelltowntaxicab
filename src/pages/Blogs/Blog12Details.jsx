@@ -63,13 +63,13 @@ const Blog12Details = () => {
     <>
       {useSEO({
         title:
-          "Sydney Airport Taxi from Campbelltown – Fixed Price, Travel Time & Booking Tips",
+          "Sydney Airport Taxi from Campbelltown - Top Pro Tips to Avoid Surge Fees",
         description:
-          "Book a Sydney Airport Taxi from Campbelltown with fixed pricing, travel time guidance, and expert booking tips for 2026. Avoid meter stress and arrive on time.",
+          "Get to your flight on time with a Sydney Airport Taxi from Campbelltown. Enjoy fixed prices, 24/7 reliability, and easy booking. Secure your airport ride now!",
         keywords:
-          "Sydney Airport Taxi from Campbelltown,fixed price airport taxi in Sydney,travel time Campbelltown to Sydney Airport,Sydney Airport taxi booking tips,reliable airport taxi in Sydney,airport taxi Campbelltown,airport maxi taxi Campbelltown,early morning airport taxi Sydney,airport pickup taxi Sydney,Campbelltown airport transfer",
+          "Sydney Airport Taxi from Campbelltown,Campbelltown to Sydney Airport taxi,fixed price airport taxi in Sydney,airport transfer Campbelltown,taxi fare Campbelltown to airport,Sydney Airport taxi booking,airport maxi taxi Campbelltown,travel time Campbelltown to Sydney Airport,reliable airport taxi in Sydney,early morning airport taxi Sydney,reliable airport taxi NSW,airport taxi booking near to me,airport pickup taxi Sydney",
         canonical:
-          "https://campbelltowntaxicabs.com.au/sydney-airport-taxi-from-campbelltown-fixed-price-travel-time-booking-tips",
+          "https://campbelltowntaxicabs.com.au/sydney-airport-taxi-from-campbelltown-fixed-price-travel-time-and-booking-tips",
       })}
 
       <div>

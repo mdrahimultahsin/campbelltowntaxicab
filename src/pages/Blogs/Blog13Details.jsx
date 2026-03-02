@@ -62,13 +62,13 @@ const Blog13Details = () => {
   return (
     <>
       {useSEO({
-        title: "24/7 Cabcharge Taxi Service in Campbelltown – How to Pre-Book",
+        title: "24/7 Cabcharge Taxi Service in Campbelltown -  Pre-Book Your Ride",
         description:
-          "Learn how to pre-book a 24/7 Cabcharge Taxi Service in Campbelltown. Get corporate-friendly billing, late-night pickups, early morning trips, and reliable dispatch.",
+          "Get a reliable Cabcharge Taxi Service in Campbelltown 24/7. We offer easy corporate billing and airport transfers. Book your professional ride online or call 1300 450 428 now!",
         keywords:
-          "Cabcharge Taxi Service,24/7 Cabcharge taxi Campbelltown,pre-book taxi Campbelltown,corporate taxi booking Campbelltown,taxi booking online Campbelltown,late night taxi Campbelltown,early morning taxi Campbelltown,Campbelltown taxi phone number,reliable taxi service Campbelltown,Cabcharge taxi booking",
+          "Cabcharge Taxi Service,24/7 Cabcharge taxi in Campbelltown,Cabcharge taxi Campbelltown,Book taxi Campbelltown,Pre-book taxi Campbelltown,Campbelltown taxi phone number,After hours taxi Campbelltown,Late night taxi Campbelltown,Early morning taxi Campbelltown,Cabcharge taxi booking,Taxi booking online Campbelltown,Corporate taxi booking Campbelltown,Reliable taxi service Campbelltown",
         canonical:
-          "https://campbelltowntaxicabs.com.au/24-7-cabcharge-taxi-service-in-campbelltown-how-to-pre-book",
+          "https://campbelltowntaxicabs.com.au/cabcharge-taxi-service-in-campbelltown-how-to-pre-book",
       })}
 
       <div>
