@@ -42,6 +42,11 @@ import Blog7Details from "../pages/Blogs/Blog7Details";
 import Blog8Details from "../pages/Blogs/Blog8Details";
 import Blog9Details from "../pages/Blogs/Blog9Details";
 import Blog10Details from "../pages/Blogs/Blog10Details";
+import Blog11Details from "../pages/Blogs/Blog11Details";
+import Blog12Details from "../pages/Blogs/Blog12Details";
+import Blog13Details from "../pages/Blogs/Blog13Details";
+import Blog14Details from "../pages/Blogs/Blog14Details";
+import Blog15Details from "../pages/Blogs/Blog15Details";
 
 const router = createBrowserRouter([
   {
@@ -201,6 +206,26 @@ const router = createBrowserRouter([
       {
         path: "/taxi-safety-tips-for-passengers-in-sydney-nsw",
         Component: Blog10Details,
+      },
+      {
+        path: "/campbelltown-taxi-service-vs-uber-which-is-cheaper-and-more-reliable",
+        Component: Blog11Details,
+      },
+      {
+        path: "/sydney-airport-taxi-from-campbelltown-fixed-price-travel-time-and-booking-tips",
+        Component: Blog12Details,
+      },
+      {
+        path: "/cabcharge-taxi-service-in-campbelltown-how-to-pre-book",
+        Component: Blog13Details,
+      },
+      {
+        path: "/how-cabcharge-supports-safer-taxi-transactions",
+        Component: Blog14Details,
+      },
+      {
+        path: "/cabcharge-taxi-to-sydney-airport-from-campbelltown",
+        Component: Blog15Details,
       },
      
       {

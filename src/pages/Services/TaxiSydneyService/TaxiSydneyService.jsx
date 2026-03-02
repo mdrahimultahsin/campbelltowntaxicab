@@ -16,6 +16,7 @@ import {FaLocationDot} from "react-icons/fa6";
 import useSEO from "../../../hooks/useSEO";
 import taxiImg from "../../../assets/services/campbelltown-luxury-service.jpg";
 import React from "react";
+import { serviceAreasData } from "../../../utils/serviceArea";
 const BookingForm = React.lazy(() => import("../../../shared/BookingForm"));
 const faqs = [
   {
@@ -85,54 +86,10 @@ const features = [
   "Your trip history is available anytime through your online customer dashboard.",
   "Our lost-item support team works hard to return belongings, reaching an 85% recovery rate.",
 ];
-const serviceAreas = [
-  "Campbelltown NSW",
-  "Ambarvale NSW",
-  "Appin NSW",
-  "Currans Hills NSW",
-  "Claymore NSW",
-  "Macarthur NSW",
-  "Menangle Park NSW",
-  "Leumeah NSW",
-  "Raby NSW",
-  "St Andrew's NSW",
-  "St Helen's park NSW",
-  "Ruse NSW",
-  "Minto NSW",
-  "Ingleburn NSW",
-  "Glenfield NSW",
-  "Camden NSW",
-  "Camden south NSW",
-  "Oran park NSW",
-  "Gregory hills NSW",
-  "Eagle vale NSW",
-  "Douglas Park NSW",
-  "Elderslie NSW",
-  "Wilton NSW",
-  "Spring farm NSW",
-  "Cobbity NSW",
-  "Mount Annan NSW",
-  "Phesant Nest NSW",
-  "Cowdor NSW",
-  "Denham court NSW",
-  "Edmondson park NSW",
-  "Austral NSW",
-  "Razorback NSW",
-  "Liverpool NSW",
-  "Picton NSW",
-  "Thilmere NSW",
-  "Bargo NSW",
-  "Bowral NSW",
-  "Kearns NSW",
-  "Rosemeadow NSW",
-  "Airds NSW",
-  "Gledswood Hills NSW",
-  "Leppington NSW",
-  "Smeaton Grange NSW",
-];
+
 const TaxiSydneyService = () => {
   const navigate = useNavigate();
-
+const serviceAreas = serviceAreasData
   return (
     <div>
       {useSEO({

@@ -12,55 +12,11 @@ import QuickLinks from "./QuickLinks";
 import {Link, useNavigate} from "react-router";
 import ButtonSecondary from "../../shared/ButtonSecondary";
 import useSEO from "../../hooks/useSEO";
+import { serviceAreasData } from "../../utils/serviceArea";
 
 const AreaCovered = () => {
   const navigate = useNavigate();
-  const serviceAreas = [
-    "Campbelltown NSW",
-    "Ambarvale NSW",
-    "Appin NSW",
-    "Currans Hills NSW",
-    "Claymore NSW",
-    "Macarthur NSW",
-    "Menangle NSW",
-    "Leumeah NSW",
-    "Raby NSW",
-    "St Andrew's NSW",
-    "St Helen's Park NSW",
-    "Ruse NSW",
-    "Minto NSW",
-    "Ingleburn NSW",
-    "Glenfield NSW",
-    "Camden NSW",
-    "Camden south NSW",
-    "Oran park NSW",
-    "Gregory hills NSW",
-    "Eagle vale NSW",
-    "Douglas Park NSW",
-    "Elderslie NSW",
-    "Wilton NSW",
-    "Spring farm NSW",
-    "Cobbity NSW",
-    "Mount Annan NSW",
-    "Phesant Nest NSW",
-    "Cowdor NSW",
-    "Denham court NSW",
-    "Edmondson park NSW",
-    "Austral NSW",
-    "Razorback NSW",
-    "Liverpool NSW",
-    "Picton NSW",
-    "Thilmere NSW",
-    "Bargo NSW",
-    "Bowral NSW",
-    "Kearns NSW",
-    "Goulburn NSW",
-    "Rosemeadow NSW",
-    "Airds NSW",
-    "Gledswood Hills NSW",
-    "Leppington NSW",
-    "Smeaton Grange NSW",
-  ];
+  const serviceAreas = serviceAreasData;
 
   const serviceFeatures = [
     {
@@ -237,7 +193,7 @@ const AreaCovered = () => {
               </div>
 
               {/* Popular Routes & Info Card */}
-              <div className="space-y-6">
+              <div className="space-y-6 lg:sticky lg:top-36 lg:self-start">
                 {/* Popular Routes */}
                 <div className="backdrop-blur-sm rounded-xl p-6 border shadow-sm bg-primary/5 border-primary/10">
                   <h3 className="text-xl font-bold text-primary mb-4 flex items-center gap-2">
@@ -316,7 +272,7 @@ const AreaCovered = () => {
                     className="bg-secondary text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-semibold hover:bg-secondary/80 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2 text-xs md:text-base"
                   >
                     <FaPhoneAlt className="text-sm md:text-lg" />
-                    Call: 1300 123 456
+                    Call: 1300 450 428
                   </a>
                   <button
                     onClick={() => navigate("/book-a-taxi")}

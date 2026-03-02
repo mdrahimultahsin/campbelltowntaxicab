@@ -28,7 +28,9 @@ const faqs = [
   {
     question: "How many chairs fit in a maxi taxi wheelchair access?",
     answer:
-      "Most of our maxi vans can fit two full-sized wheelchairs comfortably. We still have room for other passengers as well.",
+      <>
+      Most of our maxi vans can fit two full-sized<Link to="https://en.wikipedia.org/wiki/Wheelchair_accessible_van" className="underline font-semibold px-1" target="_blank">wheelchairs</Link> comfortably. We still have room for other passengers as well.
+      </>,
   },
   {
     question: "Can I find special needs taxi services near me late at night?",
@@ -87,10 +89,13 @@ const Blog7Details = () => {
                     <Link to="/book-a-taxi" className="underline font-semibold px-1">
                       special needs taxi services
                     </Link>{" "}
-                    in Sydney. We cover 2026 NDIS transport options and
-                    wheelchair accessible taxi Sydney features. You will learn
+                    in Sydney. We cover 2026 NDIS transport options and<Link to="/services/wheelchair-accessible-taxi" className="underline font-semibold px-1">
+                      wheelchair accessible taxi Sydney
+                    </Link> features. You will learn
                     how to find a disability friendly taxi service near you and
-                    choose the best accessible transport services NSW has to
+                    choose the best<Link to="/services/wheelchair-accessible-taxi" className="underline font-semibold px-1">
+                    accessible transport services NSW 
+                    </Link> has to
                     offer.
                   </p>
 
@@ -187,7 +192,9 @@ const Blog7Details = () => {
 
                       <p className="mt-3 text-sm md:text-base leading-7">
                         Choosing the right vehicle is the most important part of your
-                        journey. Each wheelchair taxi Campbelltown option has
+                        journey. Each <Link to="/services/wheelchair-accessible-taxi" className="underline font-semibold px-1">
+                  wheelchair taxi Campbelltown
+                    </Link> option has
                         different space layouts. Modern hydraulic lifts and wide-entry
                         doors are now the standard, and we ensure every maxi taxi
                         wheelchair access vehicle passes strict safety audits.
@@ -212,7 +219,9 @@ const Blog7Details = () => {
                       </ul>
 
                       <p className="mt-3 text-sm md:text-base leading-7">
-                        Selecting the best wheelchair taxi near me depends on your
+                        Selecting the best <Link to="/services/wheelchair-accessible-taxi" className="underline font-semibold px-1">
+                  wheelchair taxi near me
+                    </Link> depends on your
                         equipment. A quick inspection ensures your chair fits perfectly.
                         We help you choose a disability friendly taxi service that suits
                         your daily routine.
@@ -336,23 +345,14 @@ const Blog7Details = () => {
                       </p>
                     </section>
 
-                    {/* FAQ anchor */}
-                    <section id="faq">
-                      <h2 className="text-2xl md:text-3xl font-bold text-secondary">
-                        Frequently Asked Questions
-                      </h2>
-                      <p className="mt-3 text-sm md:text-base leading-7">
-                        Quick answers to common questions about booking wheelchair accessible taxis,
-                        NDIS payments, and after-hours transport.
-                      </p>
-                    </section>
+                   
                   </div>
                 </div>
 
                 {/* FAQ */}
-                <div className="mt-10">
+                <section id="faq" className="mt-10">
                   <Faq faqs={faqs} faqSectionTitle="Accessibility Booking Questions" />
-                </div>
+                </section>
               </article>
 
               {/* SIDEBAR */}
@@ -416,9 +416,9 @@ const Blog7Details = () => {
               Start Your Accessible Journey Today
             </h2>
             <p className="mt-3 text-white/90 leading-7 text-sm md:text-base">
-              You deserve a ride that respects your mobility and your time. At Campbelltown Taxi Cabs,
+              You deserve a ride that respects your mobility and your time. At <Link to="/" className="underline font-semibold px-1">Campbelltown Taxi Cabs,</Link>
               we bring years of care to every trip with safe ramps, certified restraints, and trained drivers.
-              Call now or book online to schedule your ride.
+              Call now or book online to schedule your ride.<br/> Stop worrying about travel barriers and regain your freedom today. We offer clear pricing and the best special needs taxi services in the area. Contact us today at 1300 450 428 or visit <Link to="/" className="underline font-semibold px-1">Campbelltown Taxi Cabs</Link>to schedule your ride. Let us show you why we are the top choice for Sydney transport!
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">

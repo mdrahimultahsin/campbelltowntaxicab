@@ -11,6 +11,7 @@ import {useEffect, useState} from "react";
 import {IoLogoWhatsapp} from "react-icons/io5";
 import {FaLocationDot, FaMapLocationDot} from "react-icons/fa6";
 import Loading from "../shared/Loading";
+import { serviceAreasData } from "../utils/serviceArea";
 
 const Footer = () => {
   const [services, setServices] = useState([]);
@@ -28,53 +29,7 @@ const Footer = () => {
         setLoading(false);
       });
   }, []);
-  const serviceAreas = [
-    "Campbelltown NSW",
-    "Ambarvale NSW",
-    "Appin NSW",
-    "Currans Hills NSW",
-    "Claymore NSW",
-    "Macarthur NSW",
-    "Menangle NSW",
-    "Leumeah NSW",
-    "St Helen's park NSW",
-
-    "Ruse NSW",
-    "Minto NSW",
-    "Rosemeadow NSW",
-    "Ingleburn NSW",
-    "Glenfield NSW",
-    "Camden south NSW",
-    "Goulburn NSW",
-    "Mount Annan NSW",
-    "St Andrew's NSW",
-    "Raby NSW",
-    "Oran park NSW",
-    "Gregory hills NSW",
-    "Eagle vale NSW",
-    "Douglas Park NSW",
-    "Elderslie NSW",
-    "Wilton NSW",
-    "Spring farm NSW",
-    "Cobbity NSW",
-
-    "Phesant Nest NSW",
-    "Cowdor NSW",
-    "Denham court NSW",
-    "Edmondson park NSW",
-    "Austral NSW",
-    "Razorback NSW",
-    "Liverpool NSW",
-    "Picton NSW",
-    "Thilmere NSW",
-    "Bargo NSW",
-    "Bowral NSW",
-    "Kearns NSW",
-
-    "Airds NSW",
-    "Leppington NSW",
-    "Smeaton Grange NSW",
-  ];
+  const serviceAreas = serviceAreasData;
 
   return (
     <footer className=" text-white pt-5 pb-5 bg-linear-to-r from-[#003049] to-[#000e15]">
