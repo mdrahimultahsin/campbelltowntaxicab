@@ -115,7 +115,7 @@ const CoveredLocation = () => {
             </Container>
           </section>
           {/* Section 2nd */}
-          {locationData.locationSection2Title &&   <section className="py-12 bg-white">
+          {locationData.locationSection2Title &&   <section className="md:py-12 bg-white">
             <Container>
               <div className="flex flex-col-reverse md:flex-row gap-5  items-center">
                 {/* Left SIDE — Image */}
@@ -179,7 +179,7 @@ const CoveredLocation = () => {
             </Container>
           </section>}
           {/* Cabcharge section */}
-        {locationData.locationSection2Title &&   <section className="py-12 bg-white">
+        {locationData.locationSection2Title &&   <section className="md:py-12 bg-white">
             <Container>
              <div className="mt-10 flex flex-col md:flex-row items-center gap-10 mb-16">
                         {/* Left Column: Content */}

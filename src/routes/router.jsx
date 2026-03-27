@@ -223,10 +223,10 @@ const router = createBrowserRouter([
         path: "/how-cabcharge-supports-safer-taxi-transactions",
         Component: Blog14Details,
       },
-      {
-        path: "/cabcharge-taxi-to-sydney-airport-from-campbelltown",
-        Component: Blog15Details,
-      },
+      // {
+      //   path: "/cabcharge-taxi-to-sydney-airport-from-campbelltown",
+      //   Component: Blog15Details,
+      // },
      
       {
         path: "/fleet",

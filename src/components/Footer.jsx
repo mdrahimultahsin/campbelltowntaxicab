@@ -3,15 +3,18 @@ import Container from "../shared/Container";
 import {
   FaAngleDoubleRight,
   FaCar,
+  FaFacebook,
+  FaGoogle,
+  FaInstagram,
   FaPhone,
   FaUserFriends,
 } from "react-icons/fa";
 import {MdOutlineMailOutline, MdOutlineMessage} from "react-icons/md";
 import {useEffect, useState} from "react";
-import {IoLogoWhatsapp} from "react-icons/io5";
-import {FaLocationDot, FaMapLocationDot} from "react-icons/fa6";
+import {IoLogoWhatsapp, IoShareSocial} from "react-icons/io5";
+import {FaLocationDot, FaMapLocationDot, FaXTwitter} from "react-icons/fa6";
 import Loading from "../shared/Loading";
-import { serviceAreasData } from "../utils/serviceArea";
+import {serviceAreasData} from "../utils/serviceArea";
 
 const Footer = () => {
   const [services, setServices] = useState([]);
@@ -52,6 +55,50 @@ const Footer = () => {
               Sydney, Sydney Airport transfers, Taxi Cabs with car seats, and
               Maxi Cabs equipped with wheelchair access.
             </p>
+            <div className="mt-2">
+                <h3 className="font-bold font-playfair flex gap-2 items-center uppercase text-xl mt-4 mb-3">
+                  <IoShareSocial  />
+                  Social
+                </h3>
+              <ul className="mt-3  flex items-center gap-4 ">
+                <li className="flex items-center gap-2">
+                  <a
+                    href="https://share.google/rDKJMHoBPzjXHnAwK"
+                    target="_blank"
+                    className="hover:underline flex items-center gap-2 "
+                  >
+                    <FaGoogle className="text-white hover:text-primary" size={20} />
+                  </a>
+                </li>
+                <li className="flex items-center gap-2">
+                  <a
+                    href="https://www.facebook.com/campbelltowntaxi"
+                    target="_blank"
+                    className="hover:underline flex items-center gap-2"
+                  >
+                    <FaFacebook  className="text-white hover:text-primary" size={20} />
+                  </a>
+                </li>
+                <li className="flex items-center gap-2">
+                  <a
+                    href="https://www.instagram.com/campbelltowntaxi/"
+                    target="_blank"
+                    className="hover:underline flex items-center gap-2"
+                  >
+                    <FaInstagram   className="text-white hover:text-primary" size={20} />
+                  </a>
+                </li>
+                <li className="flex items-center gap-2">
+                  <a
+                    href="https://x.com/campbelltowntaxi"
+                    target="_blank"
+                    className="hover:underline flex items-center gap-2"
+                  >
+                    <FaXTwitter    className="text-white hover:text-primary" size={20} />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div>
             <h2 className="font-bold font-playfair flex gap-2 items-center uppercase text-xl">

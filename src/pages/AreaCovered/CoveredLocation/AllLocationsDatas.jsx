@@ -23606,4 +23606,6989 @@ export const allLocationsData = {
       },
     ],
   },
+  "the-oaks-nsw": {
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52863.978704057125!2d150.5649918!3d-34.095174549999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12563278f911d1%3A0x5017d6816333ca0!2sThe%20Oaks%20NSW%202570%2C%20Australia!5e0!3m2!1sen!2sbd!4v1774626076672!5m2!1sen!2sbd",
+  pageTitle: "Taxi & Maxi Cabs Services in Oak dale, NSW -  24/7 Rides & Airport Transfers",
+  metaDescription:
+    "Book Taxi & Maxi Cabs Services in Oakdale for airport transfers, group travel & corporate rides. Local expert drivers, fixed prices & 24/7 availability. Call now!",
+  heroTitle:
+    "24/7 Taxi & Maxi Cabs Services in The Oaks for 24 Hours a Day",
+  heroDescription: (
+    <>
+      Looking for a trustworthy ride in The Oaks? Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services in The Oaks
+      </Link>
+     guarantee swift collections each time you call. We manage
+      your local journeys with on-time performance that respects your clock.
+      Our vehicles accommodate single travellers and large parties equally
+      well. You receive ample cabin space for passengers and baggage together.
+      Nobody faces exclusion or uncomfortable squeezing inside. We run non-stop
+      throughout the week. Your plane may touch down at 2 AM. Your conference
+      might finish at sunrise. Regardless, we arrive promptly. Select our
+      <Link to={`/services/luxury-transfer`} className="underline font-semibold px-1">
+       luxury tier
+      </Link> for superior relaxation. We manage seamless The Oaks pick up
+      and drop off to maintain your timetable. You dodge hold-ups. You escape
+      tension.
+      <Link to={`/`} className="underline font-semibold px-1">
+        Campbelltown Taxi Cabs
+      </Link>{" "}
+      prioritizes your agenda always.
+    </>
+  ),
+  bookingFormTitle: "Book Baby Taxi in The Oaks NSW",
+  locationSectionTitle: "Reliable Taxi Service in The Oaks",
+  locationSectionDescription: (
+    <>
+      Heading out with relatives or friends? Our The Oaks Taxi Service
+      accommodates compact and expansive groups ideally. All passengers share
+      one automobile. You bypass the trouble of dividing into separate convoys.
+      You eliminate complicated planning efforts. Through our specialized
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab Services in The Oaks,
+      </Link>
+      each traveller experiences a secure, pleasant passage. Perhaps you depart
+      from The Oaks toward Sydney Airport. Perhaps you head homeward following
+      extensive travel. We honour timing commitments. Our chauffeurs understand
+      optimal pathways. They circumvent congestion points. They minimize
+      waiting periods. You may depend on our Group Transport The Oaks
+      selections when requiring room, dependability, and tidy cabins.
+      Reservations require moments via our digital platform. You obtain
+      verification quickly. You travel with assuredness.
+    </>
+  ),
+  locationSection2Title:
+    "Affordable Taxi Service in The Oaks with Maxi Cabs: Group Travel & Tours",
+  locationSection2Desctiption: (
+    <>
+      We insist that the economy must never signify inferior. Our Local Taxi Service in The Oaks presents reasonable charges with complete openness. You view costs before confirming. You arrange finances with certainty. This proves valuable when journeying alongside companions. You can secure a Maxi Cab for Group Travel, managing several riders plus suitcases. Prefer additional sophistication? Enhance our executive tier for polished travel. Households may ask for  <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+     Baby Seat Taxi
+      </Link> provisions. Your youngsters travel in approved, correctly installed restraints. Our Drivers contribute skill and politeness. They support particular requirements. They aid with suitcases. From dawn departures to evening returns, our 24/7 Taxi The Oaks maintains your progress. Campbelltown Taxi & Maxi Cabs pledges secure, dependable, worry-free conveyance for all customers.
+    </>
+  ),
+  locationSection3Title:
+    "Comfortable Family, Corporate & Baby Seat Taxi Booking in The Oaks",
+  locationSection3Description: (
+    <>
+      Our Taxi Service in The Oaks provides extensive leg stretching room. You
+      receive plentiful storage areas. You unwind despite full passenger loads.
+      You evade restricted seating positions. You prevent difficult luggage
+      stacking. Your trip turns enjoyable. Opting for our Taxi & Maxi Cabs
+      Services in The Oaks enables your party to concentrate on arrival. We
+      focus on{" "}
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        collective transfers
+      </Link>{" "}
+      for households, community organizations, and professional units. All
+      participants reach simultaneously. Securing transport happens rapidly
+      through our The Oaks Cab Booking interface. You coordinate movement
+      beforehand. Commercial visitors can utilize our
+      <Link
+        to={`/services/corporate-tips`}
+        className="underline font-semibold px-1"
+      >
+        Corporate Taxi Service
+      </Link>{" "}
+      for punctual, expert journeys to appointments. Families incorporate Baby
+      Seat Taxi selections for protected travel with infants. When elegance
+      matters, our executive tier supplies additional relaxation. Each
+      automobile receives frequent sanitation. We uphold rigorous benchmarks.
+      You experience fluid, protected transit minus congestion concerns.
+    </>
+  ),
+  locationSection4Title:
+    "Reliable The Oaks Taxi & Maxi Cab: Premium Solutions for All Types of Travel Needs",
+  locationSection4Desctiption: (
+    <>
+    Explore professional mobility crafted particularly for The Oaks inhabitants and guests. Our extensive service catalogue supplies precisely what you require, whether catching sunrise flights or coordinating nuptial transport for numerous attendees. We deliver Airport Transfers in The Oaks featuring live flight tracking, Maxi Cab Services fitting eleven occupants, Baby Seat Taxi alternatives with verified harnesses, and  <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+      Local Taxi Service
+      </Link> for routine tasks. Commerce specialists rely on our Corporate Taxi Service, whilst refinement seekers prefer our Premium Service. We concentrate on Wedding Transport, Event Transport, Cruise Transfers, Group Transport for substantial gatherings, and Wheelchair Accessible Taxi provisions. Each voyage incorporates clear preliminary pricing, authentic round-the-clock presence, and seasoned regional operators who understand The Oaks thoroughly. From Door-to-Door Taxi Service to intricate arrangements, Campbelltown Taxi & Maxi Cabs merges profound regional knowledge with steadfast consistency—because your endpoint counts, and arrival should feel seamless.
+    </>
+  ),
+  locationSectionImg: corporateTripsImg,
+
+
+  cabChargeSectionTitle: "CabCharge Taxi Near The Oaks",
+  cabChargeSectionDesctiption: (
+    <>
+      Require adaptable settlement for employment or private journeys? Our
+      <Link
+        to={`/cabcharge-taxi`}
+        className="underline font-semibold px-1"
+      >
+        CabCharge Taxi Service in The Oaks
+      </Link>
+      renders each voyage straightforward and traceable. We welcome protected
+      CabCharge Payments, encompassing the handy CabCharge Card, perfect for
+      company travellers and permitted users. Appreciate cashless handling,
+      distinct trip documentation, and effortless invoicing every time.
+      Dependable mobility supported by established Cabcharge payment methods.
+    </>
+  ),
+  serviceTitle: "Taxi and Maxi Cab Solutions The Oaks for Every Occasion",
+  serviceSubtitle: (
+    <>
+      We customize transport to suit your particular demands. Our Taxi & Maxi
+      Cabs Services in The Oaks facilitate family vacations, collective
+      excursions, and  <Link
+        to={`/services/corporate-tips`}
+        className="underline font-semibold px-1"
+      >
+        commercial trips.
+      </Link> Protection and promptness guide our
+      operations. Each automobile appears neat. Each operator prepares
+      extensively. You count on us for terminal runs, distinctive celebrations,
+      and professional journeys. Every trip remains uncomplicated and relaxed.
+    </>
+  ),
+  locationServices: {
+    S001: {
+      service_id: "S001",
+      title: "Wedding Transfer",
+      description: (
+        <>
+          Journey in expansive automobiles. Bridal gatherings, family members,
+          and attendees appreciate stylish, relaxed transit toward and from
+          locations.
+        </>
+      ),
+      image: "/car.png",
+      pathname: "/services/wedding-transfer",
+    },
+
+    S002: {
+      service_id: "S002",
+      title: "Luxury Transfer",
+      description: (
+        <>
+          Pick our upscale alternative for distinguished transfers, leadership
+          travel, and patrons anticipating elevated seclusion and ease
+          standards.
+        </>
+      ),
+      image: "/vehicle.png",
+      pathname: "/services/luxury-transfer",
+    },
+
+    S003: {
+      service_id: "S003",
+      title: "Baby Seat Taxi Sydney",
+      description: (
+        <>
+          Households reserve automobiles with sanctioned child restraints.
+          Juvenile passengers remain protected during travel.
+        </>
+      ),
+      image: "/baby-seat.png",
+      pathname: "/services/baby-seat-taxi-sydney",
+    },
+
+    S004: {
+      service_id: "S004",
+      title: "Corporate Transport Services",
+      description: (
+        <>
+          Created for conferences and collective commercial movement. Timely
+          collections assist demanding timetables.
+        </>
+      ),
+      image: "/corporate.png",
+      pathname: "/services/corporate-transport-services",
+    },
+
+    S005: {
+      service_id: "S005",
+      title: "Cruise Terminal Transfer",
+      description: (
+        <>
+          Appreciate straightforward journeys between The Oaks and cruise
+          terminals. Sufficient room manages passengers and baggage jointly.
+        </>
+      ),
+      image: "/ship.png",
+      pathname: "/services/cruise-terminal-transfer",
+    },
+
+    S006: {
+      service_id: "S006",
+      title: "Event Transfer",
+      description: (
+        <>
+          Employ our service for performances, celebrations, and social
+          functions. Arrive punctually. Avoid parking difficulties.
+        </>
+      ),
+      image: "/event.png",
+      pathname: "/services/event-transfer",
+    },
+
+    S007: {
+      service_id: "S007",
+      title: "Maxi Taxi Service",
+      description: (
+        <>
+          Suited for bigger gatherings in The Oaks. Abundant seating and
+          baggage capability keep parties united.
+        </>
+      ),
+      image: "/users.png",
+      pathname: "/services/maxi-taxi-service",
+    },
+
+    S008: {
+      service_id: "S008",
+      title: "Corporate Trips",
+      description: (
+        <>
+          Protected, efficiently managed transfers from The Oaks to Sydney
+          Airport or commercial sites. Your personnel commutes calmly.
+        </>
+      ),
+      image: "/briefcase.png",
+      pathname: "/services/corporate-tips",
+    },
+
+    S009: {
+      service_id: "S009",
+      title: "Reliable Airport Transfers",
+      description: (
+        <>
+          Reliable round-the-clock choice throughout The Oaks for routine
+          journeys, engagements, and recreational outings.
+        </>
+      ),
+      image: "/airport.png",
+      pathname: "/services/taxi-sydney-service",
+    },
+
+    S010: {
+      service_id: "S010",
+      title: "Emergency Taxi",
+      description: (
+        <>
+          Critical circumstance? Our Emergency Taxi in The Oaks reacts rapidly.
+          We emphasize your protection and velocity.
+        </>
+      ),
+      image: "/emergency.png",
+      pathname: "/book-a-taxi",
+    },
+  },
+
+  fleetSectionTitle: "Premium Fleet for Your The Oaks Transfer",
+  fleetSectionSubTitle: (
+    <>
+      Choose from diverse automobiles matching your party dimensions and ease preferences. 
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+      Our collection
+      </Link>emphasizes protection, area, and gentle rides. Individual travellers discover ideal matches. Complete groups obtain appropriate selections, too.
+
+    </>
+  ),
+
+  fleetSectionVehicles: {
+    1: {
+      id: 1,
+      name: "Easy Sedan",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Suited for individual riders or pairs wanting peaceful, relaxed
+          journeys with our trustworthy Door-to-Door Taxi Service throughout
+          The Oaks.
+        </>
+      ),
+      image: "/campbelltown-easy-sedan.png",
+    },
+
+    2: {
+      id: 2,
+      name: "Luxury Vehicle",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Ideal for distinguished visitors and commercial guests who prize
+          seclusion, superior leather seating, and sophisticated presentation on
+          each trip.
+        </>
+      ),
+      image: "/campbelltown-luxury-vehicle.png",
+    },
+
+    3: {
+      id: 3,
+      name: "Suv or Wagon",
+      passengerCapacity: 7,
+      bagsCapacity: 5,
+      description: (
+        <>
+          Additional space for travellers and suitcases. Solid selection for
+          families or modest groups proceeding to Sydney Airport with ease.
+        </>
+      ),
+      image: "/campbelltown-suv-wagon.png",
+    },
+
+    4: {
+      id: 4,
+      name: "Kia Carnival",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Accommodates 6–7 travellers comfortably. Substantial baggage capacity
+          fits collective transfers, family holidays, and prolonged journeys.
+        </>
+      ),
+      image: "/campbelltown-kia-carnival.png",
+    },
+
+    5: {
+      id: 5,
+      name: "Maxi Taxi",
+      passengerCapacity: 11,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Constructed for bigger gatherings or extensive families desiring
+          expansive, clean interiors and an utterly relaxed travel experience
+          collectively.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+
+    6: {
+      id: 6,
+      name: "Wheelchair Taxi Service",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Supplies accessible mobility with expertly prepared operators and
+          appropriate safety elements for all mobility requirements and ease.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+  },
+
+  faqSectionTitle:
+    "Frequently Asked Questions About Taxi Service in The Oaks",
+  faqs: [
+    {
+      question:
+        "How do I get from The Oaks to Sydney Airport without driving?",
+      answer: (
+        <>
+          Our  <Link
+        to={`/services/book-taxi-sydney-airport`}
+        className="underline font-semibold px-1"
+      >
+      Airport Transfers
+      </Link> in The Oaks cover the 75-kilometre journey in
+          about 70 minutes via the Hume Highway. We monitor traffic conditions
+          and adjust pickup times. You relax while we handle the route.
+        </>
+      ),
+    },
+    {
+      question:
+        "What's the biggest vehicle you offer for my family reunion?",
+      answer: (
+        <>
+          Our Maxi Cab Services in The Oaks seat 11 people with room for luggage
+          and eskies. SUVs and wagons fit 7 passengers with extra cargo space.
+          We match vehicles to your group size.
+        </>
+      ),
+    },
+    {
+      question:
+        "Can I book a taxi at 4 AM for my shift at Tahmoor Mine?",
+      answer: (
+        <>
+          Yes. Our 24/7 Taxi The Oaks operates constantly. We understand mining
+          rosters and early starts. Book online or call 1300 450 428 anytime.
+          Your ride arrives punctually.
+        </>
+      ),
+    },
+    {
+      question:
+        "Do you help with moving furniture between The Oaks and Picton?",
+      answer: (
+        <>
+          Absolutely. Our <Link
+        to={`https://en.wikipedia.org/wiki/Maxi_taxi`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >
+        Maxi
+      </Link> Cab for Group Travel transports bulky items
+          safely. Mention oversized loads when booking. We send appropriate
+          vehicles with adequate space.
+        </>
+      ),
+    },
+    {
+      question:
+        "Is your service suitable for elderly parents visiting doctors?",
+      answer: (
+        <>
+          Yes. Our patient drivers assist with walkers and shopping bags.
+          Wheelchair Accessible Taxi in The Oaks offers dignified, comfortable
+          transport for seniors.
+        </>
+      ),
+    },
+    {
+      question: "How much notice do you need for airport pickups?",
+      answer: (
+        <>
+          Book The Oaks Cab Booking 2 hours ahead for guaranteed service.
+          Last-minute requests? We often accommodate within 30 minutes based on
+          driver availability.
+        </>
+      ),
+    },
+    {
+      question: "Can I set up a regular commute to Campbelltown?",
+      answer: (
+        <>
+          Yes. Our Corporate <Link
+        to={`https://www.pointtopoint.nsw.gov.au/what-a-service-provider/taxi-service-providers`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >
+       Taxi
+      </Link> Service offers discounted rates for weekly
+          travellers. Establish an account. We prioritize your regular pickup
+          slots consistently.
+        </>
+      ),
+    },
+    {
+      question: "What happens if my flight gets delayed?",
+      answer: (
+        <>
+          We track arrivals live. Your driver waits without extra charges for
+          reasonable delays. Call us if significant changes occur. We adjust
+          accordingly.
+        </>
+      ),
+    },
+    {
+      question: "Do you carry child seats for weekend family trips?",
+      answer: (
+        <>
+          Request our Baby Seat Taxi when reserving. We supply age-appropriate
+          restraints installed correctly. Safety standards matter to us.
+        </>
+      ),
+    },
+    {
+      question:
+        "Why choose Campbelltown Taxi Cabs over app services?",
+      answer: (
+        <>
+          We know The Oaks' rural roads, farm accesses, and shortcuts. Our
+          drivers live locally. You get human service, fixed prices, and
+          accountability every trip.
+        </>
+      ),
+    },
+  ],
+},
+"oak-dale-nsw": {
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105751.858848578!2d150.50567975!3d-34.076035450000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b1257028cdd5e3b%3A0x5017d6816333cc0!2sOakdale%20NSW%202570%2C%20Australia!5e0!3m2!1sen!2sbd!4v1774627732723!5m2!1sen!2sbd",
+  pageTitle: "Taxi & Maxi Cabs Services in Oak dale, NSW -  24/7 Rides & Airport Transfers",
+  metaDescription:
+    "Book Taxi & Maxi Cabs Services in Oakdale for airport transfers, group travel & corporate rides. Local expert drivers, fixed prices & 24/7 availability. Call now!",
+  heroTitle:
+    "24/7 Taxi & Maxi Cabs Services in Oakdale for Fast Travel",
+  heroDescription: (
+    <>
+      Searching for solid transport around Oakdale? Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>
+      in Oakdale promise a rapid response whenever you ring. We handle your
+      neighbourhood trips with clockwork timing that never disappoints. Our
+      cars fit lone commuters and bulky crowds equally. You gain generous
+      interior space for people and gear combined. Zero passengers face
+      exclusion or tight squeezes inside. We roll day and night without pause.
+      Your aircraft might arrive past midnight. Your shift could end near dawn.
+      Whatever happens, we appear ready. Pick our deluxe grade for added
+      relaxation. We execute flawless Oakdale pick up and drop off to protect
+      your schedule. You sidestep setbacks. You ditch anxiety.
+      <Link to={`/`} className="underline font-semibold px-1">
+        Campbelltown Taxi Cabs
+      </Link>{" "}
+      champions your timetable always.
+    </>
+  ),
+  bookingFormTitle: "Book Baby Taxi in Oakdale NSW",
+  locationSectionTitle: "Reliable Taxi Service in Oakdale for Groups",
+  locationSectionDescription: (
+    <>
+      Taking kin or mates somewhere special? Our Oakdale Taxi Service suits
+      tight-knit and sprawling groups ideally. Every rider shares one motor.
+      You skip the nightmare of splitting into different autos. You erase messy
+      coordination attempts. Via our dedicated
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab Services in Oakdale,
+      </Link>
+      each guest enjoys guarded, cushy passage. Maybe you leave Oakdale bound
+      for Sydney Airport. Maybe you trek home after marathon travel. We keep
+      our promises on timing. Our pilots know clever back routes. They steer
+      around bottlenecks. They shrink delays fast. You can bank on our Group
+      Transport Oakdale picks when wanting stretch, faithfulness, and spotless
+      interiors. Locking in rides takes breaths through our web hub. You snag
+      proof instantly. You cruise with certainty.
+    </>
+  ),
+  locationSection2Title:
+    "Taxi Service in Oakdale Affordable Maxi Cab & Fast 24/7 Rides",
+  locationSection2Desctiption: (
+    <>
+      We reckon that cheap ought never mean nasty. Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Local Taxi Service
+      </Link>
+      in Oakdale shows honest fares with nothing tucked away. You spot the
+      damage upfront. You map your spending with poise. This helps heaps when
+      moving with others. You can <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+      book a Maxi Cab for Group Travel,
+      </Link> taking
+      multiple riders plus loads. Fancy something classier? Level up to our
+      silver service for polished motoring. Clans may holler for Baby Seat Taxi
+      extras. Your tots ride in tested, locked-down harnesses. Our wheelmen
+      bring know-how and manners. They back unique needs. They lug your
+      suitcases. From crack-of-dawn departures to dead-of-night returns, our
+      24/7 Taxi Oakdale keeps you rolling. Campbelltown{" "}
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi & Maxi Cabs
+      </Link>{" "}
+      vows secure, steady, care-free hauling for every client.
+    </>
+  ),
+  locationSection3Title:
+    "Comfortable Corporate & Baby Seat Taxi Booking in Oakdale",
+  locationSection3Description: (
+    <>
+      Our Taxi Service in Oakdale offers you a sprawling leg stretch. You claim
+      mountains of stowage room. You decompress despite packed cabins. You duck
+      squashed seating. You dodge tricky bag Tetris. Your trek grows
+      pleasurable. Grabbing our <Link
+        to={`/`}
+        className="underline font-semibold px-1"
+      >
+        Taxi & Maxi Cabs Services
+      </Link> in Oakdale lets your
+      mob focus on the voyage. We zero in on
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        batch transfers
+      </Link>{" "}
+      for clans, sporting clubs, and office crews. The whole gang lands
+      together. Snaring wheels happens swiftly via our Oakdale Cab Booking
+      portal. You sort movement early. Corporate nomads can tap our
+      <Link
+        to={`/services/corporate-tips`}
+        className="underline font-semibold px-1"
+      >
+        Corporate Taxi Service
+      </Link>{" "}
+      for sharp, slick runs to powwows. Tribes tag on Baby Seat Taxi choices
+      for safer jaunts with bubs. When poshness counts, our silver service
+      dishes extra cushiness. Every rig gets scrubbed routinely. We keep tough
+      standards. You savour silky, shielded transit minus snarl-ups.
+    </>
+  ),
+  locationSection4Title:
+    "Reliable Oakdale Taxi & Maxi Cab: Premium Solutions for All Your Travel Needs",
+  locationSection4Desctiption: (
+    <>
+      Uncover pro mobility shaped squarely for Oakdale locals and visitors. Our
+      broad menu hands you exactly what you crave, whether snagging red-eye
+      flights or masterminding
+      <Link
+        to={`/services/wedding-transfer`}
+        className="underline font-semibold px-1"
+      >
+        wedding convoys
+      </Link>{" "}
+      for heaps of guests. We furnish
+      <Link
+        to={`/services/book-taxi-sydney-airport`}
+        className="underline font-semibold px-1"
+      >
+        Airport Transfers in Oakdale
+      </Link>{" "}
+      boasting live plane tracking, Maxi Cab Services accommodating eleven
+      souls,
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      variants with ticked-off straps, and Local Taxi Service for daily chores.
+      Trade heavyweights trust our Corporate Taxi Service, while swank seekers
+      fancy our Premium Service. We nail Wedding Transport,
+      <Link
+        to={`/services/event-transfer`}
+        className="underline font-semibold px-1"
+      >
+        Event Transport,
+      </Link>{" "}
+      Cruise Transfers, Group Transport for hefty crowds, and
+      <Link
+        to={`/services/wheelchair-accessible-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Wheelchair Accessible Taxi
+      </Link>{" "}
+      setups. Each trip packs clear upfront tags, true round-the-clock
+      coverage, and battle-hardened local steers who grok Oakdale inside-out.
+      From Door-to-Door Taxi Service to knotty logistics, Campbelltown Taxi &
+      Maxi Cabs blends deep turf smarts with rock-steady reliability—because
+      your finish line matters, and getting there should feel like floating.
+    </>
+  ),
+  locationSectionImg: corporateTripsImg,
+  serviceTitle: "Taxi and Maxi Cab Solutions Oakdale for Every Occasion",
+  serviceSubtitle: (
+    <>
+      We twist transport to match your exact wants. Our Taxi & Maxi Cabs
+      Services in Oakdale back clan holidays, mob outings, and biz travel.
+      Safety and punctuality steer our shop. Each wagon looks schmick. Each
+      steerer drills hard. You lean on us for terminal dashes, milestone
+      bashes, and work missions. Every haul stays plain and mellow.
+    </>
+  ),
+
+  cabChargeSectionTitle: "CabCharge Taxi Near Oakdale",
+  cabChargeSectionDesctiption: (
+    <>
+      Need bendy payment for job or private jaunts? Our
+      <Link
+        to={`/cabcharge-taxi`}
+        className="underline font-semibold px-1"
+      >
+        CabCharge Taxi Service in Oakdale
+      </Link>
+      makes every roll straightforward and accountable. We take shielded
+      CabCharge Payments, including the nifty CabCharge Card, ace for company
+      road warriors and approved spenders. Dig cashless dealing, crisp trip
+      logs, and smooth billing each go. Faithful hauling backed by tried-and-true
+      Cabcharge payment tricks.
+    </>
+  ),
+
+  locationServices: {
+    S001: {
+      service_id: "S001",
+      title: "Wedding Transfer",
+      description: (
+        <>
+          Cruise in expansive rigs. Bridal parties, rellies, and invitees dig
+          elegant, cushy lifts to and from spots.
+        </>
+      ),
+      image: "/car.png",
+      pathname: "/services/wedding-transfer",
+    },
+
+    S002: {
+      service_id: "S002",
+      title: "Luxury Transfer",
+      description: (
+        <>
+          Grab our high-end pick for VIP shuttles, exec travel, and punters
+          expecting peak privacy and plushness.
+        </>
+      ),
+      image: "/vehicle.png",
+      pathname: "/services/luxury-transfer",
+    },
+
+    S003: {
+      service_id: "S003",
+      title: "Baby Seat Taxi Sydney",
+      description: (
+        <>
+          Families lock in rides with sanctioned kiddie harnesses. Tiny
+          travellers stay buckled and safe throughout.
+        </>
+      ),
+      image: "/baby-seat.png",
+      pathname: "/services/baby-seat-taxi-sydney",
+    },
+
+    S004: {
+      service_id: "S004",
+      title: "Corporate Transport Services",
+      description: (
+        <>
+          Built for boardrooms and batch biz movement. Punctual grabs back
+          hectic diaries.
+        </>
+      ),
+      image: "/corporate.png",
+      pathname: "/services/corporate-transport-services",
+    },
+
+    S005: {
+      service_id: "S005",
+      title: "Cruise Terminal Transfer",
+      description: (
+        <>
+          Dig breezy hops between Oakdale and cruise wharves. Ample volume
+          handles passengers and gear jointly.
+        </>
+      ),
+      image: "/ship.png",
+      pathname: "/services/cruise-terminal-transfer",
+    },
+
+    S006: {
+      service_id: "S006",
+      title: "Event Transfer",
+      description: (
+        <>
+          Tap our service for gigs, bashes, and social shindigs. Rock up on
+          time. Skip parking wars.
+        </>
+      ),
+      image: "/event.png",
+      pathname: "/services/event-transfer",
+    },
+
+    S007: {
+      service_id: "S007",
+      title: "Maxi Taxi Service",
+      description: (
+        <>
+          Spot-on for heftier mobs in Oakdale. Generous perch and baggage slots
+          keep tribes united.
+        </>
+      ),
+      image: "/users.png",
+      pathname: "/services/maxi-taxi-service",
+    },
+
+    S008: {
+      service_id: "S008",
+      title: "Corporate Trips",
+      description: (
+        <>
+          Guarded, slickly run transfers from Oakdale to Sydney Airport or biz
+          hubs. Your squad commutes chill.
+        </>
+      ),
+      image: "/briefcase.png",
+      pathname: "/services/corporate-tips",
+    },
+
+    S009: {
+      service_id: "S009",
+      title: "Reliable Airport Transfers",
+      description: (
+        <>
+          Steady round-the-clock choice across Oakdale for routine runs,
+          bookings, and leisure strolls.
+        </>
+      ),
+      image: "/airport.png",
+      pathname: "/services/taxi-sydney-service",
+    },
+
+    S010: {
+      service_id: "S010",
+      title: "Emergency Taxi",
+      description: (
+        <>
+          Crisis moment? Our <Link
+        to={`/`}
+        className="underline font-semibold px-1"
+      >
+      Emergency Taxi in Oakdale
+      </Link> springs fast. We
+          spotlight your safety and haste.
+        </>
+      ),
+      image: "/emergency.png",
+      pathname: "/book-a-taxi",
+    },
+  },
+
+  fleetSectionTitle: "Premium Fleet for Your Oakdale Transfer",
+  fleetSectionSubTitle: (
+    <>
+      Pick from mixed motors matching your crowd size and snug wants.
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Our fleet
+      </Link>{" "}
+      highlights safety, stretch, and butter-smooth motoring. Solo trekkers
+      find sweet fits. Full possession score apt choices too.
+    </>
+  ),
+
+  fleetSectionVehicles: {
+    1: {
+      id: 1,
+      name: "Easy Sedan",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Spot-on for lone rangers or duos wanting hushed, cushy treks with our
+          staunch Door-to-Door Taxi Service throughout Oakdale.
+        </>
+      ),
+      image: "/campbelltown-easy-sedan.png",
+    },
+
+    2: {
+      id: 2,
+      name: "Luxury Vehicle",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Cracker for high-flyers and biz guests who rate seclusion, plush hide
+          seating, and swish presentation on each trek.
+        </>
+      ),
+      image: "/campbelltown-luxury-vehicle.png",
+    },
+
+    3: {
+      id: 3,
+      name: "Suv or Wagon",
+      passengerCapacity: 7,
+      bagsCapacity: 5,
+      description: (
+        <>
+          Bonus space for trekkers and suitcases. Sturdy pick for clans or
+          small packs heading to Sydney Airport with ease.
+        </>
+      ),
+      image: "/campbelltown-suv-wagon.png",
+    },
+
+    4: {
+      id: 4,
+      name: "Kia Carnival",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Houses 6–7 trekkers comfortably. Hefty baggage holds suits batch
+          transfers, clan holidays, and stretched journeys.
+        </>
+      ),
+      image: "/campbelltown-kia-carnival.png",
+    },
+
+    5: {
+      id: 5,
+      name: "Maxi Taxi",
+      passengerCapacity: 11,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Knocked up for heftier gatherings or sprawling clans wanting
+          expansive, fresh interiors and a totally mellow <Link
+        to={`https://en.wikipedia.org/wiki/Road_trip`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >
+        travel experience.
+      </Link>
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+
+    6: {
+      id: 6,
+      name: "Wheelchair Taxi Service",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Delivers accessible hauling with expertly schooled steerers and
+          proper safety bits for all mobility needs and snugness.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+  },
+
+  faqSectionTitle:
+    "Frequently Asked Questions About Taxi Service in Oakdale",
+  faqs: [
+    {
+      question: "What does a maxi cab service cost in Oakdale?",
+      answer: (
+        <>
+          Maxi rates depend on distance and time. We quote transparently before
+          you commit. No shocks later.
+        </>
+      ),
+    },
+    {
+      question: "How early should I book an Oakdale airport taxi?",
+      answer: (
+        <>
+          Book 24 hours ahead for peace. We accept short notice too, when
+          possible. Flexibility matters.
+        </>
+      ),
+    },
+    {
+      question: "Can I get a taxi with child booster seats in Oakdale?",
+      answer: (
+        <>
+          Yes. Order our Baby Seat Taxi when reserving. We supply approved
+          boosters for older kids.
+        </>
+      ),
+    },
+    {
+      question: "Do you offer split payment for group rides?",
+      answer: (
+        <>
+          One person pays initially. You sort splits privately. We keep billing
+          simple and clear.
+        </>
+      ),
+    },
+    {
+      question: "What happens if my flight lands early at Sydney Airport?",
+      answer: (
+        <>
+          We track arrivals live. Your driver adjusts the pickup time. You
+          never wait stranded.
+        </>
+      ),
+    },
+    {
+      question: "Are pets allowed in Oakdale taxis?",
+      answer: (
+        <>
+          Small pets in carriers are welcome. Notify us when booking. We
+          accommodate service animals freely.
+        </>
+      ),
+    },
+    {
+      question: "Can I request a female driver?",
+      answer: (
+        <>
+          Ask when reserving. We honour requests when available. Your comfort
+          drives our service.
+        </>
+      ),
+    },
+    {
+      question: "Do you provide receipts for business claims?",
+      answer: (
+        <>
+          Instantly emailed receipts follow every trip. Claim expenses easily.
+          Records stay organised.
+        </>
+      ),
+    },
+    {
+      question: "Is smoking permitted in your vehicles?",
+      answer: (
+        <>
+          Strictly non-smoking fleet. Fresh cabins guaranteed. Violators face
+          cleaning fees.
+        </>
+      ),
+    },
+    {
+      question: "How do I modify my Oakdale booking?",
+      answer: (
+        <>
+          Ring 1300 450 428 or use our web portal. Changes happen fast. We adapt
+          quickly.
+        </>
+      ),
+    },
+    {
+      question: "What areas beyond Oakdale do you reach?",
+      answer: (
+        <>
+          We cover the Macarthur region wide. Wollongong, Sydney CBD, and the
+          Southern Highlands are accessible.
+        </>
+      ),
+    },
+    {
+      question: "Can I book recurring daily pickups?",
+      answer: (
+        <>
+          Corporate accounts welcome regular schedules. Set repeating rides. We
+          remember your routine.
+        </>
+      ),
+    },
+    {
+      question: "Do your drivers help with shopping bags?",
+      answer: (
+        <>
+          Absolutely. Steerers assist with parcels. Heavy loads receive extra
+          hands.
+        </>
+      ),
+    },
+    {
+      question: "What if I leave items in the taxi?",
+      answer: (
+        <>
+          Contact us immediately. We trace vehicles fast. Lost property returns
+          promptly.
+        </>
+      ),
+    },
+    {
+      question: "Are your prices higher on public holidays?",
+      answer: (
+        <>
+          Standard rates apply year-round. No holiday surcharges. Fairness
+          matters always.
+        </>
+      ),
+    },
+  ],
+},
+"buxton-nsw": {
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52763.37742545782!2d150.53885240000002!3d-34.255915050000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b130062da3ed9e1%3A0x40609b490438e80!2sBuxton%20NSW%202571%2C%20Australia!5e0!3m2!1sen!2sbd!4v1774628250468!5m2!1sen!2sbd",
+  pageTitle: "Taxi & Maxi Cabs Services in Buxton, NSW - Family, Group Travel & More",
+  metaDescription:
+    "Reliable Taxi & Maxi Cabs Services in Buxton for family travel, baby seat bookings & wedding transport. On-time pickups, fixed fares & local drivers. Book today!",
+  heroTitle:
+    "24/7 Taxi & Maxi Cabs Services in Buxton for Smooth Travel",
+  heroDescription: (
+    <>
+      Hunting for steady wheels around Buxton? Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>
+      in Buxton pledge lightning-fast arrivals every time you dial. We run your
+      neighbourhood jaunts with military precision that never lets you down.
+      Our motors suit solo voyagers and massive packs alike. You score
+      cavernous cabin space for riders and kit combined. Not a single soul gets
+      stranded or squashed inside. We roll non-stop day and night. Your jet
+      might touch down at 3 AM. Your gig could wrap at sunrise. No matter what,
+      we materialise pronto. Choose our elite tier for bonus plushness. We nail
+      smooth Buxton pick up and drop off to guard your diary. You duck hold-ups.
+      You shed worry.
+      <Link to={`/`} className="underline font-semibold px-1">
+        Campbelltown Taxi Cabs
+      </Link>{" "}
+      fights for your schedule always.
+    </>
+  ),
+  bookingFormTitle: "Book Baby Taxi in Buxton NSW",
+  locationSectionTitle: "Reliable Taxi Service in Buxton for Groups",
+  locationSectionDescription: (
+    <>
+      Carting relatives or crew somewhere good? Our Buxton Taxi Service fits
+      intimate and massive crowds perfectly. The whole bunch shares one
+      machine. You dodge the chaos of fracturing into different cars. You kill
+      confusing planning attempts. Through our committed
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab Services in Buxton,
+      </Link>
+      every traveller scores a protected, cosy passage. Perhaps you quit Buxton
+      heading for Sydney Airport. Perhaps you drag home after epic journeys. We
+      honour our timing word. Our captains know sneaky shortcuts. They bypass
+      gridlock. They squash waiting times. You can trust our Group Transport
+      Buxton selections when craving stretch, loyalty, and gleaming cabins.
+      Securing rides takes ticks via our online gateway. You grab confirmation
+      instantly. You float with confidence.
+    </>
+  ),
+  locationSection2Title:
+    "Affordable Taxi Service in Buxton with Maxi Cabs: Local & Long Distance Cab",
+  locationSection2Desctiption: (
+    <>
+      We swear that budget must never mean rubbish. Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Local Taxi Service
+      </Link>
+      in Buxton displays fair dinkum prices with zero hidden nasties. You see
+      the tally upfront. You arrange your dollars with assurance. This proves
+      gold when trekking with others. You can snag a <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+  Maxi Cab for Group Travel,
+      </Link>
+      hauling numerous riders plus loads. Keen on something fancier? Bump up to
+      our gold service for refined cruising. Tribes may shout for <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+  Baby Seat
+      Taxi
+      </Link> add-ons. Your littlies travel in certified, locked-in restraints.
+      Our skippers bring wisdom and respect. They back special requests. They
+      heft your bags. From sparrow's fart departures to witching hour returns,
+      our 24/7 Taxi Buxton keeps you mobile. Campbelltown{" "}
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi & Maxi Cabs
+      </Link>{" "}
+      promises secure, steady, zero-stress hauling for every punter.
+    </>
+  ),
+  locationSection3Title:
+    "Comfortable Corporate & Baby Seat Taxi Booking in Buxton",
+  locationSection3Description: (
+    <>
+      Our <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+Taxi Service in Buxton
+      </Link> offers you a sprawling stretch room. You snag
+      heaps of stowage volume. You unwind despite chockers cabins. You escape
+      compressed seating. You miss messy bag Jenga. Your trek becomes
+      enjoyable. Snapping up our Taxi & Maxi Cabs Services in Buxton allows
+      your tribe to focus on the expedition. We specialise in
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        batch transfers
+      </Link>{" "}
+      for families, footy teams, and office squads. Everyone rocks up united.
+      Grabbing wheels happens pronto through our Buxton Cab Booking site. You
+      arrange transport beforehand. Business roadies can hit our
+      <Link
+        to={`/services/corporate-tips`}
+        className="underline font-semibold px-1"
+      >
+        Corporate Taxi Service
+      </Link>{" "}
+      for sharp, professional dashes to meetings. Mobs attach Baby Seat Taxi
+      options for protected trips with ankle-biters. When class counts, our
+      gold service serves extra cushiness. Every rig gets detailed regularly.
+      We enforce strict benchmarks. You relish fluid, guarded transit minus
+      traffic headaches.
+    </>
+  ),
+  locationSection4Title:
+    "Reliable Buxton Taxi & Maxi Cab: Premium Solutions for All Your Travel Needs",
+  locationSection4Desctiption: (
+    <>
+      Reveal pro hauling crafted squarely for Buxton locals and blow-ins. Our
+      wide spread hands you precisely what you need, whether grabbing dawn
+      flights or orchestrating
+      <Link
+        to={`/services/wedding-transfer`}
+        className="underline font-semibold px-1"
+      >
+        wedding fleets
+      </Link>{" "}
+      for loads of guests. We dish up
+      <Link
+        to={`/services/book-taxi-sydney-airport`}
+        className="underline font-semibold px-1"
+      >
+        Airport Transfers in Buxton
+      </Link>
+      , flaunting live plane tracking, Maxi Cab Services accommodating eleven
+      passengers,
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      styles with approved harnesses, and Local Taxi Service for everyday
+      missions. Commerce bigwigs lean on our Corporate Taxi Service, while
+      luxury chasers dig our Premium Service. We master Wedding Transport,
+      <Link
+        to={`/services/event-transfer`}
+        className="underline font-semibold px-1"
+      >
+        Event Transport,
+      </Link>{" "}
+      Cruise Transfers, Group Transport for hefty mobs, and
+      <Link
+        to={`/services/wheelchair-accessible-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Wheelchair Accessible Taxi
+      </Link>{" "}
+      gear. Each haul packs transparent upfront tags, genuine round-the-clock
+      cover, and seasoned local skippers who read Buxton like a book. From
+      Door-to-Door Taxi Service to tangled logistics, Campbelltown Taxi & Maxi
+      Cabs merges deep turf knowledge with unshakeable consistency—because your
+      endpoint counts, and arriving there should feel like drifting on clouds.
+    </>
+  ),
+  locationSectionImg: corporateTripsImg,
+  serviceTitle: "Taxi and Maxi Cab Solutions Buxton for Every Occasion",
+  serviceSubtitle: (
+    <>
+      We mould transport to fit your precise brief. Our <Link
+        to={`/`}
+        className="underline font-semibold px-1"
+      >
+  Taxi & Maxi Cabs
+      Services
+      </Link> in Buxton back clan getaways, mob adventures, and corporate
+      travel. Protection and promptness pilot our operation. Every wagon looks
+      flash. Every skipper trains hard. You count on us for terminal sprints,
+      landmark parties, and work jaunts. Each haul stays uncomplicated and
+      mellow.
+    </>
+  ),
+
+  cabChargeSectionTitle: "CabCharge Taxi Near Buxton",
+  cabChargeSectionDesctiption: (
+    <>
+      After bendy billing for work or private treks? Our
+      <Link
+        to={`/cabcharge-taxi`}
+        className="underline font-semibold px-1"
+      >
+        CabCharge Taxi Service in Buxton
+      </Link>
+      renders every journey plain and traceable. We accept shielded CabCharge
+      Payments, including the handy CabCharge Card, for company trekkers and
+      authorised spenders. Rate cashless transactions, neat trip records, and
+      painless billing for each run. Faithful hauling backed by proven
+      Cabcharge payment smarts.
+    </>
+  ),
+
+  locationServices: {
+    S001: {
+      service_id: "S001",
+      title: "Wedding Transfer",
+      description: (
+        <>
+          Float in expansive motors. Bridal gangs, relatives, and guests score
+          stylish, cushy lifts toward and from venues.
+        </>
+      ),
+      image: "/car.png",
+      pathname: "/services/wedding-transfer",
+    },
+
+    S002: {
+      service_id: "S002",
+      title: "Luxury Transfer",
+      description: (
+        <>
+          Snag our luxury pick for VIP shuttles, exec travel, and punters
+          expecting top-shelf privacy and comfort.
+        </>
+      ),
+      image: "/vehicle.png",
+      pathname: "/services/luxury-transfer",
+    },
+
+    S003: {
+      service_id: "S003",
+      title: "Baby Seat Taxi Sydney",
+      description: (
+        <>
+          Households book rides with ticked-off kiddie harnesses. Small fry stay
+          buckled safe the whole way.
+        </>
+      ),
+      image: "/baby-seat.png",
+      pathname: "/services/baby-seat-taxi-sydney",
+    },
+
+    S004: {
+      service_id: "S004",
+      title: "Corporate Transport Services",
+      description: (
+        <>
+          Created for boardrooms and batch corporate movement. On-time
+          collections back frantic schedules.
+        </>
+      ),
+      image: "/corporate.png",
+      pathname: "/services/corporate-transport-services",
+    },
+
+    S005: {
+      service_id: "S005",
+      title: "Cruise Terminal Transfer",
+      description: (
+        <>
+          Enjoy smooth hops between Buxton and cruise wharves. Generous volume
+          handles passengers and luggage jointly.
+        </>
+      ),
+      image: "/ship.png",
+      pathname: "/services/cruise-terminal-transfer",
+    },
+
+    S006: {
+      service_id: "S006",
+      title: "Event Transfer",
+      description: (
+        <>
+          Tap our service for concerts, shindigs, and social bashes. Arrive bang
+          on time. Skip parking nightmares.
+        </>
+      ),
+      image: "/event.png",
+      pathname: "/services/event-transfer",
+    },
+
+    S007: {
+      service_id: "S007",
+      title: "Maxi Taxi Service",
+      description: (
+        <>
+          Perfect for heftier crowds in Buxton. Ample perch and baggage capacity
+          keep tribes together.
+        </>
+      ),
+      image: "/users.png",
+      pathname: "/services/maxi-taxi-service",
+    },
+
+    S008: {
+      service_id: "S008",
+      title: "Corporate Trips",
+      description: (
+        <>
+          Protected, slickly managed transfers from Buxton to Sydney Airport or
+          corporate sites. Your crew commutes relaxed.
+        </>
+      ),
+      image: "/briefcase.png",
+      pathname: "/services/corporate-tips",
+    },
+
+    S009: {
+      service_id: "S009",
+      title: "Reliable Airport Transfers",
+      description: (
+        <>
+          Steady round-the-clock option across Buxton for routine runs,
+          appointments, and leisure strolls.
+        </>
+      ),
+      image: "/airport.png",
+      pathname: "/services/taxi-sydney-service",
+    },
+
+    S010: {
+      service_id: "S010",
+      title: "Emergency Taxi",
+      description: (
+        <>
+          Crisis hits? Our Emergency Taxi in Buxton reacts instantly. We
+          spotlight your protection and velocity.
+        </>
+      ),
+      image: "/emergency.png",
+      pathname: "/book-a-taxi",
+    },
+  },
+
+  fleetSectionTitle: "Premium Fleet for Your Buxton Transfer",
+  fleetSectionSubTitle: (
+    <>
+      Select from varied motors matching your party dimensions and snug
+      requirements.
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Our fleet
+      </Link>{" "}
+      highlights safety, stretch, and cloud-soft cruising. Lone trekkers find
+      ideal matches. Complete possesses land suitable options too.
+    </>
+  ),
+
+  fleetSectionVehicles: {
+    1: {
+      id: 1,
+      name: "Easy Sedan",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Perfect for solo operators or pairs wanting peaceful, cushy jaunts
+          with our reliable Door-to-Door Taxi Service throughout Buxton.
+        </>
+      ),
+      image: "/campbelltown-easy-sedan.png",
+    },
+
+    2: {
+      id: 2,
+      name: "Luxury Vehicle",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Cracker for high-flyers and business guests who prize seclusion,
+          premium hide seating, and polished presentation on every jaunt.
+        </>
+      ),
+      image: "/campbelltown-luxury-vehicle.png",
+    },
+
+    3: {
+      id: 3,
+      name: "Suv or Wagon",
+      passengerCapacity: 7,
+      bagsCapacity: 5,
+      description: (
+        <>
+          Extra territory for trekkers and suitcases. Solid choice for clans or
+          compact packs heading to Sydney Airport with ease.
+        </>
+      ),
+      image: "/campbelltown-suv-wagon.png",
+    },
+
+    4: {
+      id: 4,
+      name: "Kia Carnival",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Houses 6–7 trekkers comfortably. Hefty baggage holds suits batch
+          transfers, clan holidays, and extended journeys.
+        </>
+      ),
+      image: "/campbelltown-kia-carnival.png",
+    },
+
+    5: {
+      id: 5,
+      name: "Maxi Taxi",
+      passengerCapacity: 11,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Built for heftier gatherings or sprawling clans wanting expansive,
+          fresh interiors and a totally chilled travel experience.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+
+    6: {
+      id: 6,
+      name: "Wheelchair Taxi Service",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Supplies accessible hauling with expertly drilled skippers and a
+          proper safety kit for all mobility needs and snugness.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+  },
+
+  faqSectionTitle:
+    "Frequently Asked Questions About Taxi Service in Buxton",
+  faqs: [
+    {
+      question: "How do I book a maxi cab for a Buxton wedding?",
+      answer: (
+        <>
+          Ring 1300 450 428 or use our web form. Tell us your guest count. We
+          lock in rides fast.
+        </>
+      ),
+    },
+    {
+      question: "Can I get a taxi after midnight in Buxton?",
+      answer: (
+        <>
+          Absolutely. Our 24/7 <Link
+        to={`https://en.wikipedia.org/wiki/Taxis_of_Australia`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >
+ Taxi
+      </Link> Buxton never sleeps. We fetch you anytime.
+          Night owls welcome.
+        </>
+      ),
+    },
+    {
+      question: "Do your Buxton taxis carry sports equipment?",
+      answer: (
+        <>
+          Yes. <Link
+        to={`https://en.wikipedia.org/wiki/Maxi_taxi`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >
+ Maxi
+      </Link>  cabs handle bikes, boards, and gear. Mention size when
+          booking. We prepare space.
+        </>
+      ),
+    },
+    {
+      question: "Are your drivers locals who know Buxton well?",
+      answer: (
+        <>
+          Our skippers live nearby. They know shortcuts. They avoid roadwork.
+          You get savvy locals.
+        </>
+      ),
+    },
+    {
+      question: "Can I pay with a card for Buxton airport runs?",
+      answer: (
+        <>
+          Cards accepted. CabCharge welcome. Cash works too. Split bills are
+          possible. Payment flexibility guaranteed.
+        </>
+      ),
+    },
+    {
+      question: "Do you offer meet-and-greet at Sydney Airport?",
+      answer: (
+        <>
+          Yes. Your skipper waits with a sign. We track delays. No extra charge
+          for waiting.
+        </>
+      ),
+    },
+    {
+      question: "What if my Buxton taxi is late?",
+      answer: (
+        <>
+          We run on time. If rare delays hit, we call you. Your ride becomes a
+          priority instantly.
+        </>
+      ),
+    },
+    {
+      question: "Can I bring a pram without booking a baby seat?",
+      answer: (
+        <>
+          Small prams fold into the boot space. For safety, book a Baby Seat
+          Taxi with restraints. Kids ride securely.
+        </>
+      ),
+    },
+    {
+      question: "Do you service Buxton on Christmas Day?",
+      answer: (
+        <>
+          We roll 365 days. Public holidays included. Same rates apply. Book
+          early for peak times.
+        </>
+      ),
+    },
+    {
+      question: "How many passengers fit in your biggest taxi?",
+      answer: (
+        <>
+          Our Maxi Taxi swallows eleven passengers. Eight bags fit too. Biggest
+          group option available.
+        </>
+      ),
+    },
+    {
+      question: "Can I request a quiet driver for Buxton trips?",
+      answer: (
+        <>
+          Mention preferences when booking. We match your style. Professional
+          skippers respect your space.
+        </>
+      ),
+    },
+    {
+      question: "Do you offer corporate accounts for regular Buxton travel?",
+      answer: (
+        <>
+          Business accounts available. Monthly billing. Priority booking.
+          Streamlined expenses. We handle paperwork.
+        </>
+      ),
+    },
+    {
+      question: "What areas surround Buxton do you cover?",
+      answer: (
+        <>
+          We reach Wilton, Picton, Tahmoor, and beyond. The Macarthur region is
+          our backyard. Ask about your suburb.
+        </>
+      ),
+    },
+    {
+      question: "Can I book a return trip from Sydney Airport to Buxton?",
+      answer: (
+        <>
+          Double bookings welcome. We schedule both legs. Your return skipper
+          knows your flight. Seamless travel.
+        </>
+      ),
+    },
+    {
+      question: "Are pets allowed in Buxton taxis?",
+      answer: (
+        <>
+          Small pets in carriers are accepted. Service animals are always
+          welcome. Tell us when booking. We prepare.
+        </>
+      ),
+    },
+  ],
+},
+"mossvale-nsw": {
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105150.24078679329!2d150.3946812!3d-34.5549473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b139744aed82f79%3A0x40609b490439080!2sMoss%20Vale%20NSW%202577%2C%20Australia!5e0!3m2!1sen!2sbd!4v1774628686173!5m2!1sen!2sbd",
+  pageTitle: "Taxi & Maxi Cabs Services in Moss vale, NSW - Local, Wedding & Corporate",
+  metaDescription:
+    "Need a ride? Taxi & Maxi Cabs Services in Moss Vale cover wedding transport, cruise transfers & group travel. Trusted local drivers & fixed prices. Call now!",
+  heroTitle:
+    "24/7 Taxi & Maxi Cabs Services in Moss Vale for All Travel Needs",
+  heroDescription: (
+    <>
+      Chasing dependable rides around Moss Vale? Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>
+      in Moss Vale guarantee swift collections each time you ring. We manage
+      your local trips with razor-sharp timing that never disappoints. Our
+      fleet fits lone travellers and huge parties equally. You gain massive
+      cabin space for people and gear together. No passenger faces exclusion or
+      tight squeezes inside. We operate non-stop all week. Your flight might
+      land at 1 AM. Your event could finish at dawn. Either way, we appear
+      ready. Pick our premium grade for extra comfort. We execute smooth Moss
+      Vale pick up and drop off to protect your schedule. You avoid delays. You
+      skip stress.
+      <Link to={`/`} className="underline font-semibold px-1">
+        Campbelltown Taxi Cabs
+      </Link>{" "}
+      puts your timetable first always.
+    </>
+  ),
+  bookingFormTitle: "Book Baby Taxi in Moss Vale NSW",
+  locationSectionTitle: "Reliable Taxi Service in Moss Vale for Groups",
+  locationSectionDescription: (
+    <>
+      Moving family or friends somewhere nice? Our <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+Moss Vale Taxi Service
+      </Link>  suits
+      small and large groups ideally. Everyone shares one vehicle. You bypass
+      the hassle of splitting into multiple cars. You eliminate confusing
+      coordination. Through our dedicated
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab Services in Moss Vale,
+      </Link>
+      each guest enjoys safe, comfy travel. Perhaps you leave Moss Vale bound
+      for Sydney Airport. Perhaps you return home after a long trip. We stick
+      to our promises. Our drivers know smart shortcuts. They avoid traffic
+      jams. They cut the waiting time. You can trust our Group Transport Moss
+      Vale options when needing space, reliability, and clean cars. Booking
+      takes seconds via our online portal. You get confirmation fast. You ride
+      with peace of mind.
+    </>
+  ),
+  locationSection2Title:
+    "Taxi Service in Moss Vale with Maxi Cabs: Affordable Local & Long Distance Trips",
+  locationSection2Desctiption: (
+    <>
+      We believe cheap should never mean uncomfortable. Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Local Taxi Service
+      </Link>
+      in Moss Vale offers fair rates with full clarity. You see the price
+      before booking. You plan your budget with confidence. This helps when
+      travelling with others. You can book a Maxi Cab for Group Travel that
+      handles many passengers plus bags. Want something nicer? Upgrade to our
+      luxury service for refined travel. Families can request Baby Seat Taxi
+      options. Your children ride in approved, properly fitted seats. Our
+      drivers bring skill and courtesy. They help with special needs. They
+      assist with luggage. From early morning flights to late-night arrivals,
+      our 24/7 Taxi Moss Vale keeps you moving. Campbelltown{" "}
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi & Maxi Cabs
+      </Link>{" "}
+      commits to safe, reliable, stress-free transport for every rider.
+    </>
+  ),
+  locationSection3Title:
+    "Comfortable Corporate & Baby Seat Taxi Booking in Moss Vale",
+  locationSection3Description: (
+    <>
+      Our  <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+     Taxi Service in Moss Vale 
+      </Link>gives you generous legroom. You get ample
+      luggage space. You relax even when the cab is full. You avoid cramped
+      seating. You skip awkward bag arrangements. Your ride becomes pleasant.
+      Choosing our Taxi & Maxi Cabs Services in Moss Vale lets your group focus
+      on the journey. We specialise in
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        group transfers
+      </Link>{" "}
+      for families, sports teams, and work crews. Everyone arrives together.
+      Booking is quick through our Moss Vale Cab Booking page. You organise
+      transport ahead of time. Business travellers can use our
+      <Link
+        to={`/services/corporate-tips`}
+        className="underline font-semibold px-1"
+      >
+        Corporate Taxi Service
+      </Link>{" "}
+      for timely, professional rides to meetings. Families add Baby Seat Taxi
+      options for safer trips with little ones. When style matters, our  <Link
+        to={`/services/luxury-transfer`}
+        className="underline font-semibold px-1"
+      >
+        luxury
+      service delivers
+      </Link> extra comfort. Every vehicle undergoes regular cleaning.
+      We maintain strict standards. You enjoy smooth, secure travel without
+      traffic worries.
+    </>
+  ),
+  locationSection4Title:
+    "Reliable Moss Vale Taxi & Maxi Cab: Premium Solutions for All Your Travel Needs",
+  locationSection4Desctiption: (
+    <>
+      Explore professional transport designed specifically for Moss Vale
+      residents and visitors. Our comprehensive service menu delivers exactly
+      what you need, whether catching a dawn flight or organising
+      <Link
+        to={`/services/wedding-transfer`}
+        className="underline font-semibold px-1"
+      >
+        wedding transport
+      </Link>{" "}
+      for many guests. We provide
+      <Link
+        to={`/services/book-taxi-sydney-airport`}
+        className="underline font-semibold px-1"
+      >
+        Airport Transfers in Moss Vale
+      </Link>{" "}
+      with real-time flight monitoring, Maxi Cab Services accommodating up to
+      eleven passengers,
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      options with certified restraints, and Local Taxi Service for daily
+      errands. Business professionals depend on our Corporate Taxi Service,
+      while luxury seekers choose our Premium Service. We specialise in <Link
+        to={`/services/wedding-transfer`}
+        className="underline font-semibold px-1"
+      >
+        Wedding
+      Transport,
+      </Link>
+      <Link
+        to={`/services/event-transfer`}
+        className="underline font-semibold px-1"
+      >
+        Event Transport,
+      </Link>{" "}
+      Cruise Transfers, Group Transport for large parties, and
+      <Link
+        to={`/services/wheelchair-accessible-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Wheelchair Accessible Taxi
+      </Link>{" "}
+      services. Every journey includes transparent upfront pricing, genuine
+      24/7 availability, and experienced local drivers who know Moss Vale
+      intimately. From Door-to-Door Taxi Service to complex logistics,
+      Campbelltown Taxi & Maxi Cabs combines deep local expertise with
+      unwavering reliability—because your destination matters, and how you get
+      there should feel effortless.
+    </>
+  ),
+  locationSectionImg: corporateTripsImg,
+  serviceTitle: "Taxi and Maxi Cab Solutions Moss Vale for Every Occasion",
+  serviceSubtitle: (
+    <>
+      We tailor transport to match your specific needs. Our <Link
+        to={`/`}
+        className="underline font-semibold px-1"
+      >
+       Taxi & Maxi Cabs
+      Services 
+      </Link>in Moss Vale support family holidays, group outings, and
+      business travel. Safety and punctuality drive everything we do. Every
+      vehicle looks professional. Every driver trains thoroughly. You rely on
+      us for airport runs, special events, and business trips. Each ride stays
+      simple and stress-free.
+    </>
+  ),
+
+  cabChargeSectionTitle: "CabCharge Taxi Near Moss Vale",
+  cabChargeSectionDesctiption: (
+    <>
+      Need flexible payment for work or personal travel? Our
+      <Link
+        to={`/cabcharge-taxi`}
+        className="underline font-semibold px-1"
+      >
+        CabCharge Taxi Service in Moss Vale
+      </Link>
+      makes every trip simple and accountable. We accept secure CabCharge
+      Payments, including the convenient CabCharge Card, ideal for corporate
+      travellers and authorised riders. Enjoy cashless processing, clear trip
+      records, and smooth billing with every ride. Reliable transport backed by
+      trusted Cabcharge payment options.
+    </>
+  ),
+
+  locationServices: {
+    S001: {
+      service_id: "S001",
+      title: "Wedding Transfer",
+      description: (
+        <>
+          Travel in spacious vehicles. Bridal parties, relatives, and guests
+          enjoy elegant, comfortable rides to and from venues.
+        </>
+      ),
+      image: "/car.png",
+      pathname: "/services/wedding-transfer",
+    },
+
+    S002: {
+      service_id: "S002",
+      title: "Luxury Transfer",
+      description: (
+        <>
+          Choose our luxury option for VIP transfers, executive travel, and
+          clients expecting higher privacy and comfort standards.
+        </>
+      ),
+      image: "/vehicle.png",
+      pathname: "/services/luxury-transfer",
+    },
+
+    S003: {
+      service_id: "S003",
+      title: "Baby Seat Taxi Sydney",
+      description: (
+        <>
+          Families book vehicles with approved child seats. Young passengers
+          stay secure throughout the journey.
+        </>
+      ),
+      image: "/baby-seat.png",
+      pathname: "/services/baby-seat-taxi-sydney",
+    },
+
+    S004: {
+      service_id: "S004",
+      title: "Corporate Transport Services",
+      description: (
+        <>
+          Designed for meetings and group business travel. Punctual pickups
+          support busy schedules.
+        </>
+      ),
+      image: "/corporate.png",
+      pathname: "/services/corporate-transport-services",
+    },
+
+    S005: {
+      service_id: "S005",
+      title: "Cruise Terminal Transfer",
+      description: (
+        <>
+          Enjoy easy trips between Moss Vale and cruise terminals. Ample space
+          handles passengers and luggage together.
+        </>
+      ),
+      image: "/ship.png",
+      pathname: "/services/cruise-terminal-transfer",
+    },
+
+    S006: {
+      service_id: "S006",
+      title: "Event Transfer",
+      description: (
+        <>
+          Use our service for concerts, parties, and social gatherings. Arrive
+          on time. Skip parking hassles.
+        </>
+      ),
+      image: "/event.png",
+      pathname: "/services/event-transfer",
+    },
+
+    S007: {
+      service_id: "S007",
+      title: "Maxi Taxi Service",
+      description: (
+        <>
+          Ideal for larger groups in Moss Vale. Generous seating and luggage
+          capacity keep everyone together.
+        </>
+      ),
+      image: "/users.png",
+      pathname: "/services/maxi-taxi-service",
+    },
+
+    S008: {
+      service_id: "S008",
+      title: "Corporate Trips",
+      description: (
+        <>
+          Safe, well-managed transfers from Moss Vale to Sydney Airport or
+          business locations. Your team commutes without stress.
+        </>
+      ),
+      image: "/briefcase.png",
+      pathname: "/services/corporate-tips",
+    },
+
+    S009: {
+      service_id: "S009",
+      title: "Reliable Airport Transfers",
+      description: (
+        <>
+          Dependable 24/7 option across Moss Vale for everyday trips,
+          appointments, and leisure outings.
+        </>
+      ),
+      image: "/airport.png",
+      pathname: "/services/taxi-sydney-service",
+    },
+
+    S010: {
+      service_id: "S010",
+      title: "Emergency Taxi",
+      description: (
+        <>
+          Urgent situation? Our Emergency Taxi in Moss Vale responds quickly. We
+          prioritise your safety and speed.
+        </>
+      ),
+      image: "/emergency.png",
+      pathname: "/book-a-taxi",
+    },
+  },
+
+  fleetSectionTitle: "Premium Fleet for Your Moss Vale Transfer",
+  fleetSectionSubTitle: (
+    <>
+      Select from varied vehicles matching your group size and comfort needs.
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Our fleet
+      </Link>{" "}
+      prioritises safety, space, and smooth rides. Solo travellers find
+      perfect fits. Full groups get suitable options too.
+    </>
+  ),
+
+  fleetSectionVehicles: {
+    1: {
+      id: 1,
+      name: "Easy Sedan",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Ideal for solo riders or couples seeking quiet, comfortable trips
+          with our reliable Door-to-Door Taxi Service throughout Moss Vale.
+        </>
+      ),
+      image: "/campbelltown-easy-sedan.png",
+    },
+
+    2: {
+      id: 2,
+      name: "Luxury Vehicle",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Perfect for VIPs and business guests who value privacy, premium
+          leather seating, and refined presentation on every journey.
+        </>
+      ),
+      image: "/campbelltown-luxury-vehicle.png",
+    },
+
+    3: {
+      id: 3,
+      name: "Suv or Wagon",
+      passengerCapacity: 7,
+      bagsCapacity: 5,
+      description: (
+        <>
+          Extra room for passengers and luggage. Strong choice for families or
+          small groups heading to Sydney Airport with comfort.
+        </>
+      ),
+      image: "/campbelltown-suv-wagon.png",
+    },
+
+    4: {
+      id: 4,
+      name: "Kia Carnival",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Seats 6–7 passengers comfortably. Generous luggage capacity suits
+          group transfers, family holidays, and extended trips.
+        </>
+      ),
+      image: "/campbelltown-kia-carnival.png",
+    },
+
+    5: {
+      id: 5,
+      name: "Maxi Taxi",
+      passengerCapacity: 11,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Built for larger groups or big families wanting spacious, clean
+          interiors and a completely relaxed travel experience together.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+
+    6: {
+      id: 6,
+      name: "Wheelchair Taxi Service",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Provides accessible transport with professionally trained drivers and
+          proper  <Link
+        to={`https://www.nhtsa.gov/ten-tips-for-safe-driving`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >
+        safety
+      </Link> features for all mobility needs and comfort.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+  },
+
+  faqSectionTitle:
+    "Frequently Asked Questions About Taxi Service in Moss Vale",
+  faqs: [
+    {
+      question: "What makes your Moss Vale taxi service reliable?",
+      answer: (
+        <>
+          We track flights live. We train drivers hard. We clean cars daily.
+          Punctuality matters most.
+        </>
+      ),
+    },
+    {
+      question: "Can I book a taxi for wine tours around Moss Vale?",
+      answer: (
+        <>
+          Yes. Our drivers know Southern Highlands wineries. Plan your route.
+          We handle driving safely.
+        </>
+      ),
+    },
+    {
+      question: "Do you offer fixed rates for Moss Vale airport trips?",
+      answer: (
+        <>
+          We quote upfront. No meter surprises. Know your cost before riding.
+          Budget with confidence.
+        </>
+      ),
+    },
+    {
+      question: "How do I request a baby seat in Moss Vale?",
+      answer: (
+        <>
+          Mention age and weight when booking. We fit the correct restraints.
+          Safety comes first always.
+        </>
+      ),
+    },
+    {
+      question: "Can your taxis handle golf clubs and bulky gear?",
+      answer: (
+        <>
+          Maxi cabs swallow golf bags easily. Tell us the equipment size. We
+          bring the right vehicle.
+        </>
+      ),
+    },
+    {
+      question: "Do Moss Vale drivers know routes to Canberra Airport?",
+      answer: (
+        <>
+          Yes. We service Canberra trips. Drivers know both airports.
+          Alternative travel sorted.
+        </>
+      ),
+    },
+    {
+      question: "What happens if I cancel my Moss Vale booking?",
+      answer: (
+        <>
+          Call us ASAP. No charges for early notice. Fair policy for changes. We
+          understand plans shift.
+        </>
+      ),
+    },
+    {
+      question: "Are your Moss Vale taxis available on public holidays?",
+      answer: (
+        <>
+          We run every day. Holidays included. Book early for busy dates. Same
+          great service.
+        </>
+      ),
+    },
+    {
+      question: "Can I book multiple taxis for large Moss Vale events?",
+      answer: (
+        <>
+          Fleet coordination available. Weddings and conferences covered. We
+          manage group logistics smoothly.
+        </>
+      ),
+    },
+    {
+      question: "Do you provide receipts for business travel claims?",
+      answer: (
+        <>
+          Instant email receipts sent. ATO compliant. Claim expenses easily.
+          Records stay organised.
+        </>
+      ),
+    },
+    {
+      question: "How far is Moss Vale from Sydney Airport?",
+      answer: (
+        <>
+          The journey takes roughly 90 minutes. Traffic affects timing. We plan
+          routes smartly. Arrive relaxed.
+        </>
+      ),
+    },
+    {
+      question:
+        "Can I request a specific driver for regular Moss Vale trips?",
+      answer: (
+        <>
+          Ask when booking. We note preferences. Same driver when possible.
+          Build rapport over time.
+        </>
+      ),
+    },
+    {
+      question: "Do you service Moss Vale train station pickups?",
+      answer: (
+        <>
+          Yes. We meet trains on time. Platform pickups arranged. Connect your
+          journey seamlessly.
+        </>
+      ),
+    },
+    {
+      question: "What payment methods work for Moss Vale taxis?",
+      answer: (
+        <>
+          Cash, card, and CabCharge accepted. Corporate accounts welcome. Split
+          payments are possible. Flexibility guaranteed.
+        </>
+      ),
+    },
+    {
+      question: "Are pets permitted in Moss Vale taxis?",
+      answer: (
+        <>
+          Small pets in carriers are allowed. Service animals are always
+          welcome. Mention when booking. We prepare space.
+        </>
+      ),
+    },
+  ],
+},
+
+"mittagong-nsw": {
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105150.24078679329!2d150.3946812!3d-34.5549473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b13a172adf68a3f%3A0x50609b490442450!2sMittagong%20NSW%202575%2C%20Australia!5e0!3m2!1sen!2sbd!4v1774629056355!5m2!1sen!2sbd",
+  pageTitle:
+    "Taxi & Maxi Cabs Services in Mittagong, NSW - 24/7 Airport & Group",
+  metaDescription:
+    "Book Taxi & Maxi Cabs Services in Mittagong for airport transfers, wheelchair accessible rides & emergency taxi. Fixed fares, local drivers, always on time. Book now!",
+  heroTitle:
+    "24/7 Taxi & Maxi Cabs Services in Mittagong for Safe, Reliable Rides",
+  heroDescription: (
+    <>
+      After solid transport around Mittagong? Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>
+      in Mittagong promise a rapid pickup every time you call. We handle your
+      local runs with clockwork precision that never fails. Our vehicles suit
+      lone commuters and big crowds equally well. You get heaps of cabin space
+      for riders and luggage combined. Nobody gets left out or crammed inside.
+      We run day and night without stopping. Your plane might touch down at
+      midnight. Your function could end at daybreak. Either way, we show up
+      fast. Choose our top-tier option for extra comfort. We manage smooth
+      Mittagong pick up and drop off to keep your diary on track. You dodge
+      delays. You drop the stress.
+      <Link to={`/`} className="underline font-semibold px-1">
+        Campbelltown Taxi Cabs
+      </Link>{" "}
+      backs your schedule completely.
+    </>
+  ),
+  bookingFormTitle: "Book Baby Taxi in Mittagong NSW",
+  locationSectionTitle: "Reliable Taxi Service in Mittagong for Groups",
+  locationSectionDescription: (
+    <>
+      Shifting kin or mates somewhere good? Our  <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+      Mittagong Taxi Service
+      </Link> fits
+      tight and large groups perfectly. The whole crew shares one car. You skip
+      the nightmare of breaking into separate vehicles. You kill messy planning
+      efforts. Through our committed
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab Services in Mittagong,
+      </Link>
+      every passenger scores safe, cushy travel. Maybe you head from Mittagong
+      toward Sydney Airport. Maybe you trek home after long hauls. We keep our
+      word on timing. Our operators know clever back streets. They steer around
+      bottlenecks. They shrink wait times. You can bank on our Group Transport
+      Mittagong picks when wanting stretch, trust, and spotless interiors.
+      Locking in rides takes moments via our web hub. You snag proof straight
+      away. You cruise with confidence.
+    </>
+  ),
+  locationSection2Title:
+    "Affordable Taxi Service in Mittagong with Maxi Cabs for Everyone",
+  locationSection2Desctiption: (
+    <>
+      We reckon that budget must never mean nasty. Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Local Taxi Service
+      </Link>
+      in Mittagong shows honest fares with nothing hidden. You see costs
+      upfront. You sort your spending with assurance. This proves handy when
+      moving with others. You can secure a
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab for Group Travel
+      </Link>
+      , taking multiple riders plus loads. Fancy something classier? Level up
+      to our silver service for polished motoring. Tribes may shout for
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      extras. Your little ones travel in ticked-off, locked-down harnesses. Our
+      wheelmen bring know-how and manners. They back special requests. They
+      heft your bags. From crack-of-dawn flights to late returns, our 24/7 Taxi
+      Mittagong keeps you rolling. Campbelltown{" "}
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi & Maxi Cabs
+      </Link>{" "}
+      vows secure, steady, zero-stress hauling for every client.
+    </>
+  ),
+  locationSection3Title:
+    "Comfortable Corporate & Baby Seat Taxi Booking in Mittagong",
+  locationSection3Description: (
+    <>
+      Our Taxi Service in Mittagong offers you a sprawling stretch of room. You claim mountains of stowage volume. You unwind despite packed cabins. You duck squashed seating. You miss tricky bag stacking. Your trip turns enjoyable. Grabbing our Taxi & Maxi Cabs Services in Mittagong lets your mob focus on the voyage. We zero in on batch transfers for households, sporting clubs, and office squads. The whole gang lands together. Snaring wheels happens swiftly through our Mittagong Cab Booking portal. You arrange movement beforehand. Corporate nomads can tap our Corporate Taxi Service for sharp, slick runs to powwows. Mobs attach Baby Seat Taxi choices for protected trips with bubs. When elegance counts, our silver service dishes extra cushiness. Every rig gets detailed routinely. We enforce tough benchmarks. You relish fluid, guarded transit minus snarl-ups.
+    </>
+  ),
+  locationSection4Title:
+    "Reliable Mittagong Taxi & Maxi Cab: Premium Solutions for All Your Travel Needs",
+  locationSection4Desctiption: (
+    <>
+      Uncover pro mobility crafted squarely for Mittagong locals and blow-ins.
+      Our broad spread hands you precisely what you crave, whether snagging
+      red-eye flights or masterminding
+      <Link
+        to={`/services/wedding-transfer`}
+        className="underline font-semibold px-1"
+      >
+        wedding fleets
+      </Link>{" "}
+      for heaps of guests. We dish up
+      <Link
+        to={`/services/book-taxi-sydney-airport`}
+        className="underline font-semibold px-1"
+      >
+        Airport Transfers in Mittagong
+      </Link>{" "}
+      flaunting live plane tracking, Maxi Cab Services accommodating eleven
+      occupants,
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      styles with approved straps, and Local Taxi Service for daily missions.
+      Trade heavyweights lean on our Corporate Taxi Service, while refinement
+      chasers dig our Premium Service. We master Wedding Transport,
+      <Link
+        to={`/services/event-transfer`}
+        className="underline font-semibold px-1"
+      >
+        Event Transport,
+      </Link>{" "}
+      <Link
+        to={`/services/cruise-terminal-transfer`}
+        className="underline font-semibold px-1"
+      >
+        Cruise Transfers,
+      </Link> Group Transport for hefty mobs, and
+      <Link
+        to={`/services/wheelchair-accessible-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Wheelchair Accessible Taxi
+      </Link>{" "}
+      setups. Each haul packs clear upfront tags, genuine round-the-clock
+      cover, and seasoned regional operators who read Mittagong like a book.
+      From Door-to-Door Taxi Service to tangled logistics, Campbelltown Taxi &
+      Maxi Cabs merges deep turf smarts with rock-steady consistency—because
+      your finish line counts, and arriving there should feel like floating.
+    </>
+  ),
+  locationSectionImg: corporateTripsImg,
+  serviceTitle: "Taxi and Maxi Cab Solutions Mittagong for Every Occasion",
+  serviceSubtitle: (
+    <>
+      We mould transport to fit your exact brief. Our
+      <Link to={`/`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>{" "}
+      in Mittagong back clan getaways, mob adventures, and corporate travel.
+      Protection and promptness pilot our operation. Every wagon looks schmick.
+      Every skipper trains hard. You count on us for terminal sprints,
+      landmark parties, and work jaunts. Every haul stays uncomplicated and
+      mellow.
+    </>
+  ),
+
+  cabChargeSectionTitle: "CabCharge Taxi Near Mittagong",
+  cabChargeSectionDesctiption: (
+    <>
+      Require bendy billing for job or private treks? Our
+      <Link
+        to={`/cabcharge-taxi`}
+        className="underline font-semibold px-1"
+      >
+        CabCharge Taxi Service in Mittagong
+      </Link>
+      renders every journey plain and traceable. We accept shielded CabCharge
+      Payments, including the nifty CabCharge Card, ace for company trekkers
+      and authorised spenders. Dig cashless dealing, neat trip logs, and
+      painless billing each run. Faithful hauling backed by proven Cabcharge
+      payment smarts.
+    </>
+  ),
+
+  locationServices: {
+    S001: {
+      service_id: "S001",
+      title: "Wedding Transfer",
+      description: (
+        <>
+          Float in expansive motors. Bridal gangs, relatives, and guests score
+          stylish, cushy lifts toward and from venues.
+        </>
+      ),
+      image: "/car.png",
+      pathname: "/services/wedding-transfer",
+    },
+
+    S002: {
+      service_id: "S002",
+      title: "Luxury Transfer",
+      description: (
+        <>
+          Snag our high-end pick for VIP shuttles, exec travel, and punters
+          expecting top-shelf privacy and comfort.
+        </>
+      ),
+      image: "/vehicle.png",
+      pathname: "/services/luxury-transfer",
+    },
+
+    S003: {
+      service_id: "S003",
+      title: "Baby Seat Taxi Sydney",
+      description: (
+        <>
+          Households book rides with ticked-off kiddie harnesses. Small fry stay
+          buckled safe the whole way.
+        </>
+      ),
+      image: "/baby-seat.png",
+      pathname: "/services/baby-seat-taxi-sydney",
+    },
+
+    S004: {
+      service_id: "S004",
+      title: "Corporate Transport Services",
+      description: (
+        <>
+          Created for boardrooms and batch corporate movement. On-time
+          collections back frantic schedules.
+        </>
+      ),
+      image: "/corporate.png",
+      pathname: "/services/corporate-transport-services",
+    },
+
+    S005: {
+      service_id: "S005",
+      title: "Cruise Terminal Transfer",
+      description: (
+        <>
+          Enjoy smooth hops between Mittagong and cruise wharves. Generous
+          volume handles passengers and luggage jointly.
+        </>
+      ),
+      image: "/ship.png",
+      pathname: "/services/cruise-terminal-transfer",
+    },
+
+    S006: {
+      service_id: "S006",
+      title: "Event Transfer",
+      description: (
+        <>
+          Tap our service for concerts, shindigs, and social bashes. Arrive bang
+          on time. Skip parking nightmares.
+        </>
+      ),
+      image: "/event.png",
+      pathname: "/services/event-transfer",
+    },
+
+    S007: {
+      service_id: "S007",
+      title: "Maxi Taxi Service",
+      description: (
+        <>
+          Perfect for heftier crowds in Mittagong. Ample perch and baggage
+          capacity keep tribes together.
+        </>
+      ),
+      image: "/users.png",
+      pathname: "/services/maxi-taxi-service",
+    },
+
+    S008: {
+      service_id: "S008",
+      title: "Corporate Trips",
+      description: (
+        <>
+          Protected, slickly managed transfers from Mittagong to Sydney Airport
+          or corporate sites. Your crew commutes relaxed.
+        </>
+      ),
+      image: "/briefcase.png",
+      pathname: "/services/corporate-tips",
+    },
+
+  
+
+    S009: {
+      service_id: "S010",
+      title: "Emergency Taxi",
+      description: (
+        <>
+          Crisis hits? Our <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+     Emergency Taxi
+      </Link> in Mittagong reacts instantly. We
+          spotlight your protection and velocity.
+        </>
+      ),
+      image: "/emergency.png",
+      pathname: "/book-a-taxi",
+    },
+  },
+
+  fleetSectionTitle: "Premium Fleet for Your Mittagong Transfer",
+  fleetSectionSubTitle: (
+    <>
+      Pick from mixed motors matching your party dimensions and snug
+      requirements.
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Our fleet
+      </Link>{" "}
+      highlights safety, stretch, and butter-smooth cruising. Lone trekkers
+      find ideal matches. Complete possesses land suitable options too.
+    </>
+  ),
+
+  fleetSectionVehicles: {
+    1: {
+      id: 1,
+      name: "Easy Sedan",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Spot-on for solo operators or pairs wanting peaceful, cushy jaunts
+          with our reliable Door-to-Door Taxi Service throughout Mittagong.
+        </>
+      ),
+      image: "/campbelltown-easy-sedan.png",
+    },
+
+    2: {
+      id: 2,
+      name: "Luxury Vehicle",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Cracker for high-flyers and business guests who prize seclusion,
+          premium hide seating, and polished presentation on every jaunt.
+        </>
+      ),
+      image: "/campbelltown-luxury-vehicle.png",
+    },
+
+    3: {
+      id: 3,
+      name: "Suv or Wagon",
+      passengerCapacity: 7,
+      bagsCapacity: 5,
+      description: (
+        <>
+          Extra territory for trekkers and suitcases. Solid choice for clans or
+          compact packs heading to Sydney Airport with ease.
+        </>
+      ),
+      image: "/campbelltown-suv-wagon.png",
+    },
+
+    4: {
+      id: 4,
+      name: "Kia Carnival",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Houses 6–7 trekkers comfortably. Hefty baggage holds suits batch
+          transfers, clan holidays, and extended journeys.
+        </>
+      ),
+      image: "/campbelltown-kia-carnival.png",
+    },
+
+    5: {
+      id: 5,
+      name: "Maxi Taxi",
+      passengerCapacity: 11,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Built for heftier gatherings or sprawling clans wanting expansive,
+          fresh interiors and a totally chilled travel experience.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+
+    6: {
+      id: 6,
+      name: "Wheelchair Taxi Service",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Supplies accessible hauling with expertly drilled skippers and a
+          proper safety kit for all mobility needs and snugness.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+  },
+
+  faqSectionTitle:
+    "Frequently Asked Questions About Taxi Service in Mittagong",
+  faqs: [
+    {
+      question: "How do I book a taxi from Mittagong to Sydney Airport?",
+      answer: (
+        <>
+          Ring 1300 450 428 or book online. Tell us your flight time. We track
+          delays. Pickup adjusts automatically.
+        </>
+      ),
+    },
+    {
+      question: "Can I get a maxi cab for Mittagong shopping trips?",
+      answer: (
+        <>
+          Yes. We haul bulky purchases. IKEA, homemaker centres, no problem.
+          Maxi cabs swallow big loads easily.
+        </>
+      ),
+    },
+    {
+      question:
+        "Do your Mittagong drivers know Bowral and the surrounding towns?",
+      answer: (
+        <>
+          Absolutely. We know the Southern Highlands intimately. Bowral, Moss
+          Vale, Berrima. Regional <Link
+        to={`https://en.wikipedia.org/wiki/Road_trip`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >
+      travel
+      </Link> sorted.
+        </>
+      ),
+    },
+    {
+      question: "What if my train arrives late at Mittagong station?",
+      answer: (
+        <>
+          We monitor train schedules. Your driver waits. No extra charge for
+          delays. Connection guaranteed.
+        </>
+      ),
+    },
+    {
+      question: "Can I book a taxi for Mittagong hospital visits?",
+      answer: (
+        <>
+          Regular medical trips welcome. We know local hospitals. Patient
+          transport handled with care. Book recurring rides.
+        </>
+      ),
+    },
+    {
+      question: "Do you offer set prices for Mittagong to Canberra trips?",
+      answer: (
+        <>
+          Fixed rates available. Know the cost upfront. No meter anxiety.
+          Business travel simplified.
+        </>
+      ),
+    },
+    {
+      question: "How do I request a wheelchair taxi in Mittagong?",
+      answer: (
+        <>
+          Mention mobility needs when booking. We send a proper <Link
+        to={`https://www.pointtopoint.nsw.gov.au/what-a-service-provider/taxi-service-providers`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >
+      vehicle.
+      </Link>
+          Drivers assist with boarding. Comfort assured.
+        </>
+      ),
+    },
+    {
+      question: "Are your Mittagong taxis pet-friendly?",
+      answer: (
+        <>
+          Small pets in carriers are accepted. Service animals are always
+          welcome. Mention when booking. We prepare space.
+        </>
+      ),
+    },
+    {
+      question: "Can I split fares between multiple passengers?",
+      answer: (
+        <>
+          One person pays initially. You sort splits privately. We keep billing
+          simple. Groups are managed easily.
+        </>
+      ),
+    },
+    {
+      question:
+        "What makes your Mittagong service different from rideshare?",
+      answer: (
+        <>
+          Professional drivers. Local knowledge. Phone bookings accepted. No
+          surge pricing. Personal service guaranteed.
+        </>
+      ),
+    },
+    {
+      question: "Do you provide taxis for Mittagong school runs?",
+      answer: (
+        <>
+          Yes. Regular student transport is available. Baby seats fitted.
+          Safety priority. Parents trust us.
+        </>
+      ),
+    },
+    {
+      question:
+        "How early should I book for Mittagong wedding transport?",
+      answer: (
+        <>
+          Book months ahead for peak seasons. We coordinate multiple vehicles.
+          Your big day is covered.
+        </>
+      ),
+    },
+    {
+      question: "Can I get a receipt for tax purposes?",
+      answer: (
+        <>
+          Instant email receipts sent. ATO compliant. Business claims are easy.
+          Records are organised automatically.
+        </>
+      ),
+    },
+    {
+      question: "Do you service Mittagong on Christmas Day?",
+      answer: (
+        <>
+          We operate 365 days. Public holidays included. Same rates apply.
+          Festive travel sorted.
+        </>
+      ),
+    },
+    {
+      question: "What happens if I leave belongings in the taxi?",
+      answer: (
+        <>
+          Call us immediately. We trace the vehicle fast. Lost property returned
+          promptly. Your items matter.
+        </>
+      ),
+    },
+  ],
+},
+"manly-vale-nsw": {
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13264.517778075775!2d151.2660283!3d-33.7831553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12abc7edcbeb07%3A0x5017d681632bfc0!2sManly%20Vale%20NSW%202093%2C%20Australia!5e0!3m2!1sen!2sbd!4v1774631744404!5m2!1sen!2sbd",
+  pageTitle:
+    "Taxi & Maxi Cabs Services in Manly Vale, NSW - Cruise, Airport Transfers & Local",
+  metaDescription:
+    "Book Taxi & Maxi Cabs Services in Manly Vale for cruise transfers, wedding transport & 24/7 emergency taxi. Expert local drivers & transparent pricing. Call now!",
+  heroTitle:
+    "24/7 Taxi & Maxi Cabs Services in Manly Vale for Local & Airport Travel",
+  heroDescription: (
+    <>
+      After dependable transport around Manly Vale? Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>
+      in Manly Vale promise a rapid response every time you call. We handle
+      your local trips with military precision that never disappoints. Our
+      vehicles suit lone commuters and huge crowds equally well. You gain
+      generous cabin space for riders and luggage combined. Nobody faces
+      exclusion or tight squeezes inside. We operate day and night without
+      pause. Your plane might land at midnight. Your function could end at
+      dawn. Either way, we show up ready. Select our elite tier for added
+      comfort. We execute flawless Manly Vale pick up and drop off to protect
+      your schedule. You avoid delays. You skip stress.
+      <Link to={`/`} className="underline font-semibold px-1">
+        Campbelltown Taxi Cabs
+      </Link>{" "}
+      prioritises your timetable always.
+    </>
+  ),
+  bookingFormTitle: "Book Baby Taxi in Manly Vale NSW",
+  locationSectionTitle: "Reliable Taxi Service in Manly Vale for Groups",
+  locationSectionDescription: (
+    <>
+      Taking family or friends somewhere nice? Our  <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Manly Vale Taxi Service
+      </Link>
+      accommodates small and large groups ideally. Everyone rides together in
+      one car. You bypass the hassle of splitting into multiple vehicles. You
+      eliminate confusing coordination. Through our dedicated
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab Services in Manly Vale,
+      </Link>
+      each guest enjoys safe, comfortable travel. Perhaps you depart Manly Vale
+      bound for Sydney Airport. Perhaps you return home after a long trip. We
+      stick to our promises. Our drivers know the best routes. They avoid
+      traffic jams. They minimise waiting time. You can trust our Group
+      Transport Manly Vale options when needing space, reliability, and clean
+      interiors. Booking takes seconds via our online portal. You receive
+      confirmation quickly. You travel with confidence.
+    </>
+  ),
+  locationSection2Title:
+    "Taxi Service in Manly Vale with Affordable Maxi Cabs & Local Travel",
+  locationSection2Desctiption: (
+    <>
+      We believe affordable should never mean uncomfortable. Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Local Taxi Service
+      </Link>
+      in Manly Vale offers fair rates with complete transparency. You see the
+      price before booking. You plan your budget with assurance. This helps
+      when travelling with others. You can book a
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab for Group Travel
+      </Link>{" "}
+      that handles multiple passengers plus bags. Want something nicer? Upgrade
+      to our <Link
+        to={`/services/luxury-transfer`}
+        className="underline font-semibold px-1"
+      >
+        luxury service
+      </Link> for refined travel. Families can request
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      options. Your children ride in approved, properly fitted seats. Our
+      drivers bring experience and courtesy. They assist with special needs.
+      They help with luggage. From early morning flights to late-night
+      arrivals, our 24/7 Taxi Manly Vale keeps you moving. Campbelltown{" "}
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi & Maxi Cabs
+      </Link>{" "}
+      commits to safe, reliable, stress-free transport for every customer.
+    </>
+  ),
+  locationSection3Title:
+    "Comfortable Corporate & Baby Seat Taxi Booking in Manly Vale",
+  locationSection3Description: (
+    <>
+      Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi Service in Manly Vale
+      </Link>{" "}
+      provides ample legroom. You get plenty of luggage space. You relax even
+      when the vehicle is full. You avoid cramped seating. You miss awkward bag
+      arrangements. Your journey becomes pleasant. Choosing our Taxi & Maxi
+      Cabs Services in Manly Vale lets your group focus on the trip. We
+      specialise in group transfers for families, sports teams, and work crews.
+      Everyone arrives together. Booking is swift through our Manly Vale Cab
+      Booking page. You organise transport in advance. Business travellers can
+      use our
+      <Link
+        to={`/services/corporate-tips`}
+        className="underline font-semibold px-1"
+      >
+        Corporate Taxi Service
+      </Link>{" "}
+      for punctual, professional rides to meetings. Families add Baby Seat Taxi
+      options for safer trips with young children. When style matters, our
+      luxury service delivers extra comfort. Every vehicle receives regular
+      cleaning. We maintain high standards. You enjoy smooth, secure travel
+      without traffic concerns.
+    </>
+  ),
+  locationSection4Title:
+    "Reliable Manly Vale Taxi & Maxi Cab: Premium Solutions for All Your Travel Needs",
+  locationSection4Desctiption: (
+    <>
+      Discover <Link
+        to={`/services/book-taxi-sydney-airport`}
+        className="underline font-semibold px-1"
+      >
+      professional transport
+      </Link> designed specifically for Manly Vale
+      residents and visitors. Our comprehensive range delivers exactly what you
+      need, whether catching an early flight or arranging
+      <Link
+        to={`/services/wedding-transfer`}
+        className="underline font-semibold px-1"
+      >
+        wedding transport
+      </Link>{" "}
+      for many guests. We provide
+      <Link
+        to={`/services/book-taxi-sydney-airport`}
+        className="underline font-semibold px-1"
+      >
+        Airport Transfers in Manly Vale
+      </Link>{" "}
+      with real-time flight monitoring, Maxi Cab Services accommodating up to
+      eleven passengers,
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      options with certified restraints, and Local Taxi Service for daily
+      errands. Business professionals rely on our Corporate Taxi Service, while
+      luxury seekers choose our Premium Service. We specialise in Wedding
+      Transport,
+      <Link
+        to={`/services/event-transfer`}
+        className="underline font-semibold px-1"
+      >
+        Event Transport,
+      </Link>{" "}
+      Cruise Transfers, Group Transport for large parties, and
+      <Link
+        to={`/services/wheelchair-accessible-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Wheelchair Accessible Taxi
+      </Link>{" "}
+      services. Every trip includes clear upfront pricing, genuine 24/7
+      availability, and experienced local drivers who know Manly Vale
+      thoroughly. From Door-to-Door Taxi Service to complex logistics,
+      <Link
+        to={`/`}
+        className="underline font-semibold px-1"
+      >
+       Campbelltown Taxi & Maxi Cabs
+      </Link> combines deep local knowledge with
+      consistent reliability—because your destination matters, and arriving
+      there should feel effortless.
+    </>
+  ),
+  locationSectionImg: corporateTripsImg,
+  serviceTitle: "Taxi and Maxi Cab Solutions Manly Vale for Every Occasion",
+  serviceSubtitle: (
+    <>
+      We adjust transport to match your specific requirements. Our
+      <Link to={`/`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>{" "}
+      in Manly Vale support family holidays, group outings, and business
+      travel. Safety and punctuality guide our operations. Every vehicle looks
+      professional. Every driver trains thoroughly. You depend on us for
+      airport transfers, special celebrations, and business trips. Each ride
+      remains simple and relaxed.
+    </>
+  ),
+
+  cabChargeSectionTitle: "CabCharge Taxi Near Manly Vale",
+  cabChargeSectionDesctiption: (
+    <>
+      Need flexible payment for work or personal travel? Our
+      <Link
+        to={`/cabcharge-taxi`}
+        className="underline font-semibold px-1"
+      >
+        CabCharge Taxi Service in Manly Vale
+      </Link>
+      makes every journey simple and traceable. We accept secure CabCharge
+      Payments, including the convenient CabCharge Card, perfect for corporate
+      travellers and authorised users. Enjoy cashless transactions, clear trip
+      records, and straightforward billing every time. Dependable transport
+      backed by trusted Cabcharge payment options.
+    </>
+  ),
+
+  locationServices: {
+    S001: {
+      service_id: "S001",
+      title: "Wedding Transfer",
+      description: (
+        <>
+          Travel in spacious vehicles. Bridal parties, relatives, and guests
+          enjoy elegant, comfortable rides to and from venues.
+        </>
+      ),
+      image: "/car.png",
+      pathname: "/services/wedding-transfer",
+    },
+
+    S002: {
+      service_id: "S002",
+      title: "Luxury Transfer",
+      description: (
+        <>
+          Choose our luxury option for VIP transfers, executive travel, and
+          clients expecting superior privacy and comfort standards.
+        </>
+      ),
+      image: "/vehicle.png",
+      pathname: "/services/luxury-transfer",
+    },
+
+    S003: {
+      service_id: "S003",
+      title: "Baby Seat Taxi Sydney",
+      description: (
+        <>
+          Families reserve vehicles with approved child seats. Young passengers
+          remain secure throughout the journey.
+        </>
+      ),
+      image: "/baby-seat.png",
+      pathname: "/services/baby-seat-taxi-sydney",
+    },
+
+    S004: {
+      service_id: "S004",
+      title: "Corporate Transport Services",
+      description: (
+        <>
+          Designed for meetings and group business travel. Timely collections
+          support demanding schedules.
+        </>
+      ),
+      image: "/corporate.png",
+      pathname: "/services/corporate-transport-services",
+    },
+
+    S005: {
+      service_id: "S005",
+      title: "Cruise Terminal Transfer",
+      description: (
+        <>
+          Enjoy smooth journeys between Manly Vale and the cruise terminals.
+          Plenty of space handles passengers and luggage together.
+        </>
+      ),
+      image: "/ship.png",
+      pathname: "/services/cruise-terminal-transfer",
+    },
+
+    S006: {
+      service_id: "S006",
+      title: "Event Transfer",
+      description: (
+        <>
+          Use our service for concerts, parties, and social gatherings. Arrive
+          punctually. Avoid parking difficulties.
+        </>
+      ),
+      image: "/event.png",
+      pathname: "/services/event-transfer",
+    },
+
+    S007: {
+      service_id: "S007",
+      title: "Maxi Taxi Service",
+      description: (
+        <>
+          Ideal for larger groups in Manly Vale. Generous seating and luggage
+          capacity keep everyone together.
+        </>
+      ),
+      image: "/users.png",
+      pathname: "/services/maxi-taxi-service",
+    },
+
+    S008: {
+      service_id: "S008",
+      title: "Corporate Trips",
+      description: (
+        <>
+          Safe, well-organised transfers from Manly Vale to Sydney Airport or
+          business locations. Your team travels without worry.
+        </>
+      ),
+      image: "/briefcase.png",
+      pathname: "/services/corporate-tips",
+    },
+
+    S009: {
+      service_id: "S009",
+      title: "Reliable Airport Transfers",
+      description: (
+        <>
+          Reliable 24/7 option across Manly Vale for everyday trips,
+          appointments, and leisure activities.
+        </>
+      ),
+      image: "/airport.png",
+      pathname: "/services/taxi-sydney-service",
+    },
+
+    S010: {
+      service_id: "S010",
+      title: "Emergency Taxi",
+      description: (
+        <>
+          Urgent situation? Our Emergency Taxi in Manly Vale responds rapidly.
+          We prioritise your safety and speed.
+        </>
+      ),
+      image: "/emergency.png",
+      pathname: "/book-a-taxi",
+    },
+  },
+
+  fleetSectionTitle: "Premium Fleet for Your Manly Vale Transfer",
+  fleetSectionSubTitle: (
+    <>
+      Choose from varied vehicles matching your group size and comfort
+      preferences.{" "}
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Our fleet
+      </Link>{" "}
+      emphasises safety, space, and smooth journeys. Solo travellers find
+      ideal options. Full groups receive suitable choices too.
+    </>
+  ),
+
+  fleetSectionVehicles: {
+    1: {
+      id: 1,
+      name: "Easy Sedan",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Perfect for individual riders or couples seeking peaceful, comfortable
+          trips with our reliable Door-to-Door Taxi Service throughout Manly
+          Vale.
+        </>
+      ),
+      image: "/campbelltown-easy-sedan.png",
+    },
+
+    2: {
+      id: 2,
+      name: "Luxury Vehicle",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Ideal for VIPs and business guests who value privacy, quality leather
+          seating, and polished presentation on every journey.
+        </>
+      ),
+      image: "/campbelltown-luxury-vehicle.png",
+    },
+
+    3: {
+      id: 3,
+      name: "Suv or Wagon",
+      passengerCapacity: 7,
+      bagsCapacity: 5,
+      description: (
+        <>
+          Additional room for passengers and luggage. Excellent choice for
+          families or small groups heading to Sydney Airport with comfort.
+        </>
+      ),
+      image: "/campbelltown-suv-wagon.png",
+    },
+
+    4: {
+      id: 4,
+      name: "Kia Carnival",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Fits 6–7 passengers comfortably. Substantial luggage capacity suits
+          group transfers, family holidays, and longer trips.
+        </>
+      ),
+      image: "/campbelltown-kia-carnival.png",
+    },
+
+    5: {
+      id: 5,
+      name: "Maxi Taxi",
+      passengerCapacity: 11,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Constructed for larger groups or big families wanting spacious, clean
+          interiors and a completely relaxed travel experience together.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+
+    6: {
+      id: 6,
+      name: "Wheelchair Taxi Service",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Provides accessible transport with professionally trained drivers and
+          appropriate safety features for all mobility needs and comfort.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+  },
+
+  faqSectionTitle:
+    "Frequently Asked Questions About Taxi Service in Manly Vale",
+  faqs: [
+    {
+      question: "How do I get from Manly Vale to Sydney Airport quickly?",
+      answer: (
+        <>
+          Book with us. We know the fastest routes. Avoid Spit Bridge delays.
+          Flight tracking included. Arrive relaxed.
+        </>
+      ),
+    },
+    {
+      question: "Can I book a taxi for Manly Vale beach trips?",
+      answer: (
+        <>
+          Yes. We service nearby beaches. Manly, Freshwater, Curl Curl.
+          Surfboards fit in <Link
+        to={`https://en.wikipedia.org/wiki/Maxi_taxi`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >
+        maxi
+      </Link> cabs. Beach days sorted.
+        </>
+      ),
+    },
+    {
+      question: "Do your drivers know Balgowlah and Fairlight shortcuts?",
+      answer: (
+        <>
+          Absolutely. Northern Beaches locals. Back streets mapped. Traffic
+          avoided. You get savvy route planners.
+        </>
+      ),
+    },
+    {
+      question: "What if I need a taxi during Manly Vale's peak hour?",
+      answer: (
+        <>
+          We plan. Alternative routes are ready. Your pickup stays on time.
+          Rush hour is handled professionally.
+        </>
+      ),
+    },
+    {
+      question: "Can I request a female driver for Manly Vale trips?",
+      answer: (
+        <>
+          Ask when booking. We accommodate when possible. Your comfort drives
+          our service. Preferences noted.
+        </>
+      ),
+    },
+    {
+      question: "Do you offer Manly Vale to North Sydney direct?",
+      answer: (
+        <>
+          Yes. Direct business district runs. Fixed rates available. Avoid
+          parking hassles. Arrive ready for meetings.
+        </>
+      ),
+    },
+    {
+      question: "How do I arrange wheelchair transport in Manly Vale?",
+      answer: (
+        <>
+          State needs when calling. Proper vehicle dispatched. Drivers assist
+          carefully. Accessibility guaranteed with dignity.
+        </>
+      ),
+    },
+    {
+      question: "Are your Manly Vale taxis suitable for elderly passengers?",
+      answer: (
+        <>
+          Yes. Patient assistance. Comfortable seating. Step help provided.
+          Regular medical trip bookings are warmly accepted.
+        </>
+      ),
+    },
+    {
+      question: "Can I set up corporate accounts for Manly Vale travel?",
+      answer: (
+        <>
+          Business accounts available. Monthly statements. Priority service.
+          Expense management simplified. Professional standards maintained.
+        </>
+      ),
+    },
+    {
+      question: "What makes you different from rideshare in Manly Vale?",
+      answer: (
+        <>
+          Phone bookings accepted. Fixed pricing. Local knowledge. No surge
+          charges. Personalised service every trip.
+        </>
+      ),
+    },
+    {
+      question: "Do you provide Manly Vale school transport services?",
+      answer: (
+        <>
+          Yes. Regular student pickups. Safety seats fitted. Punctuality
+          assured. Parents trust our reliable service.
+        </>
+      ),
+    },
+    {
+      question: "How early should I book wedding cars for Manly Vale?",
+      answer: (
+        <>
+          Secure months ahead for summer. Multiple vehicles coordinated. Your
+          celebration transport is perfected.
+        </>
+      ),
+    },
+    {
+      question: "Can I pay with CabCharge for Manly Vale airport runs?",
+      answer: (
+        <>
+          CabCharge welcome. Corporate cards accepted. Cash and EFTPOS too.
+          Flexible payment options are provided.
+        </>
+      ),
+    },
+    {
+      question: "What happens if my flight arrives early at Sydney Airport?",
+      answer: (
+        <>
+          Live tracking is active. The driver adjusts the pickup. No waiting
+          fees. Seamless collection guaranteed every time.
+        </>
+      ),
+    },
+    {
+      question:
+        "Do you service all Manly Vale streets including cul-de-sacs?",
+      answer: (
+        <>
+          Yes. Every address found. Narrow streets navigated. Your location is
+          reached without confusion or delay.
+        </>
+      ),
+    },
+  ],
+},
+"dee-why-nsw": {
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13269.49475506125!2d151.29102504999994!3d-33.75100814999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b0d55874e2bee61%3A0x5017d681632b440!2sDee%20Why%20NSW%202099%2C%20Australia!5e0!3m2!1sen!2sbd!4v1774632276221!5m2!1sen!2sbd",
+  pageTitle:
+    "Taxi & Maxi Cabs Services in Dee Why, NSW - 24/7 Corporate, Group Rides & Local",
+  metaDescription:
+    "Reliable Taxi & Maxi Cabs Services in Dee Why for corporate taxi, group travel & baby seat bookings. Fixed prices, on-time pickups & local expert drivers. Book today!",
+  heroTitle:
+    "24/7 Taxi & Maxi Cabs Services in Dee Why for Every Need",
+  heroDescription: (
+    <>
+      Hunting for solid wheels around Dee Why? Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>
+      in Dee Why pledge lightning-fast grabs each time you dial. We run your
+      neighbourhood jaunts with razor-sharp timing that never slips. Our motors
+      fit lone voyagers and massive packs equally. You cop heaps of cabin space
+      for bodies and bags combined. Not one soul gets stranded or crammed
+      inside. We roll day and night without stopping. Your aircraft might touch
+      down at 3 AM. Your shift could wrap at sunrise. Whatever happens, we
+      materialise pronto. Grab our top-tier choice for bonus relaxation. We
+      pull off slick Dee Why pick up and drop off to guard your diary. You
+      sidestep setbacks. You shed worry.
+      <Link to={`/`} className="underline font-semibold px-1">
+        Campbelltown Taxi Cabs
+      </Link>{" "}
+      champions your agenda completely.
+    </>
+  ),
+  bookingFormTitle: "Book Baby Taxi in Dee Why NSW",
+  locationSectionTitle: "Reliable Taxi Service in Dee Why for Groups",
+  locationSectionDescription: (
+    <>
+      Shifting kin or mates somewhere good? Our Dee Why Taxi Service fits tight
+      and large crowds spot on. The whole bunch shares one wagon. You miss the
+      nightmare of breaking into separate convoys. You kill messy planning
+      attempts. Through our committed
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab Services in Dee Why,
+      </Link>
+      every punter scores a protected, cushy passage. Maybe you blast out of
+      Dee Why toward Sydney Airport. Maybe you drag home after marathon
+      journeys. We honour our word on clocks. Our pilots know clever back
+      routes. They steer around bottlenecks. They shrink delays fast. You can
+      bank on our Group Transport Dee Why picks when wanting stretch,
+      faithfulness, and sparkling cabins. Locking in rides takes ticks via our
+      web hub. You snag proof instantly. You cruise with certainty.
+    </>
+  ),
+  locationSection2Title:
+    "Affordable Taxi Service in Dee Why with Maxi Cabs: Fast Local & Long Distance Ride",
+  locationSection2Desctiption: (
+    <>
+      We reckon that budget must never mean nasty. Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Local Taxi Service
+      </Link>
+      in Dee Why shows honest fares with nothing hidden. You eyeball costs
+      upfront. You map your spending with poise. This proves handy when
+      trekking with others. You can secure a
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab for Group Travel
+      </Link>
+      , taking stacks of riders plus loads. Fancy something classier? Level up
+      to our silver service for polished motoring. Tribes may shout for
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      extras. Your littlies travel in ticked-off, locked-down harnesses. Our
+      steerers bring know-how and manners. They back particular needs. They
+      heft your suitcases. From crack-of-dawn flights to late returns, our 24/7
+      Taxi Dee Why keeps you rolling. Campbelltown{" "}
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi & Maxi Cabs
+      </Link>{" "}
+      vows secure, steady, zero-stress hauling for every client.
+    </>
+  ),
+  locationSection3Title:
+    "Comfortable Corporate & Baby Seat Taxi Booking in Dee Why",
+  locationSection3Description: (
+    <>
+      Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi Service in Dee Why
+      </Link>{" "}
+      offers you a sprawling stretch of room. You claim mountains of stowage
+      volume. You unwind despite chockers cabins. You duck squashed seating.
+      You dodge tricky bag Jenga. Your trek grows enjoyable. Snapping up our
+      Taxi & Maxi Cabs Services in Dee Why lets your mob focus on the voyage.
+      We zero in on batch transfers for clans, surf clubs, and office squads.
+      The full gang lands united. Grabbing wheels happens swiftly through our
+      Dee Why Cab Booking portal. You sort the movement beforehand. Corporate
+      nomads can tap our
+      <Link
+        to={`/services/corporate-tips`}
+        className="underline font-semibold px-1"
+      >
+        Corporate Taxi Service
+      </Link>{" "}
+      for sharp, slick dashes to powwows. Mobs attach Baby Seat Taxi choices
+      for protected jaunts with ankle-biters. When poshness counts, our silver
+      service dishes extra cushiness. Every rig gets detailed routinely. We
+      enforce tough benchmarks. You relish fluid, guarded transit minus
+      snarl-ups.
+    </>
+  ),
+  locationSection4Title:
+    "Reliable Dee Why Taxi & Maxi Cab: Premium Solutions for All Your Travel Needs",
+  locationSection4Desctiption: (
+    <>
+      Uncover pro mobility crafted squarely for Dee Why locals and blow-ins.
+      Our broad spread hands you precisely what you crave, whether snagging
+      red-eye flights or masterminding
+      <Link
+        to={`/services/wedding-transfer`}
+        className="underline font-semibold px-1"
+      >
+        wedding fleets
+      </Link>{" "}
+      for heaps of guests. We dish up
+      <Link
+        to={`/services/book-taxi-sydney-airport`}
+        className="underline font-semibold px-1"
+      >
+        Airport Transfers in Dee Why
+      </Link>{" "}
+      flaunting live plane tracking, Maxi Cab Services accommodating eleven
+      occupants,
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      styles with approved straps, and Local Taxi Service for daily missions.
+      Trade heavyweights lean on our Corporate Taxi Service, while refinement
+      chasers dig our Premium Service. We master Wedding Transport,
+      <Link
+        to={`/services/event-transfer`}
+        className="underline font-semibold px-1"
+      >
+        Event Transport,
+      </Link>{" "}
+      Cruise Transfers, Group Transport for hefty mobs, and
+      <Link
+        to={`/services/wheelchair-accessible-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Wheelchair Accessible Taxi
+      </Link>{" "}
+      setups. Each haul packs clear upfront tags, genuine round-the-clock
+      cover, and seasoned regional operators who read Dee Why like a book. From
+      Door-to-Door Taxi Service to tangled logistics, Campbelltown Taxi & Maxi
+      Cabs merges deep turf smarts with rock-steady consistency—because your
+      finish line counts, and arriving there should feel like floating.
+    </>
+  ),
+  locationSectionImg: corporateTripsImg,
+  serviceTitle: "Taxi and Maxi Cab Solutions Dee Why for Every Occasion",
+  serviceSubtitle: (
+    <>
+      We mould transport to fit your exact brief. Our
+      <Link to={`/`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>{" "}
+      in Dee Why back clan getaways, mob adventures, and corporate travel.
+      Protection and promptness pilot our operation. Every wagon looks schmick.
+      Every skipper trains hard. You count on us for terminal sprints,
+      landmark parties, and work jaunts. Every haul stays uncomplicated and
+      mellow.
+    </>
+  ),
+
+  cabChargeSectionTitle: "CabCharge Taxi Near Dee Why",
+  cabChargeSectionDesctiption: (
+    <>
+      Require bendy billing for job or private treks? Our
+      <Link
+        to={`/cabcharge-taxi`}
+        className="underline font-semibold px-1"
+      >
+        CabCharge Taxi Service in Dee Why
+      </Link>
+      renders every journey plain and traceable. We accept shielded CabCharge
+      Payments, including the nifty CabCharge Card, ace for company trekkers
+      and authorised spenders. Dig cashless dealing, neat trip logs, and
+      painless billing each run. Faithful hauling backed by proven Cabcharge
+      payment smarts.
+    </>
+  ),
+
+  locationServices: {
+    S001: {
+      service_id: "S001",
+      title: "Wedding Transfer",
+      description: (
+        <>
+          Float in expansive motors. Bridal gangs, relatives, and guests score
+          stylish, cushy lifts toward and from venues.
+        </>
+      ),
+      image: "/car.png",
+      pathname: "/services/wedding-transfer",
+    },
+
+    S002: {
+      service_id: "S002",
+      title: "Luxury Transfer",
+      description: (
+        <>
+          Snag our high-end pick for VIP shuttles, exec travel, and punters
+          expecting top-shelf privacy and comfort.
+        </>
+      ),
+      image: "/vehicle.png",
+      pathname: "/services/luxury-transfer",
+    },
+
+    S003: {
+      service_id: "S003",
+      title: "Baby Seat Taxi Sydney",
+      description: (
+        <>
+          Households book rides with ticked-off kiddie harnesses. Small fry stay
+          buckled safe the whole way.
+        </>
+      ),
+      image: "/baby-seat.png",
+      pathname: "/services/baby-seat-taxi-sydney",
+    },
+
+    S004: {
+      service_id: "S004",
+      title: "Corporate Transport Services",
+      description: (
+        <>
+          Created for boardrooms and batch corporate movement. On-time
+          collections back frantic schedules.
+        </>
+      ),
+      image: "/corporate.png",
+      pathname: "/services/corporate-transport-services",
+    },
+
+    S005: {
+      service_id: "S005",
+      title: "Cruise Terminal Transfer",
+      description: (
+        <>
+          Enjoy smooth hops between Dee Why and cruise wharves. Generous volume
+          handles passengers and luggage jointly.
+        </>
+      ),
+      image: "/ship.png",
+      pathname: "/services/cruise-terminal-transfer",
+    },
+
+    S006: {
+      service_id: "S006",
+      title: "Event Transfer",
+      description: (
+        <>
+          Tap our service for concerts, shindigs, and social bashes. Arrive bang
+          on time. Skip parking nightmares.
+        </>
+      ),
+      image: "/event.png",
+      pathname: "/services/event-transfer",
+    },
+
+    S007: {
+      service_id: "S007",
+      title: "Maxi Taxi Service",
+      description: (
+        <>
+          Perfect for heftier crowds in Dee Why. Ample perch and baggage
+          capacity keep tribes together.
+        </>
+      ),
+      image: "/users.png",
+      pathname: "/services/maxi-taxi-service",
+    },
+
+    S008: {
+      service_id: "S008",
+      title: "Corporate Trips",
+      description: (
+        <>
+          Protected, slickly managed transfers from Dee Why to Sydney Airport or
+          corporate sites. Your crew commutes relaxed.
+        </>
+      ),
+      image: "/briefcase.png",
+      pathname: "/services/corporate-tips",
+    },
+
+    S009: {
+      service_id: "S009",
+      title: "Reliable Airport Transfers",
+      description: (
+        <>
+          Steady round-the-clock option across Dee Why for routine runs,
+          appointments, and leisure strolls.
+        </>
+      ),
+      image: "/airport.png",
+      pathname: "/services/taxi-sydney-service",
+    },
+
+    S010: {
+      service_id: "S010",
+      title: "Emergency Taxi",
+      description: (
+        <>
+          Crisis hits? Our Emergency Taxi in Dee Why reacts instantly. We
+          spotlight your protection and velocity.
+        </>
+      ),
+      image: "/emergency.png",
+      pathname: "/book-a-taxi",
+    },
+  },
+
+  fleetSectionTitle: "Premium Fleet for Your Dee Why Transfer",
+  fleetSectionSubTitle: (
+    <>
+      Pick from mixed motors matching your party dimensions and snug
+      requirements.
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Our fleet
+      </Link>{" "}
+      highlights <Link
+        to={`https://www.nhtsa.gov/ten-tips-for-safe-driving`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >
+        safety, 
+      </Link>stretch, and butter-smooth cruising. Lone trekkers
+      find ideal matches. Complete posses land suitable options too.
+    </>
+  ),
+
+  fleetSectionVehicles: {
+    1: {
+      id: 1,
+      name: "Easy Sedan",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Spot-on for solo operators or pairs wanting peaceful, cushy jaunts
+          with our reliable Door-to-Door <Link
+        to={`https://www.nhtsa.gov/ten-tips-for-safe-driving`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >
+       Taxi
+      </Link> Service throughout Dee Why.
+        </>
+      ),
+      image: "/campbelltown-easy-sedan.png",
+    },
+
+    2: {
+      id: 2,
+      name: "Luxury Vehicle",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Cracker for high-flyers and business guests who prize seclusion,
+          premium hide seating, and polished presentation on every jaunt.
+        </>
+      ),
+      image: "/campbelltown-luxury-vehicle.png",
+    },
+
+    3: {
+      id: 3,
+      name: "Suv or Wagon",
+      passengerCapacity: 7,
+      bagsCapacity: 5,
+      description: (
+        <>
+          Extra territory for trekkers and suitcases. Solid choice for clans or
+          compact packs heading to Sydney Airport with ease.
+        </>
+      ),
+      image: "/campbelltown-suv-wagon.png",
+    },
+
+    4: {
+      id: 4,
+      name: "Kia Carnival",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Houses 6–7 trekkers comfortably. Hefty baggage holds suits batch
+          transfers, clan holidays, and extended journeys.
+        </>
+      ),
+      image: "/campbelltown-kia-carnival.png",
+    },
+
+    5: {
+      id: 5,
+      name: "Maxi Taxi",
+      passengerCapacity: 11,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Built for heftier gatherings or sprawling clans wanting expansive,
+          fresh interiors and a totally chilled travel experience.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+
+    6: {
+      id: 6,
+      name: "Wheelchair Taxi Service",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Supplies accessible hauling with expertly drilled skippers and a
+          proper safety kit for all mobility needs and snugness.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+  },
+
+  faqSectionTitle:
+    "Frequently Asked Questions About Taxi Service in Dee Why",
+  faqs: [
+    {
+      question: "How do I get from Dee Why to Sydney Airport early in the morning?",
+      answer: (
+        <>
+          Book ahead. We track flights live. Pickup adjusts for delays. You
+          relax. We handle timing.
+        </>
+      ),
+    },
+    {
+      question: "Can your taxis carry surfboards from Dee Why beaches?",
+      answer: (
+        <>
+          Yes. Maxi cabs swallow long boards. Manly, Curl Curl, Freshwater
+          trips. Surf gear fits easily.
+        </>
+      ),
+    },
+    {
+      question: "Do you know shortcuts around Pittwater Road traffic?",
+      answer: (
+        <>
+          Absolutely. Dee Why locals. Back streets mapped. Gridlock avoided.
+          You get clever route planners.
+        </>
+      ),
+    },
+    {
+      question: "What if my Dee Why flight lands at midnight?",
+      answer: (
+        <>
+          We operate 24/7. Night arrivals welcome. The driver waits with a
+          sign. Safe journey home guaranteed.
+        </>
+      ),
+    },
+    {
+      question: "Can I book a taxi for Dee Why RSL club trips?",
+      answer: (
+        <>
+          Yes. Regular club runs. Social events covered. Safe ride home. No
+          parking worries.
+        </>
+      ),
+    },
+    {
+      question: "How do I arrange a maxi cab for Dee Why shopping centres?",
+      answer: (
+        <>
+          Ring 1300 450 428. Mention bulky items. We bring the right wagon.
+          IKEA, Warringah Mall sorted.
+        </>
+      ),
+    },
+    {
+      question: "Are your Dee Why drivers familiar with Brookvale and Narraweena?",
+      answer: (
+        <>
+          Northern Beaches born and bred. Every suburb is known. Shortcuts
+          found. You get local experts.
+        </>
+      ),
+    },
+    {
+      question: "Can I request a baby seat for Dee Why childcare runs?",
+      answer: (
+        <>
+          Mention age when booking. Correct restraint fitted. Safety checked.
+          Your child is protected.
+        </>
+      ),
+    },
+    {
+      question: "Do you offer set prices for Dee Why corporate travel?",
+      answer: (
+        <>
+          Business accounts available. Fixed rates. Monthly billing. Expense
+          reports simplified. Professional service.
+        </>
+      ),
+    },
+    {
+      question: "What makes you better than Uber in Dee Why?",
+      answer: (
+        <>
+          Phone bookings. No surge pricing. Local knowledge. Personal service.
+          We know your area.
+        </>
+      ),
+    },
+    {
+      question: "Can I get a wheelchair taxi in Dee Why urgently?",
+      answer: (
+        <>
+          Call and state needs. Proper vehicle sent. Skippers assist with
+          boarding. Dignity is maintained always.
+        </>
+      ),
+    },
+    {
+      question: "Do you service Dee Why lagoon and beachfront addresses?",
+      answer: (
+        <>
+          Yes. All locations found. Narrow streets navigated. Your pickup
+          happens without confusion.
+        </>
+      ),
+    },
+    {
+      question: "How early should I book wedding cars for Dee Why?",
+      answer: (
+        <>
+          Secure months ahead. Spring weddings busy. Multiple vehicles
+          coordinated. Your day is perfected.
+        </>
+      ),
+    },
+    {
+      question: "Can I pay cash for Dee Why airport trips?",
+      answer: (
+        <>
+          Cash welcome. Cards accepted. CabCharge available. Corporate accounts,
+          too. Flexible options.
+        </>
+      ),
+    },
+    {
+      question: "What happens if I cancel my Dee Why booking?",
+      answer: (
+        <>
+          Call us ASAP. Fair policy applies. No charge for notice. We
+          understand plans shift.
+        </>
+      ),
+    },
+  ],
+},
+
+"brookvale-nsw": {
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13267.686647193257!2d151.26933269999998!3d-33.76269015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12aa60c415d069%3A0x5017d681632ae70!2sBrookvale%20NSW%202100%2C%20Australia!5e0!3m2!1sen!2sbd!4v1774632585935!5m2!1sen!2sbd",
+  pageTitle:
+    "Taxi & Maxi Cabs Services in Brookvale, NSW -  24/7 Local, Airport & Wedding Transport",
+  metaDescription:
+    "Choose Taxi & Maxi Cabs Services in Brookvale for airport transfers, wedding transport & wheelchair accessible rides. 24/7 service, fixed fares. Call us now!",
+  heroTitle:
+    "24/7 Taxi & Maxi Cabs Services in Brookvale for All Travel Needs",
+  heroDescription: (
+    <>
+      Need dependable wheels around Brookvale? Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>
+      in Brookvale promise rapid grabs every time you dial. We run your
+      neighbourhood trips with clockwork accuracy that never slips. Our
+      vehicles suit lone rangers and massive crews equally. You can pack loads
+      of cabin space for bodies and bags together. Not one person gets left out
+      or jammed inside. We roll day and night without stopping. Your jet might
+      touch down at midnight. Your function could wrap at sunrise. Whatever
+      happens, we materialise pronto. Grab our top-shelf choice for bonus
+      relaxation. We pull off a slick Brookvale pick up and drop off to guard
+      your diary. You sidestep setbacks. You shed worry.
+      <Link to={`/`} className="underline font-semibold px-1">
+        Campbelltown Taxi Cabs
+      </Link>{" "}
+      champions your agenda completely.
+    </>
+  ),
+  bookingFormTitle: "Book Baby Taxi in Brookvale NSW",
+  locationSectionTitle: "Reliable Taxi Service in Brookvale for Groups",
+  locationSectionDescription: (
+    <>
+      Shifting kin or mates somewhere flash? Our Brookvale Taxi Service fits
+      tiny and bulky groups spot on. The whole lot shares one wagon. You miss
+      the headache of fracturing into different motors. You wipe out tricky
+      planning efforts. Through our devoted
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab Services in Brookvale,
+      </Link>
+      every punter scores guarded, cushy passage. Maybe you blast out of
+      Brookvale toward Sydney Airport. Maybe you drag home after marathon
+      journeys. We honour our word on clocks. Our captains know clever back
+      routes. They steer around bottlenecks. They shrink delays fast. You can
+      bank on our Group Transport Brookvale selections when wanting stretch,
+      faithfulness, and sparkling cabins. Locking in rides takes ticks via our
+      web hub. You snag proof instantly. You cruise with certainty.
+    </>
+  ),
+  locationSection2Title:
+    "Affordable Taxi Service in Brookvale with Maxi Cabs: Fast Local & Long Distance Ride",
+  locationSection2Desctiption: (
+    <>
+      We reckon that low cost ought never mean nasty. Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Local Taxi Service
+      </Link>
+      in Brookvale shows honest fares with zero secrets tucked away. You
+      eyeball costs upfront. You map your spending with poise. This proves
+      handy when trekking with others. You can secure a
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab for Group Travel
+      </Link>{" "}
+      taking stacks of riders plus loads. Fancy something classier? Level up to
+      our silver service for polished motoring. Tribes may holler for
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      extras. Your ankle-biters ride in ticked-off, locked-down harnesses. Our
+      steerers bring know-how and manners. They back particular needs. They
+      heft your suitcases. From crack-of-dawn flights to late returns, our 24/7
+      Taxi Brookvale keeps you rolling. Campbelltown{" "}
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi & Maxi Cabs
+      </Link>{" "}
+      vows secure, steady, zero-stress hauling for every client.
+    </>
+  ),
+  locationSection3Title:
+    "Comfortable Corporate & Baby Seat Taxi Booking in Brookvale",
+  locationSection3Description: (
+    <>
+      Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi Service in Brookvale
+      </Link>{" "}
+      hands you a sprawling stretch room. You claim mountains of stowage
+      volume. You unwind despite chockers cabins. You duck compressed seating.
+      You dodge messy bag Tetris. Your trek grows enjoyable. Snapping up our
+      Taxi & Maxi Cabs Services in Brookvale lets your mob focus on the voyage.
+      We zero in on batch transfers for clans, footy squads, and office units.
+      The full gang lands united. Grabbing wheels happens swiftly through our
+      Brookvale Cab Booking portal. You sort the movement beforehand. Corporate
+      nomads can tap our
+      <Link
+        to={`/services/corporate-tips`}
+        className="underline font-semibold px-1"
+      >
+        Corporate Taxi Service
+      </Link>{" "}
+      for sharp, slick dashes to powwows. Mobs attach Baby Seat Taxi choices
+      for protected jaunts with little ones. When poshness counts, our silver
+      service dishes extra cushiness. Every rig gets detailed routinely. We
+      enforce tough benchmarks. You relish fluid, shielded transit minus
+      snarl-ups.
+    </>
+  ),
+  locationSection4Title:
+    "Reliable Brookvale Taxi & Maxi Cab: Premium Solutions for All Your Travel Needs",
+  locationSection4Desctiption: (
+    <>
+      Find pro transport made for Brookvale locals and visitors. Our full range
+      of services gives just what you need, whether you're catching a dawn
+      flight or sorting
+      <Link
+        to={`/services/wedding-transfer`}
+        className="underline font-semibold px-1"
+      >
+        wedding transport
+      </Link>{" "}
+      for heaps of guests. We provide
+      <Link
+        to={`/services/book-taxi-sydney-airport`}
+        className="underline font-semibold px-1"
+      >
+        Airport Transfers in Brookvale
+      </Link>{" "}
+      with live flight tracking, Maxi Cab Services fitting eleven people,
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      picks with safe clips, and Local Taxi Service for daily jobs. Business
+      pros use our Corporate Taxi Service, while luxury hunters pick our
+      Premium Service. We do Wedding Transport,
+      <Link
+        to={`/services/event-transfer`}
+        className="underline font-semibold px-1"
+      >
+        Event Transport,
+      </Link>{" "}
+      Cruise Transfers, Group Transport for big crowds, and
+      <Link
+        to={`/services/wheelchair-accessible-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Wheelchair Accessible Taxi
+      </Link>{" "}
+      help. Every trip has clear upfront costs, real 24/7 service, and smart
+      local drivers who know Brookvale well. From Door-to-Door Taxi Service to
+      tricky plans, Campbelltown Taxi & Maxi Cabs blends deep local know-how
+      with steady reliability—because your destination matters, and getting
+      there should feel easy.
+    </>
+  ),
+  locationSectionImg: corporateTripsImg,
+  serviceTitle: "Taxi and Maxi Cab Solutions Brookvale for Every Occasion",
+  serviceSubtitle: (
+    <>
+    We shape transport to match your exact needs. Our Taxi & Maxi Cabs Services in Brookvale help family breaks, group trips, and work travel. <Link
+        to={`https://www.nhtsa.gov/ten-tips-for-safe-driving`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >
+        Safety 
+      </Link> and being on time guide all we do. Every car looks good. Every driver trains well. You count on us for airport runs, special days, and business trips. Each ride stays simple and calm.
+    </>
+  ),
+
+  cabChargeSectionTitle: "CabCharge Taxi Near Brookvale",
+  cabChargeSectionDesctiption: (
+    <>
+      Need flexible payment for work or personal travel? Our
+      <Link
+        to={`/cabcharge-taxi`}
+        className="underline font-semibold px-1"
+      >
+        CabCharge Taxi Service in Brookvale
+      </Link>
+      makes every trip simple and accountable. We accept secure CabCharge
+      Payments, including the convenient CabCharge Card, ideal for corporate
+      travellers and authorised riders. Enjoy cashless processing, clear trip
+      records, and smooth billing with every ride. Reliable transport backed by
+      trusted Cabcharge payment options.
+    </>
+  ),
+
+  locationServices: {
+    S001: {
+      service_id: "S001",
+      title: "Wedding Transfer",
+      description: (
+        <>
+          Ride in big cars. Bridal parties, family, and friends enjoy nice,
+          comfy trips to and from venues.
+        </>
+      ),
+      image: "/car.png",
+      pathname: "/services/wedding-transfer",
+    },
+
+    S002: {
+      service_id: "S002",
+      title: "Luxury Transfer",
+      description: (
+        <>
+          Pick our luxury choice for VIP moves, boss travel, and guests wanting
+          more privacy and comfort.
+        </>
+      ),
+      image: "/vehicle.png",
+      pathname: "/services/luxury-transfer",
+    },
+
+    S003: {
+      service_id: "S003",
+      title: "Baby Seat Taxi Sydney",
+      description: (
+        <>
+          Families book cars with safe child seats. Young ones stay secure all
+          the way.
+        </>
+      ),
+      image: "/baby-seat.png",
+      pathname: "/services/baby-seat-taxi-sydney",
+    },
+
+    S004: {
+      service_id: "S004",
+      title: "Corporate Transport Services",
+      description: (
+        <>
+          Made for meetings and group work trips. On-time pickups help busy
+          days.
+        </>
+      ),
+      image: "/corporate.png",
+      pathname: "/services/corporate-transport-services",
+    },
+
+    S005: {
+      service_id: "S005",
+      title: "Cruise Terminal Transfer",
+      description: (
+        <>
+          Enjoy smooth trips between Brookvale and cruise docks. Big space fits
+          people and bags together.
+        </>
+      ),
+      image: "/ship.png",
+      pathname: "/services/cruise-terminal-transfer",
+    },
+
+    S006: {
+      service_id: "S006",
+      title: "Event Transfer",
+      description: (
+        <>
+          Use our service for shows, parties, and social events. Get there on
+          time. Skip parking stress.
+        </>
+      ),
+      image: "/event.png",
+      pathname: "/services/event-transfer",
+    },
+
+    S007: {
+      service_id: "S007",
+      title: "Maxi Taxi Service",
+      description: (
+        <>
+          Great for bigger groups in Brookvale. Lots of seats and bag space keep
+          all together.
+        </>
+      ),
+      image: "/users.png",
+      pathname: "/services/maxi-taxi-service",
+    },
+
+    S008: {
+      service_id: "S008",
+      title: "Corporate Trips",
+      description: (
+        <>
+          Safe, well-run moves from Brookvale to Sydney Airport or work spots.
+          Your team travels with no stress.
+        </>
+      ),
+      image: "/briefcase.png",
+      pathname: "/services/corporate-tips",
+    },
+
+    S009: {
+      service_id: "S009",
+      title: "Reliable Airport Transfers",
+      description: (
+        <>
+          Steady 24/7 choice across Brookvale for daily trips, bookings, and fun
+          out.
+        </>
+      ),
+      image: "/airport.png",
+      pathname: "/services/taxi-sydney-service",
+    },
+  },
+
+  fleetSectionTitle: "Premium Fleet for Your Brookvale Transfer",
+  fleetSectionSubTitle: (
+    <>
+      Choose from mixed cars to match your group size and comfort needs.
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Our fleet
+      </Link>{" "}
+      puts safety, space, and soft rides first. Solo riders find good fits.
+      Full groups get the right choices too.
+    </>
+  ),
+
+  fleetSectionVehicles: {
+    1: {
+      id: 1,
+      name: "Easy Sedan",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Good for lone riders or pairs wanting quiet, soft trips with our
+          steady Door-to-Door Taxi Service all through Brookvale.
+        </>
+      ),
+      image: "/campbelltown-easy-sedan.png",
+    },
+
+    2: {
+      id: 2,
+      name: "Luxury Vehicle",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Great for VIPs and business guests who like privacy, soft leather
+          seats, and sharp looks on every trip.
+        </>
+      ),
+      image: "/campbelltown-luxury-vehicle.png",
+    },
+
+    3: {
+      id: 3,
+      name: "Suv or Wagon",
+      passengerCapacity: 7,
+      bagsCapacity: 5,
+      description: (
+        <>
+          More room for people and bags. Top choice for families or small
+          groups heading to Sydney Airport in comfort.
+        </>
+      ),
+      image: "/campbelltown-suv-wagon.png",
+    },
+
+    4: {
+      id: 4,
+      name: "Kia Carnival",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Fits 6–7 passengers nicely. Big bag space suits group moves, family
+          holidays, and long hauls.
+        </>
+      ),
+      image: "/campbelltown-kia-carnival.png",
+    },
+
+    5: {
+      id: 5,
+      name: "Maxi Taxi",
+      passengerCapacity: 11,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Built for larger groups or big families wanting spacious, clean
+          interiors and a totally chilled travel experience together.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+
+    6: {
+      id: 6,
+      name: "Wheelchair Taxi Service",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Delivers accessible transport with fully trained drivers and proper
+          safety gear for all mobility needs and comfort.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+  },
+
+  faqSectionTitle:
+    "Frequently Asked Questions About Taxi Service in Brookvale",
+  faqs: [
+    {
+      question: "How do I reach Sydney Airport from the industrial area?",
+      answer: (
+        <>
+          Our Airport Transfers in Brookvale navigate the Warringah Mall bypass
+          efficiently. We pick up from factories and warehouses. Typically 35
+          minutes to domestic terminals.
+        </>
+      ),
+    },
+    {
+      question: "Can your maxi cabs transport my trade tools and materials?",
+      answer: (
+        <>
+          Our <Link
+        to={`https://en.wikipedia.org/wiki/Maxi_taxi`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >Maxi
+      </Link> Cab Services in Brookvale accommodate bulky equipment. Utes
+          and wagons available. We service tradespeople across the Northern
+          Beaches daily.
+        </>
+      ),
+    },
+    {
+      question: "Do you operate during Warringah Mall trading hours?",
+      answer: (
+        <>
+          Yes. Our 24/7 Taxi Brookvale runs constantly. We know loading dock
+          locations and pickup zones. Shop without parking stress.
+        </>
+      ),
+    },
+    {
+      question: "What's the best way to transport my team to a conference?",
+      answer: (
+        <>
+          Our Corporate Taxi Service coordinates multiple Maxi Cab for Group
+          Travel vehicles. We manage business teams to CBD meetings and airport
+          departures seamlessly.
+        </>
+      ),
+    },
+    {
+      question: "Can I book wheelchair transport for medical appointments?",
+      answer: (
+        <>
+          Absolutely. Our Wheelchair Accessible Taxi in Brookvale provides
+          dignified, reliable healthcare transport. We accommodate mobility
+          scooters and walking frames with care.
+        </>
+      ),
+    },
+    {
+      question: "How do I organize transport for my child's sports team?",
+      answer: (
+        <>
+          Our Group Transport Brookvale safely conveys junior teams to away
+          games. Parents receive driver details. We ensure punctual, secure
+          travel for young athletes.
+        </>
+      ),
+    },
+    {
+      question: "What happens if my flight is delayed?",
+      answer: (
+        <>
+          We track arrivals live. Your Emergency Taxi in Brookvale waits
+          without extra charges for reasonable delays. Call us if plans change
+          significantly.
+        </>
+      ),
+    },
+    {
+      question: "Do you offer account facilities for local businesses?",
+      answer: (
+        <>
+          Yes. Our Corporate Taxi Service provides Brookvale enterprises with
+          monthly billing and priority access. Simplify your company travel
+          management.
+        </>
+      ),
+    },
+    {
+      question: "Can I transport my motorcycle to the mechanic?",
+      answer: (
+        <>
+          Our specialized vehicles accommodate bikes securely. Mention transport
+          needs when using Brookvale Cab. We handle delicate cargo with
+          expertise.
+        </>
+      ),
+    },
+    {
+      question: "Why trust local taxis in an industrial zone?",
+      answer: (
+        <>
+          We know Brookvale's factory addresses, loading restrictions, and
+          business hours. Apps often cancel industrial pickups. We show up—guaranteed.
+        </>
+      ),
+    },
+  ],
+},
+"curl-curl-nsw": {
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13266.522159492964!2d151.28905399999996!3d-33.77021189999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12aaf2371204c5%3A0x5017d681632b3a0!2sCurl%20Curl%20NSW%202096%2C%20Australia!5e0!3m2!1sen!2sbd!4v1774633275043!5m2!1sen!2sbd",
+  pageTitle:
+    "Taxi & Maxi Cabs Services in Curl Curl, NSW - Family & Local Travel Experts",
+  metaDescription:
+    "Book Taxi & Maxi Cabs Services in Curl Curl for family travel, local trips & cruise transfers. Trusted drivers, baby seat options & fixed pricing available. Book now!",
+  heroTitle:
+    "24/7 Taxi & Maxi Cabs Services in Curl Curl for Fast & Safe Travel",
+  heroDescription: (
+    <>
+      Need dependable rides around Curl Curl? Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>
+      in Curl Curl deliver quick pickups every time you call. We handle your
+      local trips with sharp timing that never fails. Our vehicles fit single
+      travellers and large groups equally well. You get plenty of cabin space
+      for people and luggage together. No one gets left out or squeezed inside.
+      We run day and night without stopping. Your flight might land at 2 AM.
+      Your shift could end at sunrise. Either way, we show up fast. Choose our
+      luxury option for extra comfort. We manage smooth Curl Curl pick up and
+      drop off to keep your schedule on track. You avoid delays. You skip
+      stress.
+      <Link to={`/`} className="underline font-semibold px-1">
+        Campbelltown Taxi Cabs
+      </Link>{" "}
+      puts your timetable first always.
+    </>
+  ),
+  bookingFormTitle: "Book Baby Taxi in Curl Curl NSW",
+  locationSectionTitle: "Reliable Taxi Service in Curl Curl for Groups",
+  locationSectionDescription: (
+    <>
+      Taking family or friends somewhere nice? Our Curl Curl Taxi Service suits
+      small and large groups perfectly. Everyone travels together in one car.
+      You miss the hassle of splitting into different vehicles. You avoid
+      confusing planning. Through our dedicated
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab Services in Curl Curl,
+      </Link>
+      each person enjoys safe, comfortable travel. Maybe you leave Curl Curl
+      for Sydney Airport. Maybe you head home after long trips. We keep our
+      promises on timing. Our drivers know the best routes. They avoid traffic
+      jams. They cut the waiting time. You can trust our Group Transport Curl
+      Curl options when you need space, reliability, and clean cars. Booking
+      takes seconds through our online system. You get confirmation quickly.
+      You travel with confidence.
+    </>
+  ),
+  locationSection2Title:
+    "Affordable Taxi Service in Curl Curl with Maxi Cabs: safe and 24/7 transport",
+  locationSection2Desctiption: (
+    <>
+      We believe cheap should never mean uncomfortable. Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Local Taxi Service
+      </Link>
+      in Curl Curl offers fair prices with full clarity. You see the cost
+      before booking. You plan your budget with assurance. This helps when
+      travelling with others. You can book a
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab for Group Travel
+      </Link>{" "}
+      that carries many passengers plus bags. Want something better? Upgrade to
+      our premium service for nicer travel. Families can ask for
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      options. Your children ride in approved, properly fitted seats. Our
+      drivers have experience and manners. They help with special needs. They
+      assist with luggage. From early flights to late arrivals, our 24/7 Taxi
+      Curl Curl keeps you moving. Campbelltown{" "}
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi & Maxi Cabs
+      </Link>{" "}
+      promises safe, reliable, stress-free transport for every customer.
+    </>
+  ),
+  locationSection3Title:
+    "Comfortable Corporate & Baby Seat Taxi Booking in Curl Curl",
+  locationSection3Description: (
+    <>
+      Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi Service in Curl Curl
+      </Link>{" "}
+      gives you lots of legroom. You get plenty of luggage space. You relax
+      even when the car is full. You avoid tight seating. You miss awkward bag
+      packing. Your trip becomes pleasant. Choosing our Taxi & Maxi Cabs
+      Services in Curl Curl lets your group focus on the journey. We specialise
+      in group transfers for families, sports teams, and work groups. Everyone
+      arrives together. Booking is fast through our Curl Curl Cab Booking page.
+      You arrange transport early. Business travellers can use our
+      <Link
+        to={`/services/corporate-tips`}
+        className="underline font-semibold px-1"
+      >
+        Corporate Taxi Service
+      </Link>{" "}
+      for on-time, professional rides to meetings. Families add Baby Seat Taxi
+      options for safer trips with young children. When style matters, our
+      premium service gives extra comfort. Every car gets cleaned regularly. We
+      keep high standards. You enjoy smooth, safe travel without traffic
+      worries.
+    </>
+  ),
+  locationSection4Title:
+    "Reliable Curl Curl Taxi & Maxi Cab: Premium Solutions for All Your Travel Needs",
+  locationSection4Desctiption: (
+    <>
+      Find professional transport made for Curl Curl residents and visitors.
+      Our full range gives you exactly what you need, whether catching early
+      flights or arranging
+      <Link
+        to={`/services/wedding-transfer`}
+        className="underline font-semibold px-1"
+      >
+        wedding transport
+      </Link>{" "}
+      for many guests. We provide
+      <Link
+        to={`/services/book-taxi-sydney-airport`}
+        className="underline font-semibold px-1"
+      >
+        Airport Transfers in Curl Curl
+      </Link>{" "}
+      with live flight tracking, Maxi Cab Services fitting up to eleven
+      passengers,
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      options with certified restraints, and Local Taxi Service for daily
+      tasks. Business people rely on our Corporate Taxi Service, while those
+      wanting luxury choose our Premium Service. We specialise in Wedding
+      Transport,
+      <Link
+        to={`/services/event-transfer`}
+        className="underline font-semibold px-1"
+      >
+        Event Transport,
+      </Link>{" "}
+      Cruise Transfers, Group Transport for large parties, and
+      <Link
+        to={`/services/wheelchair-accessible-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Wheelchair Accessible Taxi
+      </Link>{" "}
+      services. Every trip includes clear upfront pricing, real 24/7
+      availability, and experienced local drivers who know Curl Curl well. From
+      Door-to-Door Taxi Service to complex plans, Campbelltown Taxi & Maxi Cabs
+      combines deep local knowledge with steady reliability—because your
+      destination matters, and getting there should feel easy.
+    </>
+  ),
+  locationSectionImg: corporateTripsImg,
+  serviceTitle: "Taxi and Maxi Cab Solutions, Curl Curl for Every Occasion",
+  serviceSubtitle: (
+    <>
+      We adjust transport to match your needs. Our
+      <Link to={`/`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>{" "}
+      in Curl Curl support family holidays, group outings, and business travel.
+      Safety and punctuality guide everything we do. Every vehicle looks neat.
+      Every driver trains well. You depend on us for airport trips, special
+      events, and work journeys. Each ride stays simple and relaxed.
+    </>
+  ),
+
+  cabChargeSectionTitle: "CabCharge Taxi Near Curl Curl",
+  cabChargeSectionDesctiption: (
+    <>
+      Need flexible payment for work or personal trips? Our
+      <Link
+        to={`/cabcharge-taxi`}
+        className="underline font-semibold px-1"
+      >
+        CabCharge Taxi Service in Curl Curl
+      </Link>
+      makes every journey simple and trackable. We accept secure CabCharge
+      Payments, including the handy CabCharge Card, perfect for company
+      travellers and approved users. Enjoy cashless payments, clear trip
+      records, and easy billing every time. Dependable transport backed by
+      trusted Cabcharge payment options.
+    </>
+  ),
+
+  locationServices: {
+    S001: {
+      service_id: "S001",
+      title: "Wedding Transfer",
+      description: (
+        <>
+          Travel in roomy vehicles. Bridal parties, relatives, and guests enjoy
+          nice, comfortable rides to and from venues.
+        </>
+      ),
+      image: "/car.png",
+      pathname: "/services/wedding-transfer",
+    },
+
+    S002: {
+      service_id: "S002",
+      title: "Luxury Transfer",
+      description: (
+        <>
+          Pick our luxury option for VIP transfers, executive travel, and
+          clients wanting more privacy and comfort.
+        </>
+      ),
+      image: "/vehicle.png",
+      pathname: "/services/luxury-transfer",
+    },
+
+    S003: {
+      service_id: "S003",
+      title: "Baby Seat Taxi Sydney",
+      description: (
+        <>
+          Families book cars with approved child seats. Young passengers stay
+          safe throughout the trip.
+        </>
+      ),
+      image: "/baby-seat.png",
+      pathname: "/services/baby-seat-taxi-sydney",
+    },
+
+    S004: {
+      service_id: "S004",
+      title: "Corporate Transport Services",
+      description: (
+        <>
+          Made for meetings and group business travel. On-time pickups help
+          busy schedules.
+        </>
+      ),
+      image: "/corporate.png",
+      pathname: "/services/corporate-transport-services",
+    },
+
+    S005: {
+      service_id: "S005",
+      title: "Cruise Terminal Transfer",
+      description: (
+        <>
+          Enjoy easy trips between Curl Curl and cruise terminals. Plenty of
+          space handles passengers and luggage together.
+        </>
+      ),
+      image: "/ship.png",
+      pathname: "/services/cruise-terminal-transfer",
+    },
+
+    S006: {
+      service_id: "S006",
+      title: "Event Transfer",
+      description: (
+        <>
+          Use our service for concerts, parties, and social gatherings. Arrive
+          on time. Avoid parking problems.
+        </>
+      ),
+      image: "/event.png",
+      pathname: "/services/event-transfer",
+    },
+
+    S007: {
+      service_id: "S007",
+      title: "Maxi Taxi Service",
+      description: (
+        <>
+          Ideal for larger groups in Curl Curl. Roomy seating and luggage space
+          keep everyone together.
+        </>
+      ),
+      image: "/users.png",
+      pathname: "/services/maxi-taxi-service",
+    },
+
+    S008: {
+      service_id: "S008",
+      title: "Corporate Trips",
+      description: (
+        <>
+          Safe, well-organised transfers from Curl Curl to Sydney Airport or
+          business locations. Your team travels without worry.
+        </>
+      ),
+      image: "/briefcase.png",
+      pathname: "/services/corporate-tips",
+    },
+
+    S009: {
+      service_id: "S009",
+      title: "Reliable Airport Transfers",
+      description: (
+        <>
+          Reliable 24/7 option across Curl Curl for everyday trips,
+          appointments, and leisure activities.
+        </>
+      ),
+      image: "/airport.png",
+      pathname: "/services/taxi-sydney-service",
+    },
+
+    S010: {
+      service_id: "S010",
+      title: "Emergency Taxi",
+      description: (
+        <>
+          Urgent need? Our Emergency Taxi in Curl Curl responds fast. We put
+          your safety and speed first.
+        </>
+      ),
+      image: "/emergency.png",
+      pathname: "/book-a-taxi",
+    },
+  },
+
+  fleetSectionTitle: "Premium Fleet for Your Curl Curl Transfer",
+  fleetSectionSubTitle: (
+    <>
+      Choose from different vehicles matching your group size and comfort
+      needs.
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Our fleet
+      </Link>{" "}
+      focuses on safety, space, and smooth rides. Solo travellers find good
+      matches. Full groups get suitable options too.
+    </>
+  ),
+
+  fleetSectionVehicles: {
+    1: {
+      id: 1,
+      name: "Easy Sedan",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Perfect for single riders or couples wanting quiet, comfortable trips
+          with our reliable Door-to-Door Taxi Service throughout Curl Curl.
+        </>
+      ),
+      image: "/campbelltown-easy-sedan.png",
+    },
+
+    2: {
+      id: 2,
+      name: "Luxury Vehicle",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Great for VIPs and business guests who value privacy, quality leather
+          seats, and smart presentation on every trip.
+        </>
+      ),
+      image: "/campbelltown-luxury-vehicle.png",
+    },
+
+    3: {
+      id: 3,
+      name: "Suv or Wagon",
+      passengerCapacity: 7,
+      bagsCapacity: 5,
+      description: (
+        <>
+          Extra room for passengers and luggage. Good choice for families or
+          small groups heading to Sydney Airport with comfort.
+        </>
+      ),
+      image: "/campbelltown-suv-wagon.png",
+    },
+
+    4: {
+      id: 4,
+      name: "Kia Carnival",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Fits 6–7 passengers comfortably. Large luggage capacity suits group
+          transfers, family holidays, and longer trips.
+        </>
+      ),
+      image: "/campbelltown-kia-carnival.png",
+    },
+
+    5: {
+      id: 5,
+      name: "Maxi Taxi",
+      passengerCapacity: 11,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Built for bigger groups or large families wanting spacious, clean
+          interiors and a fully relaxed travel experience together.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+
+    6: {
+      id: 6,
+      name: "Wheelchair Taxi Service",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Provides accessible transport with properly trained drivers and the
+          right safety features for all mobility needs and comfort.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+  },
+
+  faqSectionTitle:
+    "Frequently Asked Questions About Taxi Service in Curl Curl",
+  faqs: [
+    {
+      question: "Which coastal spots near Curl Curl do you cover?",
+      answer: (
+        <>
+          We service Curl Curl Beach, Freshwater, and Dee Why. Surf trips
+          welcome. Boards fit in <Link
+        to={`https://en.wikipedia.org/wiki/Maxi_taxi`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >Maxi
+      </Link> cabs. Beach transport sorted.
+        </>
+      ),
+    },
+    {
+      question: "How do I arrange transport from Curl Curl to Manly Wharf?",
+      answer: (
+        <>
+          Ring 1300 450 428. Short trips our specialty. Ferry connections are
+          timed. Quick, reliable service every time.
+        </>
+      ),
+    },
+    {
+      question: "Can I book a maxi cab for Curl Curl surf club functions?",
+      answer: (
+        <>
+          Yes. We carry surfboards, gear, and teams. Nippers' events covered.
+          Beach transport expertise guaranteed.
+        </>
+      ),
+    },
+    {
+      question: "Do your drivers know ways around Pittwater Road congestion?",
+      answer: (
+        <>
+          Absolutely. Northern Beaches locals. Traffic hotspots avoided. Back
+          streets mastered. You get smart navigators.
+        </>
+      ),
+    },
+    {
+      question: "What if I need a taxi for the Curl Curl dawn patrol surfing?",
+      answer: (
+        <>
+          Early surf trips welcome. 4 AM pickups arranged. Wetsuit-friendly
+          vehicles. Your wave chase is supported.
+        </>
+      ),
+    },
+    {
+      question: "Can I ask for the same driver for regular Curl Curl trips?",
+      answer: (
+        <>
+          Request when booking. Preferences noted. Same driver when possible.
+          Relationship builds over time.
+        </>
+      ),
+    },
+    {
+      question: "How do I organise wheelchair transport to Curl Curl Beach?",
+      answer: (
+        <>
+          State needs when calling. Beach access vehicles are available. Help
+          provided. Inclusion matters to us.
+        </>
+      ),
+    },
+    {
+      question: "Are your Curl Curl taxis pet-friendly for vet visits?",
+      answer: (
+        <>
+          Small pets in carriers are accepted. Harbord Vet trips are common.
+          Service animals are always welcome. Mention when booking.
+        </>
+      ),
+    },
+    {
+      question: "Can I set up account billing for Curl Curl business travel?",
+      answer: (
+        <>
+          Corporate accounts available. Monthly statements. Priority bookings.
+          Expense management simplified.
+        </>
+      ),
+    },
+    {
+      question: "What sets you apart from rideshare apps in Curl Curl?",
+      answer: (
+        <>
+          Phone bookings. Fixed rates. Local knowledge. No surge pricing.
+          Personal service every trip.
+        </>
+      ),
+    },
+    {
+      question: "Do you provide Curl Curl to Palm Beach direct trips?",
+      answer: (
+        <>
+          Yes. Northern Beaches peninsula runs. Scenic coastal route. Fixed
+          prices available. Comfortable journey.
+        </>
+      ),
+    },
+    {
+      question: "How early should I book wedding cars for Curl Curl ceremonies?",
+      answer: (
+        <>
+          Secure months ahead. Beach weddings are popular. Multiple vehicles
+          coordinated. Your special day is perfected.
+        </>
+      ),
+    },
+    {
+      question: "Can I pay with CabCharge for Curl Curl airport transfers?",
+      answer: (
+        <>
+          CabCharge welcome. Corporate cards accepted. Cash and EFTPOS too.
+          Flexible payment options.
+        </>
+      ),
+    },
+    {
+      question: "What happens if my flight arrives early at Sydney Airport?",
+      answer: (
+        <>
+          Live tracking is active. The driver adjusts the pickup. No waiting
+          fees. Seamless collection guaranteed.
+        </>
+      ),
+    },
+    {
+      question: "Do you service all Curl Curl streets including beachside lanes?",
+      answer: (
+        <>
+          Yes. Every address found. Narrow lanes navigated. Beachfront pickups
+          arranged. No confusion.
+        </>
+      ),
+    },
+  ],
+},
+"freshwater-nsw": {
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13265.619742028272!2d151.28490449999998!3d-33.77603985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12aa4fa9d99673%3A0x5017d681632b9a0!2sFreshwater%20NSW%202096%2C%20Australia!5e0!3m2!1sen!2sbd!4v1774634015107!5m2!1sen!2sbd",
+  pageTitle:
+    "Taxi & Maxi Cabs Services in Freshwater, NSW - Group & Corporate Transfers",
+  metaDescription:
+    "Need a ride in Freshwater? Our Taxi & Maxi Cabs Services cover group travel, corporate taxi & emergency rides. Local drivers, clean cabs & 24/7 service. Call now!",
+  heroTitle:
+    "24/7 Taxi & Maxi Cabs Services in Freshwater - Your 24-Hour Transport Partner",
+  heroDescription: (
+    <>
+      After solid transport around Freshwater? Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>
+      in Freshwater promise a rapid response every time you dial. We run your
+      neighbourhood trips with clockwork precision that never slips. Our cars
+      fit lone commuters and huge crowds equally well. You gain generous cabin
+      space for riders and gear combined. Nobody gets stranded or jammed
+      inside. We operate non-stop every single day. Your plane might touch down
+      at midnight. Your function could finish at dawn. Either way, we appear
+      promptly. Select our elite tier for added comfort. We execute flawless
+      Freshwater pick up and drop off to protect your schedule. You avoid
+      hold-ups. You shed anxiety.
+      <Link to={`/`} className="underline font-semibold px-1">
+        Campbelltown Taxi Cabs
+      </Link>{" "}
+      champions your timetable always.
+    </>
+  ),
+  bookingFormTitle: "Book Baby Taxi in Freshwater NSW",
+  locationSectionTitle:
+    "Reliable Taxi Service in Freshwater for Large Groups",
+  locationSectionDescription: (
+    <>
+      Carting family or mates somewhere special? Our Freshwater Taxi Service
+      accommodates intimate and sprawling groups perfectly. Everyone shares
+      one vehicle. You dodge the chaos of splitting into different cars. You
+      erase messy coordination efforts. Through our dedicated
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab Services in Freshwater,
+      </Link>
+      each guest enjoys safe, cosy travel. Perhaps you depart Freshwater bound
+      for Sydney Airport. Perhaps you head homeward after long voyages. We
+      honour our timing commitments. Our drivers know smart shortcuts. They
+      bypass traffic snarls. They cut delays short. You can trust our Group
+      Transport Freshwater options when needing space, dependability, and
+      spotless interiors. Booking takes moments via our online portal. You
+      receive confirmation fast. You ride with peace of mind.
+    </>
+  ),
+  locationSection2Title:
+    "Affordable Taxi Service in Freshwater with Best Maxi Cabs for Group Travel",
+  locationSection2Desctiption: (
+    <>
+      We reckon that low cost ought never mean nasty. Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Local Taxi Service
+      </Link>
+      in Freshwater shows honest fares with nothing hidden. You view costs
+      upfront. You arrange your dollars with confidence. This proves valuable
+      when trekking with others. You can reserve a
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab for Group Travel
+      </Link>{" "}
+      hauling multiple riders plus loads. Fancy something classier? Upgrade to
+      our silver service for refined motoring. Households may request
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      extras. Your little ones travel in certified, properly fitted
+      restraints. Our operators bring know-how and courtesy. They assist with
+      particular needs. They lug your suitcases. From crack-of-dawn flights to
+      late returns, our <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        24/7 Taxi
+      </Link> Freshwater keeps you rolling. Campbelltown{" "}
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi & Maxi Cabs
+      </Link>{" "}
+      vows secure, steady, zero-stress hauling for every client.
+    </>
+  ),
+  locationSection3Title:
+    "Comfortable Corporate Travel & Baby Seat Taxi Booking in Freshwater, NSW",
+  locationSection3Description: (
+    <>
+      Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi Service in Freshwater
+      </Link>{" "}
+      offers you a sprawling stretch of room. You claim ample stowage volume.
+      You unwind despite packed cabins. You duck compressed seating. You miss
+      awkward bag arrangements. Your trek grows pleasant. Snapping up our Taxi
+      & Maxi Cabs Services in Freshwater lets your tribe focus on the voyage.
+      We zero in on batch transfers for clans, sporting clubs, and office
+      units. The whole gang lands together. Grabbing wheels happens swiftly
+      through our Freshwater Cab Booking site. You sort movement ahead of time.
+      Corporate roadies can tap our
+      <Link
+        to={`/services/corporate-tips`}
+        className="underline font-semibold px-1"
+      >
+        Corporate Taxi Service
+      </Link>{" "}
+      for sharp, slick dashes to powwows. Mobs attach Baby Seat Taxi choices
+      for protected jaunts with youngsters. When elegance counts, our silver
+      service dishes extra cushiness. Every rig gets scrubbed routinely. We
+      enforce strict benchmarks. You relish fluid, shielded transit minus
+      snarl-ups.
+    </>
+  ),
+  locationSection4Title:
+    "Reliable Freshwater Taxi & Maxi Cab: Premium Solutions for All Your Travel Needs",
+  locationSection4Desctiption: (
+    <>
+      Uncover pro mobility crafted squarely for Freshwater locals and visitors.
+      Our broad range hands you precisely what you crave, whether snagging
+      red-eye flights or masterminding
+      <Link
+        to={`/services/wedding-transfer`}
+        className="underline font-semibold px-1"
+      >
+        wedding convoys
+      </Link>{" "}
+      for heaps of guests. We dish up
+      <Link
+        to={`/services/book-taxi-sydney-airport`}
+        className="underline font-semibold px-1"
+      >
+        Airport Transfers in Freshwater
+      </Link>{" "}
+      flaunting live plane tracking, Maxi Cab Services accommodating eleven
+      occupants,
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      styles with approved harnesses, and Local Taxi Service for daily
+      missions. Trade heavyweights lean on our Corporate Taxi Service, while
+      refinement chasers dig our Premium Service. We master Wedding Transport,
+      <Link
+        to={`/services/event-transfer`}
+        className="underline font-semibold px-1"
+      >
+        Event Transport,
+      </Link>{" "}
+      Cruise Transfers, Group Transport for hefty mobs, and
+      <Link
+        to={`/services/wheelchair-accessible-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Wheelchair Accessible Taxi
+      </Link>{" "}
+      setups. Each haul packs clear upfront tags, genuine round-the-clock
+      cover, and seasoned regional pilots who read Freshwater like a book. From
+      Door-to-Door Taxi Service to tangled logistics, Campbelltown Taxi & Maxi
+      Cabs merges deep turf smarts with rock-steady consistency—because your
+      finish line counts, and arriving there should feel like drifting on
+      clouds.
+    </>
+  ),
+  locationSectionImg: corporateTripsImg,
+
+  serviceTitle:
+    "Taxi and Maxi Cab Solutions Freshwater for Every Occasion",
+  serviceSubtitle: (
+    <>
+      We mould transport to fit your exact brief. Our Taxi & Maxi Cabs Services
+      in Freshwater back clan getaways, mob adventures, and corporate travel.
+      Protection and promptness pilot our operation. Every wagon looks
+      schmick. Every captain trains hard. You count on us for terminal sprints,
+      landmark parties, and work jaunts. Every haul stays uncomplicated and
+      mellow.
+    </>
+  ),
+
+  cabChargeSectionTitle: "CabCharge Taxi Near Freshwater",
+  cabChargeSectionDesctiption: (
+    <>
+      Require bendy billing for job or private treks? Our
+      <Link
+        to={`/cabcharge-taxi`}
+        className="underline font-semibold px-1"
+      >
+        CabCharge Taxi Service in Freshwater
+      </Link>
+      renders every journey plain and traceable. We accept shielded CabCharge
+      Payments, including the nifty CabCharge Card, ace for company trekkers
+      and authorised spenders. Dig cashless dealing, crisp trip logs, and
+      painless billing for each run. Faithful hauling backed by proven
+      Cabcharge payment smarts.
+    </>
+  ),
+
+  locationServices: {
+    S001: {
+      service_id: "S001",
+      title: "Wedding Transfer",
+      description: (
+        <>
+          Float in expansive motors. Bridal gangs, relatives, and guests score
+          stylish, comfy lifts toward and from venues.
+        </>
+      ),
+      image: "/car.png",
+      pathname: "/services/wedding-transfer",
+    },
+
+    S002: {
+      service_id: "S002",
+      title: "Luxury Transfer",
+      description: (
+        <>
+          Snag our high-end pick for VIP shuttles, exec travel, and punters
+          expecting top-shelf privacy and comfort.
+        </>
+      ),
+      image: "/vehicle.png",
+      pathname: "/services/luxury-transfer",
+    },
+
+    S003: {
+      service_id: "S003",
+      title: "Baby Seat Taxi Sydney",
+      description: (
+        <>
+          Households book rides with ticked-off kiddie harnesses. Small fry
+          stay buckled safe the whole way.
+        </>
+      ),
+      image: "/baby-seat.png",
+      pathname: "/services/baby-seat-taxi-sydney",
+    },
+
+    S004: {
+      service_id: "S004",
+      title: "Corporate Transport Services",
+      description: (
+        <>
+          Created for boardrooms and batch corporate movement. On-time
+          collections back frantic schedules.
+        </>
+      ),
+      image: "/corporate.png",
+      pathname: "/services/corporate-transport-services",
+    },
+
+    S005: {
+      service_id: "S005",
+      title: "Cruise Terminal Transfer",
+      description: (
+        <>
+          Enjoy smooth hops between Freshwater and cruise wharves. Generous
+          volume handles passengers and luggage jointly.
+        </>
+      ),
+      image: "/ship.png",
+      pathname: "/services/cruise-terminal-transfer",
+    },
+
+    S006: {
+      service_id: "S006",
+      title: "Event Transfer",
+      description: (
+        <>
+          Tap our service for concerts, shindigs, and social bashes. Arrive
+          bang on time. Skip parking nightmares.
+        </>
+      ),
+      image: "/event.png",
+      pathname: "/services/event-transfer",
+    },
+
+    S007: {
+      service_id: "S007",
+      title: "Maxi Taxi Service",
+      description: (
+        <>
+          Perfect for heftier crowds in Freshwater. Ample perch and baggage
+          capacity keep tribes together.
+        </>
+      ),
+      image: "/users.png",
+      pathname: "/services/maxi-taxi-service",
+    },
+
+    S008: {
+      service_id: "S008",
+      title: "Corporate Trips",
+      description: (
+        <>
+          Protected, slickly managed transfers from Freshwater to Sydney
+          Airport or corporate sites. Your crew commutes relaxed.
+        </>
+      ),
+      image: "/briefcase.png",
+      pathname: "/services/corporate-tips",
+    },
+
+    S009: {
+      service_id: "S009",
+      title: "Reliable Airport Transfers",
+      description: (
+        <>
+          Steady round-the-clock option across Freshwater for routine runs,
+          appointments, and leisure strolls.
+        </>
+      ),
+      image: "/airport.png",
+      pathname: "/services/taxi-sydney-service",
+    },
+
+    S010: {
+      service_id: "S010",
+      title: "Emergency Taxi",
+      description: (
+        <>
+          Crisis hits? Our Emergency Taxi in Freshwater reacts instantly. We
+          spotlight your protection and velocity.
+        </>
+      ),
+      image: "/emergency.png",
+      pathname: "/book-a-taxi",
+    },
+  },
+  fleetSectionTitle: "Premium Fleet for Your Freshwater Transfer",
+  fleetSectionSubTitle: (
+    <>
+      Choose from different vehicles matching your group size and comfort
+      needs.
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Our fleet
+      </Link>{" "}
+      focuses on safety, space, and smooth rides. Solo travellers find good
+      matches. Full groups get suitable options too.
+    </>
+  ),
+
+  fleetSectionVehicles: {
+    1: {
+      id: 1,
+      name: "Easy Sedan",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Perfect for single riders or couples wanting quiet, comfortable trips
+          with our reliable Door-to-Door Taxi Service throughout Freshwater.
+        </>
+      ),
+      image: "/campbelltown-easy-sedan.png",
+    },
+
+    2: {
+      id: 2,
+      name: "Luxury Vehicle",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Great for VIPs and business guests who value privacy, quality leather
+          seats, and smart presentation on every trip.
+        </>
+      ),
+      image: "/campbelltown-luxury-vehicle.png",
+    },
+
+    3: {
+      id: 3,
+      name: "Suv or Wagon",
+      passengerCapacity: 7,
+      bagsCapacity: 5,
+      description: (
+        <>
+          Extra room for passengers and luggage. Good choice for families or
+          small groups heading to Sydney Airport with comfort.
+        </>
+      ),
+      image: "/campbelltown-suv-wagon.png",
+    },
+
+    4: {
+      id: 4,
+      name: "Kia Carnival",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Fits 6–7 passengers comfortably. Large luggage capacity suits group
+          transfers, family holidays, and longer trips.
+        </>
+      ),
+      image: "/campbelltown-kia-carnival.png",
+    },
+
+    5: {
+      id: 5,
+      name: "Maxi Taxi",
+      passengerCapacity: 11,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Built for bigger groups or large families wanting spacious, clean
+          interiors and a fully relaxed travel experience together.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+
+    6: {
+      id: 6,
+      name: "Wheelchair Taxi Service",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Provides accessible transport with properly trained drivers and the
+          right safety features for all mobility needs and comfort.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+  },
+
+  faqSectionTitle:
+    "Frequently Asked Questions About Taxi Service in Freshwater",
+  faqs: [
+    {
+      question: "Which coastal spots near Freshwater do you cover?",
+      answer: (
+        <>
+          We service Freshwater Beach, Freshwater, and Dee Why. Surf trips
+          welcome. Boards fit in <Link
+        to={`https://en.wikipedia.org/wiki/Maxi_taxi`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >Maxi
+      </Link> cabs. Beach transport sorted.
+        </>
+      ),
+    },
+    {
+      question: "How do I arrange transport from Freshwater to Manly Wharf?",
+      answer: (
+        <>
+          Ring 1300 450 428. Short trips our specialty. Ferry connections are
+          timed. Quick, reliable service every time.
+        </>
+      ),
+    },
+    {
+      question: "Can I book a maxi cab for Freshwater surf club functions?",
+      answer: (
+        <>
+          Yes. We carry surfboards, gear, and teams. Nippers' events covered.
+          Beach transport expertise guaranteed.
+        </>
+      ),
+    },
+    {
+      question: "Do your drivers know ways around Pittwater Road congestion?",
+      answer: (
+        <>
+          Absolutely. Northern Beaches locals. Traffic hotspots avoided. Back
+          streets mastered. You get smart navigators.
+        </>
+      ),
+    },
+    {
+      question: "What if I need a taxi for the Freshwater dawn patrol surfing?",
+      answer: (
+        <>
+          Early surf trips welcome. 4 AM pickups arranged. Wetsuit-friendly
+          vehicles. Your wave chase is supported.
+        </>
+      ),
+    },
+    {
+      question: "Can I ask for the same driver for regular Freshwater trips?",
+      answer: (
+        <>
+          Request when booking. Preferences noted. Same driver when possible.
+          Relationship builds over time.
+        </>
+      ),
+    },
+    {
+      question: "How do I organise wheelchair transport to Freshwater Beach?",
+      answer: (
+        <>
+          State needs when calling. Beach access vehicles are available. Help
+          provided. Inclusion matters to us.
+        </>
+      ),
+    },
+    {
+      question: "Are your Freshwater taxis pet-friendly for vet visits?",
+      answer: (
+        <>
+          Small pets in carriers are accepted. Harbord Vet trips are common.
+          Service animals are always welcome. Mention when booking.
+        </>
+      ),
+    },
+    {
+      question: "Can I set up account billing for Freshwater business travel?",
+      answer: (
+        <>
+          Corporate accounts available. Monthly statements. Priority bookings.
+          Expense management simplified.
+        </>
+      ),
+    },
+    {
+      question: "What sets you apart from rideshare apps in Freshwater?",
+      answer: (
+        <>
+          Phone bookings. Fixed rates. Local knowledge. No surge pricing.
+          Personal service every trip.
+        </>
+      ),
+    },
+    {
+      question: "Do you provide Freshwater to Palm Beach direct trips?",
+      answer: (
+        <>
+          Yes. Northern Beaches peninsula runs. Scenic coastal route. Fixed
+          prices available. Comfortable journey.
+        </>
+      ),
+    },
+    {
+      question: "How early should I book wedding cars for Freshwater ceremonies?",
+      answer: (
+        <>
+          Secure months ahead. Beach weddings are popular. Multiple vehicles
+          coordinated. Your special day is perfected.
+        </>
+      ),
+    },
+    {
+      question: "Can I pay with CabCharge for Freshwater airport transfers?",
+      answer: (
+        <>
+          CabCharge welcome. Corporate cards accepted. Cash and EFTPOS too.
+          Flexible payment options.
+        </>
+      ),
+    },
+    {
+      question: "What happens if my flight arrives early at Sydney Airport?",
+      answer: (
+        <>
+          Live tracking is active. The driver adjusts the pickup. No waiting
+          fees. Seamless collection guaranteed.
+        </>
+      ),
+    },
+    {
+      question: "Do you service all Freshwater streets including beachside lanes?",
+      answer: (
+        <>
+          Yes. Every address found. Narrow lanes navigated. Beachfront pickups
+          arranged. No confusion.
+        </>
+      ),
+    },
+  ],
+},
+"narrabeen-nsw": {
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52763.37742545782!2d151.2968524!3d-33.71291505!2m3!1f0!2f2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ab5e5cbb3f1f%3A0x40609b49043b640!2sNarrabeen%20NSW%202101%2C%20Australia!5e0!3m2!1sen!2sbd!4v1774628250468!5m2!1sen!2sbd",
+  pageTitle:
+    "Taxi & Maxi Cabs Services in Narrabeen, NSW - 24/7 Airport & Cruise Rides",
+  metaDescription:
+    "Reliable Taxi & Maxi Cabs Services in Narrabeen for airport transfers, cruise trips, group travel & baby seat bookings. Fixed fares, local drivers & 24/7 service.",
+  heroTitle:
+    "24/7 Taxi & Maxi Cabs Services in Narrabeen - Book Now",
+  heroDescription: (
+    <>
+      Looking for trusted rides around Narrabeen? Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>
+      in Narrabeen ensure speedy collections whenever you ring. We manage your
+      area trips with exact timing that never falters. Our cars suit individual
+      travellers and big parties equally. You receive wide cabin space for
+      passengers and belongings together. No one faces exclusion or tight spots
+      inside. We work all hours without pause. Your plane might arrive at 3 AM.
+      Your job could finish at dawn. Either way, we reach you quickly. Select
+      our high-end choice for added ease. We handle smooth Narrabeen pick up and
+      drop off to guard your diary. You miss setbacks. You lose worry.
+      <Link to={`/`} className="underline font-semibold px-1">
+        Campbelltown Taxi Cabs
+      </Link>{" "}
+      values your schedule always.
+    </>
+  ),
+  bookingFormTitle: "Book Baby Taxi in Narrabeen NSW",
+  locationSectionTitle:
+    "Reliable Taxi Service in Narrabeen for Large Groups",
+  locationSectionDescription: (
+    <>
+      Bringing loved ones or pals somewhere good? Our Narrabeen Taxi Service
+      fits compact and large crowds ideally. All people share one automobile.
+      You escape the trouble of dividing into separate cars. You remove complex
+      organisational efforts. Through our focused
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab Services in Narrabeen,
+      </Link>
+      every rider gains a secure, pleasant passage. Maybe you exit Narrabeen
+      toward Sydney Airport. Maybe you return home after lengthy journeys. We
+      follow our timing pledges. Our Drivers know clever detours. They sidestep
+      congestion points. They reduce delays fast. You can depend on our Group
+      Transport Narrabeen selections when requiring room, trustworthiness, and
+      tidy interiors. Securing transport takes moments through our digital
+      platform. You obtain verification rapidly. You journey with assurance.
+    </>
+  ),
+  locationSection2Title:
+    "Affordable Taxi Service in Narrabeen with Maxi Cabs: Family trips and long-distance commutes",
+  locationSection2Desctiption: (
+    <>
+      We hold that budget must never equal poor quality. Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Local Taxi Service
+      </Link>
+      in Narrabeen displays reasonable charges with complete openness. You view
+      prices beforehand. You arrange your money with certainty. This aids when
+      moving with companions. You can reserve a
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab for Group Travel
+      </Link>{" "}
+      carrying numerous riders plus loads. Desire something superior? Move up
+      to our deluxe option for polished trips. Homes may seek
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      additions. Your youngsters sit in checked, correctly secured restraints.
+      Our Drivers bring skill and politeness. They support specific
+      requirements. They shift your bags. From sunrise departures to evening
+      returns, our 24/7 Taxi Narrabeen maintains your progress. Campbelltown{" "}
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi & Maxi Cabs
+      </Link>{" "}
+      guarantees protected, consistent, calm transport for all users.
+    </>
+  ),
+  locationSection3Title:
+    "Comfortable Corporate & Baby Seat Taxi Booking in Narrabeen",
+  locationSection3Description: (
+    <>
+      Our
+      <Link
+        to={`/book-a-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Taxi Service in Narrabeen
+      </Link>{" "}
+      offers an extensive stretching area. You gain abundant storage spots. You
+      rest despite filled cabins. You evade restricted seating. You bypass the
+      difficult luggage stacking. Your travel turns agreeable. Grabbing our Taxi
+      & Maxi Cabs Services in Narrabeen allows your party to concentrate on the
+      route. We centre on collective transfers for households, athletic clubs,
+      and office teams. The entire set reaches unity. Getting wheels occurs
+      promptly via our Narrabeen Cab Booking site. You prepare movement in
+      advance. Commerce movers can access our
+      <Link
+        to={`/services/corporate-tips`}
+        className="underline font-semibold px-1"
+      >
+        Corporate Taxi Service
+      </Link>{" "}
+      for punctual, expert dashes to conferences. Homes include Baby Seat Taxi
+      picks for guarded trips with infants. When refinement matters, our deluxe
+      option provides added softness. Every automobile receives frequent
+      washing. We apply firm guidelines. You experience easy, defended transit
+      without road concerns.
+    </>
+  ),
+  locationSection4Title:
+    "Reliable Narrabeen Taxi & Maxi Cab: Premium Solutions for All Your Travel Needs",
+  locationSection4Desctiption: (
+    <>
+      Explore expert movement shaped directly for Narrabeen locals and guests.
+      Our complete selection delivers precisely what you seek, whether capturing
+      dawn flights or arranging
+      <Link
+        to={`/services/wedding-transfer`}
+        className="underline font-semibold px-1"
+      >
+        marriage transport
+      </Link>{" "}
+      for many invitees. We supply
+      <Link
+        to={`/services/book-taxi-sydney-airport`}
+        className="underline font-semibold px-1"
+      >
+        Airport Transfers in Narrabeen
+      </Link>{" "}
+      featuring current flight watching, Maxi Cab Services holding eleven
+      riders,
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      varieties with verified harnesses, and Local Taxi Service for regular
+      duties. Trade leaders use our Corporate Taxi Service, while elegance
+      hunters pick our Premium Service. We excel at Wedding Transport,
+      <Link
+        to={`/services/event-transfer`}
+        className="underline font-semibold px-1"
+      >
+        Event Transport,
+      </Link>{" "}
+      Cruise Transfers, Group Transport for sizeable gatherings, and
+      <Link
+        to={`/services/wheelchair-accessible-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Wheelchair Accessible Taxi
+      </Link>{" "}
+      arrangements. Each trip contains obvious initial costs, true all-hours
+      availability, and practised nearby Drivers who understand Narrabeen
+      completely. From Door-to-Door Taxi Service to involved coordination,
+      Campbelltown Taxi & Maxi Cabs joins thorough area know-how with solid
+      dependability—because your endpoint counts, and reaching it should seem
+      simple.
+    </>
+  ),
+  locationSectionImg: corporateTripsImg,
+  serviceTitle:
+    "Taxi and Maxi Cab Solutions Narrabeen for Every Occasion",
+  serviceSubtitle: (
+    <>
+      We form movements to fit your particular demands. Our Taxi & Maxi Cabs
+      Services in Narrabeen assist family breaks, crowd adventures, and company
+      trips. Security and timeliness steer our tasks. Every machine appears
+      orderly. Every guide prepares extensively. You lean on us for terminal
+      journeys, notable celebrations, and work ventures. Each passage stays
+      plain and unworried.
+    </>
+  ),
+
+  cabChargeSectionTitle: "CabCharge Taxi Near Narrabeen",
+  cabChargeSectionDesctiption: (
+    <>
+      Want an adaptable settlement for employment or private journeys? Our
+      <Link
+        to={`/cabcharge-taxi`}
+        className="underline font-semibold px-1"
+      >
+        CabCharge Taxi Service in Narrabeen
+      </Link>
+      renders each trip clear and followable. We take guarded CabCharge
+      Payments, including the useful CabCharge Card, excellent for organisation
+      travellers and permitted spenders. Value electronic dealings, distinct
+      travel records, and straightforward invoicing every occasion. Trustworthy
+      movement supported by established Cabcharge payment methods.
+    </>
+  ),
+
+  locationServices: {
+    S001: {
+      service_id: "S001",
+      title: "Wedding Transfer",
+      description: (
+        <>
+          Ride in large automobiles. Marriage groups, relations, and attendees
+          appreciate attractive, relaxed transport to and from places.
+        </>
+      ),
+      image: "/car.png",
+      pathname: "/services/wedding-transfer",
+    },
+
+    S002: {
+      service_id: "S002",
+      title: "Luxury Transfer",
+      description: (
+        <>
+          Take our superior selection for important transfers, leadership
+          travel, and customers expecting elevated seclusion and satisfaction.
+        </>
+      ),
+      image: "/vehicle.png",
+      pathname: "/services/luxury-transfer",
+    },
+
+    S003: {
+      service_id: "S003",
+      title: "Baby Seat Taxi Sydney",
+      description: (
+        <>
+          Residences arrange rides with sanctioned child restraints. Little
+          ones remain buckled secure the entire distance.
+        </>
+      ),
+      image: "/baby-seat.png",
+      pathname: "/services/baby-seat-taxi-sydney",
+    },
+
+    S004: {
+      service_id: "S004",
+      title: "Corporate Transport Services",
+      description: (
+        <>
+          Developed for meeting rooms and group company movement. Prompt
+          gatherings aid demanding timetables.
+        </>
+      ),
+      image: "/corporate.png",
+      pathname: "/services/corporate-transport-services",
+    },
+
+    S005: {
+      service_id: "S005",
+      title: "Cruise Terminal Transfer",
+      description: (
+        <>
+          Appreciate effortless connections between Narrabeen and ship
+          terminals. Sufficient area manages riders and suitcases jointly.
+        </>
+      ),
+      image: "/ship.png",
+      pathname: "/services/cruise-terminal-transfer",
+    },
+
+    S006: {
+      service_id: "S006",
+      title: "Event Transfer",
+      description: (
+        <>
+          Engage our service for performances, gatherings, and community
+          meetings. Reach punctually. Miss parking troubles.
+        </>
+      ),
+      image: "/event.png",
+      pathname: "/services/event-transfer",
+    },
+
+    S007: {
+      service_id: "S007",
+      title: "Maxi Taxi Service",
+      description: (
+        <>
+          Suited for bigger assemblies in Narrabeen. Substantial sitting and
+          suitcase room keeps parties united.
+        </>
+      ),
+      image: "/users.png",
+      pathname: "/services/maxi-taxi-service",
+    },
+
+    S008: {
+      service_id: "S008",
+      title: "Corporate Trips",
+      description: (
+        <>
+          Guarded, efficiently handled shifts from Narrabeen to Sydney Airport
+          or company spots. Your staff travels calmly.
+        </>
+      ),
+      image: "/briefcase.png",
+      pathname: "/services/corporate-tips",
+    },
+
+    S009: {
+      service_id: "S009",
+      title: "Local Taxi Service",
+      description: (
+        <>
+          Constant all-hours choice throughout Narrabeen for normal journeys,
+          engagements, and pleasure walks.
+        </>
+      ),
+      image: "/airport.png",
+      pathname: "/services/taxi-sydney-service",
+    },
+
+    S010: {
+      service_id: "S010",
+      title: "Emergency Taxi",
+      description: (
+        <>
+          Pressing requirement? Our Emergency Taxi in Narrabeen answers
+          immediately. We highlight your protection and haste.
+        </>
+      ),
+      image: "/emergency.png",
+      pathname: "/book-a-taxi",
+    },
+  },
+
+  fleetSectionTitle: "Premium Fleet for Your Narrabeen Transfer",
+  fleetSectionSubTitle: (
+    <>
+      Select from varied automobiles matching your gathering size and ease
+      preferences.
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Our fleet
+      </Link>{" "}
+      stresses protection, area, and gentle journeys. Individual explorers find
+      appropriate matches. Complete sets receive fitting choices too.
+    </>
+  ),
+
+  fleetSectionVehicles: {
+    1: {
+      id: 1,
+      name: "Easy Sedan",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Right for lone travellers or duos desiring peaceful, easy trips with
+          our dependable Door-to-Door Taxi Service across Narrabeen.
+        </>
+      ),
+      image: "/campbelltown-easy-sedan.png",
+    },
+
+    2: {
+      id: 2,
+      name: "Luxury Vehicle",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Fine for distinguished visitors and commerce guests who prize
+          isolation, quality hide seating, and neat appearance on every outing.
+        </>
+      ),
+      image: "/campbelltown-luxury-vehicle.png",
+    },
+
+    3: {
+      id: 3,
+      name: "Suv or Wagon",
+      passengerCapacity: 7,
+      bagsCapacity: 5,
+      description: (
+        <>
+          Added room for explorers and cases. Strong pick for families or
+          limited groups heading to Sydney Airport with ease.
+        </>
+      ),
+      image: "/campbelltown-suv-wagon.png",
+    },
+
+    4: {
+      id: 4,
+      name: "Kia Carnival",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Contains 6–7 explorers comfortably. Big suitcase space suits group
+          shifts, family vacations, and drawn-out tours.
+        </>
+      ),
+      image: "/campbelltown-kia-carnival.png",
+    },
+
+    5: {
+      id: 5,
+      name: "Maxi Taxi",
+      passengerCapacity: 11,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Made for larger assemblies or extended families wanting open, clean
+          insides and an utterly unwound travel experience united.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+
+    6: {
+      id: 6,
+      name: "Wheelchair Taxi Service",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Furnishes reachable movement with correctly taught Drivers and
+          appropriate protection elements for all mobility requirements and
+          ease.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+  },
+
+  faqSectionTitle:
+    "Frequently Asked Questions About Taxi Service in Narrabeen",
+  faqs: [
+    {
+      question: "Which spots near Narrabeen do you reach?",
+      answer: (
+        <>
+          We cover Collaroy, Dee Why, Mona Vale. The coastal strip is
+          well-known. Your destination was reached smoothly.
+        </>
+      ),
+    },
+    {
+      question: "How do I arrange early morning airport runs?",
+      answer: (
+        <>
+          Book the night before. We confirm the pickup time. Track your flight.
+          Adjust if delayed. Sleep peacefully.
+        </>
+      ),
+    },
+    {
+      question: "Can I transport camping gear to Narrabeen caravan parks?",
+      answer: (
+        <>
+          Yes. Tents, chairs, and coolers fit. Maxi cabs handle bulky loads.
+          Outdoor holidays are supported.
+        </>
+      ),
+    },
+    {
+      question: "Do you know alternate routes during bridge closures?",
+      answer: (
+        <>
+          Absolutely. Pittwater Road diversions mapped. Traffic updates
+          monitored. You arrive despite disruptions.
+        </>
+      ),
+    },
+    {
+      question: "What makes your service ideal for Narrabeen seniors?",
+      answer: (
+        <>
+          Patient drivers. Assistance given. Comfortable vehicles. Medical
+          appointment specialists. Respectful care.
+        </>
+      ),
+    },
+    {
+      question: "Can I book recurring trips for Narrabeen dialysis patients?",
+      answer: (
+        <>
+          Regular medical transport is welcome. Same driver preference noted.
+          Reliable schedule maintained. Health priority.
+        </>
+      ),
+    },
+    {
+      question: "How do I request vehicles for Narrabeen surf school groups?",
+      answer: (
+        <>
+          Multiple bookings coordinated. Board racks are available. Early
+          morning starts. Youth transport specialists.
+        </>
+      ),
+    },
+    {
+      question: "Are your prices higher during the summer holidays?",
+      answer: (
+        <>
+          Rates stay constant year-round. No seasonal surcharges. Fair pricing
+          guaranteed. Budget confidently.
+        </>
+      ),
+    },
+    {
+      question: "Can I pay by phone for Narrabeen taxi bookings?",
+      answer: (
+        <>
+          Card payments accepted. Phone pre-payment available. Receipts are
+          emailed instantly. Business claims are easy.
+        </>
+      ),
+    },
+    {
+      question: "Do you service Narrabeen sports clubs after late games?",
+      answer: (
+        <>
+          Yes. Team transport arranged. Equipment carried. Safe return
+          guaranteed. Club accounts welcomed.
+        </>
+      ),
+    },
+    {
+      question: "How far ahead should I secure wedding transport?",
+      answer: (
+        <>
+          Book three months early. Spring dates fill fast. Multiple cars
+          coordinated. Your celebration secured.
+        </>
+      ),
+    },
+    {
+      question: "Can I bring my pram without folding it?",
+      answer: (
+        <>
+          Large prams fit in maxi cabs. Mention when booking. We prepare space.
+          Family travel made simple.
+        </>
+      ),
+    },
+    {
+      question: "What happens if my Narrabeen driver is delayed?",
+      answer: (
+        <>
+          We monitor traffic. Alternative routes are ready. You receive
+          updates. Rare delays are explained quickly.
+        </>
+      ),
+    },
+    {
+      question: "Do you offer a direct service from Narrabeen to Hornsby?",
+      answer: (
+        <>
+          Yes. Northern Sydney connections. Express routes are available.
+          Commuter bookings accepted. Reliable daily service.
+        </>
+      ),
+    },
+    {
+      question: "Are small pets permitted in Narrabeen taxis?",
+      answer: (
+        <>
+          Carriers required. Service animals exempt. Mention when booking. We
+          accommodate animal companions.
+        </>
+      ),
+    },
+  ],
+},
+"warriewood-nsw": {
+  mapUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26558.0424956684!2d151.27655248402925!3d-33.689399482454924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b0d54ec7dca3b07%3A0x5017d681632ceb0!2sWarriewood%20NSW%202102%2C%20Australia!5e0!3m2!1sen!2sbd!4v1774635993318!5m2!1sen!2sbd",
+  pageTitle:
+    "Taxi & Maxi Cabs Services in Warriewood, NSW - Baby Seat & Family Rides",
+  metaDescription:
+    "Book Taxi & Maxi Cabs Services in Warriewood for family travel, baby seat taxi & group rides. On-time pickups, transparent pricing & expert local drivers. Call now!",
+  heroTitle:
+    "24/7 Taxi & Maxi Cabs Services in Warriewood for Reliable Rides",
+  heroDescription: (
+    <>
+      Chasing a lift around Warriewood? Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>
+      in Warriewood answer fast when you ring. We move locals with clockwork
+      timing that never slips. Our fleet suits one person or big crowds
+      equally. You score heaps of space for mates and gear together. Nobody
+      gets stuck outside or squashed inside. We roll all hours, every day.
+      Planes land at midnight. Jobs finish at dawn. We still reach you quick.
+      Pick our fancy grade for extra ease. We handle slick Warriewood pick up
+      and drop off to save your diary. You dodge slowdowns. You drop the worry.
+      <Link to={`/`} className="underline font-semibold px-1">
+        Campbelltown Taxi Cabs
+      </Link>{" "}
+      backs your plans completely.
+    </>
+  ),
+  bookingFormTitle: "Book Baby Taxi in Warriewood NSW",
+  locationSectionTitle: "Reliable Taxi Service in Warriewood for Groups",
+  locationSectionDescription: (
+    <>
+      Shifting relatives or crew somewhere good? Our Warriewood Taxi Service
+      fits tiny and huge mobs spot on. The whole lot packs into one wagon. You
+      skip the pain of splitting into different motors. You kill a messy
+      organisation. Through our set
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab Services in Warriewood,
+      </Link>
+      every punter gains safe, cushy passage. Perhaps you blast out of
+      Warriewood toward Sydney Airport. Perhaps you drag home after long hauls.
+      We keep our word on clocks. Our drivers know sneaky detours. They skirt
+      gridlock. They squash delays. You can bank on our Group Transport
+      Warriewood picks when wanting stretch, faith, and sparkling cabins.
+      Locking in rides takes ticks via our web hub. You snag proof instantly.
+      You float with assurance.
+    </>
+  ),
+  locationSection2Title:
+    "Taxi Service in Warriewood with Affordable Maxi Cab & Fast Airport Rides",
+  locationSection2Desctiption: (
+    <>
+      That cheap ought never mean nasty. Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Local Taxi Service
+      </Link>
+      in Warriewood shows honest charges with nothing hidden. You eyeball costs
+      upfront. You map your spending with poise. This proves gold when trekking
+      with others. You can secure a
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab for Group Travel
+      </Link>{" "}
+      hauling stacks of riders plus loads. Fancy something posher? Bump up to
+      our silver grade for polished trips. Tribes may shout for
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      extras. Your littlies travel in ticked-off, locked-down harnesses. Our
+      wheelmen bring wisdom and manners. They back particular needs. They heft
+      your suitcases. From crack-of-dawn flights to late returns, our 24/7 Taxi
+      Warriewood keeps you rolling. Campbelltown{" "}
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs
+      </Link>{" "}
+      vows secure, steady, zero-stress hauling for every client.
+    </>
+  ),
+  locationSection3Title:
+    "Comfortable Corporate & Baby Seat Taxi Booking in Warriewood",
+  locationSection3Description: (
+    <>
+      Our
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Taxi Service in Warriewood
+      </Link>{" "}
+      offers you a sprawling stretch of room. You claim mountains of stowage
+      volume. You unwind despite chockers cabins. You duck compressed seating.
+      You dodge messy bag Tetris. Your trek grows enjoyable. Snapping up our
+      Taxi & Maxi Cabs Services in Warriewood lets your mob focus on the
+      voyage. We zero in on batch transfers for clans, surf clubs, and office
+      squads. The full gang lands united. Grabbing wheels happens swiftly
+      through our Warriewood Cab Booking portal. You sort the movement
+      beforehand. Corporate nomads can tap our
+      <Link
+        to={`/services/corporate-tips`}
+        className="underline font-semibold px-1"
+      >
+        Corporate Taxi Service
+      </Link>{" "}
+      for sharp, slick dashes to powwows. Mobs attach Baby Seat Taxi choices
+      for protected jaunts with ankle-biters. When class counts, our silver
+      grade dishes have extra cushiness. Every rig gets detailed routinely. We
+      enforce tough benchmarks. You relish fluid, shielded transit minus
+      snarl-ups.
+    </>
+  ),
+  locationSection4Title:
+    "Reliable Warriewood Taxi & Maxi Cab: Premium Solutions for All Your Travel Needs",
+  locationSection4Desctiption: (
+    <>
+      Uncover pro hauling crafted squarely for Warriewood locals and blow-ins.
+      Our broad spread hands you precisely what you crave, whether snagging
+      red-eye flights or masterminding
+      <Link
+        to={`/services/wedding-transfer`}
+        className="underline font-semibold px-1"
+      >
+        wedding convoys
+      </Link>{" "}
+      for heaps of guests. We dish up
+      <Link
+        to={`/services/book-taxi-sydney-airport`}
+        className="underline font-semibold px-1"
+      >
+        Airport Transfers in Warriewood
+      </Link>
+      , flaunting live plane tracking,
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Maxi Cab Services
+      </Link>{" "}
+      accommodating eleven occupants,
+      <Link
+        to={`/services/baby-seat-taxi-sydney`}
+        className="underline font-semibold px-1"
+      >
+        Baby Seat Taxi
+      </Link>{" "}
+      styles with approved straps, and
+      <Link to={`/book-a-taxi`} className="underline font-semibold px-1">
+        Local Taxi Service
+      </Link>{" "}
+      for daily missions. Trade heavyweights lean on our Corporate Taxi
+      Service, while refinement chasers dig our Premium Service. We master
+      Wedding Transport,
+      <Link
+        to={`/services/event-transfer`}
+        className="underline font-semibold px-1"
+      >
+        Event Transport,
+      </Link>{" "}
+      Cruise Transfers, Group Transport for hefty mobs, and
+      <Link
+        to={`/services/wheelchair-accessible-taxi`}
+        className="underline font-semibold px-1"
+      >
+        Wheelchair Accessible Taxi
+      </Link>{" "}
+      setups. Each haul packs clear upfront tags, genuine round-the-clock
+      cover, and seasoned regional operators who read Warriewood like a book.
+      From Door-to-Door Taxi Service to tangled logistics, Campbelltown Taxi &
+      Maxi Cabs merges deep turf smarts with rock-steady consistency—because
+      your finish line counts, and arriving there should feel like floating.
+    </>
+  ),
+  locationSectionImg: corporateTripsImg,
+  serviceTitle: "Taxi and Maxi Cab Solutions Warriewood for Every Occasion",
+  serviceSubtitle: (
+    <>
+      We mould transport to fit your exact brief. Our
+      <Link to={`/`} className="underline font-semibold px-1">
+        Taxi & Maxi Cabs Services
+      </Link>{" "}
+      in Warriewood back clan getaways, mob adventures, and corporate travel.
+      Protection and promptness pilot our operation. Every wagon looks
+      schmick. Every skipper trains hard. You count on us for terminal sprints,
+      landmark parties, and work jaunts. Every haul stays uncomplicated and
+      mellow.
+    </>
+  ),
+
+  cabChargeSectionTitle: "CabCharge Taxi Near Warriewood",
+  cabChargeSectionDesctiption: (
+    <>
+      Require bendy billing for job or private treks? Our
+      <Link
+        to={`/cabcharge-taxi`}
+        className="underline font-semibold px-1"
+      >
+        CabCharge Taxi Service in Warriewood
+      </Link>
+      renders every journey plain and traceable. We accept shielded CabCharge
+      Payments, including the nifty CabCharge Card, ace for company trekkers
+      and authorised spenders. Dig cashless dealing, neat trip logs, and
+      painless billing each run. Faithful hauling backed by proven Cabcharge
+      payment smarts.
+    </>
+  ),
+
+  locationServices: {
+    S001: {
+      service_id: "S001",
+      title: "Wedding Transport",
+      description: (
+        <>
+          Float in expansive motors. Bridal gangs, relatives, and guests score
+          stylish, cushy lifts toward and from venues.
+        </>
+      ),
+      image: "/car.png",
+      pathname: "/services/wedding-transfer",
+    },
+
+    S002: {
+      service_id: "S002",
+      title: "Premium Service",
+      description: (
+        <>
+          Snag our high-end pick for VIP shuttles, exec travel, and punters
+          expecting top-shelf privacy and comfort.
+        </>
+      ),
+      image: "/vehicle.png",
+      pathname: "/services/luxury-transfer",
+    },
+
+    S003: {
+      service_id: "S003",
+      title: "Baby Seat Taxi",
+      description: (
+        <>
+          Households book rides with ticked-off kiddie harnesses. Small fry stay
+          buckled safe the whole way.
+        </>
+      ),
+      image: "/baby-seat.png",
+      pathname: "/services/baby-seat-taxi-sydney",
+    },
+
+    S004: {
+      service_id: "S004",
+      title: "Corporate Taxi Service",
+      description: (
+        <>
+          Created for boardrooms and batch corporate movement. On-time
+          collections back frantic schedules.
+        </>
+      ),
+      image: "/corporate.png",
+      pathname: "/services/corporate-transport-services",
+    },
+
+    S005: {
+      service_id: "S005",
+      title: "Cruise Transfers",
+      description: (
+        <>
+          Enjoy smooth hops between Warriewood and cruise wharves. Generous
+          volume handles passengers and luggage jointly.
+        </>
+      ),
+      image: "/ship.png",
+      pathname: "/services/cruise-terminal-transfer",
+    },
+
+    S006: {
+      service_id: "S006",
+      title: "Event Transport",
+      description: (
+        <>
+          Tap our service for concerts, shindigs, and social bashes. Arrive bang
+          on time. Skip parking nightmares.
+        </>
+      ),
+      image: "/event.png",
+      pathname: "/services/event-transfer",
+    },
+
+    S007: {
+      service_id: "S007",
+      title: "Maxi Cab Services",
+      description: (
+        <>
+          Perfect for heftier crowds in Warriewood. Ample perch and baggage
+          capacity keeps tribes together.
+        </>
+      ),
+      image: "/users.png",
+      pathname: "/services/maxi-taxi-service",
+    },
+
+    S008: {
+      service_id: "S008",
+      title: "Corporate Trips",
+      description: (
+        <>
+          Protected, slickly managed transfers from Warriewood to Sydney Airport
+          or corporate sites. Your crew commutes relaxed.
+        </>
+      ),
+      image: "/briefcase.png",
+      pathname: "/services/corporate-tips",
+    },
+
+    S009: {
+      service_id: "S009",
+      title: "Local Taxi Service",
+      description: (
+        <>
+          Steady round-the-clock option across Warriewood for routine runs,
+          appointments, and leisure strolls.
+        </>
+      ),
+      image: "/airport.png",
+      pathname: "/services/taxi-sydney-service",
+    },
+
+    S010: {
+      service_id: "S010",
+      title: "Emergency Taxi in Warriewood",
+      description: (
+        <>
+          Crisis hits? Our Emergency Taxi in Warriewood reacts instantly. We
+          spotlight your protection and velocity.
+        </>
+      ),
+      image: "/emergency.png",
+      pathname: "/book-a-taxi",
+    },
+  },
+
+  fleetSectionTitle: "Premium Fleet for Your Warriewood Transfer",
+  fleetSectionSubTitle: (
+    <>
+      Pick from mixed motors matching your party dimensions and snug
+      requirements.
+      <Link
+        to={`/services/maxi-taxi-service`}
+        className="underline font-semibold px-1"
+      >
+        Our garage
+      </Link>{" "}
+      highlights safety, stretch, and butter-smooth cruising. Lone trekkers
+      find ideal matches. Complete posses land suitable options too.
+    </>
+  ),
+
+  fleetSectionVehicles: {
+    1: {
+      id: 1,
+      name: "Easy Sedan",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Spot-on for solo operators or pairs wanting peaceful, cushy jaunts
+          with our reliable Door-to-Door Taxi Service throughout Warriewood.
+        </>
+      ),
+      image: "/campbelltown-easy-sedan.png",
+    },
+
+    2: {
+      id: 2,
+      name: "Luxury Vehicle",
+      passengerCapacity: 4,
+      bagsCapacity: 2,
+      description: (
+        <>
+          Cracker for high-flyers and business guests who prize seclusion,
+          premium hide seating, and polished presentation on every jaunt.
+        </>
+      ),
+      image: "/campbelltown-luxury-vehicle.png",
+    },
+
+    3: {
+      id: 3,
+      name: "SUV or Wagon",
+      passengerCapacity: 7,
+      bagsCapacity: 5,
+      description: (
+        <>
+          Extra territory for trekkers and suitcases. Solid choice for clans or
+          compact packs heading to Sydney Airport with ease.
+        </>
+      ),
+      image: "/campbelltown-suv-wagon.png",
+    },
+
+    4: {
+      id: 4,
+      name: "Kia Carnival",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Houses 6–7 trekkers comfortably. Hefty baggage holds suits batch
+          transfers, clan holidays, and extended journeys.
+        </>
+      ),
+      image: "/campbelltown-kia-carnival.png",
+    },
+
+    5: {
+      id: 5,
+      name: "Maxi Taxi",
+      passengerCapacity: 11,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Built for heftier gatherings or sprawling clans wanting expansive,
+          fresh interiors and a totally chilled travel experience.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+
+    6: {
+      id: 6,
+      name: "Wheelchair Accessible Taxi in Warriewood",
+      passengerCapacity: 7,
+      bagsCapacity: 8,
+      description: (
+        <>
+          Supplies accessible hauling with expertly drilled skippers and a
+          proper safety kit for all mobility needs and snugness.
+        </>
+      ),
+      image: "/campbelltown-maxi-taxi.png",
+    },
+  },
+
+  faqSectionTitle:
+    "Frequently Asked Questions About Taxi Service in Warriewood",
+  faqs: [
+    {
+      question: "Which Warriewood retail spots do you service?",
+      answer: (
+        <>
+          We reach Warriewood Square. Garden centres nearby. Bunnings trips are
+          common. Shopping transport easy.
+        </>
+      ),
+    },
+    {
+      question: "How do I reach Mona Vale Hospital from Warriewood?",
+      answer: (
+        <>
+          Direct routes available. Medical priority given. Patient comfort is
+          considered. Regular health trips are welcome.
+        </>
+      ),
+    },
+    {
+      question: "Can I book transport for Warriewood BMX track events?",
+      answer: (
+        <>
+          Yes. Gear and bikes are carried. Youth groups accommodated. Early
+          morning starts are arranged. Sports specialists.
+        </>
+      ),
+    },
+    {
+      question: "Do you know the Warriewood Valley back streets?",
+      answer: (
+        <>
+          Absolutely. Valley roads mastered. Shortcuts found. Traffic avoided.
+          Local knowledge guaranteed.
+        </>
+      ),
+    },
+    {
+      question: "What makes Warriewood different from Narrabeen?",
+      answer: (
+        <>
+          The valley setting is unique. Shopping hub central. Quieter
+          residential feel. We understand the area.
+        </>
+      ),
+    },
+    {
+      question: "Can I get a taxi from Warriewood to Terrey Hills?",
+      answer: (
+        <>
+          Yes. Inland connections available. Rural route knowledge. Fixed
+          prices offered. Explore comfortably.
+        </>
+      ),
+    },
+    {
+      question: "How do I arrange transport with bulky items from homemaker stores?",
+      answer: (
+        <>
+          Mention size when booking. We send right wagon. Loading help provided.
+          Big items sorted.
+        </>
+      ),
+    },
+    {
+      question: "Are your Warriewood taxis suitable for seniors with walkers?",
+      answer: (
+        <>
+          Patient assistance given. Time provided. Comfortable entry. Regular
+          medical trips are supported.
+        </>
+      ),
+    },
+    {
+      question: "Do you service Warriewood late at night?",
+      answer: (
+        <>
+          24/7 operation. Night pickups normal. Safe return guaranteed. Valley
+          streets navigated easily.
+        </>
+      ),
+    },
+    {
+      question: "Can I request a specific vehicle type for Warriewood airport runs?",
+      answer: (
+        <>
+          Ask when booking. Preferences noted. Sedan or maxi arranged. Your
+          choice matters.
+        </>
+      ),
+    },
+    {
+      question: "How early should I secure wedding transport from Warriewood?",
+      answer: (
+        <>
+          Book months ahead. Spring dates are busy. Multiple cars coordinated.
+          Your celebration is covered.
+        </>
+      ),
+    },
+    {
+      question: "Do you provide Warriewood to Hornsby?",
+      answer: (
+        <>
+          Yes. Northern Sydney link. Express option available. Commuter bookings
+          accepted. Reliable daily.
+        </>
+      ),
+    },
+    {
+      question: "Can I bring my dog to Warriewood vet appointments?",
+      answer: (
+        <>
+          Small pets in carriers are welcome. Service animals exempt. Mention
+          when booking. We prepare.
+        </>
+      ),
+    },
+    {
+      question: "What happens if Sydney Airport flights change suddenly?",
+      answer: (
+        <>
+          We track live updates. <Link
+        to={`https://en.wikipedia.org/wiki/Driver`}
+        className="underline font-semibold px-1"
+        target="_blank"
+      >
+       Driver
+      </Link> adjusts. No extra charges. Seamless
+          pickup maintained.
+        </>
+      ),
+    },
+    {
+      question: "Do you cover all Warriewood addresses, including cul-de-sacs?",
+      answer: (
+        <>
+          Every street is found. Dead ends navigated. Your location reached. No
+          confusion.
+        </>
+      ),
+    },
+  ],
+},
 };
