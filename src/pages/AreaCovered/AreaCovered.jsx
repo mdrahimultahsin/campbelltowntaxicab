@@ -17,7 +17,6 @@ import { serviceAreasData } from "../../utils/serviceArea";
 const AreaCovered = () => {
   const navigate = useNavigate();
   const serviceAreas = serviceAreasData;
-
   const serviceFeatures = [
     {
       icon: IoTime,

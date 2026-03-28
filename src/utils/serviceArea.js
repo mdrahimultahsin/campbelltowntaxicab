@@ -91,5 +91,4 @@ export const serviceAreasData = [
     "Menai NSW",
     "Bangor NSW",
     "Illawong NSW",
-    "Heathcote NSW",
   ];
