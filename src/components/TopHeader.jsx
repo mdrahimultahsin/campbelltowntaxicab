@@ -13,7 +13,7 @@ const TopHeader = () => {
           hour: "2-digit",
           minute: "2-digit",
           second: "2-digit",
-        })
+        }),
       );
     }, 1000);
 
@@ -28,10 +28,10 @@ const TopHeader = () => {
           <p className="flex items-center gap-2">
             <FaInbox />{" "}
             <a
-              href="mailto:silvercabscampbelltown@gmail.com"
+              href="mailto:campbelltowntaxicabs@gmail.com"
               className="hover:underline font-bold "
             >
-              silvercabscampbelltown@gmail.com
+              campbelltowntaxicabs@gmail.com
             </a>
           </p>
           {/* Available Time — HIDDEN ON MOBILE (shown only on md and above) */}

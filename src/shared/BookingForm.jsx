@@ -84,12 +84,19 @@ Flight No: ${formData.flightNo || ""}
       message,
     };
 
+    // emailjs
+    //   .send(
+    //     "service_h0wuall",
+    //     "template_kjhxlz8",
+    //     templateParams,
+    //     "4MSsEGESDo8OwNYY2"
+    //   )
     emailjs
       .send(
-        "service_h0wuall",
-        "template_kjhxlz8",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_BOOKING_REQ_TEMPLATE_ID,
         templateParams,
-        "4MSsEGESDo8OwNYY2"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       )
       .then(
         () => {

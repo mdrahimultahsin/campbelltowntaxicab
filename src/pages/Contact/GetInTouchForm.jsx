@@ -37,10 +37,10 @@ const GetInTouchForm = () => {
 
     emailjs
       .send(
-        "service_h0wuall",
-        "template_kjhxlz8",
-        templateParams,
-        "4MSsEGESDo8OwNYY2"
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_CONTACT_TEMPLATE_ID,
+      templateParams,
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       )
       .then(
         () => {

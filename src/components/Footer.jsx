@@ -56,10 +56,10 @@ const Footer = () => {
               Maxi Cabs equipped with wheelchair access.
             </p>
             <div className="mt-2">
-                <h3 className="font-bold font-playfair flex gap-2 items-center uppercase text-xl mt-4 mb-3">
-                  <IoShareSocial  />
-                  Social
-                </h3>
+              <h3 className="font-bold font-playfair flex gap-2 items-center uppercase text-xl mt-4 mb-3">
+                <IoShareSocial />
+                Social
+              </h3>
               <ul className="mt-3  flex items-center gap-4 ">
                 <li className="flex items-center gap-2">
                   <a
@@ -67,7 +67,10 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline flex items-center gap-2 "
                   >
-                    <FaGoogle className="text-white hover:text-primary" size={20} />
+                    <FaGoogle
+                      className="text-white hover:text-primary"
+                      size={20}
+                    />
                   </a>
                 </li>
                 <li className="flex items-center gap-2">
@@ -76,7 +79,10 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline flex items-center gap-2"
                   >
-                    <FaFacebook  className="text-white hover:text-primary" size={20} />
+                    <FaFacebook
+                      className="text-white hover:text-primary"
+                      size={20}
+                    />
                   </a>
                 </li>
                 <li className="flex items-center gap-2">
@@ -85,7 +91,10 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline flex items-center gap-2"
                   >
-                    <FaInstagram   className="text-white hover:text-primary" size={20} />
+                    <FaInstagram
+                      className="text-white hover:text-primary"
+                      size={20}
+                    />
                   </a>
                 </li>
                 <li className="flex items-center gap-2">
@@ -94,7 +103,10 @@ const Footer = () => {
                     target="_blank"
                     className="hover:underline flex items-center gap-2"
                   >
-                    <FaXTwitter    className="text-white hover:text-primary" size={20} />
+                    <FaXTwitter
+                      className="text-white hover:text-primary"
+                      size={20}
+                    />
                   </a>
                 </li>
               </ul>
@@ -124,7 +136,7 @@ const Footer = () => {
                         </Link>
                       </li>
                     ))
-                    .slice(0, 7)
+                    
                 )}
               </ul>
             </div>
@@ -218,11 +230,11 @@ const Footer = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <a
-                    href="mailto:silvercabscampbelltown@gmail.com"
+                    href="mailto:campbelltowntaxicabs@gmail.com"
                     className="hover:underline flex items-center gap-2 break-all"
                   >
                     <MdOutlineMailOutline className="text-primary" size={20} />
-                    silvercabscampbelltown@gmail.com
+                    campbelltowntaxicabs@gmail.com
                   </a>
                 </li>
                 <li>
