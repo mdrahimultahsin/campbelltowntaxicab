@@ -521,8 +521,7 @@ export const allLocationsData = {
         question: " How can I contact Campbelltown Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -1060,8 +1059,7 @@ export const allLocationsData = {
         question: " How can I contact Campbelltown Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -1621,8 +1619,7 @@ export const allLocationsData = {
         question: " How can I contact Campbelltown Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -2679,8 +2676,7 @@ export const allLocationsData = {
         question: "How can I contact Campbelltown Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -3189,8 +3185,7 @@ export const allLocationsData = {
         question: " How can I contact Macarthur Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -3698,8 +3693,7 @@ export const allLocationsData = {
         question: " How can I contact Menangle Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -4243,8 +4237,7 @@ export const allLocationsData = {
         question: " How can I contact Leumeah Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -4768,8 +4761,7 @@ export const allLocationsData = {
         question: " How can I contact Raby  Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -5319,8 +5311,7 @@ export const allLocationsData = {
         question: " How can I contact St Andrew's  Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -5836,8 +5827,7 @@ export const allLocationsData = {
         question: " How can I contact St Helen's Park  Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -6384,8 +6374,7 @@ export const allLocationsData = {
         question: " How can I contact Ruse Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -6925,8 +6914,7 @@ export const allLocationsData = {
         question: " How can I contact Minto  Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -7479,8 +7467,7 @@ export const allLocationsData = {
         question: " How can I contact Glenfield   Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -8017,8 +8004,7 @@ export const allLocationsData = {
         question: " How can I contact Camden   Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -8604,8 +8590,7 @@ export const allLocationsData = {
         question: " How can I contact Camden South Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -9160,8 +9145,7 @@ export const allLocationsData = {
         question: " How can I contact Gregory Hills   Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -9737,8 +9721,7 @@ export const allLocationsData = {
         question: " How can I contact Wilton   Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -10321,8 +10304,7 @@ export const allLocationsData = {
         question: " How can I contact Phesant Nest   Taxi & Maxi Cabs?",
         answer: (
           <>
-            Call 1300 450 428, email silvercabscampbelltowntaxicabs@gmail.com,
-            or visit{" "}
+            Call 1300 450 428, email campbelltowntaxicabs@gmail.com, or visit{" "}
             <Link to={`/`} className="underline font-semibold px-1">
               campbelltowntaxicabs.com.au.
             </Link>{" "}
@@ -13834,7 +13816,7 @@ export const allLocationsData = {
         to get you to your destination on time. Our fleet includes modern
         sedans, maxi cabs, and luxury vehicles. Booking is easy, either online
         or over the phone. Count on us for comfort, reliability, and local
-        expertise every time you ride with Silver Cabs.
+        expertise every time you ride with Campbelltown Taxi Cabs.
       </>
     ),
     bookingFormTitle: "Book for Wedding Transfer in Cowdor",
