@@ -9,6 +9,7 @@ import {IoCallSharp} from "react-icons/io5";
 import {FaHandPointer} from "react-icons/fa";
 import ButtonSecondary from "../../shared/ButtonSecondary";
 import useSEO from "../../hooks/useSEO";
+import HomeAreaCovered from "../Home/HomeAreaCovered";
 
 const About = () => {
   return (
@@ -75,6 +76,7 @@ const About = () => {
             <Commitment />
           </Container>
         </div>
+      <HomeAreaCovered/>
       </div>
     </>
   );

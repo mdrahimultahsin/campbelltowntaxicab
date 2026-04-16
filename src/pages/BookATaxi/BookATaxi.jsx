@@ -17,6 +17,7 @@ import Faq from "../../shared/Faq";
 import FeatureFleet from "../Home/FeatureFleet";
 import useSEO from "../../hooks/useSEO";
 import React from "react";
+import HomeAreaCovered from "../Home/HomeAreaCovered";
 const BookingForm = React.lazy(() => import("../../shared/BookingForm"));
 const BookATaxi = () => {
   const faqs = [
@@ -283,6 +284,7 @@ const BookATaxi = () => {
       />
 
       <Faq faqs={faqs} />
+      <HomeAreaCovered/>
     </div>
   );
 };

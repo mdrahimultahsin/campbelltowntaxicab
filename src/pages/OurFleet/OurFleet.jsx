@@ -7,6 +7,7 @@ import ButtonPrimary from "../../shared/ButtonPrimary";
 import {FaHandPointer} from "react-icons/fa";
 import ButtonSecondary from "../../shared/ButtonSecondary";
 import useSEO from "../../hooks/useSEO";
+import HomeAreaCovered from "../Home/HomeAreaCovered";
 
 const OurFleet = () => {
   const fleetData = useLoaderData() || [];
@@ -97,6 +98,7 @@ const OurFleet = () => {
           ))}
         </div>
       </Container>
+      <HomeAreaCovered/>
     </section>
   );
 };

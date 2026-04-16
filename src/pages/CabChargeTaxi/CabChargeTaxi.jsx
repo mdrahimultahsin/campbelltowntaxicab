@@ -10,6 +10,7 @@ import cabChargePayImg2 from "../../assets/cabcharge-taxi-service-img2-campbellt
 import FeatureFleet from "../Home/FeatureFleet";
 import CabChargeFaq from "./CabChargeFaq";
 import useSEO from "../../hooks/useSEO";
+import HomeAreaCovered from "../Home/HomeAreaCovered";
 
 const CabChargeTaxi = () => {
   const navigate = useNavigate();
@@ -205,6 +206,7 @@ const CabChargeTaxi = () => {
             </div>
           </div>
         </Container>
+        <HomeAreaCovered/>
       </section>
     </>
   );
