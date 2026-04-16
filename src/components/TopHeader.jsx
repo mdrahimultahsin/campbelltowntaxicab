@@ -28,10 +28,10 @@ const TopHeader = () => {
           <p className="flex items-center gap-2">
             <FaInbox />{" "}
             <a
-              href="mailto:campbelltowntaxicabs@gmail.com"
+              href="mailto:silvercabscampbelltown@gmail.com"
               className="hover:underline font-bold "
             >
-              campbelltowntaxicabs@gmail.com
+              silvercabscampbelltown@gmail.com
             </a>
           </p>
           {/* Available Time — HIDDEN ON MOBILE (shown only on md and above) */}

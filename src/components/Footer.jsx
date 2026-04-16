@@ -121,22 +121,20 @@ const Footer = () => {
                 {loading ? (
                   <Loading />
                 ) : (
-                  services
-                    .map((singleService) => (
-                      <li key={singleService.service_id}>
-                        <Link
-                          to={`${singleService.pathname}`}
-                          className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2"
-                        >
-                          <FaAngleDoubleRight
-                            className="text-primary"
-                            size={20}
-                          />
-                          {singleService.title}
-                        </Link>
-                      </li>
-                    ))
-                    
+                  services.map((singleService) => (
+                    <li key={singleService.service_id}>
+                      <Link
+                        to={`${singleService.pathname}`}
+                        className="flex items-center gap-2 transform transition-all duration-300 hover:translate-x-2"
+                      >
+                        <FaAngleDoubleRight
+                          className="text-primary"
+                          size={20}
+                        />
+                        {singleService.title}
+                      </Link>
+                    </li>
+                  ))
                 )}
               </ul>
             </div>
@@ -230,11 +228,11 @@ const Footer = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <a
-                    href="mailto:campbelltowntaxicabs@gmail.com"
+                    href="mailto:silvercabscampbelltown@gmail.com"
                     className="hover:underline flex items-center gap-2 break-all"
                   >
                     <MdOutlineMailOutline className="text-primary" size={20} />
-                    campbelltowntaxicabs@gmail.com
+                    silvercabscampbelltown@gmail.com
                   </a>
                 </li>
                 <li>

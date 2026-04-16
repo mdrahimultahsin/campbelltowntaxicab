@@ -29,7 +29,7 @@ const FloatingSidebar = () => {
 
       {/* Email */}
       <a
-        href="mailto:campbelltowntaxicabs@gmail.com"
+        href="mailto:silvercabscampbelltown@gmail.com"
         aria-label="Send email"
         className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center bg-[#EA8A35] text-white cursor-pointer transition-all duration-300 hover:w-16 hover:rounded-r-md"
       >
