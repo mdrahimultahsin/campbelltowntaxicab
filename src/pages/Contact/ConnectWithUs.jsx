@@ -8,9 +8,9 @@ import {FaInbox, FaWhatsapp} from "react-icons/fa6";
 const contactInfo = [
   {
     id: 1,
-    label: "silvercabscampbelltown@gmail.com",
+    label: "taxibookingcampbelltown@gmail.com",
     Icon: MdEmail,
-    href: "mailto:silvercabscampbelltown@gmail.com",
+    href: "mailto:taxibookingcampbelltown@gmail.com",
   },
 
   {

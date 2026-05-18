@@ -258,7 +258,7 @@ const PrivacyPolicy = () => {
             <ul className="text-xs md:text-lg text-accent py-2 list-disc ml-7">
               <li>
                 Requests should be sent in writing to
-                silvercabscampbelltown@gmail.com
+                taxibookingcampbelltown@gmail.com
               </li>
               <li>Proof of identity may be required</li>
               <li>
@@ -300,7 +300,7 @@ const PrivacyPolicy = () => {
             <ul className="text-xs md:text-lg text-accent py-2 list-disc ml-7">
               <li>
                 Send complaints to our privacy officer at
-                silvercabscampbelltown@gmail.com
+                taxibookingcampbelltown@gmail.com
               </li>
               <li>
                 We aim to acknowledge complaints within 7 business days and
@@ -336,7 +336,7 @@ const PrivacyPolicy = () => {
             <ul className="text-xs md:text-lg text-accent py-2">
               <li>Campbelltown Taxi Cabs</li>
               <li>1 Hurley St, Campbelltown, Australia</li>
-              <li>Email: silvercabscampbelltown@gmail.com</li>
+              <li>Email: taxibookingcampbelltown@gmail.com</li>
             </ul>
           </div>
         </div>

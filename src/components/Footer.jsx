@@ -228,11 +228,11 @@ const Footer = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <a
-                    href="mailto:silvercabscampbelltown@gmail.com"
+                    href="mailto:taxibookingcampbelltown@gmail.com"
                     className="hover:underline flex items-center gap-2 break-all"
                   >
                     <MdOutlineMailOutline className="text-primary" size={20} />
-                    silvercabscampbelltown@gmail.com
+                    taxibookingcampbelltown@gmail.com
                   </a>
                 </li>
                 <li>
